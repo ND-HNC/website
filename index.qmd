@@ -1,0 +1,25 @@
+---
+title: "Title"
+subtitle: "Subtitle"
+image: media/veldman_mri.jpg
+# author:
+#   - name: "Nathan Muncy"
+#     email: "nmuncy@nd.edu"
+    # affiliations:
+    #   - name: University of Notre Dame
+    #     address: E308 Corbett Family Hall
+    #     city: South Bend
+    #     state: IN
+    #     postal-code: 46556
+date: today
+toc: false
+execute:
+  freeze: auto
+about: # https://quarto.org/docs/websites/website-about.html
+  template: jolla
+  image-width: 15em
+---
+
+## Welcome
+
+Welcome

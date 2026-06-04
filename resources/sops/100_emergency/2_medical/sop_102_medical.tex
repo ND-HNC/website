@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\setlength{\parindent}{0pt}
+\usepackage[bookmarks=true, colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+
+% figures and tables
+\usepackage{graphicx}
+\graphicspath{ {../../pics} }
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{caption}
+\DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
+
+
+\renewcommand{\headrulewidth}{0pt}
+% \newdateformat{yearmonth}{\THEYEAR-\THEMONTH-\THEDAY}
+\pagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{v. 0.1.0}
+\fancyfoot[C]{}
+\fancyfoot[L]{\textit{Notre Dame Human Neuroimaging Center}}
+\fancyfoot[R]{SOP 102: p. \thepage /\pageref*{LastPage}}
+
+
+% TODO: update SOP refs
+% TODO: update with MRI-compatible gurney
+
+% start document
+\begin{document}
+
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+\begin{center}
+	\textbf{\Large SOP 102: Medical Emergencies}\\
+	\hrulefill
+\end{center}
+
+
+\section{Summary}
+This document establishes procedures for medical emergencies at the Notre Dame Human Neuroimaging Center (ND-HNC) MRI scanner.
+
+\section{Scope}
+These policies apply to all investigators, research assistants, and ND-HNC staff who enter Zones 3 \& 4 (B15, B17, B17a; Fig. \ref{fig:mri-zones}).
+
+\section{Definitions}
+
+\begin{itemize}
+	\item \textbf{Subject}: An individual who is participating in an experimental protocol at ND-HNC and has not taken the ND-HNC safety course.
+	\item \textbf{Experimenter}: The investigator, research assistant, or MRI operator who is responsible for the subject and conducting the experiment.
+	\item \textbf{Magnet Room}: B17A; The room within the MRI suite that contains the MRI scanner. It is accessed from within the MRI Console room (B17) through a doorway that is controlled by an electronic lock.
+	\item \textbf{Control Room}: B17; The main room of the MRI suite that contains the computer displays and keyboards that control the MRI scanner. The console room is accessed from B15 that is controlled by an electronic lock.
+	\item \textbf{Electronic Lock}: All doors in the ND-HNC MRI center are controlled by electronic locks. The electronic lock system recognizes the owner's Irish1Card, logs the time of the attempted entry, and unlocks the door if the owner has been granted access.
+\end{itemize}
+
+\section{Notes}
+
+\begin{enumerate}
+	\item Emergency response and maintenance personnel \textbf{CANNOT} enter the Magnet Room unless they have been screened and all metal objects have been removed.
+	\item Fire extinguishers in the MRI suite are \textbf{NOT} MRI compatible, and cannot be brought into the Magnet Room.
+\end{enumerate}
+
+\section{Policies \& Procedures}
+
+In the sections below, several scenarios are depicted regarding medical emergencies.
+
+
+% Injury
+\subsection{Injury: an individual sustains an injury requiring medical attention.}
+\label{ssec:injury}
+
+With an active research program the number of staff, researchers, and participants that come through the Imaging Center results in a non-zero probability that an accident requiring medical attention will occur.
+
+\subsubsection*{\textit{Single Responder}}
+
+\begin{enumerate}
+	\item \textbf{Conscious individual}: escort them to Zone 3 (B15; Fig. \ref{fig:mri-zones}).
+	\item \textbf{Unconscious individual in Console Room}: move them into the recovery position.
+	\item \textbf{Unconscious individual in Magnet Room}: use MR compatible gurney to move them to Zone 3 (B15) [TODO PIC].
+	\item Call 911 and say: ``We have a person that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
+	\item Call Veldman Reception and any MRI staff.
+	\item Retrieve first-aid kit, administer first aid.
+	\item Lock Magnet Room door.
+	\item Prepare to receive and escort emergency medical services.
+\end{enumerate}
+
+\subsubsection*{\textit{Dual Responders}}
+
+\begin{enumerate}
+	\item Person One (Level 4)
+	\begin{enumerate}
+		\item \textbf{Conscious individual}: escort them to Zone 3 (B15; Fig. \ref{fig:mri-zones}).
+		\item \textbf{Unconscious individual in Console Room}: move them into the recovery position.
+		\item \textbf{Unconscious individual in Magnet Room}: use MR compatible gurney to move them to Zone 3 (B15) [TODO PIC].
+		\item Retrieve first-aid kit, administer first aid.
+		\item Lock Magnet Room door.
+	\end{enumerate}
+
+	\item Person Two (Level 2-3)
+	\begin{enumerate}
+		\item Call 911 and say: ``We have a person that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
+		\item Call Veldman Reception and any MRI staff.
+		\item Assist in first aid.
+		\item Prepare to receive and escort emergency medical services.
+	\end{enumerate}
+\end{enumerate}
+
+\section{Figures}
+
+% MRI zones
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{mri_zones.jpg}
+	\caption{Schematic of ND-HNC MRI Zones. \textbf{Orange} Zone 1. \textbf{Purple} Zone 2. \textbf{Green} Zone 3. \textbf{Blue} Zone 4.}
+	\label{fig:mri-zones}
+\end{figure}
+
+
+\end{document}

@@ -1,0 +1,19 @@
+---
+title: Affiliations
+---
+
+## Notre Dame Centers
+
+Center 1
+
+## Notre Dame Labs
+
+Lab 1
+
+## External Labs
+
+EXlab 1
+
+## Local Community
+
+Group 1

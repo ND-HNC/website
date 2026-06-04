@@ -1,0 +1,25 @@
+---
+title: People
+---
+
+
+## Staff
+
+![John Doe, Ph.D.](../media/people/minion.jpg){width=100, fig-align="left"}
+
+**Position**: MRI Physicist
+
+
+![Nathan Muncy, Ph.D.](../media/people/minion.jpg){width=100, fig-align="left"}
+
+**Position**: MRI Analyst
+
+
+![John Doe](../media/people/minion.jpg){width=100, fig-align="left"}
+
+**Position**: MRI Technologist
+
+
+![Alex Musser](../media/people/minion.jpg){width=100, fig-align="left"}
+
+**Position**: Operations Coordinator

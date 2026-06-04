@@ -1,0 +1,41 @@
+---
+title: Standard Operating Procedures
+---
+
+<details>
+
+<summary> 100: Emergency </summary>
+
+| SOP | Topic | Link |
+|-----|-------|--------|
+| 101 | Hardware | [Document](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf){target="_blank"} |
+| 102 | Medical | [Document](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf){target="_blank"} |
+
+
+</details>
+
+
+<details>
+
+<summary> 200: Operation </summary>
+
+| SOP | Topic | Link |
+|-----|-------|--------|
+| 201 | TODO | Document |
+
+
+</details>
+
+
+
+<details>
+
+<summary> 300: Building </summary>
+
+| SOP | Topic | Link |
+|-----|-------|--------|
+| 301 | TODO | Document |
+
+
+</details>
+

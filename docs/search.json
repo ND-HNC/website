@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "pages/wiki.html",
+    "href": "pages/wiki.html",
+    "title": "Wiki",
+    "section": "",
+    "text": "This page is under construction."
+  },
+  {
+    "objectID": "pages/policies.html",
+    "href": "pages/policies.html",
+    "title": "Policies",
+    "section": "",
+    "text": "Scheduling Billing"
+  },
+  {
+    "objectID": "pages/policies.html#booking",
+    "href": "pages/policies.html#booking",
+    "title": "Policies",
+    "section": "",
+    "text": "Scheduling Billing"
+  },
+  {
+    "objectID": "pages/policies.html#level-2-4",
+    "href": "pages/policies.html#level-2-4",
+    "title": "Policies",
+    "section": "Level 2-4",
+    "text": "Level 2-4\nLevel 2 Safety training Safety test Annual renewal Annual screener SOP Safety\nLevel 3 Level 2 reqs First Aid CPR/AED Train: un/load participant SOP Data\nLevel 4 Level 2, 3 reqs Shadow hours Test: run scanner, trouble shoot reconstruct, data export, emergency response"
+  },
+  {
+    "objectID": "pages/policies.html#computers",
+    "href": "pages/policies.html#computers",
+    "title": "Policies",
+    "section": "Computers",
+    "text": "Computers\nOrganize Stimulus Control Organize DICOM Computer"
+  },
+  {
+    "objectID": "pages/policies.html#trainings",
+    "href": "pages/policies.html#trainings",
+    "title": "Policies",
+    "section": "Trainings",
+    "text": "Trainings\nRegular Safety, SOP, Medical trainings"
+  },
+  {
+    "objectID": "pages/facilities.html#eeg",
+    "href": "pages/facilities.html#eeg",
+    "title": "Facilities",
+    "section": "EEG",
+    "text": "EEG"
+  },
+  {
+    "objectID": "pages/facilities.html#tms",
+    "href": "pages/facilities.html#tms",
+    "title": "Facilities",
+    "section": "TMS",
+    "text": "TMS"
+  },
+  {
+    "objectID": "pages/facilities.html#interview",
+    "href": "pages/facilities.html#interview",
+    "title": "Facilities",
+    "section": "Interview",
+    "text": "Interview"
+  },
+  {
+    "objectID": "pages/affiliations.html",
+    "href": "pages/affiliations.html",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Center 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#notre-dame-centers",
+    "href": "pages/affiliations.html#notre-dame-centers",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Center 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#notre-dame-labs",
+    "href": "pages/affiliations.html#notre-dame-labs",
+    "title": "Affiliations",
+    "section": "Notre Dame Labs",
+    "text": "Notre Dame Labs\nLab 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#external-labs",
+    "href": "pages/affiliations.html#external-labs",
+    "title": "Affiliations",
+    "section": "External Labs",
+    "text": "External Labs\nEXlab 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#local-community",
+    "href": "pages/affiliations.html#local-community",
+    "title": "Affiliations",
+    "section": "Local Community",
+    "text": "Local Community\nGroup 1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Title",
+    "section": "",
+    "text": "Welcome"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Title",
+    "section": "",
+    "text": "Welcome"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "ND-HNC"
+  },
+  {
+    "objectID": "pages/compute.html#crc-cpus",
+    "href": "pages/compute.html#crc-cpus",
+    "title": "Compute",
+    "section": "CRC CPUs",
+    "text": "CRC CPUs"
+  },
+  {
+    "objectID": "pages/compute.html#crc-storage",
+    "href": "pages/compute.html#crc-storage",
+    "title": "Compute",
+    "section": "CRC Storage",
+    "text": "CRC Storage"
+  },
+  {
+    "objectID": "pages/people.html",
+    "href": "pages/people.html",
+    "title": "People",
+    "section": "",
+    "text": "John Doe, Ph.D.\n\n\nPosition: MRI Physicist\n\n\n\nNathan Muncy, Ph.D.\n\n\nPosition: MRI Analyst\n\n\n\nJohn Doe\n\n\nPosition: MRI Technologist\n\n\n\nAlex Musser\n\n\nPosition: Operations Coordinator"
+  },
+  {
+    "objectID": "pages/people.html#staff",
+    "href": "pages/people.html#staff",
+    "title": "People",
+    "section": "",
+    "text": "John Doe, Ph.D.\n\n\nPosition: MRI Physicist\n\n\n\nNathan Muncy, Ph.D.\n\n\nPosition: MRI Analyst\n\n\n\nJohn Doe\n\n\nPosition: MRI Technologist\n\n\n\nAlex Musser\n\n\nPosition: Operations Coordinator"
+  },
+  {
+    "objectID": "pages/sops.html",
+    "href": "pages/sops.html",
+    "title": "Standard Operating Procedures",
+    "section": "",
+    "text": "100: Emergency\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nMedical\nDocument\n\n\n\n\n\n\n200: Operation\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n201\nTODO\nDocument\n\n\n\n\n\n\n300: Building\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n301\nTODO\nDocument"
+  }
+]
