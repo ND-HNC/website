@@ -26,13 +26,14 @@
 % \newdateformat{yearmonth}{\THEYEAR-\THEMONTH-\THEDAY}
 \pagestyle{fancy}
 \fancyhead[L]{}
-\fancyhead[R]{v. 0.1.0}
+\fancyhead[R]{v. 0.2.0}
 \fancyfoot[C]{}
 \fancyfoot[L]{\textit{Notre Dame Human Neuroimaging Center}}
 \fancyfoot[R]{SOP 101: p. \thepage /\pageref*{LastPage}}
 
 
 % TODO: update SOP refs
+% TODO: add Zone 4 EOP pic, refs
 
 % start document
 \begin{document}
@@ -48,7 +49,17 @@
 
 
 \section{Summary}
-This document establishes procedures for hardware emergencies at the Notre Dame Human Neuroimaging Center (ND-HNC).
+This document establishes procedures for hardware emergencies at the Notre Dame Human Neuroimaging Center (ND-HNC). They are intended to coordinate a planned response of:
+
+\begin{enumerate}
+	\item Moving to safety,
+	\item Initiating emergency response,
+	\item Coordinating with others in the building,
+	\item Protecting responders from the magnetic field, and
+	\item Protecting equipment.
+\end{enumerate}
+
+For dual responders, the Lead (Level 4) protects the participant and then equipment while the Helper (Level 1-3) initiates the emergency response.
 
 \section{Scope}
 These policies apply to all investigators, research assistants, and ND-HNC staff who enter Zones 3 \& 4 (B15, B17, B17a; Fig. \ref{fig:mri-zones}).
@@ -57,9 +68,11 @@ These policies apply to all investigators, research assistants, and ND-HNC staff
 
 \begin{itemize}
 	\item \textbf{Subject}: An individual who is participating in an experimental protocol at ND-HNC and has not taken the ND-HNC safety course.
-	\item \textbf{Experimenter}: The investigator, research assistant, or MRI operator who is responsible for the subject and conducting the experiment.
-	\item \textbf{Magnet Room}: B17A; The room within the MRI suite that contains the MRI scanner. It is accessed from within the MRI Console room (B17) through a doorway that is controlled by an electronic lock.
-	\item \textbf{Control Room}: B17; The main room of the MRI suite that contains the computer displays and keyboards that control the MRI scanner. The console room is accessed from B15 that is controlled by an electronic lock.
+	\item \textbf{Lead}: The individual responsible for the Subject's safety and running the MRI protocols.
+	\item \textbf{Helper}: Second person, when available, who assists in experimental operations.
+	\item \textbf{Magnet Room}: B17A; The room within the MRI suite that contains the MRI scanner. It is accessed from within the MRI Control room (B17) through a doorway that is controlled by an electronic lock.
+	\item \textbf{Control Room}: B17; The main room of the MRI suite that contains the computer displays and keyboards that control the MRI scanner. The Control room is accessed from B15 that is controlled by an electronic lock.
+	\item \textbf{Equipment Room}: B18; The room containing hardware for MRI operations.
 	\item \textbf{Electronic Lock}: All doors in the ND-HNC MRI center are controlled by electronic locks. The electronic lock system recognizes the owner's Irish1Card, logs the time of the attempted entry, and unlocks the door if the owner has been granted access.
 \end{itemize}
 
@@ -84,113 +97,106 @@ A magnet quench results in the rapid boil-off of cryogens that maintain the supe
 \subsubsection*{\textit{Single Responder}}
 
 \begin{enumerate}
-	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in SOP 2.
+	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
 	\begin{enumerate}
 		\item Stay low to the floor below the gas. The room will be cold, water vapor may make visibility in the room poor. A change in pressure may make it difficult to open the Magnet Room door.
 	\end{enumerate}
-	\item Lock the Magnet Room door, move to Zone 2 (Fig. \ref{fig:mri-zones}).
+	\item Close and lock the Magnet Room door.
+	\item Move to Zone 2 (Fig. \ref{fig:mri-zones}).
 	\item Call 911 to notify the South Bend Fire Department (SBFD) and say ``We have a possible gas leak in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
 	\begin{enumerate}
 		\item Once in progress, a quench cannot be stopped. Do not attempt any interventions and stay out of the Magnet Room.
 	\end{enumerate}
-	\item Call Veldman Reception and any MRI staff.
-	\begin{enumerate}
-		\item MRI staff: call Richard Vega (Siemens Engineer).
-	\end{enumerate}
+	\item Call Veldman Reception and say ``We have a gas leak and have called the fire department. Please evacuate the building.''
+	\item Evacuate Zone 2 [TODO SOP].
+	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 	\item Prepare to receive and escort SBFD.
 \end{enumerate}
 
 \subsubsection*{\textit{Dual Responders}}
 
 \begin{enumerate}
-	\item Person One (Level 4)
+	\item Lead (Level 4)
 	\begin{enumerate}
-		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in SOP 2.
-		\item Lock the Magnet Room door, move to Zone 2 (Fig. \ref{fig:mri-zones}).
+		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+		\item Close and lock the Magnet Room door.
+		\item Move to Zone 2 (Fig. \ref{fig:mri-zones}).
+		\item Evacuate Zone 2 [TODO SOP].
+		\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 		\item Prepare to receive and escort SBFD.
 	\end{enumerate}
 
-	\item Person Two (Level 2-3)
+	\item Helper (Level 1-3)
 	\begin{enumerate}
-		\item Move to Zone 2 (Fig. \ref{fig:mri-zones}).
 		\item Call 911 to notify the South Bend Fire Department (SBFD) and say ``We have a possible gas leak in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
-		\item Call Veldman Reception and any MRI staff.
-		\begin{enumerate}
-			\item MRI staff: call Richard Vega (Siemens Engineer).
-		\end{enumerate}
+		\item Move to Zone 2 (Fig. \ref{fig:mri-zones}).
+		\item Call Veldman Reception and say ``We have a gas leak and have called the fire department. Please evacuate the building.''
+		\item Evacuate Zone 2 [TODO SOP].
 		\item Assist in receiving, escorting SBFD.
 	\end{enumerate}
 \end{enumerate}
 
 
 % Fire
-\subsection{Fire or Smoke: present in Magnet or Console Room.}
+\subsection{Fire or Smoke: present in Magnet or Control Room.}
 \label{ssec:fire}
 
-Electrical disruption may spark combustible materials, resulting in fire or smoking. Plumbing failure or severe storms may result in flooding and electrical disruption. The Magnet Room is equipped with built-in fire suppression hardware.
+Electrical disruption may spark combustible materials, resulting in fire or smoking. The Magnet Room is equipped with a built-in fire suppression system, and both the Magnet Room and Control Room are equipped with fire detectors.
 
 \subsubsection*{\textit{Single Responder}}
 
 \begin{enumerate}
-	\item Immediately press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
-	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in SOP 2.
-	\item If possible, lock the Magnet Room door.
+	\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
+	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+	\item Close and lock the Magnet Room door.
 	\item \textbf{Fire in Magnet Room}: Do not fight.
-	\item \textbf{Fire in Console Room}: If possible, use the fire extinguisher in B15 to extinguish the fire (Fig. \ref{fig:fire-ext}).
-	\item Pull fire alarm (Fig. \ref{fig:fire-alarm}).
-	\item Leave the building.
+	\item \textbf{Fire in Control or Equipment Room}: If possible, use the fire extinguisher in B15 to extinguish the fire (Fig. \ref{fig:fire-ext}).
+	\item Initiate Fire Evacuation [TODO SOP]. Leave the building. Pull fire alarm (Fig. \ref{fig:fire-alarm}).
 	\item Call 911 to notify the South Bend Fire Department (SBFD) and say: ``We have [fire, smoke] in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
-	\item Call Veldman Reception and any MRI staff.
-	\begin{enumerate}
-		\item MRI staff: call Richard Vega (Siemens Engineer).
-	\end{enumerate}
-	\item Prepare to receive and escort SBFD, Police.
+	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
+	\item Prepare to receive and escort SBFD.
 \end{enumerate}
 
 \subsubsection*{\textit{Dual Responders}}
 
 \begin{enumerate}
-	\item Person One (Level 4)
+	\item Lead (Level 4)
 	\begin{enumerate}
-		\item Immediately press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
-		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in SOP 2.
-		\item If possible, lock the Magnet Room door.
-		\item Leave the building.
-		\item Prepare to receive and escort SBFD, Water, Police.
+		\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
+		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+		\item Close and lock the Magnet Room door.
+		\item Initiate Fire Evacuation [TODO SOP]. Leave the building. Pull fire alarm (Fig. \ref{fig:fire-alarm}).
+		\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
+		\item Prepare to receive and escort SBFD.
 	\end{enumerate}
 
-	\item Person Two (Level 2-3)
+	\item Helper (Level 2-3)
 	\begin{enumerate}
 		\item Pull fire alarm (Fig. \ref{fig:fire-alarm}).
 		\item \textbf{Fire in Magnet Room}: Do not fight.
-		\item \textbf{Fire in Console Room}: If possible, use the fire extinguisher in B15 to extinguish the fire (Fig. \ref{fig:fire-ext}).
-		\item Pull fire alarm (Fig. \ref{fig:fire-alarm}).
-		\item Leave the building.
+		\item \textbf{Fire in Control or Equipment Room}: If possible, use the fire extinguisher in B15 to extinguish the fire (Fig. \ref{fig:fire-ext}).
+		\item Initiate Fire Evacuation [TODO SOP]. Leave the building. Pull fire alarm (Fig. \ref{fig:fire-alarm}).
 		\item Call 911 to notify the South Bend Fire Department (SBFD) and say: ``We have [fire, smoke] in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
-		\item Call Veldman Reception and any MRI staff.
-		\begin{enumerate}
-			\item MRI staff: call Richard Vega (Siemens Engineer).
-		\end{enumerate}
+		\item Assist in receiving, escorting SBFD.
 	\end{enumerate}
 \end{enumerate}
 
 
 % Water
-\subsection{Water: present in Magnet or Console Room.}
+\subsection{Water: present in Magnet or Control Room.}
 \label{ssec:water}
 
-Electrical disruption may spark combustible materials, resulting in fire or smoking. Plumbing failure or severe storms may result in flooding and electrical disruption. The Magnet Room is equipped with built-in fire suppression hardware.
+Plumbing failure or severe storms may result in flooding and electrical disruption.
 
 \begin{enumerate}
-	\item Immediately press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
-	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in SOP 2.
-	\item Lock the Magnet Room door.
+	\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
+	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+	\item Close and lock the Magnet Room door.
+	\item Move to Zone 2.
 	\item Call Utilities \& Maintenance (after hours: Notre Dame Police) and say: ``We have flooding in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
-	\item Call Veldman Reception and any MRI staff.
-	\begin{enumerate}
-		\item MRI staff: call Richard Vega (Siemens Engineer).
-	\end{enumerate}
-	\item Prepare to receive and escort maintenance or Police.
+	\item Call Veldman Reception and say ``We have flooding in the MRI Suite and have called Utilities \& Maintenance.''
+	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
+	\item Prepare to receive and escort Maintenance or Police.
 \end{enumerate}
 
 
@@ -201,7 +207,7 @@ Electrical disruption may spark combustible materials, resulting in fire or smok
 A magnetic quench or smoke in the Magnet Room may trigger the oxygen sensor (Fig. \ref{fig:oxygen}).
 
 \begin{enumerate}
-	\item Follow the relevant Gas (SOP 101.5.1) or Fire, Smoke (SOP 101.5.2) protocol.
+	\item Follow the relevant Gas (SOP 101.\ref{ssec:gas}) or Fire, Smoke (SOP 101.\ref{ssec:fire}) protocol.
 \end{enumerate}
 
 
@@ -213,10 +219,7 @@ Any ferrous material introduced into the Magnet Room will become attracted to th
 
 \begin{enumerate}
 	\item Do not attempt to remove the object.
-	\item Call any MRI staff.
-	\begin{enumerate}
-		\item MRI staff: call Richard Vega (Siemens Engineer).
-	\end{enumerate}
+	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 \end{enumerate}
 
 
@@ -228,7 +231,7 @@ When a research assistant or MRI personnel enter the Magnet Room during the cour
 
 \begin{enumerate}
 	\item Remove the Subject from the Magnet Room.
-	\item Follow procedures in SOP 101.5.5.
+	\item Follow procedures in SOP 101.\ref{ssec:metal-no-subj}.
 \end{enumerate}
 
 
@@ -243,23 +246,19 @@ The pumps circulate the cryogens, which can be heard in B15, B17a, and B18. If t
 	\begin{enumerate}
 		\item Haskris monitors the cooling system and should contact MRI staff for any issues
 	\end{enumerate}
-	\item Call any MRI staff.
-	\begin{enumerate}
-		\item MRI staff: call Richard Vega (Siemens Engineer).
-	\end{enumerate}
+	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 \end{enumerate}
 
 
 % Lock out
-\subsection{Access: you are locked out of the Console or Magnet Room.}
+\subsection{Access: you are locked out of the Control or Magnet Room.}
 \label{ssec:access}
 
-The Console Room door is controlled by an Electronic Lock and will not open unless an authorized Irish1Card is presented. The Magnet Room door is electronically sealed. In the case of power failure, a key can open each door.
+The Control Room door is controlled by an Electronic Lock and will not open unless an authorized Irish1Card is presented. The Magnet Room door is electronically sealed. In the case of power failure, a key can open each door.
 
 \begin{enumerate}
 	\item Door to Magnet Room (B17a) does not release: press the emergency release button (Fig. \ref{fig:button-wall}).
-	\item Door to Console Room (B17 |> B15) does not open: press the emergency release button (Fig. \ref{fig:button-wall}).
-	\item Door to Console Room (B17 <| B15) does not open: ensure you have proper access by contacting Allison Collins (Building Management).
+	\item Door to Control Room (B17) does not open: ensure you have proper access by contacting Allison Collins (Building Management).
 \end{enumerate}
 
 
@@ -277,7 +276,7 @@ The Console Room door is controlled by an Electronic Lock and will not open unle
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.95\textwidth]{button_wall.jpg}
-	\caption{Zone 4 button wall. \textbf{A} Haskris Coolant Sounder. \textbf{B} Fire Alarm Board. \textbf{C} Emergency Power Off. \textbf{D} Magnet Door release. \textbf{E} Control Door release. \textbf{F} Thermostat. \textbf{G} Light switch.}
+	\caption{Control Room button wall. \textbf{A} Haskris Coolant Sounder. \textbf{B} Fire System Board. \textbf{C} Emergency Power Off. \textbf{D} Magnet Door release. \textbf{E} (TBD). \textbf{F} Thermostat. \textbf{G} Light switch.}
 	\label{fig:button-wall}
 \end{figure}
 
@@ -301,7 +300,7 @@ The Console Room door is controlled by an Electronic Lock and will not open unle
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.95\textwidth]{oxygen_sensor.jpg}
-	\caption{Zone 4 oxygen sensor (left) and psychopys equipment (right).}
+	\caption{Control Room oxygen sensor (left) and psychopysiologic equipment (right).}
 	\label{fig:oxygen}
 \end{figure}
 
