@@ -10,32 +10,30 @@ website:
   title: "Home"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "Created by Nathan Muncy via Quarto"
-  navbar:
-    pinned: true
-    title: false
+  sidebar:
+    style: "docked"
+    search: true
     logo: media/nd_logo.png
-    right:
-      - text: Navigate
-        menu:
-        - text: About
-          href: pages/about.qmd
-        - text: Affiliations
-          href: pages/affiliations.qmd
-        - text: Compute
-          href: pages/compute.qmd
-        - text: Facilities
-          href: pages/facilities.qmd
-        - text: Home
-          href: index.qmd
-        - text: People
-          href: pages/people.qmd
-        - text: Policies
-          href: pages/policies.qmd
-        - text: SOPs
-          href: pages/sops.qmd
-        - text: Wiki
-          href: pages/wiki.qmd
+    contents:
+      - text: About
+        href: pages/about.qmd
+      - text: Compute
+        href: pages/compute.qmd
+      - text: Facilities
+        href: pages/facilities.qmd
+      - text: Forms
+        href: pages/forms.qmd
+      - text: Policies
+        href: pages/policies.qmd
+      - text: SOPs
+        href: pages/sops.qmd
+      - text: Wiki
+        href: pages/wiki.qmd
     tools:
+      - icon: link
+        href: https://neuroimaging.nd.edu
+      - icon: envelope
+        href: mailto:nd-hnc@nd.edu
       - icon: github
         href: https://github.com/nd-hnc
 

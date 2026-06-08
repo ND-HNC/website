@@ -30,10 +30,10 @@
 % \newdateformat{yearmonth}{\THEYEAR-\THEMONTH-\THEDAY}
 \pagestyle{fancy}
 \fancyhead[L]{}
-\fancyhead[R]{v. 0.1.0}
+\fancyhead[R]{Approved: TBD}
 \fancyfoot[C]{}
-\fancyfoot[L]{\textit{Notre Dame Human Neuroimaging Center}}
-\fancyfoot[R]{SOP 102: p. \thepage /\pageref*{LastPage}}
+\fancyfoot[L]{ND-HNC SOP 102: v.0.2.0}
+\fancyfoot[R]{p. \thepage /\pageref*{LastPage}}
 
 
 % TODO: update with MRI-compatible gurney
@@ -65,6 +65,8 @@ This document establishes procedures for medical emergencies at the Notre Dame H
 	\item Protecting responders from the magnetic field.
 \end{enumerate}
 
+For dual responders, the Lead (Level 4) protects the participant and then equipment while the Helper (Level 1-3) initiates the emergency response.
+
 \section{Scope}
 These policies apply to all investigators, research assistants, and ND-HNC staff who enter Zones 3 \& 4 (B15, B17, B17a; Fig. \ref{fig:mri-zones}).
 
@@ -91,16 +93,57 @@ These policies apply to all investigators, research assistants, and ND-HNC staff
 In the sections below, several scenarios are depicted regarding medical emergencies.
 
 
-% Injury
-\subsection{Injury: an individual sustains an injury requiring medical attention.}
-\label{ssec:injury}
+% Injury-conscious
+\subsection{Injury: a \textbf{CONSCIOUS} individual sustains an injury requiring medical attention.}
+\label{ssec:injury-cons}
 
 Given the volume of staff, researchers, and participants at the ND-HNC, there is a realistic possibility that an accident or medical emergency will occur. Accordingly, the center must maintain a constant state of readiness to respond. Ensuring safety means having clear medical protocols in place so that any incident is handled swiftly and effectively.
 
 \subsubsection*{\textit{Single Responder}}
 
 \begin{enumerate}
-	\item \textbf{Conscious individual}: escort them to B15 (Fig. \ref{fig:mri-zones}).
+	\item Escort them to B15 (Fig. \ref{fig:mri-zones}).
+	\item Call 911 and say: ``We have a person that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
+	\item Call Veldman Reception and say ``We have a medical emergency and have called 911.''
+	\item Retrieve first-aid kit, administer first aid [TODO PIC].
+	\item Close and lock Magnet Room door.
+	\item Prepare to receive and escort emergency medical services.
+	\item Call any MRI staff.
+	\item Record Adverse Event in ND-HNC FORM 102: Adverse Events Log.
+\end{enumerate}
+
+\subsubsection*{\textit{Dual Responders}}
+
+\begin{enumerate}
+	\item Lead (Level 4)
+	\begin{enumerate}
+		\item Escort them to B15 (Fig. \ref{fig:mri-zones}).
+		\item Retrieve first-aid kit, administer first aid [TODO PIC].
+		\item Close and lock Magnet Room door.
+		\item Prepare to receive and escort emergency medical services.
+		\item Call any MRI staff.
+		\item Record Adverse Event in ND-HNC FORM 102: Adverse Events Log.
+	\end{enumerate}
+
+	\item Helper (Level 1-3)
+	\begin{enumerate}
+		\item Call 911 and say: ``We have a person that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
+		\item Call Veldman Reception and say ``We have a medical emergency and have called 911.''
+		\item Assist in first aid.
+		\item Assist receiving and escorting emergency medical services.
+	\end{enumerate}
+\end{enumerate}
+
+
+% Injury-unconscious
+\subsection{Injury: an \textbf{UNCONSCIOUS} individual sustains an injury requiring medical attention.}
+\label{ssec:injury-uncons}
+
+As above, an increased number of individuals in the MRI suite corresponds with an increased risk of an injury. Further, significant injury and/or hardware malfunction (e.g. quench) may render an individual unconscious.
+
+\subsubsection*{\textit{Single Responder}}
+
+\begin{enumerate}
 	\item \textbf{Unconscious individual in Control Room}: move them into the recovery position.
 	\item \textbf{Unconscious individual in Magnet Room}: use MR compatible gurney to move them to B15 [TODO PIC].
 	\item Call 911 and say: ``We have a person that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
@@ -117,14 +160,13 @@ Given the volume of staff, researchers, and participants at the ND-HNC, there is
 \begin{enumerate}
 	\item Lead (Level 4)
 	\begin{enumerate}
-		\item \textbf{Conscious individual}: escort them to B15 (Fig. \ref{fig:mri-zones}).
 		\item \textbf{Unconscious individual in Control Room}: move them into the recovery position.
 		\item \textbf{Unconscious individual in Magnet Room}: use MR compatible gurney to move them to B15 [TODO PIC].
 		\item Retrieve first-aid kit, administer first aid [TODO PIC].
-		\item Lock Magnet Room door.
-		\item Prepare to receive and escort emergency medical services.
+		\item Close and lock Magnet Room door.
+		\item Stay with individual, continue to administer aid.
 		\item Call any MRI staff.
-		\item Record Adverse Event in ND-HNC FORM 102: Adverse Events.
+		\item Record Adverse Event in ND-HNC FORM 102: Adverse Events Log.
 	\end{enumerate}
 
 	\item Helper (Level 1-3)
@@ -132,8 +174,7 @@ Given the volume of staff, researchers, and participants at the ND-HNC, there is
 		\item Call 911 and say: ``We have a person that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
 		\item Call Veldman Reception and say ``We have a medical emergency and have called 911.''
 		\item Assist in first aid.
-		\item Assist receiving and escorting emergency medical services.
-		\item Record Adverse Event in ND-HNC FORM 102: Adverse Events Log.
+		\item Prepare to assist and escort emergency medical services.
 	\end{enumerate}
 \end{enumerate}
 
@@ -153,7 +194,7 @@ When conducting research with adults and older adults, certain procedures or str
 	\item Call 911 and say: ``We have a person with [chest pain, respiratory problems, unresponsiveness] that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
 	\item Call Veldman Reception and say ``We have a medical emergency and have called 911.''
 	\item Retrieve Automatic External Defibrillator (AED), prepare to administer aid [TODO PIC].
-	\item Lock Magnet Room door.
+	\item Close and lock Magnet Room door.
 	\item Prepare to receive and escort emergency medical services.
 	\item Call any MRI staff.
 	\item Record Adverse Event in ND-HNC FORM 102: Adverse Events Log.
@@ -169,7 +210,7 @@ When conducting research with adults and older adults, certain procedures or str
 		\item \textbf{Unconscious individual in Magnet Room}: use MR compatible gurney to move them to B15 [TODO PIC].
 		\item Retrieve Automatic External Defibrillator (AED), prepare to administer aid [TODO PIC].
 		\item Lock Magnet Room door.
-		\item Prepare to receive and escort emergency medical services.
+		\item Stay with individual, continue to administer aid.
 		\item Call any MRI staff.
 		\item Record Adverse Event in ND-HNC FORM 102: Adverse Events Log.
 	\end{enumerate}
@@ -179,7 +220,7 @@ When conducting research with adults and older adults, certain procedures or str
 		\item Call 911 and say: ``We have a person with [chest pain, respiratory problems, unresponsiveness] that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
 		\item Call Veldman Reception and say ``We have a medical emergency and have called 911.''
 		\item Assist in first aid.
-		\item Assist receiving and escorting emergency medical services.
+		\item Prepare to assist and escort emergency medical services.
 	\end{enumerate}
 \end{enumerate}
 
@@ -236,7 +277,7 @@ Inexperience, complacency, and/or over-confidence when entering the Magnet Room 
 	\item Call 911 and say: ``We have a person that needs medical attention in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
 	\item Call Veldman Reception and say ``We have a medical emergency and have called 911.''
 	\item Retrieve First-Aid kit.
-	\item Prepare for gas in the Magnet Room (SOP 101.\ref{101-ssec:gas}).
+	\item If gas fails to vent, once magnet is ramped down use MRI gurney and follow SOP 101.\ref{101-ssec:gas}.
 	\item Administer first aid.
 	\item Prepare to receive and escort emergency medical services.
 	\item Call any MRI staff.
@@ -255,9 +296,8 @@ Inexperience, complacency, and/or over-confidence when entering the Magnet Room 
 			\item As the helium boils off, the magnet will decrease in strength.
 			\item It will take approximately 3 minutes for the magnet to deactivate.
 		\end{enumerate}
-		\item Prepare for gas in the Magnet Room (SOP 101.\ref{101-ssec:gas}).
+		\item If gas fails to vent, once magnet is ramped down use MRI gurney and follow SOP 101.\ref{101-ssec:gas}.
 		\item Administer first aid.
-		\item Prepare to receive and escort emergency medical services.
 		\item Call any MRI staff.
 		\item Record Adverse Event in ND-HNC FORM 102: Adverse Events Log.
 		\item Record compliance issue in ND-HNC Form 103: Compliance Issues Log.
@@ -269,7 +309,7 @@ Inexperience, complacency, and/or over-confidence when entering the Magnet Room 
 		\item Call Veldman Reception and say ``We have a medical emergency and have called 911.''
 		\item Retrieve First-Aid kit.
 		\item Assist in administering first aid.
-		\item Assist in receiving, escorting emergency medical services.
+		\item Prepare to receive, escort emergency medical services.
 	\end{enumerate}
 \end{enumerate}
 
@@ -285,7 +325,7 @@ Subjects may have a complex medical history, and we need to be vigilant for, and
 	\begin{enumerate}
 		\item Do not attempt to hold person still.
 		\item Provide cushioning for head.
-		\item Follow relevant injury procedure (SOP 102.5.\ref{ssec:injury})
+		\item Follow relevant injury procedure (SOP 102.5.\ref{ssec:injury-uncons})
 	\end{enumerate}
 
 	\item Stroke
@@ -297,7 +337,7 @@ Subjects may have a complex medical history, and we need to be vigilant for, and
 			\item S: Speech - difficulty speaking, slurring
 			\item T: Time - initiate 911 immediately
 		\end{itemize}
-		\item Follow relevant injury procedure (SOP 102.5.\ref{ssec:injury})
+		\item Follow relevant injury procedure (SOP 102.5.\ref{ssec:injury-uncons})
 	\end{enumerate}
 \end{enumerate}
 
