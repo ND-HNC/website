@@ -1,7 +1,7 @@
 \documentclass[11pt]{article}
 \usepackage{graphicx} % Required for inserting images
 \setlength{\parindent}{0pt}
-\usepackage[bookmarks=true, colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
+\usepackage[bookmarks=true, colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}
 
 \usepackage{enumitem}
 \usepackage[utf8]{inputenc}
@@ -11,6 +11,10 @@
 \usepackage{lastpage}
 \usepackage{fancyhdr}
 \usepackage{datetime}
+
+% Link to other SOPs, forms
+\usepackage{xr}
+\externaldocument[102-]{../2_medical/sop_102_medical}
 
 % figures and tables
 \usepackage{graphicx}
@@ -31,9 +35,6 @@
 \fancyfoot[L]{\textit{Notre Dame Human Neuroimaging Center}}
 \fancyfoot[R]{SOP 101: p. \thepage /\pageref*{LastPage}}
 
-
-% TODO: update SOP refs
-% TODO: add Zone 4 EOP pic, refs
 
 % start document
 \begin{document}
@@ -97,7 +98,7 @@ A magnet quench results in the rapid boil-off of cryogens that maintain the supe
 \subsubsection*{\textit{Single Responder}}
 
 \begin{enumerate}
-	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury}).
 	\begin{enumerate}
 		\item Stay low to the floor below the gas. The room will be cold, water vapor may make visibility in the room poor. A change in pressure may make it difficult to open the Magnet Room door.
 	\end{enumerate}
@@ -111,6 +112,7 @@ A magnet quench results in the rapid boil-off of cryogens that maintain the supe
 	\item Evacuate Zone 2 [TODO SOP].
 	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 	\item Prepare to receive and escort SBFD.
+	\item Record issue in ND-HNC Form 100: Hardware Issues Log.
 \end{enumerate}
 
 \subsubsection*{\textit{Dual Responders}}
@@ -118,12 +120,13 @@ A magnet quench results in the rapid boil-off of cryogens that maintain the supe
 \begin{enumerate}
 	\item Lead (Level 4)
 	\begin{enumerate}
-		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury}).
 		\item Close and lock the Magnet Room door.
 		\item Move to Zone 2 (Fig. \ref{fig:mri-zones}).
 		\item Evacuate Zone 2 [TODO SOP].
 		\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 		\item Prepare to receive and escort SBFD.
+		\item Record issue in ND-HNC Form 100: Hardware Issues Log.
 	\end{enumerate}
 
 	\item Helper (Level 1-3)
@@ -147,7 +150,7 @@ Electrical disruption may spark combustible materials, resulting in fire or smok
 
 \begin{enumerate}
 	\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
-	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury}).
 	\item Close and lock the Magnet Room door.
 	\item \textbf{Fire in Magnet Room}: Do not fight.
 	\item \textbf{Fire in Control or Equipment Room}: If possible, use the fire extinguisher in B15 to extinguish the fire (Fig. \ref{fig:fire-ext}).
@@ -155,6 +158,7 @@ Electrical disruption may spark combustible materials, resulting in fire or smok
 	\item Call 911 to notify the South Bend Fire Department (SBFD) and say: ``We have [fire, smoke] in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
 	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 	\item Prepare to receive and escort SBFD.
+	\item Record issue in ND-HNC Form 100: Hardware Issues Log.
 \end{enumerate}
 
 \subsubsection*{\textit{Dual Responders}}
@@ -163,11 +167,12 @@ Electrical disruption may spark combustible materials, resulting in fire or smok
 	\item Lead (Level 4)
 	\begin{enumerate}
 		\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
-		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+		\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury}).
 		\item Close and lock the Magnet Room door.
 		\item Initiate Fire Evacuation [TODO SOP]. Leave the building. Pull fire alarm (Fig. \ref{fig:fire-alarm}).
 		\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 		\item Prepare to receive and escort SBFD.
+		\item Record issue in ND-HNC Form 100: Hardware Issues Log.
 	\end{enumerate}
 
 	\item Helper (Level 2-3)
@@ -190,13 +195,14 @@ Plumbing failure or severe storms may result in flooding and electrical disrupti
 
 \begin{enumerate}
 	\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall}).
-	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow the procedures in [TODO SOP].
+	\item If a Subject is in the scanner, remove them immediately. If the Subject is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury}).
 	\item Close and lock the Magnet Room door.
 	\item Move to Zone 2.
 	\item Call Utilities \& Maintenance (after hours: Notre Dame Police) and say: ``We have flooding in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
 	\item Call Veldman Reception and say ``We have flooding in the MRI Suite and have called Utilities \& Maintenance.''
 	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 	\item Prepare to receive and escort Maintenance or Police.
+	\item Record issue in ND-HNC Form 100: Hardware Issues Log.
 \end{enumerate}
 
 
@@ -220,6 +226,8 @@ Any ferrous material introduced into the Magnet Room will become attracted to th
 \begin{enumerate}
 	\item Do not attempt to remove the object.
 	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
+	\item Record issue in ND-HNC Form 100: Hardware Issues Log.
+	\item Record compliance issue in ND-HNC Form 103: Compliance Issues Log.
 \end{enumerate}
 
 
@@ -247,6 +255,7 @@ The pumps circulate the cryogens, which can be heard in B15, B17a, and B18. If t
 		\item Haskris monitors the cooling system and should contact MRI staff for any issues
 	\end{enumerate}
 	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
+	\item Record issue in ND-HNC Form 100: Hardware Issues Log.
 \end{enumerate}
 
 
@@ -259,6 +268,7 @@ The Control Room door is controlled by an Electronic Lock and will not open unle
 \begin{enumerate}
 	\item Door to Magnet Room (B17a) does not release: press the emergency release button (Fig. \ref{fig:button-wall}).
 	\item Door to Control Room (B17) does not open: ensure you have proper access by contacting Allison Collins (Building Management).
+	\item Record issue in ND-HNC Form 100: Hardware Issues Log.
 \end{enumerate}
 
 
