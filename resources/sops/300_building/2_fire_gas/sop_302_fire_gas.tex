@@ -1,0 +1,140 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\setlength{\parindent}{0pt}
+\usepackage[bookmarks=true, colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+
+% Link to other SOPs, forms
+\usepackage{xr}
+\externaldocument[101-]{../../100_emergency/1_hardware/sop_101_hardware}
+
+% figures and tables
+\usepackage{graphicx}
+\graphicspath{ {../../pics} }
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{caption}
+\DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
+
+
+\renewcommand{\headrulewidth}{0pt}
+% \newdateformat{yearmonth}{\THEYEAR-\THEMONTH-\THEDAY}
+\pagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{Approved: TBD}
+\fancyfoot[C]{}
+\fancyfoot[L]{ND-HNC SOP 302: v.0.1.0}
+\fancyfoot[R]{p. \thepage /\pageref*{LastPage}}
+
+
+% start document
+\begin{document}
+
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+\begin{center}
+	\textbf{\Large SOP 302: Fire and Gas Emergencies}\\
+	\hrulefill
+\end{center}
+
+
+\section{Summary}
+This document establishes  procedures for fire and gas leak emergencies at the Notre Dame Human Neuroimaging Center (ND-HNC), located in the Lower Level of:\\
+
+Veldman Family Psychology Clinic\\
+501 North Hill St.\\
+South Bend, IN 46617
+
+\section{Scope}
+These policies apply to all investigators, research assistants, and staff who use the ND-HNC.
+
+\section{Definitions}
+
+TBD
+
+
+\section{Notes}
+
+None
+
+
+\section{Policies \& Procedures}
+
+Procedures for building responses to fire and gas leak emergencies are detailed. For specific policies and procedures related to fire and gas emergencies in the MRI space and MRI Zones 3 and 4, please refer to SOP 101.\ref{101-ssec:gas} and SOP 101.\ref{101-ssec:fire}.
+
+% Fire ext location
+\subsection{Location of Fire Extinguishers and Fire Alarm Pulls}
+\label{ssec:fire-ext-loc}
+
+Fire extinguishers are located in hallways of common accessible areas in MRI Zones 1 and 2 in the following locations:
+
+\begin{enumerate}
+	\item South staff entrance.
+    \item (The staff breakroom (B25)).
+    \item Outside B21 the Neuro Prep Room.
+    \item Across from the elevator bay in the reception area.
+    \item Laundry room near the loading dock.
+    \item (There is also a fire extinguisher in MRI Zone 3 (B15).)
+\end{enumerate}
+
+
+Fire alarm pulls are located at exit points in MRI Zone 1:
+
+\begin{enumerate}
+    \item North and south stairwells
+    \item South staff entrance
+    \item Loading dock doors
+\end{enumerate}
+
+See Fig. \ref{fig:vfpc-floor0}
+
+
+% Fire evac
+\subsection{Fire or Gas Leak}
+\label{ssec:fire-evac}
+
+\begin{enumerate}
+	\item Pull the nearest fire alarm.
+	\item Call 911 to notify the South Bend Fire Department (SBFD) and say: ``We have [fire, smoke, gas] in the MRI Center at B05 Veldman Family Psychology Clinic, 501 North Hill Street''.
+	\item For small fires, fight fire only if:
+	\begin{enumerate}
+        \item The Fire Department has been notified
+        \item The fire is small and not spreading to other areas
+        \item An escape route is available
+        \item The fire extinguisher is in working condition
+        \item You are trained to use the fire extinguisher
+    \end{enumerate}
+    \item Gather in the designated Safe Meeting Spot: north-west corner of parking lot (Fig. \ref{fig:vfpc-rend})
+    \item If you are unable to evacuate, draw attention by yelling out.
+\end{enumerate}
+
+
+\section{Figures}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{vfpc_floor0.png}
+	\caption{VFPC fire extinguishers and alarm pulls.}
+	\label{fig:vfpc-floor0}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{vfpc_rendezvous.png}
+	\caption{VFPC rendezvous location.}
+	\label{fig:vfpc-rend}
+\end{figure}
+
+
+\end{document}

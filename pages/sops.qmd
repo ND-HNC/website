@@ -6,38 +6,43 @@ This page is under construction.
 
 <details>
 
-<summary> 100: Emergency </summary>
+<summary> 100: MRI Emergency </summary>
 
 | SOP | Topic | Link |
 |-----|-------|--------|
 | 101 | Hardware | [Document](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf){target="_blank"} |
 | 102 | Medical | [Document](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf){target="_blank"} |
-
+| 103 | Adverse Events | Document |
+| 104 | Incidental Findings | Document |
 
 </details>
 
 
 <details>
 
-<summary> 200: Operation </summary>
+<summary> 200: ND-HNC Operation </summary>
 
 | SOP | Topic | Link |
 |-----|-------|--------|
-| 201 | TODO | Document |
-
+| 201 | Safety Screen | Document |
+| 202 | MRI Access | Document |
+| 203 | Control Computers | Document |
+| 204 | Schedule and Billing | Document |
+| 205 | Mock Operations | Document |
 
 </details>
 
 
-
 <details>
 
-<summary> 300: Building </summary>
+<summary> 300: Building Management </summary>
 
 | SOP | Topic | Link |
 |-----|-------|--------|
-| 301 | TODO | Document |
-
+| 301 | Building Access | [Document](../resources/sops/300_building/1_access/sop_301_access.pdf){target="_blank"} |
+| 302 | Fire and Gas | [Document](../resources/sops/300_building/2_fire_gas/sop_302_fire_gas.pdf){target="_blank"} |
+| 303 | Tornado | [Document](../resources/sops/300_building/3_tornado/sop_303_tornado.pdf){target="_blank"} |
+| 304 | Active Violence | [Document](../resources/sops/300_building/4_violence/sop_304_violence.pdf){target="_blank"} |
 
 </details>
 
