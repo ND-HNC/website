@@ -14,7 +14,7 @@
     "href": "pages/policies.html",
     "title": "Policies",
     "section": "",
-    "text": "Scheduling Billing",
+    "text": "This page is under construction.",
     "crumbs": [
       "Policies"
     ]
@@ -23,8 +23,8 @@
     "objectID": "pages/policies.html#booking",
     "href": "pages/policies.html#booking",
     "title": "Policies",
-    "section": "",
-    "text": "Scheduling Billing",
+    "section": "Booking",
+    "text": "Booking\nScheduling Billing",
     "crumbs": [
       "Policies"
     ]
@@ -64,7 +64,7 @@
     "href": "pages/forms.html",
     "title": "Forms",
     "section": "",
-    "text": "000: Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Screener\nDocument\n\n\n002\nND-HNC Arrive\nDocument\n\n\n003\nND-HNC Map\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware Issues\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware Mainteance\nDocument\n\n\n\n\n\n\n300: Training\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n301\nCompliance Issues\nDocument",
+    "text": "This page is under construction.\n\n\n000: Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Screener\nDocument\n\n\n002\nND-HNC Arrive\nDocument\n\n\n003\nND-HNC Map\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware Issues\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware Mainteance\nDocument\n\n\n\n\n\n\n300: Training\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n301\nCompliance Issues\nDocument",
     "crumbs": [
       "Forms"
     ]
@@ -94,24 +94,27 @@
     "href": "pages/about.html",
     "title": "About",
     "section": "",
-    "text": "ND-HNC",
-    "crumbs": [
-      "About"
-    ]
+    "text": "This page is under construction."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Title",
+    "title": "Notre Dame Human Neuroimaging Center",
     "section": "",
-    "text": "Welcome"
+    "text": "Siemens 3T Cima.X arrives at Notre Dame!",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "index.html#welcome",
     "href": "index.html#welcome",
-    "title": "Title",
-    "section": "",
-    "text": "Welcome"
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Welcome!",
+    "text": "Welcome!\nWelcome to the Notre Dame Human Neuroimaging Center (ND-HNC) Resources for Operations and Computing – your guide for conducting cutting-edge research.\nWhether you are a seasoned principal investigator, a graduate student launching your first study, or a visiting researcher, this platform is designed to streamline your workflow and support your scientific discovery. Here, you will find everything you need to navigate our facility and maximize your research impact:\n\nFacilities & Scheduling: Explore our state-of-the-art neuroimaging instrumentation and learn how to reserve magnet time and specialized testing rooms.\nCompute Resources: Access technical specifications and documentation for our high-performance computing pipelines, tailored for heavy neuroimaging data loads.\nPolicies & SOPs: Review our official standard operating procedures, safety protocols, and center policies to ensure compliant, efficient, and safe data collection.\nThe NDHNC Wiki: Dive into a community-driven knowledge base featuring tutorials, code snippets, and troubleshooting guides for programming, general data analysis, and advanced MRI processing (including fMRI, structural, and diffusion pipelines).\n\nOur mission is to empower the Notre Dame community and our partners with the infrastructure, technical expertise, and collaborative environment necessary to push the boundaries of human neuroscience.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
     "objectID": "pages/affiliations.html",
@@ -197,9 +200,116 @@
     "href": "pages/sops.html",
     "title": "Standard Operating Procedures",
     "section": "",
-    "text": "100: Emergency\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nMedical\nDocument\n\n\n\n\n\n\n200: Operation\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n201\nTODO\nDocument\n\n\n\n\n\n\n300: Building\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n301\nTODO\nDocument",
+    "text": "This page is under construction.\n\n\n100: Emergency\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nMedical\nDocument\n\n\n\n\n\n\n200: Operation\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n201\nTODO\nDocument\n\n\n\n\n\n\n300: Building\n\n\n\n\nSOP\nTopic\nLink\n\n\n\n\n301\nTODO\nDocument",
     "crumbs": [
       "SOPs"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome-quarto-document-content",
+    "href": "index.html#welcome-quarto-document-content",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Welcome #quarto-document-content {",
+    "text": "Welcome #quarto-document-content {\ntext-align: left; }\nWelcome"
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "About",
+    "text": "About\nWelcome to the Notre Dame Human Neuroimaging Center (ND-HNC) – Resources for Operations and Computing page!\nOur aim is to provide resources and support for every step of your research program, from grant application to publication, and the many technical details in between:\n\nFacilities: Understand available resources\nTraining: Get access by scheduling and maintaining your training\nSchedule: Book facilities and billing\nData collection \nCompute: \nStorage\nPublications",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html",
+    "href": "pages/compute.html",
+    "title": "Compute",
+    "section": "",
+    "text": "This page is under construction.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#compute-room",
+    "href": "pages/compute.html#compute-room",
+    "title": "Compute",
+    "section": "Compute Room",
+    "text": "Compute Room",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/facilities.html",
+    "href": "pages/facilities.html",
+    "title": "Facilities",
+    "section": "",
+    "text": "This page is under construction.",
+    "crumbs": [
+      "Facilities"
+    ]
+  },
+  {
+    "objectID": "pages/facilities.html#mri",
+    "href": "pages/facilities.html#mri",
+    "title": "Facilities",
+    "section": "MRI",
+    "text": "MRI",
+    "crumbs": [
+      "Facilities"
+    ]
+  },
+  {
+    "objectID": "pages/schedule.html",
+    "href": "pages/schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "This page is under construction.",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html",
+    "href": "pages/storage.html",
+    "title": "Storage",
+    "section": "",
+    "text": "This page is under construction.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/training.html",
+    "href": "pages/training.html",
+    "title": "Training",
+    "section": "",
+    "text": "This page is under construction.",
+    "crumbs": [
+      "Training"
+    ]
+  },
+  {
+    "objectID": "index.html#additional-resources",
+    "href": "index.html#additional-resources",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nSOPs: Standard Operating Policies\nPolicies: Center policies\nForms: Participant screener, operational forms\nWiki: Programming, data, and pipeline help",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#additional-materials",
+    "href": "index.html#additional-materials",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Additional Materials",
+    "text": "Additional Materials\n\nSOPs: Standard Operating Policies\nPolicies: Center policies\nForms: Participant screener, operational forms\nWiki: Programming, data, and pipeline help",
+    "crumbs": [
+      "Home"
     ]
   }
 ]

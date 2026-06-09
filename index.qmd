@@ -1,25 +1,39 @@
 ---
-title: "Title"
-subtitle: "Subtitle"
-image: media/veldman_mri.jpg
-# author:
-#   - name: "Nathan Muncy"
-#     email: "nmuncy@nd.edu"
-    # affiliations:
-    #   - name: University of Notre Dame
-    #     address: E308 Corbett Family Hall
-    #     city: South Bend
-    #     state: IN
-    #     postal-code: 46556
+title: "Notre Dame Human Neuroimaging Center"
+subtitle: "Resources for Operations and Computing"
 date: today
-toc: false
-execute:
-  freeze: auto
-about: # https://quarto.org/docs/websites/website-about.html
-  template: jolla
-  image-width: 15em
+toc: true
+# execute:
+#   freeze: auto
 ---
 
-## Welcome
+<!-- TODO: Image of recent findings -->
+![Siemens 3T Cima.X arrives at Notre Dame!](media/veldman_mri.jpg){fig-align="left"}
 
-Welcome
+
+## About
+
+Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page!
+
+Our aim is to provide resources and support for every step of your research program, from grant application to publication, and the many technical details in between:
+
+- [Facilities](pages/facilities.qmd): Understand available resources
+- [Training](pages/training.qmd): Get access by scheduling and maintaining your training
+- [Schedule](pages/schedule.qmd): Book facilities and billing
+- Data collection
+  <!-- - Mock
+  - Stimulus computer
+  - DICOM computer -->
+- Compute:
+  <!-- - Local machines
+  - Local rack
+  - Cluster resources -->
+- Storage
+- Publications
+
+## Additional Materials
+
+- [SOPs](pages/sops.qmd): Standard Operating Policies
+- [Policies](pages/policies.qmd): Center policies
+- [Forms](pages/forms.qmd): Participant screener, operational forms
+- [Wiki](pages/wiki.qmd): Programming, data, and pipeline help

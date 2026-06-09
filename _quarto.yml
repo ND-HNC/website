@@ -7,7 +7,7 @@ project:
     - "*.qmd"
 
 website:
-  title: "Home"
+  title: "ND-HNC"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
   page-footer: "Created by Nathan Muncy via Quarto"
   sidebar:
@@ -15,8 +15,8 @@ website:
     search: true
     logo: media/nd_logo.png
     contents:
-      - text: About
-        href: pages/about.qmd
+      - text: Home
+        href: index.qmd
       - text: Compute
         href: pages/compute.qmd
       - text: Facilities
@@ -25,8 +25,14 @@ website:
         href: pages/forms.qmd
       - text: Policies
         href: pages/policies.qmd
+      - text: Schedule
+        href: pages/schedule.qmd
       - text: SOPs
         href: pages/sops.qmd
+      - text: Storage
+        href: pages/storage.qmd
+      - text: Training
+        href: pages/training.qmd
       - text: Wiki
         href: pages/wiki.qmd
     tools:

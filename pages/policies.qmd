@@ -2,6 +2,8 @@
 title: Policies
 ---
 
+This page is under construction.
+
 ## Booking
 
 Scheduling
