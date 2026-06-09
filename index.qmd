@@ -17,7 +17,7 @@ Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Op
 
 Our aim is to provide resources and support for every step of your research program, from grant application to publication, and the many technical details in between:
 
-- [Facilities](pages/facilities.qmd): Understand available resources
+- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Understand available resources
 - [Training](pages/training.qmd): Get access by scheduling and maintaining your training
 - [Schedule](pages/schedule.qmd): Book facilities and billing
 - Data collection

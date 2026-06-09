@@ -19,6 +19,8 @@ website:
         href: index.qmd
       - text: Compute
         href: pages/compute.qmd
+      - text: Equipment
+        href: pages/equipment.qmd
       - text: Facilities
         href: pages/facilities.qmd
       - text: Forms
