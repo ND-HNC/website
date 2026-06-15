@@ -13,8 +13,9 @@
 \usepackage{datetime}
 
 % % Link to other SOPs, forms
-% \usepackage{xr}
-% \externaldocument[102-]{../2_medical/sop_102_medical}
+\usepackage{xr}
+\externaldocument[202-]{../../200_operation/2_zone_access/sop_202_zone_access}
+\input{../../def_definitions.tex}
 
 % figures and tables
 \usepackage{graphicx}
@@ -61,67 +62,101 @@ These policies apply to all investigators, research assistants, and staff who us
 
 \section{Definitions}
 
-TBD
-% \begin{itemize}
-% 	\item \textbf{Experimenter}: The investigator, research assistant, or MRI operator who is responsible for the subject and conducting the experiment.
-% 	\item \textbf{Electronic Lock}: All external doors to the Veldman Family Psychology Clinic (VFPC), the ND-HNC, and the ND-HNC MRI Zones are controlled by electronic locks. A single electronic key card is used for entry. The electronic lock system recognizes the owner's Irish1Card (ND ID/phone), logs the time of the attempted entry, and unlocks the door if the owner has been granted access.
-% \end{itemize}
+\begin{itemize}
+	\item \ElectronicLock
+	\item \Helper
+	\item \Lead
+	\item \NDHNC
+	\item \VFPC
+	\item \Visitor
+\end{itemize}
 
 
 \section{Notes}
 
-None
+\begin{enumerate}
+	\item While the VFPC and ND-HNC are administratively independent, coordination is required as the entire building operates on the same alarm system. To avoid false alarms and their associated fees (from the South Bend Police Department), we use the VFPC logbook when entering/exiting to help ensure the alarm is set when appropriate.
+\end{enumerate}
 
 
 \section{Policies \& Procedures}
 
-Procedures to access the building during and outside normal business hours, hosting visitors, and key/card access are detailed. For specific policies and procedures related to access of MRI and various MRI zones, please refer to [TODO SOP].
+Procedures to access the building during and outside normal business hours, hosting visitors, and key/card access are detailed. For specific policies and procedures related to access of the MRI Zones, please refer to SOP 202.
+
+% PIN numbers
+\subsection{Set PIN}
+\label{ssec:set-pin}
+Two types of Personal Identification Numbers (PIN) are used at the VFPC and ND-HNC. First, a 4-digit PIN accompanies the Irish1Card for building access. Second, a 6-digit security PIN is used to de/activate the VFPC alarm system.
+
+\begin{itemize}
+	\item Set or access your Irish1Card PIN: \url{https://idcardpin.nd.edu}.
+	\item Set or access your security PIN: Contact Building Management.
+\end{itemize}
 
 % Enter normal
-\subsection{Entering Building: Normal Business Hours}
+\subsection{Entering Building: Business Hours}
 \label{ssec:enter-norm}
 
-Normal building business hours Monday through Thursday are 7am-7pm. Friday hours are 7am-4pm. The exterior door to the main entrance is unlocked during normal hours [TODO PIC?].
+Normal building business hours Monday through Thursday are 7am-7pm. Friday hours are 7am-4pm. The exterior door to the main entrance is unlocked during normal hours [TODO PIC: main entr].\\
+
+The following are required for Business Hours access:
 
 \begin{enumerate}
-	\item \textbf{Enter via main entrance}: go through the interior main entrance door either by being let in by someone at the Veldman Center reception desk, or by using your Irish1Card and PIN (Fig. \ref{fig:vfpc-card}).
-	\item \textbf{Enter via staff entrance}: use your Irish1Card and PIN.
-	\item Sign in at the first floor reception logbook.
+	\item Irish1Card,
+	\item 4-digit Irish1Card PIN,
+\end{enumerate}
+
+To enter the building during Business Hours:
+
+\begin{enumerate}
+	\item \textbf{Enter via main entrance}: access VFPC reception by using your Irish1Card and PIN at the anteroom inner door (Fig. \ref{fig:vfpc-card}) [TODO PIC: inner door].
+	\begin{enumerate}
+		\item When present, the VFPC receptionist may let you in from their desk.
+	\end{enumerate}
+	\item \textbf{Enter via staff entrance}: use your Irish1Card and PIN [TODO PIC: back door].
+	\begin{enumerate}
+		\item Present your Irish1Card to the Electronic Lock.
+		\begin{enumerate}
+			\item Red and green lights should flash
+		\end{enumerate}
+		\item Enter your Irish1Card PIN.
+		\item If successful, the Electronic Lock will flash green and the door unlock.
+	\end{enumerate}
+	\item Sign in at the VFPC reception logbook [TODO PIC].
 	\item Proceed to your destination which may require the use of:
 	\begin{enumerate}
-        \item Your Irish1Card (for doors in non-public areas on each floor),
-        \item Physical key (for private offices),
-        \item Code (for shared spaces).
+        \item Your Irish1Card, for non-public areas,
+        \item Physical key, for private offices and specific rooms.
     \end{enumerate}
 \end{enumerate}
 
 
 % Enter outside normal
-\subsection{Entering Building: Outside of Normal Business Hours}
-\label{ssec:enter-outnorm}
+\subsection{Entering Building: Extra Hours}
+\label{ssec:enter-exnorm}
 
-Outside of normal business hours you will need the following to access the building:
+Extra building hours are any time not designated as Business Hours (SOP 301.\ref{ssec:enter-norm}). The exterior door of the main entrance will be locked during these times and access will only be possible via staff entrances. Additionally, the alarm system will need to be managed.\\
+
+The following are required for Extra Hours access:
 
 \begin{enumerate}
 	\item Irish1Card,
-	\item A personal PIN (4-digit code associated with the Irish1Card),
-	\item An alarm code (6-digit code arranged with security),
-	\begin{enumerate}
-        \item This can be arranged through an ND-HNC staff member.
-    \end{enumerate}
+	\item 4-digit Irish1Card PIN,
+	\item 6-digit security PIN.
 \end{enumerate}
 
-To enter:
+
+To enter the building during Extra Hours:
+
 \begin{enumerate}
-    \item Present your Irish1Card by holding it close to the keypad (light should flash green).
-    \item Enter the PIN associated with Irish1Card.
-    \item Open the door once it unlocks.
-    \item Disable building alarm:
+    \item Enter via staff entrance (SOP 301.\ref{ssec:enter-norm}).
+    \item Check the alarm keypad to determine whether the alarm is set (Fig. \ref{fig:vfpc-alarm}).
+    \item To disable building alarm:
     \begin{enumerate}
-        \item Enter your 6-digit code by touching the numbers on the keypad (Fig. \ref{fig:vfpc-alarm}).
-        \item Hit the 'Enter' button to the top-right on the keypad.
+        \item Enter your 6-digit code by touching the numbers on the keypad.
+        \item Hit the `Enter' button to the top-right on the keypad.
     \end{enumerate}
-    \item Sign in at the first floor reception logbook.
+    \item  Sign in at the VFPC reception logbook [TODO PIC].
 \end{enumerate}
 
 
