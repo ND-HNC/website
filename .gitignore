@@ -1,0 +1,7 @@
+/.quarto/
+*sop_*.aux
+*sop_*.fdb_latexmk
+*sop_*.fls
+*sop_*.log
+*sop_*.out
+*sop_*.synctex.gz

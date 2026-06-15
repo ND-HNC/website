@@ -1,0 +1,112 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\setlength{\parindent}{0pt}
+\usepackage[bookmarks=true, colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+
+% Link to other SOPs, forms
+\usepackage{xr}
+\externaldocument[102-]{../2_medical/sop_102_medical}
+\input{../../def_definitions.tex}
+
+% figures and tables
+\usepackage{graphicx}
+\graphicspath{ {../../pics} }
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{caption}
+\DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
+
+
+\renewcommand{\headrulewidth}{0pt}
+% \newdateformat{yearmonth}{\THEYEAR-\THEMONTH-\THEDAY}
+\pagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{Approved: TBD}
+\fancyfoot[C]{}
+\fancyfoot[L]{ND-HNC SOP 103: v.0.1.0}
+\fancyfoot[R]{p. \thepage /\pageref*{LastPage}}
+
+
+% TODO: update with MRI-compatible gurney
+% TODO: add first aid, aed pics
+% TODO: add schematic of first aid?
+
+
+% start document
+\begin{document}
+
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+\begin{center}
+	\textbf{\Large SOP 103: Adverse Events}\\
+	\hrulefill
+\end{center}
+
+
+\section{Summary}
+On rare instances, Subjects may become injured or ill as a result of their participation in a research MRI study. This SOP establishes procedures for reporting adverse effects.
+
+
+\section{Scope}
+These policies apply to all investigators, research assistants, and ND-HNC staff who enter Zones 3 \& 4 (B15, B17, B17a; Fig. \ref{fig:mri-zones}).
+
+\section{Definitions}
+
+\begin{itemize}
+	\item \Lead
+	\item \Subject
+\end{itemize}
+
+\section{Notes}
+
+None
+
+\section{Policies \& Procedures}
+
+The safety and well-being of research participants are of paramount importance in all research activities. This Standard Operating Procedure (SOP) establishes the process for identifying, assessing, documenting, and reporting adverse events that occur during or as a result of participation in a research study.\\
+
+An adverse event is any accident, injury, illness, or health-related complaint that may be associated with a participant's involvement in a research study. Adverse events can range from minor but persistent symptoms to serious incidents involving physical injury, medical device interference, or other significant health consequences. Events that expose a participant to potential harm, even when no injury occurs, may also be considered adverse events. Not all participant discomfort constitutes an adverse event. Common and anticipated experiences that are disclosed during the informed consent process, such as mild discomfort or anxiety associated with study procedures, are generally not considered adverse events. However, unusually severe reactions or symptoms may warrant classification as an adverse event.\\
+
+Because the distinction between an adverse event, a routine complaint, or an unrelated accident may not always be immediately clear, investigators should prioritize participant safety and appropriate response over event classification. Any participant injury, reported injury, or significant health concern must be addressed promptly, documented appropriately, and reported to the relevant University authorities as required. Final determination of event classification may be made following review of the circumstances.
+
+
+% Medical
+\subsection{Medical Emergencies}
+\label{ssec:medical}
+
+Consult SOP 102.\ref{102-sec:policies} if the Subject becomes injured or seriously ill in the MRI suite. Attending to a Subject's safety and calling for qualified help is the first priority of the Lead.
+
+
+% Risk
+\subsection{Risk Management}
+\label{ssec:risk-manag}
+
+The Principal Investigator or Experimenter must report serious adverse events to [ND RISK MANAGEMENT] immediately. [ND RISK MANAGEMENT] advises the University on liability issues. All incidents should be reported by [PROPER PROCEDURES].\\
+
+Risk Management can also be called for assistance with patient care or visitor loss exposure or policy/procedure issues on which you have questions such as consent problems, patient rights issues, falls, and documentation of medical records.
+
+
+
+% \section{Figures}
+
+% % MRI zones
+% \begin{figure}[H]
+% 	\centering
+% 	\includegraphics[width=\textwidth]{mri_zones.jpg}
+% 	\caption{Schematic of ND-HNC MRI Zones. \textbf{Orange} Zone 1. \textbf{Purple} Zone 2. \textbf{Green} Zone 3. \textbf{Blue} Zone 4.}
+% 	\label{fig:mri-zones}
+% \end{figure}
+
+\end{document}

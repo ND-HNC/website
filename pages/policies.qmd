@@ -1,0 +1,41 @@
+---
+title: Policies
+---
+
+This page is under construction.
+
+## Booking
+
+Scheduling
+Billing
+
+
+## Level 2-4
+
+Level 2
+Safety training
+Safety test
+Annual renewal
+Annual screener
+SOP Safety
+
+Level 3
+Level 2 reqs
+First Aid
+CPR/AED
+Train: un/load participant
+SOP Data
+
+Level 4
+Level 2, 3 reqs
+Shadow hours
+Test: run scanner, trouble shoot reconstruct, data export, emergency response
+
+## Computers
+
+Organize Stimulus Control
+Organize DICOM Computer
+
+## Trainings
+
+Regular Safety, SOP, Medical trainings
