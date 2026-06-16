@@ -13,7 +13,6 @@ This page is under construction.
 | 101 | Hardware | [Document](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf){target="_blank"} |
 | 102 | Medical | [Document](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf){target="_blank"} |
 | 103 | Adverse Events | [Document](../resources/sops/100_emergency/3_adverse_events/sop_103_adverse_events.pdf){target="_blank"} |
-| 104 | Incidental Findings | Document |
 
 </details>
 
@@ -29,6 +28,7 @@ This page is under construction.
 | 203 | Control Computers | Document |
 | 204 | Schedule and Billing | Document |
 | 205 | Mock Operations | Document |
+| 206 | Incidental Findings | Document |
 
 </details>
 
