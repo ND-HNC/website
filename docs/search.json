@@ -11,7 +11,50 @@
     "href": "pages/storage.html",
     "title": "Storage",
     "section": "",
-    "text": "This page is under construction."
+    "text": "This page is under construction.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#overview",
+    "href": "pages/storage.html#overview",
+    "title": "Storage",
+    "section": "Overview",
+    "text": "Overview\nTo support diverse data management and computational needs, the ND-HNC – in partnership with the Center for Research Computing (CRC) – provides researchers with a shared, multi-tiered data storage infrastructure.\nThese resources are categorized into three distinct tiers based on the data’s activity level and backup requirements:\n\n\n\n\n\n\n\n\n\n\nStorage Tier\nTotal Capacity\nMount Location\nPrimary Purpose\nBackup Policy\n\n\n\n\n1: Active Storage\n50 TB\n/groups/hnc\nIntermediate storage of publication-critical files.\nNightly\n\n\n2: Cold Storage\n250 TB\n/goldfs/hnc\nLong-term storage srcdata, rawdata, publication files.\nNightly\n\n\n3: Scratch\n500 TB\nTBD\nTemporary workspace for intermediate generation.\nNone\n\n\n\nKey Guidelines for Users:\n\nShared Resources: Because these capacities are shared across the ND-HNC community, please manage your allocations responsibly and migrate data to the appropriate tier as your project phases change.\nData Safety Warning: Tier 3 (Scratch) is intended only for transient data. Do not store critical or irreplaceable files here, as they cannot be recovered in the event of a system failure.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#access",
+    "href": "pages/storage.html#access",
+    "title": "Storage",
+    "section": "Access",
+    "text": "Access\nAny CRC user account that is part of the HNC group has full access to these resources. Contact Nathan Muncy to be added to the HNC group.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#dataflow",
+    "href": "pages/storage.html#dataflow",
+    "title": "Storage",
+    "section": "Dataflow",
+    "text": "Dataflow\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, all users currently have full access to all resources. This reflects the fact that projects across labs will be in various stages at any one time.\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_tier2\n\nTier 2: Cold Storage\n(250 TB, Nightly Backups)\n\n\ncluster_tier3\n\nTier 3: Scratch\n(500 TB, NO BACKUPS)\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier1\n\nTier 1: Active Storage\n(50 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- assessment metrics\n- task responses\n\n\n\ntier3_proc\n\nIntermediate Files:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- project code\n- final dataframes\n- statistical output\n- figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Files:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nEnd-of-Pipeline Files\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Move vital results\n (Pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive Tier 1 data",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#details",
+    "href": "pages/storage.html#details",
+    "title": "Storage",
+    "section": "Details",
+    "text": "Details\n\nTier 1\n\n\nTier 2\n\n\nTier 3",
+    "crumbs": [
+      "Storage"
+    ]
   },
   {
     "objectID": "pages/schedule.html",

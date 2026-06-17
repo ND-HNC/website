@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:site_name" content="ND-HNC">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Storage</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/storage.html">Storage</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -149,12 +149,34 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">SOPs</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/storage.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Storage</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">Access</a></li>
+  <li><a href="#dataflow" id="toc-dataflow" class="nav-link" data-scroll-target="#dataflow">Dataflow</a></li>
+  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">Details</a>
+  <ul class="collapse">
+  <li><a href="#tier-1" id="toc-tier-1" class="nav-link" data-scroll-target="#tier-1">Tier 1</a></li>
+  <li><a href="#tier-2" id="toc-tier-2" class="nav-link" data-scroll-target="#tier-2">Tier 2</a></li>
+  <li><a href="#tier-3" id="toc-tier-3" class="nav-link" data-scroll-target="#tier-3">Tier 3</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -178,8 +200,209 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This page is under construction.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>To support diverse data management and computational needs, the ND-HNC – in partnership with the Center for Research Computing (CRC) – provides researchers with a shared, multi-tiered data storage infrastructure.</p>
+<p>These resources are categorized into three distinct tiers based on the data’s activity level and backup requirements:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 22%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Storage Tier</th>
+<th>Total Capacity</th>
+<th>Mount Location</th>
+<th>Primary Purpose</th>
+<th>Backup Policy</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1: Active Storage</td>
+<td>50 TB</td>
+<td>/groups/hnc</td>
+<td>Intermediate storage of publication-critical files.</td>
+<td>Nightly</td>
+</tr>
+<tr class="even">
+<td>2: Cold Storage</td>
+<td>250 TB</td>
+<td>/goldfs/hnc</td>
+<td>Long-term storage srcdata, rawdata, publication files.</td>
+<td>Nightly</td>
+</tr>
+<tr class="odd">
+<td>3: Scratch</td>
+<td>500 TB</td>
+<td>TBD</td>
+<td>Temporary workspace for intermediate generation.</td>
+<td><strong>None</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Key Guidelines for Users:</p>
+<ul>
+<li>Shared Resources: Because these capacities are shared across the ND-HNC community, please manage your allocations responsibly and migrate data to the appropriate tier as your project phases change.</li>
+<li>Data Safety Warning: Tier 3 (Scratch) is intended only for transient data. Do not store critical or irreplaceable files here, as they cannot be recovered in the event of a system failure.</li>
+</ul>
+</section>
+<section id="access" class="level2">
+<h2 class="anchored" data-anchor-id="access">Access</h2>
+<p>Any CRC user <a href="https://docs.crc.nd.edu/new_user/obtain_account.html">account</a> that is part of the HNC group has full access to these resources. Contact <a href="mailto:nmuncy@nd.edu">Nathan Muncy</a> to be added to the HNC group.</p>
+</section>
+<section id="dataflow" class="level2">
+<h2 class="anchored" data-anchor-id="dataflow">Dataflow</h2>
+<p>Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, all users currently have full access to all resources. This reflects the fact that projects across labs will be in various stages at any one time.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="480" viewbox="0.00 0.00 736.29 397.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 393)">
+<title>NDHNC_Data_Flow</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-393 732.29,-393 732.29,4 -4,4"></polygon>
+<g id="clust1" class="cluster">
+<title>cluster_tier2</title>
+<polygon fill="#eff6ff" stroke="#dbeafe" stroke-dasharray="5,2" points="8,-121 8,-381 182,-381 182,-121 8,-121"></polygon>
+<text text-anchor="start" x="18.4" y="-364.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#1e40af">Tier 2: Cold Storage</text>
+<text text-anchor="start" x="18.4" y="-347.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#1e40af">(250 TB, Nightly Backups)</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_tier3</title>
+<polygon fill="#fef2f2" stroke="#fee2e2" stroke-dasharray="5,2" points="262.63,-239 262.63,-372 720.29,-372 720.29,-239 262.63,-239"></polygon>
+<text text-anchor="start" x="417.95" y="-355.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#991b1b">Tier 3: Scratch</text>
+<text text-anchor="start" x="417.95" y="-338.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#991b1b">(500 TB, NO BACKUPS)</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_local</title>
+<polygon fill="lightgray" stroke="gray" points="546.29,-132 546.29,-231 720.29,-231 720.29,-132 546.29,-132"></polygon>
+<text text-anchor="start" x="594.22" y="-214.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Local Storage</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_tier1</title>
+<polygon fill="#f0fdf4" stroke="#dcfce7" stroke-dasharray="5,2" points="546.29,-8 546.29,-124 720.29,-124 720.29,-8 546.29,-8"></polygon>
+<text text-anchor="start" x="560.18" y="-107.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#166534">Tier 1: Active Storage</text>
+<text text-anchor="start" x="560.18" y="-90.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#166534">(50 TB, Nightly Backups)</text>
+</g>
+<!-- tier2_raw -->
+<g id="node1" class="node">
+<title>tier2_raw</title>
+<polygon fill="#3b82f6" stroke="black" points="174,-331 16,-331 16,-239 174,-239 174,-331"></polygon>
+<text text-anchor="start" x="24" y="-314.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">Original Data:</text>
+<text text-anchor="start" x="24" y="-297.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- srcdata DICOM</text>
+<text text-anchor="start" x="24" y="-280.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- rawdata NIfTI</text>
+<text text-anchor="start" x="24" y="-264" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- assessment metrics</text>
+<text text-anchor="start" x="24" y="-247.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- task responses</text>
+</g>
+<!-- tier3_proc -->
+<g id="node3" class="node">
+<title>tier3_proc</title>
+<polygon fill="#ef4444" stroke="black" points="428.63,-322.7 270.63,-322.7 270.63,-247.3 428.63,-247.3 428.63,-322.7"></polygon>
+<text text-anchor="start" x="278.63" y="-306" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">Intermediate Files:</text>
+<text text-anchor="start" x="278.63" y="-289.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- Preprocessing</text>
+<text text-anchor="start" x="278.63" y="-272.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- Subject models</text>
+<text text-anchor="start" x="278.63" y="-255.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- Group models</text>
+</g>
+<!-- tier2_raw&#45;&gt;tier3_proc -->
+<g id="edge1" class="edge">
+<title>tier2_raw-&gt;tier3_proc</title>
+<path fill="none" stroke="#2563eb" d="M174.2,-285C201.44,-285 232.18,-285 260.18,-285"></path>
+<polygon fill="#2563eb" stroke="#2563eb" points="260.36,-288.5 270.36,-285 260.36,-281.5 260.36,-288.5"></polygon>
+<text text-anchor="start" x="192" y="-303" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#2563eb"> Transfer for</text>
+<text text-anchor="start" x="192" y="-288.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#2563eb"> analysis</text>
+</g>
+<!-- tier2_archive -->
+<g id="node2" class="node">
+<title>tier2_archive</title>
+<polygon fill="#1d4ed8" stroke="black" points="174,-221 16,-221 16,-129 174,-129 174,-221"></polygon>
+<text text-anchor="start" x="24" y="-204.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">Long-Term Archive:</text>
+<text text-anchor="start" x="24" y="-187.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- project code</text>
+<text text-anchor="start" x="24" y="-170.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- final dataframes</text>
+<text text-anchor="start" x="24" y="-154" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- statistical output</text>
+<text text-anchor="start" x="24" y="-137.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- figures</text>
+</g>
+<!-- tier3_trash -->
+<g id="node4" class="node">
+<title>tier3_trash</title>
+<polygon fill="#b91c1c" stroke="black" points="712.29,-303 554.29,-303 554.29,-267 712.29,-267 712.29,-303"></polygon>
+<text text-anchor="start" x="562.29" y="-280.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">Purge / Delete</text>
+</g>
+<!-- tier3_proc&#45;&gt;tier3_trash -->
+<g id="edge3" class="edge">
+<title>tier3_proc-&gt;tier3_trash</title>
+<path fill="none" stroke="#dc2626" stroke-dasharray="1,5" d="M428.72,-285C464.43,-285 506.91,-285 543.81,-285"></path>
+<polygon fill="#dc2626" stroke="#dc2626" points="544.05,-288.5 554.05,-285 544.05,-281.5 544.05,-288.5"></polygon>
+<text text-anchor="start" x="452.47" y="-303" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#dc2626"> Removed when</text>
+<text text-anchor="start" x="452.47" y="-288.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#dc2626"> unused</text>
+</g>
+<!-- local_store -->
+<g id="node5" class="node">
+<title>local_store</title>
+<polygon fill="darkgray" stroke="black" points="712.29,-198.4 554.29,-198.4 554.29,-139.6 712.29,-139.6 712.29,-198.4"></polygon>
+<text text-anchor="start" x="562.29" y="-181.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Complicated Files:</text>
+<text text-anchor="start" x="562.29" y="-164.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">- Difficult generation</text>
+<text text-anchor="start" x="562.29" y="-148" font-family="Helvetica,Arial,sans-serif" font-size="14.00">- Long runtime</text>
+</g>
+<!-- tier3_proc&#45;&gt;local_store -->
+<g id="edge4" class="edge">
+<title>tier3_proc-&gt;local_store</title>
+<path fill="none" stroke="#dc2626" d="M428.72,-252.84C466.99,-237.08 513.03,-218.12 551.64,-202.22"></path>
+<polygon fill="#dc2626" stroke="#dc2626" points="553.37,-205.29 561.28,-198.24 550.7,-198.81 553.37,-205.29"></polygon>
+<text text-anchor="start" x="455.13" y="-262" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#dc2626"> Manage large</text>
+<text text-anchor="start" x="455.13" y="-247.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#dc2626"> data footprints</text>
+</g>
+<!-- tier1_active -->
+<g id="node6" class="node">
+<title>tier1_active</title>
+<polygon fill="#22c55e" stroke="black" points="712.29,-74.4 554.29,-74.4 554.29,-15.6 712.29,-15.6 712.29,-74.4"></polygon>
+<text text-anchor="start" x="562.29" y="-57.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">End-of-Pipeline Files</text>
+<text text-anchor="start" x="562.29" y="-40.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- Statistical Maps</text>
+<text text-anchor="start" x="562.29" y="-24" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="white">- Figures</text>
+</g>
+<!-- tier3_proc&#45;&gt;tier1_active -->
+<g id="edge2" class="edge">
+<title>tier3_proc-&gt;tier1_active</title>
+<path fill="none" stroke="#16a34a" d="M380.22,-247.26C398.26,-225.36 422.45,-197.91 446.63,-176.2 487.18,-139.8 537.99,-104.5 576.2,-79.71"></path>
+<polygon fill="#16a34a" stroke="#16a34a" points="578.13,-82.62 584.64,-74.26 574.34,-76.74 578.13,-82.62"></polygon>
+<text text-anchor="start" x="446.63" y="-194" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#16a34a"> Move vital results</text>
+<text text-anchor="start" x="446.63" y="-179.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#16a34a"> (Pre-publication)</text>
+</g>
+<!-- tier1_active&#45;&gt;tier2_archive -->
+<g id="edge5" class="edge">
+<title>tier1_active-&gt;tier2_archive</title>
+<path fill="none" stroke="black" d="M553.87,-64.01C455.36,-87.89 286.82,-128.74 184.01,-153.67"></path>
+<polygon fill="black" stroke="black" points="183.16,-150.27 174.27,-156.03 184.81,-157.07 183.16,-150.27"></polygon>
+<text text-anchor="start" x="301.32" y="-151" font-family="Helvetica,Arial,sans-serif" font-size="12.00"> Paper accepted:</text>
+<text text-anchor="start" x="301.32" y="-136.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00"> Archive Tier 1 data</text>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<section id="tier-1" class="level3">
+<h3 class="anchored" data-anchor-id="tier-1">Tier 1</h3>
+</section>
+<section id="tier-2" class="level3">
+<h3 class="anchored" data-anchor-id="tier-2">Tier 2</h3>
+</section>
+<section id="tier-3" class="level3">
+<h3 class="anchored" data-anchor-id="tier-3">Tier 3</h3>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -33,8 +33,8 @@ website:
       #   href: pages/schedule.qmd
       - text: SOPs
         href: pages/sops.qmd
-      # - text: Storage
-      #   href: pages/storage.qmd
+      - text: Storage
+        href: pages/storage.qmd
       # - text: Training
       #   href: pages/training.qmd
       # - text: Wiki

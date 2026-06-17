@@ -1,5 +1,110 @@
 ---
 title: Storage
+toc: true
 ---
 
 This page is under construction.
+
+## Overview
+
+To support diverse data management and computational needs, the ND-HNC -- in partnership with the Center for Research Computing (CRC) -- provides researchers with a shared, multi-tiered data storage infrastructure.
+
+These resources are categorized into three distinct tiers based on the data's activity level and backup requirements:
+
+| Storage Tier | Total Capacity | Mount Location | Primary Purpose | Backup Policy |
+|--------------|----------------|----------------|-----------------| --------------|
+| 1: Active Storage | 50 TB	| /groups/hnc | Intermediate storage of publication-critical files. | Nightly |
+| 2: Cold Storage | 250 TB | /goldfs/hnc | Long-term storage srcdata, rawdata, publication files. | Nightly |
+| 3: Scratch | 500 TB | TBD | Temporary workspace for intermediate generation. | **None** |
+
+Key Guidelines for Users:
+
+- Shared Resources: Because these capacities are shared across the ND-HNC community, please manage your allocations responsibly and migrate data to the appropriate tier as your project phases change.
+- Data Safety Warning: Tier 3 (Scratch) is intended only for transient data. Do not store critical or irreplaceable files here, as they cannot be recovered in the event of a system failure.
+
+## Access
+
+Any CRC user [account](https://docs.crc.nd.edu/new_user/obtain_account.html) that is part of the HNC group has full access to these resources. Contact [Nathan Muncy](mailto:nmuncy@nd.edu) to be added to the HNC group.
+
+## Dataflow
+
+Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, all users currently have full access to all resources. This reflects the fact that projects across labs will be in various stages at any one time.
+
+```{dot}
+digraph NDHNC_Data_Flow {
+    // General graph settings
+    fontname="Helvetica,Arial,sans-serif";
+    node [fontname="Helvetica,Arial,sans-serif", shape=box, style="filled", width=2.2];
+    edge [fontname="Helvetica,Arial,sans-serif", fontsize=12];
+    rankdir=LR; // Left-to-right flow
+
+    // Tier 2: Cold Storage (Blue Theme)
+    subgraph cluster_tier2 {
+        label = "Tier 2: Cold Storage\l(250 TB, Nightly Backups)\l";
+        style = "filled,dashed";
+        color = "#dbeafe";
+        fillcolor = "#eff6ff";
+        fontcolor = "#1e40af";
+
+        tier2_raw [label="Original Data:\l- srcdata DICOM\l- rawdata NIfTI\l- assessment metrics\l- task responses\l", fillcolor="#3b82f6", fontcolor="white"];
+        tier2_archive [label="Long-Term Archive:\l- project code\l- final dataframes\l- statistical output\l- figures\l", fillcolor="#1d4ed8", fontcolor="white"];
+    }
+
+    // Tier 3: Scratch Workspace (Red/Orange Theme - No Backups)
+    subgraph cluster_tier3 {
+        label = "Tier 3: Scratch\l(500 TB, NO BACKUPS)\l";
+        style = "filled,dashed";
+        color = "#fee2e2";
+        fillcolor = "#fef2f2";
+        fontcolor = "#991b1b";
+
+        tier3_proc [label="Intermediate Files:\l- Preprocessing\l- Subject models\l- Group models\l", fillcolor="#ef4444", fontcolor="white"];
+        tier3_trash [label="Purge / Delete\l", shape=box, fillcolor="#b91c1c", fontcolor="white"];
+    }
+
+    // Local store
+    subgraph cluster_local {
+        label = "Local Storage\l";
+        style = "filled";
+        color = "gray";
+        fillcolor = "lightgray";
+        fontcolor = "black";
+
+        local_store [label="Complicated Files:\l- Difficult generation\l- Long runtime\l", fillcolor="darkgray", fontcolor="black"];
+    }
+
+    // Tier 1: Active Storage (Green Theme)
+    subgraph cluster_tier1 {
+        label = "Tier 1: Active Storage\l(50 TB, Nightly Backups)\l";
+        style = "filled,dashed";
+        color = "#dcfce7";
+        fillcolor = "#f0fdf4";
+        fontcolor = "#166534";
+
+        tier1_active [label="End-of-Pipeline Files\l- Statistical Maps\l- Figures\l", fillcolor="#22c55e", fontcolor="white"];
+    }
+
+    // Data Flow Connections (Edges)
+
+    // 1. Initial transfer for processing
+    tier2_raw -> tier3_proc [label=" Transfer for\l analysis\l", color="#2563eb", fontcolor="#2563eb", weight=2];
+
+    // 2. Moving important results to Tier 1
+    tier3_proc -> tier1_active [label=" Move vital results\l (Pre-publication)\l", color="#16a34a", fontcolor="#16a34a", weight=2];
+
+    // 3. Cleanup of intermediates
+    tier3_proc -> tier3_trash [label=" Removed when\l unused\l", color="#dc2626", fontcolor="#dc2626", style="dotted"];
+    tier3_proc -> local_store [label=" Manage large\l data footprints\l", color="#dc2626", fontcolor="#dc2626"];
+
+    // 4. Post-publication archiving
+    tier1_active -> tier2_archive [label=" Paper accepted:\l Archive Tier 1 data\l", color="black", fontcolor="black"];
+}
+```
+
+## Details
+
+### Tier 1
+
+### Tier 2
+
+### Tier 3
