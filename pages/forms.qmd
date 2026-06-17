@@ -10,9 +10,9 @@ This page is under construction.
 
 | Number | Title | Link |
 |-----|-------|--------|
-| 001 | MRI Screener | [Document](../resources/forms/form_001_mri_screen.pdf){target="_blank"} |
-| 002 | ND-HNC Arrive | Document |
-| 003 | ND-HNC Map| Document |
+| 001 | MRI Safety | [Document](../resources/forms/form_001_mri_screen.pdf){target="_blank"} |
+| 002 | ND-HNC Arrive | [Document](../resources/forms/form_002_arrival.png){target="_blank"} |
+| 003 | ND-HNC Layout| [Document](../resources/sops/pics/nd-hnc_layout.png){target="_blank"} |
 
 </details>
 

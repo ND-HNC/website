@@ -4,15 +4,28 @@ toc: true
 toc-depth: 4
 ---
 
-## Facility Statements
+![Veldman Family Psychology Clinic](../media/vfpc_building.jpg){width=75% fig-align="left"}
 
-![](../media/veldman_render.jpg){width=75%}
+<!-- ## ND-HNC Resources
 
-### Veldman Family Psychology Clinic and Notre Dame Human Neuroimaging Center
+### Reception and Consult
 
-The proposed research will be conducted within the Veldman Family Psychology Clinic, a dedicated 35,000-square-foot clinical and research facility located in the lower level of the Notre Dame Human Neuroimaging Center. The facility provides a fully integrated environment for participant recruitment, clinical assessment, neuroimaging, electrophysiological recording, noninvasive brain stimulation, data processing, and collaborative scientific analysis.
+### Interview
 
-The clinic includes dedicated participant-facing spaces consisting of a reception area (117 ft$^2$), two consultation rooms (83 and 100 ft$^2$), two changing rooms (80 and 79 ft$^2$), and two interview rooms (110 and 112 ft$^2$). Research-dedicated spaces include a mock magnetic resonance imaging (MRI) scanner room (226 ft$^2$), two electroencephalogrphy (EEG) laboratories (157 and 161 ft$^2$), an EEG control room (104 ft$^2$), EEG preparation room (182 ft$^2$), MRI vestibule (308 ft$^2$), MRI storage room (179 ft$^2$), MRI scanner and control suite (~500 ft$^2$), a dedicated transcranial magnetic stimulation (TMS) laboratory (385 ft$^2$), image processing room (270 ft$^2$), conference room (257 ft$^2$), and three staff offices (121, 102, and 103 ft$^2$).
+### EEG Suite
+
+### TMS Suite
+
+### MRI Suite
+
+### Compute -->
+
+## Facility Statement
+### Notre Dame Human Neuroimaging Center
+
+The Veldman Family Psychology Clinic is a dedicated 35,000-square-foot clinical and research facility located South Bend, Indiana. The Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the clinic and consists of a fully fully integrated environment for participant recruitment, clinical assessment, neuroimaging, electrophysiological recording, noninvasive brain stimulation, data processing, and collaborative scientific analysis.
+
+The ND-HNC includes dedicated participant-facing spaces consisting of a reception area (117 ft$^2$), two consultation rooms (83 and 100 ft$^2$), two changing rooms (80 and 79 ft$^2$), and two interview rooms (110 and 112 ft$^2$). Research-dedicated spaces include a mock magnetic resonance imaging (MRI) scanner room (226 ft$^2$), two electroencephalogrphy (EEG) laboratories (157 and 161 ft$^2$), an EEG control room (104 ft$^2$), EEG preparation room (182 ft$^2$), MRI vestibule (308 ft$^2$), MRI storage room (179 ft$^2$), MRI scanner and control suite (~500 ft$^2$), a dedicated transcranial magnetic stimulation (TMS) laboratory (385 ft$^2$), image processing room (270 ft$^2$), conference room (257 ft$^2$), and three staff offices (121, 102, and 103 ft$^2$).
 
 
 ### Magnetic Resonance Imaging Resources
