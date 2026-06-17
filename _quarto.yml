@@ -17,26 +17,28 @@ website:
     contents:
       - text: Home
         href: index.qmd
-      - text: Compute
-        href: pages/compute.qmd
+      - text: Arrive
+        href: pages/arrive.qmd
+      # - text: Compute
+      #   href: pages/compute.qmd
       - text: Equipment
         href: pages/equipment.qmd
       - text: Facilities
         href: pages/facilities.qmd
       - text: Forms
         href: pages/forms.qmd
-      - text: Policies
-        href: pages/policies.qmd
-      - text: Schedule
-        href: pages/schedule.qmd
+      # - text: Policies
+      #   href: pages/policies.qmd
+      # - text: Schedule
+      #   href: pages/schedule.qmd
       - text: SOPs
         href: pages/sops.qmd
-      - text: Storage
-        href: pages/storage.qmd
-      - text: Training
-        href: pages/training.qmd
-      - text: Wiki
-        href: pages/wiki.qmd
+      # - text: Storage
+      #   href: pages/storage.qmd
+      # - text: Training
+      #   href: pages/training.qmd
+      # - text: Wiki
+      #   href: pages/wiki.qmd
     tools:
       - icon: link
         href: https://neuroimaging.nd.edu

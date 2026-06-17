@@ -7,33 +7,41 @@ toc: true
 #   freeze: auto
 ---
 
-<!-- TODO: Image of recent findings -->
-![Siemens 3T Cima.X arrives at Notre Dame!](media/veldman_mri.jpg){fig-align="left"}
+## Welcome
+Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page!
 
+![Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!](media/veldman_mri.jpg){fig-align="left"}
+
+
+## Join Us
+
+Follow these [arrival](pages/arrive.qmd) instructions for help locating the center, parking, and entry.
 
 ## About
 
-Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page!
+Our goal is to provide resources and support for every step of your research program:
 
-Our aim is to provide resources and support for every step of your research program, from grant application to publication, and the many technical details in between:
-
-- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Understand available resources
-- Training: Get access by scheduling and maintaining your training
-- Schedule: Book facilities and billing
-- Data collection
+- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Understand available resources.
+- Training: Learn to use the center.
+- Schedule: Book facilities.
+- Data collection: Operate research hardware.
   <!-- - Mock
   - Stimulus computer
   - DICOM computer -->
-- Compute:
+- Compute: Resources for processing data.
   <!-- - Local machines
   - Local rack
   - Cluster resources -->
-- Storage
-- Publications
+- Storage: Resources for storing various file types.
 
-## Additional Materials
+## Operation Documents
 
-- [SOPs](pages/sops.qmd): Standard Operating Policies
-- Policies: Center policies
-- [Forms](pages/forms.qmd): Participant screener, operational forms
-- Wiki: Programming, data, and pipeline help
+- [Forms](pages/forms.qmd): MRI Safety screener, other helpful documents.
+- Policies: ND-HNC policies for use.
+- [SOPs](pages/sops.qmd): Standard Operating Policies.
+
+## Additional Resources
+
+- Grants: Awards to teams invovling the ND-HNC.
+- Publications: Papers from teams that collected data at the ND-HNC.
+- Wiki: Programming, data, and pipeline help.

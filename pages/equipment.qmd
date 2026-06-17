@@ -4,7 +4,20 @@ toc: true
 toc-depth: 4
 ---
 
-## Equpiment Statements
+<!-- ## ND-HNC Equpiment
+
+### Nordic
+
+### Stimulus Control
+
+### DICOM Capture
+
+### MRI
+
+### Compute -->
+
+
+## Equipment Statement
 
 ![](../media/cima.jpg){width=50%}
 
