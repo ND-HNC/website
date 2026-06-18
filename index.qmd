@@ -15,7 +15,7 @@ Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Op
 
 ## Join Us
 
-Follow these [arrival](pages/arrive.qmd) instructions for help locating the center, parking, and entry.
+Follow these [arrival](pages/directions.qmd) instructions for help locating the center, parking, and entry.
 
 ## About
 
