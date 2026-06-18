@@ -68,13 +68,43 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Compute – ND-HNC">
 <meta property="og:description" content="">
+<meta property="og:image" content="../media/brain_compute.jpg">
 <meta property="og:site_name" content="ND-HNC">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Compute</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/compute.html">Compute</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -121,8 +151,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/arrive.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Arrive</span></a>
+  <a href="../pages/directions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Directions</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/compute.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Compute</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -145,6 +181,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../pages/people.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">People</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../pages/sops.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">SOPs</span></a>
   </div>
@@ -160,7 +202,20 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">Access</a></li>
+  <li><a href="#local-workstations" id="toc-local-workstations" class="nav-link" data-scroll-target="#local-workstations">Local Workstations</a></li>
+  <li><a href="#dedicated-server" id="toc-dedicated-server" class="nav-link" data-scroll-target="#dedicated-server">Dedicated Server</a></li>
+  <li><a href="#hpc-cluster" id="toc-hpc-cluster" class="nav-link" data-scroll-target="#hpc-cluster">HPC Cluster</a></li>
+  <li><a href="#policies" id="toc-policies" class="nav-link" data-scroll-target="#policies">Policies</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -183,15 +238,74 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page is under construction.</p>
-<section id="compute-room" class="level2">
-<h2 class="anchored" data-anchor-id="compute-room">Compute Room</h2>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="../media/brain_compute.jpg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer at <a href="https://wallpapercave.com/">wallpapercave.com</a></figcaption>
+</figure>
+</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>The Notre Dame Human Neuroimaging Center (ND-HNC) provides computational resources to support a wide spectrum of neuroimaging analyses. Our resources are structured into three levels to accommodate everything from initial data exploration and single-subject processing to intensive, large-scale group analyses.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Resource Type</th>
+<th>Location</th>
+<th>Hardware</th>
+<th>Primary Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Local Workstations</td>
+<td>ND-HNC B30</td>
+<td>Dell Pro Max Linux Towers, <br>Mac Studios</td>
+<td>Sandbox testing, single-subject processing, pipeline development.</td>
+</tr>
+<tr class="even">
+<td>Dedicated Server</td>
+<td>vfpc-mri-rh-l01.campus.nd.edu</td>
+<td>Dell Rack (56-core Intel Xeon, 256GB RAM, 4TB Storage)</td>
+<td>Resource-intensive local processing, multi-subject parallel tasks.</td>
+</tr>
+<tr class="odd">
+<td>HPC Cluster</td>
+<td><a href="https://docs.crc.nd.edu/" target="_blank">CRC</a></td>
+<td>1280 Priority-Access CPUs</td>
+<td>Large-scale datasets, massive parallelization, complex modeling.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="crc-cpus" class="level2">
-<h2 class="anchored" data-anchor-id="crc-cpus">CRC CPUs</h2>
+<section id="access" class="level2">
+<h2 class="anchored" data-anchor-id="access">Access</h2>
+<ul>
+<li>Local workstations, dedicated server: contact <a href="../pages/people.html">Nathan Muncy</a>.</li>
+<li>HPC: Any CRC user <a href="https://docs.crc.nd.edu/new_user/obtain_account.html">account</a> that is part of the HNC group has full access to these resources (contact <a href="../pages/people.html">Nathan Muncy</a> to be added to the HNC group).</li>
+</ul>
 </section>
-<section id="crc-storage" class="level2">
-<h2 class="anchored" data-anchor-id="crc-storage">CRC Storage</h2>
+<section id="local-workstations" class="level2">
+<h2 class="anchored" data-anchor-id="local-workstations">Local Workstations</h2>
+<p>The ND-HNC provides a compute room (B30) populated with high-performance local workstations for MRI researchers. This helps avoid startup issues of hardware acquisition and software installations, and removes the overhead of cluster computing when processing data for only a few subjects. These workstations also support code development and sandbox testing of pipelines before their deployment on the cluster.</p>
+</section>
+<section id="dedicated-server" class="level2">
+<h2 class="anchored" data-anchor-id="dedicated-server">Dedicated Server</h2>
+<p>For resource-intensive processes that exceed standard desktop capabilities, the ND-HNC features a dedicated Dell rack server. This centralized, high-capacity machine is equipped with an Intel Xeon Gold 6330 CPU (56 cores @ 2.00GHz), 256GB of RAM, and 4TB of high-speed local storage. This is ideal for multi-subject parallel preprocessing or running intensive local pipelines that require substantial memory and multi-core processing.</p>
+</section>
+<section id="hpc-cluster" class="level2">
+<h2 class="anchored" data-anchor-id="hpc-cluster">HPC Cluster</h2>
+<p>To support large-scale studies, advanced machine learning applications, and complex network modeling the ND-HNC leverages the power of the university’s broader compute infrastructure. We have purchased 1,280 dedicated CPUs for the Notre Dame Center for Research Computing (<a href="https://crc.nd.edu/">CRC</a>) cluster, granting members of our group priority access. These resources facilitate massive parallelization, enabling our community to scale their analyses for large datasets or complex worfklows.</p>
+</section>
+<section id="policies" class="level2">
+<h2 class="anchored" data-anchor-id="policies">Policies</h2>
+<ol type="1">
+<li>Personal Health Information (PHI) data is <strong>NOT</strong> permitted on the HPC Cluster.</li>
+<li>Coordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g.&nbsp;<span class="math inline">\(&gt;\)</span> 400 CPUs on the HPC cluster).
+<ul>
+<li>This helps to ensure that all deadlines can be met (e.g.&nbsp;first-year or M.Sc. projects, revise-and-resubmit).</li>
+</ul></li>
+</ol>
 
 
 </section>

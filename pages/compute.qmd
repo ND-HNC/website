@@ -1,11 +1,39 @@
 ---
 title: Compute
+toc: true
 ---
 
-This page is under construction.
+![Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer at <a href="https://wallpapercave.com/">wallpapercave.com</a>](../media/brain_compute.jpg){width=75% fig-align="left"}
 
-## Compute Room
+## Overview
 
-## CRC CPUs
+The Notre Dame Human Neuroimaging Center (ND-HNC) provides computational resources to support a wide spectrum of neuroimaging analyses. Our resources are structured into three levels to accommodate everything from initial data exploration and single-subject processing to intensive, large-scale group analyses.
 
-## CRC Storage
+| Resource Type | Location | Hardware | Primary Purpose |
+|---------------|--------|----------|-----------------|
+| Local Workstations | ND-HNC B30 | Dell Pro Max Linux Towers, <br>Mac Studios | Sandbox testing, single-subject processing, pipeline development. |
+| Dedicated Server | vfpc-mri-rh-l01.campus.nd.edu | Dell Rack (56-core Intel Xeon, 256GB RAM, 4TB Storage) | Resource-intensive local processing, multi-subject parallel tasks. |
+| HPC Cluster | [CRC](https://docs.crc.nd.edu/){target="_blank"} | 1280 Priority-Access CPUs | Large-scale datasets, massive parallelization, complex modeling. |
+
+## Access
+
+- Local workstations, dedicated server: contact [Nathan Muncy](people.qmd).
+- HPC: Any CRC user [account](https://docs.crc.nd.edu/new_user/obtain_account.html) that is part of the HNC group has full access to these resources (contact [Nathan Muncy](people.qmd) to be added to the HNC group).
+
+## Local Workstations
+
+The ND-HNC provides a compute room (B30) populated with high-performance local workstations for MRI researchers. This helps avoid startup issues of hardware acquisition and software installations, and removes the overhead of cluster computing when processing data for only a few subjects. These workstations also support code development and sandbox testing of pipelines before their deployment on the cluster.
+
+## Dedicated Server
+
+For resource-intensive processes that exceed standard desktop capabilities, the ND-HNC features a dedicated Dell rack server. This centralized, high-capacity machine is equipped with an Intel Xeon Gold 6330 CPU (56 cores @ 2.00GHz), 256GB of RAM, and 4TB of high-speed local storage. This is ideal for multi-subject parallel preprocessing or running intensive local pipelines that require substantial memory and multi-core processing.
+
+## HPC Cluster
+
+To support large-scale studies, advanced machine learning applications, and complex network modeling the ND-HNC leverages the power of the university's broader compute infrastructure. We have purchased 1,280 dedicated CPUs for the Notre Dame Center for Research Computing ([CRC](https://crc.nd.edu/)) cluster, granting members of our group priority access. These resources facilitate massive parallelization, enabling our community to scale their analyses for large datasets or complex worfklows.
+
+## Policies
+
+1. Personal Health Information (PHI) data is __NOT__ permitted on the HPC Cluster.
+1. Coordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. $>$ 400 CPUs on the HPC cluster).
+    - This helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).

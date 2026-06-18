@@ -28,11 +28,11 @@ Our goal is to provide resources and support for every step of your research pro
   <!-- - Mock
   - Stimulus computer
   - DICOM computer -->
-- Compute: Resources for processing data.
+- [Compute](pages/compute.qmd): Develop codebase, sandbox testing, local computing, parallelization.
   <!-- - Local machines
   - Local rack
   - Cluster resources -->
-- [Storage](pages/storage.qmd): Resources for storing various file types.
+- [Storage](pages/storage.qmd): Keep and manage data at various project stages.
 
 ## Operation Documents
 
