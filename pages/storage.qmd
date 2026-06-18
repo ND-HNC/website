@@ -1,5 +1,145 @@
 ---
 title: Storage
+toc: true
 ---
 
-This page is under construction.
+![Credit: <a href="https://wallpapers.com/wallpapers/storage-computer-hard-drives-5pguoy6qvy239ttm.html">Hard Drives in Abstract Computer Storage</a> by ken123 at <a href="https://wallpapers.com/">Wallpapers.com</a>](../media/data_storage.jpg){width=75% fig-align="left"}
+
+## Overview
+
+To support diverse data management and computational needs, the ND-HNC has partnered with the Center for Research Computing ([CRC](https://crc.nd.edu/)) to provide researchers with a shared, multi-tiered data storage infrastructure.
+
+These resources are categorized into three distinct tiers based on the data's activity level and backup requirements:
+
+| Storage Tier | Total Capacity | Mount Location | Primary Purpose | Backup Policy |
+|--------------|----------------|----------------|-----------------| --------------|
+| Active Storage | 50 TB	| /groups/hnc | Intermediate storage of publication-critical files. | Nightly |
+| Cold Storage | 250 TB | /goldfs/hnc | Long-term storage srcdata, rawdata, publication files. | Nightly |
+| Scratch | 500 TB | TBD | Temporary workspace for intermediate generation. | **None** |
+
+<!-- Key Guidelines for Users:
+
+- As storage is shared across the ND-HNC community, please:
+    - Manage your allocations responsibly,
+    - Migrate data to the appropriate tier as your project progresses (see Dataflow).
+- Compute nodes do not have access to files stored in Tier 2.
+- Tier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here. -->
+
+## Access
+
+- Any CRC user [account](https://docs.crc.nd.edu/new_user/obtain_account.html) that is part of the HNC group has full access to these resources.
+- Contact [Nathan Muncy](people.qmd) to be added to the HNC group.
+
+## Usage
+
+Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow __all users to have full access to all resources__. Such an approach:
+
+- Ensures there is sufficient capacity to support large projects (e.g. HCP data).
+- Supports multiple projects at various stages of completion.
+- Requires active data management and coordination among the ND-HNC group.
+
+As projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:
+
+```{dot}
+//| fig-width: 9
+//| fig-height: 6
+digraph NDHNC_Data_Flow {
+    // General graph settings
+    fontname="Helvetica,Arial,sans-serif";
+    node [fontname="Helvetica,Arial,sans-serif", shape=box, style="filled", width=2.2];
+    edge [fontname="Helvetica,Arial,sans-serif", fontsize=12];
+    rankdir=LR; // Left-to-right flow
+
+    // Tier 2: Cold Storage (Blue Theme)
+    subgraph cluster_tier2 {
+        label = "Cold Storage\l(250 TB, Nightly Backups)\l";
+        style = "filled";
+        color = "#dbeafe";
+        fillcolor = "#eff6ff";
+        fontcolor = "#1e40af";
+
+        tier2_raw [label="Original Data:\l- srcdata DICOM\l- rawdata NIfTI\l- Assessment metrics\l- Task responses\l", fillcolor="#3b82f6", fontcolor="white"];
+        tier2_archive [label="Long-Term Archive:\l- Project code\l- Final dataframes\l- Statistical output\l- Figures\l", fillcolor="#1d4ed8", fontcolor="white"];
+    }
+
+    // Tier 3: Scratch Workspace (Red/Orange Theme - No Backups)
+    subgraph cluster_tier3 {
+        label = "Scratch Workspace\l(500 TB, NO BACKUPS)\l";
+        style = "filled";
+        color = "#fee2e2";
+        fillcolor = "#fef2f2";
+        fontcolor = "#991b1b";
+
+        tier3_proc [label="Intermediate Data:\l- Preprocessing\l- Subject models\l- Group models\l", fillcolor="#ef4444", fontcolor="white"];
+        tier3_trash [label="Purge / Delete\l", shape=box, fillcolor="#b91c1c", fontcolor="white"];
+    }
+
+    // Local store
+    subgraph cluster_local {
+        label = "Local Storage\l";
+        style = "filled";
+        color = "gray";
+        fillcolor = "lightgray";
+        fontcolor = "black";
+
+        local_store [label="Complicated Data:\l- Difficult generation\l- Long runtime\l", fillcolor="darkgray", fontcolor="black"];
+    }
+
+    // Tier 1: Active Storage (Green Theme)
+    subgraph cluster_tier1 {
+        label = "Active Storage\l(50 TB, Nightly Backups)\l";
+        style = "filled";
+        color = "#dcfce7";
+        fillcolor = "#f0fdf4";
+        fontcolor = "#166534";
+
+        tier1_active [label="Final Data:\l- Statistical Maps\l- Figures\l", fillcolor="#22c55e", fontcolor="white"];
+    }
+
+    // Data Flow Connections (Edges)
+
+    // 1. Initial transfer for processing
+    tier2_raw -> tier3_proc [label=" Transfer for\l analysis\l", color="#2563eb", fontcolor="#2563eb", weight=2];
+
+    // 2. Moving important results to Tier 1
+    tier3_proc -> tier1_active [label=" Results\l (pre-publication)\l", color="#16a34a", fontcolor="#16a34a", weight=2];
+
+    // 3. Cleanup of intermediates
+    tier3_proc -> tier3_trash [label=" Removed when\l unused\l", color="#dc2626", fontcolor="#dc2626", style="dotted"];
+    tier3_proc -> local_store [label=" Manage large\l data footprints\l", color="black", fontcolor="black", dir="both"];
+
+    // 4. Post-publication archiving
+    tier1_active -> tier2_archive [label=" Paper accepted:\l Archive Tier 1 data\l", color="black", fontcolor="black"];
+}
+```
+
+1. Cold Storage provides a secure location for organized (e.g. [BIDS](https://bids-specification.readthedocs.io/en/stable/)) original data.
+1. Data is transferred to Scratch for preprocessing and modelling.
+    - Unused intermediates are purged.
+    - Long-term storage of complicated intermediates are managed locally.
+1. Final results are transferred to Active Storage for manuscript generation.
+1. Upon publication, files in Active Storage are transferred to Cold Storage.
+
+Recommendations:
+
+- Build the dataflow into your workflow/codebase.
+- Maintain only the requisite intermediates for the next pipeline step.
+
+## Policies
+
+1. Storage of Personal Health Information (PHI) data is __NOT__ permitted.
+1. Users or groups using a disproportionate amount of resources will be required to reduce their footprint or  ___risk losing access___.
+1. Intermediate Data can be regenerated from Original Data + Code + time and should not be stored in Cold or Active Storage.
+1. Data stored in Scratch should be for active analyses only.
+    - Storing intermediates because they _might_ be useful is not permitted; these data should be stored locally.
+1. Storing third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.
+    - Only the Final Data should be maintained.
+
+
+<!-- ## Details
+
+### Tier 1
+
+### Tier 2
+
+### Tier 3 -->

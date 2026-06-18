@@ -5,21 +5,43 @@ title: People
 
 ## Staff
 
-![John Doe, Ph.D.](../media/people/minion.jpg){width=100, fig-align="left"}
+::::: {.columns}
 
-**Position**: MRI Physicist
+:::: {.column width="33%"}
+![](../media/people/muncy.jpg){width=80%}
+
+::: {style="text-align: left;"}
+| Nathan Muncy, Ph.D.
+| MRI Analyst
+| E: [nmuncy@nd.edu](mailto:nmuncy@nd.edu)
+:::
+::::
+
+:::: {.column width="33%"}
+![](../media/nd_monogram_gold.jpg){width=65%}
+
+::: {style="text-align: left;"}
+| Alex Musser, M.Sc.
+| Operations Coordinator
+| E: [amusser2@nd.edu](mailto:amusser2@nd.edu)
+:::
+::::
+:::::
+
+<!-- ![John Doe, Ph.D.](../media/people/minion.jpg){width=100, fig-align="left"}
+
+**Position**: MRI Physicist -->
 
 
-![Nathan Muncy, Ph.D.](../media/people/minion.jpg){width=100, fig-align="left"}
+<!-- ![Nathan Muncy, Ph.D.](../media/people/muncy.jpg){width=30% fig-align="left"}
 
-**Position**: MRI Analyst
+MRI Analyst | [nmuncy@nd.edu](mailto:nmuncy@nd.edu) | B28 Veldman Family Psychology Clinic -->
 
+<!-- ![John Doe](../media/people/minion.jpg){width=100, fig-align="left"}
 
-![John Doe](../media/people/minion.jpg){width=100, fig-align="left"}
+**Position**: MRI Technologist -->
 
-**Position**: MRI Technologist
-
-
+<!--
 ![Alex Musser](../media/people/minion.jpg){width=100, fig-align="left"}
 
-**Position**: Operations Coordinator
+**Position**: Operations Coordinator -->

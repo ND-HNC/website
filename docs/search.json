@@ -11,7 +11,50 @@
     "href": "pages/storage.html",
     "title": "Storage",
     "section": "",
-    "text": "This page is under construction."
+    "text": "Credit: Hard Drives in Abstract Computer Storage by ken123 at Wallpapers.com",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#overview",
+    "href": "pages/storage.html#overview",
+    "title": "Storage",
+    "section": "Overview",
+    "text": "Overview\nTo support diverse data management and computational needs, the ND-HNC has partnered with the Center for Research Computing (CRC) to provide researchers with a shared, multi-tiered data storage infrastructure.\nThese resources are categorized into three distinct tiers based on the data’s activity level and backup requirements:\n\n\n\n\n\n\n\n\n\n\nStorage Tier\nTotal Capacity\nMount Location\nPrimary Purpose\nBackup Policy\n\n\n\n\nActive Storage\n50 TB\n/groups/hnc\nIntermediate storage of publication-critical files.\nNightly\n\n\nCold Storage\n250 TB\n/goldfs/hnc\nLong-term storage srcdata, rawdata, publication files.\nNightly\n\n\nScratch\n500 TB\nTBD\nTemporary workspace for intermediate generation.\nNone",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#access",
+    "href": "pages/storage.html#access",
+    "title": "Storage",
+    "section": "Access",
+    "text": "Access\n\nAny CRC user account that is part of the HNC group has full access to these resources.\nContact Nathan Muncy to be added to the HNC group.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#usage",
+    "href": "pages/storage.html#usage",
+    "title": "Storage",
+    "section": "Usage",
+    "text": "Usage\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to have full access to all resources. Such an approach:\n\nEnsures there is sufficient capacity to support large projects (e.g. HCP data).\nSupports multiple projects at various stages of completion.\nRequires active data management and coordination among the ND-HNC group.\n\nAs projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_tier1\n\nActive Storage\n(50 TB, Nightly Backups)\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier3\n\nScratch Workspace\n(500 TB, NO BACKUPS)\n\n\ncluster_tier2\n\nCold Storage\n(250 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- Assessment metrics\n- Task responses\n\n\n\ntier3_proc\n\nIntermediate Data:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- Project code\n- Final dataframes\n- Statistical output\n- Figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Data:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nFinal Data:\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Results\n (pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive Tier 1 data\n\n\n\n\n\n\n\n\n\nCold Storage provides a secure location for organized (e.g. BIDS) original data.\nData is transferred to Scratch for preprocessing and modelling.\n\nUnused intermediates are purged.\nLong-term storage of complicated intermediates are managed locally.\n\nFinal results are transferred to Active Storage for manuscript generation.\nUpon publication, files in Active Storage are transferred to Cold Storage.\n\nRecommendations:\n\nBuild the dataflow into your workflow/codebase.\nMaintain only the requisite intermediates for the next pipeline step.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#policies",
+    "href": "pages/storage.html#policies",
+    "title": "Storage",
+    "section": "Policies",
+    "text": "Policies\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data + Code + time and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\n\nStoring intermediates because they might be useful is not permitted; these data should be stored locally.\n\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.",
+    "crumbs": [
+      "Storage"
+    ]
   },
   {
     "objectID": "pages/schedule.html",
@@ -25,14 +68,10 @@
     "href": "pages/people.html",
     "title": "People",
     "section": "",
-    "text": "John Doe, Ph.D.\n\n\nPosition: MRI Physicist\n\n\n\nNathan Muncy, Ph.D.\n\n\nPosition: MRI Analyst\n\n\n\nJohn Doe\n\n\nPosition: MRI Technologist\n\n\n\nAlex Musser\n\n\nPosition: Operations Coordinator"
-  },
-  {
-    "objectID": "pages/people.html#staff",
-    "href": "pages/people.html#staff",
-    "title": "People",
-    "section": "",
-    "text": "John Doe, Ph.D.\n\n\nPosition: MRI Physicist\n\n\n\nNathan Muncy, Ph.D.\n\n\nPosition: MRI Analyst\n\n\n\nJohn Doe\n\n\nPosition: MRI Technologist\n\n\n\nAlex Musser\n\n\nPosition: Operations Coordinator"
+    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
+    "crumbs": [
+      "People"
+    ]
   },
   {
     "objectID": "pages/facilities.html",
@@ -59,28 +98,70 @@
     "href": "pages/compute.html",
     "title": "Compute",
     "section": "",
-    "text": "This page is under construction."
+    "text": "Credit: Memory Wallpaper by Rhys Mercer at wallpapercave.com",
+    "crumbs": [
+      "Compute"
+    ]
   },
   {
-    "objectID": "pages/compute.html#compute-room",
-    "href": "pages/compute.html#compute-room",
+    "objectID": "pages/compute.html#overview",
+    "href": "pages/compute.html#overview",
     "title": "Compute",
-    "section": "Compute Room",
-    "text": "Compute Room"
+    "section": "Overview",
+    "text": "Overview\nThe Notre Dame Human Neuroimaging Center (ND-HNC) provides computational resources to support a wide spectrum of neuroimaging analyses. Our resources are structured into three levels to accommodate everything from initial data exploration and single-subject processing to intensive, large-scale group analyses.\n\n\n\nResource Type\nLocation\nHardware\nPrimary Purpose\n\n\n\n\nLocal Workstations\nND-HNC B30\nDell Pro Max Linux Towers, Mac Studios\nSandbox testing, single-subject processing, pipeline development.\n\n\nDedicated Server\nvfpc-mri-rh-l01.campus.nd.edu\nDell Rack (56-core Intel Xeon, 256GB RAM, 4TB Storage)\nResource-intensive local processing, multi-subject parallel tasks.\n\n\nHPC Cluster\nCRC\n1280 Priority-Access CPUs\nLarge-scale datasets, massive parallelization, complex modeling.",
+    "crumbs": [
+      "Compute"
+    ]
   },
   {
-    "objectID": "pages/compute.html#crc-cpus",
-    "href": "pages/compute.html#crc-cpus",
+    "objectID": "pages/compute.html#access",
+    "href": "pages/compute.html#access",
     "title": "Compute",
-    "section": "CRC CPUs",
-    "text": "CRC CPUs"
+    "section": "Access",
+    "text": "Access\n\nLocal workstations, dedicated server: contact Nathan Muncy.\nHPC: Any CRC user account that is part of the HNC group has full access to these resources (contact Nathan Muncy to be added to the HNC group).",
+    "crumbs": [
+      "Compute"
+    ]
   },
   {
-    "objectID": "pages/compute.html#crc-storage",
-    "href": "pages/compute.html#crc-storage",
+    "objectID": "pages/compute.html#local-workstations",
+    "href": "pages/compute.html#local-workstations",
     "title": "Compute",
-    "section": "CRC Storage",
-    "text": "CRC Storage"
+    "section": "Local Workstations",
+    "text": "Local Workstations\nThe ND-HNC provides a compute room (B30) populated with high-performance local workstations for MRI researchers. This helps avoid startup issues of hardware acquisition and software installations, and removes the overhead of cluster computing when processing data for only a few subjects. These workstations also support code development and sandbox testing of pipelines before their deployment on the cluster.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#dedicated-server",
+    "href": "pages/compute.html#dedicated-server",
+    "title": "Compute",
+    "section": "Dedicated Server",
+    "text": "Dedicated Server\nFor resource-intensive processes that exceed standard desktop capabilities, the ND-HNC features a dedicated Dell rack server. This centralized, high-capacity machine is equipped with an Intel Xeon Gold 6330 CPU (56 cores @ 2.00GHz), 256GB of RAM, and 4TB of high-speed local storage. This is ideal for multi-subject parallel preprocessing or running intensive local pipelines that require substantial memory and multi-core processing.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#hpc-cluster",
+    "href": "pages/compute.html#hpc-cluster",
+    "title": "Compute",
+    "section": "HPC Cluster",
+    "text": "HPC Cluster\nTo support large-scale studies, advanced machine learning applications, and complex network modeling the ND-HNC leverages the power of the university’s broader compute infrastructure. We have purchased 1,280 dedicated CPUs for the Notre Dame Center for Research Computing (CRC) cluster, granting members of our group priority access. These resources facilitate massive parallelization, enabling our community to scale their analyses for large datasets or complex worfklows.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#policies",
+    "href": "pages/compute.html#policies",
+    "title": "Compute",
+    "section": "Policies",
+    "text": "Policies\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
+    "crumbs": [
+      "Compute"
+    ]
   },
   {
     "objectID": "pages/affiliations.html",
@@ -118,6 +199,13 @@
     "text": "Local Community\nGroup 1"
   },
   {
+    "objectID": "media/people/muncy.html",
+    "href": "media/people/muncy.html",
+    "title": "Nathan Muncy, Ph.D.",
+    "section": "",
+    "text": "MRI Analyst\nE: nmuncy@nd.edu\nO: B28 Veldman Family Psychology Clinic"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Notre Dame Human Neuroimaging Center",
@@ -152,7 +240,7 @@
     "href": "index.html#about",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "About",
-    "text": "About\nOur goal is to provide resources and support for every step of your research program:\n\nFacilities and Equipment: Understand available resources.\nTraining: Learn to use the center.\nSchedule: Book facilities.\nData collection: Operate research hardware. \nCompute: Resources for processing data. \nStorage: Resources for storing various file types.",
+    "text": "About\nOur goal is to provide resources and support for every step of your research program:\n\nFacilities and Equipment: Understand available resources.\nTraining: Learn to use the center.\nSchedule: Book facilities.\nData collection: Operate research hardware. \nCompute: Develop codebase, sandbox testing, local computing, parallelization. \nStorage: Keep and manage data at various project stages.",
     "crumbs": [
       "Home"
     ]
@@ -187,41 +275,51 @@
   {
     "objectID": "pages/arrive.html",
     "href": "pages/arrive.html",
-    "title": "Arrive",
+    "title": "Directions",
     "section": "",
     "text": "Veldman Family Psychology Clinic",
     "crumbs": [
-      "Arrive"
+      "Directions"
     ]
   },
   {
     "objectID": "pages/arrive.html#location",
     "href": "pages/arrive.html#location",
-    "title": "Arrive",
+    "title": "Directions",
     "section": "Location",
     "text": "Location\nThe Notre Dame Human Neuroimaging Center consists of the Lower Level of the Veldman Family Psychology Clinic, in downtown South Bend:\n\n\nInteractive Map",
     "crumbs": [
-      "Arrive"
+      "Directions"
     ]
   },
   {
     "objectID": "pages/arrive.html#parking",
     "href": "pages/arrive.html#parking",
-    "title": "Arrive",
+    "title": "Directions",
     "section": "Parking",
     "text": "Parking\nParking is available for free on the north side of the building.",
     "crumbs": [
-      "Arrive"
+      "Directions"
     ]
   },
   {
     "objectID": "pages/arrive.html#entry",
     "href": "pages/arrive.html#entry",
-    "title": "Arrive",
+    "title": "Directions",
     "section": "Entry",
-    "text": "Entry\nEnter through the building’s main (north) door. Access to reception is restricted – it is possible to page the receptionist by pressing the yellow “Call” button. Research personnel will meet you in the main reception.",
+    "text": "Entry\n\nEnter through the building’s main (north) door.\nAccess to reception is restricted – it is possible to page the receptionist by pressing the yellow “Call” button.\nResearch personnel will meet you in the main reception.",
     "crumbs": [
-      "Arrive"
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/arrive.html#researchers",
+    "href": "pages/arrive.html#researchers",
+    "title": "Directions",
+    "section": "Researchers",
+    "text": "Researchers\nFor access as a researcher, please reference the following SOPs:\n\nSOP 301: Building Access.\nSOP 202: Zone Access.",
+    "crumbs": [
+      "Directions"
     ]
   },
   {
@@ -305,5 +403,65 @@
     "title": "Training",
     "section": "",
     "text": "This page is under construction."
+  },
+  {
+    "objectID": "pages/people.html#staff",
+    "href": "pages/people.html#staff",
+    "title": "People",
+    "section": "",
+    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
+    "crumbs": [
+      "People"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html",
+    "href": "pages/directions.html",
+    "title": "Directions",
+    "section": "",
+    "text": "Veldman Family Psychology Clinic",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#location",
+    "href": "pages/directions.html#location",
+    "title": "Directions",
+    "section": "Location",
+    "text": "Location\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, in downtown South Bend:\n\n\nInteractive Map",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#parking",
+    "href": "pages/directions.html#parking",
+    "title": "Directions",
+    "section": "Parking",
+    "text": "Parking\nParking is available for free on the north side of the building (access from Cedar St).",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#entry",
+    "href": "pages/directions.html#entry",
+    "title": "Directions",
+    "section": "Entry",
+    "text": "Entry\n\nEnter through the building’s main (north) door.\nAccess to reception is restricted – it is possible to page the receptionist by pressing the yellow “Call” button.\nResearch personnel will meet you in the main reception area and escort you to the ND-HNC.",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#researchers",
+    "href": "pages/directions.html#researchers",
+    "title": "Directions",
+    "section": "Researchers",
+    "text": "Researchers\nFor access as a researcher, please reference the following SOPs:\n\nSOP 301: Building Access.\nSOP 202: Zone Access.",
+    "crumbs": [
+      "Directions"
+    ]
   }
 ]
