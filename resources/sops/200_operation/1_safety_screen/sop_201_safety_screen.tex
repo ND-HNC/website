@@ -1,0 +1,156 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\setlength{\parindent}{0pt}
+\usepackage[bookmarks=true, colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+\usepackage{parskip}
+
+% Link to other SOPs, forms
+\input{../../def_definitions.tex}
+
+% figures and tables
+\usepackage{graphicx}
+\graphicspath{ {../../pics} }
+\usepackage{rotating}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{caption}
+\DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
+
+
+\renewcommand{\headrulewidth}{0pt}
+% \newdateformat{yearmonth}{\THEYEAR-\THEMONTH-\THEDAY}
+\pagestyle{fancy}
+\fancyhead[L]{}
+\fancyhead[R]{Approved: TBD}
+\fancyfoot[C]{}
+\fancyfoot[L]{ND-HNC SOP 201: v.0.1.0}
+\fancyfoot[R]{p. \thepage /\pageref*{LastPage}}
+
+
+% start document
+\begin{document}
+
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+\begin{center}
+	\textbf{\Large SOP 201: MRI Safety Screen}\\
+	\hrulefill
+\end{center}
+
+
+\section{Summary}
+All individuals must be screened before they enter the Magnet Room. This document establishes MRI Safety screening procedures at the Notre Dame Human Neuroimaging Center (ND-HNC).
+
+
+\section{Scope}
+These policies apply to all individuals who enter Zones 3 \& 4 (B15, B17, B17a; Fig. \ref{fig:mri-zones}). Emergency response personnel are exempt during an emergency response \textbf{ONLY IF} the door to the Magnet Room is closed and locked with a key.
+
+
+\section{Definitions}
+
+\begin{itemize}
+	\item \MagnetRoom
+	\item \NDHNC
+	\item \Operator
+	\item \Visitor
+\end{itemize}
+
+\section{Notes}
+
+None.
+
+\section{Policies \& Procedures}
+
+The purpose of MRI Safety screening is to determine whether entry into the Magnet Room poses a health or safety risk. Accordingly, all individuals entering Zones 3 \& 4 must be screened according to the procedures below.
+
+%
+\subsection{MRI Prescreen}
+\label{ssec:mri-pre}
+Prior to the Visitor's arrival at the ND-HNC, research personnel conduct a prescreen to ensure that the Visitor does not have any MRI contraindications:
+
+\begin{itemize}
+    \item Non-MRI compatible medical implants.
+    \begin{itemize}
+        \item \textbf{Note}: Visitors with an implant must present documentation from their surgeon's office that the device is MRI compatible.
+        \item \textbf{IUDs}: North American non-metallic intrauterine devices (e.g. Mirena) are approved. Metallic (e.g. Cu) and IUDs from other regions must be approved by the MRI Technologist.
+    \end{itemize}
+    \item Other metal embedded in the body (e.g. shrapnel, unremovable piercings).
+    \item Pregnancy.
+    \item Claustrophobia (the Mock can be used to assess comfort levels).
+    \item Tattoo on face or neck (including permanent makeup).
+\end{itemize}
+
+%
+\subsection{MRI Preparation}
+\label{ssec:mri-prep}
+To facilitate efficient operations and MRI compatibility, the Visitor should be informed of the following restrictions to guide their preparations to enter the Magnet Room:
+
+\begin{itemize}
+    \item Clothing should be free of metallic objects and clasps; bras should not have an underwire. Anti-odorant materials (e.g. Lululemon's Silverescent) are not MRI compatible.
+    \item Jewelry will need to be removed, including piercings if they are metallic.
+    \item Cosmetics such as colored contacts, magnetic lashes, and makeup or nail polish with glitter will have to be removed.
+    \item Hair must be free of metallic clips, barrettes, etc.
+\end{itemize}
+
+%
+\subsection{MRI Safety Screen}
+\label{ssec:mri-safety}
+All who enter Zone 3, regardless of whether they will enter Zone 4 (Magnet Room) fill out Form 001: MRI Safety. ND-HNC staff and research personnel submit a form (a) annually and (b) whenever a change occurs in their MRI compatibility. Visitors fill out the form in Zone 1, and researchers with at least Level 2 access should be available to answer any questions.
+
+\begin{itemize}
+    \item For Visitors, Form 001 must be filled out on the same day as entering Zone 3.
+    \item Each question/prompt must be answered individually.
+    \item In the case of minors, their legal guardian must fill out the form.
+    \begin{itemize}
+        \item Note: verify guardianship, which may differ from the individual who brought the minor to the center.
+    \end{itemize}
+    \item The Visitor signs and dates the form in the designated location.
+\end{itemize}
+
+
+\subsection{MRI Safety Screen, Review 1}
+\label{ssec:mri-rev1}
+A researcher with at least Level 2 access will review the Visitor's responses on Form 001.
+
+\begin{itemize}
+    \item Discuss any potential contraindications, points of confusion, or concerns. Inform the Operator about any items discussed or addressed.
+    \item After reviewing Form 001, the researcher prints and signs their name in the designated location.
+    \item If the researcher determines the Visitor is MRI compatible, they may escort the Visitor into Zones 2 \& 3.
+\end{itemize}
+
+% Screen Two
+\subsection{MRI Safety Screen, Review 2}
+\label{ssec:mri-rev2}
+A second review is required for Visitors entering Zone 4 (Magnet Room).
+
+\begin{itemize}
+    \item The Operator conducts the second review, who must be a different from the person who conducted Review 1.
+    \item The Operator signs and dates Form 001.
+    \item The Visitor may enter Zone 4 only after the Operator has determined that it is safe to do so.
+    \item ND-HNC only stores MRI Safety forms for staff and researchers. Visitor forms are maintained by their respective research teams.
+\end{itemize}
+
+
+\section{Figures}
+
+% MRI zones
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{mri_zones.jpg}
+	\caption{Schematic of ND-HNC MRI Zones. \textbf{Orange} Zone 1. \textbf{Purple} Zone 2. \textbf{Green} Zone 3. \textbf{Blue} Zone 4.}
+	\label{fig:mri-zones}
+\end{figure}
+
+
+\end{document}
