@@ -1,5 +1,15 @@
 ---
 title: Training
+toc: true
+toc-depth: 4
 ---
 
 This page is under construction.
+
+## MRI Safety Training
+
+All researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam. This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies.
+
+Resources:
+
+- [Slides](../resources/slides/mri_safety.qmd){target="_blank"}
