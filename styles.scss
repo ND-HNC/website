@@ -5,12 +5,18 @@
 
 /* Colors */
 $body-bg: #FFFFFF;
-$body-color: rgb(55, 58, 60);
+// $body-color: rgb(55, 58, 60);
+$body-color: rgb(12, 35, 64);
 $link-color: rgb(39, 128, 227);
+// $caption-color: rgb(0, 0, 0);
+$body-secondary:rgb(12, 35, 64);
 
 /* Fonts */
 $font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-size-root: 17px;
 
-
+// /*-- scss:rules --*/
+// .figure-caption {
+//   color: #000000; /* Replace with your desired color */
+// }
 // $presentation-title-slide-text-align: left;

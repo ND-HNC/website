@@ -1,5 +1,32 @@
 ---
 title: Training
+toc: true
+toc-depth: 4
 ---
 
 This page is under construction.
+
+## MRI Safety Training
+All researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam (SOP [202](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"}). This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures/policies.
+
+| Access Level | Topic | Materials | Exam |
+|-----|-----|-----|-----|
+| 1 | ND-HNC Safety Operations | Slides | TBD |
+| 2 | MRI Safety  | Slides | TBD |
+| 3 | MRI Safety, advanced | Slides | TBD |
+| 4 | Operator Training | Slides | TBD |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+
+## Scheduled Trainings
+Upcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.
+
+| Date | Topic | Register ||
+|-----|-----|-----|-----|
+| TBD | Level 1 | TBD ||
+| TBD | CPR, First Aid | TBD ||
+| TBD | Level 2 | TBD ||
+| TBD | Level 3 | TBD ||
+
+: {tbl-colwidths="[25,25,25,25]"}

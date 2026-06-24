@@ -3,7 +3,9 @@ title: Compute
 toc: true
 ---
 
-![Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer at <a href="https://wallpapercave.com/">wallpapercave.com</a>](../media/brain_compute.jpg){width=75% fig-align="left"}
+<!-- ![Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer at <a href="https://wallpapercave.com/">wallpapercave.com</a>](../media/brain_compute.jpg){width=75% fig-align="left"} -->
+
+![Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer.](../media/brain_compute.jpg){width=75% fig-align="left"}
 
 ## Overview
 

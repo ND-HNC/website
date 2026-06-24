@@ -25,20 +25,20 @@ website:
         href: pages/equipment.qmd
       - text: Facilities
         href: pages/facilities.qmd
-      - text: Forms
-        href: pages/forms.qmd
+      # - text: Forms
+      #   href: pages/forms.qmd
       - text: People
         href: pages/people.qmd
-      # - text: Policies
-      #   href: pages/policies.qmd
+      - text: Policies
+        href: pages/policies.qmd
       # - text: Schedule
       #   href: pages/schedule.qmd
       - text: SOPs
         href: pages/sops.qmd
       - text: Storage
         href: pages/storage.qmd
-      # - text: Training
-      #   href: pages/training.qmd
+      - text: Training
+        href: pages/training.qmd
       # - text: Wiki
       #   href: pages/wiki.qmd
     tools:
