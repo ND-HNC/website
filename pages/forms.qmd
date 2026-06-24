@@ -4,15 +4,24 @@ title: Forms
 
 This page is under construction.
 
+## Overview
+Here we provide our research community, faculty, and staff with centralized access to essential forms required for everyday center operations:
+
+* 000: Assist researchers and participants use the center.
+* 100: Track issues with hardware, training, etc. (ND-HNC staff).
+* 200: Manage hardware (ND-HNC staff).
+
+
+## Forms
 <details>
 
-<summary> 000: Operation </summary>
+<summary> 000: ND-HNC Operation </summary>
 
 | Number | Title | Link |
 |-----|-------|--------|
-| 001 | MRI Safety | [Document](../resources/forms/form_001_mri_screen.pdf){target="_blank"} |
-| 002 | ND-HNC Arrive | [Document](../resources/forms/form_002_arrival.png){target="_blank"} |
-| 003 | ND-HNC Layout| [Document](../resources/sops/pics/nd-hnc_layout.png){target="_blank"} |
+| 001 | MRI Safety Screen | [Document](../resources/forms/form_001_mri_screen.pdf){target="_blank"} |
+| 002 | Arrival Instructions | [Blue](../resources/forms/form_002_arrival_blue.pdf){target="_blank"}, [White](../resources/forms/form_002_arrival_white.pdf){target="_blank"} |
+| 003 | Center Layout| [Document](../resources/sops/pics/nd-hnc_layout.png){target="_blank"} |
 
 </details>
 
@@ -24,9 +33,9 @@ This page is under construction.
 
 | Number | Title | Link |
 |-----|-------|--------|
-| 101 | Hardware Issues | [Document](../resources/forms/form_101_hardware_issue.pdf){target="_blank"} |
+| 101 | Hardware | [Document](../resources/forms/form_101_hardware_issue.pdf){target="_blank"} |
 | 102 | Adverse Events | [Document](../resources/forms/form_102_adverse_event.pdf){target="_blank"} |
-| 103 | Compliance Issues | [Document](../resources/forms/form_103_protocol_violation.pdf){target="_blank"} |
+| 103 | Compliance | [Document](../resources/forms/form_103_protocol_violation.pdf){target="_blank"} |
 
 </details>
 
@@ -38,7 +47,7 @@ This page is under construction.
 
 | Number | Title | Link |
 |-----|-------|--------|
-| 201 | Hardware Mainteance | [Document](../resources/forms/form_201_hardware_maintenance.pdf){target="_blank"} |
+| 201 | Hardware | [Document](../resources/forms/form_201_hardware_maintenance.pdf){target="_blank"} |
 
 </details>
 

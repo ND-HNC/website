@@ -4,15 +4,22 @@ title: Standard Operating Procedures
 
 This page is under construction.
 
+## Overview
+Here we provide our research community, faculty, and staff with centralized access to the center's Standard Operating Procedures (SOPs). Hosting these documents helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.
+
+
+## SOPs
 <details>
 
 <summary> 100: MRI Emergency </summary>
 
-| SOP | Topic | Link |
-|-----|-------|--------|
-| 101 | Hardware | [Document](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf){target="_blank"} |
-| 102 | Medical | [Document](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf){target="_blank"} |
+| SOP | Topic | Link | Referenced Forms |
+|-----|-----|-----|-----|
+| 101 | Hardware | [Document](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf){target="_blank"} | [LG01](../resources/forms/form_LG01_hardware_issue.pdf){target="_blank"}, [LG04](../resources/forms/form_LG04_protocol_violation.pdf){target="_blank"}, [RO03](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
+| 102 | Medical | [Document](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf){target="_blank"} | [LG03](../resources/forms/form_LG03_adverse_event.pdf){target="_blank"}, [LG04](../resources/forms/form_LG04_protocol_violation.pdf){target="_blank"}, [RO03](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
 | 103 | Adverse Events | Document |
+
+: {tbl-colwidths="[25,25,25,25]"}
 
 </details>
 
@@ -21,14 +28,15 @@ This page is under construction.
 
 <summary> 200: ND-HNC Operation </summary>
 
-| SOP | Topic | Link |
-|-----|-------|--------|
-| 201 | MRI Safety Screen | [Document](../resources/sops/200_operation/1_safety_screen/sop_201_safety_screen.pdf){target="_blank"} |
-| 202 | Zone Access | [Document](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"} |
-| 203 | Control Computers | Document |
-| 204 | Schedule and Billing | Document |
-| 205 | Mock Operations | Document |
-| 206 | Incidental Findings | Document |
+| SOP | Topic | Link | Referenced Forms |
+|-----|-----|-----|-----|
+| 201 | MRI Safety Screen | [Document](../resources/sops/200_operation/1_safety_screen/sop_201_safety_screen.pdf){target="_blank"} | [RO01](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"}, [RO03](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
+| 202 | Zone Access | [Document](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"} | [RO01](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"} |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+<!-- | 203 | Incidental Findings | Document |
+| 204 | Schedule and Billing | Document | -->
 
 </details>
 
@@ -37,12 +45,68 @@ This page is under construction.
 
 <summary> 300: Building Management </summary>
 
-| SOP | Topic | Link |
-|-----|-------|--------|
+| SOP | Topic | Link | Referenced Forms |
+|-----|-----|-----|-----|
 | 301 | Building Access | [Document](../resources/sops/300_building/1_access/sop_301_access.pdf){target="_blank"} |
 | 302 | Fire and Gas | [Document](../resources/sops/300_building/2_fire_gas/sop_302_fire_gas.pdf){target="_blank"} |
 | 303 | Tornado | [Document](../resources/sops/300_building/3_tornado/sop_303_tornado.pdf){target="_blank"} |
 | 304 | Active Violence | [Document](../resources/sops/300_building/4_violence/sop_304_violence.pdf){target="_blank"} |
 
+: {tbl-colwidths="[25,25,25,25]"}
+
 </details>
 
+
+
+## Forms
+
+<!-- 001: RO01
+002: RO02
+003: RO03
+
+101: LG01
+102: LG03
+103: LG04
+
+201: LG02 -->
+
+<details>
+
+<summary> RO: Research Operations</summary>
+
+| Number | Title | Link | |
+|-----|-----|-----|-----|
+| RO01 | MRI Safety Screen | [Document](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"} |
+| RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf){target="_blank"}, [White](../resources/forms/form_RO02_arrival_white.pdf){target="_blank"} |
+| RO03 | ND-HNC Layout| [Document](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+</details>
+
+
+<details>
+
+<summary> LG: Log Issues and Maintenance</summary>
+
+| Number | Title | Link | |
+|-----|-----|-----|-----|
+| LG01 | Hardware Issue | [Document](../resources/forms/form_LG01_hardware_issue.pdf){target="_blank"} |
+| LG02 | Hardware Maintenance | [Document](../resources/forms/form_LG02_hardware_maintenance.pdf){target="_blank"} |
+| LG03 | Adverse Event | [Document](../resources/forms/form_LG03_adverse_event.pdf){target="_blank"} |
+| LG04 | Compliance | [Document](../resources/forms/form_LG04_protocol_violation.pdf){target="_blank"} |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+</details>
+
+
+<!-- <details>
+
+<summary> 300: Training </summary>
+
+| Number | Title | Link |
+|-----|-------|--------|
+
+
+</details> -->

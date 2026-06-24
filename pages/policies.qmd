@@ -1,14 +1,32 @@
 ---
 title: Policies
+toc: true
+toc-depth: 2
 ---
 
 This page is under construction.
 
-## Booking
+## Compute
+
+1. Personal Health Information (PHI) data is __NOT__ permitted on the HPC Cluster.
+1. Coordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. $>$ 400 CPUs on the HPC cluster).
+    - This helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).
+
+
+## Storage
+
+1. Storage of Personal Health Information (PHI) data is __NOT__ permitted.
+1. Users or groups using a disproportionate amount of resources will be required to reduce their footprint or  ___risk losing access___.
+1. Intermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.
+1. Data stored in Scratch should be for active analyses only.
+1. Storing third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.
+    - Only the Final Data should be maintained.
+
+<!--
+## Schedule
 
 Scheduling
 Billing
-
 
 ## Level 2-4
 
@@ -38,4 +56,4 @@ Organize DICOM Computer
 
 ## Trainings
 
-Regular Safety, SOP, Medical trainings
+Regular Safety, SOP, Medical trainings -->

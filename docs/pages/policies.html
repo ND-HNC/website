@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c76a5a505da0254d06e3adc68a98a51b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-fa75ff363e3ced5b681887548358360a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,13 +68,42 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Policies – ND-HNC">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="ND-HNC">
 </head>
 
-<body class="nav-sidebar docked fullcontent quarto-light">
+<body class="nav-sidebar docked quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Policies</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/policies.html">Policies</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -145,14 +174,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/forms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Forms</span></a>
+  <a href="../pages/people.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">People</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../pages/people.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">People</span></a>
+  <a href="../pages/policies.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Policies</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -178,7 +207,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#compute" id="toc-compute" class="nav-link active" data-scroll-target="#compute">Compute</a></li>
+  <li><a href="#storage" id="toc-storage" class="nav-link" data-scroll-target="#storage">Storage</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -202,23 +240,63 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>This page is under construction.</p>
-<section id="booking" class="level2">
-<h2 class="anchored" data-anchor-id="booking">Booking</h2>
-<p>Scheduling Billing</p>
+<section id="compute" class="level2">
+<h2 class="anchored" data-anchor-id="compute">Compute</h2>
+<ol type="1">
+<li>Personal Health Information (PHI) data is <strong>NOT</strong> permitted on the HPC Cluster.</li>
+<li>Coordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g.&nbsp;<span class="math inline">\(&gt;\)</span> 400 CPUs on the HPC cluster).
+<ul>
+<li>This helps to ensure that all deadlines can be met (e.g.&nbsp;first-year or M.Sc. projects, revise-and-resubmit).</li>
+</ul></li>
+</ol>
 </section>
-<section id="level-2-4" class="level2">
-<h2 class="anchored" data-anchor-id="level-2-4">Level 2-4</h2>
-<p>Level 2 Safety training Safety test Annual renewal Annual screener SOP Safety</p>
-<p>Level 3 Level 2 reqs First Aid CPR/AED Train: un/load participant SOP Data</p>
-<p>Level 4 Level 2, 3 reqs Shadow hours Test: run scanner, trouble shoot reconstruct, data export, emergency response</p>
-</section>
-<section id="computers" class="level2">
-<h2 class="anchored" data-anchor-id="computers">Computers</h2>
-<p>Organize Stimulus Control Organize DICOM Computer</p>
-</section>
-<section id="trainings" class="level2">
-<h2 class="anchored" data-anchor-id="trainings">Trainings</h2>
-<p>Regular Safety, SOP, Medical trainings</p>
+<section id="storage" class="level2">
+<h2 class="anchored" data-anchor-id="storage">Storage</h2>
+<ol type="1">
+<li>Storage of Personal Health Information (PHI) data is <strong>NOT</strong> permitted.</li>
+<li>Users or groups using a disproportionate amount of resources will be required to reduce their footprint or <strong><em>risk losing access</em></strong>.</li>
+<li>Intermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.</li>
+<li>Data stored in Scratch should be for active analyses only.</li>
+<li>Storing third-party data (e.g.&nbsp;HCP, NKI, ABCD) is not permitted on Cold or Active Storage.
+<ul>
+<li>Only the Final Data should be maintained.</li>
+</ul></li>
+</ol>
+<!--
+## Schedule
+
+Scheduling
+Billing
+
+## Level 2-4
+
+Level 2
+Safety training
+Safety test
+Annual renewal
+Annual screener
+SOP Safety
+
+Level 3
+Level 2 reqs
+First Aid
+CPR/AED
+Train: un/load participant
+SOP Data
+
+Level 4
+Level 2, 3 reqs
+Shadow hours
+Test: run scanner, trouble shoot reconstruct, data export, emergency response
+
+## Computers
+
+Organize Stimulus Control
+Organize DICOM Computer
+
+## Trainings
+
+Regular Safety, SOP, Medical trainings -->
 
 
 </section>
