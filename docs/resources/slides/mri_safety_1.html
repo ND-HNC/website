@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
-  <title>ND-HNC – Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training</title>
+  <title>ND-HNC – Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -120,7 +120,7 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training – ND-HNC">
+<meta property="og:title" content="Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1 – ND-HNC">
 <meta property="og:site_name" content="ND-HNC">
 </head>
 <body class="quarto-light">
@@ -128,804 +128,215 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training</h1>
+  <h1 class="title">Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1</h1>
 
 <div class="quarto-title-authors">
 </div>
 
 </section>
 <section>
-<section id="mri-safety-introduction" class="title-slide slide level1 center">
-<h1>1. MRI Safety, Introduction</h1>
+<section id="mri" class="title-slide slide level1 center">
+<h1>MRI</h1>
 
 </section>
-<section id="i.-the-three-primary-magnetic-fields-of-mri" class="slide level2">
-<h2>I. The Three Primary Magnetic Fields of MRI</h2>
-<h3 id="a.-static-magnetic-field-b_0">A. Static Magnetic Field (<span class="math inline">\(B_0\)</span>)</h3>
-<ul>
-<li>Created by superconducting coils.</li>
-<li><strong>Time-invariant:</strong> It is always on.</li>
-<li><strong>Measurement:</strong> Typically measured in Tesla (T), where 1 Tesla = 10,000 Gauss.</li>
-<li><strong>Scale of Strength:</strong> The Earth’s magnetic field is roughly 0.00005 T; a standard 3 T scanner is approximately 60,000 times stronger than Earth’s field.</li>
-</ul>
+<section id="mri-is-cool" class="slide level2">
+<h2>MRI is Cool</h2>
+<p>cool magnet proton</p>
 </section>
-<section class="slide level2">
-
-<h3 id="b.-radio-frequency-field-b_1">B. Radio Frequency Field (<span class="math inline">\(B_1\)</span>)</h3>
+<section id="what-is-mri" class="slide level2">
+<h2>What is MRI?</h2>
+<div class="columns">
+<div class="column" style="font-size: 65%;">
 <ul>
-<li>An electromagnetic field used to excite the nuclear spins.</li>
-<li>Rapidly turned on and off (pulsed) during scanning.</li>
-</ul>
-<h3 id="c.-gradient-magnetic-fields">C. Gradient Magnetic Fields</h3>
+<li>Nuclear Magnetic Resonance Imaging:
 <ul>
-<li>Smaller, time-varying magnetic fields used to spatially encode the images.</li>
-<li>Rapidly turned on and off throughout the scanning process.</li>
-<li><strong>Safety Implication:</strong> Each of these three distinct components poses unique concerns regarding subject safety.</li>
+<li>Certain nuclei (H+) align with magnetic field</li>
+<li>Respond to secondary field</li>
+<li>Emit electromagnetic signal</li>
+</ul></li>
+<li>Number of discoveries:
+<ul>
+<li><a href="../articles/rabi_1938.pdf">Rabi</a> - NMR (molecular beams)</li>
+<li><a href="../articles/bloch_1946.pdf">Bloch</a> and Purcell - NMR (liquids, solids)</li>
+<li><a href="../articles/lauterbur_1973_mri.pdf">Lauterbur</a> and Mansfield - MRI</li>
+</ul></li>
+<li>Intersection: Physics, Engineering, CompSci, Neuroscience, Psychology</li>
 </ul>
+</div><div class="column" style="width:&quot;50%;">
+<div class="r-stack">
+<p><img data-src="../../media/mri.jpg"></p>
+<p><img data-src="nmr_1.png" class="fragment"></p>
+</div>
+</div></div>
+<aside class="notes">
+<ul>
+<li>Isidor Rabi (1938) first described NMR; Nobel Prize 1944</li>
+<li>Felix Bloch, Edward Purcell extended to liquids, solids; Nobel Prize 1952</li>
+<li>Lauterbur, Mansfield; biologically useful MRI, EPI; Nobel Prize 2003</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="ii.-hardware-geometry-subject-comfort-and-acoustic-noise" class="slide level2">
-<h2>II. Hardware Geometry, Subject Comfort, and Acoustic Noise</h2>
-<h3 id="scanner-geometry-subject-compliance">Scanner Geometry &amp; Subject Compliance</h3>
+<section id="magnetic-field" class="slide level2">
+<h2>Magnetic Field</h2>
+<div class="columns">
+<div class="column" style="font-size: 65%;">
 <ul>
-<li>The physical coils impose a specific layout on the device.</li>
-<li>Features a long, narrow magnet bore alongside specialized RF coils.</li>
-<li>Creates issues with subject comfort, particularly triggering claustrophobia due to the confined space.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="acoustic-noise-generation">Acoustic Noise Generation</h3>
+<li>Principles of <a href="https://www.youtube.com/watch?v=tXI7Wd1ElF8">electromagnetism</a></li>
+<li>Superconductivity
 <ul>
-<li>Varying electrical currents are applied to the gradient coils to ramp them up and down.</li>
-<li>This process generates <strong>Lorentz forces</strong>, causing the gradient coils to physically vibrate.</li>
-<li>These mechanical vibrations produce the loud noises characteristically associated with an active scan.</li>
-</ul>
-</section>
-<section id="iii.-safety-assessment-statistics-and-incidents" class="slide level2">
-<h2>III. Safety Assessment, Statistics, and Incidents</h2>
-<h3 id="general-modality-safety">General Modality Safety</h3>
+<li>Copper</li>
+<li>Liquid He+</li>
+</ul></li>
+<li>3 Tesla (<a href="https://www.youtube.com/watch?v=6BBx8BwLhqg">2000+</a> lbs attraction)
 <ul>
-<li>Compared to modalities using ionizing radiation (e.g., X-rays, PET scans), MRI is inherently a safe modality.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<!-- TODO: Update -->
-<h3 id="historical-data-schenck-2000">Historical Data (Schenck, 2000)</h3>
-<ul>
-<li>~150,000,000 MRIs performed globally from the early 1980s (inception of testing) through 1999.</li>
-<li>~20,000,000 scans performed annually.</li>
-<li>Over 50,000 scans completed every single day.</li>
-<li>The vast majority of these historical and current scans are completed entirely without incident.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<!-- TODO: Update -->
-<h3 id="serious-safety-exceptions-accidents">Serious Safety Exceptions &amp; Accidents</h3>
-<ul>
-<li><strong>Active Implant Failures:</strong> Schenck’s 1998 literature review identified seven scanner-attributable deaths, most stemming from MRI-induced malfunctions in cardiac pacemakers.</li>
-<li><strong>Ferromagnetic Projectiles:</strong>
-<ul>
-<li>A study by Chaljub (2001) detailed five serious accidents involving airborne ferromagnetic projectiles across two facilities in Texas.</li>
-<li>A fatal projectile incident in New York involving a six-year-old boy drew heavy public attention to the reality of scanner hazards.</li>
+<li>Smooth, consistent field</li>
+<li>Always ON!</li>
 </ul></li>
 </ul>
+</div><div class="column" style="width:&quot;50%;">
+<div class="r-stack">
+<p><img data-src="coil_1.png" class="fragment fade-in-then-out"></p>
+<p><img data-src="cold_1.png" class="fragment fade-in-then-out"></p>
+<p><img data-src="coil_2.jpg" class="fragment fade-in-then-out"></p>
+<p><img data-src="coil_3.png" class="fragment"></p>
+</div>
+</div></div>
+<aside class="notes">
+<p>(charge machine before strength)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Conclusion &amp; Mitigation:</strong> Serious accidents can only be avoided through constant clinical vigilance and strict adherence to standard operating procedures (SOPs).</li>
-</ul>
+<section id="proton" class="slide level2">
+<h2>Proton</h2>
 </section></section>
 <section>
-<section id="safety-in-the-static-field" class="title-slide slide level1 center">
-<h1>2. Safety in the Static Field</h1>
+<section id="mri-strength" class="title-slide slide level1 center">
+<h1>MRI Strength</h1>
 
 </section>
-<section id="i.-influence-of-the-static-field-on-metal-objects-the-projectile-effect" class="slide level2">
-<h2>I. Influence of the Static Field on Metal Objects (The Projectile Effect)</h2>
-<h3 id="a.-material-properties-and-magnetism">A. Material Properties and Magnetism</h3>
+<section id="tesla-tesla" class="slide level2">
+<h2>Tesla tesla</h2>
+<p>foot pounds videos</p>
 </section>
-<section class="slide level2">
-
-<h4 id="highly-ferromagnetic-materials">Highly Ferromagnetic Materials</h4>
+<section id="safety-considerations" class="slide level2">
+<h2>Safety Considerations</h2>
+<div class="columns">
+<div class="column" style="font-size: 65%;">
 <ul>
-<li>Strongly attracted to the magnet bore.</li>
-<li>Elements: Iron, nickel, cobalt, chromium, gadolinium, dysprosium.</li>
-<li>Common metals: Steel (including some medical grades of stainless steel).</li>
-<li>Non-magnetic stainless steel can become magnetic if mechanically worked.</li>
+<li>Rarely are rooms <a href="https://smithchason.edu/mri-safety-lessons-1980-2001-2025/">fatal</a></li>
+<li>Strict <a href="https://mriquestions.com/acr-safety-zones.html">Zoning</a> helps</li>
+<li>Diligence: avoid complacency and <a href="https://en.wikipedia.org/wiki/Survivorship_bias">survivorship bias</a></li>
+<li>Magnetic field has significant <a href="https://www.youtube.com/watch?v=IF6CMrjGNN4">acceleration</a></li>
+<li>Injuries are more <a href="articles/inaguma_2023_injuries.pdf">common</a> than they should be</li>
 </ul>
-</section>
-<section class="slide level2">
-
-<h4 id="non-ferromagnetic-materials">Non-Ferromagnetic Materials</h4>
+</div><div class="column" style="width:&quot;50%;">
+<p><img data-src="zones_2.png"></p>
+</div></div>
+<aside class="notes">
 <ul>
-<li>Not inherently attracted.</li>
-<li>Examples: Aluminum, tin, titanium, gold, lead.</li>
-<li><em>Warning:</em> Consumer/medical objects are rarely a single metal
-<ul>
-<li>E.g. titanium eyeglass frames may contain ferromagnetic steel screws</li>
-</ul></li>
-<li><strong>Verification:</strong> Unknown objects must always be screened using a permanent magnet before entering the room.</li>
+<li>Survivor bias: seatbelts, climbing (Rope on chair)</li>
 </ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-mechanics-of-the-projectile-effect">B. Mechanics of the Projectile Effect</h3>
-<ul>
-<li><strong>Exponential Force Increase:</strong> Magnetic pull increases drastically approaching the bore.
-<ul>
-<li>Moving an object just 6 inches toward the scanner can nearly <em>triple</em> the magnetic force.</li>
-</ul></li>
-<li><strong>Velocity Risks:</strong> A pen in a breast pocket can become a missile travelling at 40 MPH through the bore.</li>
-<li><strong>Consequences:</strong> Severe physical injury, death, and severe psychological duress.</li>
-</ul>
-<!-- TODO: Update
-* **FDA Reported Incidents:**
-* *MDR-405200 (1993):* Scissors pulled from a nurse's hand struck a patient's head, causing a laceration.
-* *MDR-547886 (1994):* An IV pole pulled into the magnet struck a patient's arm, requiring staples. -->
-</section>
-<section class="slide level2">
-
-<h3 id="c.-standard-operating-procedures-sops-environmental-controls">C. Standard Operating Procedures (SOPs) &amp; Environmental Controls</h3>
-<ul>
-<li><strong>Personal Item Removal:</strong> Mandatory removal of all ferromagnetic materials from both staff and subjects.</li>
-<li><strong>Equipment Testing:</strong> All equipment brought near the room must be pre-tested with a permanent test magnet.</li>
-<li><strong>Access Control:</strong> Keep the Zone 3 access door closed during participant setup to prevent unscreened individuals from walking in. Keep Zone 4 door closed when not accessing the magnet room.</li>
-<li><strong>Compliance:</strong> Challenge all unauthorized individuals.</li>
-</ul>
-</section>
-<section id="ii.-influence-of-the-static-field-on-implanted-devices-and-debris" class="slide level2">
-<h2>II. Influence of the Static Field on Implanted Devices and Debris</h2>
-<h3 id="a.-torsion-rotational-force">A. Torsion (Rotational Force)</h3>
-<ul>
-<li><strong>Mechanism:</strong> Ferromagnetic objects attempt to align parallel to the static magnetic field (<span class="math inline">\(B_0\)</span>). This rotational effect is dominant when the static field is spatially uniform.</li>
-<li><strong>Clinical Hazard:</strong> Ferromagnetic vascular implants (such as intracranial aneurysm clamps) can rotate, causing massive internal bleeding. <!-- * *FDA Case MDR-349790 (1992):* A patient with an intracranial aneurysm clip died during an MRI setup due to clip displacement, despite initial administrative information indicating it was safe. --></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Cosmetic and Dermal Hazards:</strong> Tattoos and cosmetics (especially mascara and eyeliner) containing irregular iron-oxide pigments attempt to align with the field, causing localized tissue irritation or swelling.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-translation-linear-pull">B. Translation (Linear Pull)</h3>
-<ul>
-<li><strong>Mechanism:</strong> Internal ferromagnetic debris or devices are physically pulled toward the magnet bore, acting similarly to external projectiles.</li>
-<li><strong>Ocular Hazards:</strong> Metal shards near eyes may shift, causing permanent damage.</li>
-</ul>
-<!-- * *FDA Case MDR-100222 (1985):* An iron filing dislodged in a patient's eye during a scan, resulting in permanent vision loss.
-* *FDA Case MDR-454660 (1993):* A sedated patient suffered double vision after a scan due to an undisclosed metal shard shifting near the eye. -->
-</section>
-<section id="iii.-influence-of-the-static-field-on-human-physiology" class="slide level2">
-<h2>III. Influence of the Static Field on Human Physiology</h2>
-<h3 id="a.-general-safety-profile">A. General Safety Profile</h3>
-<!-- TODO: update -->
-<ul>
-<li>Schenck (2000) reviewed human exposure up to 8 Tesla and found no replicated scientific evidence of long-term health hazards or cumulative exposure risks.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-short-lived-sensations-2-tesla">B. Short-Lived Sensations (&gt;2 Tesla)</h3>
-<ul>
-<li>Occur infrequently and are typically triggered by <strong>rapid head movements</strong> within the field.</li>
-<li>Symptoms include: Visual disturbances (phosphenes/flashes of light), metallic taste, sensations in dental fillings, vertigo, nausea, and headaches.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="c.-magnetohydrodynamic-effects">C. Magnetohydrodynamic Effects</h3>
-<ul>
-<li><strong>Mechanism:</strong> When conductive fluids (blood, inner-ear endolymph, ocular fluid) flow through a magnetic field, an electrical potential and an opposing physical force are generated.</li>
-<li><strong>Mathematic Potential Formula:</strong> <span class="math display">\[\text{E} = 0.1 \cdot B_0 \cdot v \cdot d\]</span></li>
-</ul>
-<p><em>(Where <span class="math inline">\(\text{E}\)</span> = potential in mV, <span class="math inline">\(B_0\)</span> = field in Tesla, <span class="math inline">\(v\)</span> = fluid velocity in cm/s, and <span class="math inline">\(d\)</span> = vessel diameter in cm).</em></p>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Cardiovascular Effects:</strong> In major vessels like the aorta, potentials can reach ~5 mV/T. This artifactually enlarges the <strong>T-wave</strong> on an ECG but does <em>not</em> alter actual cardiac rhythm.</li>
-<li><strong>Sensory Effects:</strong> The resisting force requires 18 T to alter blood pressure by just 1 mm/Hg (negligible).
-<ul>
-<li>However, these forces apply physical torque to hair cells in the semicircular canals (causing vertigo/nausea) or retinal cells (causing phosphenes).</li>
-</ul></li>
-<li><strong>Mitigation:</strong> Move patients very slowly in/out of the bore and restrict fast head movements.</li>
-</ul>
-<!-- TODO: Update
-## IV. Pregnancy and Reproductive Safety
-### A. Organizational Policy
-
-* BIAC does not globally exclude pregnant individuals; exclusion is study-dependent based on specific Institutional Review Board (IRB) protocols. There are no known physical risks to the mother or fetus.
-
-### B. Epidemiological and Cellular Research
-
-* **Occupational Safety (Kanal et al., 1993):** A study of 1,915 female MRI technicians showed no statistically significant increases in miscarriages, stillbirths, spontaneous abortions, ectopic pregnancies, premature delivery, or infertility compared to controls.
-* **Cellular Development:** * Wiskirchen et al. (1999) exposed fetal lung fibroblasts to a 1.5 T field for 3 weeks; no change in cell proliferation was observed.
-* Rodegerdts et al. (2000) exposed identical cells to time-varying gradient fields, noting no teratogenic effects or abnormalities tied to field strength or exposure duration.
-
-
-
-### C. Clinical Fetal and Postnatal Tracking
-
-* **Fetal Stress:** Real-time fetal scanning shows no signs of fetal distress. Poutamo et al. (1998) verified no cardiotocographic deviations or abnormal shifts in fetal heart rate/movement before or after MRI.
-* **Human Postnatal Development:** * Myers et al. (1998) followed 74 women imaged during the 2nd/3rd trimesters; no premature delivery or intrauterine growth restrictions were noted.
-* Clements et al. (2000) examined 20 infants scanned four times *in utero*; all displayed normal neurological profiles at 9 months of age.
-
-
-* **Animal Models (High et al., 2000):** Rats exposed to an extreme 9.4 T static field for 10 weeks showed zero negative impacts on spatial memory, mortality, heart rate, body metrics, lab values, or pathology—either in the parents or their progeny. -->
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
-<section id="safety-in-the-radio-frequency-electromagnetic-field" class="title-slide slide level1 center">
-<h1>3. Safety in the Radio Frequency electromagnetic field</h1>
+<section id="zones" class="title-slide slide level1 center">
+<h1>Zones</h1>
 
 </section>
-<section id="i.-thermal-effects-of-radio-frequency-rf-on-the-human-body" class="slide level2">
-<h2>I. Thermal Effects of Radio Frequency (RF) on the Human Body</h2>
-<h3 id="a.-mechanism-of-rf-energy-absorption-and-heating">A. Mechanism of RF Energy Absorption and Heating</h3>
-<ul>
-<li><strong>Purpose of RF:</strong> Brief pulses of radio frequency electromagnetic fields are applied during imaging to excite atomic spins and tilt them out of alignment with the static magnetic field (<span class="math inline">\(B_0\)</span>).</li>
-<li><strong>Energy Excess:</strong> The transmitter coil sends far more RF energy into the body during excitation than the spins emit back as signals.</li>
-</ul>
+<section id="zone-1" class="slide level2">
+<h2>Zone 1</h2>
+<p><img data-src="../sops/pics/nd-hnc_layout_zones.png"> Access Use Restrictions</p>
 </section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Tissue Absorption:</strong> The excess RF energy penetrates superficial body surfaces and is absorbed by tissues, converting into heat.</li>
-<li><strong>Dissipation:</strong> The body disperses this thermal energy via four distinct mechanisms: convection, conduction, radiation, and evaporation.</li>
-</ul>
+<section id="zone-2" class="slide level2">
+<h2>Zone 2</h2>
+<p>Access Use Restrictions</p>
 </section>
-<section class="slide level2">
-
-<h3 id="b.-specific-absorption-rate-sar">B. Specific Absorption Rate (SAR)</h3>
-<ul>
-<li><strong>Definition:</strong> SAR is the primary measure of electromagnetic energy absorption in the body, quantified in watts per kilogram (<span class="math inline">\(\text{W/kg}\)</span>).</li>
-<li><strong>Variables Dictating Absorption:</strong> Object size, geometry, tissue conductivity, and the specific RF frequency used.</li>
-</ul>
+<section id="zone-3" class="slide level2">
+<h2>Zone 3</h2>
+<p>Access Use Restrictions</p>
+</section>
+<section id="zone-4" class="slide level2">
+<h2>Zone 4</h2>
+<p>Website</p>
 </section>
 <section class="slide level2">
 
-<ul>
-<li><strong>Frequency and Field Strength relationship (<span class="math inline">\(H^1\)</span>):</strong></li>
-</ul>
-<p><span class="math display">\[\text{Radio Frequency (MHz)} = 42.58 \times \text{Field Strength (Tesla)}\]</span></p>
-<ul>
-<li>A <span class="math inline">\(3\text{ T}\)</span> scanner uses a frequency of <span class="math inline">\(127.7\text{ MHz}\)</span> (Air Traffic Control range).</li>
-<li>A <span class="math inline">\(4\text{ T}\)</span> scanner uses a frequency of <span class="math inline">\(170.3\text{ MHz}\)</span> (VHF/television range).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Pulse Sequence Factors:</strong>
-<ul>
-<li>Longer RF pulses (<span class="math inline">\(180^\circ\)</span>) deposit more energy than shorter pulses (<span class="math inline">\(90^\circ\)</span>).</li>
-<li>High-frequency pulse sequences (e.g., Fast Spin Echo) yield much higher SAR than lower-density sequences (e.g., Gradient Echo EPI).</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="c.-safety-thresholds-and-regulations">C. Safety Thresholds and Regulations</h3>
-<ul>
-<li><strong>Core Temperature Target:</strong> Regulatory SAR limits are designed to prevent a core body temperature increase of more than <span class="math inline">\(1^\circ\text{C}\)</span>.</li>
-</ul>
-<p><strong>Evolution of Limits:</strong></p>
-<ul>
-<li>Historical FDA baseline level of concern: <span class="math inline">\(0.4\text{ W/kg}\)</span> for the whole body.</li>
-<li>Current market-cleared limit: Extended up to <span class="math inline">\(4\text{ W/kg}\)</span> after research confirmed it does not exceed the <span class="math inline">\(1^\circ\text{C}\)</span> core threshold.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<!-- TODO: update -->
-<ul>
-<li>Operations exceeding <span class="math inline">\(4\text{ W/kg}\)</span> mandate approved human studies protocols under international IEC standards.</li>
-<li><em>Safety Margin:</em> Experimental exposures at <span class="math inline">\(6\text{ W/kg}\)</span> (Shellock et al., 1994) demonstrated that healthy individuals stay well within physiological limits.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="d.-localized-dose-and-instantaneous-limits">D. Localized Dose and Instantaneous Limits</h3>
-<p>To prevent concentrated, localized overheating, the product of time and SAR must be strictly managed.</p>
-<p><strong>Time-Averaged Local Exposure Limits:</strong></p>
-<ul>
-<li><strong>Head:</strong> <span class="math inline">\(\le 60\text{ W}\cdot\text{min/kg}\)</span></li>
-<li><strong>Trunk:</strong> <span class="math inline">\(\le 120\text{ W}\cdot\text{min/kg}\)</span></li>
-<li><strong>Extremities:</strong> <span class="math inline">\(\le 180\text{ W}\cdot\text{min/kg}\)</span></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Instantaneous Peak SAR Limits:</strong></p>
-<ul>
-<li><strong>Head:</strong> <span class="math inline">\(4\text{ W/kg}\)</span> maximum</li>
-<li><strong>Trunk:</strong> <span class="math inline">\(8\text{ W/kg}\)</span> maximum</li>
-<li><strong>Extremities:</strong> <span class="math inline">\(12\text{ W/kg}\)</span> maximum</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="e.-clinical-calculation-and-patient-variability">E. Clinical Calculation and Patient Variability</h3>
-<ul>
-<li><strong>Input Accuracy:</strong> SAR models heavily rely on body geometry and the precise weight of the subject.
-<ul>
-<li>Inaccurate weight entry compromises software safeguards. <!-- * *FDA Incident Case MDR-391667 (1993):* An incorrect weight input resulted in an inaccurate SAR calculation, causing small blistered burns on a patient's thumb and thigh. --></li>
-</ul></li>
-<li><strong>Thermoregulation Support:</strong> Patients dissipate heat through perspiration and altered blood flow.
-<ul>
-<li>Comfort tools like bore fans and blankets must be offered alongside regular communication.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Sensitive Populations:</strong></p>
-<ul>
-<li><strong>Infants and Pregnant Women:</strong> The FDA recommends reducing standard SAR thresholds by half (a factor of two).</li>
-<li><strong>Impaired Thermoregulation:</strong> Patients with cardiovascular disease, cerebrovascular impairments, or diabetes cannot efficiently dump heat. The FDA recommends an absolute maximum cap of <strong><span class="math inline">\(1.5\text{ W/kg}\)</span></strong> for these compromised individuals.</li>
-<li><strong>Enforcement:</strong> Enforced directly via internal software routines in the pulse sequence program (PSD) and hardware power monitors limiting the RF waveform duty cycle.</li>
-</ul>
-</section>
-<section id="ii.-thermal-effects-of-rf-on-foreign-metal-bodies-local-burns" class="slide level2">
-<h2>II. Thermal Effects of RF on Foreign Metal Bodies (Local Burns)</h2>
-<h3 id="a.-core-hazard-mechanics">A. Core Hazard Mechanics</h3>
-<ul>
-<li><strong>Internal Implants:</strong> Metal devices absorb RF energy rapidly and can heat to temperatures well above surrounding tissue. <!-- (Note: Per Shellock 2000, actual internal medical device burns are historically undocumented but remain an engineering risk at high fields). --></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>The Antenna Effect:</strong> Wire leads or thin metal in looped configurations act as radio antennas, focusing intense RF energy into a minute localized point.
-<ul>
-<li>This represents the single highest risk for local patient burns in MRI.</li>
-</ul></li>
-<li><strong>Secondary Gradient Heating:</strong> Time-varying magnetic gradients can also induce localized electrical currents in conductive loops, compounding the heating effect.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<!-- TODO: Update
-
-### B. FDA Reported Injury Incidents
-
-* *MDR-711781 (1995):* A looped, electrically conductive lead resting directly against bare skin inflicted an arm burn.
-* *MDR-591457 (1995):* An anesthetized child suffered a hand burn from an ECG cable, ultimately requiring a skin graft.
-* *MDR-246106 (1991):* An ECG gating cable produced a large ($1.5'' \times 4''$) blistered burn on a patient's lower back.
-* *MDR-701219 (1995):* A pulse oximeter attached to a patient's finger generated severe blistered burns requiring a skin graft. -->
-<h3 id="b.-prevention-strategies">B. Prevention Strategies</h3>
-<p><strong>Vulnerable States:</strong> Risks skyrocket when a patient is sedated, uncommunicative, or pediatric, as they cannot report early heat sensations.</p>
-<p><strong>Three-Step Burn Mitigation Protocol:</strong></p>
-<ol type="1">
-<li>Comprehensive pre-screening to exclude internal implanted wire leads or unapproved metal devices.</li>
-<li>Absolute removal of all external jewelry, including non-ferromagnetic metals (necklaces, earrings, body piercings).</li>
-</ol>
-</section>
-<section class="slide level2">
-
-<ol start="3" type="1">
-<li>Ensuring all necessary medical wire leads (ECG/EMG/EEG) are perfectly straight, <strong>never looped</strong>, and insulated away from direct contact with bare skin.</li>
-</ol>
-</section>
-<section id="iii.-non-thermal-effects-of-rf-on-implanted-medical-devices" class="slide level2">
-<h2>III. Non-Thermal Effects of RF on Implanted Medical Devices</h2>
-<h3 id="a.-electronic-malfunction-interference">A. Electronic Malfunction &amp; Interference</h3>
-<ul>
-<li><strong>Mechanism:</strong> RF electromagnetic fields can physically cross-talk with the sensitive circuitry of active electronic medical implants, causing firmware logic failures independent of heat.</li>
-<li><strong>Cardiac Risks:</strong> RF fields (alongside time-varying gradient fields) can disrupt cardiac pacemakers, forcing asynchronous or dangerously accelerated pacing.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-fatal-outcomes-and-screening-mandates">B. Fatal Outcomes and Screening Mandates</h3>
-<ul>
-<li><strong>The Leading Cause of Mortality:</strong> The vast majority of historical scanner-related patient deaths are a direct result of entering the magnet room with a cardiac pacemaker.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Absolute Exclusion Mandate:</strong> Rigorous, uncompromised patient screening is mandatory to bar any individual possessing unscreened active implants, including:</p>
-<ul>
-<li>Cardiac pacemakers</li>
-<li>Cochlear implants</li>
-<li>Automated drug infusion pumps</li>
-<li>Neurostimulators</li>
-</ul>
 </section></section>
 <section>
-<section id="safety-in-the-time-varying-magnetic-fields" class="title-slide slide level1 center">
-<h1>4. Safety in the Time Varying Magnetic Fields</h1>
+<section id="access" class="title-slide slide level1 center">
+<h1>Access</h1>
 
 </section>
-<section id="i.-mechanics-of-time-varying-gradient-magnetic-fields-dbdt" class="slide level2">
-<h2>I. Mechanics of Time-Varying Gradient Magnetic Fields (<span class="math inline">\(db/dt\)</span>)</h2>
-<h3 id="a.-purpose-and-measurement-of-gradients">A. Purpose and Measurement of Gradients</h3>
-<ul>
-<li><strong>Spatial Encoding:</strong> Gradient magnetic fields are briefly imposed during image acquisition to dictate the spatial origin of the magnetic resonance signals.</li>
-<li><strong>Field Scale:</strong> Gradients are significantly weaker than the main static field (<span class="math inline">\(B_0\)</span>) and are measured in thousandths of a Tesla per meter (<span class="math inline">\(\text{mT/m}\)</span>).</li>
-</ul>
+<section id="access-1" class="slide level2">
+<h2>Access 1</h2>
+<p>1-4</p>
+</section>
+<section id="access-2" class="slide level2">
+<h2>Access 2</h2>
+</section>
+<section id="access-3" class="slide level2">
+<h2>Access 3</h2>
+</section>
+<section id="access-4" class="slide level2">
+<h2>Access 4</h2>
 </section>
 <section class="slide level2">
-
-<ul>
-<li>A standard 3.0 Tesla research scanner often utilizes gradient strengths of <span class="math inline">\(40\text{ mT/m}\)</span>.
-<ul>
-<li>Our MAGNETOM Cima.X uses a gradient strength of <span class="math inline">\(200\text{ mT/m}\)</span>.</li>
-</ul></li>
-<li><strong>The <span class="math inline">\(db/dt\)</span> Metric:</strong> Gradient coils are charged with electrical current over ultra-brief intervals.
-<ul>
-<li>The rate of change in the magnetic field (<span class="math inline">\(db\)</span>) over a specific change in time (<span class="math inline">\(dt\)</span>) is measured as <span class="math inline">\(db/dt\)</span>.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-electrical-induction-hazard">B. Electrical Induction Hazard</h3>
-<ul>
-<li><strong>The Body as a Conductor:</strong> According to Faraday’s Law of Induction, a rapid change in a magnetic field (<span class="math inline">\(db/dt\)</span>) induces an electrical current within nearby conductors.
-<ul>
-<li>Because the human body is an electrical conductor, these induced currents can directly stimulate responsive biological tissues.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Target Vulnerabilities:</strong> Induced currents possess the potential to stimulate biological nerves and muscles, as well as generate currents inside implanted medical devices or abandoned control wires.</li>
-<li><strong>Static Field Independence:</strong> Crucially, <span class="math inline">\(db/dt\)</span> is strictly a function of gradient maximum strength.
-<ul>
-<li>Coil rise time—it has no mathematical dependence on the strength of the main static magnet (<span class="math inline">\(B_0\)</span>).</li>
-<li>Consequently, gradient safety is of equal concern on low-field systems as it is on high-field systems.</li>
-</ul></li>
-</ul>
-</section>
-<section id="ii.-biological-effects-nerve-and-muscle-stimulation" class="slide level2">
-<h2>II. Biological Effects: Nerve and Muscle Stimulation</h2>
-<h3 id="c.-peripheral-nerve-stimulation-pns">C. Peripheral Nerve Stimulation (PNS)</h3>
-<ul>
-<li><strong>Mild Symptoms:</strong> Currents induced in the body can cause involuntary peripheral nerve or muscle activation.
-<ul>
-<li>Typically manifests as a mild tingling sensation or a brief, harmless muscle twitch.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>The Escalation Risk:</strong> While initial twitching or tingling is not classified as a significant medical hazard, it must not be ignored.
-<ul>
-<li>If <span class="math inline">\(db/dt\)</span> levels continue to increase, the sensation can quickly escalate from barely perceptible to highly unpleasant or intensely painful.</li>
-</ul></li>
-<li><strong>Narrow Safety Margin:</strong> The window between a barely perceptible sensation and an explicitly unpleasant one is quite narrow, reported to be a ratio of roughly 1.5.
-<ul>
-<li>Prompt subject reporting is critical so operators can adjust the scan parameters.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="d.-evolution-of-fda-regulatory-standards">D. Evolution of FDA Regulatory Standards</h3>
-<ul>
-<li><strong>Historical Guidelines (Pre-1998):</strong> The FDA originally maintained a rigid numerical safety limit, capping <span class="math inline">\(db/dt\)</span> at <span class="math inline">\(20\text{ T/sec}\)</span> for pulse durations exceeding <span class="math inline">\(120\text{ microseconds}\)</span>.
-<ul>
-<li>Alternatively, vendors had to mathematically prove an explicit safety margin preventing peripheral nerve stimulation.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>The Shift to Physiological Thresholds:</strong> The emergence of ultra-fast imaging techniques (e.g., Echo Planar Imaging / EPI) required higher gradient performance.
-<ul>
-<li>Because clinical evidence proved that while PNS could startle a patient or induce motion artifacts, the tingling itself was completely benign, the policy was overhauled.</li>
-</ul></li>
-<li><strong>Modern Standard:</strong> The FDA dropped fixed numerical caps in favor of an experiential threshold.
-<ul>
-<li>Any <span class="math inline">\(db/dt\)</span> value remaining below the threshold of <em>painful</em> stimulation is categorized as a non-significant safety risk.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="e.-prevention-and-clinical-mitigation-of-pns">E. Prevention and Clinical Mitigation of PNS</h3>
-<ul>
-<li><strong>Preventing Conductive Loops:</strong> Subjects must be explicitly instructed <strong>never to clasp their hands together</strong> or cross their legs during a scan.
-<ul>
-<li>Interlocking fingers creates a closed conductive loop of anatomy, which drastically amplifies the induction of currents and worsens <span class="math inline">\(db/dt\)</span> side effects.</li>
-</ul></li>
-<li><strong>Patient Communication:</strong> Patients must be educated to immediately report any physical tingling, twitching, or early pain sensations via the squeeze-bulb or intercom.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="f.-cardiac-stimulation-and-defibrillation-thresholds">F. Cardiac Stimulation and Defibrillation Thresholds</h3>
-<ul>
-<li><strong>Theoretical Risk:</strong> In extreme, high-energy scenarios, induced currents could theoretically interfere with cardiac pacing or cause fatal ventricular fibrillation (disrupting the heart’s natural rhythm).</li>
-<li><strong>Quantified Safety Margins (Reilly Studies):</strong> Research proves there is an enormous built-in safety margin between the energy required to trip peripheral nerves versus cardiac tissue for standard short gradient ramps (<span class="math inline">\(\le 1000\ \mu\text{sec}\)</span>).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Comparative Thresholds:</strong></p>
-<ul>
-<li><strong>Cardiac Stimulation Threshold:</strong> Even for the most sensitive 1% of the human population, stimulating cardiac tissue requires <strong>20 times</strong> the energy that triggers standard peripheral nerve sensation.</li>
-<li><strong>Defibrillation Threshold:</strong> Actually causing ventricular fibrillation requires <strong>500 times</strong> the energy of peripheral stimulation.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Statistical Probability:</strong> For a subject experiencing basic peripheral nerve stimulation at a brief <span class="math inline">\(100\ \mu\text{sec}\)</span> gradient rise time, the calculated mathematical probability of accidental cardiac stimulation is incredibly remote, measured at a negligible <span class="math inline">\(2 \times 10^{-29}\)</span>.</li>
-</ul>
-</section>
-<section id="iii.-impact-on-implanted-medical-devices" class="slide level2">
-<h2>III. Impact on Implanted Medical Devices</h2>
-<h3 id="g.-mechanism-of-device-disturbance">G. Mechanism of Device Disturbance</h3>
-<ul>
-<li><strong>Dual-Field Interference:</strong> As with radiofrequency fields, time-varying gradient fields (<span class="math inline">\(db/dt\)</span>) can induce unwanted currents directly inside the internal circuitry or structural components of active implants.</li>
-<li><strong>Abandoned Hardware Risks:</strong> Currents can easily be induced inside internal control wires or lead fragments left behind in the body, even if the primary battery pack or active device has been surgically removed.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<!-- ### H. Fatal Historical FDA Incidents
-
-* *MDR-351516 (1992):* A patient with an implanted cardiac pacemaker died during an ongoing MR examination.
-* *MDR-175218 (1989):* A patient with an implanted cardiac pacemaker died during or immediately following an MR exam; a formal coroner investigation confirmed that the death was caused by the MR system's electromagnetic fields interrupting the pacemaker's operational cycle. -->
-<h3 id="h.-clinical-prevention-protocol">H. Clinical Prevention Protocol</h3>
-<ul>
-<li>The mitigation protocol mirrors that of RF fields: strict, uncompromised pre-scan screening workflows to catch and entirely exclude individuals carrying unscreened or contraindicated active medical implants from the magnet room environment.</li>
-</ul>
-</section></section>
-<section>
-<section id="claustrophobia" class="title-slide slide level1 center">
-<h1>5. Claustrophobia</h1>
-
-</section>
-<section id="i.-psychological-components-of-mri-claustrophobia" class="slide level2">
-<h2>I. Psychological Components of MRI Claustrophobia</h2>
-<p>Claustrophobic reactions within the narrow magnet bore are primarily driven by:</p>
-<ul>
-<li><strong>Fear of Suffocation:</strong> Physical anxiety triggered by the highly enclosed space and proximity to the scanner walls.</li>
-<li><strong>Fear of Entrapment:</strong> A secondary worry that an emergency or negative event will occur while they are physically trapped or helpless inside the machine.</li>
-<li><strong>Loss of Control:</strong> Once the subject is advanced into the tight confines of the bore.</li>
-</ul>
-</section>
-<section id="ii.-prevalence-and-statistical-breakdown" class="slide level2">
-<h2>II. Prevalence and Statistical Breakdown</h2>
-<ul>
-<li><strong>General Clinical Estimates (Kilborn &amp; Labbe, 1990):</strong> Approximately <strong>5% to 10%</strong> of all patients experience claustrophobic reactions during routine clinical MRI scans.</li>
-<li><strong>Sedation Rates (Murphy et al., 1997):</strong> Out of 949 hospital patients evaluated, <strong>14.3%</strong> required medical sedation just to tolerate the imaging procedure.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Anxiety and Long-Term Impact (McIsaac et al., 1998):</strong></li>
-<li>In a prospective study of 80 first-time MRI patients, 11 reported experiencing full “panic” during the scan.</li>
-<li>3 of those 11 patients aborted and terminated their scans prematurely.</li>
-<li><strong>30% of patients</strong> reported a lasting negative psychological impact, stating during a one-month follow-up that their single MRI experience had permanently increased their baseline level of claustrophobia.</li>
-</ul>
-</section>
-<section id="iii.-clinical-management-and-mitigation-strategies" class="slide level2">
-<h2>III. Clinical Management and Mitigation Strategies</h2>
-<h3 id="a.-pre-scan-screening">A. Pre-Scan Screening</h3>
-<ul>
-<li>Direct exclusion of subjects who explicitly self-report claustrophobia on screening forms.</li>
-<li><em>Note:</em> This is a partial filter, as individuals with known, severe claustrophobia rarely volunteer for imaging studies in the first place.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-communication-and-environmental-controls">B. Communication and Environmental Controls</h3>
-<p>Anxiety within the bore can be actively managed and lowered through specific investigator interventions:</p>
-<ul>
-<li><strong>Frequent Communication:</strong> Speak to the subject regularly via the intercom system, especially during the critical onset of the scan sequence.</li>
-<li><strong>Ventilation Active:</strong> Keep the internal bore fan running continuously. This physically reduces heat and psychologically eliminates the fear of suffocation.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>The Panic Button:</strong> Provide the subject with a physical emergency squeeze-bulb/panic button. This directly combats the “loss of control” component by guaranteeing that they can instantly halt the exam and summon help.</li>
-<li><strong>Expectation Setting:</strong> For first-time subjects, explicitly explain that the loud knocking sounds are entirely normal. Frame mild apprehension as a perfectly normal human response to enclosed spaces, and remind them they retain the right to stop the scan at any time.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="g.-monitoring-for-escalation-and-mandatory-termination">G. Monitoring for Escalation and Mandatory Termination</h3>
-<ul>
-<li><strong>Detecting Anxiety Cues:</strong> Investigators must actively listen for verbal and behavioral indicators of distress, such as a subject repeatedly asking, <em>“How much longer do I have left?”</em></li>
-<li><strong>Active Reassurance:</strong> Taking a brief pause between sequences to physically enter the magnet room and reassure the subject can prevent mild apprehension from escalating into panic.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Mandatory Abort Threshold:</strong> If a subject progresses past mild anxiety or explicitly declares that they are experiencing significant panic, the operator <strong>must immediately terminate the scan and remove the subject</strong> from the scanner bore.</li>
-</ul>
-</section></section>
-<section>
-<section id="acoustic-noise" class="title-slide slide level1 center">
-<h1>6. Acoustic Noise</h1>
-
-</section>
-<section id="i.-regulatory-exposure-limits-for-acoustic-noise" class="slide level2">
-<h2>I. Regulatory Exposure Limits for Acoustic Noise</h2>
-<h3 id="a.-osha-workplace-regulations-occupational">A. OSHA Workplace Regulations (Occupational)</h3>
-<ul>
-<li><strong>Time-Weighted Average (TWA):</strong> OSHA limits workplace noise exposure to an 8-hour TWA of <span class="math inline">\(90\text{ dB}\)</span>.</li>
-<li><strong>Dual-Risk Function:</strong> The regulatory framework establishes that hearing risk is a combined function of sound intensity (decibels) and exposure duration.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Hearing Conservation Rule:</strong> Employee noise exposure evaluations for hearing conservation programs are calculated using raw environmental noise levels, completely ignoring any decibel reduction provided by personal protective equipment (earplugs or earmuffs).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>OSHA Maximum Daily Exposure Limits (Adapted from Table G-16a):</strong></p>
-<ul>
-<li><strong><span class="math inline">\(85\text{ dB}\)</span>:</strong> Maximum exposure of 16 hours/day.</li>
-<li><strong><span class="math inline">\(90\text{ dB}\)</span>:</strong> Maximum exposure of 8 hours/day.</li>
-<li><strong><span class="math inline">\(95\text{ dB}\)</span>:</strong> Maximum exposure of 4 hours/day.</li>
-<li><strong><span class="math inline">\(100\text{ dB}\)</span>:</strong> Maximum exposure of 2 hours/day.</li>
-<li><strong><span class="math inline">\(105\text{ dB}\)</span>:</strong> Maximum exposure of 1 hour/day.</li>
-<li><strong><span class="math inline">\(110\text{ dB}\)</span>:</strong> Maximum exposure of 0.5 hours/day.</li>
-<li><strong><span class="math inline">\(115\text{ dB}\)</span>:</strong> Maximum exposure of 0.25 hours/day.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><em>Definition of Continuous Noise:</em> Variations in noise level are considered continuous if their maximum peaks occur at intervals <span class="math inline">\(\le 1\text{ second}\)</span>.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-understanding-the-decibel-db-scale">B. Understanding the Decibel (dB) Scale</h3>
-<ul>
-<li><strong>Logarithmic Metric:</strong> The sound pressure level (SPL) scale is logarithmic; an increase of <span class="math inline">\(10\text{ dB}\)</span> means a sound is physically 10 times louder.</li>
-<li><strong>Intensity Doubling:</strong> A mere <span class="math inline">\(6\text{ dB}\)</span> increase represents a literal doubling of sound intensity.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Real-World Benchmarks:</strong></p>
-<ul>
-<li>Normal conversation: <span class="math inline">\(\sim 60\text{ dB}\)</span>.</li>
-<li>Personal audio player (Walkman): Can reach <span class="math inline">\(100\text{ dB}\)</span>.</li>
-<li>Front row of a rock concert: <span class="math inline">\(110\text{–}120\text{ dB}\)</span>.</li>
-<li>Human threshold of pain: <span class="math inline">\(\sim 130\text{ dB}\)</span>.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="c.-impulsive-noise-fda-patient-guidelines">C. Impulsive Noise &amp; FDA Patient Guidelines</h3>
-<ul>
-<li><strong>Impulsive/Impact Ceiling:</strong> Immediate exposure to impulsive or impact noise must never exceed a peak sound pressure level of <span class="math inline">\(140\text{ dB}\)</span>. (Note: The 1972 OSHA standard does not cap the <em>number</em> of individual impulses permitted within an 8-hour workday).</li>
-<li><strong>Non-Occupational Patient Loophole:</strong> OSHA does <em>not</em> possess the authority to regulate non-occupational noise exposure, meaning its limits do not legally apply to the patients or research subjects inside the scanner bore.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>FDA Safety Threshold (1998 Guidelines):</strong> For medical device premarket notifications, the FDA mandates that a magnetic resonance diagnostic device must not exceed an unweighted peak sound pressure level of <span class="math inline">\(140\text{ dB}\)</span>.</li>
-<li><strong>Proposed Global Standards:</strong> The IEC has proposed stricter guidelines to restrict the average noise inside an active scanner to <span class="math inline">\(99\text{ dB}\)</span>, though these have not yet been adopted by the FDA.</li>
-</ul>
-</section>
-<section id="ii.-sources-and-variables-of-scanner-acoustic-noise" class="slide level2">
-<h2>II. Sources and Variables of Scanner Acoustic Noise</h2>
-<h3 id="a.-primary-sound-generators">A. Primary Sound Generators</h3>
-<ul>
-<li><strong>Static Non-Imaging State:</strong> When the scanner is idle and not acquiring images, the only noise source is the localized “chirping” of the cold water circulation pump. This stays within a <span class="math inline">\(65\text{–}80\text{ dB (A)}\)</span> range, which sits below the threshold requiring mandatory employer hearing conservation programs.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Active Imaging State:</strong> Time-varying gradient magnetic fields are the primary source of loud acoustic noise. Rapidly pulsing electrical currents passing through the gradient coils interact with the massive static magnetic field (<span class="math inline">\(B_0\)</span>), generating violent <strong>Lorentz forces</strong>. These forces cause the coils to slam against their mountings, producing the characteristically loud tapping and knocking sounds.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-imaging-parameters-influencing-intensity">B. Imaging Parameters Influencing Intensity</h3>
-<ul>
-<li><strong>Sequence Variables:</strong> Sound intensity changes dramatically based on gradient strength and slew rate. Adjusting sequence parameters can alter the output by a range of <span class="math inline">\(7.6\text{ dB (A)}\)</span>. Higher sound pressure levels (SPLs) are explicitly linked to choosing <strong>smaller fields of view (FOVs)</strong> and <strong>shorter repetition times (TRs)</strong>.</li>
-<li><strong>Ultra-Fast Sequences:</strong> Echo Planar Imaging (EPI) and other rapid sequences are significantly louder than conventional sequences, generating heavy noise in the high-frequency ranges.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>EPI Profile Cross-System Data (Miyati et al., 1999):</strong></p>
-<ul>
-<li>Across eleven tested MRI systems running EPI, the mean A-weighted SPL (<span class="math inline">\(L_{eq}\)</span>) reached <span class="math inline">\(94.1\text{ dB}\)</span> and peak noise (<span class="math inline">\(L_{peak}\)</span>) hit <span class="math inline">\(108.9\text{ dB}\)</span>.</li>
-<li>The highest concentrations of acoustic energy gather in the <span class="math inline">\(1000\text{–}4000\text{ Hz}\)</span> range.</li>
-<li>Single-shot EPI outputs significantly more energy specifically at <span class="math inline">\(4000\text{ Hz}\)</span> than other fast pulse sequences (like FSE or SPGR).</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="c.-environmental-and-field-strength-impact">C. Environmental and Field Strength Impact</h3>
-<ul>
-<li><strong>Site-Specific Acoustics:</strong> Testing identical model GE systems with identical EPI sequences revealed up to a <span class="math inline">\(7.0\text{ dB}\)</span> variation in <span class="math inline">\(L_{eq}\)</span> and a <span class="math inline">\(7.7\text{ dB}\)</span> difference in <span class="math inline">\(L_{peak}\)</span>.
-<ul>
-<li>This proves that room architecture and site-specific variables play a massive role, suggesting that sound-absorbent wall materials can drastically minimize reflected gradient noise.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>The Field Strength Paradox:</strong> Early testing of <span class="math inline">\(0.5\text{ T}\)</span> to <span class="math inline">\(1.5\text{ T}\)</span> systems found no statistically significant differences in SPL based entirely on field strength.
-<ul>
-<li>However, a broader cross-system study (<span class="math inline">\(0.2\text{ T}\)</span> to <span class="math inline">\(3\text{ T}\)</span>) showed that higher-field magnets are notably louder.</li>
-<li>This finding is fundamentally confounded by the fact that higher-field systems require drastically stronger gradients (e.g., <span class="math inline">\(10\text{ mT/m}\)</span> on a <span class="math inline">\(0.2\text{ T}\)</span> system vs.&nbsp;<span class="math inline">\(35\text{ mT/m}\)</span> on a <span class="math inline">\(3\text{ T}\)</span> system).</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<ul>
-<li><strong>Location Hotspots:</strong> The most intense noise is recorded roughly <span class="math inline">\(80\text{ cm}\)</span> away from the center of the scanner—at the physical <strong>entrance of the magnet bore</strong>—rather than at true isocenter.</li>
-<li><strong>Subject Presence:</strong> The physical presence of a body inside the bore changes the internal acoustics, consistently driving up recorded SPLs compared to scanning an empty bore.</li>
-<li><strong>High Diffusion Sequences:</strong> Scanning modes requiring massive diffusion weightings utilize the absolute maximum range of the gradient coils, meaning they are expected to produce the loudest operational sounds.</li>
-</ul>
-</section>
-<section id="iii.-hearing-protection-devices-hpds" class="slide level2">
-<h2>III. Hearing Protection Devices (HPDs)</h2>
-<h3 id="a.-the-noise-reduction-rating-nrr">A. The Noise Reduction Rating (NRR)</h3>
-<ul>
-<li><strong>EPA Standardization:</strong> The Environmental Protection Agency utilizes the NRR metric to quantify hearing protector effectiveness.</li>
-<li><strong>Mathematical Calculation:</strong> The NRR value is calculated by taking the mean laboratory sound attenuation (in dB) of the device and subtracting two standard deviations.
-<ul>
-<li>This design ensures the rating reflects the absolute minimum protection achieved by <span class="math inline">\(98\%\)</span> of the population.</li>
-</ul></li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="b.-clinical-earplug-compliance-and-fit-factors">B. Clinical Earplug Compliance and Fit Factors</h3>
-<ul>
-<li><strong>Proper Insertion Constraints:</strong> Standard foam earplugs (such as the Aearo E-A-R Classic plugs) offer a rated NRR of <span class="math inline">\(29\text{ dB}\)</span>. However, this rating is completely compromised if the plugs are improperly inserted or fail to fit the ear canal correctly.</li>
-<li><strong>NIOSH Derating Penalties:</strong> For safety compliance auditing, NIOSH automatically penalizes and <strong>derates an earplug’s listed NRR by 50%</strong> if no direct subject fit data is provided.</li>
-<li><strong>Operator Duty:</strong> MRI operators must explicitly instruct every subject on correct foam earplug rolling and insertion techniques, followed by a manual visual inspection of the final fit.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<h3 id="c.-the-efficacy-of-dual-protection-earplugs-headphones">C. The Efficacy of Dual-Protection (Earplugs + Headphones)</h3>
-<ul>
-<li><strong>Non-Additive Scaling:</strong> Wearing acoustic headphones over earplugs does <em>not</em> double the decibel reduction. It does, however, successfully boost the total NRR by an extra <span class="math inline">\(5\text{–}6\text{ dB}\)</span>. This modest numerical increase effectively cuts the remaining perceived sound intensity in half.</li>
-</ul>
-</section>
-<section class="slide level2">
-
-<p><strong>Frequency Dynamics:</strong></p>
-<ul>
-<li>At frequencies exceeding <span class="math inline">\(2000\text{ Hz}\)</span>, hearing protection hits a physical ceiling because sound begins to bypass the ear entirely via <strong>bone conduction</strong>.
-<ul>
-<li>Consequently, combining headphones and earplugs offers minimal extra protection at high pitches.</li>
-</ul></li>
-<li>At lower frequencies, dual-protection yields massive acoustic attenuation gains.
-<ul>
-<li>Since active MRI gradient noise contains a heavy low-frequency footprint, the simultaneous use of earplugs and headphones is highly recommended.</li>
-</ul></li>
-</ul>
-
 
 </section></section>
+<section id="dilligence" class="title-slide slide level1 center">
+<h1>Dilligence</h1>
+<p>Badge Close doors Challenge</p>
+</section>
+
+<section id="schedule" class="title-slide slide level1 center">
+<h1>Schedule</h1>
+
+</section>
+
+<section id="policies" class="title-slide slide level1 center">
+<h1>Policies</h1>
+
+</section>
+
+<section id="relevant-sops" class="title-slide slide level1 center">
+<h1>Relevant SOPs</h1>
+
+
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../media/nd_logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>ND-HNC: MRI safety</p>
+<p>ND-HNC: MRI safety 1</p>
 </div>
 </div></div>
 

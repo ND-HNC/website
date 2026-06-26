@@ -94,7 +94,7 @@ The workstations are connected to a dedicated Promise Technology Pegasus RAID st
 DICOM image management, visualization, and anonymization are performed using the Horos imaging platform. Investigators have access to advanced multiplanar reconstruction, volume rendering, quantitative ROI analysis, and secure de-identification tools that support compliance with institutional and federal human subjects protections.
 
 #### Departmental Computing Resources
-The research team maintains access to a dedicated departmental computing rack providing approximately 256 CPU cores for local high-throughput processing. This infrastructure supports image reconstruction, quality assurance, machine learning development, containerized neuroimaging pipelines, and rapid deployment of computational workflows.
+The research team maintains access to a dedicated departmental computing rack, providing 56 CPU cores and 256 GB RAM for local high-throughput processing. This infrastructure supports image reconstruction, quality assurance, machine learning development, containerized neuroimaging pipelines, and rapid deployment of computational workflows.
 
 Dedicated Linux workstations provide optimized environments for FSL, FreeSurfer, AFNI, ANTs, and other neuroimaging software packages. These systems include dedicated GPU acceleration to support computationally intensive analyses such as probabilistic tractography, deep-learning-based segmentation, and large-scale image processing.
 

@@ -7,7 +7,7 @@ toc-depth: 4
 This page is under construction.
 
 ## MRI Safety Training
-All researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam (SOP [202](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"}). This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures/policies.
+All researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 (see Form [RO03](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"}) must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam (SOP [202](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"}). This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures/policies.
 
 | Access Level | Topic | Materials | Exam |
 |-----|-----|-----|-----|
@@ -22,11 +22,23 @@ All researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center 
 ## Scheduled Trainings
 Upcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.
 
-| Date | Topic | Register ||
-|-----|-----|-----|-----|
-| TBD | Level 1 | TBD ||
-| TBD | CPR, First Aid | TBD ||
-| TBD | Level 2 | TBD ||
-| TBD | Level 3 | TBD ||
+Note:
 
-: {tbl-colwidths="[25,25,25,25]"}
+- Level 1 & 2 trainings are limited to 48 attendees.
+- CPR/AED trainings are limited to 18 attendees.
+- CPR/AED is required for Level 2 and recommended for Level 1 (see SOP [202](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"}).
+- Cost of CPR/AED training is $65/person.
+
+| Topic | Date | Time | Location | Register |
+|-----|-----|-----|-----|-----|
+| Level 1 | 2026-09-09 | 9-10am | VFPC 148 | [Email](mailto:nd-hnc@nd.edu) |
+| Level 2 | 2026-09-09 | 11am-12pm | VFPC 148 |[Email](mailto:nd-hnc@nd.edu) |
+| Level 1 | 2026-10-05 | 9-10am | VFPC 148 | [Email](mailto:nd-hnc@nd.edu) |
+| Level 2 | 2026-10-05 | 11am-12pm | VFPC 148 | [Email](mailto:nd-hnc@nd.edu) |
+| CPR/AED | 2026-11-02 | 9-10am | TBD | [Email](mailto:nd-hnc@nd.edu) |
+| Level 1 | 2027-02-02 | 9-10am | VFPC 148 | [Email](mailto:nd-hnc@nd.edu) |
+| Level 2 | 2027-02-02 | 11am-12pm | VFPC 148 | [Email](mailto:nd-hnc@nd.edu) |
+| Level 1 | 2027-03-02 | 9-10am | VFPC 148 | [Email](mailto:nd-hnc@nd.edu) |
+| Level 2 | 2027-03-02 | 11am-12pm | VFPC 148 | [Email](mailto:nd-hnc@nd.edu) |
+
+: {tbl-colwidths="[20,20,20,20,20]"}

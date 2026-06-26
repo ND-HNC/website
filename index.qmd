@@ -24,7 +24,7 @@ Email: [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
 Our goal is to provide operational support for research conducted at the [ND-HNC](https://neuroimaging.nd.edu/). We support every step of your research program:
 
 - [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Understand available resources.
-- [Training](pages/training.qmd): Learn to use the center.
+- [Training](pages/training.qmd): Learn to use and gain access to the center.
 - Schedule: Book facilities.
 - Data collection: Operate research hardware.
 - [Compute](pages/compute.qmd): Develop codebase, sandbox testing, local computing, parallelization.
