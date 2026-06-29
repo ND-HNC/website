@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
-  <title>ND-HNC – MRI Safety Training, Level 1</title>
+  <title>ND-HNC – Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -120,8 +120,7 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="MRI Safety Training, Level 1 – ND-HNC">
-<meta property="og:description" content="Notre Dame Human Neuroimgaging Center (ND-HNC)">
+<meta property="og:title" content="Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2 – ND-HNC">
 <meta property="og:site_name" content="ND-HNC">
 </head>
 <body class="quarto-light">
@@ -129,8 +128,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">MRI Safety Training, Level 1</h1>
-  <p class="subtitle">Notre Dame Human Neuroimgaging Center (ND-HNC)</p>
+  <h1 class="title">Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2</h1>
 
 <div class="quarto-title-authors">
 </div>
@@ -141,547 +139,209 @@
 <h1>MRI: An introduction</h1>
 
 </section>
+<section id="mri-is-cool" class="slide level2">
+<h2>MRI is Cool</h2>
+</section>
 <section id="what-is-mri" class="slide level2">
 <h2>What is MRI?</h2>
 <div class="columns">
 <div class="column" style="font-size: 65%;">
 <ul>
-<li>(Nuclear) Magnetic Resonance Imaging</li>
-<li>Nuclear Magnetic: certain elements have known behaviors in magnetic fields
+<li>Nuclear Magnetic Resonance Imaging:
 <ul>
-<li>Align with field</li>
-<li>Precesses at known frequency</li>
+<li>Certain nuclei (H+) align with magnetic field</li>
+<li>Respond to secondary field</li>
+<li>Emit electromagnetic signal</li>
 </ul></li>
-<li>Resonance: introduce energy at same frequency as precession
+<li>Number of discoveries:
 <ul>
-<li>Protons move to higher energy states, eventually decay</li>
+<li><a href="../articles/rabi_1938.pdf">Rabi</a> - NMR (molecular beams)</li>
+<li><a href="../articles/bloch_1946.pdf">Bloch</a> and Purcell - NMR (liquids, solids)</li>
+<li><a href="../articles/lauterbur_1973_mri.pdf">Lauterbur</a> and Mansfield - MRI</li>
 </ul></li>
-<li>Imaging: researchers capitalize on different tissue properties (e.g.&nbsp;density) to create contrasts</li>
+<li>Intersection: Physics, Engineering, CompSci, Neuroscience, Psychology</li>
 </ul>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="width:&quot;50%;">
 <div class="r-stack">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/mri.jpg" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="nmr_2.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="t1_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
+<p><img data-src="../../media/mri.jpg"></p>
+<p><img data-src="nmr_1.png" class="fragment"></p>
 </div>
 </div></div>
-</section>
-<section id="magnet-strength" class="slide level2">
-<h2>Magnet Strength</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
+<aside class="notes">
 <ul>
-<li>Typically measured in Tesla (T)</li>
-<li>The Earth’s magnetic field is roughly 0.00005 Tesla
-<ul>
-<li>Standard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.</li>
-</ul></li>
-<li>Meaning: 3 Tesla is <a href="https://www.youtube.com/watch?v=6BBx8BwLhqg" target="_blank">significant</a>.</li>
+<li>Isidor Rabi (1938) first described NMR; Nobel Prize 1944</li>
+<li>Felix Bloch, Edward Purcell extended to liquids, solids; Nobel Prize 1952</li>
+<li>Lauterbur, Mansfield; biologically useful MRI, EPI; Nobel Prize 2003</li>
 </ul>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="tesla_1.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="magnet-is-always-on" class="slide level2">
-<h2>Magnet Is Always On!</h2>
+<section id="magnetic-field" class="slide level2">
+<h2>Magnetic Field</h2>
 <div class="columns">
 <div class="column" style="font-size: 65%;">
 <ul>
-<li>Electrical resistance decreases with temperature
+<li>Principles of <a href="https://www.youtube.com/watch?v=tXI7Wd1ElF8">electromagnetism</a></li>
+<li>Superconductivity
 <ul>
-<li>At very (very) low temperatures, copper has superconductive properties</li>
+<li>Copper</li>
+<li>Liquid He+</li>
 </ul></li>
-<li>MRI scanner filled with liquid helium
+<li>3 Tesla (<a href="https://www.youtube.com/watch?v=6BBx8BwLhqg">2000+</a> lbs attraction)
 <ul>
-<li>Ramp up (charge coil) from the electrical grid</li>
-<li>Then disconnect!</li>
-<li>Perpetual current = persistent field strength</li>
-</ul></li>
-<li>Independent of power in:
-<ul>
-<li>Room</li>
-<li>Veldman Family Psychology Clinic</li>
-<li>South Bend</li>
+<li>Smooth, consistent field</li>
+<li>Always ON!</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:&quot;50%;">
 <div class="r-stack">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="cold_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="coil_3.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="coil_2.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="coil_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
+<p><img data-src="coil_1.png" class="fragment fade-in-then-out"></p>
+<p><img data-src="cold_1.png" class="fragment fade-in-then-out"></p>
+<p><img data-src="coil_2.jpg" class="fragment fade-in-then-out"></p>
+<p><img data-src="coil_3.png" class="fragment"></p>
 </div>
 </div></div>
+<aside class="notes">
+<p>(charge machine before strength)</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="proton" class="slide level2">
+<h2>Proton</h2>
+</section></section>
+<section>
+<section id="mri-strength" class="title-slide slide level1 center">
+<h1>MRI Strength</h1>
+
+</section>
+<section id="tesla" class="slide level2">
+<h2>Tesla</h2>
+<p>foot pounds videos</p>
 </section>
 <section id="safety-considerations" class="slide level2">
 <h2>Safety Considerations</h2>
+<!-- Required reading? -->
 <div class="columns">
 <div class="column" style="font-size: 65%;">
 <ul>
-<li>Rarely are rooms <a href="https://smithchason.edu/mri-safety-lessons-1980-2001-2025/" target="_blank">fatal</a>.</li>
-<li>Injuries are more <a href="../articles/inaguma_2023_injuries.pdf" target="_blank">common</a> than they should be.</li>
-<li>American College of Radiology (<a href="https://www.acr.org/" target="_blank">ACR</a>) recommends a 4 <a href="https://mriquestions.com/acr-safety-zones.html" target="_blank">zone</a> strategy for controlling access.</li>
+<li>Rarely are rooms <a href="https://smithchason.edu/mri-safety-lessons-1980-2001-2025/">fatal</a></li>
+<li>Strict <a href="https://mriquestions.com/acr-safety-zones.html">Zoning</a> helps</li>
+<li>Diligence: avoid complacency and <a href="https://en.wikipedia.org/wiki/Survivorship_bias">survivorship bias</a></li>
+<li>Magnetic field has significant <a href="https://www.youtube.com/watch?v=IF6CMrjGNN4">acceleration</a></li>
+<li>Injuries are more <a href="articles/inaguma_2023_injuries.pdf">common</a> than they should be</li>
 </ul>
 </div><div class="column" style="width:&quot;50%;">
-<!-- TODO: increase danger_1 -->
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="zones_2.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="danger_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="zones_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div>
+<p><img data-src="zones_2.png"></p>
 </div></div>
-</section>
-<section id="safety-screener" class="slide level2">
-<h2>Safety Screener</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
+<aside class="notes">
 <ul>
-<li>Everyone who enters Zone 3 <strong>MUST</strong> fill out an <a href="../forms/form_RO01_mri_screen.pdf" target="_blank">MRI Safety Screener</a></li>
-<li>Check for compatibility with 3 Tesla field</li>
-<li>Reviewed by two people</li>
+<li>Survivor bias: seatbelts, climbing (Rope on chair)</li>
 </ul>
-<ol type="1">
-<li>Check for contraindications:
-<ul>
-<li>Non-MRI compatible medical implants (e.g.&nbsp;pacemaker)</li>
-<li>Metal embedded in body (shrapnel, piercings)</li>
-<li>Tattoo on face or neck, permanent makeup</li>
-<li>Pregnancy</li>
-</ul></li>
-</ol>
-</div><div class="column" style="font-size: 65%;">
-<ol start="2" type="1">
-<li>Check that MRI incompatible materials are removed
-<ul>
-<li>Jewelry, objects in pockets (pens, paperclips)</li>
-<li>Hair accessories (bobby pins, clips, extensions)</li>
-<li>Clothing (bra underwire, Lululemon Silverscent)</li>
-<li>Cosmetics (colored contacts, magnetic lashes, tanning lotions, makeup/nail polish with glitter)</li>
-<li>Footwear (steeltoe, buckles)</li>
-</ul></li>
-</ol>
-</div></div>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section></section>
 <section>
-<section id="mri-zones" class="title-slide slide level1 center">
-<h1>MRI Zones</h1>
-<p>ND-HNC zone <a href="../sops/pics/nd-hnc_layout_zones.png" target="_blank">map</a>.</p>
+<section id="zones" class="title-slide slide level1 center">
+<h1>Zones</h1>
+
 </section>
-<section id="zone-1-orange" class="slide level2">
-<h2>Zone 1 (Orange)</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Offices</li>
-<li>Conference</li>
-<li>Reception</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Meet participants</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Public</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="zone-1" class="slide level2">
+<h2>Zone 1</h2>
+<p><img data-src="../sops/pics/nd-hnc_layout_zones.png"> Use Access Restrictions</p>
 </section>
-<section id="zone-2-purple" class="slide level2">
-<h2>Zone 2 (Purple)</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Changing rooms</li>
-<li>Interview, testing</li>
-<li>Non-MRI research (EEG, TMS)</li>
-<li>Mock MRI</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Non-MRI research</li>
-<li>MRI preparation</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Levels 1, 2+</li>
-<li>Escorted Visitors</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="zone-2" class="slide level2">
+<h2>Zone 2</h2>
+<p>Use Access Restrictions</p>
 </section>
-<section id="zone-3-green" class="slide level2">
-<h2>Zone 3 (Green)</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Equipment</li>
-<li>Storage</li>
-<li>Control</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Access MRI scanner</li>
-<li>Maintain equipment</li>
-<li>Collect MRI data</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Level 3+ (Supervised Level 2)</li>
-<li>Screened, escorted Visitors</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="zone-3" class="slide level2">
+<h2>Zone 3</h2>
+<p>Use Access Restrictions</p>
 </section>
-<section id="zone-4-blue" class="slide level2">
-<h2>Zone 4 (Blue)</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Magnet</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Scan participants</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Level 4+ (Supervised Level 2+)</li>
-<li>Screened, escorted Visitors</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="zone-4" class="slide level2">
+<h2>Zone 4</h2>
+<p>Use Access Restrictions</p>
+</section>
+<section class="slide level2">
+
 </section></section>
 <section>
-<section id="mri-access" class="title-slide slide level1 center">
-<h1>MRI Access</h1>
+<section id="access" class="title-slide slide level1 center">
+<h1>Access</h1>
 
 </section>
-<section id="level-1" class="slide level2">
-<h2>Level 1</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Requirements:
-<ul>
-<li>Annual MRI Safety training</li>
-<li>Building access, safety trainings</li>
-<li>Wear Level 1 badge in MRI suite</li>
-</ul></li>
-<li>Privileges:
-<ul>
-<li>Unsupervised access in Zone 2<span class="math inline">\(^*\)</span></li>
-</ul></li>
-<li>Restrictions:
-<ul>
-<li><span class="math inline">\(^*\)</span>No access to Mock Room (B14)</li>
-<li>No access to Zones 3, 4</li>
-<li>Cannot review MRI Safety Screen</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="access-1" class="slide level2">
+<h2>Access 1</h2>
+<p>Training Access Who</p>
 </section>
-<section id="level-2" class="slide level2">
-<h2>Level 2</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Requirements:
-<ul>
-<li>Level 1 requirements</li>
-<li>Current first-aid, CPR training</li>
-<li>Current (at least annual) MRI Safety Screen form</li>
-</ul></li>
-<li>Privileges:
-<ul>
-<li>All Level 1 privileges</li>
-<li>Access to Mock Scanner and computer</li>
-<li>Supervised access to Zones 3, 4</li>
-<li>Access to stimulus and DICOM computers</li>
-<li>First review of MRI Safety Screen</li>
-<li>Help un/load participants in scanner</li>
-<li>Helper in emergencies</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="access-2" class="slide level2">
+<h2>Access 2</h2>
+<p>Training Access Who</p>
 </section>
-<section id="level-2-contd" class="slide level2">
-<h2>Level 2, cont’d</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Restrictions:
-<ul>
-<li>No access to Zone 3 Equipment room</li>
-<li>Irish1Card access to Zone 3 not granted</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="access-3" class="slide level2">
+<h2>Access 3</h2>
 </section>
-<section id="level-3" class="slide level2">
-<h2>Level 3</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Requirements:
-<ul>
-<li>Level 2 requirements</li>
-<li>Pass Emergency SOP exam</li>
-<li>ND graduate student, post-doctoral fellow, faculty</li>
-<li>30 hours of experience as Level 2 in Zone 3</li>
-</ul></li>
-<li>Privileges:
-<ul>
-<li>All Level 2 privileges</li>
-<li>Unsupervised access to Zone 3</li>
-<li>Supervised access to Zone 4</li>
-<li>May train for Level 4</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="level-3-contd" class="slide level2">
-<h2>Level 3, cont’d</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Restrictions:
-<ul>
-<li>No unsupervised access to Zone 4</li>
-<li>Cannot be second reviewer of MRI Safety Screen</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="level-4" class="slide level2">
-<h2>Level 4</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Requirements:
-<ul>
-<li>Level 3 requirements</li>
-<li>Pass operator exam</li>
-<li>ND Ph.D.&nbsp;candidate, post-doctoral fellow, faculty</li>
-<li>30 hours of experience as Level 3</li>
-</ul></li>
-<li>Privileges:
-<ul>
-<li>All Level 3 privileges</li>
-<li>Unsupervised access to Zone 4</li>
-<li>Second reviewer of MRI Safety Screen</li>
-<li>Independently scan participants</li>
-</ul></li>
-<li>Restrictions:
-<ul>
-<li>Must be accompanied by another researcher (Level 2+) when someone is in Zone 4</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="level-4-contd" class="slide level2">
-<h2>Level 4, cont’d</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Restrictions:
-<ul>
-<li>Must be accompanied by another researcher (Level 2+) when someone is in Zone 4</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../sops/pics/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="access-4" class="slide level2">
+<h2>Access 4</h2>
+<p>Training Access Who</p>
 </section></section>
-<section id="culture-of-diligence" class="title-slide slide level1 center">
-<h1>Culture of Diligence</h1>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li><strong>Purpose:</strong> have ZERO accidents with the scanner.</li>
-<li>Avoid complacency and <a href="https://en.wikipedia.org/wiki/Survivorship_bias" target="_blank">survivorship bias</a>.</li>
-<li>Follow and support policies.</li>
-<li>For example:
-<ul>
-<li>Wear badges for ease of identification.</li>
-<li>Close doors to restrict Zone access.</li>
-<li>Challenge protocol deviations.</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="reset.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
+<section id="dilligence" class="title-slide slide level1 center">
+<h1>Dilligence</h1>
+<p>Badge Close doors Challenge</p>
 </section>
 
-<section>
-<section id="website" class="title-slide slide level1 center">
-<h1>Website</h1>
-<div style="font-size: 65%;">
-<ul>
-<li>Find SOPs, Policies, and more information at <a href="https://nd-hnc.github.io/website" target="_blank">nd-hnc.github.io/website</a></li>
-</ul>
-</div>
+<section id="building-policies" class="title-slide slide level1 center">
+<h1>Building Policies</h1>
+
 </section>
-<section id="sources" class="slide level2">
-<h2>Sources</h2>
-<div class="columns">
-<div class="column" style="font-size: 50%">
-<p>What is MRI?</p>
-<ul>
-<li><a href="https://link.springer.com/chapter/10.1007/978-3-031-91447-8_2">NMR Property</a></li>
-<li><a href="https://mrimaster.com/index-2/">Axial T1-weighted image</a></li>
-</ul>
-<p>MRI Strength</p>
-<ul>
-<li><a href="https://www.researchgate.net/figure/Comparison-of-fringe-magnetic-fields-of-two-clinical-MRI-systems-Fringe-magnetic-fields_fig1_334496429">Tesla distance</a></li>
-</ul>
-<p>Always On!</p>
-<ul>
-<li><a href="https://mriquestions.com/superconductivity.html">Superconductivity</a></li>
-<li><a href="https://mriquestions.com/superconductive-design.html">Magnet cross section</a></li>
-<li><a href="https://www.sciencedirect.com/topics/engineering/superconducting-coil">Magnet and grid</a></li>
-<li><a href="https://www.sciencefacts.net/solenoid-magnetic-field.html">Electromagnet</a></li>
-</ul>
-</div><div class="column" style="font-size: 50%">
-<p>Safety Considerations</p>
-<ul>
-<li><a href="https://www.purdue.edu/hhs/mri/MR%20Safety/MR%20Safety.html">2x2 Scanner Accident</a></li>
-<li><a href="https://smithchason.edu/mri-safety-lessons-1980-2001-2025/">Article Selection</a></li>
-<li><a href="https://mriquestions.com/acr-safety-zones.html">MRI Zones</a></li>
-</ul>
-<p>Culture of Diligence</p>
-<ul>
-<li><a href="https://xkcd.com/363/">XKCD</a></li>
-</ul>
-</div></div>
+
+<section id="schedule" class="title-slide slide level1 center">
+<h1>Schedule</h1>
+
+</section>
+
+<section id="policies" class="title-slide slide level1 center">
+<h1>Policies</h1>
+
+</section>
+
+<section id="sops" class="title-slide slide level1 center">
+<h1>SOPs</h1>
+<p>Website</p>
 
 
-</section></section>
+</section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../media/nd_logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p>ND-HNC: MRI safety 1</p>
+<p>ND-HNC: MRI safety 2</p>
 </div>
 </div></div>
 

@@ -126,330 +126,230 @@
     "text": "III. Hearing Protection Devices (HPDs)\nA. The Noise Reduction Rating (NRR)\n\nEPA Standardization: The Environmental Protection Agency utilizes the NRR metric to quantify hearing protector effectiveness.\nMathematical Calculation: The NRR value is calculated by taking the mean laboratory sound attenuation (in dB) of the device and subtracting two standard deviations.\n\nThis design ensures the rating reflects the absolute minimum protection achieved by \\(98\\%\\) of the population."
   },
   {
-    "objectID": "pages/wiki.html",
-    "href": "pages/wiki.html",
-    "title": "Wiki",
-    "section": "",
-    "text": "This page is under construction."
+    "objectID": "resources/slides/mri_safety_1.html#what-is-mri",
+    "href": "resources/slides/mri_safety_1.html#what-is-mri",
+    "title": "MRI Safety Training, Level 1",
+    "section": "What is MRI?",
+    "text": "What is MRI?\n\n\n\n(Nuclear) Magnetic Resonance Imaging\nNuclear Magnetic: certain elements have known behaviors in magnetic fields\n\nAlign with field\nPrecesses at known frequency\n\nResonance: introduce energy at same frequency as precession\n\nProtons move to higher energy states, eventually decay\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts"
   },
   {
-    "objectID": "pages/storage.html",
-    "href": "pages/storage.html",
-    "title": "Storage",
+    "objectID": "resources/slides/mri_safety_1.html#mri-strength",
+    "href": "resources/slides/mri_safety_1.html#mri-strength",
+    "title": "MRI Safety Training, Level 1",
+    "section": "MRI Strength",
+    "text": "MRI Strength\n\n\n\nTypically measured in Tesla (T)\nThe Earth’s magnetic field is roughly 0.00005 Tesla\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#always-on",
+    "href": "resources/slides/mri_safety_1.html#always-on",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Always On!",
+    "text": "Always On!\n\n\n\nCopper has superconductivity properties\n\nZero resistance at low temperatures\n\nMRI scanner filled with liquid helium\nRamp up (charge coil) from the electrical grid\n\nThen disconnect!\n\nPerpetual current\n\nPersistent field strength\n\nIndependent of power in:\n\nRoom\nVeldman Family Psychology Clinic\nSouth Bend"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#safety-considerations",
+    "href": "resources/slides/mri_safety_1.html#safety-considerations",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Safety Considerations",
+    "text": "Safety Considerations\n\n\n\nRarely are rooms fatal.\nInjuries are more common than they should be.\nAmerican College of Radiology (ACR) recommends a 4 zone strategy for controlling access."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-1-orange",
+    "href": "resources/slides/mri_safety_1.html#zone-1-orange",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 1 (Orange)",
+    "text": "Zone 1 (Orange)\n\n\n\nContains:\n\nOffices\nConference\nReception\n\nUse:\n\nMeet participants\n\nAccess:\n\nPublic"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-2-purple",
+    "href": "resources/slides/mri_safety_1.html#zone-2-purple",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 2 (Purple)",
+    "text": "Zone 2 (Purple)\n\n\n\nContains:\n\nChanging rooms\nInterview, testing\nNon-MRI research (EEG, TMS)\nMock MRI\n\nUse:\n\nNon-MRI research\nMRI preparation\n\nAccess:\n\nLevels 1, 2+\nEscorted Visitors"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-3-green",
+    "href": "resources/slides/mri_safety_1.html#zone-3-green",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 3 (Green)",
+    "text": "Zone 3 (Green)\n\n\n\nContains:\n\nEquipment\nStorage\nControl\n\nUse:\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\nAccess:\n\nLevel 3+ (Supervised Level 2)\nScreened, escorted Visitors"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-4-blue",
+    "href": "resources/slides/mri_safety_1.html#zone-4-blue",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 4 (Blue)",
+    "text": "Zone 4 (Blue)\n\n\n\nContains:\n\nMagnet\n\nUse:\n\nScan participants\n\nAccess:\n\nLevel 4+ (Supervised Level 2+)\nScreened, escorted Visitors"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-1",
+    "href": "resources/slides/mri_safety_1.html#level-1",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 1",
+    "text": "Level 1\n\n\n\nRequirements:\n\nAnnual MRI Safety training\nBuilding access, safety trainings\nWear Level 1 badge in MRI suite\n\nPrivileges:\n\nUnsupervised access in Zone 2\\(^*\\)\n\nRestrictions:\n\n\\(^*\\)No access to Mock Room (B14)\nNo access to Zones 3, 4\nCannot review MRI Safety Screen"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-2",
+    "href": "resources/slides/mri_safety_1.html#level-2",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 2",
+    "text": "Level 2\n\n\n\nRequirements:\n\nLevel 1 requirements\nCurrent first-aid, CPR training\nCurrent (at least annual) MRI Safety Screen form\n\nPrivileges:\n\nAll Level 1 privileges\nAccess to Mock Scanner and computer\nSupervised access to Zones 3, 4\nAccess to stimulus and DICOM computers\nFirst review of MRI Safety Screen\nHelp un/load participants in scanner\nHelper in emergencies"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-2-contd",
+    "href": "resources/slides/mri_safety_1.html#level-2-contd",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 2, cont’d",
+    "text": "Level 2, cont’d\n\n\n\nRestrictions:\n\nNo access to Zone 3 Equipment room\nIrish1Card access to Zone 3 not granted"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-3",
+    "href": "resources/slides/mri_safety_1.html#level-3",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 3",
+    "text": "Level 3\n\n\n\nRequirements:\n\nLevel 2 requirements\nPass Emergency SOP exam\nND graduate student, post-doctoral fellow, faculty\n30 hours of experience as Level 2 in Zone 3\n\nPrivileges:\n\nAll Level 2 privileges\nUnsupervised access to Zone 3\nSupervised access to Zone 4\nMay train for Level 4"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-3-contd",
+    "href": "resources/slides/mri_safety_1.html#level-3-contd",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 3, cont’d",
+    "text": "Level 3, cont’d\n\n\n\nRestrictions:\n\nNo unsupervised access to Zone 4\nCannot be second reviewer of MRI Safety Screen"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-4",
+    "href": "resources/slides/mri_safety_1.html#level-4",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 4",
+    "text": "Level 4\n\n\n\nRequirements:\n\nLevel 3 requirements\nPass operator exam\nND Ph.D. candidate, post-doctoral fellow, faculty\n30 hours of experience as Level 3\n\nPrivileges:\n\nAll Level 3 privileges\nUnsupervised access to Zone 4\nSecond reviewer of MRI Safety Screen\nIndependently scan participants\n\nRestrictions:\n\nMust be accompanied by another researcher (Level 2+) when someone is in Zone 4"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#sources",
+    "href": "resources/slides/mri_safety_1.html#sources",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Sources",
+    "text": "Sources\n\n\nWhat is MRI?\n\nNMR Property\nAxial T1-weighted image\n\nMRI Strength\n\nTesla distance\n\nAlways On!\n\nSuperconductivity\nMagnet cross section\nMagnet and grid\nElectromagnet\n\n\nSafety Considerations\n\n2x2 Scanner Accident\nArticle Selection\nMRI Zones\n\nCulture of Diligence\n\nXKCD"
+  },
+  {
+    "objectID": "pages/training.html",
+    "href": "pages/training.html",
+    "title": "Training",
     "section": "",
-    "text": "Credit: Hard Drives in Abstract Computer Storage by ken123.",
+    "text": "This page is under construction.",
     "crumbs": [
-      "Storage"
+      "Training"
     ]
   },
   {
-    "objectID": "pages/storage.html#overview",
-    "href": "pages/storage.html#overview",
-    "title": "Storage",
+    "objectID": "pages/training.html#mri-safety-training",
+    "href": "pages/training.html#mri-safety-training",
+    "title": "Training",
+    "section": "MRI Safety Training",
+    "text": "MRI Safety Training\nAll researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 (see Form RO03) must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam (SOP 202). This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures/policies.\n\n\n\n\n\n\n\n\n\nAccess Level\nTopic\nMaterials\nExam\n\n\n\n\n1\nND-HNC Safety Operations\nSlides\nTBD\n\n\n2\nMRI Safety\nSlides\nTBD\n\n\n3\nMRI Safety, advanced\nSlides\nTBD\n\n\n4\nOperator Training\nSlides\nTBD",
+    "crumbs": [
+      "Training"
+    ]
+  },
+  {
+    "objectID": "pages/training.html#scheduled-trainings",
+    "href": "pages/training.html#scheduled-trainings",
+    "title": "Training",
+    "section": "Scheduled Trainings",
+    "text": "Scheduled Trainings\nUpcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.\nNote:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED trainings are limited to 18 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1; see SOP 202).\nCost of CPR/AED training is $65/person.\n\n\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\nRegister\n\n\n\n\nLevel 1\n2026-09-09\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2026-09-09\n11am-12pm\nVFPC 148\nEmail\n\n\nLevel 1\n2026-10-05\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2026-10-05\n11am-12pm\nVFPC 148\nEmail\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\nEmail\n\n\nLevel 1\n2027-02-02\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2027-02-02\n11am-12pm\nVFPC 148\nEmail\n\n\nLevel 1\n2027-03-02\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2027-03-02\n11am-12pm\nVFPC 148\nEmail",
+    "crumbs": [
+      "Training"
+    ]
+  },
+  {
+    "objectID": "pages/sops.html",
+    "href": "pages/sops.html",
+    "title": "Standard Operating Procedures",
+    "section": "",
+    "text": "This page is under construction.",
+    "crumbs": [
+      "SOPs"
+    ]
+  },
+  {
+    "objectID": "pages/sops.html#overview",
+    "href": "pages/sops.html#overview",
+    "title": "Standard Operating Procedures",
     "section": "Overview",
-    "text": "Overview\nTo support diverse data management and computational needs, the ND-HNC has partnered with the Center for Research Computing (CRC) to provide researchers with a shared, multi-tiered data storage infrastructure.\nThese resources are categorized into three distinct tiers based on the data’s activity level and backup requirements:\n\n\n\n\n\n\n\n\n\n\nStorage Tier\nTotal Capacity\nMount Location\nPrimary Purpose\nBackup Policy\n\n\n\n\nActive Storage\n50 TB\n/groups/hnc\nIntermediate storage of publication-critical files.\nNightly\n\n\nCold Storage\n250 TB\n/goldfs/hnc\nLong-term storage srcdata, rawdata, publication files.\nNightly\n\n\nScratch\n500 TB\nTBD\nTemporary workspace for intermediate generation.\nNone",
+    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to the center’s Standard Operating Procedures (SOPs). Hosting these documents helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.",
     "crumbs": [
-      "Storage"
+      "SOPs"
     ]
   },
   {
-    "objectID": "pages/storage.html#access",
-    "href": "pages/storage.html#access",
-    "title": "Storage",
-    "section": "Access",
-    "text": "Access\n\nAny CRC user account that is part of the HNC group has full access to these resources.\nContact Nathan Muncy to be added to the HNC group.",
+    "objectID": "pages/sops.html#sops",
+    "href": "pages/sops.html#sops",
+    "title": "Standard Operating Procedures",
+    "section": "SOPs",
+    "text": "SOPs\n\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n101\nHardware\nDocument\nLG01, LG04, RO03\n\n\n102\nMedical\nDocument\nLG03, LG04, RO03\n\n\n103\nAdverse Events\nDocument\n\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nDocument\nRO01, RO03\n\n\n202\nZone Access\nDocument\nRO01\n\n\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nDocument\n\n\n\n302\nFire and Gas\nDocument\n\n\n\n303\nTornado\nDocument\n\n\n\n304\nActive Violence\nDocument",
     "crumbs": [
-      "Storage"
+      "SOPs"
     ]
   },
   {
-    "objectID": "pages/storage.html#usage",
-    "href": "pages/storage.html#usage",
-    "title": "Storage",
-    "section": "Usage",
-    "text": "Usage\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to have full access to all resources. Such an approach:\n\nEnsures there is sufficient capacity to support large projects (e.g. HCP data).\nSupports multiple projects at various stages of completion.\nRequires active data management and coordination among the ND-HNC group.\n\nAs projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_tier2\n\nCold Storage\n(250 TB, Nightly Backups)\n\n\ncluster_tier3\n\nScratch Workspace\n(500 TB, NO BACKUPS)\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier1\n\nActive Storage\n(50 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- Assessment metrics\n- Task responses\n\n\n\ntier3_proc\n\nIntermediate Data:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- Project code\n- Final dataframes\n- Statistical output\n- Figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Data:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nFinal Data:\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Results\n (pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive Tier 1 data\n\n\n\n\n\n\n\n\n\nCold Storage provides a secure location for organized (e.g. BIDS) original data.\nData is transferred to Scratch for preprocessing and modelling.\n\nUnused intermediates are purged.\nLong-term storage of complicated intermediates are managed locally.\n\nFinal results are transferred to Active Storage for manuscript generation.\nUpon publication, files in Active Storage are transferred to Cold Storage.\n\nRecommendations:\n\nBuild the dataflow into your workflow/codebase.\nMaintain only the requisite intermediates for the next pipeline step.",
+    "objectID": "pages/sops.html#forms",
+    "href": "pages/sops.html#forms",
+    "title": "Standard Operating Procedures",
+    "section": "Forms",
+    "text": "Forms\n\n\n\nRO: Research Operations\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nRO01\nMRI Safety Screen\nDocument\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nDocument\n\n\n\n\n\n\n\nLG: Log Issues and Maintenance\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nLG01\nHardware Issue\nDocument\n\n\n\nLG02\nHardware Maintenance\nDocument\n\n\n\nLG03\nAdverse Event\nDocument\n\n\n\nLG04\nCompliance\nDocument",
     "crumbs": [
-      "Storage"
+      "SOPs"
     ]
   },
   {
-    "objectID": "pages/storage.html#policies",
-    "href": "pages/storage.html#policies",
-    "title": "Storage",
-    "section": "Policies",
-    "text": "Policies\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.",
+    "objectID": "pages/policies.html",
+    "href": "pages/policies.html",
+    "title": "Policies",
+    "section": "",
+    "text": "This page is under construction.",
     "crumbs": [
-      "Storage"
+      "Policies"
     ]
   },
   {
-    "objectID": "pages/schedule.html",
-    "href": "pages/schedule.html",
-    "title": "Schedule",
+    "objectID": "pages/policies.html#compute",
+    "href": "pages/policies.html#compute",
+    "title": "Policies",
+    "section": "Compute",
+    "text": "Compute\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "pages/policies.html#storage",
+    "href": "pages/policies.html#storage",
+    "title": "Policies",
+    "section": "Storage",
+    "text": "Storage\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "pages/forms.html",
+    "href": "pages/forms.html",
+    "title": "Forms",
     "section": "",
     "text": "This page is under construction."
   },
   {
-    "objectID": "pages/people.html",
-    "href": "pages/people.html",
-    "title": "People",
-    "section": "",
-    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
-    "crumbs": [
-      "People"
-    ]
-  },
-  {
-    "objectID": "pages/people.html#staff",
-    "href": "pages/people.html#staff",
-    "title": "People",
-    "section": "",
-    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
-    "crumbs": [
-      "People"
-    ]
-  },
-  {
-    "objectID": "pages/facilities.html",
-    "href": "pages/facilities.html",
-    "title": "Facilities",
-    "section": "",
-    "text": "Veldman Family Psychology Clinic",
-    "crumbs": [
-      "Facilities"
-    ]
-  },
-  {
-    "objectID": "pages/facilities.html#facility-statement",
-    "href": "pages/facilities.html#facility-statement",
-    "title": "Facilities",
-    "section": "Facility Statement",
-    "text": "Facility Statement\n\nNotre Dame Human Neuroimaging Center\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, a dedicated 35,000-square-foot clinical and research facility located in South Bend, Indiana. The facility consists of a fully integrated environment for participant recruitment, clinical assessment, neuroimaging, electrophysiological recording, noninvasive brain stimulation, data processing, and collaborative scientific analysis.\nThe ND-HNC includes dedicated participant-facing spaces consisting of a reception area (117 ft\\(^2\\)), two consultation rooms (83 and 100 ft\\(^2\\)), two changing rooms (80 and 79 ft\\(^2\\)), and two interview rooms (110 and 112 ft\\(^2\\)). Research-dedicated spaces include a mock magnetic resonance imaging (MRI) scanner room (226 ft\\(^2\\)), two electroencephalogrphy (EEG) laboratories (157 and 161 ft\\(^2\\)), an EEG control room (104 ft\\(^2\\)), EEG preparation room (182 ft\\(^2\\)), MRI vestibule (308 ft\\(^2\\)), MRI storage room (179 ft\\(^2\\)), MRI scanner and control suite (~500 ft\\(^2\\)), a dedicated transcranial magnetic stimulation (TMS) laboratory (385 ft\\(^2\\)), image processing room (270 ft\\(^2\\)), conference room (257 ft\\(^2\\)), and three staff offices (121, 102, and 103 ft\\(^2\\)).\n\n\nMagnetic Resonance Imaging Resources\nHuman neuroimaging studies are performed on a Siemens Healthineers MAGNETOM Cima.X 3 Tesla (3T) MRI system operating on the syngo MR XA61 platform. The system combines advanced research capabilities with a participant-friendly short-bore design featuring a 60 cm open bore architecture.\nThe scanner incorporates a highly homogeneous superconducting 3T magnet with exceptional field stability (\\(\\lt 0.1\\) ppm/hour) and high-performance passive and active shimming capabilities. Automated subject-specific 3D shimming can be completed in approximately 15 seconds, ensuring optimal magnetic field homogeneity for advanced neuroimaging applications. Fifth-generation active shielding and Siemens External Interference Shielding (E.I.S.) technology minimize environmental magnetic disturbances and maintain image quality during demanding functional and diffusion imaging studies.\nImage acquisition is supported by Siemens Gemini gradients capable of maximum gradient amplitudes of \\(\\ge 200\\) mT/m per axis and slew rates of 200 T/m/s per axis, with vector performance reaching 346 mT/m and 346 T/m/s. These capabilities enable high-resolution structural imaging, advanced diffusion imaging, and rapid functional MRI acquisition with reduced distortion and improved signal fidelity.\nThe system employs Siemens DirectRF digital architecture and TimTX TrueForm/TrueShape parallel transmit technology to optimize radiofrequency (RF) homogeneity and signal stability. 204 coil elements and 64 simultaneous receiver channels can be utilized during data acquisition, providing high signal-to-noise ratios and supporting accelerated imaging protocols.\nAdvanced imaging capabilities include diffusion imaging with b-values up to 16,000 s/mm\\(^2\\), automated prospective motion correction with real-time six-degree-of-freedom tracking, parallel-transmit-enabled selective excitation (ZOOMit), and AI-assisted workflow tools through Siemens BioMatrix and myExam Companion technologies. These capabilities support state-of-the-art structural MRI, functional MRI, diffusion tensor imaging, tractography, and quantitative neuroimaging investigations.\n\nFunctional MRI Research Infrastructure\nFunctional MRI studies are supported by a comprehensive NordicNeuroLab (NNL) hardware and software ecosystem designed specifically for advanced neuroimaging research and clinical mapping applications.\nVisual stimulus presentation is provided through a 40 in MR-compatible 4K UHD display system. These systems support high-resolution visual paradigms, visual field mapping, immersive task presentation, and real-time participant monitoring.\nBehavioral responses are collected using MR-compatible fiber-optic ResponseGrips that minimize participant movement while providing reliable acquisition of task performance data. Synchronization between MRI pulse sequences and experimental paradigms is achieved through the NNL SyncBox system, which provides scanner-independent synchronization with timing accuracy of ±0.5 ms.\nExperimental paradigm delivery is managed using nordicAktiva software, which includes validated libraries of motor, language, cognitive, and clinical paradigms while also supporting custom paradigm development. The platform permits synchronized control of stimulus presentation and image acquisition and provides rehearsal modes for participant training.\nAdvanced image processing is supported by nordicMEDiVA, a web-based neuroimaging analysis environment supporting task-based fMRI, diffusion imaging, tractography, and perfusion analysis. Automated preprocessing includes motion correction, spatial normalization, diffusion distortion correction, and statistical modeling using General Linear Models. Interactive tools support activation mapping, tract reconstruction, region-of-interest (ROI) based analyses, and collaborative review among multiple investigators.\n\n\nSimulation and Participant Training Resources\nThe facility houses an Encore MRI Simulator (Psychology Software Tools/RadSim), which provides a realistic MRI environment for participant acclimation, protocol piloting, and training. The simulator includes a realistic 60 cm bore, motorized participant table, integrated positioning lasers, environmental lighting, cooling systems, and participant safety monitoring.\nThe simulator reproduces scanner acoustics and vibration using high-fidelity recordings obtained from Siemens MRI systems. Visual presentation is delivered through a dedicated 22 in high-definition display with integrated audio communication and real-time participant monitoring through an in-bore camera system.\nThe simulator incorporates interchangeable mock head coils replicating Siemens acquisition environments and includes response devices for behavioral task practice. The MoTrak motion tracking system provides real-time monitoring of participant head motion across three translational and three rotational axes, allowing participants to receive immediate feedback regarding movement. This capability substantially improves participant compliance and reduces motion-related data loss during actual MRI sessions.\n\n\n\nResearch Personnel and Technical Support\nTo ensure the highest standards of data quality, regulatory compliance, and operational efficiency, the Notre Dame Human Neuroimaging Center provides dedicated, expert human infrastructure. The facility is staffed by a specialized team available to support investigators throughout the lifecycle of their research projects\nDirector: The senior scientist/faculty member provides overall strategic vision, scientific leadership, and governance for the neuroimaging center. The Director establishes facility policies, reviews incoming research protocols for scientific merit and technical feasibility, fosters interdisciplinary collaborations, and ensures the center’s capabilities remain at the cutting edge of neuroimaging technology.\nScientific Program Coordinator: The Coordinator facilitates the center’s broader academic and research mission. Key responsibilities include managing the center’s pilot grant funding programs, organizing educational workshops and scanner user seminars, assisting investigators with grant submission logistics, and coordinating internal and external scientific communications and progress reporting.\nPhysicist: The physicist is dedicated to the center to oversee technical operations, optimize imaging sequences, and develop custom acquisition protocols tailored to specific research questions. The Physicist manages the system’s rigorous quality assurance (QA) program: continually tracking signal-to-noise ratios (SNR), field stability, and artifact management. The Physicist also provides advanced consultation on experimental design and safety guidelines.\nAnalyst: The neuroimaging data expert provides specialized support for advanced image processing, pipeline development, and computational workflows. The Analyst maintains the center’s containerized processing pipelines (e.g., fMRIPrep, FreeSurfer, FSL, AFNI) across local workstations and the University’s High-Performance Computing (HPC) cluster, assisting investigators with data curation, quality control (QC) metrics, and reproducible statistical modeling. They Analyst also provides bootcamps and courses covering topics from programming to modelling multimodal MRI data, making the incorporation of MRI techniques into existing research programs more accessible.\nTechnologist: A certified, full-time Technologist operates the 3T scanner and handles daily scanning execution. The Technologist is responsible for strict participant safety screening, anatomical positioning, and the seamless integration of peripheral equipment (including the NordicNeuroLab stimulus presentation systems and response devices). They ensure comfortable, safe, and highly standardized data collection environments for all participant cohorts.\nOperations Coordinator: The Coordinator manages the day-to-day administrative and logistical workflows of the facility. Key responsibilities include administering the centralized participant scheduling system, coordinating billing, ensuring compliance with institutional IRB and federal regulations, and facilitating investigator onboarding and safety training. The Coordinator serves as the primary operational liaison between research teams and the center.\n\n\nElectrophysiology and Neuromodulation Resources\nThe facility contains two dedicated EEG acquisition laboratories, a centralized EEG control room, and a participant preparation suite supporting high-density electrophysiological recording. These resources facilitate cognitive, developmental, affective, and clinical neuroscience investigations requiring millisecond temporal resolution.\nNoninvasive brain stimulation studies are conducted in a dedicated TMS laboratory equipped for experimental and translational neuromodulation research. The co-location of MRI, EEG, and TMS resources supports multimodal neuroimaging and neurostimulation investigations.\n\n\nData Processing, Storage, and Computational Resources\n\nImaging Workstations and Local Data Infrastructure\nPrimary image management and analysis are supported by Apple Mac Studio workstations utilizing Apple Silicon architectures with unified memory systems, hardware-accelerated media processing, and dedicated neural processing engines. These systems support image visualization, machine learning workflows, statistical analysis, and neuroimaging software development.\nThe workstations are connected to a dedicated Promise Technology Pegasus RAID storage subsystem providing 104 TB of fault-tolerant local storage. The storage architecture utilizes hardware RAID redundancy and predictive data migration technologies to ensure data integrity and uninterrupted operation. High-bandwidth Thunderbolt connectivity supports efficient processing of large multimodal imaging datasets.\nDICOM image management, visualization, and anonymization are performed using the Horos imaging platform. Investigators have access to advanced multiplanar reconstruction, volume rendering, quantitative ROI analysis, and secure de-identification tools that support compliance with institutional and federal human subjects protections.\n\n\nDepartmental Computing Resources\nThe research team maintains access to a dedicated departmental computing rack, providing 56 CPU cores and 256 GB RAM for local high-throughput processing. This infrastructure supports image reconstruction, quality assurance, machine learning development, containerized neuroimaging pipelines, and rapid deployment of computational workflows.\nDedicated Linux workstations provide optimized environments for FSL, FreeSurfer, AFNI, ANTs, and other neuroimaging software packages. These systems include dedicated GPU acceleration to support computationally intensive analyses such as probabilistic tractography, deep-learning-based segmentation, and large-scale image processing.\n\n\nInstitutional High-Performance Computing Resources\nThe project additionally has access to the University’s High-Performance Computing (HPC) infrastructure through the Center for Research Computing. This resource provides approximately 1,280 dedicated MRI-analysis CPU cores interconnected through a high-bandwidth, low-latency network fabric designed for parallel scientific computing.\nThe HPC environment is integrated with approximately 800 terabytes of enterprise-grade storage capable of supporting large-scale neuroimaging studies, longitudinal datasets, and multimodal analyses. Advanced workload management systems facilitate efficient execution of computationally intensive pipelines including fMRIPrep, FreeSurfer, diffusion tractography, machine learning workflows, and group-level statistical analyses.\n\n\n\nOverall Research Environment\nThe Veldman Family Psychology Clinic and Notre Dame Human Neuroimaging Center provide an exceptional environment for NIH-funded neuroscience and behavioral research. The co-location of advanced MRI, EEG, TMS, participant training facilities, dedicated technical personnel, extensive computational infrastructure, and large-scale data storage resources enables efficient implementation of sophisticated multimodal research protocols. These integrated facilities provide all equipment, personnel, and computational resources necessary to successfully conduct the proposed studies and support high-quality, reproducible neuroimaging research.",
-    "crumbs": [
-      "Facilities"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html",
-    "href": "pages/directions.html",
-    "title": "Directions",
-    "section": "",
-    "text": "Veldman Family Psychology Clinic",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#location",
-    "href": "pages/directions.html#location",
-    "title": "Directions",
-    "section": "Location",
-    "text": "Location\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, in downtown South Bend:\n\n\nInteractive Map",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#parking",
-    "href": "pages/directions.html#parking",
-    "title": "Directions",
-    "section": "Parking",
-    "text": "Parking\nParking is available for free on the north side of the building (access from Cedar St).",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#entry",
-    "href": "pages/directions.html#entry",
-    "title": "Directions",
-    "section": "Entry",
-    "text": "Entry\n\nEnter through the building’s main (north) door.\nAccess to reception is restricted – it is possible to page the receptionist by pressing the yellow “Call” button.\nResearch personnel will meet you in the main reception area and escort you to the ND-HNC.",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#researchers",
-    "href": "pages/directions.html#researchers",
-    "title": "Directions",
-    "section": "Researchers",
-    "text": "Researchers\nFor access as a researcher, please reference the following SOPs:\n\nSOP 301: Building Access.\nSOP 202: Zone Access.",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/affiliations.html",
-    "href": "pages/affiliations.html",
-    "title": "Affiliations",
-    "section": "",
-    "text": "Center 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#notre-dame-centers",
-    "href": "pages/affiliations.html#notre-dame-centers",
-    "title": "Affiliations",
-    "section": "",
-    "text": "Center 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#notre-dame-labs",
-    "href": "pages/affiliations.html#notre-dame-labs",
-    "title": "Affiliations",
-    "section": "Notre Dame Labs",
-    "text": "Notre Dame Labs\nLab 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#external-labs",
-    "href": "pages/affiliations.html#external-labs",
-    "title": "Affiliations",
-    "section": "External Labs",
-    "text": "External Labs\nEXlab 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#local-community",
-    "href": "pages/affiliations.html#local-community",
-    "title": "Affiliations",
-    "section": "Local Community",
-    "text": "Local Community\nGroup 1"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "",
-    "text": "Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) – Resources for Operations and Computing page!\n\n\n\nSiemens MAGNETOM Cima.X 3T arrives at Notre Dame!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "",
-    "text": "Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) – Resources for Operations and Computing page!\n\n\n\nSiemens MAGNETOM Cima.X 3T arrives at Notre Dame!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#join-us",
-    "href": "index.html#join-us",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "Join Us",
-    "text": "Join Us\nFollow these arrival instructions for help locating the center, parking, and entry.\nEmail: nd-hnc@nd.edu.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "About",
-    "text": "About\nOur goal is to provide operational support for research conducted at the ND-HNC. We support every step of your research program:\n\nFacilities and Equipment: Understand available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nData collection: Operate research hardware.\nCompute: Develop codebase, sandbox testing, local computing, parallelization. \nStorage: Keep and manage data at various project stages.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#operation-documents",
-    "href": "index.html#operation-documents",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "Operation Documents",
-    "text": "Operation Documents\n\n\nPolicies: ND-HNC policies for use.\nSOPs: Standard Operating Procedures and forms.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#additional-resources",
-    "href": "index.html#additional-resources",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About",
-    "section": "",
-    "text": "This page is under construction."
-  },
-  {
-    "objectID": "pages/compute.html",
-    "href": "pages/compute.html",
-    "title": "Compute",
-    "section": "",
-    "text": "Credit: Memory Wallpaper by Rhys Mercer.",
-    "crumbs": [
-      "Compute"
-    ]
-  },
-  {
-    "objectID": "pages/compute.html#overview",
-    "href": "pages/compute.html#overview",
-    "title": "Compute",
+    "objectID": "pages/forms.html#overview",
+    "href": "pages/forms.html#overview",
+    "title": "Forms",
     "section": "Overview",
-    "text": "Overview\nThe Notre Dame Human Neuroimaging Center (ND-HNC) provides computational resources to support a wide spectrum of neuroimaging analyses. Our resources are structured into three levels to accommodate everything from initial data exploration and single-subject processing to intensive, large-scale group analyses.\n\n\n\nResource Type\nLocation\nHardware\nPrimary Purpose\n\n\n\n\nLocal Workstations\nND-HNC B30\nDell Pro Max Linux Towers, Mac Studios\nSandbox testing, single-subject processing, pipeline development.\n\n\nDedicated Server\nvfpc-mri-rh-l01.campus.nd.edu\nDell Rack (56-core Intel Xeon, 256GB RAM, 4TB Storage)\nResource-intensive local processing, multi-subject parallel tasks.\n\n\nHPC Cluster\nCRC\n1280 Priority-Access CPUs\nLarge-scale datasets, massive parallelization, complex modeling.",
-    "crumbs": [
-      "Compute"
-    ]
+    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to essential forms required for everyday center operations:\n\n000: Assist researchers and participants use the center.\n100: Track issues with hardware, training, etc. (ND-HNC staff).\n200: Manage hardware (ND-HNC staff)."
   },
   {
-    "objectID": "pages/compute.html#access",
-    "href": "pages/compute.html#access",
-    "title": "Compute",
-    "section": "Access",
-    "text": "Access\n\nLocal workstations, dedicated server: contact Nathan Muncy.\nHPC: Any CRC user account that is part of the HNC group has full access to these resources (contact Nathan Muncy to be added to the HNC group).",
-    "crumbs": [
-      "Compute"
-    ]
-  },
-  {
-    "objectID": "pages/compute.html#local-workstations",
-    "href": "pages/compute.html#local-workstations",
-    "title": "Compute",
-    "section": "Local Workstations",
-    "text": "Local Workstations\nThe ND-HNC provides a compute room (B30) populated with high-performance local workstations for MRI researchers. This helps avoid startup issues of hardware acquisition and software installations, and removes the overhead of cluster computing when processing data for only a few subjects. These workstations also support code development and sandbox testing of pipelines before their deployment on the cluster.",
-    "crumbs": [
-      "Compute"
-    ]
-  },
-  {
-    "objectID": "pages/compute.html#dedicated-server",
-    "href": "pages/compute.html#dedicated-server",
-    "title": "Compute",
-    "section": "Dedicated Server",
-    "text": "Dedicated Server\nFor resource-intensive processes that exceed standard desktop capabilities, the ND-HNC features a dedicated Dell rack server. This centralized, high-capacity machine is equipped with an Intel Xeon Gold 6330 CPU (56 cores @ 2.00GHz), 256GB of RAM, and 4TB of high-speed local storage. This is ideal for multi-subject parallel preprocessing or running intensive local pipelines that require substantial memory and multi-core processing.",
-    "crumbs": [
-      "Compute"
-    ]
-  },
-  {
-    "objectID": "pages/compute.html#hpc-cluster",
-    "href": "pages/compute.html#hpc-cluster",
-    "title": "Compute",
-    "section": "HPC Cluster",
-    "text": "HPC Cluster\nTo support large-scale studies, advanced machine learning applications, and complex network modeling the ND-HNC leverages the power of the university’s broader compute infrastructure. We have purchased 1,280 dedicated CPUs for the Notre Dame Center for Research Computing (CRC) cluster, granting members of our group priority access. These resources facilitate massive parallelization, enabling our community to scale their analyses for large datasets or complex worfklows.",
-    "crumbs": [
-      "Compute"
-    ]
-  },
-  {
-    "objectID": "pages/compute.html#policies",
-    "href": "pages/compute.html#policies",
-    "title": "Compute",
-    "section": "Policies",
-    "text": "Policies\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
-    "crumbs": [
-      "Compute"
-    ]
+    "objectID": "pages/forms.html#forms",
+    "href": "pages/forms.html#forms",
+    "title": "Forms",
+    "section": "Forms",
+    "text": "Forms\n\n\n000: ND-HNC Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Safety Screen\nDocument\n\n\n002\nArrival Instructions\nBlue, White\n\n\n003\nCenter Layout\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n103\nCompliance\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware\nDocument"
   },
   {
     "objectID": "pages/equipment.html",
@@ -552,222 +452,455 @@
     ]
   },
   {
-    "objectID": "pages/forms.html",
-    "href": "pages/forms.html",
-    "title": "Forms",
+    "objectID": "pages/compute.html",
+    "href": "pages/compute.html",
+    "title": "Compute",
+    "section": "",
+    "text": "Credit: Memory Wallpaper by Rhys Mercer.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#overview",
+    "href": "pages/compute.html#overview",
+    "title": "Compute",
+    "section": "Overview",
+    "text": "Overview\nThe Notre Dame Human Neuroimaging Center (ND-HNC) provides computational resources to support a wide spectrum of neuroimaging analyses. Our resources are structured into three levels to accommodate everything from initial data exploration and single-subject processing to intensive, large-scale group analyses.\n\n\n\nResource Type\nLocation\nHardware\nPrimary Purpose\n\n\n\n\nLocal Workstations\nND-HNC B30\nDell Pro Max Linux Towers, Mac Studios\nSandbox testing, single-subject processing, pipeline development.\n\n\nDedicated Server\nvfpc-mri-rh-l01.campus.nd.edu\nDell Rack (56-core Intel Xeon, 256GB RAM, 4TB Storage)\nResource-intensive local processing, multi-subject parallel tasks.\n\n\nHPC Cluster\nCRC\n1280 Priority-Access CPUs\nLarge-scale datasets, massive parallelization, complex modeling.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#access",
+    "href": "pages/compute.html#access",
+    "title": "Compute",
+    "section": "Access",
+    "text": "Access\n\nLocal workstations, dedicated server: contact Nathan Muncy.\nHPC: Any CRC user account that is part of the HNC group has full access to these resources (contact Nathan Muncy to be added to the HNC group).",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#local-workstations",
+    "href": "pages/compute.html#local-workstations",
+    "title": "Compute",
+    "section": "Local Workstations",
+    "text": "Local Workstations\nThe ND-HNC provides a compute room (B30) populated with high-performance local workstations for MRI researchers. This helps avoid startup issues of hardware acquisition and software installations, and removes the overhead of cluster computing when processing data for only a few subjects. These workstations also support code development and sandbox testing of pipelines before their deployment on the cluster.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#dedicated-server",
+    "href": "pages/compute.html#dedicated-server",
+    "title": "Compute",
+    "section": "Dedicated Server",
+    "text": "Dedicated Server\nFor resource-intensive processes that exceed standard desktop capabilities, the ND-HNC features a dedicated Dell rack server. This centralized, high-capacity machine is equipped with an Intel Xeon Gold 6330 CPU (56 cores @ 2.00GHz), 256GB of RAM, and 4TB of high-speed local storage. This is ideal for multi-subject parallel preprocessing or running intensive local pipelines that require substantial memory and multi-core processing.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#hpc-cluster",
+    "href": "pages/compute.html#hpc-cluster",
+    "title": "Compute",
+    "section": "HPC Cluster",
+    "text": "HPC Cluster\nTo support large-scale studies, advanced machine learning applications, and complex network modeling the ND-HNC leverages the power of the university’s broader compute infrastructure. We have purchased 1,280 dedicated CPUs for the Notre Dame Center for Research Computing (CRC) cluster, granting members of our group priority access. These resources facilitate massive parallelization, enabling our community to scale their analyses for large datasets or complex worfklows.",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/compute.html#policies",
+    "href": "pages/compute.html#policies",
+    "title": "Compute",
+    "section": "Policies",
+    "text": "Policies\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
+    "crumbs": [
+      "Compute"
+    ]
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
     "section": "",
     "text": "This page is under construction."
   },
   {
-    "objectID": "pages/forms.html#overview",
-    "href": "pages/forms.html#overview",
-    "title": "Forms",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "",
+    "text": "Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "",
+    "text": "Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) – Resources for Operations and Computing page!\n\n\n\nSiemens MAGNETOM Cima.X 3T arrives at Notre Dame!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#join-us",
+    "href": "index.html#join-us",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Join Us",
+    "text": "Join Us\nFollow these arrival instructions for help locating the center, parking, and entry.\nEmail: nd-hnc@nd.edu.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "About",
+    "text": "About\nOur goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC).\nWe support every step of your research program:\n\nFacilities and Equipment: Understand available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nData collection: Operate research hardware.\nCompute: Develop codebase, sandbox testing, local computing, parallelization. \nStorage: Keep and manage data at various project stages.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#operation-documents",
+    "href": "index.html#operation-documents",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Operation Documents",
+    "text": "Operation Documents\n\n\nPolicies: ND-HNC policies for use.\nSOPs: Standard Operating Procedures and forms.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#additional-resources",
+    "href": "index.html#additional-resources",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "pages/affiliations.html",
+    "href": "pages/affiliations.html",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Center 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#notre-dame-centers",
+    "href": "pages/affiliations.html#notre-dame-centers",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Center 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#notre-dame-labs",
+    "href": "pages/affiliations.html#notre-dame-labs",
+    "title": "Affiliations",
+    "section": "Notre Dame Labs",
+    "text": "Notre Dame Labs\nLab 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#external-labs",
+    "href": "pages/affiliations.html#external-labs",
+    "title": "Affiliations",
+    "section": "External Labs",
+    "text": "External Labs\nEXlab 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#local-community",
+    "href": "pages/affiliations.html#local-community",
+    "title": "Affiliations",
+    "section": "Local Community",
+    "text": "Local Community\nGroup 1"
+  },
+  {
+    "objectID": "pages/directions.html",
+    "href": "pages/directions.html",
+    "title": "Directions",
+    "section": "",
+    "text": "Veldman Family Psychology Clinic",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#location",
+    "href": "pages/directions.html#location",
+    "title": "Directions",
+    "section": "Location",
+    "text": "Location\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, in downtown South Bend:\n\n\nInteractive Map",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#parking",
+    "href": "pages/directions.html#parking",
+    "title": "Directions",
+    "section": "Parking",
+    "text": "Parking\nParking is available for free on the north side of the building (access from Cedar St).",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#entry",
+    "href": "pages/directions.html#entry",
+    "title": "Directions",
+    "section": "Entry",
+    "text": "Entry\n\nEnter through the building’s main (north) door.\nAccess to reception is restricted – it is possible to page the receptionist by pressing the yellow “Call” button.\nResearch personnel will meet you in the main reception area and escort you to the ND-HNC.",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#researchers",
+    "href": "pages/directions.html#researchers",
+    "title": "Directions",
+    "section": "Researchers",
+    "text": "Researchers\nFor access as a researcher, please reference the following SOPs:\n\nSOP 301: Building Access.\nSOP 202: Zone Access.",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/facilities.html",
+    "href": "pages/facilities.html",
+    "title": "Facilities",
+    "section": "",
+    "text": "Veldman Family Psychology Clinic",
+    "crumbs": [
+      "Facilities"
+    ]
+  },
+  {
+    "objectID": "pages/facilities.html#facility-statement",
+    "href": "pages/facilities.html#facility-statement",
+    "title": "Facilities",
+    "section": "Facility Statement",
+    "text": "Facility Statement\n\nNotre Dame Human Neuroimaging Center\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, a dedicated 35,000-square-foot clinical and research facility located in South Bend, Indiana. The facility consists of a fully integrated environment for participant recruitment, clinical assessment, neuroimaging, electrophysiological recording, noninvasive brain stimulation, data processing, and collaborative scientific analysis.\nThe ND-HNC includes dedicated participant-facing spaces consisting of a reception area (117 ft\\(^2\\)), two consultation rooms (83 and 100 ft\\(^2\\)), two changing rooms (80 and 79 ft\\(^2\\)), and two interview rooms (110 and 112 ft\\(^2\\)). Research-dedicated spaces include a mock magnetic resonance imaging (MRI) scanner room (226 ft\\(^2\\)), two electroencephalogrphy (EEG) laboratories (157 and 161 ft\\(^2\\)), an EEG control room (104 ft\\(^2\\)), EEG preparation room (182 ft\\(^2\\)), MRI vestibule (308 ft\\(^2\\)), MRI storage room (179 ft\\(^2\\)), MRI scanner and control suite (~500 ft\\(^2\\)), a dedicated transcranial magnetic stimulation (TMS) laboratory (385 ft\\(^2\\)), image processing room (270 ft\\(^2\\)), conference room (257 ft\\(^2\\)), and three staff offices (121, 102, and 103 ft\\(^2\\)).\n\n\nMagnetic Resonance Imaging Resources\nHuman neuroimaging studies are performed on a Siemens Healthineers MAGNETOM Cima.X 3 Tesla (3T) MRI system operating on the syngo MR XA61 platform. The system combines advanced research capabilities with a participant-friendly short-bore design featuring a 60 cm open bore architecture.\nThe scanner incorporates a highly homogeneous superconducting 3T magnet with exceptional field stability (\\(\\lt 0.1\\) ppm/hour) and high-performance passive and active shimming capabilities. Automated subject-specific 3D shimming can be completed in approximately 15 seconds, ensuring optimal magnetic field homogeneity for advanced neuroimaging applications. Fifth-generation active shielding and Siemens External Interference Shielding (E.I.S.) technology minimize environmental magnetic disturbances and maintain image quality during demanding functional and diffusion imaging studies.\nImage acquisition is supported by Siemens Gemini gradients capable of maximum gradient amplitudes of \\(\\ge 200\\) mT/m per axis and slew rates of 200 T/m/s per axis, with vector performance reaching 346 mT/m and 346 T/m/s. These capabilities enable high-resolution structural imaging, advanced diffusion imaging, and rapid functional MRI acquisition with reduced distortion and improved signal fidelity.\nThe system employs Siemens DirectRF digital architecture and TimTX TrueForm/TrueShape parallel transmit technology to optimize radiofrequency (RF) homogeneity and signal stability. 204 coil elements and 64 simultaneous receiver channels can be utilized during data acquisition, providing high signal-to-noise ratios and supporting accelerated imaging protocols.\nAdvanced imaging capabilities include diffusion imaging with b-values up to 16,000 s/mm\\(^2\\), automated prospective motion correction with real-time six-degree-of-freedom tracking, parallel-transmit-enabled selective excitation (ZOOMit), and AI-assisted workflow tools through Siemens BioMatrix and myExam Companion technologies. These capabilities support state-of-the-art structural MRI, functional MRI, diffusion tensor imaging, tractography, and quantitative neuroimaging investigations.\n\nFunctional MRI Research Infrastructure\nFunctional MRI studies are supported by a comprehensive NordicNeuroLab (NNL) hardware and software ecosystem designed specifically for advanced neuroimaging research and clinical mapping applications.\nVisual stimulus presentation is provided through a 40 in MR-compatible 4K UHD display system. These systems support high-resolution visual paradigms, visual field mapping, immersive task presentation, and real-time participant monitoring.\nBehavioral responses are collected using MR-compatible fiber-optic ResponseGrips that minimize participant movement while providing reliable acquisition of task performance data. Synchronization between MRI pulse sequences and experimental paradigms is achieved through the NNL SyncBox system, which provides scanner-independent synchronization with timing accuracy of ±0.5 ms.\nExperimental paradigm delivery is managed using nordicAktiva software, which includes validated libraries of motor, language, cognitive, and clinical paradigms while also supporting custom paradigm development. The platform permits synchronized control of stimulus presentation and image acquisition and provides rehearsal modes for participant training.\nAdvanced image processing is supported by nordicMEDiVA, a web-based neuroimaging analysis environment supporting task-based fMRI, diffusion imaging, tractography, and perfusion analysis. Automated preprocessing includes motion correction, spatial normalization, diffusion distortion correction, and statistical modeling using General Linear Models. Interactive tools support activation mapping, tract reconstruction, region-of-interest (ROI) based analyses, and collaborative review among multiple investigators.\n\n\nSimulation and Participant Training Resources\nThe facility houses an Encore MRI Simulator (Psychology Software Tools/RadSim), which provides a realistic MRI environment for participant acclimation, protocol piloting, and training. The simulator includes a realistic 60 cm bore, motorized participant table, integrated positioning lasers, environmental lighting, cooling systems, and participant safety monitoring.\nThe simulator reproduces scanner acoustics and vibration using high-fidelity recordings obtained from Siemens MRI systems. Visual presentation is delivered through a dedicated 22 in high-definition display with integrated audio communication and real-time participant monitoring through an in-bore camera system.\nThe simulator incorporates interchangeable mock head coils replicating Siemens acquisition environments and includes response devices for behavioral task practice. The MoTrak motion tracking system provides real-time monitoring of participant head motion across three translational and three rotational axes, allowing participants to receive immediate feedback regarding movement. This capability substantially improves participant compliance and reduces motion-related data loss during actual MRI sessions.\n\n\n\nResearch Personnel and Technical Support\nTo ensure the highest standards of data quality, regulatory compliance, and operational efficiency, the Notre Dame Human Neuroimaging Center provides dedicated, expert human infrastructure. The facility is staffed by a specialized team available to support investigators throughout the lifecycle of their research projects\nDirector: The senior scientist/faculty member provides overall strategic vision, scientific leadership, and governance for the neuroimaging center. The Director establishes facility policies, reviews incoming research protocols for scientific merit and technical feasibility, fosters interdisciplinary collaborations, and ensures the center’s capabilities remain at the cutting edge of neuroimaging technology.\nScientific Program Coordinator: The Coordinator facilitates the center’s broader academic and research mission. Key responsibilities include managing the center’s pilot grant funding programs, organizing educational workshops and scanner user seminars, assisting investigators with grant submission logistics, and coordinating internal and external scientific communications and progress reporting.\nPhysicist: The physicist is dedicated to the center to oversee technical operations, optimize imaging sequences, and develop custom acquisition protocols tailored to specific research questions. The Physicist manages the system’s rigorous quality assurance (QA) program: continually tracking signal-to-noise ratios (SNR), field stability, and artifact management. The Physicist also provides advanced consultation on experimental design and safety guidelines.\nAnalyst: The neuroimaging data expert provides specialized support for advanced image processing, pipeline development, and computational workflows. The Analyst maintains the center’s containerized processing pipelines (e.g., fMRIPrep, FreeSurfer, FSL, AFNI) across local workstations and the University’s High-Performance Computing (HPC) cluster, assisting investigators with data curation, quality control (QC) metrics, and reproducible statistical modeling. They Analyst also provides bootcamps and courses covering topics from programming to modelling multimodal MRI data, making the incorporation of MRI techniques into existing research programs more accessible.\nTechnologist: A certified, full-time Technologist operates the 3T scanner and handles daily scanning execution. The Technologist is responsible for strict participant safety screening, anatomical positioning, and the seamless integration of peripheral equipment (including the NordicNeuroLab stimulus presentation systems and response devices). They ensure comfortable, safe, and highly standardized data collection environments for all participant cohorts.\nOperations Coordinator: The Coordinator manages the day-to-day administrative and logistical workflows of the facility. Key responsibilities include administering the centralized participant scheduling system, coordinating billing, ensuring compliance with institutional IRB and federal regulations, and facilitating investigator onboarding and safety training. The Coordinator serves as the primary operational liaison between research teams and the center.\n\n\nElectrophysiology and Neuromodulation Resources\nThe facility contains two dedicated EEG acquisition laboratories, a centralized EEG control room, and a participant preparation suite supporting high-density electrophysiological recording. These resources facilitate cognitive, developmental, affective, and clinical neuroscience investigations requiring millisecond temporal resolution.\nNoninvasive brain stimulation studies are conducted in a dedicated TMS laboratory equipped for experimental and translational neuromodulation research. The co-location of MRI, EEG, and TMS resources supports multimodal neuroimaging and neurostimulation investigations.\n\n\nData Processing, Storage, and Computational Resources\n\nImaging Workstations and Local Data Infrastructure\nPrimary image management and analysis are supported by Apple Mac Studio workstations utilizing Apple Silicon architectures with unified memory systems, hardware-accelerated media processing, and dedicated neural processing engines. These systems support image visualization, machine learning workflows, statistical analysis, and neuroimaging software development.\nThe workstations are connected to a dedicated Promise Technology Pegasus RAID storage subsystem providing 104 TB of fault-tolerant local storage. The storage architecture utilizes hardware RAID redundancy and predictive data migration technologies to ensure data integrity and uninterrupted operation. High-bandwidth Thunderbolt connectivity supports efficient processing of large multimodal imaging datasets.\nDICOM image management, visualization, and anonymization are performed using the Horos imaging platform. Investigators have access to advanced multiplanar reconstruction, volume rendering, quantitative ROI analysis, and secure de-identification tools that support compliance with institutional and federal human subjects protections.\n\n\nDepartmental Computing Resources\nThe research team maintains access to a dedicated departmental computing rack, providing 56 CPU cores and 256 GB RAM for local high-throughput processing. This infrastructure supports image reconstruction, quality assurance, machine learning development, containerized neuroimaging pipelines, and rapid deployment of computational workflows.\nDedicated Linux workstations provide optimized environments for FSL, FreeSurfer, AFNI, ANTs, and other neuroimaging software packages. These systems include dedicated GPU acceleration to support computationally intensive analyses such as probabilistic tractography, deep-learning-based segmentation, and large-scale image processing.\n\n\nInstitutional High-Performance Computing Resources\nThe project additionally has access to the University’s High-Performance Computing (HPC) infrastructure through the Center for Research Computing. This resource provides approximately 1,280 dedicated MRI-analysis CPU cores interconnected through a high-bandwidth, low-latency network fabric designed for parallel scientific computing.\nThe HPC environment is integrated with approximately 800 terabytes of enterprise-grade storage capable of supporting large-scale neuroimaging studies, longitudinal datasets, and multimodal analyses. Advanced workload management systems facilitate efficient execution of computationally intensive pipelines including fMRIPrep, FreeSurfer, diffusion tractography, machine learning workflows, and group-level statistical analyses.\n\n\n\nOverall Research Environment\nThe Veldman Family Psychology Clinic and Notre Dame Human Neuroimaging Center provide an exceptional environment for NIH-funded neuroscience and behavioral research. The co-location of advanced MRI, EEG, TMS, participant training facilities, dedicated technical personnel, extensive computational infrastructure, and large-scale data storage resources enables efficient implementation of sophisticated multimodal research protocols. These integrated facilities provide all equipment, personnel, and computational resources necessary to successfully conduct the proposed studies and support high-quality, reproducible neuroimaging research.",
+    "crumbs": [
+      "Facilities"
+    ]
+  },
+  {
+    "objectID": "pages/people.html",
+    "href": "pages/people.html",
+    "title": "People",
+    "section": "",
+    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
+    "crumbs": [
+      "People"
+    ]
+  },
+  {
+    "objectID": "pages/people.html#staff",
+    "href": "pages/people.html#staff",
+    "title": "People",
+    "section": "",
+    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
+    "crumbs": [
+      "People"
+    ]
+  },
+  {
+    "objectID": "pages/schedule.html",
+    "href": "pages/schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "This page is under construction."
+  },
+  {
+    "objectID": "pages/storage.html",
+    "href": "pages/storage.html",
+    "title": "Storage",
+    "section": "",
+    "text": "Credit: Hard Drives in Abstract Computer Storage by ken123.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#overview",
+    "href": "pages/storage.html#overview",
+    "title": "Storage",
     "section": "Overview",
-    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to essential forms required for everyday center operations:\n\n000: Assist researchers and participants use the center.\n100: Track issues with hardware, training, etc. (ND-HNC staff).\n200: Manage hardware (ND-HNC staff)."
+    "text": "Overview\nTo support diverse data management and computational needs, the ND-HNC has partnered with the Center for Research Computing (CRC) to provide researchers with a shared, multi-tiered data storage infrastructure.\nThese resources are categorized into three distinct tiers based on the data’s activity level and backup requirements:\n\n\n\n\n\n\n\n\n\n\nStorage Tier\nTotal Capacity\nMount Location\nPrimary Purpose\nBackup Policy\n\n\n\n\nActive Storage\n50 TB\n/groups/hnc\nIntermediate storage of publication-critical files.\nNightly\n\n\nCold Storage\n250 TB\n/goldfs/hnc\nLong-term storage srcdata, rawdata, publication files.\nNightly\n\n\nScratch\n500 TB\nTBD\nTemporary workspace for intermediate generation.\nNone",
+    "crumbs": [
+      "Storage"
+    ]
   },
   {
-    "objectID": "pages/forms.html#forms",
-    "href": "pages/forms.html#forms",
-    "title": "Forms",
-    "section": "Forms",
-    "text": "Forms\n\n\n000: ND-HNC Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Safety Screen\nDocument\n\n\n002\nArrival Instructions\nBlue, White\n\n\n003\nCenter Layout\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n103\nCompliance\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware\nDocument"
+    "objectID": "pages/storage.html#access",
+    "href": "pages/storage.html#access",
+    "title": "Storage",
+    "section": "Access",
+    "text": "Access\n\nAny CRC user account that is part of the HNC group has full access to these resources.\nContact Nathan Muncy to be added to the HNC group.",
+    "crumbs": [
+      "Storage"
+    ]
   },
   {
-    "objectID": "pages/policies.html",
-    "href": "pages/policies.html",
-    "title": "Policies",
+    "objectID": "pages/storage.html#usage",
+    "href": "pages/storage.html#usage",
+    "title": "Storage",
+    "section": "Usage",
+    "text": "Usage\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to have full access to all resources. Such an approach:\n\nEnsures there is sufficient capacity to support large projects (e.g. HCP data).\nSupports multiple projects at various stages of completion.\nRequires active data management and coordination among the ND-HNC group.\n\nAs projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_tier2\n\nCold Storage\n(250 TB, Nightly Backups)\n\n\ncluster_tier3\n\nScratch Workspace\n(500 TB, NO BACKUPS)\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier1\n\nActive Storage\n(50 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- Assessment metrics\n- Task responses\n\n\n\ntier3_proc\n\nIntermediate Data:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- Project code\n- Final dataframes\n- Statistical output\n- Figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Data:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nFinal Data:\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Results\n (pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive Tier 1 data\n\n\n\n\n\n\n\n\n\nCold Storage provides a secure location for organized (e.g. BIDS) original data.\nData is transferred to Scratch for preprocessing and modelling.\n\nUnused intermediates are purged.\nLong-term storage of complicated intermediates are managed locally.\n\nFinal results are transferred to Active Storage for manuscript generation.\nUpon publication, files in Active Storage are transferred to Cold Storage.\n\nRecommendations:\n\nBuild the dataflow into your workflow/codebase.\nMaintain only the requisite intermediates for the next pipeline step.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#policies",
+    "href": "pages/storage.html#policies",
+    "title": "Storage",
+    "section": "Policies",
+    "text": "Policies\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/wiki.html",
+    "href": "pages/wiki.html",
+    "title": "Wiki",
     "section": "",
-    "text": "This page is under construction.",
-    "crumbs": [
-      "Policies"
-    ]
+    "text": "This page is under construction."
   },
   {
-    "objectID": "pages/policies.html#compute",
-    "href": "pages/policies.html#compute",
-    "title": "Policies",
-    "section": "Compute",
-    "text": "Compute\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
-    "crumbs": [
-      "Policies"
-    ]
-  },
-  {
-    "objectID": "pages/policies.html#storage",
-    "href": "pages/policies.html#storage",
-    "title": "Policies",
-    "section": "Storage",
-    "text": "Storage\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.",
-    "crumbs": [
-      "Policies"
-    ]
-  },
-  {
-    "objectID": "pages/sops.html",
-    "href": "pages/sops.html",
-    "title": "Standard Operating Procedures",
-    "section": "",
-    "text": "This page is under construction.",
-    "crumbs": [
-      "SOPs"
-    ]
-  },
-  {
-    "objectID": "pages/sops.html#overview",
-    "href": "pages/sops.html#overview",
-    "title": "Standard Operating Procedures",
-    "section": "Overview",
-    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to the center’s Standard Operating Procedures (SOPs). Hosting these documents helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.",
-    "crumbs": [
-      "SOPs"
-    ]
-  },
-  {
-    "objectID": "pages/sops.html#sops",
-    "href": "pages/sops.html#sops",
-    "title": "Standard Operating Procedures",
-    "section": "SOPs",
-    "text": "SOPs\n\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n101\nHardware\nDocument\nLG01, LG04, RO03\n\n\n102\nMedical\nDocument\nLG03, LG04, RO03\n\n\n103\nAdverse Events\nDocument\n\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nDocument\nRO01, RO03\n\n\n202\nZone Access\nDocument\nRO01\n\n\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nDocument\n\n\n\n302\nFire and Gas\nDocument\n\n\n\n303\nTornado\nDocument\n\n\n\n304\nActive Violence\nDocument",
-    "crumbs": [
-      "SOPs"
-    ]
-  },
-  {
-    "objectID": "pages/sops.html#forms",
-    "href": "pages/sops.html#forms",
-    "title": "Standard Operating Procedures",
-    "section": "Forms",
-    "text": "Forms\n\n\n\nRO: Research Operations\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nRO01\nMRI Safety Screen\nDocument\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nDocument\n\n\n\n\n\n\n\nLG: Log Issues and Maintenance\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nLG01\nHardware Issue\nDocument\n\n\n\nLG02\nHardware Maintenance\nDocument\n\n\n\nLG03\nAdverse Event\nDocument\n\n\n\nLG04\nCompliance\nDocument",
-    "crumbs": [
-      "SOPs"
-    ]
-  },
-  {
-    "objectID": "pages/training.html",
-    "href": "pages/training.html",
-    "title": "Training",
-    "section": "",
-    "text": "This page is under construction.",
-    "crumbs": [
-      "Training"
-    ]
-  },
-  {
-    "objectID": "pages/training.html#mri-safety-training",
-    "href": "pages/training.html#mri-safety-training",
-    "title": "Training",
-    "section": "MRI Safety Training",
-    "text": "MRI Safety Training\nAll researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 (see Form RO03) must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam (SOP 202). This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures/policies.\n\n\n\n\n\n\n\n\n\nAccess Level\nTopic\nMaterials\nExam\n\n\n\n\n1\nND-HNC Safety Operations\nSlides\nTBD\n\n\n2\nMRI Safety\nSlides\nTBD\n\n\n3\nMRI Safety, advanced\nSlides\nTBD\n\n\n4\nOperator Training\nSlides\nTBD",
-    "crumbs": [
-      "Training"
-    ]
-  },
-  {
-    "objectID": "pages/training.html#scheduled-trainings",
-    "href": "pages/training.html#scheduled-trainings",
-    "title": "Training",
-    "section": "Scheduled Trainings",
-    "text": "Scheduled Trainings\nUpcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.\nNote:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED trainings are limited to 18 attendees.\nCPR/AED is required for Level 2 and recommended for Level 1 (see SOP 202).\nCost of CPR/AED training is $65/person.\n\n\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\nRegister\n\n\n\n\nLevel 1\n2026-09-09\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2026-09-09\n11am-12pm\nVFPC 148\nEmail\n\n\nLevel 1\n2026-10-05\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2026-10-05\n11am-12pm\nVFPC 148\nEmail\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\nEmail\n\n\nLevel 1\n2027-02-02\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2027-02-02\n11am-12pm\nVFPC 148\nEmail\n\n\nLevel 1\n2027-03-02\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2027-03-02\n11am-12pm\nVFPC 148\nEmail",
-    "crumbs": [
-      "Training"
-    ]
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#mri-is-cool",
-    "href": "resources/slides/mri_safety_1.html#mri-is-cool",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#mri-is-cool",
+    "href": "resources/slides/mri_safety_2.html#mri-is-cool",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "MRI is Cool",
-    "text": "MRI is Cool\ncool magnet proton"
+    "text": "MRI is Cool"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#what-is-mri",
-    "href": "resources/slides/mri_safety_1.html#what-is-mri",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#what-is-mri",
+    "href": "resources/slides/mri_safety_2.html#what-is-mri",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "What is MRI?",
     "text": "What is MRI?\n\n\n\nNuclear Magnetic Resonance Imaging:\n\nCertain nuclei (H+) align with magnetic field\nRespond to secondary field\nEmit electromagnetic signal\n\nNumber of discoveries:\n\nRabi - NMR (molecular beams)\nBloch and Purcell - NMR (liquids, solids)\nLauterbur and Mansfield - MRI\n\nIntersection: Physics, Engineering, CompSci, Neuroscience, Psychology\n\n\n\n\n\n\n\n\n\nIsidor Rabi (1938) first described NMR; Nobel Prize 1944\nFelix Bloch, Edward Purcell extended to liquids, solids; Nobel Prize 1952\nLauterbur, Mansfield; biologically useful MRI, EPI; Nobel Prize 2003"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#magnetic-field",
-    "href": "resources/slides/mri_safety_1.html#magnetic-field",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#magnetic-field",
+    "href": "resources/slides/mri_safety_2.html#magnetic-field",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Magnetic Field",
     "text": "Magnetic Field\n\n\n\nPrinciples of electromagnetism\nSuperconductivity\n\nCopper\nLiquid He+\n\n3 Tesla (2000+ lbs attraction)\n\nSmooth, consistent field\nAlways ON!\n\n\n\n\n\n\n\n\n\n\n\n(charge machine before strength)"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#proton",
-    "href": "resources/slides/mri_safety_1.html#proton",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#proton",
+    "href": "resources/slides/mri_safety_2.html#proton",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Proton",
     "text": "Proton"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#tesla-tesla",
-    "href": "resources/slides/mri_safety_1.html#tesla-tesla",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
-    "section": "Tesla tesla",
-    "text": "Tesla tesla\nfoot pounds videos"
+    "objectID": "resources/slides/mri_safety_2.html#tesla",
+    "href": "resources/slides/mri_safety_2.html#tesla",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
+    "section": "Tesla",
+    "text": "Tesla\nfoot pounds videos"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#safety-considerations",
-    "href": "resources/slides/mri_safety_1.html#safety-considerations",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#safety-considerations",
+    "href": "resources/slides/mri_safety_2.html#safety-considerations",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Safety Considerations",
-    "text": "Safety Considerations\n\n\n\nRarely are rooms fatal\nStrict Zoning helps\nDiligence: avoid complacency and survivorship bias\nMagnetic field has significant acceleration\nInjuries are more common than they should be\n\n\n\n\n\n\nSurvivor bias: seatbelts, climbing (Rope on chair)"
+    "text": "Safety Considerations\n\n\n\n\nRarely are rooms fatal\nStrict Zoning helps\nDiligence: avoid complacency and survivorship bias\nMagnetic field has significant acceleration\nInjuries are more common than they should be\n\n\n\n\n\n\nSurvivor bias: seatbelts, climbing (Rope on chair)"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-1",
-    "href": "resources/slides/mri_safety_1.html#zone-1",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-1",
+    "href": "resources/slides/mri_safety_2.html#zone-1",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Zone 1",
-    "text": "Zone 1\n Access Use Restrictions"
+    "text": "Zone 1\n Use Access Restrictions"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-2",
-    "href": "resources/slides/mri_safety_1.html#zone-2",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-2",
+    "href": "resources/slides/mri_safety_2.html#zone-2",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Zone 2",
-    "text": "Zone 2\nAccess Use Restrictions"
+    "text": "Zone 2\nUse Access Restrictions"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-3",
-    "href": "resources/slides/mri_safety_1.html#zone-3",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-3",
+    "href": "resources/slides/mri_safety_2.html#zone-3",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Zone 3",
-    "text": "Zone 3\nAccess Use Restrictions"
+    "text": "Zone 3\nUse Access Restrictions"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-4",
-    "href": "resources/slides/mri_safety_1.html#zone-4",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-4",
+    "href": "resources/slides/mri_safety_2.html#zone-4",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Zone 4",
-    "text": "Zone 4\nWebsite"
+    "text": "Zone 4\nUse Access Restrictions"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#access-1",
-    "href": "resources/slides/mri_safety_1.html#access-1",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#access-1",
+    "href": "resources/slides/mri_safety_2.html#access-1",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Access 1",
-    "text": "Access 1\n1-4"
+    "text": "Access 1\nTraining Access Who"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#access-2",
-    "href": "resources/slides/mri_safety_1.html#access-2",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#access-2",
+    "href": "resources/slides/mri_safety_2.html#access-2",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Access 2",
-    "text": "Access 2"
+    "text": "Access 2\nTraining Access Who"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#access-3",
-    "href": "resources/slides/mri_safety_1.html#access-3",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#access-3",
+    "href": "resources/slides/mri_safety_2.html#access-3",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Access 3",
     "text": "Access 3"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#access-4",
-    "href": "resources/slides/mri_safety_1.html#access-4",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 1",
+    "objectID": "resources/slides/mri_safety_2.html#access-4",
+    "href": "resources/slides/mri_safety_2.html#access-4",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Access 4",
-    "text": "Access 4"
+    "text": "Access 4\nTraining Access Who"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#magnet-strength",
+    "href": "resources/slides/mri_safety_1.html#magnet-strength",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Magnet Strength",
+    "text": "Magnet Strength\n\n\n\nTypically measured in Tesla (T)\nThe Earth’s magnetic field is roughly 0.00005 Tesla\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#magnet-is-always-on",
+    "href": "resources/slides/mri_safety_1.html#magnet-is-always-on",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Magnet Is Always On!",
+    "text": "Magnet Is Always On!\n\n\n\nElectrical resistance decreases with temperature\n\nAt very (very) low temperatures, copper has superconductive properties\n\nMRI scanner filled with liquid helium\n\nRamp up (charge coil) from the electrical grid\nThen disconnect!\nPerpetual current = persistent field strength\n\nIndependent of power in:\n\nRoom\nVeldman Family Psychology Clinic\nSouth Bend"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#safety-screener",
+    "href": "resources/slides/mri_safety_1.html#safety-screener",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Safety Screener",
+    "text": "Safety Screener\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener\nCheck for compatibility with 3 Tesla field\nReviewed by two people\n\n\nCheck for contraindications:\n\nNon-MRI compatible medical implants (e.g. pacemaker)\nMetal embedded in body (shrapnel, piercings)\nTattoo on face or neck, permanent makeup\nPregnancy\n\n\n\n\nCheck that MRI incompatible materials are removed\n\nJewelry, objects in pockets (pens, paperclips)\nHair accessories (bobby pins, clips, extensions)\nClothing (bra underwire, Lululemon Silverscent)\nCosmetics (colored contacts, magnetic lashes, tanning lotions, makeup/nail polish with glitter)\nFootwear (steeltoe, buckles)"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-4-contd",
+    "href": "resources/slides/mri_safety_1.html#level-4-contd",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 4, cont’d",
+    "text": "Level 4, cont’d\n\n\n\nRestrictions:\n\nMust be accompanied by another researcher (Level 2+) when someone is in Zone 4"
   }
 ]

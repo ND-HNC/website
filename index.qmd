@@ -7,8 +7,8 @@ toc: true
 #   freeze: auto
 ---
 
-## Welcome
-Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page!
+<!-- ## Welcome
+Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page! -->
 
 ![Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!](media/veldman_mri.jpg){fig-align="left"}
 
@@ -21,7 +21,9 @@ Email: [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
 
 ## About
 
-Our goal is to provide operational support for research conducted at the [ND-HNC](https://neuroimaging.nd.edu/). We support every step of your research program:
+Our goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center ([ND-HNC](https://neuroimaging.nd.edu/)).
+
+We support every step of your research program:
 
 - [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Understand available resources.
 - [Training](pages/training.qmd): Learn to use and gain access to the center.
