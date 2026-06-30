@@ -4,11 +4,23 @@ toc: true
 toc-depth: 4
 ---
 
+# Summary
+This page provides both overview descriptions and technical equipment statements for research hardware available at the ND-HNC. Grant writers will be most interested in the [Equipment Statement](#sec:equip-state) section.
+
+For quick navigation within this page:
+
+| Equipment | Overview | Statement | |
+|-----|-----|-----|-----|
+| MRI Simulator | [Link](#ssec:mock) | [Link](#ssec:state-mock) | |
+| MAGNETOM Cima.X | [Link](#ssec:mri) | [Link](#ssec:state-mri) | |
+| Task Presentation | [Link](#ssec:task-present) | [Link]({#ssec:state-task-present}) | |
+| DICOM Management | [Link](#ssec:dicom) | [Link](#ssec:state-dicom) | |
+| Compute | [Link](#ssec:compute) | [Link](#ssec:state-compute) | |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
 # Overview
-
-<!-- ![Siemens MAGNETOM Cima.X 3T](../media/cima.jpg){width=50% fig-align="left"} -->
-
-## 3T Magnetic Resonance Imaging (MRI) System
+## 3T Magnetic Resonance Imaging (MRI) System {#ssec:mri}
 ### Siemens Healthineers MAGNETOM Cima.X 3T
 
 ![](../media/mri.jpg){width=70%}
@@ -36,7 +48,7 @@ We offer a versatile suite of high-channel-count coils optimized for high signal
 ![](../media/coils_body.jpg){width=70% fig-align="center"}
 
 
-## Functional MRI (fMRI) Task Presentation & Synchronization
+## Functional MRI (fMRI) Task Presentation & Synchronization {#ssec:task-present}
 ### NordicNeuroLab (NNL) Complete fMRI Solution
 For cognitive and behavioral paradigms, our center utilizes a fully integrated, medical-grade turnkey hardware and software system from NordicNeuroLab.
 
@@ -57,7 +69,7 @@ Task presentation, experimental timing, and multi-modal data integration are als
 ![](../media/computer_stimulus.jpg){width=70% fig-align="center"}
 
 
-## DICOM Capture, Processing, & Storage Workstation
+## DICOM Capture, Processing, & Storage Workstation {#ssec:dicom}
 Primary local data ingestion, database archiving, and 3D visualization are driven by an enterprise-tier neuroimaging workstation built for high-throughput data pipelines.
 
 * **High-Performance Computation:** Positioned in the control room, this setup features a state-of-the-art Apple Mac Studio powered by an M4 Max chip (16-core CPU, 40-core GPU) with 48 GB of unified memory and a 1 TB internal SSD. Operating on a ultra-high-bandwidth unified memory architecture, this system enables instantaneous manipulation and rendering of massive, multi-dimensional imaging arrays without data-duplication latency.
@@ -67,7 +79,7 @@ Primary local data ingestion, database archiving, and 3D visualization are drive
 ![](../media/computer_dicom.jpg){width=60% fig-align="center"}
 
 
-## Mock Scanner / Participant Training
+## Mock Scanner / Participant Training {#ssec:mock}
 ### Encore MRI Simulator System (Psychology Software Tools)
 To maximize data quality and minimize failed scans due to participant anxiety or motion, the center features a dedicated mock scanning environment.
 
@@ -79,11 +91,32 @@ To maximize data quality and minimize failed scans due to participant anxiety or
 ![](../media/mock.jpg){width=70% fig-align="center"}
 
 
-<!-- ## TODO: Compute -->
+## Compute {#ssec:compute}
+To accommodate the diverse computational demands of modern neuroimaging, our facility provides a scalable, multi-tiered computing environment designed to support projects of any size. Whether a study requires simple, localized analyses conducted on a single subject, or massive, multi-site datasets demanding highly parallelized processing pipelines, our integrated infrastructure ensures optimal throughput and efficiency.
+
+### High-Performance Computing (HPC) Cluster Subsystem
+* **Purpose:** Built for large-scale data processing, group-level statistical analysis, and compute-intensive neuroimaging pipelines (e.g., fMRIPrep, FreeSurfer, diffusion tractography).
+* **Compute Power:** Features 5,504 total CPU cores, with 1,280 cores explicitly dedicated to MRI analyses.
+* **Networking & Management:** Uses an ultra-low-latency, 100 Gbps InfiniBand network fabric for multi-node parallelization, governed by a "Queue Submit" workload manager to ensure deterministic execution times.
+* **Storage:** Integrated with an enterprise-grade, 800 TB parallel file system designed to eliminate I/O bottlenecks during concurrent read/write streams of massive 4D fMRI and longitudinal datasets.
+
+### Dedicated Departmental 56-CPU Rack System
+* **Purpose:** A localized, agile, department-controlled environment used for immediate pipeline piloting, containerized application testing (Docker/Singularity), real-time data curation, and machine learning model training.
+* **Specifications:** Houses 56 CPUs (112 vCPUs) and 256 GB RAM with high-density multi-core server blades and dual 10GbE/25GbE uplinks.
+* **Advantage:** Bypasses the shared institutional queue latencies, allowing fast, memory-heavy operations like large-matrix transformations and voxel-wise permutations.
+
+### Analytical Workstations
+Individual workstations handle localized analysis, algorithm development, quality control visualization, and are connected to the local rack and 800 TB storage via a high-speed 10GbE local area network (LAN).
+
+* **Dedicated Linux Workstations:** Run enterprise Linux (RHEL) with multi-core processors.
+    * Equipped with NVIDIA GPUs supporting CUDA acceleration to speed up intensive routines like probabilistic tractography and deep learning segmentation.
+    * Native environment for core neuroimaging tools (FSL, FreeSurfer, AFNI, ANTs).
+* **Mac Studio Workstations:** Utilize Apple Silicon SoC with a high-bandwidth unified memory architecture to prevent data duplication bottlenecks during complex data visualization.
+    * Primary use cases include neuroimaging tools (FSL, FreeSurfer, AFNI, ANTs), statistical scripting (R, Python), paradigm debugging, and 3D brain model rendering.
 
 
-# Equipment Statement
-## MRI: Siemens Healthineers MAGNETOM Cima.X 3T System
+# Equipment Statement {#sec:equip-state}
+## MRI: Siemens Healthineers MAGNETOM Cima.X 3T System {#ssec:state-mri}
 ### System Overview
 The imaging facility is equipped with a Siemens Healthineers MAGNETOM Cima.X 3-Tesla (3T) magnetic resonance imaging (MRI) system operating on the syngo MR XA61 software platform. This state-of-the-art system features a short-bore, patient-friendly architecture with an open bore design of 60 cm (600 mm). It is specifically engineered to bridge advanced clinical diagnostics and high-performance research applications.
 
@@ -116,7 +149,7 @@ The hardware configuration allows for exceptional resolution boundaries, enablin
 Patient handling and protocol reproduction are managed via BioMatrix Interfaces and the myExam Companion software environment. This includes AI-driven Select&GO touch displays utilizing an intelligent anatomical body model to automate and accelerate precise patient positioning. The system features a BioMatrix patient table capable of a 205 cm scan range without repositioning, supporting vertical and horizontal movements for patient weights up to 250 kg (550 lbs).
 
 
-## Mock: Encore MRI Simulator System
+## Mock: Encore MRI Simulator System {#ssec:state-mock}
 ### System Overview and Purpose
 The facility is equipped with an Encore MRI Simulator developed by Psychology Software Tools (DBA RadSim). This specialized system is dedicated to pre-scan acclimation, participant training, and piloting functional magnetic resonance imaging (fMRI) behavioral paradigms. It provides a realistic approximation of an actual scanning environment to comfortably introduce pediatric cohorts to the MRI environment, train faculty and staff in a cost-effective setting, and mitigate failed clinical or research scans resulting from participant anxiety or claustrophobia.
 
@@ -133,7 +166,7 @@ The system includes interchangeable mock head coils to replicate specific imagin
 To maximize downstream MRI data quality by training participants to minimize motion, the setup includes the MoTrak head-mounted motion tracking system. MoTrak monitors head motion and angular rotation along the X, Y, and Z axes in real time, enabling the system to modulate audio and/or video output to provide immediate positive or negative feedback to train participants to remain still. Operational and protocol training are supported by the IACIT MRI Console Simulation Software, which features advanced touchscreen controls and replicates an MRI operator's console to build user experience and confidence in a classroom or laboratory setting.
 
 
-## Task: NordicNeuroLab functional MRI (fMRI) Solution
+## Task: NordicNeuroLab functional MRI (fMRI) Solution {#ssec:state-task-present}
 ### System Overview and Compliance
 The imaging facility is supported by a comprehensive, turnkey fMRI hardware and software solution provided by NordicNeuroLab (NNL). This integrated system is engineered to simplify, standardize, and streamline functional MR imaging workflows for both advanced scientific research and clinical applications, such as pre-surgical mapping of motor and language areas. All hardware components are designed, developed, and manufactured under a certified ISO 13485 Quality Management system. The equipment complies with international consensus standards (IEC) for Device Safety and Electromagnetic Compatibility (EMC) for medical electrical equipment, ensuring safe deployment within high-field magnetic environments.
 
@@ -157,7 +190,7 @@ Diffusion and Tractography: The system executes automated preprocessing of diffu
 DSC Perfusion: The software automates Dynamic Susceptibility Contrast (DSC) perfusion processing to calculate and map cerebral blood volume (CBV), cerebral blood flow (CBF), time-to-peak (TTP), and contrast agent leakage. Perfusion maps are normalized using a patented algorithm against normal-appearing white and grey matter, providing highly consistent, fast, and reproducible quantitative reporting.  -->
 
 
-## PACS: High-Performance Imaging Workstation and Storage Subsystem
+## PACS: High-Performance Imaging Workstation and Storage Subsystem {#ssec:state-dicom}
 ### Computation and Workstation Architecture
 Primary local data processing, analysis, and execution of neuroimaging workflows are anchored by an Apple Mac Studio high-performance workstation. This system utilizes a high-efficiency Apple Silicon system-on-a-chip (SoC) architecture, integrating multi-core central and graphics processing units (CPU/GPU) with a unified memory architecture that provides exceptionally high memory bandwidth (up to 400–800 GB/s). This unified memory approach allows the operating system and imaging applications to instantly share massive imaging volumes without the latency of data duplication. The workstation is further equipped with hardware-accelerated media engines and a 16-core Neural Engine to accelerate compute-heavy image manipulation, machine learning-driven segmentation, and complex mathematical modeling. High-speed network connectivity to the MRI scanner console and regional Picture Archiving and Communication Systems (PACS) is supported via an integrated 10Gb Ethernet port.
 
@@ -175,7 +208,7 @@ Advanced 2D and 3D visualization capabilities native to Horos include:
 - Quantitative Analysis and Compliance: Features high-precision geometric measurement, annotation, and region-of-interest (ROI) tracing tools to track structural volumes and signal intensities. For human subjects' protection and compliance with institutional data sharing policies, Horos includes powerful scriptable anonymization utilities that strip Protected Health Information (PHI) from DICOM headers before exporting data for collaborative external analysis.
 
 
-## Compute: High-Performance Infrastructure and Laboratory Workstations
+## Compute: High-Performance Infrastructure and Laboratory Workstations {#ssec:state-compute}
 ### High-Performance Computing (HPC) Cluster Subsystem
 For large-scale data processing, group-level statistical analysis, and compute-intensive neuroimaging pipelines, the project has dedicated access to a High-Performance Computing (HPC) cluster. This institutional resource features 5,504 CPU cores optimized for highly parallelized computational workloads of which 1,280 cores specifically support MRI analyses. The cluster nodes are interconnected via a ultra-low-latency, high-bandwidth network fabric (e.g., 100 Gbps InfiniBand or equivalent), enabling seamless Message Passing Interface (MPI) coordination and multi-node parallelization.
 

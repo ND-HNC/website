@@ -25,10 +25,10 @@ Our goal is to provide operational support for research conducted at the Notre D
 
 We support every step of your research program:
 
-- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Understand available resources.
+- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Learn about available resources.
 - [Training](pages/training.qmd): Learn to use and gain access to the center.
 - Schedule: Book facilities.
-- Data collection: Operate research hardware.
+- [Operate](pages/operate.qmd): Use research hardware to collect data.
 - [Compute](pages/compute.qmd): Develop codebase, sandbox testing, local computing, parallelization.
   <!-- - Local machines
   - Local rack
@@ -38,7 +38,7 @@ We support every step of your research program:
 ## Operation Documents
 
 <!-- - [Forms](pages/forms.qmd): MRI Safety screener, other helpful documents. -->
-- [Policies](pages/sops.qmd): ND-HNC policies for use.
+- [Policies](pages/policies.qmd): ND-HNC policies for use.
 - [SOPs](pages/sops.qmd): Standard Operating Procedures and forms.
 
 ## Additional Resources

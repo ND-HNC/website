@@ -368,8 +368,6 @@ ND-HNC zone [map](../sops/pics/nd-hnc_layout_zones.png){target="_blank"}.
     - Unsupervised access to Zone 4
     - Second reviewer of MRI Safety Screen
     - Independently scan participants
-- Restrictions:
-    - Must be accompanied by another researcher (Level 2+) when someone is in Zone 4
 ::::
 
 :::: {.column width="\"50%"}

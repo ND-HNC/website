@@ -133,18 +133,18 @@
     "text": "What is MRI?\n\n\n\n(Nuclear) Magnetic Resonance Imaging\nNuclear Magnetic: certain elements have known behaviors in magnetic fields\n\nAlign with field\nPrecesses at known frequency\n\nResonance: introduce energy at same frequency as precession\n\nProtons move to higher energy states, eventually decay\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#mri-strength",
-    "href": "resources/slides/mri_safety_1.html#mri-strength",
+    "objectID": "resources/slides/mri_safety_1.html#magnet-strength",
+    "href": "resources/slides/mri_safety_1.html#magnet-strength",
     "title": "MRI Safety Training, Level 1",
-    "section": "MRI Strength",
-    "text": "MRI Strength\n\n\n\nTypically measured in Tesla (T)\nThe Earth’s magnetic field is roughly 0.00005 Tesla\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
+    "section": "Magnet Strength",
+    "text": "Magnet Strength\n\n\n\nTypically measured in Tesla (T)\nThe Earth’s magnetic field is roughly 0.00005 Tesla\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#always-on",
-    "href": "resources/slides/mri_safety_1.html#always-on",
+    "objectID": "resources/slides/mri_safety_1.html#magnet-is-always-on",
+    "href": "resources/slides/mri_safety_1.html#magnet-is-always-on",
     "title": "MRI Safety Training, Level 1",
-    "section": "Always On!",
-    "text": "Always On!\n\n\n\nCopper has superconductivity properties\n\nZero resistance at low temperatures\n\nMRI scanner filled with liquid helium\nRamp up (charge coil) from the electrical grid\n\nThen disconnect!\n\nPerpetual current\n\nPersistent field strength\n\nIndependent of power in:\n\nRoom\nVeldman Family Psychology Clinic\nSouth Bend"
+    "section": "Magnet Is Always On!",
+    "text": "Magnet Is Always On!\n\n\n\nElectrical resistance decreases with temperature\n\nAt very (very) low temperatures, copper has superconductive properties\n\nMRI scanner filled with liquid helium\n\nRamp up (charge coil) from the electrical grid\nThen disconnect!\nPerpetual current = persistent field strength\n\nIndependent of power in:\n\nRoom\nVeldman Family Psychology Clinic\nSouth Bend"
   },
   {
     "objectID": "resources/slides/mri_safety_1.html#safety-considerations",
@@ -152,6 +152,13 @@
     "title": "MRI Safety Training, Level 1",
     "section": "Safety Considerations",
     "text": "Safety Considerations\n\n\n\nRarely are rooms fatal.\nInjuries are more common than they should be.\nAmerican College of Radiology (ACR) recommends a 4 zone strategy for controlling access."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#safety-screener",
+    "href": "resources/slides/mri_safety_1.html#safety-screener",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Safety Screener",
+    "text": "Safety Screener\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener\nCheck for compatibility with 3 Tesla field\nReviewed by two people\n\n\nCheck for contraindications:\n\nNon-MRI compatible medical implants (e.g. pacemaker)\nMetal embedded in body (shrapnel, piercings)\nTattoo on face or neck, permanent makeup\nPregnancy\n\n\n\n\nCheck that MRI incompatible materials are removed\n\nJewelry, objects in pockets (pens, paperclips)\nHair accessories (bobby pins, clips, extensions)\nClothing (bra underwire, Lululemon Silverscent)\nCosmetics (colored contacts, magnetic lashes, tanning lotions, makeup/nail polish with glitter)\nFootwear (steeltoe, buckles)"
   },
   {
     "objectID": "resources/slides/mri_safety_1.html#zone-1-orange",
@@ -221,7 +228,14 @@
     "href": "resources/slides/mri_safety_1.html#level-4",
     "title": "MRI Safety Training, Level 1",
     "section": "Level 4",
-    "text": "Level 4\n\n\n\nRequirements:\n\nLevel 3 requirements\nPass operator exam\nND Ph.D. candidate, post-doctoral fellow, faculty\n30 hours of experience as Level 3\n\nPrivileges:\n\nAll Level 3 privileges\nUnsupervised access to Zone 4\nSecond reviewer of MRI Safety Screen\nIndependently scan participants\n\nRestrictions:\n\nMust be accompanied by another researcher (Level 2+) when someone is in Zone 4"
+    "text": "Level 4\n\n\n\nRequirements:\n\nLevel 3 requirements\nPass operator exam\nND Ph.D. candidate, post-doctoral fellow, faculty\n30 hours of experience as Level 3\n\nPrivileges:\n\nAll Level 3 privileges\nUnsupervised access to Zone 4\nSecond reviewer of MRI Safety Screen\nIndependently scan participants"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#level-4-contd",
+    "href": "resources/slides/mri_safety_1.html#level-4-contd",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Level 4, cont’d",
+    "text": "Level 4, cont’d\n\n\n\nRestrictions:\n\nMust be accompanied by another researcher (Level 2+) when someone is in Zone 4"
   },
   {
     "objectID": "resources/slides/mri_safety_1.html#sources",
@@ -331,125 +345,206 @@
     ]
   },
   {
-    "objectID": "pages/forms.html",
-    "href": "pages/forms.html",
-    "title": "Forms",
+    "objectID": "pages/operate.html",
+    "href": "pages/operate.html",
+    "title": "Operate",
+    "section": "",
+    "text": "This page is under construction.",
+    "crumbs": [
+      "Operate"
+    ]
+  },
+  {
+    "objectID": "pages/operate.html#ssec:mock",
+    "href": "pages/operate.html#ssec:mock",
+    "title": "Operate",
+    "section": "Mock Scanner",
+    "text": "Mock Scanner\nThe MRI simulator (mock) provides two main features: the ability to simulate the MRI environment, from the coils and bore to acquisition sounds, and to monitor head movement.\n\nSimulate\nThese steps describe how to conduct a simulated MRI experience.\n\nSetup Instructions\nSetup 1: Turn mock scanner on using both switches (red arrows) at the back of the device.\n\n\n\n\n\nSetup 2: Wait 3 minutes for system to boot.\n\n\n\n\n\nSetup 3: Verify screen inverter is working (mirror selected, Input solid).\n\n\n\n\n\nSetup 4: Customize simulation. Enter Options menu (Mock Control, R).\n\n\n\nMock Control\n\n\nSetup 5: Specify your customization of:\n\nBore and Accent colors (Mock Customize, A & B)\nAmbient sound (Mock Customize, C)\nProtocol sound and duration (Mock Customize, D)\nAlarm volume (Mock Customize, E)\nButton sound (Mock Customize, F)\n\n\n\n\nMock Customize\n\n\nSetup 6: Once customization is complete, return to the Control menu (Mock Customize, G).\n\n\n\n\n\nSetup 7: Specify fan, core light, and accent light strength (Mock Control, A-C).\n\n\nSimulate participant\nSimulate 1: Have participant lay supine, with the top of the head near the apex of the coil base.\n\n\n\n\n\nSimulate 2: Provide headphones and squeeze ball (Mock Equipment, A & C [black]).\n\nTest squeeze ball; deactivate alarm with Alarm (Mock Control, D).\n\n\n\n\nMock Equipment\n\n\nSimulate 3: Add coil top, ensure participant can see through the eye fields.\n\n\n\n\n\nSimulate 4: Use Table In Slow (Mock Control, I) to drive participant to alignment. Have participant close eyes.\n\nSAFETY: Closing eyes is critical to avoid damaging the eyeball with alignment laser!\n\nSimulate 5: Turn laser on (Mock Control, E). Use Table In/Out Slow (Mock Control, H & I) to align laser between eyebrows.\n\nTurn off laser (Mock Control, E).\n\n\n\n\n\n\nSimulate 6: Attach mirror to coil top. Adjust mirror (superior/inferior) until participant can see monitor screen.\n\n\n\n\n\nSimulate 7: Send participant to isocenter via Advance to Scan (Mock Control, M).\n\n\n\n\n\nSimulate 8: Conduct simulation via Start Scan (Mock Control, O).\n\nEnd simulation with Pause/Abort Scan (Mock Control, P & Q).\nUse Options menu to select additional sequences (Mock Control, R).\n\n\n\n\nEnd simulation\nMove to Home Emergency override Manual Home\n\n\n\nMonitor Movement\nManual",
+    "crumbs": [
+      "Operate"
+    ]
+  },
+  {
+    "objectID": "pages/operate.html#stimulus-computer",
+    "href": "pages/operate.html#stimulus-computer",
+    "title": "Operate",
+    "section": "Stimulus Computer",
+    "text": "Stimulus Computer",
+    "crumbs": [
+      "Operate"
+    ]
+  },
+  {
+    "objectID": "pages/operate.html#dicom-computer",
+    "href": "pages/operate.html#dicom-computer",
+    "title": "Operate",
+    "section": "DICOM Computer",
+    "text": "DICOM Computer",
+    "crumbs": [
+      "Operate"
+    ]
+  },
+  {
+    "objectID": "pages/facilities.html",
+    "href": "pages/facilities.html",
+    "title": "Facilities",
+    "section": "",
+    "text": "Veldman Family Psychology Clinic",
+    "crumbs": [
+      "Facilities"
+    ]
+  },
+  {
+    "objectID": "pages/facilities.html#facility-statement",
+    "href": "pages/facilities.html#facility-statement",
+    "title": "Facilities",
+    "section": "Facility Statement",
+    "text": "Facility Statement\n\nNotre Dame Human Neuroimaging Center\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, a dedicated 35,000-square-foot clinical and research facility located in South Bend, Indiana. The facility consists of a fully integrated environment for participant recruitment, clinical assessment, neuroimaging, electrophysiological recording, noninvasive brain stimulation, data processing, and collaborative scientific analysis.\nThe ND-HNC includes dedicated participant-facing spaces consisting of a reception area (117 ft\\(^2\\)), two consultation rooms (83 and 100 ft\\(^2\\)), two changing rooms (80 and 79 ft\\(^2\\)), and two interview rooms (110 and 112 ft\\(^2\\)). Research-dedicated spaces include a mock magnetic resonance imaging (MRI) scanner room (226 ft\\(^2\\)), two electroencephalogrphy (EEG) laboratories (157 and 161 ft\\(^2\\)), an EEG control room (104 ft\\(^2\\)), EEG preparation room (182 ft\\(^2\\)), MRI vestibule (308 ft\\(^2\\)), MRI storage room (179 ft\\(^2\\)), MRI scanner and control suite (~500 ft\\(^2\\)), a dedicated transcranial magnetic stimulation (TMS) laboratory (385 ft\\(^2\\)), image processing room (270 ft\\(^2\\)), conference room (257 ft\\(^2\\)), and three staff offices (121, 102, and 103 ft\\(^2\\)).\n\n\nMagnetic Resonance Imaging Resources\nHuman neuroimaging studies are performed on a Siemens Healthineers MAGNETOM Cima.X 3 Tesla (3T) MRI system operating on the syngo MR XA61 platform. The system combines advanced research capabilities with a participant-friendly short-bore design featuring a 60 cm open bore architecture.\nThe scanner incorporates a highly homogeneous superconducting 3T magnet with exceptional field stability (\\(\\lt 0.1\\) ppm/hour) and high-performance passive and active shimming capabilities. Automated subject-specific 3D shimming can be completed in approximately 15 seconds, ensuring optimal magnetic field homogeneity for advanced neuroimaging applications. Fifth-generation active shielding and Siemens External Interference Shielding (E.I.S.) technology minimize environmental magnetic disturbances and maintain image quality during demanding functional and diffusion imaging studies.\nImage acquisition is supported by Siemens Gemini gradients capable of maximum gradient amplitudes of \\(\\ge 200\\) mT/m per axis and slew rates of 200 T/m/s per axis, with vector performance reaching 346 mT/m and 346 T/m/s. These capabilities enable high-resolution structural imaging, advanced diffusion imaging, and rapid functional MRI acquisition with reduced distortion and improved signal fidelity.\nThe system employs Siemens DirectRF digital architecture and TimTX TrueForm/TrueShape parallel transmit technology to optimize radiofrequency (RF) homogeneity and signal stability. 204 coil elements and 64 simultaneous receiver channels can be utilized during data acquisition, providing high signal-to-noise ratios and supporting accelerated imaging protocols.\nAdvanced imaging capabilities include diffusion imaging with b-values up to 16,000 s/mm\\(^2\\), automated prospective motion correction with real-time six-degree-of-freedom tracking, parallel-transmit-enabled selective excitation (ZOOMit), and AI-assisted workflow tools through Siemens BioMatrix and myExam Companion technologies. These capabilities support state-of-the-art structural MRI, functional MRI, diffusion tensor imaging, tractography, and quantitative neuroimaging investigations.\n\nFunctional MRI Research Infrastructure\nFunctional MRI studies are supported by a comprehensive NordicNeuroLab (NNL) hardware and software ecosystem designed specifically for advanced neuroimaging research and clinical mapping applications.\nVisual stimulus presentation is provided through a 40 in MR-compatible 4K UHD display system. These systems support high-resolution visual paradigms, visual field mapping, immersive task presentation, and real-time participant monitoring.\nBehavioral responses are collected using MR-compatible fiber-optic ResponseGrips that minimize participant movement while providing reliable acquisition of task performance data. Synchronization between MRI pulse sequences and experimental paradigms is achieved through the NNL SyncBox system, which provides scanner-independent synchronization with timing accuracy of ±0.5 ms.\nExperimental paradigm delivery is managed using nordicAktiva software, which includes validated libraries of motor, language, cognitive, and clinical paradigms while also supporting custom paradigm development. The platform permits synchronized control of stimulus presentation and image acquisition and provides rehearsal modes for participant training.\nAdvanced image processing is supported by nordicMEDiVA, a web-based neuroimaging analysis environment supporting task-based fMRI, diffusion imaging, tractography, and perfusion analysis. Automated preprocessing includes motion correction, spatial normalization, diffusion distortion correction, and statistical modeling using General Linear Models. Interactive tools support activation mapping, tract reconstruction, region-of-interest (ROI) based analyses, and collaborative review among multiple investigators.\n\n\nSimulation and Participant Training Resources\nThe facility houses an Encore MRI Simulator (Psychology Software Tools/RadSim), which provides a realistic MRI environment for participant acclimation, protocol piloting, and training. The simulator includes a realistic 60 cm bore, motorized participant table, integrated positioning lasers, environmental lighting, cooling systems, and participant safety monitoring.\nThe simulator reproduces scanner acoustics and vibration using high-fidelity recordings obtained from Siemens MRI systems. Visual presentation is delivered through a dedicated 22 in high-definition display with integrated audio communication and real-time participant monitoring through an in-bore camera system.\nThe simulator incorporates interchangeable mock head coils replicating Siemens acquisition environments and includes response devices for behavioral task practice. The MoTrak motion tracking system provides real-time monitoring of participant head motion across three translational and three rotational axes, allowing participants to receive immediate feedback regarding movement. This capability substantially improves participant compliance and reduces motion-related data loss during actual MRI sessions.\n\n\n\nResearch Personnel and Technical Support\nTo ensure the highest standards of data quality, regulatory compliance, and operational efficiency, the Notre Dame Human Neuroimaging Center provides dedicated, expert human infrastructure. The facility is staffed by a specialized team available to support investigators throughout the lifecycle of their research projects\nDirector: The senior scientist/faculty member provides overall strategic vision, scientific leadership, and governance for the neuroimaging center. The Director establishes facility policies, reviews incoming research protocols for scientific merit and technical feasibility, fosters interdisciplinary collaborations, and ensures the center’s capabilities remain at the cutting edge of neuroimaging technology.\nScientific Program Coordinator: The Coordinator facilitates the center’s broader academic and research mission. Key responsibilities include managing the center’s pilot grant funding programs, organizing educational workshops and scanner user seminars, assisting investigators with grant submission logistics, and coordinating internal and external scientific communications and progress reporting.\nPhysicist: The physicist is dedicated to the center to oversee technical operations, optimize imaging sequences, and develop custom acquisition protocols tailored to specific research questions. The Physicist manages the system’s rigorous quality assurance (QA) program: continually tracking signal-to-noise ratios (SNR), field stability, and artifact management. The Physicist also provides advanced consultation on experimental design and safety guidelines.\nAnalyst: The neuroimaging data expert provides specialized support for advanced image processing, pipeline development, and computational workflows. The Analyst maintains the center’s containerized processing pipelines (e.g., fMRIPrep, FreeSurfer, FSL, AFNI) across local workstations and the University’s High-Performance Computing (HPC) cluster, assisting investigators with data curation, quality control (QC) metrics, and reproducible statistical modeling. They Analyst also provides bootcamps and courses covering topics from programming to modelling multimodal MRI data, making the incorporation of MRI techniques into existing research programs more accessible.\nTechnologist: A certified, full-time Technologist operates the 3T scanner and handles daily scanning execution. The Technologist is responsible for strict participant safety screening, anatomical positioning, and the seamless integration of peripheral equipment (including the NordicNeuroLab stimulus presentation systems and response devices). They ensure comfortable, safe, and highly standardized data collection environments for all participant cohorts.\nOperations Coordinator: The Coordinator manages the day-to-day administrative and logistical workflows of the facility. Key responsibilities include administering the centralized participant scheduling system, coordinating billing, ensuring compliance with institutional IRB and federal regulations, and facilitating investigator onboarding and safety training. The Coordinator serves as the primary operational liaison between research teams and the center.\n\n\nElectrophysiology and Neuromodulation Resources\nThe facility contains two dedicated EEG acquisition laboratories, a centralized EEG control room, and a participant preparation suite supporting high-density electrophysiological recording. These resources facilitate cognitive, developmental, affective, and clinical neuroscience investigations requiring millisecond temporal resolution.\nNoninvasive brain stimulation studies are conducted in a dedicated TMS laboratory equipped for experimental and translational neuromodulation research. The co-location of MRI, EEG, and TMS resources supports multimodal neuroimaging and neurostimulation investigations.\n\n\nData Processing, Storage, and Computational Resources\n\nImaging Workstations and Local Data Infrastructure\nPrimary image management and analysis are supported by Apple Mac Studio workstations utilizing Apple Silicon architectures with unified memory systems, hardware-accelerated media processing, and dedicated neural processing engines. These systems support image visualization, machine learning workflows, statistical analysis, and neuroimaging software development.\nThe workstations are connected to a dedicated Promise Technology Pegasus RAID storage subsystem providing 104 TB of fault-tolerant local storage. The storage architecture utilizes hardware RAID redundancy and predictive data migration technologies to ensure data integrity and uninterrupted operation. High-bandwidth Thunderbolt connectivity supports efficient processing of large multimodal imaging datasets.\nDICOM image management, visualization, and anonymization are performed using the Horos imaging platform. Investigators have access to advanced multiplanar reconstruction, volume rendering, quantitative ROI analysis, and secure de-identification tools that support compliance with institutional and federal human subjects protections.\n\n\nDepartmental Computing Resources\nThe research team maintains access to a dedicated departmental computing rack, providing 56 CPU cores and 256 GB RAM for local high-throughput processing. This infrastructure supports image reconstruction, quality assurance, machine learning development, containerized neuroimaging pipelines, and rapid deployment of computational workflows.\nDedicated Linux workstations provide optimized environments for FSL, FreeSurfer, AFNI, ANTs, and other neuroimaging software packages. These systems include dedicated GPU acceleration to support computationally intensive analyses such as probabilistic tractography, deep-learning-based segmentation, and large-scale image processing.\n\n\nInstitutional High-Performance Computing Resources\nThe project additionally has access to the University’s High-Performance Computing (HPC) infrastructure through the Center for Research Computing. This resource provides approximately 1,280 dedicated MRI-analysis CPU cores interconnected through a high-bandwidth, low-latency network fabric designed for parallel scientific computing.\nThe HPC environment is integrated with approximately 800 terabytes of enterprise-grade storage capable of supporting large-scale neuroimaging studies, longitudinal datasets, and multimodal analyses. Advanced workload management systems facilitate efficient execution of computationally intensive pipelines including fMRIPrep, FreeSurfer, diffusion tractography, machine learning workflows, and group-level statistical analyses.\n\n\n\nOverall Research Environment\nThe Veldman Family Psychology Clinic and Notre Dame Human Neuroimaging Center provide an exceptional environment for NIH-funded neuroscience and behavioral research. The co-location of advanced MRI, EEG, TMS, participant training facilities, dedicated technical personnel, extensive computational infrastructure, and large-scale data storage resources enables efficient implementation of sophisticated multimodal research protocols. These integrated facilities provide all equipment, personnel, and computational resources necessary to successfully conduct the proposed studies and support high-quality, reproducible neuroimaging research.",
+    "crumbs": [
+      "Facilities"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html",
+    "href": "pages/directions.html",
+    "title": "Directions",
+    "section": "",
+    "text": "Veldman Family Psychology Clinic",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#location",
+    "href": "pages/directions.html#location",
+    "title": "Directions",
+    "section": "Location",
+    "text": "Location\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, in downtown South Bend:\n\n\nInteractive Map",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#parking",
+    "href": "pages/directions.html#parking",
+    "title": "Directions",
+    "section": "Parking",
+    "text": "Parking\nParking is available for free on the north side of the building (access from Cedar St).",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#entry",
+    "href": "pages/directions.html#entry",
+    "title": "Directions",
+    "section": "Entry",
+    "text": "Entry\n\nEnter through the building’s main (north) door.\nAccess to reception is restricted – it is possible to page the receptionist by pressing the yellow “Call” button.\nResearch personnel will meet you in the main reception area and escort you to the ND-HNC.",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/directions.html#researchers",
+    "href": "pages/directions.html#researchers",
+    "title": "Directions",
+    "section": "Researchers",
+    "text": "Researchers\nFor access as a researcher, please reference the following SOPs:\n\nSOP 301: Building Access.\nSOP 202: Zone Access.",
+    "crumbs": [
+      "Directions"
+    ]
+  },
+  {
+    "objectID": "pages/affiliations.html",
+    "href": "pages/affiliations.html",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Center 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#notre-dame-centers",
+    "href": "pages/affiliations.html#notre-dame-centers",
+    "title": "Affiliations",
+    "section": "",
+    "text": "Center 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#notre-dame-labs",
+    "href": "pages/affiliations.html#notre-dame-labs",
+    "title": "Affiliations",
+    "section": "Notre Dame Labs",
+    "text": "Notre Dame Labs\nLab 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#external-labs",
+    "href": "pages/affiliations.html#external-labs",
+    "title": "Affiliations",
+    "section": "External Labs",
+    "text": "External Labs\nEXlab 1"
+  },
+  {
+    "objectID": "pages/affiliations.html#local-community",
+    "href": "pages/affiliations.html#local-community",
+    "title": "Affiliations",
+    "section": "Local Community",
+    "text": "Local Community\nGroup 1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "",
+    "text": "Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#join-us",
+    "href": "index.html#join-us",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Join Us",
+    "text": "Join Us\nFollow these arrival instructions for help locating the center, parking, and entry.\nEmail: nd-hnc@nd.edu.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "About",
+    "text": "About\nOur goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC).\nWe support every step of your research program:\n\nFacilities and Equipment: Learn about available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nOperate: Use research hardware to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization. \nStorage: Keep and manage data at various project stages.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#operation-documents",
+    "href": "index.html#operation-documents",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Operation Documents",
+    "text": "Operation Documents\n\n\nPolicies: ND-HNC policies for use.\nSOPs: Standard Operating Procedures and forms.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#additional-resources",
+    "href": "index.html#additional-resources",
+    "title": "Notre Dame Human Neuroimaging Center",
+    "section": "Additional Resources",
+    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
     "section": "",
     "text": "This page is under construction."
-  },
-  {
-    "objectID": "pages/forms.html#overview",
-    "href": "pages/forms.html#overview",
-    "title": "Forms",
-    "section": "Overview",
-    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to essential forms required for everyday center operations:\n\n000: Assist researchers and participants use the center.\n100: Track issues with hardware, training, etc. (ND-HNC staff).\n200: Manage hardware (ND-HNC staff)."
-  },
-  {
-    "objectID": "pages/forms.html#forms",
-    "href": "pages/forms.html#forms",
-    "title": "Forms",
-    "section": "Forms",
-    "text": "Forms\n\n\n000: ND-HNC Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Safety Screen\nDocument\n\n\n002\nArrival Instructions\nBlue, White\n\n\n003\nCenter Layout\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n103\nCompliance\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware\nDocument"
-  },
-  {
-    "objectID": "pages/equipment.html",
-    "href": "pages/equipment.html",
-    "title": "Equipment",
-    "section": "",
-    "text": "Our facility features the cutting-edge Siemens MAGNETOM Cima.X 3T system, operating on the latest syngo MR XA61 software platform. Designed with a patient-friendly 60 cm open bore, this system seamlessly bridges high-performance cognitive neuroscience research with advanced clinical diagnostics.\n\nUnparalleled Gradient Performance: Powered by Gemini Gradients, the system delivers a standard maximum amplitude of ≥200 mT/m per axis and a slew rate of 200 T/m/s. Through simultaneous vector addition across all three axes, it can achieve a peak performance of 346 mT/m and 346 T/m/s at a 100% duty cycle—enabling ultra-high spatial resolution and exceptionally fast scanning.\nExceptional Field Stability: The superconducting 3T magnet features state-of-the-art passive and active shimming (including rapid 15-second patient-specific 3D shimming) and a zero helium boil-off rate. 5th-generation active shielding continuously suppresses external environmental magnetic noise.\nDirectRF Technology: An all-digital optical design integrates all radiofrequency (RF) transmit and receive components directly into the magnet housing, eliminating electrical noise and maximizing signal stability.\nReal-Time Motion Correction: To combat participant movement, the system includes a fully automatic 3D prospective motion correction system that tracks and adjusts for motion in real time across 6 degrees of freedom.\n\n\n\n\nWe offer a versatile suite of high-channel-count coils optimized for high signal-to-noise ratios (SNR), rapid parallel imaging (iPAT), and multi-region coverage.\n\n64-Channel Head/Neck Coil: Our primary neuroimaging array features an anthropomorphic design for maximum SNR and full head/neck coverage. It is highly optimized for fMRI and includes a dedicated rear port for EEG cables, allowing simultaneous EEG/fMRI studies with up to 128 electrodes. The upper section (24 elements) is removable, and the lower section (40 elements) remains on the table for streamlined workflows.\n32-Channel Head Coil: Specially optimized for high-resolution structural brain imaging, MR angiography (MRA), and functional MRI. It features an open-view architecture to reduce participant claustrophobia and easily accommodate visual stimulation experiments.\nBioMatrix Head/Neck 20 Coil: A tiltable 20-element array featuring integrated CoilShim technology that automatically corrects for local magnetic field inhomogeneities at challenging air-tissue interfaces, such as the frontal sinuses and skull base.\n\n\n\n\n\n\n\nBioMatrix Spine 32 Coil: A 32-channel matrix with integrated Respiratory Sensors for automatic respiratory gating and motion-artifact reduction without external bellows.\nBody 18 Coil: An ultra-lightweight, 18-element curved matrix for abdominal, thoracic, or torso imaging.\nFlex Large 4 & Small 4 Coils: Highly flexible 4-channel local loops paired with a dedicated interface for high-density, targeted imaging of unique anatomical regions.\n\n\n\n\n\n\n\n\n\n\n\n\nFor cognitive and behavioral paradigms, our center utilizes a fully integrated, medical-grade turnkey hardware and software system from NordicNeuroLab.\n\nInroomViewing Device: Visual tasks are delivered via a 40-inch 4K UHD MR-compatible LCD monitor positioned inside the magnet room. It features a high-contrast display, full image mirroring capabilities, and an integrated front-facing micro-camera for continuous patient surveillance from the console.\nFiber-Optic ResponseGrips: Participant behavioral feedback is captured using ergonomic, 100% fiber-optic handheld units (4 buttons per hand). Containing no electronics, they introduce zero RF interference.\nNNL SyncBox: Ensures explicit temporal alignment between the MRI pulse sequences and the stimulus software with a timing accuracy of ±0.5 ms. It intercepts scanner triggers and streams them instantly to the stimulus computer.\nnordicAktiva Software: Allows a single operator to manage paradigm execution and image acquisition simultaneously. It includes an extensive library of ready-to-use clinical paradigms (language, motor, etc.) and a custom Paradigm Builder.\n\n\n\n\n\n\n\n\n\nTask presentation, experimental timing, and multi-modal data integration are also available through a separate, ultra-compact Dell QMB1250 (Micro) workstation located in the control room. Despite its small footprint, this system provides robust, reliable performance tailored for precision behavioral testing and functional neuroimaging paradigms.\n\nCore Specifications: The workstation is powered by an advanced Intel Core Ultra 7 processor, paired with 16 GB of high-speed RAM to ensure seamless multitasking and tight temporal precision during sequence execution. It features a 512 GB solid-state drive (SSD) for rapid local data retrieval and storage of complex multimedia behavioral tasks.\nVersatile Task Deployment: The system is fully configured to support and deploy the industry-standard software packages utilized in cognitive neuroscience, including MATLAB (for custom routines and Psychtoolbox), PsychoPy (for Python-based experimental design), and E-Prime (for millisecond-accurate script execution).\nPsychophysiological Integration: Beyond driving visual and auditory paradigms via the NordicNeuroLab system, the workstation is specifically engineered and wired to receive real-time psychophysiological inputs (such as GSR, respiration, or heart rate monitoring devices). This setup allows investigators to acquire synchronized behavioral, physiological, and neuroimaging datasets concurrently.\n\n\n\n\n\n\n\n\n\n\nPrimary local data ingestion, database archiving, and 3D visualization are driven by an enterprise-tier neuroimaging workstation built for high-throughput data pipelines.\n\nHigh-Performance Computation: Positioned in the control room, this setup features a state-of-the-art Apple Mac Studio powered by an M4 Max chip (16-core CPU, 40-core GPU) with 48 GB of unified memory and a 1 TB internal SSD. Operating on a ultra-high-bandwidth unified memory architecture, this system enables instantaneous manipulation and rendering of massive, multi-dimensional imaging arrays without data-duplication latency.\nDICOM Organization & Query via Horos: The Mac Studio acts as the primary data receiver, pulling raw Digital Imaging and Communications in Medicine (DICOM) files directly from the scanner console. Database management, local archiving, and query/retrieve operations are handled natively via the Horos platform. This 64-bit medical imaging environment automatically indexes and structures incoming subjects, supporting advanced 2D/3D Multi-Planar Reconstructions (MPR), Maximum Intensity Projections (MIP), and high-precision region-of-interest (ROI) tools. For data sharing compliance, Horos utilizes scriptable anonymization utilities to strip Protected Health Information (PHI) before any external export.\nMassive Fault-Tolerant Storage: To manage and preserve these large neuroimaging payloads, Horos is configured to organize and archive all datasets directly onto a 104 TB Promise Technology Pegasus hardware RAID system. The array interfaces with the Mac Studio via a high-bandwidth 40 Gbps Thunderbolt connection, completely eliminating I/O bottlenecks when reading, writing, or processing multi-gigabyte 4D fMRI and diffusion timeseries datasets.\n\n\n\n\n\n\n\n\n\n\n\nTo maximize data quality and minimize failed scans due to participant anxiety or motion, the center features a dedicated mock scanning environment.\n\nRealistic Patient Interface: Features a realistic diagnostic scanner façade, a standard 60 cm tapered bore, internal cooling fans, and a motorized participant table with dynamic speed controls and a safety squeeze ball.\nEnvironmental Realism (SimFx): Replicates the acoustic and tactile experience of a live scan using high-quality acoustic recordings of GE and Siemens sequences played through amplified speakers and a subwoofer to simulate authentic scanner vibrations.\nReal-Time Motion Tracking (MoTrak): Equipped with a head-mounted motion tracking system that monitors head movement and rotation along the X, Y, and Z axes. It can modulate audio/video output to provide immediate feedback, effectively training pediatric or anxious cohorts to remain perfectly still.\nConsole Simulation: Utilizes IACIT MRI Console Simulation Software to replicate a true operator’s console, allowing staff, students, and investigators to practice protocol execution in a risk-free setting.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#t-magnetic-resonance-imaging-mri-system",
-    "href": "pages/equipment.html#t-magnetic-resonance-imaging-mri-system",
-    "title": "Equipment",
-    "section": "",
-    "text": "Our facility features the cutting-edge Siemens MAGNETOM Cima.X 3T system, operating on the latest syngo MR XA61 software platform. Designed with a patient-friendly 60 cm open bore, this system seamlessly bridges high-performance cognitive neuroscience research with advanced clinical diagnostics.\n\nUnparalleled Gradient Performance: Powered by Gemini Gradients, the system delivers a standard maximum amplitude of ≥200 mT/m per axis and a slew rate of 200 T/m/s. Through simultaneous vector addition across all three axes, it can achieve a peak performance of 346 mT/m and 346 T/m/s at a 100% duty cycle—enabling ultra-high spatial resolution and exceptionally fast scanning.\nExceptional Field Stability: The superconducting 3T magnet features state-of-the-art passive and active shimming (including rapid 15-second patient-specific 3D shimming) and a zero helium boil-off rate. 5th-generation active shielding continuously suppresses external environmental magnetic noise.\nDirectRF Technology: An all-digital optical design integrates all radiofrequency (RF) transmit and receive components directly into the magnet housing, eliminating electrical noise and maximizing signal stability.\nReal-Time Motion Correction: To combat participant movement, the system includes a fully automatic 3D prospective motion correction system that tracks and adjusts for motion in real time across 6 degrees of freedom.\n\n\n\n\nWe offer a versatile suite of high-channel-count coils optimized for high signal-to-noise ratios (SNR), rapid parallel imaging (iPAT), and multi-region coverage.\n\n64-Channel Head/Neck Coil: Our primary neuroimaging array features an anthropomorphic design for maximum SNR and full head/neck coverage. It is highly optimized for fMRI and includes a dedicated rear port for EEG cables, allowing simultaneous EEG/fMRI studies with up to 128 electrodes. The upper section (24 elements) is removable, and the lower section (40 elements) remains on the table for streamlined workflows.\n32-Channel Head Coil: Specially optimized for high-resolution structural brain imaging, MR angiography (MRA), and functional MRI. It features an open-view architecture to reduce participant claustrophobia and easily accommodate visual stimulation experiments.\nBioMatrix Head/Neck 20 Coil: A tiltable 20-element array featuring integrated CoilShim technology that automatically corrects for local magnetic field inhomogeneities at challenging air-tissue interfaces, such as the frontal sinuses and skull base.\n\n\n\n\n\n\n\nBioMatrix Spine 32 Coil: A 32-channel matrix with integrated Respiratory Sensors for automatic respiratory gating and motion-artifact reduction without external bellows.\nBody 18 Coil: An ultra-lightweight, 18-element curved matrix for abdominal, thoracic, or torso imaging.\nFlex Large 4 & Small 4 Coils: Highly flexible 4-channel local loops paired with a dedicated interface for high-density, targeted imaging of unique anatomical regions.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#functional-mri-fmri-task-presentation-synchronization",
-    "href": "pages/equipment.html#functional-mri-fmri-task-presentation-synchronization",
-    "title": "Equipment",
-    "section": "",
-    "text": "For cognitive and behavioral paradigms, our center utilizes a fully integrated, medical-grade turnkey hardware and software system from NordicNeuroLab.\n\nInroomViewing Device: Visual tasks are delivered via a 40-inch 4K UHD MR-compatible LCD monitor positioned inside the magnet room. It features a high-contrast display, full image mirroring capabilities, and an integrated front-facing micro-camera for continuous patient surveillance from the console.\nFiber-Optic ResponseGrips: Participant behavioral feedback is captured using ergonomic, 100% fiber-optic handheld units (4 buttons per hand). Containing no electronics, they introduce zero RF interference.\nNNL SyncBox: Ensures explicit temporal alignment between the MRI pulse sequences and the stimulus software with a timing accuracy of ±0.5 ms. It intercepts scanner triggers and streams them instantly to the stimulus computer.\nnordicAktiva Software: Allows a single operator to manage paradigm execution and image acquisition simultaneously. It includes an extensive library of ready-to-use clinical paradigms (language, motor, etc.) and a custom Paradigm Builder.\n\n\n\n\n\n\n\n\n\nTask presentation, experimental timing, and multi-modal data integration are also available through a separate, ultra-compact Dell QMB1250 (Micro) workstation located in the control room. Despite its small footprint, this system provides robust, reliable performance tailored for precision behavioral testing and functional neuroimaging paradigms.\n\nCore Specifications: The workstation is powered by an advanced Intel Core Ultra 7 processor, paired with 16 GB of high-speed RAM to ensure seamless multitasking and tight temporal precision during sequence execution. It features a 512 GB solid-state drive (SSD) for rapid local data retrieval and storage of complex multimedia behavioral tasks.\nVersatile Task Deployment: The system is fully configured to support and deploy the industry-standard software packages utilized in cognitive neuroscience, including MATLAB (for custom routines and Psychtoolbox), PsychoPy (for Python-based experimental design), and E-Prime (for millisecond-accurate script execution).\nPsychophysiological Integration: Beyond driving visual and auditory paradigms via the NordicNeuroLab system, the workstation is specifically engineered and wired to receive real-time psychophysiological inputs (such as GSR, respiration, or heart rate monitoring devices). This setup allows investigators to acquire synchronized behavioral, physiological, and neuroimaging datasets concurrently.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#dicom-capture-processing-storage-workstation",
-    "href": "pages/equipment.html#dicom-capture-processing-storage-workstation",
-    "title": "Equipment",
-    "section": "",
-    "text": "Primary local data ingestion, database archiving, and 3D visualization are driven by an enterprise-tier neuroimaging workstation built for high-throughput data pipelines.\n\nHigh-Performance Computation: Positioned in the control room, this setup features a state-of-the-art Apple Mac Studio powered by an M4 Max chip (16-core CPU, 40-core GPU) with 48 GB of unified memory and a 1 TB internal SSD. Operating on a ultra-high-bandwidth unified memory architecture, this system enables instantaneous manipulation and rendering of massive, multi-dimensional imaging arrays without data-duplication latency.\nDICOM Organization & Query via Horos: The Mac Studio acts as the primary data receiver, pulling raw Digital Imaging and Communications in Medicine (DICOM) files directly from the scanner console. Database management, local archiving, and query/retrieve operations are handled natively via the Horos platform. This 64-bit medical imaging environment automatically indexes and structures incoming subjects, supporting advanced 2D/3D Multi-Planar Reconstructions (MPR), Maximum Intensity Projections (MIP), and high-precision region-of-interest (ROI) tools. For data sharing compliance, Horos utilizes scriptable anonymization utilities to strip Protected Health Information (PHI) before any external export.\nMassive Fault-Tolerant Storage: To manage and preserve these large neuroimaging payloads, Horos is configured to organize and archive all datasets directly onto a 104 TB Promise Technology Pegasus hardware RAID system. The array interfaces with the Mac Studio via a high-bandwidth 40 Gbps Thunderbolt connection, completely eliminating I/O bottlenecks when reading, writing, or processing multi-gigabyte 4D fMRI and diffusion timeseries datasets.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#mock-scanner-participant-training",
-    "href": "pages/equipment.html#mock-scanner-participant-training",
-    "title": "Equipment",
-    "section": "",
-    "text": "To maximize data quality and minimize failed scans due to participant anxiety or motion, the center features a dedicated mock scanning environment.\n\nRealistic Patient Interface: Features a realistic diagnostic scanner façade, a standard 60 cm tapered bore, internal cooling fans, and a motorized participant table with dynamic speed controls and a safety squeeze ball.\nEnvironmental Realism (SimFx): Replicates the acoustic and tactile experience of a live scan using high-quality acoustic recordings of GE and Siemens sequences played through amplified speakers and a subwoofer to simulate authentic scanner vibrations.\nReal-Time Motion Tracking (MoTrak): Equipped with a head-mounted motion tracking system that monitors head movement and rotation along the X, Y, and Z axes. It can modulate audio/video output to provide immediate feedback, effectively training pediatric or anxious cohorts to remain perfectly still.\nConsole Simulation: Utilizes IACIT MRI Console Simulation Software to replicate a true operator’s console, allowing staff, students, and investigators to practice protocol execution in a risk-free setting.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#mri-siemens-healthineers-magnetom-cima.x-3t-system",
-    "href": "pages/equipment.html#mri-siemens-healthineers-magnetom-cima.x-3t-system",
-    "title": "Equipment",
-    "section": "MRI: Siemens Healthineers MAGNETOM Cima.X 3T System",
-    "text": "MRI: Siemens Healthineers MAGNETOM Cima.X 3T System\n\nSystem Overview\nThe imaging facility is equipped with a Siemens Healthineers MAGNETOM Cima.X 3-Tesla (3T) magnetic resonance imaging (MRI) system operating on the syngo MR XA61 software platform. This state-of-the-art system features a short-bore, patient-friendly architecture with an open bore design of 60 cm (600 mm). It is specifically engineered to bridge advanced clinical diagnostics and high-performance research applications.\n\n\nMagnet and Shimming System\nThe system incorporates a highly homogeneous superconducting magnet with an operating field strength of 3T and an exceptional field stability over time of less than 0.1 ppm/hour. It exhibits superb magnetic field homogeneity, demonstrating typical measured values of 0.0007 ppm at a 10 cm diameter spherical volume (DSV), 0.008 ppm at 20 cm DSV, and 0.04 ppm at 30 cm DSV. Field uniformity is optimized via passive shimming during installation and standard active shimming consisting of 3 linear (1st order) channels and 5 non-linear (2nd order) channels. Patient-specific automated 3D shimming can be completed rapidly in approximately 15 seconds. Environmental magnetic noise is minimized through 5th-generation active shielding (AS) technology with counter coils, alongside an integrated, patented External Interference Shielding (E.I.S.) system that continuously compensates for and automatically suppresses external magnetic field disturbances. Additionally, the magnet features a zero helium boil-off cooling system, yielding a typical boil-off rate of 0.0 liters per year.\n\n\nGradient System Performance\nHigh-spatial-resolution and ultra-fast scanning capabilities are driven by the Gemini Gradients, which consist of an actively shielded, force-compensated, and water-cooled whole-body gradient coil system that achieves extremely low eddy currents. The gradient system delivers a standard maximum amplitude of \\(\\ge 200\\) mT/m per axis and a maximum slew rate of 200 T/m/s per axis. Through simultaneous vector addition across all three gradient axes, the system can achieve a peak maximum performance amplitude of 346 mT/m and a maximum performance slew rate of 346 T/m/s. The gradient system operates at a 100% duty cycle. Power is delivered by a water-cooled, dual gradient power amplifier (GPA) array using ultra-fast solid-state technology, which supplies a maximum output voltage of \\(2 \\times 2250\\) V, a maximum output current of \\(2 \\times 1250\\) A, and a maximum total peak power of \\(2 \\times 2.8\\) MW.\n\n\nRadiofrequency (RF) Architecture and Receiver Specifications\nThe system utilizes DirectRF technology, featuring an all-digital-in/digital-out optical design that integrates all RF transmit and receive components directly into the magnet housing to eliminate electrical noise, increase signal detection, and maintain highest RF stability. RF transmission is mediated by an integrated whole-body, 32-rung, no-tune body coil with two-port feeding. The system employs TimTX TrueForm for optimized, uniform RF distribution across body regions and incorporates TimTX TrueShape parallel transmit (pTx) technology. The parallel transmit architecture provides two independent transmit channels for fully dynamic RF excitation and volume-selective B1 shimming, powered by a water-cooled solid-state amplifier delivering a peak power of 43.2 kW (Channel 0: 17.5 kW; Channel 1: 25.7 kW).\nFor signal reception, the system can connect up to 204 coil elements simultaneously (expandable to 228) and features 64 standard independent receiver channels (expandable to 128) that can be used simultaneously in a single scan and field of view (FOV). The digital receiver technology boasts a 32-bit signal resolution, an 80 MHz ADC sampling rate, a low preamplifier noise figure of &lt;0.5 dB, and an instantaneous dynamic range of 164 dB at the receiver connector (increasing to 169 dB with automatic gain control at the local coil).\n\nAdvanced Neuroimaging Coils\nThe facility’s primary neuroimaging receiver array is a state-of-the-art, anthropomorphically designed 64-Channel Head/Neck Coil. This 64-element array features 64 integrated pre-amplifiers optimized for ultra-fast, high-signal-to-noise ratio (SNR) head and neck imaging. Engineered for advanced parallel imaging via iPAT², the coil minimizes SNR loss during rapid 3D imaging sequences. For multimodal and functional studies, the coil is designed to optimize patient comfort and accessibility, facilitating seamless integration with functional MRI (fMRI) peripherals such as visual stimulation mirrors and eye-tracking systems. Crucially for multimodal research, it features a dedicated rear port for EEG cables, enabling simultaneous EEG/MR imaging for up to 128 electrodes. Ergononmically, it utilizes a two-piece design consisting of a removable upper part with 24 elements and a lower part with 40 elements that can remain on the patient table. Incorporating DirectConnect® cable-less lower part technology and Dual-Density Signal Transfer, it integrates key RF components directly into the coil housing to maximize signal fidelity through a single SlideConnect® connector.\nComplementing this is a dedicated 32-Channel Head Coil, featuring a 32-element design with 32 integrated pre-amplifiers and Dual-Density Signal Transfer technology. This coil is specifically optimized for high-resolution structural brain proton imaging, MR angiography (MRA), and functional MRI (fMRI). It is designed with an open-view architecture to mitigate patient claustrophobic responses and comfortably accommodate visual stimulation experiments. The coil includes a detachable mirror assembly and a removable upper section with 12 elements, allowing the 20-element lower section to be used independently or in combination with local loop coils when required.\nAdditionally, the facility’s core capabilities include a BioMatrix Head/Neck 20 Coil. This 20-element tiltable head/neck array features integrated CoilShim technology, which allows for automated, patient-specific magnetic field shimming. This advanced shimming capability actively mitigates local field B0​ inhomogeneities, particularly at challenging air-tissue interfaces such as the frontal sinuses and skull base, ensuring high spectral quality and reducing geometric distortions in EPI sequences.\n\n\nPeripheral, Body, and Spine Coils for Extended Field-of-View (FoV)\nor extended multi-region imaging—such as integrated brain-to-spine protocols or whole-body examinations—the facility utilizes advanced multi-channel arrays designed to integrate seamlessly with the primary head coils. This includes the BioMatrix Spine 32 Coil, a 32-channel spine matrix equipped with integrated Respiratory Sensors. These built-in sensors provide automatic respiratory gating and motion-artifact reduction, eliminating the need for external respiratory bellows and streamlining the workflow for complex thoracic or spinal acquisitions.\nTo accommodate larger imaging fields or highly customized anatomical targeting, the facility is also equipped with a Body 18 Coil and a set of flexible local loops. The Body 18 Coil is an 18-element, ultra-lightweight curved matrix coil optimized for high-resolution abdominal, thoracic, or extended neck and torso imaging. For challenging or non-standard anatomical regions, the facility leverages Flex Large 4 and Flex Small 4 Coils. These highly flexible, 4-channel multipurpose local loops are paired with a dedicated Flex Coil Interface to deliver high-density, targeted imaging with excellent signal localization.\n\n\n\nAdvanced Imaging Capabilities and Workflow Automation\nThe hardware configuration allows for exceptional resolution boundaries, enabling a minimum FOV of 5 mm, a highest in-plane resolution of 5 \\(\\mu\\)m, a minimum 2D slice thickness of 0.1 mm, and a minimum 3D partition thickness of 0.05 mm. Advanced imaging paradigms include high-performance diffusion imaging supporting maximum b-values up to 16,000 s/mm². To combat motion artifacts, the system features a fully automatic 3D prospective motion correction system that tracks and adjusts for 6 degrees of freedom (3 translations and 3 rotations) in real time during data acquisition. Furthermore, the parallel-transmit-enabled ZOOMit application permits selective excitation to zoom into specific anatomical targets, minimizing image distortions, avoiding aliasing artifacts, and reducing overall scan times for fMRI, diffusion-weighted imaging (DWI), diffusion tensor imaging (DTI), and T2 SPACE sequences.\nPatient handling and protocol reproduction are managed via BioMatrix Interfaces and the myExam Companion software environment. This includes AI-driven Select&GO touch displays utilizing an intelligent anatomical body model to automate and accelerate precise patient positioning. The system features a BioMatrix patient table capable of a 205 cm scan range without repositioning, supporting vertical and horizontal movements for patient weights up to 250 kg (550 lbs).",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#mock-encore-mri-simulator-system",
-    "href": "pages/equipment.html#mock-encore-mri-simulator-system",
-    "title": "Equipment",
-    "section": "Mock: Encore MRI Simulator System",
-    "text": "Mock: Encore MRI Simulator System\n\nSystem Overview and Purpose\nThe facility is equipped with an Encore MRI Simulator developed by Psychology Software Tools (DBA RadSim). This specialized system is dedicated to pre-scan acclimation, participant training, and piloting functional magnetic resonance imaging (fMRI) behavioral paradigms. It provides a realistic approximation of an actual scanning environment to comfortably introduce pediatric cohorts to the MRI environment, train faculty and staff in a cost-effective setting, and mitigate failed clinical or research scans resulting from participant anxiety or claustrophobia.\n\n\nPhysical Architecture and Patient Interface\nThe simulator features a robust scanner body engineered with a sturdy steel frame construction and a realistic front façade panel designed to mimic modern diagnostic MRI scanners. The system incorporates a standard 60 cm circular bore with a tapered entry to match clinical dimensions. Patient handling is facilitated by a quiet, motorized participant table featuring precise movements, an integrated control panel for operator execution, dynamic speed control, and a drag-sensing safety stop to ensure participant protection. For further safety, comfort, and monitoring, the bore is outfitted with internal cooling fans, diffused lighting, and a participant safety squeeze ball. Patient positioning is assisted via an integrated laser positioning crosshair. The table setup also includes a specialized participant securing system.\n\n\nEnvironmental Realism and Audio-Visual Systems\nTo replicate the sensory experience of an active scanner, the Encore system includes amplified speakers with an integrated subwoofer capable of generating realistic scanner noise production and physical vibration. This is driven by SimFx software, which simulates ambient scanner sound and active scanning sequences using high-quality acoustic recordings captured from both GE and Siemens platforms via fiber-optic microphones. Visual and auditory stimulation during simulation are delivered through a 22-inch 1080p participant monitor mounted on an adjustable stand with scan reverse capability, alongside high-quality headphones utilizing a comfortable ear-cup design. Bidirectional audio enables seamless communication between the operator and the participant. A micro camera is mounted directly inside the bore to allow continuous real-time visual monitoring of participant safety.\n\n\nMock Head Coils and Behavioral Response Hardware\nThe system includes interchangeable mock head coils to replicate specific imaging configurations, including a Birdcage coil, a GE 32-channel coil, and Siemens 32- and 64-channel coils, all integrated with rear-facing mirror systems for visual task delivery. Behavioral data collection and task practice are supported by right- and left-hand button response units. These consist of lower-cost USB versions of the Celeritas line of fiber-optic response units, optimized for practicing fMRI tasks outside the actual scanner environment.\n\n\nMotion Tracking and Protocol Training Software\nTo maximize downstream MRI data quality by training participants to minimize motion, the setup includes the MoTrak head-mounted motion tracking system. MoTrak monitors head motion and angular rotation along the X, Y, and Z axes in real time, enabling the system to modulate audio and/or video output to provide immediate positive or negative feedback to train participants to remain still. Operational and protocol training are supported by the IACIT MRI Console Simulation Software, which features advanced touchscreen controls and replicates an MRI operator’s console to build user experience and confidence in a classroom or laboratory setting.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#task-nordicneurolab-functional-mri-fmri-solution",
-    "href": "pages/equipment.html#task-nordicneurolab-functional-mri-fmri-solution",
-    "title": "Equipment",
-    "section": "Task: NordicNeuroLab functional MRI (fMRI) Solution",
-    "text": "Task: NordicNeuroLab functional MRI (fMRI) Solution\n\nSystem Overview and Compliance\nThe imaging facility is supported by a comprehensive, turnkey fMRI hardware and software solution provided by NordicNeuroLab (NNL). This integrated system is engineered to simplify, standardize, and streamline functional MR imaging workflows for both advanced scientific research and clinical applications, such as pre-surgical mapping of motor and language areas. All hardware components are designed, developed, and manufactured under a certified ISO 13485 Quality Management system. The equipment complies with international consensus standards (IEC) for Device Safety and Electromagnetic Compatibility (EMC) for medical electrical equipment, ensuring safe deployment within high-field magnetic environments.\n\n\nVisual Display and Patient Monitoring Systems\nVisual stimulus presentation and patient monitoring are managed through an MR-compatible InroomViewing Device. This configuration features a 40-inch 4K UHD (3840 x 2160 pixels) MR-compatible LCD monitor that operates safely at field strengths of 1.5T, 3.0T, and 7.0T (Field conditional). The system utilizes a slim design with a high-contrast display (5000:1 typical) and an active area of approximately 878 mm x 485 mm, serving as a high-fidelity alternative to goggle- or projector-based systems. It includes an integrated, front-facing micro-camera supporting up to 1920 x 1080 resolution at 30 fps for uninterrupted patient surveillance from the console , a built-in USB hub for peripheral connectivity , full image flip/rotate capabilities , and a complete optical path between the operator and scanner rooms. The assembly is mounted on a lightweight, height-adjustable mobile foot stand to allow flexible placement anywhere inside the MRI environment. \n\n\nParticipant Response Hardware\nParticipant behavioral feedback and behavioral task responses are captured using MR-compatible ResponseGrips. These ergonomic handheld units are configured for both hands to help minimize overall patient upper-extremity movement inside the bore. The units feature a 100% fiber-optic polymer construction containing no electronics. Subjects interact with the paradigm by pressing one of four buttons per grip. The optical signals are routed through a waveguide to a ResponseGrips Interface Unit located in the operator control room, which delivers real-time response validation via integrated LEDs and optional auditory signaling while interfacing directly with the stimulus PC via serial or USB connectivity.\n\n\nScanner Synchronization Architecture\nExplicit temporal alignment between the MRI scanner’s pulse sequences and the stimulus presentation software is achieved via the NNL SyncBox. The SyncBox is an MRI scanner-independent synchronization device featuring an internal clock with a timing accuracy of ±0.5 ms. It automatically intercepts trigger pulses emitted by major hardware platforms, accepting optical triggers from Siemens systems, BNC female TTL-level inputs from Philips systems, and 9-pin DSUB RS-485/422 inputs from GE systems. It seamlessly translates these pulses into ASCII or keystroke data, streaming them to the presentation computer over a Mini-B USB or serial interface at a transfer rate of 57,600 Baud. The SyncBox features a built-in menu system and an independent Simulation Mode that replicates active MRI scanner sequence triggers. This simulation mode enables investigators to develop, refine, and bench-test entire experimental paradigms at a standard desktop station without consuming valuable, high-cost magnet scanning time. When utilized alongside nordicAktiva software, its configuration parameters can be controlled automatically via serial communication.\n\n\nStimulus Presentation and Paradigm Management Software\nIn-room paradigm execution is driven by nordicAktiva stimulus presentation software, which permits a single radiographer or technician to control stimulus presentation and image acquisition simultaneously. The platform contains an integrated hardware verification routine that tests all interface connections prior to initiating an exam. It includes an extensive, built-in library of standardized, clinically optimized, ready-to-use paradigms (e.g., motor finger-tapping, language rhyming, and word generation) available in multiple languages. The v2.0 software architecture incorporates a real-time hardware connection status toolbar, a streamlined user interface, and an integrated Paradigm Builder interface that lets operators modify existing paradigms or construct custom blocks easily. It also supports a “Preview” mode for practicing and rehearsing sequences with patients before initiating actual scanner acquisition.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#pacs-high-performance-imaging-workstation-and-storage-subsystem",
-    "href": "pages/equipment.html#pacs-high-performance-imaging-workstation-and-storage-subsystem",
-    "title": "Equipment",
-    "section": "PACS: High-Performance Imaging Workstation and Storage Subsystem",
-    "text": "PACS: High-Performance Imaging Workstation and Storage Subsystem\n\nComputation and Workstation Architecture\nPrimary local data processing, analysis, and execution of neuroimaging workflows are anchored by an Apple Mac Studio high-performance workstation. This system utilizes a high-efficiency Apple Silicon system-on-a-chip (SoC) architecture, integrating multi-core central and graphics processing units (CPU/GPU) with a unified memory architecture that provides exceptionally high memory bandwidth (up to 400–800 GB/s). This unified memory approach allows the operating system and imaging applications to instantly share massive imaging volumes without the latency of data duplication. The workstation is further equipped with hardware-accelerated media engines and a 16-core Neural Engine to accelerate compute-heavy image manipulation, machine learning-driven segmentation, and complex mathematical modeling. High-speed network connectivity to the MRI scanner console and regional Picture Archiving and Communication Systems (PACS) is supported via an integrated 10Gb Ethernet port.\n\n\nMassive Storage Subsystem and Redundancy Architecture\nTo store, manage, and preserve the massive data payloads generated by high-resolution multi-modal MRI sequences, the workstation is integrated with a Promise Technology Pegasus series hardware RAID array configured to provide 104 Terabytes (TB) of dedicated storage capacity. The array interfaces with the Mac Studio via high-bandwidth Thunderbolt technology, supporting physical interface throughput speeds of up to 40 Gbps (Thunderbolt 3/4) to eliminate I/O performance bottlenecks during the reading and writing of multi-gigabyte 4D fMRI and diffusion timeseries datasets. The storage solution relies on a dedicated, on-board PromiseRAID hardware engine that manages the drive configuration under a secure, fault-tolerant parity scheme (such as RAID 5 or RAID 6). This configuration safeguards the research data against individual drive failures while maintaining high-speed sustained read/write performance. Continuous subsystem health is maintained via Predictive Data Migration (PDM) technology, which monitors individual drive parameters to predict potential faults and automatically migrates data before hardware failure occurs.\n\n\nDICOM Image Management and Visualization Platform\nLocal database management, archiving, query/retrieve operations, and primary visualization of standard Digital Imaging and Communications in Medicine (DICOM) files are executed through the Horos software platform. Horos is a native macOS, fully functional 64-bit medical image viewer and database engine built on the open-source OsiriX code base, optimized for research, education, and non-diagnostic imaging analytics. The application provides an intuitive local PACS environment that indexes and organizes complex patient/subject hierarchies, multi-echo series, and multi-slice acquisitions.\nAdvanced 2D and 3D visualization capabilities native to Horos include:\n\n2D Orthogonal and 3D Multi-Planar Reconstruction (MPR): Allows investigators to dynamically reslice and display anatomical volumes along axial, coronal, sagittal, or oblique planes.\nIntensity Projections: Supports Maximum Intensity Projection (MIP), Minimum Intensity Projection (MinIP), and Mean projection modes to highlight microvascular or dense structural boundaries.\nAdvanced Rendering: Provides volume and surface rendering tools to generate detailed 3D spatial topographies of anatomical targets.\nQuantitative Analysis and Compliance: Features high-precision geometric measurement, annotation, and region-of-interest (ROI) tracing tools to track structural volumes and signal intensities. For human subjects’ protection and compliance with institutional data sharing policies, Horos includes powerful scriptable anonymization utilities that strip Protected Health Information (PHI) from DICOM headers before exporting data for collaborative external analysis.",
-    "crumbs": [
-      "Equipment"
-    ]
-  },
-  {
-    "objectID": "pages/equipment.html#compute-high-performance-infrastructure-and-laboratory-workstations",
-    "href": "pages/equipment.html#compute-high-performance-infrastructure-and-laboratory-workstations",
-    "title": "Equipment",
-    "section": "Compute: High-Performance Infrastructure and Laboratory Workstations",
-    "text": "Compute: High-Performance Infrastructure and Laboratory Workstations\n\nHigh-Performance Computing (HPC) Cluster Subsystem\nFor large-scale data processing, group-level statistical analysis, and compute-intensive neuroimaging pipelines, the project has dedicated access to a High-Performance Computing (HPC) cluster. This institutional resource features 5,504 CPU cores optimized for highly parallelized computational workloads of which 1,280 cores specifically support MRI analyses. The cluster nodes are interconnected via a ultra-low-latency, high-bandwidth network fabric (e.g., 100 Gbps InfiniBand or equivalent), enabling seamless Message Passing Interface (MPI) coordination and multi-node parallelization.\nThe compute infrastructure is tightly integrated with a centralized, enterprise-grade storage subsystem provisioning 800 Terabytes (TB) of high-throughput storage space for MRI datasets. This storage architecture utilizes a high-performance parallel file system engineered to handle the concurrent read/write demands of hundreds of simultaneous processing streams. This setup eliminates input/output (I/O) bottlenecks during the processing of massive longitudinal datasets, high-resolution structural volumes, and high-frequency 4D fMRI timeseries. Resource allocation, job scheduling, and workload management are governed by an advanced workload manager (Queue Submit), ensuring deterministic execution times for complex neuroimaging pipelines (e.g., fMRIPrep, FreeSurfer group analyses, and diffusion tractography).\n\n\nDedicated Departmental 56-CPU Rack System\nComplementing the primary institutional cluster is a local, high-density server rack system housing 56 CPUs (112 vCPUs) and 256 GB RAM. This infrastructure provides intermediate-tier computing power directly accessible by the research team. It is configured to handle high-throughput local processing, immediate pipeline piloting, and containerized application testing (using Docker or Singularity) before deploying scripts to the larger HPC cluster.\nThe rack is architected with multiple high-density multi-core server blades, substantial RAM per node (supporting memory-heavy operations like large-matrix transformations and voxel-wise permutations), and high-bandwidth local networking (e.g., dual 10GbE or 25GbE uplinks). This localized rack serves as an agile, department-controlled environment for real-time data curation, structural reconstruction, and machine learning model training without the queue latencies often associated with shared institutional resources.\n\n\nDedicated Linux and Mac Studio Analytical Workstations\nIndividual data interaction, algorithm development, quality control visualization, and localized analysis are supported by a suite of dedicated, high-performance desktop workstations:\n\nDedicated Linux Workstations: The laboratory deploys specialized desktop computing towers running enterprise-grade Linux distributions (such as Ubuntu LTS or Rocky Linux). These workstations are configured with multi-core processors, high-capacity system memory, and dedicated NVIDIA graphics processing units (GPUs) supporting CUDA acceleration. These systems provide the native, high-performance environment required by core neuroimaging software suites, including FSL, FreeSurfer, AFNI, ANTs, and custom Python/MATLAB pipelines. The integrated GPUs drastically accelerate computationally heavy routines such as diffusion-weighted probabilistic tractography (e.g., FSL’s bedpostx_gpu) and deep learning-based structural segmentation.\nMac Studio Workstations: The computing ecosystem also includes Apple Mac Studio workstations utilizing advanced Apple Silicon system-on-a-chip (SoC) architectures. These workstations leverage a high-bandwidth unified memory architecture that allows the CPU and GPU to share large memory pools instantaneously, preventing data duplication bottlenecks during the interactive visualization of massive multi-dimensional imaging arrays. The Mac Studio systems are primarily used for interactive software execution (e.g., Horos, OsiriX), localized statistical scripting (R, Python/Jupyter), paradigm presentation debugging, and graphical rendering of complex 3D brain models. All workstations are connected to the local 256-CPU rack and the 800 TB storage array via a high-speed 10GbE local area network (LAN) to ensure rapid, secure data transfer.",
-    "crumbs": [
-      "Equipment"
-    ]
   },
   {
     "objectID": "pages/compute.html",
@@ -522,176 +617,135 @@
     ]
   },
   {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "About",
+    "objectID": "pages/equipment.html",
+    "href": "pages/equipment.html",
+    "title": "Equipment",
+    "section": "",
+    "text": "This page provides both overview descriptions and technical equipment statements for research hardware available at the ND-HNC. Grant writers will be most interested in the Equipment Statement section.\nFor quick navigation within this page:\n\n\n\n\n\n\n\n\n\nEquipment\nOverview\nStatement\n\n\n\n\n\nMRI Simulator\nLink\nLink\n\n\n\nMAGNETOM Cima.X\nLink\nLink\n\n\n\nTask Presentation\nLink\nLink\n\n\n\nDICOM Management\nLink\nLink\n\n\n\nCompute\nLink\nLink",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:mri",
+    "href": "pages/equipment.html#ssec:mri",
+    "title": "Equipment",
+    "section": "3T Magnetic Resonance Imaging (MRI) System",
+    "text": "3T Magnetic Resonance Imaging (MRI) System\n\nSiemens Healthineers MAGNETOM Cima.X 3T\n\nOur facility features the cutting-edge Siemens MAGNETOM Cima.X 3T system, operating on the latest syngo MR XA61 software platform. Designed with a patient-friendly 60 cm open bore, this system seamlessly bridges high-performance cognitive neuroscience research with advanced clinical diagnostics.\n\nUnparalleled Gradient Performance: Powered by Gemini Gradients, the system delivers a standard maximum amplitude of ≥200 mT/m per axis and a slew rate of 200 T/m/s. Through simultaneous vector addition across all three axes, it can achieve a peak performance of 346 mT/m and 346 T/m/s at a 100% duty cycle—enabling ultra-high spatial resolution and exceptionally fast scanning.\nExceptional Field Stability: The superconducting 3T magnet features state-of-the-art passive and active shimming (including rapid 15-second patient-specific 3D shimming) and a zero helium boil-off rate. 5th-generation active shielding continuously suppresses external environmental magnetic noise.\nDirectRF Technology: An all-digital optical design integrates all radiofrequency (RF) transmit and receive components directly into the magnet housing, eliminating electrical noise and maximizing signal stability.\nReal-Time Motion Correction: To combat participant movement, the system includes a fully automatic 3D prospective motion correction system that tracks and adjusts for motion in real time across 6 degrees of freedom.\n\n\n\nRadiofrequency (RF) Coils\nWe offer a versatile suite of high-channel-count coils optimized for high signal-to-noise ratios (SNR), rapid parallel imaging (iPAT), and multi-region coverage.\n\n64-Channel Head/Neck Coil: Our primary neuroimaging array features an anthropomorphic design for maximum SNR and full head/neck coverage. It is highly optimized for fMRI and includes a dedicated rear port for EEG cables, allowing simultaneous EEG/fMRI studies with up to 128 electrodes. The upper section (24 elements) is removable, and the lower section (40 elements) remains on the table for streamlined workflows.\n32-Channel Head Coil: Specially optimized for high-resolution structural brain imaging, MR angiography (MRA), and functional MRI. It features an open-view architecture to reduce participant claustrophobia and easily accommodate visual stimulation experiments.\nBioMatrix Head/Neck 20 Coil: A tiltable 20-element array featuring integrated CoilShim technology that automatically corrects for local magnetic field inhomogeneities at challenging air-tissue interfaces, such as the frontal sinuses and skull base.\n\n\n\n\n\n\n\nBioMatrix Spine 32 Coil: A 32-channel matrix with integrated Respiratory Sensors for automatic respiratory gating and motion-artifact reduction without external bellows.\nBody 18 Coil: An ultra-lightweight, 18-element curved matrix for abdominal, thoracic, or torso imaging.\nFlex Large 4 & Small 4 Coils: Highly flexible 4-channel local loops paired with a dedicated interface for high-density, targeted imaging of unique anatomical regions.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:task-present",
+    "href": "pages/equipment.html#ssec:task-present",
+    "title": "Equipment",
+    "section": "Functional MRI (fMRI) Task Presentation & Synchronization",
+    "text": "Functional MRI (fMRI) Task Presentation & Synchronization\n\nNordicNeuroLab (NNL) Complete fMRI Solution\nFor cognitive and behavioral paradigms, our center utilizes a fully integrated, medical-grade turnkey hardware and software system from NordicNeuroLab.\n\nInroomViewing Device: Visual tasks are delivered via a 40-inch 4K UHD MR-compatible LCD monitor positioned inside the magnet room. It features a high-contrast display, full image mirroring capabilities, and an integrated front-facing micro-camera for continuous patient surveillance from the console.\nFiber-Optic ResponseGrips: Participant behavioral feedback is captured using ergonomic, 100% fiber-optic handheld units (4 buttons per hand). Containing no electronics, they introduce zero RF interference.\nNNL SyncBox: Ensures explicit temporal alignment between the MRI pulse sequences and the stimulus software with a timing accuracy of ±0.5 ms. It intercepts scanner triggers and streams them instantly to the stimulus computer.\nnordicAktiva Software: Allows a single operator to manage paradigm execution and image acquisition simultaneously. It includes an extensive library of ready-to-use clinical paradigms (language, motor, etc.) and a custom Paradigm Builder.\n\n\n\n\n\n\n\n\nStimulus Control Computer\nTask presentation, experimental timing, and multi-modal data integration are also available through a separate, ultra-compact Dell QMB1250 (Micro) workstation located in the control room. Despite its small footprint, this system provides robust, reliable performance tailored for precision behavioral testing and functional neuroimaging paradigms.\n\nCore Specifications: The workstation is powered by an advanced Intel Core Ultra 7 processor, paired with 16 GB of high-speed RAM to ensure seamless multitasking and tight temporal precision during sequence execution. It features a 512 GB solid-state drive (SSD) for rapid local data retrieval and storage of complex multimedia behavioral tasks.\nVersatile Task Deployment: The system is fully configured to support and deploy the industry-standard software packages utilized in cognitive neuroscience, including MATLAB (for custom routines and Psychtoolbox), PsychoPy (for Python-based experimental design), and E-Prime (for millisecond-accurate script execution).\nPsychophysiological Integration: Beyond driving visual and auditory paradigms via the NordicNeuroLab system, the workstation is specifically engineered and wired to receive real-time psychophysiological inputs (such as GSR, respiration, or heart rate monitoring devices). This setup allows investigators to acquire synchronized behavioral, physiological, and neuroimaging datasets concurrently.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:dicom",
+    "href": "pages/equipment.html#ssec:dicom",
+    "title": "Equipment",
+    "section": "DICOM Capture, Processing, & Storage Workstation",
+    "text": "DICOM Capture, Processing, & Storage Workstation\nPrimary local data ingestion, database archiving, and 3D visualization are driven by an enterprise-tier neuroimaging workstation built for high-throughput data pipelines.\n\nHigh-Performance Computation: Positioned in the control room, this setup features a state-of-the-art Apple Mac Studio powered by an M4 Max chip (16-core CPU, 40-core GPU) with 48 GB of unified memory and a 1 TB internal SSD. Operating on a ultra-high-bandwidth unified memory architecture, this system enables instantaneous manipulation and rendering of massive, multi-dimensional imaging arrays without data-duplication latency.\nDICOM Organization & Query via Horos: The Mac Studio acts as the primary data receiver, pulling raw Digital Imaging and Communications in Medicine (DICOM) files directly from the scanner console. Database management, local archiving, and query/retrieve operations are handled natively via the Horos platform. This 64-bit medical imaging environment automatically indexes and structures incoming subjects, supporting advanced 2D/3D Multi-Planar Reconstructions (MPR), Maximum Intensity Projections (MIP), and high-precision region-of-interest (ROI) tools. For data sharing compliance, Horos utilizes scriptable anonymization utilities to strip Protected Health Information (PHI) before any external export.\nMassive Fault-Tolerant Storage: To manage and preserve these large neuroimaging payloads, Horos is configured to organize and archive all datasets directly onto a 104 TB Promise Technology Pegasus hardware RAID system. The array interfaces with the Mac Studio via a high-bandwidth 40 Gbps Thunderbolt connection, completely eliminating I/O bottlenecks when reading, writing, or processing multi-gigabyte 4D fMRI and diffusion timeseries datasets.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:mock",
+    "href": "pages/equipment.html#ssec:mock",
+    "title": "Equipment",
+    "section": "Mock Scanner / Participant Training",
+    "text": "Mock Scanner / Participant Training\n\nEncore MRI Simulator System (Psychology Software Tools)\nTo maximize data quality and minimize failed scans due to participant anxiety or motion, the center features a dedicated mock scanning environment.\n\nRealistic Patient Interface: Features a realistic diagnostic scanner façade, a standard 60 cm tapered bore, internal cooling fans, and a motorized participant table with dynamic speed controls and a safety squeeze ball.\nEnvironmental Realism (SimFx): Replicates the acoustic and tactile experience of a live scan using high-quality acoustic recordings of GE and Siemens sequences played through amplified speakers and a subwoofer to simulate authentic scanner vibrations.\nReal-Time Motion Tracking (MoTrak): Equipped with a head-mounted motion tracking system that monitors head movement and rotation along the X, Y, and Z axes. It can modulate audio/video output to provide immediate feedback, effectively training pediatric or anxious cohorts to remain perfectly still.\nConsole Simulation: Utilizes IACIT MRI Console Simulation Software to replicate a true operator’s console, allowing staff, students, and investigators to practice protocol execution in a risk-free setting.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:compute",
+    "href": "pages/equipment.html#ssec:compute",
+    "title": "Equipment",
+    "section": "Compute",
+    "text": "Compute\nTo accommodate the diverse computational demands of modern neuroimaging, our facility provides a scalable, multi-tiered computing environment designed to support projects of any size. Whether a study requires simple, localized analyses conducted on a single subject, or massive, multi-site datasets demanding highly parallelized processing pipelines, our integrated infrastructure ensures optimal throughput and efficiency.\n\nHigh-Performance Computing (HPC) Cluster Subsystem\n\nPurpose: Built for large-scale data processing, group-level statistical analysis, and compute-intensive neuroimaging pipelines (e.g., fMRIPrep, FreeSurfer, diffusion tractography).\nCompute Power: Features 5,504 total CPU cores, with 1,280 cores explicitly dedicated to MRI analyses.\nNetworking & Management: Uses an ultra-low-latency, 100 Gbps InfiniBand network fabric for multi-node parallelization, governed by a “Queue Submit” workload manager to ensure deterministic execution times.\nStorage: Integrated with an enterprise-grade, 800 TB parallel file system designed to eliminate I/O bottlenecks during concurrent read/write streams of massive 4D fMRI and longitudinal datasets.\n\n\n\nDedicated Departmental 56-CPU Rack System\n\nPurpose: A localized, agile, department-controlled environment used for immediate pipeline piloting, containerized application testing (Docker/Singularity), real-time data curation, and machine learning model training.\nSpecifications: Houses 56 CPUs (112 vCPUs) and 256 GB RAM with high-density multi-core server blades and dual 10GbE/25GbE uplinks.\nAdvantage: Bypasses the shared institutional queue latencies, allowing fast, memory-heavy operations like large-matrix transformations and voxel-wise permutations.\n\n\n\nAnalytical Workstations\nIndividual workstations handle localized analysis, algorithm development, quality control visualization, and are connected to the local rack and 800 TB storage via a high-speed 10GbE local area network (LAN).\n\nDedicated Linux Workstations: Run enterprise Linux (RHEL) with multi-core processors.\n\nEquipped with NVIDIA GPUs supporting CUDA acceleration to speed up intensive routines like probabilistic tractography and deep learning segmentation.\nNative environment for core neuroimaging tools (FSL, FreeSurfer, AFNI, ANTs).\n\nMac Studio Workstations: Utilize Apple Silicon SoC with a high-bandwidth unified memory architecture to prevent data duplication bottlenecks during complex data visualization.\n\nPrimary use cases include neuroimaging tools (FSL, FreeSurfer, AFNI, ANTs), statistical scripting (R, Python), paradigm debugging, and 3D brain model rendering.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:state-mri",
+    "href": "pages/equipment.html#ssec:state-mri",
+    "title": "Equipment",
+    "section": "MRI: Siemens Healthineers MAGNETOM Cima.X 3T System",
+    "text": "MRI: Siemens Healthineers MAGNETOM Cima.X 3T System\n\nSystem Overview\nThe imaging facility is equipped with a Siemens Healthineers MAGNETOM Cima.X 3-Tesla (3T) magnetic resonance imaging (MRI) system operating on the syngo MR XA61 software platform. This state-of-the-art system features a short-bore, patient-friendly architecture with an open bore design of 60 cm (600 mm). It is specifically engineered to bridge advanced clinical diagnostics and high-performance research applications.\n\n\nMagnet and Shimming System\nThe system incorporates a highly homogeneous superconducting magnet with an operating field strength of 3T and an exceptional field stability over time of less than 0.1 ppm/hour. It exhibits superb magnetic field homogeneity, demonstrating typical measured values of 0.0007 ppm at a 10 cm diameter spherical volume (DSV), 0.008 ppm at 20 cm DSV, and 0.04 ppm at 30 cm DSV. Field uniformity is optimized via passive shimming during installation and standard active shimming consisting of 3 linear (1st order) channels and 5 non-linear (2nd order) channels. Patient-specific automated 3D shimming can be completed rapidly in approximately 15 seconds. Environmental magnetic noise is minimized through 5th-generation active shielding (AS) technology with counter coils, alongside an integrated, patented External Interference Shielding (E.I.S.) system that continuously compensates for and automatically suppresses external magnetic field disturbances. Additionally, the magnet features a zero helium boil-off cooling system, yielding a typical boil-off rate of 0.0 liters per year.\n\n\nGradient System Performance\nHigh-spatial-resolution and ultra-fast scanning capabilities are driven by the Gemini Gradients, which consist of an actively shielded, force-compensated, and water-cooled whole-body gradient coil system that achieves extremely low eddy currents. The gradient system delivers a standard maximum amplitude of \\(\\ge 200\\) mT/m per axis and a maximum slew rate of 200 T/m/s per axis. Through simultaneous vector addition across all three gradient axes, the system can achieve a peak maximum performance amplitude of 346 mT/m and a maximum performance slew rate of 346 T/m/s. The gradient system operates at a 100% duty cycle. Power is delivered by a water-cooled, dual gradient power amplifier (GPA) array using ultra-fast solid-state technology, which supplies a maximum output voltage of \\(2 \\times 2250\\) V, a maximum output current of \\(2 \\times 1250\\) A, and a maximum total peak power of \\(2 \\times 2.8\\) MW.\n\n\nRadiofrequency (RF) Architecture and Receiver Specifications\nThe system utilizes DirectRF technology, featuring an all-digital-in/digital-out optical design that integrates all RF transmit and receive components directly into the magnet housing to eliminate electrical noise, increase signal detection, and maintain highest RF stability. RF transmission is mediated by an integrated whole-body, 32-rung, no-tune body coil with two-port feeding. The system employs TimTX TrueForm for optimized, uniform RF distribution across body regions and incorporates TimTX TrueShape parallel transmit (pTx) technology. The parallel transmit architecture provides two independent transmit channels for fully dynamic RF excitation and volume-selective B1 shimming, powered by a water-cooled solid-state amplifier delivering a peak power of 43.2 kW (Channel 0: 17.5 kW; Channel 1: 25.7 kW).\nFor signal reception, the system can connect up to 204 coil elements simultaneously (expandable to 228) and features 64 standard independent receiver channels (expandable to 128) that can be used simultaneously in a single scan and field of view (FOV). The digital receiver technology boasts a 32-bit signal resolution, an 80 MHz ADC sampling rate, a low preamplifier noise figure of &lt;0.5 dB, and an instantaneous dynamic range of 164 dB at the receiver connector (increasing to 169 dB with automatic gain control at the local coil).\n\nAdvanced Neuroimaging Coils\nThe facility’s primary neuroimaging receiver array is a state-of-the-art, anthropomorphically designed 64-Channel Head/Neck Coil. This 64-element array features 64 integrated pre-amplifiers optimized for ultra-fast, high-signal-to-noise ratio (SNR) head and neck imaging. Engineered for advanced parallel imaging via iPAT², the coil minimizes SNR loss during rapid 3D imaging sequences. For multimodal and functional studies, the coil is designed to optimize patient comfort and accessibility, facilitating seamless integration with functional MRI (fMRI) peripherals such as visual stimulation mirrors and eye-tracking systems. Crucially for multimodal research, it features a dedicated rear port for EEG cables, enabling simultaneous EEG/MR imaging for up to 128 electrodes. Ergononmically, it utilizes a two-piece design consisting of a removable upper part with 24 elements and a lower part with 40 elements that can remain on the patient table. Incorporating DirectConnect® cable-less lower part technology and Dual-Density Signal Transfer, it integrates key RF components directly into the coil housing to maximize signal fidelity through a single SlideConnect® connector.\nComplementing this is a dedicated 32-Channel Head Coil, featuring a 32-element design with 32 integrated pre-amplifiers and Dual-Density Signal Transfer technology. This coil is specifically optimized for high-resolution structural brain proton imaging, MR angiography (MRA), and functional MRI (fMRI). It is designed with an open-view architecture to mitigate patient claustrophobic responses and comfortably accommodate visual stimulation experiments. The coil includes a detachable mirror assembly and a removable upper section with 12 elements, allowing the 20-element lower section to be used independently or in combination with local loop coils when required.\nAdditionally, the facility’s core capabilities include a BioMatrix Head/Neck 20 Coil. This 20-element tiltable head/neck array features integrated CoilShim technology, which allows for automated, patient-specific magnetic field shimming. This advanced shimming capability actively mitigates local field B0​ inhomogeneities, particularly at challenging air-tissue interfaces such as the frontal sinuses and skull base, ensuring high spectral quality and reducing geometric distortions in EPI sequences.\n\n\nPeripheral, Body, and Spine Coils for Extended Field-of-View (FoV)\nor extended multi-region imaging—such as integrated brain-to-spine protocols or whole-body examinations—the facility utilizes advanced multi-channel arrays designed to integrate seamlessly with the primary head coils. This includes the BioMatrix Spine 32 Coil, a 32-channel spine matrix equipped with integrated Respiratory Sensors. These built-in sensors provide automatic respiratory gating and motion-artifact reduction, eliminating the need for external respiratory bellows and streamlining the workflow for complex thoracic or spinal acquisitions.\nTo accommodate larger imaging fields or highly customized anatomical targeting, the facility is also equipped with a Body 18 Coil and a set of flexible local loops. The Body 18 Coil is an 18-element, ultra-lightweight curved matrix coil optimized for high-resolution abdominal, thoracic, or extended neck and torso imaging. For challenging or non-standard anatomical regions, the facility leverages Flex Large 4 and Flex Small 4 Coils. These highly flexible, 4-channel multipurpose local loops are paired with a dedicated Flex Coil Interface to deliver high-density, targeted imaging with excellent signal localization.\n\n\n\nAdvanced Imaging Capabilities and Workflow Automation\nThe hardware configuration allows for exceptional resolution boundaries, enabling a minimum FOV of 5 mm, a highest in-plane resolution of 5 \\(\\mu\\)m, a minimum 2D slice thickness of 0.1 mm, and a minimum 3D partition thickness of 0.05 mm. Advanced imaging paradigms include high-performance diffusion imaging supporting maximum b-values up to 16,000 s/mm². To combat motion artifacts, the system features a fully automatic 3D prospective motion correction system that tracks and adjusts for 6 degrees of freedom (3 translations and 3 rotations) in real time during data acquisition. Furthermore, the parallel-transmit-enabled ZOOMit application permits selective excitation to zoom into specific anatomical targets, minimizing image distortions, avoiding aliasing artifacts, and reducing overall scan times for fMRI, diffusion-weighted imaging (DWI), diffusion tensor imaging (DTI), and T2 SPACE sequences.\nPatient handling and protocol reproduction are managed via BioMatrix Interfaces and the myExam Companion software environment. This includes AI-driven Select&GO touch displays utilizing an intelligent anatomical body model to automate and accelerate precise patient positioning. The system features a BioMatrix patient table capable of a 205 cm scan range without repositioning, supporting vertical and horizontal movements for patient weights up to 250 kg (550 lbs).",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:state-mock",
+    "href": "pages/equipment.html#ssec:state-mock",
+    "title": "Equipment",
+    "section": "Mock: Encore MRI Simulator System",
+    "text": "Mock: Encore MRI Simulator System\n\nSystem Overview and Purpose\nThe facility is equipped with an Encore MRI Simulator developed by Psychology Software Tools (DBA RadSim). This specialized system is dedicated to pre-scan acclimation, participant training, and piloting functional magnetic resonance imaging (fMRI) behavioral paradigms. It provides a realistic approximation of an actual scanning environment to comfortably introduce pediatric cohorts to the MRI environment, train faculty and staff in a cost-effective setting, and mitigate failed clinical or research scans resulting from participant anxiety or claustrophobia.\n\n\nPhysical Architecture and Patient Interface\nThe simulator features a robust scanner body engineered with a sturdy steel frame construction and a realistic front façade panel designed to mimic modern diagnostic MRI scanners. The system incorporates a standard 60 cm circular bore with a tapered entry to match clinical dimensions. Patient handling is facilitated by a quiet, motorized participant table featuring precise movements, an integrated control panel for operator execution, dynamic speed control, and a drag-sensing safety stop to ensure participant protection. For further safety, comfort, and monitoring, the bore is outfitted with internal cooling fans, diffused lighting, and a participant safety squeeze ball. Patient positioning is assisted via an integrated laser positioning crosshair. The table setup also includes a specialized participant securing system.\n\n\nEnvironmental Realism and Audio-Visual Systems\nTo replicate the sensory experience of an active scanner, the Encore system includes amplified speakers with an integrated subwoofer capable of generating realistic scanner noise production and physical vibration. This is driven by SimFx software, which simulates ambient scanner sound and active scanning sequences using high-quality acoustic recordings captured from both GE and Siemens platforms via fiber-optic microphones. Visual and auditory stimulation during simulation are delivered through a 22-inch 1080p participant monitor mounted on an adjustable stand with scan reverse capability, alongside high-quality headphones utilizing a comfortable ear-cup design. Bidirectional audio enables seamless communication between the operator and the participant. A micro camera is mounted directly inside the bore to allow continuous real-time visual monitoring of participant safety.\n\n\nMock Head Coils and Behavioral Response Hardware\nThe system includes interchangeable mock head coils to replicate specific imaging configurations, including a Birdcage coil, a GE 32-channel coil, and Siemens 32- and 64-channel coils, all integrated with rear-facing mirror systems for visual task delivery. Behavioral data collection and task practice are supported by right- and left-hand button response units. These consist of lower-cost USB versions of the Celeritas line of fiber-optic response units, optimized for practicing fMRI tasks outside the actual scanner environment.\n\n\nMotion Tracking and Protocol Training Software\nTo maximize downstream MRI data quality by training participants to minimize motion, the setup includes the MoTrak head-mounted motion tracking system. MoTrak monitors head motion and angular rotation along the X, Y, and Z axes in real time, enabling the system to modulate audio and/or video output to provide immediate positive or negative feedback to train participants to remain still. Operational and protocol training are supported by the IACIT MRI Console Simulation Software, which features advanced touchscreen controls and replicates an MRI operator’s console to build user experience and confidence in a classroom or laboratory setting.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:state-task-present",
+    "href": "pages/equipment.html#ssec:state-task-present",
+    "title": "Equipment",
+    "section": "Task: NordicNeuroLab functional MRI (fMRI) Solution",
+    "text": "Task: NordicNeuroLab functional MRI (fMRI) Solution\n\nSystem Overview and Compliance\nThe imaging facility is supported by a comprehensive, turnkey fMRI hardware and software solution provided by NordicNeuroLab (NNL). This integrated system is engineered to simplify, standardize, and streamline functional MR imaging workflows for both advanced scientific research and clinical applications, such as pre-surgical mapping of motor and language areas. All hardware components are designed, developed, and manufactured under a certified ISO 13485 Quality Management system. The equipment complies with international consensus standards (IEC) for Device Safety and Electromagnetic Compatibility (EMC) for medical electrical equipment, ensuring safe deployment within high-field magnetic environments.\n\n\nVisual Display and Patient Monitoring Systems\nVisual stimulus presentation and patient monitoring are managed through an MR-compatible InroomViewing Device. This configuration features a 40-inch 4K UHD (3840 x 2160 pixels) MR-compatible LCD monitor that operates safely at field strengths of 1.5T, 3.0T, and 7.0T (Field conditional). The system utilizes a slim design with a high-contrast display (5000:1 typical) and an active area of approximately 878 mm x 485 mm, serving as a high-fidelity alternative to goggle- or projector-based systems. It includes an integrated, front-facing micro-camera supporting up to 1920 x 1080 resolution at 30 fps for uninterrupted patient surveillance from the console , a built-in USB hub for peripheral connectivity , full image flip/rotate capabilities , and a complete optical path between the operator and scanner rooms. The assembly is mounted on a lightweight, height-adjustable mobile foot stand to allow flexible placement anywhere inside the MRI environment. \n\n\nParticipant Response Hardware\nParticipant behavioral feedback and behavioral task responses are captured using MR-compatible ResponseGrips. These ergonomic handheld units are configured for both hands to help minimize overall patient upper-extremity movement inside the bore. The units feature a 100% fiber-optic polymer construction containing no electronics. Subjects interact with the paradigm by pressing one of four buttons per grip. The optical signals are routed through a waveguide to a ResponseGrips Interface Unit located in the operator control room, which delivers real-time response validation via integrated LEDs and optional auditory signaling while interfacing directly with the stimulus PC via serial or USB connectivity.\n\n\nScanner Synchronization Architecture\nExplicit temporal alignment between the MRI scanner’s pulse sequences and the stimulus presentation software is achieved via the NNL SyncBox. The SyncBox is an MRI scanner-independent synchronization device featuring an internal clock with a timing accuracy of ±0.5 ms. It automatically intercepts trigger pulses emitted by major hardware platforms, accepting optical triggers from Siemens systems, BNC female TTL-level inputs from Philips systems, and 9-pin DSUB RS-485/422 inputs from GE systems. It seamlessly translates these pulses into ASCII or keystroke data, streaming them to the presentation computer over a Mini-B USB or serial interface at a transfer rate of 57,600 Baud. The SyncBox features a built-in menu system and an independent Simulation Mode that replicates active MRI scanner sequence triggers. This simulation mode enables investigators to develop, refine, and bench-test entire experimental paradigms at a standard desktop station without consuming valuable, high-cost magnet scanning time. When utilized alongside nordicAktiva software, its configuration parameters can be controlled automatically via serial communication.\n\n\nStimulus Presentation and Paradigm Management Software\nIn-room paradigm execution is driven by nordicAktiva stimulus presentation software, which permits a single radiographer or technician to control stimulus presentation and image acquisition simultaneously. The platform contains an integrated hardware verification routine that tests all interface connections prior to initiating an exam. It includes an extensive, built-in library of standardized, clinically optimized, ready-to-use paradigms (e.g., motor finger-tapping, language rhyming, and word generation) available in multiple languages. The v2.0 software architecture incorporates a real-time hardware connection status toolbar, a streamlined user interface, and an integrated Paradigm Builder interface that lets operators modify existing paradigms or construct custom blocks easily. It also supports a “Preview” mode for practicing and rehearsing sequences with patients before initiating actual scanner acquisition.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:state-dicom",
+    "href": "pages/equipment.html#ssec:state-dicom",
+    "title": "Equipment",
+    "section": "PACS: High-Performance Imaging Workstation and Storage Subsystem",
+    "text": "PACS: High-Performance Imaging Workstation and Storage Subsystem\n\nComputation and Workstation Architecture\nPrimary local data processing, analysis, and execution of neuroimaging workflows are anchored by an Apple Mac Studio high-performance workstation. This system utilizes a high-efficiency Apple Silicon system-on-a-chip (SoC) architecture, integrating multi-core central and graphics processing units (CPU/GPU) with a unified memory architecture that provides exceptionally high memory bandwidth (up to 400–800 GB/s). This unified memory approach allows the operating system and imaging applications to instantly share massive imaging volumes without the latency of data duplication. The workstation is further equipped with hardware-accelerated media engines and a 16-core Neural Engine to accelerate compute-heavy image manipulation, machine learning-driven segmentation, and complex mathematical modeling. High-speed network connectivity to the MRI scanner console and regional Picture Archiving and Communication Systems (PACS) is supported via an integrated 10Gb Ethernet port.\n\n\nMassive Storage Subsystem and Redundancy Architecture\nTo store, manage, and preserve the massive data payloads generated by high-resolution multi-modal MRI sequences, the workstation is integrated with a Promise Technology Pegasus series hardware RAID array configured to provide 104 Terabytes (TB) of dedicated storage capacity. The array interfaces with the Mac Studio via high-bandwidth Thunderbolt technology, supporting physical interface throughput speeds of up to 40 Gbps (Thunderbolt 3/4) to eliminate I/O performance bottlenecks during the reading and writing of multi-gigabyte 4D fMRI and diffusion timeseries datasets. The storage solution relies on a dedicated, on-board PromiseRAID hardware engine that manages the drive configuration under a secure, fault-tolerant parity scheme (such as RAID 5 or RAID 6). This configuration safeguards the research data against individual drive failures while maintaining high-speed sustained read/write performance. Continuous subsystem health is maintained via Predictive Data Migration (PDM) technology, which monitors individual drive parameters to predict potential faults and automatically migrates data before hardware failure occurs.\n\n\nDICOM Image Management and Visualization Platform\nLocal database management, archiving, query/retrieve operations, and primary visualization of standard Digital Imaging and Communications in Medicine (DICOM) files are executed through the Horos software platform. Horos is a native macOS, fully functional 64-bit medical image viewer and database engine built on the open-source OsiriX code base, optimized for research, education, and non-diagnostic imaging analytics. The application provides an intuitive local PACS environment that indexes and organizes complex patient/subject hierarchies, multi-echo series, and multi-slice acquisitions.\nAdvanced 2D and 3D visualization capabilities native to Horos include:\n\n2D Orthogonal and 3D Multi-Planar Reconstruction (MPR): Allows investigators to dynamically reslice and display anatomical volumes along axial, coronal, sagittal, or oblique planes.\nIntensity Projections: Supports Maximum Intensity Projection (MIP), Minimum Intensity Projection (MinIP), and Mean projection modes to highlight microvascular or dense structural boundaries.\nAdvanced Rendering: Provides volume and surface rendering tools to generate detailed 3D spatial topographies of anatomical targets.\nQuantitative Analysis and Compliance: Features high-precision geometric measurement, annotation, and region-of-interest (ROI) tracing tools to track structural volumes and signal intensities. For human subjects’ protection and compliance with institutional data sharing policies, Horos includes powerful scriptable anonymization utilities that strip Protected Health Information (PHI) from DICOM headers before exporting data for collaborative external analysis.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/equipment.html#ssec:state-compute",
+    "href": "pages/equipment.html#ssec:state-compute",
+    "title": "Equipment",
+    "section": "Compute: High-Performance Infrastructure and Laboratory Workstations",
+    "text": "Compute: High-Performance Infrastructure and Laboratory Workstations\n\nHigh-Performance Computing (HPC) Cluster Subsystem\nFor large-scale data processing, group-level statistical analysis, and compute-intensive neuroimaging pipelines, the project has dedicated access to a High-Performance Computing (HPC) cluster. This institutional resource features 5,504 CPU cores optimized for highly parallelized computational workloads of which 1,280 cores specifically support MRI analyses. The cluster nodes are interconnected via a ultra-low-latency, high-bandwidth network fabric (e.g., 100 Gbps InfiniBand or equivalent), enabling seamless Message Passing Interface (MPI) coordination and multi-node parallelization.\nThe compute infrastructure is tightly integrated with a centralized, enterprise-grade storage subsystem provisioning 800 Terabytes (TB) of high-throughput storage space for MRI datasets. This storage architecture utilizes a high-performance parallel file system engineered to handle the concurrent read/write demands of hundreds of simultaneous processing streams. This setup eliminates input/output (I/O) bottlenecks during the processing of massive longitudinal datasets, high-resolution structural volumes, and high-frequency 4D fMRI timeseries. Resource allocation, job scheduling, and workload management are governed by an advanced workload manager (Queue Submit), ensuring deterministic execution times for complex neuroimaging pipelines (e.g., fMRIPrep, FreeSurfer group analyses, and diffusion tractography).\n\n\nDedicated Departmental 56-CPU Rack System\nComplementing the primary institutional cluster is a local, high-density server rack system housing 56 CPUs (112 vCPUs) and 256 GB RAM. This infrastructure provides intermediate-tier computing power directly accessible by the research team. It is configured to handle high-throughput local processing, immediate pipeline piloting, and containerized application testing (using Docker or Singularity) before deploying scripts to the larger HPC cluster.\nThe rack is architected with multiple high-density multi-core server blades, substantial RAM per node (supporting memory-heavy operations like large-matrix transformations and voxel-wise permutations), and high-bandwidth local networking (e.g., dual 10GbE or 25GbE uplinks). This localized rack serves as an agile, department-controlled environment for real-time data curation, structural reconstruction, and machine learning model training without the queue latencies often associated with shared institutional resources.\n\n\nDedicated Linux and Mac Studio Analytical Workstations\nIndividual data interaction, algorithm development, quality control visualization, and localized analysis are supported by a suite of dedicated, high-performance desktop workstations:\n\nDedicated Linux Workstations: The laboratory deploys specialized desktop computing towers running enterprise-grade Linux distributions (such as Ubuntu LTS or Rocky Linux). These workstations are configured with multi-core processors, high-capacity system memory, and dedicated NVIDIA graphics processing units (GPUs) supporting CUDA acceleration. These systems provide the native, high-performance environment required by core neuroimaging software suites, including FSL, FreeSurfer, AFNI, ANTs, and custom Python/MATLAB pipelines. The integrated GPUs drastically accelerate computationally heavy routines such as diffusion-weighted probabilistic tractography (e.g., FSL’s bedpostx_gpu) and deep learning-based structural segmentation.\nMac Studio Workstations: The computing ecosystem also includes Apple Mac Studio workstations utilizing advanced Apple Silicon system-on-a-chip (SoC) architectures. These workstations leverage a high-bandwidth unified memory architecture that allows the CPU and GPU to share large memory pools instantaneously, preventing data duplication bottlenecks during the interactive visualization of massive multi-dimensional imaging arrays. The Mac Studio systems are primarily used for interactive software execution (e.g., Horos, OsiriX), localized statistical scripting (R, Python/Jupyter), paradigm presentation debugging, and graphical rendering of complex 3D brain models. All workstations are connected to the local 256-CPU rack and the 800 TB storage array via a high-speed 10GbE local area network (LAN) to ensure rapid, secure data transfer.",
+    "crumbs": [
+      "Equipment"
+    ]
+  },
+  {
+    "objectID": "pages/forms.html",
+    "href": "pages/forms.html",
+    "title": "Forms",
     "section": "",
     "text": "This page is under construction."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "",
-    "text": "Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!",
-    "crumbs": [
-      "Home"
-    ]
+    "objectID": "pages/forms.html#overview",
+    "href": "pages/forms.html#overview",
+    "title": "Forms",
+    "section": "Overview",
+    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to essential forms required for everyday center operations:\n\n000: Assist researchers and participants use the center.\n100: Track issues with hardware, training, etc. (ND-HNC staff).\n200: Manage hardware (ND-HNC staff)."
   },
   {
-    "objectID": "index.html#welcome",
-    "href": "index.html#welcome",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "",
-    "text": "Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) – Resources for Operations and Computing page!\n\n\n\nSiemens MAGNETOM Cima.X 3T arrives at Notre Dame!",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#join-us",
-    "href": "index.html#join-us",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "Join Us",
-    "text": "Join Us\nFollow these arrival instructions for help locating the center, parking, and entry.\nEmail: nd-hnc@nd.edu.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "About",
-    "text": "About\nOur goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC).\nWe support every step of your research program:\n\nFacilities and Equipment: Understand available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nData collection: Operate research hardware.\nCompute: Develop codebase, sandbox testing, local computing, parallelization. \nStorage: Keep and manage data at various project stages.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#operation-documents",
-    "href": "index.html#operation-documents",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "Operation Documents",
-    "text": "Operation Documents\n\n\nPolicies: ND-HNC policies for use.\nSOPs: Standard Operating Procedures and forms.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#additional-resources",
-    "href": "index.html#additional-resources",
-    "title": "Notre Dame Human Neuroimaging Center",
-    "section": "Additional Resources",
-    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "pages/affiliations.html",
-    "href": "pages/affiliations.html",
-    "title": "Affiliations",
-    "section": "",
-    "text": "Center 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#notre-dame-centers",
-    "href": "pages/affiliations.html#notre-dame-centers",
-    "title": "Affiliations",
-    "section": "",
-    "text": "Center 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#notre-dame-labs",
-    "href": "pages/affiliations.html#notre-dame-labs",
-    "title": "Affiliations",
-    "section": "Notre Dame Labs",
-    "text": "Notre Dame Labs\nLab 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#external-labs",
-    "href": "pages/affiliations.html#external-labs",
-    "title": "Affiliations",
-    "section": "External Labs",
-    "text": "External Labs\nEXlab 1"
-  },
-  {
-    "objectID": "pages/affiliations.html#local-community",
-    "href": "pages/affiliations.html#local-community",
-    "title": "Affiliations",
-    "section": "Local Community",
-    "text": "Local Community\nGroup 1"
-  },
-  {
-    "objectID": "pages/directions.html",
-    "href": "pages/directions.html",
-    "title": "Directions",
-    "section": "",
-    "text": "Veldman Family Psychology Clinic",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#location",
-    "href": "pages/directions.html#location",
-    "title": "Directions",
-    "section": "Location",
-    "text": "Location\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, in downtown South Bend:\n\n\nInteractive Map",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#parking",
-    "href": "pages/directions.html#parking",
-    "title": "Directions",
-    "section": "Parking",
-    "text": "Parking\nParking is available for free on the north side of the building (access from Cedar St).",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#entry",
-    "href": "pages/directions.html#entry",
-    "title": "Directions",
-    "section": "Entry",
-    "text": "Entry\n\nEnter through the building’s main (north) door.\nAccess to reception is restricted – it is possible to page the receptionist by pressing the yellow “Call” button.\nResearch personnel will meet you in the main reception area and escort you to the ND-HNC.",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/directions.html#researchers",
-    "href": "pages/directions.html#researchers",
-    "title": "Directions",
-    "section": "Researchers",
-    "text": "Researchers\nFor access as a researcher, please reference the following SOPs:\n\nSOP 301: Building Access.\nSOP 202: Zone Access.",
-    "crumbs": [
-      "Directions"
-    ]
-  },
-  {
-    "objectID": "pages/facilities.html",
-    "href": "pages/facilities.html",
-    "title": "Facilities",
-    "section": "",
-    "text": "Veldman Family Psychology Clinic",
-    "crumbs": [
-      "Facilities"
-    ]
-  },
-  {
-    "objectID": "pages/facilities.html#facility-statement",
-    "href": "pages/facilities.html#facility-statement",
-    "title": "Facilities",
-    "section": "Facility Statement",
-    "text": "Facility Statement\n\nNotre Dame Human Neuroimaging Center\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, a dedicated 35,000-square-foot clinical and research facility located in South Bend, Indiana. The facility consists of a fully integrated environment for participant recruitment, clinical assessment, neuroimaging, electrophysiological recording, noninvasive brain stimulation, data processing, and collaborative scientific analysis.\nThe ND-HNC includes dedicated participant-facing spaces consisting of a reception area (117 ft\\(^2\\)), two consultation rooms (83 and 100 ft\\(^2\\)), two changing rooms (80 and 79 ft\\(^2\\)), and two interview rooms (110 and 112 ft\\(^2\\)). Research-dedicated spaces include a mock magnetic resonance imaging (MRI) scanner room (226 ft\\(^2\\)), two electroencephalogrphy (EEG) laboratories (157 and 161 ft\\(^2\\)), an EEG control room (104 ft\\(^2\\)), EEG preparation room (182 ft\\(^2\\)), MRI vestibule (308 ft\\(^2\\)), MRI storage room (179 ft\\(^2\\)), MRI scanner and control suite (~500 ft\\(^2\\)), a dedicated transcranial magnetic stimulation (TMS) laboratory (385 ft\\(^2\\)), image processing room (270 ft\\(^2\\)), conference room (257 ft\\(^2\\)), and three staff offices (121, 102, and 103 ft\\(^2\\)).\n\n\nMagnetic Resonance Imaging Resources\nHuman neuroimaging studies are performed on a Siemens Healthineers MAGNETOM Cima.X 3 Tesla (3T) MRI system operating on the syngo MR XA61 platform. The system combines advanced research capabilities with a participant-friendly short-bore design featuring a 60 cm open bore architecture.\nThe scanner incorporates a highly homogeneous superconducting 3T magnet with exceptional field stability (\\(\\lt 0.1\\) ppm/hour) and high-performance passive and active shimming capabilities. Automated subject-specific 3D shimming can be completed in approximately 15 seconds, ensuring optimal magnetic field homogeneity for advanced neuroimaging applications. Fifth-generation active shielding and Siemens External Interference Shielding (E.I.S.) technology minimize environmental magnetic disturbances and maintain image quality during demanding functional and diffusion imaging studies.\nImage acquisition is supported by Siemens Gemini gradients capable of maximum gradient amplitudes of \\(\\ge 200\\) mT/m per axis and slew rates of 200 T/m/s per axis, with vector performance reaching 346 mT/m and 346 T/m/s. These capabilities enable high-resolution structural imaging, advanced diffusion imaging, and rapid functional MRI acquisition with reduced distortion and improved signal fidelity.\nThe system employs Siemens DirectRF digital architecture and TimTX TrueForm/TrueShape parallel transmit technology to optimize radiofrequency (RF) homogeneity and signal stability. 204 coil elements and 64 simultaneous receiver channels can be utilized during data acquisition, providing high signal-to-noise ratios and supporting accelerated imaging protocols.\nAdvanced imaging capabilities include diffusion imaging with b-values up to 16,000 s/mm\\(^2\\), automated prospective motion correction with real-time six-degree-of-freedom tracking, parallel-transmit-enabled selective excitation (ZOOMit), and AI-assisted workflow tools through Siemens BioMatrix and myExam Companion technologies. These capabilities support state-of-the-art structural MRI, functional MRI, diffusion tensor imaging, tractography, and quantitative neuroimaging investigations.\n\nFunctional MRI Research Infrastructure\nFunctional MRI studies are supported by a comprehensive NordicNeuroLab (NNL) hardware and software ecosystem designed specifically for advanced neuroimaging research and clinical mapping applications.\nVisual stimulus presentation is provided through a 40 in MR-compatible 4K UHD display system. These systems support high-resolution visual paradigms, visual field mapping, immersive task presentation, and real-time participant monitoring.\nBehavioral responses are collected using MR-compatible fiber-optic ResponseGrips that minimize participant movement while providing reliable acquisition of task performance data. Synchronization between MRI pulse sequences and experimental paradigms is achieved through the NNL SyncBox system, which provides scanner-independent synchronization with timing accuracy of ±0.5 ms.\nExperimental paradigm delivery is managed using nordicAktiva software, which includes validated libraries of motor, language, cognitive, and clinical paradigms while also supporting custom paradigm development. The platform permits synchronized control of stimulus presentation and image acquisition and provides rehearsal modes for participant training.\nAdvanced image processing is supported by nordicMEDiVA, a web-based neuroimaging analysis environment supporting task-based fMRI, diffusion imaging, tractography, and perfusion analysis. Automated preprocessing includes motion correction, spatial normalization, diffusion distortion correction, and statistical modeling using General Linear Models. Interactive tools support activation mapping, tract reconstruction, region-of-interest (ROI) based analyses, and collaborative review among multiple investigators.\n\n\nSimulation and Participant Training Resources\nThe facility houses an Encore MRI Simulator (Psychology Software Tools/RadSim), which provides a realistic MRI environment for participant acclimation, protocol piloting, and training. The simulator includes a realistic 60 cm bore, motorized participant table, integrated positioning lasers, environmental lighting, cooling systems, and participant safety monitoring.\nThe simulator reproduces scanner acoustics and vibration using high-fidelity recordings obtained from Siemens MRI systems. Visual presentation is delivered through a dedicated 22 in high-definition display with integrated audio communication and real-time participant monitoring through an in-bore camera system.\nThe simulator incorporates interchangeable mock head coils replicating Siemens acquisition environments and includes response devices for behavioral task practice. The MoTrak motion tracking system provides real-time monitoring of participant head motion across three translational and three rotational axes, allowing participants to receive immediate feedback regarding movement. This capability substantially improves participant compliance and reduces motion-related data loss during actual MRI sessions.\n\n\n\nResearch Personnel and Technical Support\nTo ensure the highest standards of data quality, regulatory compliance, and operational efficiency, the Notre Dame Human Neuroimaging Center provides dedicated, expert human infrastructure. The facility is staffed by a specialized team available to support investigators throughout the lifecycle of their research projects\nDirector: The senior scientist/faculty member provides overall strategic vision, scientific leadership, and governance for the neuroimaging center. The Director establishes facility policies, reviews incoming research protocols for scientific merit and technical feasibility, fosters interdisciplinary collaborations, and ensures the center’s capabilities remain at the cutting edge of neuroimaging technology.\nScientific Program Coordinator: The Coordinator facilitates the center’s broader academic and research mission. Key responsibilities include managing the center’s pilot grant funding programs, organizing educational workshops and scanner user seminars, assisting investigators with grant submission logistics, and coordinating internal and external scientific communications and progress reporting.\nPhysicist: The physicist is dedicated to the center to oversee technical operations, optimize imaging sequences, and develop custom acquisition protocols tailored to specific research questions. The Physicist manages the system’s rigorous quality assurance (QA) program: continually tracking signal-to-noise ratios (SNR), field stability, and artifact management. The Physicist also provides advanced consultation on experimental design and safety guidelines.\nAnalyst: The neuroimaging data expert provides specialized support for advanced image processing, pipeline development, and computational workflows. The Analyst maintains the center’s containerized processing pipelines (e.g., fMRIPrep, FreeSurfer, FSL, AFNI) across local workstations and the University’s High-Performance Computing (HPC) cluster, assisting investigators with data curation, quality control (QC) metrics, and reproducible statistical modeling. They Analyst also provides bootcamps and courses covering topics from programming to modelling multimodal MRI data, making the incorporation of MRI techniques into existing research programs more accessible.\nTechnologist: A certified, full-time Technologist operates the 3T scanner and handles daily scanning execution. The Technologist is responsible for strict participant safety screening, anatomical positioning, and the seamless integration of peripheral equipment (including the NordicNeuroLab stimulus presentation systems and response devices). They ensure comfortable, safe, and highly standardized data collection environments for all participant cohorts.\nOperations Coordinator: The Coordinator manages the day-to-day administrative and logistical workflows of the facility. Key responsibilities include administering the centralized participant scheduling system, coordinating billing, ensuring compliance with institutional IRB and federal regulations, and facilitating investigator onboarding and safety training. The Coordinator serves as the primary operational liaison between research teams and the center.\n\n\nElectrophysiology and Neuromodulation Resources\nThe facility contains two dedicated EEG acquisition laboratories, a centralized EEG control room, and a participant preparation suite supporting high-density electrophysiological recording. These resources facilitate cognitive, developmental, affective, and clinical neuroscience investigations requiring millisecond temporal resolution.\nNoninvasive brain stimulation studies are conducted in a dedicated TMS laboratory equipped for experimental and translational neuromodulation research. The co-location of MRI, EEG, and TMS resources supports multimodal neuroimaging and neurostimulation investigations.\n\n\nData Processing, Storage, and Computational Resources\n\nImaging Workstations and Local Data Infrastructure\nPrimary image management and analysis are supported by Apple Mac Studio workstations utilizing Apple Silicon architectures with unified memory systems, hardware-accelerated media processing, and dedicated neural processing engines. These systems support image visualization, machine learning workflows, statistical analysis, and neuroimaging software development.\nThe workstations are connected to a dedicated Promise Technology Pegasus RAID storage subsystem providing 104 TB of fault-tolerant local storage. The storage architecture utilizes hardware RAID redundancy and predictive data migration technologies to ensure data integrity and uninterrupted operation. High-bandwidth Thunderbolt connectivity supports efficient processing of large multimodal imaging datasets.\nDICOM image management, visualization, and anonymization are performed using the Horos imaging platform. Investigators have access to advanced multiplanar reconstruction, volume rendering, quantitative ROI analysis, and secure de-identification tools that support compliance with institutional and federal human subjects protections.\n\n\nDepartmental Computing Resources\nThe research team maintains access to a dedicated departmental computing rack, providing 56 CPU cores and 256 GB RAM for local high-throughput processing. This infrastructure supports image reconstruction, quality assurance, machine learning development, containerized neuroimaging pipelines, and rapid deployment of computational workflows.\nDedicated Linux workstations provide optimized environments for FSL, FreeSurfer, AFNI, ANTs, and other neuroimaging software packages. These systems include dedicated GPU acceleration to support computationally intensive analyses such as probabilistic tractography, deep-learning-based segmentation, and large-scale image processing.\n\n\nInstitutional High-Performance Computing Resources\nThe project additionally has access to the University’s High-Performance Computing (HPC) infrastructure through the Center for Research Computing. This resource provides approximately 1,280 dedicated MRI-analysis CPU cores interconnected through a high-bandwidth, low-latency network fabric designed for parallel scientific computing.\nThe HPC environment is integrated with approximately 800 terabytes of enterprise-grade storage capable of supporting large-scale neuroimaging studies, longitudinal datasets, and multimodal analyses. Advanced workload management systems facilitate efficient execution of computationally intensive pipelines including fMRIPrep, FreeSurfer, diffusion tractography, machine learning workflows, and group-level statistical analyses.\n\n\n\nOverall Research Environment\nThe Veldman Family Psychology Clinic and Notre Dame Human Neuroimaging Center provide an exceptional environment for NIH-funded neuroscience and behavioral research. The co-location of advanced MRI, EEG, TMS, participant training facilities, dedicated technical personnel, extensive computational infrastructure, and large-scale data storage resources enables efficient implementation of sophisticated multimodal research protocols. These integrated facilities provide all equipment, personnel, and computational resources necessary to successfully conduct the proposed studies and support high-quality, reproducible neuroimaging research.",
-    "crumbs": [
-      "Facilities"
-    ]
+    "objectID": "pages/forms.html#forms",
+    "href": "pages/forms.html#forms",
+    "title": "Forms",
+    "section": "Forms",
+    "text": "Forms\n\n\n000: ND-HNC Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Safety Screen\nDocument\n\n\n002\nArrival Instructions\nBlue, White\n\n\n003\nCenter Layout\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n103\nCompliance\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware\nDocument"
   },
   {
     "objectID": "pages/people.html",
@@ -874,33 +928,5 @@
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training 2",
     "section": "Access 4",
     "text": "Access 4\nTraining Access Who"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#magnet-strength",
-    "href": "resources/slides/mri_safety_1.html#magnet-strength",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Magnet Strength",
-    "text": "Magnet Strength\n\n\n\nTypically measured in Tesla (T)\nThe Earth’s magnetic field is roughly 0.00005 Tesla\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#magnet-is-always-on",
-    "href": "resources/slides/mri_safety_1.html#magnet-is-always-on",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Magnet Is Always On!",
-    "text": "Magnet Is Always On!\n\n\n\nElectrical resistance decreases with temperature\n\nAt very (very) low temperatures, copper has superconductive properties\n\nMRI scanner filled with liquid helium\n\nRamp up (charge coil) from the electrical grid\nThen disconnect!\nPerpetual current = persistent field strength\n\nIndependent of power in:\n\nRoom\nVeldman Family Psychology Clinic\nSouth Bend"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#safety-screener",
-    "href": "resources/slides/mri_safety_1.html#safety-screener",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Safety Screener",
-    "text": "Safety Screener\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener\nCheck for compatibility with 3 Tesla field\nReviewed by two people\n\n\nCheck for contraindications:\n\nNon-MRI compatible medical implants (e.g. pacemaker)\nMetal embedded in body (shrapnel, piercings)\nTattoo on face or neck, permanent makeup\nPregnancy\n\n\n\n\nCheck that MRI incompatible materials are removed\n\nJewelry, objects in pockets (pens, paperclips)\nHair accessories (bobby pins, clips, extensions)\nClothing (bra underwire, Lululemon Silverscent)\nCosmetics (colored contacts, magnetic lashes, tanning lotions, makeup/nail polish with glitter)\nFootwear (steeltoe, buckles)"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#level-4-contd",
-    "href": "resources/slides/mri_safety_1.html#level-4-contd",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Level 4, cont’d",
-    "text": "Level 4, cont’d\n\n\n\nRestrictions:\n\nMust be accompanied by another researcher (Level 2+) when someone is in Zone 4"
   }
 ]

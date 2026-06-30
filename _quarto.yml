@@ -27,6 +27,8 @@ website:
         href: pages/facilities.qmd
       # - text: Forms
       #   href: pages/forms.qmd
+      - text: Operate
+        href: pages/operate.qmd
       - text: People
         href: pages/people.qmd
       - text: Policies

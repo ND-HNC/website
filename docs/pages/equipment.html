@@ -99,6 +99,7 @@ window.Quarto = {
 </script>
 
 <meta property="og:title" content="Equipment – ND-HNC">
+<meta property="og:description" content="">
 <meta property="og:image" content="../media/mri.jpg">
 <meta property="og:site_name" content="ND-HNC">
 </head>
@@ -174,6 +175,12 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../pages/operate.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Operate</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../pages/people.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">People</span></a>
   </div>
@@ -212,27 +219,34 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a>
   <ul>
-  <li><a href="#t-magnetic-resonance-imaging-mri-system" id="toc-t-magnetic-resonance-imaging-mri-system" class="nav-link" data-scroll-target="#t-magnetic-resonance-imaging-mri-system">3T Magnetic Resonance Imaging (MRI) System</a>
+  <li><a href="#ssec:mri" id="toc-ssec:mri" class="nav-link" data-scroll-target="#ssec\:mri">3T Magnetic Resonance Imaging (MRI) System</a>
   <ul class="collapse">
   <li><a href="#siemens-healthineers-magnetom-cima.x-3t" id="toc-siemens-healthineers-magnetom-cima.x-3t" class="nav-link" data-scroll-target="#siemens-healthineers-magnetom-cima.x-3t">Siemens Healthineers MAGNETOM Cima.X 3T</a></li>
   <li><a href="#radiofrequency-rf-coils" id="toc-radiofrequency-rf-coils" class="nav-link" data-scroll-target="#radiofrequency-rf-coils">Radiofrequency (RF) Coils</a></li>
   </ul></li>
-  <li><a href="#functional-mri-fmri-task-presentation-synchronization" id="toc-functional-mri-fmri-task-presentation-synchronization" class="nav-link" data-scroll-target="#functional-mri-fmri-task-presentation-synchronization">Functional MRI (fMRI) Task Presentation &amp; Synchronization</a>
+  <li><a href="#ssec:task-present" id="toc-ssec:task-present" class="nav-link" data-scroll-target="#ssec\:task-present">Functional MRI (fMRI) Task Presentation &amp; Synchronization</a>
   <ul class="collapse">
   <li><a href="#nordicneurolab-nnl-complete-fmri-solution" id="toc-nordicneurolab-nnl-complete-fmri-solution" class="nav-link" data-scroll-target="#nordicneurolab-nnl-complete-fmri-solution">NordicNeuroLab (NNL) Complete fMRI Solution</a></li>
   <li><a href="#stimulus-control-computer" id="toc-stimulus-control-computer" class="nav-link" data-scroll-target="#stimulus-control-computer">Stimulus Control Computer</a></li>
   </ul></li>
-  <li><a href="#dicom-capture-processing-storage-workstation" id="toc-dicom-capture-processing-storage-workstation" class="nav-link" data-scroll-target="#dicom-capture-processing-storage-workstation">DICOM Capture, Processing, &amp; Storage Workstation</a></li>
-  <li><a href="#mock-scanner-participant-training" id="toc-mock-scanner-participant-training" class="nav-link" data-scroll-target="#mock-scanner-participant-training">Mock Scanner / Participant Training</a>
+  <li><a href="#ssec:dicom" id="toc-ssec:dicom" class="nav-link" data-scroll-target="#ssec\:dicom">DICOM Capture, Processing, &amp; Storage Workstation</a></li>
+  <li><a href="#ssec:mock" id="toc-ssec:mock" class="nav-link" data-scroll-target="#ssec\:mock">Mock Scanner / Participant Training</a>
   <ul class="collapse">
   <li><a href="#encore-mri-simulator-system-psychology-software-tools" id="toc-encore-mri-simulator-system-psychology-software-tools" class="nav-link" data-scroll-target="#encore-mri-simulator-system-psychology-software-tools">Encore MRI Simulator System (Psychology Software Tools)</a></li>
   </ul></li>
+  <li><a href="#ssec:compute" id="toc-ssec:compute" class="nav-link" data-scroll-target="#ssec\:compute">Compute</a>
+  <ul class="collapse">
+  <li><a href="#high-performance-computing-hpc-cluster-subsystem" id="toc-high-performance-computing-hpc-cluster-subsystem" class="nav-link" data-scroll-target="#high-performance-computing-hpc-cluster-subsystem">High-Performance Computing (HPC) Cluster Subsystem</a></li>
+  <li><a href="#dedicated-departmental-56-cpu-rack-system" id="toc-dedicated-departmental-56-cpu-rack-system" class="nav-link" data-scroll-target="#dedicated-departmental-56-cpu-rack-system">Dedicated Departmental 56-CPU Rack System</a></li>
+  <li><a href="#analytical-workstations" id="toc-analytical-workstations" class="nav-link" data-scroll-target="#analytical-workstations">Analytical Workstations</a></li>
   </ul></li>
-  <li><a href="#equipment-statement" id="toc-equipment-statement" class="nav-link" data-scroll-target="#equipment-statement">Equipment Statement</a>
+  </ul></li>
+  <li><a href="#sec:equip-state" id="toc-sec:equip-state" class="nav-link" data-scroll-target="#sec\:equip-state">Equipment Statement</a>
   <ul>
-  <li><a href="#mri-siemens-healthineers-magnetom-cima.x-3t-system" id="toc-mri-siemens-healthineers-magnetom-cima.x-3t-system" class="nav-link" data-scroll-target="#mri-siemens-healthineers-magnetom-cima.x-3t-system">MRI: Siemens Healthineers MAGNETOM Cima.X 3T System</a>
+  <li><a href="#ssec:state-mri" id="toc-ssec:state-mri" class="nav-link" data-scroll-target="#ssec\:state-mri">MRI: Siemens Healthineers MAGNETOM Cima.X 3T System</a>
   <ul class="collapse">
   <li><a href="#system-overview" id="toc-system-overview" class="nav-link" data-scroll-target="#system-overview">System Overview</a></li>
   <li><a href="#magnet-and-shimming-system" id="toc-magnet-and-shimming-system" class="nav-link" data-scroll-target="#magnet-and-shimming-system">Magnet and Shimming System</a></li>
@@ -244,7 +258,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#advanced-imaging-capabilities-and-workflow-automation" id="toc-advanced-imaging-capabilities-and-workflow-automation" class="nav-link" data-scroll-target="#advanced-imaging-capabilities-and-workflow-automation">Advanced Imaging Capabilities and Workflow Automation</a></li>
   </ul></li>
-  <li><a href="#mock-encore-mri-simulator-system" id="toc-mock-encore-mri-simulator-system" class="nav-link" data-scroll-target="#mock-encore-mri-simulator-system">Mock: Encore MRI Simulator System</a>
+  <li><a href="#ssec:state-mock" id="toc-ssec:state-mock" class="nav-link" data-scroll-target="#ssec\:state-mock">Mock: Encore MRI Simulator System</a>
   <ul class="collapse">
   <li><a href="#system-overview-and-purpose" id="toc-system-overview-and-purpose" class="nav-link" data-scroll-target="#system-overview-and-purpose">System Overview and Purpose</a></li>
   <li><a href="#physical-architecture-and-patient-interface" id="toc-physical-architecture-and-patient-interface" class="nav-link" data-scroll-target="#physical-architecture-and-patient-interface">Physical Architecture and Patient Interface</a></li>
@@ -252,7 +266,7 @@ window.Quarto = {
   <li><a href="#mock-head-coils-and-behavioral-response-hardware" id="toc-mock-head-coils-and-behavioral-response-hardware" class="nav-link" data-scroll-target="#mock-head-coils-and-behavioral-response-hardware">Mock Head Coils and Behavioral Response Hardware</a></li>
   <li><a href="#motion-tracking-and-protocol-training-software" id="toc-motion-tracking-and-protocol-training-software" class="nav-link" data-scroll-target="#motion-tracking-and-protocol-training-software">Motion Tracking and Protocol Training Software</a></li>
   </ul></li>
-  <li><a href="#task-nordicneurolab-functional-mri-fmri-solution" id="toc-task-nordicneurolab-functional-mri-fmri-solution" class="nav-link" data-scroll-target="#task-nordicneurolab-functional-mri-fmri-solution">Task: NordicNeuroLab functional MRI (fMRI) Solution</a>
+  <li><a href="#ssec:state-task-present" id="toc-ssec:state-task-present" class="nav-link" data-scroll-target="#ssec\:state-task-present">Task: NordicNeuroLab functional MRI (fMRI) Solution</a>
   <ul class="collapse">
   <li><a href="#system-overview-and-compliance" id="toc-system-overview-and-compliance" class="nav-link" data-scroll-target="#system-overview-and-compliance">System Overview and Compliance</a></li>
   <li><a href="#visual-display-and-patient-monitoring-systems" id="toc-visual-display-and-patient-monitoring-systems" class="nav-link" data-scroll-target="#visual-display-and-patient-monitoring-systems">Visual Display and Patient Monitoring Systems</a></li>
@@ -260,16 +274,16 @@ window.Quarto = {
   <li><a href="#scanner-synchronization-architecture" id="toc-scanner-synchronization-architecture" class="nav-link" data-scroll-target="#scanner-synchronization-architecture">Scanner Synchronization Architecture</a></li>
   <li><a href="#stimulus-presentation-and-paradigm-management-software" id="toc-stimulus-presentation-and-paradigm-management-software" class="nav-link" data-scroll-target="#stimulus-presentation-and-paradigm-management-software">Stimulus Presentation and Paradigm Management Software</a></li>
   </ul></li>
-  <li><a href="#pacs-high-performance-imaging-workstation-and-storage-subsystem" id="toc-pacs-high-performance-imaging-workstation-and-storage-subsystem" class="nav-link" data-scroll-target="#pacs-high-performance-imaging-workstation-and-storage-subsystem">PACS: High-Performance Imaging Workstation and Storage Subsystem</a>
+  <li><a href="#ssec:state-dicom" id="toc-ssec:state-dicom" class="nav-link" data-scroll-target="#ssec\:state-dicom">PACS: High-Performance Imaging Workstation and Storage Subsystem</a>
   <ul class="collapse">
   <li><a href="#computation-and-workstation-architecture" id="toc-computation-and-workstation-architecture" class="nav-link" data-scroll-target="#computation-and-workstation-architecture">Computation and Workstation Architecture</a></li>
   <li><a href="#massive-storage-subsystem-and-redundancy-architecture" id="toc-massive-storage-subsystem-and-redundancy-architecture" class="nav-link" data-scroll-target="#massive-storage-subsystem-and-redundancy-architecture">Massive Storage Subsystem and Redundancy Architecture</a></li>
   <li><a href="#dicom-image-management-and-visualization-platform" id="toc-dicom-image-management-and-visualization-platform" class="nav-link" data-scroll-target="#dicom-image-management-and-visualization-platform">DICOM Image Management and Visualization Platform</a></li>
   </ul></li>
-  <li><a href="#compute-high-performance-infrastructure-and-laboratory-workstations" id="toc-compute-high-performance-infrastructure-and-laboratory-workstations" class="nav-link" data-scroll-target="#compute-high-performance-infrastructure-and-laboratory-workstations">Compute: High-Performance Infrastructure and Laboratory Workstations</a>
+  <li><a href="#ssec:state-compute" id="toc-ssec:state-compute" class="nav-link" data-scroll-target="#ssec\:state-compute">Compute: High-Performance Infrastructure and Laboratory Workstations</a>
   <ul class="collapse">
-  <li><a href="#high-performance-computing-hpc-cluster-subsystem" id="toc-high-performance-computing-hpc-cluster-subsystem" class="nav-link" data-scroll-target="#high-performance-computing-hpc-cluster-subsystem">High-Performance Computing (HPC) Cluster Subsystem</a></li>
-  <li><a href="#dedicated-departmental-56-cpu-rack-system" id="toc-dedicated-departmental-56-cpu-rack-system" class="nav-link" data-scroll-target="#dedicated-departmental-56-cpu-rack-system">Dedicated Departmental 56-CPU Rack System</a></li>
+  <li><a href="#high-performance-computing-hpc-cluster-subsystem-1" id="toc-high-performance-computing-hpc-cluster-subsystem-1" class="nav-link" data-scroll-target="#high-performance-computing-hpc-cluster-subsystem-1">High-Performance Computing (HPC) Cluster Subsystem</a></li>
+  <li><a href="#dedicated-departmental-56-cpu-rack-system-1" id="toc-dedicated-departmental-56-cpu-rack-system-1" class="nav-link" data-scroll-target="#dedicated-departmental-56-cpu-rack-system-1">Dedicated Departmental 56-CPU Rack System</a></li>
   <li><a href="#dedicated-linux-and-mac-studio-analytical-workstations" id="toc-dedicated-linux-and-mac-studio-analytical-workstations" class="nav-link" data-scroll-target="#dedicated-linux-and-mac-studio-analytical-workstations">Dedicated Linux and Mac Studio Analytical Workstations</a></li>
   </ul></li>
   </ul></li>
@@ -298,11 +312,63 @@ window.Quarto = {
 </header>
 
 
+<section id="summary" class="level1">
+<h1>Summary</h1>
+<p>This page provides both overview descriptions and technical equipment statements for research hardware available at the ND-HNC. Grant writers will be most interested in the <a href="#sec:equip-state">Equipment Statement</a> section.</p>
+<p>For quick navigation within this page:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Equipment</th>
+<th>Overview</th>
+<th>Statement</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>MRI Simulator</td>
+<td><a href="#ssec:mock">Link</a></td>
+<td><a href="#ssec:state-mock">Link</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>MAGNETOM Cima.X</td>
+<td><a href="#ssec:mri">Link</a></td>
+<td><a href="#ssec:state-mri">Link</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Task Presentation</td>
+<td><a href="#ssec:task-present">Link</a></td>
+<td><a href="{#ssec:state-task-present}">Link</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>DICOM Management</td>
+<td><a href="#ssec:dicom">Link</a></td>
+<td><a href="#ssec:state-dicom">Link</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>Compute</td>
+<td><a href="#ssec:compute">Link</a></td>
+<td><a href="#ssec:state-compute">Link</a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<!-- ![Siemens MAGNETOM Cima.X 3T](../media/cima.jpg){width=50% fig-align="left"} -->
-<section id="t-magnetic-resonance-imaging-mri-system" class="level2">
-<h2 class="anchored" data-anchor-id="t-magnetic-resonance-imaging-mri-system">3T Magnetic Resonance Imaging (MRI) System</h2>
+<section id="ssec:mri" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:mri">3T Magnetic Resonance Imaging (MRI) System</h2>
 <section id="siemens-healthineers-magnetom-cima.x-3t" class="level3">
 <h3 class="anchored" data-anchor-id="siemens-healthineers-magnetom-cima.x-3t">Siemens Healthineers MAGNETOM Cima.X 3T</h3>
 <p><img src="../media/mri.jpg" class="img-fluid" style="width:70.0%"></p>
@@ -339,8 +405,8 @@ window.Quarto = {
 </div>
 </section>
 </section>
-<section id="functional-mri-fmri-task-presentation-synchronization" class="level2">
-<h2 class="anchored" data-anchor-id="functional-mri-fmri-task-presentation-synchronization">Functional MRI (fMRI) Task Presentation &amp; Synchronization</h2>
+<section id="ssec:task-present" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:task-present">Functional MRI (fMRI) Task Presentation &amp; Synchronization</h2>
 <section id="nordicneurolab-nnl-complete-fmri-solution" class="level3">
 <h3 class="anchored" data-anchor-id="nordicneurolab-nnl-complete-fmri-solution">NordicNeuroLab (NNL) Complete fMRI Solution</h3>
 <p>For cognitive and behavioral paradigms, our center utilizes a fully integrated, medical-grade turnkey hardware and software system from NordicNeuroLab.</p>
@@ -371,8 +437,8 @@ window.Quarto = {
 </div>
 </section>
 </section>
-<section id="dicom-capture-processing-storage-workstation" class="level2">
-<h2 class="anchored" data-anchor-id="dicom-capture-processing-storage-workstation">DICOM Capture, Processing, &amp; Storage Workstation</h2>
+<section id="ssec:dicom" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:dicom">DICOM Capture, Processing, &amp; Storage Workstation</h2>
 <p>Primary local data ingestion, database archiving, and 3D visualization are driven by an enterprise-tier neuroimaging workstation built for high-throughput data pipelines.</p>
 <ul>
 <li><strong>High-Performance Computation:</strong> Positioned in the control room, this setup features a state-of-the-art Apple Mac Studio powered by an M4 Max chip (16-core CPU, 40-core GPU) with 48 GB of unified memory and a 1 TB internal SSD. Operating on a ultra-high-bandwidth unified memory architecture, this system enables instantaneous manipulation and rendering of massive, multi-dimensional imaging arrays without data-duplication latency.</li>
@@ -385,8 +451,8 @@ window.Quarto = {
 </figure>
 </div>
 </section>
-<section id="mock-scanner-participant-training" class="level2">
-<h2 class="anchored" data-anchor-id="mock-scanner-participant-training">Mock Scanner / Participant Training</h2>
+<section id="ssec:mock" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:mock">Mock Scanner / Participant Training</h2>
 <section id="encore-mri-simulator-system-psychology-software-tools" class="level3">
 <h3 class="anchored" data-anchor-id="encore-mri-simulator-system-psychology-software-tools">Encore MRI Simulator System (Psychology Software Tools)</h3>
 <p>To maximize data quality and minimize failed scans due to participant anxiety or motion, the center features a dedicated mock scanning environment.</p>
@@ -401,14 +467,49 @@ window.Quarto = {
 <p><img src="../media/mock.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
 </figure>
 </div>
-<!-- ## TODO: Compute -->
+</section>
+</section>
+<section id="ssec:compute" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:compute">Compute</h2>
+<p>To accommodate the diverse computational demands of modern neuroimaging, our facility provides a scalable, multi-tiered computing environment designed to support projects of any size. Whether a study requires simple, localized analyses conducted on a single subject, or massive, multi-site datasets demanding highly parallelized processing pipelines, our integrated infrastructure ensures optimal throughput and efficiency.</p>
+<section id="high-performance-computing-hpc-cluster-subsystem" class="level3">
+<h3 class="anchored" data-anchor-id="high-performance-computing-hpc-cluster-subsystem">High-Performance Computing (HPC) Cluster Subsystem</h3>
+<ul>
+<li><strong>Purpose:</strong> Built for large-scale data processing, group-level statistical analysis, and compute-intensive neuroimaging pipelines (e.g., fMRIPrep, FreeSurfer, diffusion tractography).</li>
+<li><strong>Compute Power:</strong> Features 5,504 total CPU cores, with 1,280 cores explicitly dedicated to MRI analyses.</li>
+<li><strong>Networking &amp; Management:</strong> Uses an ultra-low-latency, 100 Gbps InfiniBand network fabric for multi-node parallelization, governed by a “Queue Submit” workload manager to ensure deterministic execution times.</li>
+<li><strong>Storage:</strong> Integrated with an enterprise-grade, 800 TB parallel file system designed to eliminate I/O bottlenecks during concurrent read/write streams of massive 4D fMRI and longitudinal datasets.</li>
+</ul>
+</section>
+<section id="dedicated-departmental-56-cpu-rack-system" class="level3">
+<h3 class="anchored" data-anchor-id="dedicated-departmental-56-cpu-rack-system">Dedicated Departmental 56-CPU Rack System</h3>
+<ul>
+<li><strong>Purpose:</strong> A localized, agile, department-controlled environment used for immediate pipeline piloting, containerized application testing (Docker/Singularity), real-time data curation, and machine learning model training.</li>
+<li><strong>Specifications:</strong> Houses 56 CPUs (112 vCPUs) and 256 GB RAM with high-density multi-core server blades and dual 10GbE/25GbE uplinks.</li>
+<li><strong>Advantage:</strong> Bypasses the shared institutional queue latencies, allowing fast, memory-heavy operations like large-matrix transformations and voxel-wise permutations.</li>
+</ul>
+</section>
+<section id="analytical-workstations" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-workstations">Analytical Workstations</h3>
+<p>Individual workstations handle localized analysis, algorithm development, quality control visualization, and are connected to the local rack and 800 TB storage via a high-speed 10GbE local area network (LAN).</p>
+<ul>
+<li><strong>Dedicated Linux Workstations:</strong> Run enterprise Linux (RHEL) with multi-core processors.
+<ul>
+<li>Equipped with NVIDIA GPUs supporting CUDA acceleration to speed up intensive routines like probabilistic tractography and deep learning segmentation.</li>
+<li>Native environment for core neuroimaging tools (FSL, FreeSurfer, AFNI, ANTs).</li>
+</ul></li>
+<li><strong>Mac Studio Workstations:</strong> Utilize Apple Silicon SoC with a high-bandwidth unified memory architecture to prevent data duplication bottlenecks during complex data visualization.
+<ul>
+<li>Primary use cases include neuroimaging tools (FSL, FreeSurfer, AFNI, ANTs), statistical scripting (R, Python), paradigm debugging, and 3D brain model rendering.</li>
+</ul></li>
+</ul>
 </section>
 </section>
 </section>
-<section id="equipment-statement" class="level1">
+<section id="sec:equip-state" class="level1">
 <h1>Equipment Statement</h1>
-<section id="mri-siemens-healthineers-magnetom-cima.x-3t-system" class="level2">
-<h2 class="anchored" data-anchor-id="mri-siemens-healthineers-magnetom-cima.x-3t-system">MRI: Siemens Healthineers MAGNETOM Cima.X 3T System</h2>
+<section id="ssec:state-mri" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:state-mri">MRI: Siemens Healthineers MAGNETOM Cima.X 3T System</h2>
 <section id="system-overview" class="level3">
 <h3 class="anchored" data-anchor-id="system-overview">System Overview</h3>
 <p>The imaging facility is equipped with a Siemens Healthineers MAGNETOM Cima.X 3-Tesla (3T) magnetic resonance imaging (MRI) system operating on the syngo MR XA61 software platform. This state-of-the-art system features a short-bore, patient-friendly architecture with an open bore design of 60 cm (600 mm). It is specifically engineered to bridge advanced clinical diagnostics and high-performance research applications.</p>
@@ -443,8 +544,8 @@ window.Quarto = {
 <p>Patient handling and protocol reproduction are managed via BioMatrix Interfaces and the myExam Companion software environment. This includes AI-driven Select&amp;GO touch displays utilizing an intelligent anatomical body model to automate and accelerate precise patient positioning. The system features a BioMatrix patient table capable of a 205 cm scan range without repositioning, supporting vertical and horizontal movements for patient weights up to 250 kg (550 lbs).</p>
 </section>
 </section>
-<section id="mock-encore-mri-simulator-system" class="level2">
-<h2 class="anchored" data-anchor-id="mock-encore-mri-simulator-system">Mock: Encore MRI Simulator System</h2>
+<section id="ssec:state-mock" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:state-mock">Mock: Encore MRI Simulator System</h2>
 <section id="system-overview-and-purpose" class="level3">
 <h3 class="anchored" data-anchor-id="system-overview-and-purpose">System Overview and Purpose</h3>
 <p>The facility is equipped with an Encore MRI Simulator developed by Psychology Software Tools (DBA RadSim). This specialized system is dedicated to pre-scan acclimation, participant training, and piloting functional magnetic resonance imaging (fMRI) behavioral paradigms. It provides a realistic approximation of an actual scanning environment to comfortably introduce pediatric cohorts to the MRI environment, train faculty and staff in a cost-effective setting, and mitigate failed clinical or research scans resulting from participant anxiety or claustrophobia.</p>
@@ -466,8 +567,8 @@ window.Quarto = {
 <p>To maximize downstream MRI data quality by training participants to minimize motion, the setup includes the MoTrak head-mounted motion tracking system. MoTrak monitors head motion and angular rotation along the X, Y, and Z axes in real time, enabling the system to modulate audio and/or video output to provide immediate positive or negative feedback to train participants to remain still. Operational and protocol training are supported by the IACIT MRI Console Simulation Software, which features advanced touchscreen controls and replicates an MRI operator’s console to build user experience and confidence in a classroom or laboratory setting.</p>
 </section>
 </section>
-<section id="task-nordicneurolab-functional-mri-fmri-solution" class="level2">
-<h2 class="anchored" data-anchor-id="task-nordicneurolab-functional-mri-fmri-solution">Task: NordicNeuroLab functional MRI (fMRI) Solution</h2>
+<section id="ssec:state-task-present" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:state-task-present">Task: NordicNeuroLab functional MRI (fMRI) Solution</h2>
 <section id="system-overview-and-compliance" class="level3">
 <h3 class="anchored" data-anchor-id="system-overview-and-compliance">System Overview and Compliance</h3>
 <p>The imaging facility is supported by a comprehensive, turnkey fMRI hardware and software solution provided by NordicNeuroLab (NNL). This integrated system is engineered to simplify, standardize, and streamline functional MR imaging workflows for both advanced scientific research and clinical applications, such as pre-surgical mapping of motor and language areas. All hardware components are designed, developed, and manufactured under a certified ISO 13485 Quality Management system. The equipment complies with international consensus standards (IEC) for Device Safety and Electromagnetic Compatibility (EMC) for medical electrical equipment, ensuring safe deployment within high-field magnetic environments.</p>
@@ -494,8 +595,8 @@ Diffusion and Tractography: The system executes automated preprocessing of diffu
 DSC Perfusion: The software automates Dynamic Susceptibility Contrast (DSC) perfusion processing to calculate and map cerebral blood volume (CBV), cerebral blood flow (CBF), time-to-peak (TTP), and contrast agent leakage. Perfusion maps are normalized using a patented algorithm against normal-appearing white and grey matter, providing highly consistent, fast, and reproducible quantitative reporting.  -->
 </section>
 </section>
-<section id="pacs-high-performance-imaging-workstation-and-storage-subsystem" class="level2">
-<h2 class="anchored" data-anchor-id="pacs-high-performance-imaging-workstation-and-storage-subsystem">PACS: High-Performance Imaging Workstation and Storage Subsystem</h2>
+<section id="ssec:state-dicom" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:state-dicom">PACS: High-Performance Imaging Workstation and Storage Subsystem</h2>
 <section id="computation-and-workstation-architecture" class="level3">
 <h3 class="anchored" data-anchor-id="computation-and-workstation-architecture">Computation and Workstation Architecture</h3>
 <p>Primary local data processing, analysis, and execution of neuroimaging workflows are anchored by an Apple Mac Studio high-performance workstation. This system utilizes a high-efficiency Apple Silicon system-on-a-chip (SoC) architecture, integrating multi-core central and graphics processing units (CPU/GPU) with a unified memory architecture that provides exceptionally high memory bandwidth (up to 400–800 GB/s). This unified memory approach allows the operating system and imaging applications to instantly share massive imaging volumes without the latency of data duplication. The workstation is further equipped with hardware-accelerated media engines and a 16-core Neural Engine to accelerate compute-heavy image manipulation, machine learning-driven segmentation, and complex mathematical modeling. High-speed network connectivity to the MRI scanner console and regional Picture Archiving and Communication Systems (PACS) is supported via an integrated 10Gb Ethernet port.</p>
@@ -516,15 +617,15 @@ DSC Perfusion: The software automates Dynamic Susceptibility Contrast (DSC) perf
 </ul>
 </section>
 </section>
-<section id="compute-high-performance-infrastructure-and-laboratory-workstations" class="level2">
-<h2 class="anchored" data-anchor-id="compute-high-performance-infrastructure-and-laboratory-workstations">Compute: High-Performance Infrastructure and Laboratory Workstations</h2>
-<section id="high-performance-computing-hpc-cluster-subsystem" class="level3">
-<h3 class="anchored" data-anchor-id="high-performance-computing-hpc-cluster-subsystem">High-Performance Computing (HPC) Cluster Subsystem</h3>
+<section id="ssec:state-compute" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:state-compute">Compute: High-Performance Infrastructure and Laboratory Workstations</h2>
+<section id="high-performance-computing-hpc-cluster-subsystem-1" class="level3">
+<h3 class="anchored" data-anchor-id="high-performance-computing-hpc-cluster-subsystem-1">High-Performance Computing (HPC) Cluster Subsystem</h3>
 <p>For large-scale data processing, group-level statistical analysis, and compute-intensive neuroimaging pipelines, the project has dedicated access to a High-Performance Computing (HPC) cluster. This institutional resource features 5,504 CPU cores optimized for highly parallelized computational workloads of which 1,280 cores specifically support MRI analyses. The cluster nodes are interconnected via a ultra-low-latency, high-bandwidth network fabric (e.g., 100 Gbps InfiniBand or equivalent), enabling seamless Message Passing Interface (MPI) coordination and multi-node parallelization.</p>
 <p>The compute infrastructure is tightly integrated with a centralized, enterprise-grade storage subsystem provisioning 800 Terabytes (TB) of high-throughput storage space for MRI datasets. This storage architecture utilizes a high-performance parallel file system engineered to handle the concurrent read/write demands of hundreds of simultaneous processing streams. This setup eliminates input/output (I/O) bottlenecks during the processing of massive longitudinal datasets, high-resolution structural volumes, and high-frequency 4D fMRI timeseries. Resource allocation, job scheduling, and workload management are governed by an advanced workload manager (Queue Submit), ensuring deterministic execution times for complex neuroimaging pipelines (e.g., fMRIPrep, FreeSurfer group analyses, and diffusion tractography).</p>
 </section>
-<section id="dedicated-departmental-56-cpu-rack-system" class="level3">
-<h3 class="anchored" data-anchor-id="dedicated-departmental-56-cpu-rack-system">Dedicated Departmental 56-CPU Rack System</h3>
+<section id="dedicated-departmental-56-cpu-rack-system-1" class="level3">
+<h3 class="anchored" data-anchor-id="dedicated-departmental-56-cpu-rack-system-1">Dedicated Departmental 56-CPU Rack System</h3>
 <p>Complementing the primary institutional cluster is a local, high-density server rack system housing 56 CPUs (112 vCPUs) and 256 GB RAM. This infrastructure provides intermediate-tier computing power directly accessible by the research team. It is configured to handle high-throughput local processing, immediate pipeline piloting, and containerized application testing (using Docker or Singularity) before deploying scripts to the larger HPC cluster.</p>
 <p>The rack is architected with multiple high-density multi-core server blades, substantial RAM per node (supporting memory-heavy operations like large-matrix transformations and voxel-wise permutations), and high-bandwidth local networking (e.g., dual 10GbE or 25GbE uplinks). This localized rack serves as an agile, department-controlled environment for real-time data curation, structural reconstruction, and machine learning model training without the queue latencies often associated with shared institutional resources.</p>
 </section>
