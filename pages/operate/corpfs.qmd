@@ -1,0 +1,18 @@
+---
+title: Operate CorpFS
+toc: true
+toc-depth: 2
+toc-expand: true
+---
+
+# Overview
+
+Managing research data requires balancing strict security protocols with seamless collaboration. The ND-HNC handles a mix of non-sensitive data and highly sensitive information, including Protected Health Information (PHI) and Personally Identifiable Information (PII). To remain compliant and ensure our research is reproducible, we do not tie participant data to individual research assistant accounts. Instead, we use the [CorpFS](https://esc.nd.edu/services/storage/), a centralized system that protects data continuity and enforces strict version control so that tasks are never accidentally altered and every assistant deploys the exact same version.
+
+To achieve this, our CorpFS environment is split into three specialized directories, each with distinct permission levels:
+
+- **Admin Directory:** A highly restricted, user-specific folder dedicated to securely housing sensitive PHI/PII data.
+- **Read Directory:** A standardized folder where all team members can view and execute research tasks, but cannot modify or delete files. This ensures version control.
+- **Write Directory:** A shared repository where all research assistants can save and aggregate participant output data into a single, centralized location.
+
+# Find CorpFS

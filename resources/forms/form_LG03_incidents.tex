@@ -1,0 +1,57 @@
+\documentclass[11pt, letterpaper]{article}
+
+% Packages for layout, tables, and formatting
+\usepackage[margin=0.6in, landscape]{geometry} % Landscape format fits the wide columns better
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{parskip}
+
+
+% Header and Footer configuration
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textbf{ND-HNC Form: LG03}}
+% \fancyhead[R]{Year: \rule{1.5cm}{0.4pt}}
+\renewcommand{\headrulewidth}{0.4pt}
+% \renewcommand{\footrulewidth}{0.4pt}
+
+% Define custom colors
+\definecolor{lightgray}{gray}{0.92}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{INCIDENTS LOG}}\\
+    \vspace{5pt}
+    Purpose: Record health-and safety-related incidents occurring at the ND-HNC (e.g. near miss, adverse event).
+\end{center}
+
+\vspace{15pt}
+
+% Logging Table
+\noindent
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.8cm}|>{\raggedright\arraybackslash}p{3cm}|X|>{\centering\arraybackslash}p{2.2cm}|>{\centering\arraybackslash}p{2.2cm}|}
+    \hline
+    \rowcolor{lightgray}
+    \textbf{Date} & \textbf{Time} & \textbf{Name} & \textbf{Issue Description} & \textbf{Reviewer Initials} & \textbf{Review Date} \\ \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+    & & & & & \\[3.5ex] \hline
+\end{tabularx}
+
+\end{document}

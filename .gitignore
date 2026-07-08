@@ -5,3 +5,9 @@
 *sop_*.log
 *sop_*.out
 *sop_*.synctex.gz
+*form_*.aux
+*form_*.fdb_latexmk
+*form_*.fls
+*form_*.log
+*form_*.out
+*form_*.synctex.gz

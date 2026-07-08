@@ -15,6 +15,7 @@
 % Link to other SOPs, forms
 \usepackage{xr}
 \externaldocument[102-]{../2_medical/sop_102_medical}
+\externaldocument[302-]{../../300_building/2_fire_gas/sop_302_fire_gas}
 \input{../../def_definitions.tex}
 
 % figures and tables
@@ -33,7 +34,7 @@
 \fancyhead[L]{}
 \fancyhead[R]{Approved: TBD}
 \fancyfoot[C]{}
-\fancyfoot[L]{ND-HNC SOP 101: v.0.3.1}
+\fancyfoot[L]{ND-HNC SOP 101: v.0.3.2}
 \fancyfoot[R]{p. \thepage /\pageref*{LastPage}}
 
 
@@ -95,23 +96,23 @@ In the sections below, several scenarios are depicted regarding hardware emergen
 \subsection{Gas: the Magnet Room is filling with gas and/or vapor.}
 \label{ssec:gas}
 
-A magnet quench results in the rapid boil-off of cryogens that maintain the superconductivity of the main field coils. While the resulting gases are engineered to exhaust safely through ceiling-mounted vent pipes, a venting system failure will cause these gases to accumulate in the room. Although the cryogens are non-toxic and non-explosive, they present a critical safety risk by displacing oxygen, creating a severe danger of fatal asphyxiation.
+A magnet quench results in the rapid boil-off of cryogens that maintain the superconductivity of the main field coils. Once in progress a quench cannot be stopped, do not attempt any interventions and stay out of the Magnet Room. While the resulting gases are engineered to exhaust safely through ceiling-mounted vent pipes, a venting system failure will cause these gases to accumulate in the room. Although the cryogens are non-toxic and non-explosive, they present a critical safety risk by displacing oxygen, creating a severe danger of fatal asphyxiation.
 
 \subsubsection*{\textit{Single Responder}}
 
 \begin{enumerate}
-	\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury-cons} or SOP 102.5.\ref{102-ssec:injury-uncons}).
+	\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.\ref{102-ssec:injury-cons} or SOP 102.\ref{102-ssec:injury-uncons}).
 	\begin{enumerate}
 		\item Stay low to the floor below the gas. The room will be cold, water vapor may make visibility in the room poor. A change in pressure may make it difficult to open the Magnet Room door.
 	\end{enumerate}
 	\item Close and lock the Magnet Room door.
-	\item Move to Zone 2 (Form RO03).
-	\item Call 911 to notify the South Bend Fire Department (SBFD) and say ``We have a possible gas leak in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street''.
+	\item Follow SOP 302.\ref{302-ssec:fire-evac} `Fire or Gas Leak' procedures:
 	\begin{enumerate}
-		\item Once in progress, a quench cannot be stopped. Do not attempt any interventions and stay out of the Magnet Room.
+		\item Pull the nearest fire alarm (Fig. \ref{fig:vfpc-floor0}).
+		\item Gather in the designated Safe Meeting Spot: Northwest corner of parking lot (Fig. \ref{fig:vfpc-rend}).
+		\item Call 911 to notify the South Bend Fire Department (SBFD) and say: ``We have gas in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street''.
+		\item If you are unable to evacuate, draw attention by yelling out.
 	\end{enumerate}
-	\item Call Veldman Reception and say ``We have a gas leak and have called the fire department. Please evacuate the building.''
-	\item Evacuate Zone 2 (see SOP 302).
 	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 	\item Prepare to receive and escort SBFD.
 	\item Record issue in ND-HNC Form LG01: Hardware Issues.
@@ -122,9 +123,9 @@ A magnet quench results in the rapid boil-off of cryogens that maintain the supe
 \begin{enumerate}
 	\item Lead
 	\begin{enumerate}
-		\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury-cons} or SOP 102.5.\ref{102-ssec:injury-uncons}).
+		\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.\ref{102-ssec:injury-cons} or SOP 102.\ref{102-ssec:injury-uncons}).
 		\item Close and lock the Magnet Room door.
-		\item Move to and evacuate Zone 2 (Form RO03, see SOP 302).
+		\item Proceed to the designated Safe Meeting Spot: Northwest corner of parking lot (Fig. \ref{fig:vfpc-rend}).
 		\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 		\item Prepare to receive and escort SBFD.
 		\item Record issue in ND-HNC Form LG01: Hardware Issues.
@@ -132,9 +133,10 @@ A magnet quench results in the rapid boil-off of cryogens that maintain the supe
 
 	\item Helper
 	\begin{enumerate}
+		\item If a Visitor is in the scanner, assist with their removal.
+		\item Pull the nearest fire alarm (Fig. \ref{fig:vfpc-floor0}).
+		\item Gather in the designated Safe Meeting Spot: Northwest corner of parking lot (Fig. \ref{fig:vfpc-rend}).
 		\item Call 911 to notify the South Bend Fire Department (SBFD) and say ``We have a possible gas leak in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street''.
-		\item Move to and evacuate Zone 2 (Form RO03, see SOP 302).
-		\item Call Veldman Reception and say ``We have a gas leak and have called the fire department. Please evacuate the building.''
 		\item Assist in receiving, escorting SBFD.
 	\end{enumerate}
 \end{enumerate}
@@ -154,7 +156,7 @@ Electrical disruption may spark combustible materials, resulting in fire or smok
 	\item Close and lock the Magnet Room door.
 	\item \textbf{Fire in Magnet Room}: Do not fight.
 	\item \textbf{Fire in Control or Equipment Room}: If possible, use the fire extinguisher in B15 to extinguish the fire (Fig. \ref{fig:fire-ext}).
-	\item Initiate Fire Evacuation (SOP 302): pull fire alarm (Fig. \ref{fig:fire-alarm}) and evacuate building.
+	\item Initiate Fire Evacuation (SOP 302.\ref{302-ssec:fire-evac}): pull fire alarm (Fig. \ref{fig:fire-alarm}) and evacuate building.
 	\item Call 911 to notify the South Bend Fire Department (SBFD) and say: ``We have [fire, smoke] in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street''.
 	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
 	\item Prepare to receive and escort SBFD.
@@ -176,7 +178,7 @@ Electrical disruption may spark combustible materials, resulting in fire or smok
 
 	\item Helper
 	\begin{enumerate}
-		\item Initiate Fire Evacuation (see SOP 302): pull fire alarm (Fig. \ref{fig:fire-alarm}) and evacuate building.
+		\item Initiate Fire Evacuation (SOP 302.\ref{302-ssec:fire-evac}): pull fire alarm (Fig. \ref{fig:fire-alarm}) and evacuate building.
 		\item \textbf{Fire in Magnet Room}: Do not fight.
 		\item \textbf{Fire in Control or Equipment Room}: If possible, use the fire extinguisher in B15 to extinguish the fire (Fig. \ref{fig:fire-ext}).
 		\item Call 911 to notify the South Bend Fire Department (SBFD) and say: ``We have [fire, smoke] in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street''.
@@ -193,7 +195,7 @@ Plumbing failure or severe storms may result in flooding and electrical disrupti
 
 \begin{enumerate}
 	\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall-mag}, C; Fig. \ref{fig:button-wall-con}, C).
-	\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury-cons} or SOP 102.5.\ref{102-ssec:injury-uncons}).
+	\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.\ref{102-ssec:injury-cons} or SOP 102.\ref{102-ssec:injury-uncons}).
 	\item Close and lock the Magnet Room door.
 	\item Move to Zone 2.
 	\item Call Utilities \& Maintenance (after hours: Notre Dame Police) and say: ``We have flooding in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street''.
@@ -264,7 +266,7 @@ The pumps circulate cryogens, which can be heard in B15, B17a, and B18. If the p
 The Control Room door is controlled by an Electronic Lock and will not open unless an authorized Irish1Card is presented. The Magnet Room door is electronically sealed. In the case of power failure, a key can open each door.
 
 \begin{enumerate}
-	\item Door to Magnet Room (B17a) does not release: press the emergency release button (Fig. \ref{fig:button-wall}, D); twist button clockwise to reset lock.
+	\item Door to Magnet Room (B17a) does not release: press the emergency release button (Figs. \ref{fig:button-wall-con}, D); twist button clockwise to reset lock.
 	\item Door to Control Room (B17) does not open: ensure you have proper access by contacting Allison Collins (Building Management).
 	\item Record issue in ND-HNC Form LG01: Hardware Issues.
 \end{enumerate}
@@ -312,5 +314,22 @@ The Control Room door is controlled by an Electronic Lock and will not open unle
 	\caption{Control Room oxygen sensor (left) and psychopysiologic equipment (right).}
 	\label{fig:oxygen}
 \end{figure}
+
+% Alarms
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{vfpc_floor0.png}
+	\caption{ND-HNC location of fire extinguishers (E1-5), alarm pulls (P1-4), and tornado shelters (T1-2). Crossed extinguisher indicates extinguisher does not exist in location.}
+	\label{fig:vfpc-floor0}
+\end{figure}
+
+% Rendezvous location
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{vfpc_rendezvous.png}
+	\caption{VFPC rendezvous location.}
+	\label{fig:vfpc-rend}
+\end{figure}
+
 
 \end{document}

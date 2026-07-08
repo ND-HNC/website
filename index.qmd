@@ -7,8 +7,8 @@ toc: true
 #   freeze: auto
 ---
 
-## Welcome
-Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page!
+<!-- ## Welcome
+Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page! -->
 
 ![Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!](media/veldman_mri.jpg){fig-align="left"}
 
@@ -21,22 +21,21 @@ Email: [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
 
 ## About
 
-Our goal is to provide operational support for research conducted at the [ND-HNC](https://neuroimaging.nd.edu/). We support every step of your research program:
+Our goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center ([ND-HNC](https://neuroimaging.nd.edu/)).
 
-- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Understand available resources.
-- [Training](pages/training.qmd): Learn to use the center.
+We support every step of your research program:
+
+- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Orient to available resources.
+- [Training](pages/training.qmd): Learn to use and gain access to the center.
 - Schedule: Book facilities.
-- Data collection: Operate research hardware.
+- [Operate](pages/operate.qmd): Use equipment to collect data.
 - [Compute](pages/compute.qmd): Develop codebase, sandbox testing, local computing, parallelization.
-  <!-- - Local machines
-  - Local rack
-  - Cluster resources -->
 - [Storage](pages/storage.qmd): Keep and manage data at various project stages.
 
 ## Operation Documents
 
 <!-- - [Forms](pages/forms.qmd): MRI Safety screener, other helpful documents. -->
-- [Policies](pages/sops.qmd): ND-HNC policies for use.
+- [Policies](pages/policies.qmd): ND-HNC policies for use.
 - [SOPs](pages/sops.qmd): Standard Operating Procedures and forms.
 
 ## Additional Resources
