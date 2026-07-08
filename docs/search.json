@@ -259,7 +259,7 @@
     "href": "pages/training.html#scheduled-trainings",
     "title": "Training",
     "section": "Scheduled Trainings",
-    "text": "Scheduled Trainings\nUpcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.\nNote:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED trainings are limited to 18 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1; see SOP 202).\nCPR/AED training cost is $65/person.\n\nPlease register here.\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-10am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n11am-12pm\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-10am\nVFPC 148\n\n\nLevel 2\n2026-10-05\n11am-12pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\nLevel 1\n2027-02-02\n9-10am\nVFPC 148\n\n\nLevel 2\n2027-02-02\n11am-12pm\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-10am\nVFPC 148\n\n\nLevel 2\n2027-03-02\n11am-12pm\nVFPC 148",
+    "text": "Scheduled Trainings\nUpcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.\nNote:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED trainings are limited to 18 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1; see SOP 202).\nCPR/AED training cost is $65/person.\n\nPlease register here.\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-10am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-10am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-10am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-10am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n11am-12pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n11am-12pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n11am-12pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n11am-12pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD",
     "crumbs": [
       "Training"
     ]
@@ -559,7 +559,7 @@
     "href": "pages/compute.html#access",
     "title": "Compute",
     "section": "Access",
-    "text": "Access\n\nContact Nathan Muncy, and HPC resources require a CRC account.",
+    "text": "Access\n\nContact Nathan Muncy. HPC resources also require a CRC account.",
     "crumbs": [
       "Compute"
     ]

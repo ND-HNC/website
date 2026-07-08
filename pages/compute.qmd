@@ -19,7 +19,7 @@ The Notre Dame Human Neuroimaging Center (ND-HNC) provides computational resourc
 
 ## Access
 
-- Contact [Nathan Muncy](people.qmd), and HPC resources require a CRC [account](https://docs.crc.nd.edu/new_user/obtain_account.html).
+- Contact [Nathan Muncy](people.qmd). HPC resources also require a CRC [account](https://docs.crc.nd.edu/new_user/obtain_account.html).
 
 ## Local Workstations
 
