@@ -25,14 +25,11 @@ Our goal is to provide operational support for research conducted at the Notre D
 
 We support every step of your research program:
 
-- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Learn about available resources.
+- [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Orient to available resources.
 - [Training](pages/training.qmd): Learn to use and gain access to the center.
 - Schedule: Book facilities.
-- [Operate](pages/operate.qmd): Use research hardware to collect data.
+- [Operate](pages/operate.qmd): Use equipment to collect data.
 - [Compute](pages/compute.qmd): Develop codebase, sandbox testing, local computing, parallelization.
-  <!-- - Local machines
-  - Local rack
-  - Cluster resources -->
 - [Storage](pages/storage.qmd): Keep and manage data at various project stages.
 
 ## Operation Documents

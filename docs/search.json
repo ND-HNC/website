@@ -249,17 +249,7 @@
     "href": "pages/training.html",
     "title": "Training",
     "section": "",
-    "text": "This page is under construction.",
-    "crumbs": [
-      "Training"
-    ]
-  },
-  {
-    "objectID": "pages/training.html#mri-safety-training",
-    "href": "pages/training.html#mri-safety-training",
-    "title": "Training",
-    "section": "MRI Safety Training",
-    "text": "MRI Safety Training\nAll researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 (see Form RO03) must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam (SOP 202). This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures/policies.\n\n\n\n\n\n\n\n\n\nAccess Level\nTopic\nMaterials\nExam\n\n\n\n\n1\nND-HNC Safety Operations\nSlides\nTBD\n\n\n2\nMRI Safety\nSlides\nTBD\n\n\n3\nMRI Safety, advanced\nSlides\nTBD\n\n\n4\nOperator Training\nSlides\nTBD",
+    "text": "All researchers, staff, and faculty of the Notre Dame Human Neuroimaging Center (ND-HNC) with access to MRI Zones 2, 3, and/or 4 (see Form RO03) must complete the annual MRI Safety Training and pass the corresponding MRI Safety Exam (SOP 202). This ensures that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures/policies.",
     "crumbs": [
       "Training"
     ]
@@ -269,7 +259,7 @@
     "href": "pages/training.html#scheduled-trainings",
     "title": "Training",
     "section": "Scheduled Trainings",
-    "text": "Scheduled Trainings\nUpcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.\nNote:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED trainings are limited to 18 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1; see SOP 202).\nCost of CPR/AED training is $65/person.\n\n\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\nRegister\n\n\n\n\nLevel 1\n2026-09-09\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2026-09-09\n11am-12pm\nVFPC 148\nEmail\n\n\nLevel 1\n2026-10-05\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2026-10-05\n11am-12pm\nVFPC 148\nEmail\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\nEmail\n\n\nLevel 1\n2027-02-02\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2027-02-02\n11am-12pm\nVFPC 148\nEmail\n\n\nLevel 1\n2027-03-02\n9-10am\nVFPC 148\nEmail\n\n\nLevel 2\n2027-03-02\n11am-12pm\nVFPC 148\nEmail",
+    "text": "Scheduled Trainings\nUpcoming training sessions designed to support essential safety and compliance certifications. Please review the schedule to select and register for the releveant session.\nNote:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED trainings are limited to 18 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1; see SOP 202).\nCPR/AED training cost is $65/person.\n\nPlease register here.\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-10am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n11am-12pm\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-10am\nVFPC 148\n\n\nLevel 2\n2026-10-05\n11am-12pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\nLevel 1\n2027-02-02\n9-10am\nVFPC 148\n\n\nLevel 2\n2027-02-02\n11am-12pm\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-10am\nVFPC 148\n\n\nLevel 2\n2027-03-02\n11am-12pm\nVFPC 148",
     "crumbs": [
       "Training"
     ]
@@ -299,7 +289,7 @@
     "href": "pages/sops.html#sops",
     "title": "Standard Operating Procedures",
     "section": "SOPs",
-    "text": "SOPs\n\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n101\nHardware\nDocument\nLG01, LG04, RO03\n\n\n102\nMedical\nDocument\nLG03, LG04, RO03\n\n\n103\nAdverse Events\nDocument\n\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nDocument\nRO01, RO03\n\n\n202\nZone Access\nDocument\nRO01\n\n\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nDocument\n\n\n\n302\nFire and Gas\nDocument\n\n\n\n303\nTornado\nDocument\n\n\n\n304\nActive Violence\nDocument",
+    "text": "SOPs\n\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n101\nHardware\nDocument\nLG01, LG04, RO03\n\n\n102\nMedical\nDocument\nLG03, LG04, RO03\n\n\n103\nIncident Reporting\nDocument\nLG03\n\n\n104\nIncidental Findings\nDocument\n\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nDocument\nRO01, RO03\n\n\n202\nZone Access\nDocument\nRO01\n\n\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nDocument\n\n\n\n302\nFire and Gas\nDocument\n\n\n\n303\nTornado\nDocument\n\n\n\n304\nActive Violence\nDocument",
     "crumbs": [
       "SOPs"
     ]
@@ -309,7 +299,7 @@
     "href": "pages/sops.html#forms",
     "title": "Standard Operating Procedures",
     "section": "Forms",
-    "text": "Forms\n\n\n\nRO: Research Operations\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nRO01\nMRI Safety Screen\nDocument\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nDocument\n\n\n\n\n\n\n\nLG: Log Issues and Maintenance\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nLG01\nHardware Issue\nDocument\n\n\n\nLG02\nHardware Maintenance\nDocument\n\n\n\nLG03\nAdverse Event\nDocument\n\n\n\nLG04\nCompliance\nDocument",
+    "text": "Forms\n\n\n\nGA: Governing Articles\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nGA01\nACR MRI Safety\nDocument\n\n\n\nGA02\nOHRP 2007\nDocument\n\n\n\nGA03\nFDA Reports\nDocument\n\n\n\n\n\n\n\nLG: Log Issues and Maintenance\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nLG01\nHardware Issue\nDocument\n\n\n\nLG02\nHardware Maintenance\nDocument\n\n\n\nLG03\nIncidents\nDocument\n\n\n\nLG04\nCompliance\nDocument\n\n\n\n\n\n\n\nRO: Research Operations\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nRO01\nMRI Safety Screen\nDocument\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nDocument",
     "crumbs": [
       "SOPs"
     ]
@@ -345,41 +335,39 @@
     ]
   },
   {
+    "objectID": "pages/operate/mock.html",
+    "href": "pages/operate/mock.html",
+    "title": "Operate Mock MRI",
+    "section": "",
+    "text": "The Encore MRI Simulator is a training device designed to help participants practice remaining perfectly still during a scan, using specialized MoTrak software to monitor movement.\nTo power this motion-tracking feature, the simulator is equipped with an internal magnetic field generator. Because this generator emits a real magnetic field, the simulator is not compatible with pacemakers or other implanted medical devices."
+  },
+  {
+    "objectID": "pages/operate/mock.html#ssec:mock-setup",
+    "href": "pages/operate/mock.html#ssec:mock-setup",
+    "title": "Operate Mock MRI",
+    "section": "Setup Instructions",
+    "text": "Setup Instructions\nSetup 1: Turn mock scanner on using both switches (red arrows) at the back of the device.\n\n\n\n\n\nSetup 2: Wait 3 minutes for system to boot.\n\n\n\n\n\nSetup 3: Verify screen inverter is working (mirror selected, Input solid).\n\n\n\n\n\nSetup 4: Customize simulation. Enter Options menu (Mock Control, R).\n\n\n\nMock Control\n\n\nSetup 5: Specify your customization of:\n\nBore and Accent colors (Mock Customize, A & B)\nAmbient sound (Mock Customize, C)\nProtocol sound and duration (Mock Customize, D)\nAlarm volume (Mock Customize, E)\nButton sound (Mock Customize, F)\n\n\n\n\nMock Customize\n\n\nSetup 6: Once customization is complete, return to the Control menu (Mock Customize, G).\n\n\n\n\n\nSetup 7: Specify fan, core light, and accent light strength (Mock Control, A-C).\nSetup 8: If you intend to use Motrak, please also note setup instructions in Monitor Movement (steps 1-4)."
+  },
+  {
+    "objectID": "pages/operate/mock.html#ssec:mock-simulate",
+    "href": "pages/operate/mock.html#ssec:mock-simulate",
+    "title": "Operate Mock MRI",
+    "section": "Simulate Scan",
+    "text": "Simulate Scan\nSimulate 1: Have participant lay supine, with the top of the head near the apex of the coil base.\n\n\n\n\n\nSimulate 2: Provide headphones and black squeeze ball (Mock Equipment, A & C).\n\nTest squeeze ball; deactivate alarm with Alarm (Mock Control, D).\n\n\n\n\nMock Equipment\n\n\nSimulate 3: Add coil top, ensure participant can see through the eye fields.\n\nFor Motrak, see also Monitor Movement (step 5).\n\n\n\n\n\n\nSimulate 4: Use Table In Slow (Mock Control, I) to drive participant to up to alignment. Have participant close eyes.\n\nSAFETY: Closing eyes is critical to avoid damaging the eyeball with alignment laser!\n\nSimulate 5: Turn laser on (Mock Control, E). Use Table In/Out Slow (Mock Control, H & I) to align laser between eyebrows.\n\nTurn off laser (Mock Control, E).\n\n\n\n\n\n\nSimulate 6: Attach mirror to coil top. Adjust mirror (superior/inferior) until participant can see monitor screen.\n\n\n\n\n\nSimulate 7: Send participant to isocenter via Advance to Scan (Mock Control, M).\n\n\n\n\n\nSimulate 8: Conduct simulation via Start Scan (Mock Control, O).\n\nUse Options menu to select additional sequences (Mock Control, R)."
+  },
+  {
+    "objectID": "pages/operate/mock.html#end-simulation",
+    "href": "pages/operate/mock.html#end-simulation",
+    "title": "Operate Mock MRI",
+    "section": "End Simulation",
+    "text": "End Simulation\nEnd 1: Stop simulation with Pause/Abort Scan (Mock Control, P & Q).\nEnd 2: Return participant to home position with Home (Mock Control, K).\n\nIt is also possible to drive the participant to the home position with Table Out Fast/Slow (Mock Control, G & H).\n\nEnd 3: For power failure, issues with the table moving: press the table release button.\n\nManually pull table to home position.\nTwist release button clockwise to reset table and clear the error."
+  },
+  {
     "objectID": "pages/operate.html",
     "href": "pages/operate.html",
     "title": "Operate",
     "section": "",
-    "text": "This page is under construction.",
-    "crumbs": [
-      "Operate"
-    ]
-  },
-  {
-    "objectID": "pages/operate.html#ssec:mock",
-    "href": "pages/operate.html#ssec:mock",
-    "title": "Operate",
-    "section": "Mock Scanner",
-    "text": "Mock Scanner\nThe MRI simulator (mock) provides two main features: the ability to simulate the MRI environment, from the coils and bore to acquisition sounds, and to monitor head movement.\n\nSimulate\nThese steps describe how to conduct a simulated MRI experience.\n\nSetup Instructions\nSetup 1: Turn mock scanner on using both switches (red arrows) at the back of the device.\n\n\n\n\n\nSetup 2: Wait 3 minutes for system to boot.\n\n\n\n\n\nSetup 3: Verify screen inverter is working (mirror selected, Input solid).\n\n\n\n\n\nSetup 4: Customize simulation. Enter Options menu (Mock Control, R).\n\n\n\nMock Control\n\n\nSetup 5: Specify your customization of:\n\nBore and Accent colors (Mock Customize, A & B)\nAmbient sound (Mock Customize, C)\nProtocol sound and duration (Mock Customize, D)\nAlarm volume (Mock Customize, E)\nButton sound (Mock Customize, F)\n\n\n\n\nMock Customize\n\n\nSetup 6: Once customization is complete, return to the Control menu (Mock Customize, G).\n\n\n\n\n\nSetup 7: Specify fan, core light, and accent light strength (Mock Control, A-C).\n\n\nSimulate participant\nSimulate 1: Have participant lay supine, with the top of the head near the apex of the coil base.\n\n\n\n\n\nSimulate 2: Provide headphones and squeeze ball (Mock Equipment, A & C [black]).\n\nTest squeeze ball; deactivate alarm with Alarm (Mock Control, D).\n\n\n\n\nMock Equipment\n\n\nSimulate 3: Add coil top, ensure participant can see through the eye fields.\n\n\n\n\n\nSimulate 4: Use Table In Slow (Mock Control, I) to drive participant to alignment. Have participant close eyes.\n\nSAFETY: Closing eyes is critical to avoid damaging the eyeball with alignment laser!\n\nSimulate 5: Turn laser on (Mock Control, E). Use Table In/Out Slow (Mock Control, H & I) to align laser between eyebrows.\n\nTurn off laser (Mock Control, E).\n\n\n\n\n\n\nSimulate 6: Attach mirror to coil top. Adjust mirror (superior/inferior) until participant can see monitor screen.\n\n\n\n\n\nSimulate 7: Send participant to isocenter via Advance to Scan (Mock Control, M).\n\n\n\n\n\nSimulate 8: Conduct simulation via Start Scan (Mock Control, O).\n\nEnd simulation with Pause/Abort Scan (Mock Control, P & Q).\nUse Options menu to select additional sequences (Mock Control, R).\n\n\n\n\nEnd simulation\nMove to Home Emergency override Manual Home\n\n\n\nMonitor Movement\nManual",
-    "crumbs": [
-      "Operate"
-    ]
-  },
-  {
-    "objectID": "pages/operate.html#stimulus-computer",
-    "href": "pages/operate.html#stimulus-computer",
-    "title": "Operate",
-    "section": "Stimulus Computer",
-    "text": "Stimulus Computer",
-    "crumbs": [
-      "Operate"
-    ]
-  },
-  {
-    "objectID": "pages/operate.html#dicom-computer",
-    "href": "pages/operate.html#dicom-computer",
-    "title": "Operate",
-    "section": "DICOM Computer",
-    "text": "DICOM Computer",
+    "text": "This page is under construction.\nThe ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:\n\n\n\nResource\nDescription\n\n\n\n\nHNC CorpFS\nCentralize experiment protocols and participant response data.\n\n\nMRI Simulator\nPrepare participants to contribute MRI data.\n\n\nNordicNeuroLab\nDeploy functional MRI paradigms and capture participant responses.\n\n\nStimulus Control Computer\nDeploy lab-specific MRI paradigms.\n\n\nDICOM Management Computer\nCapture, organize, and send DICOM files to an appropriate location.",
     "crumbs": [
       "Operate"
     ]
@@ -514,7 +502,7 @@
     "href": "index.html#about",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "About",
-    "text": "About\nOur goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC).\nWe support every step of your research program:\n\nFacilities and Equipment: Learn about available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nOperate: Use research hardware to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization. \nStorage: Keep and manage data at various project stages.",
+    "text": "About\nOur goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC).\nWe support every step of your research program:\n\nFacilities and Equipment: Orient to available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nOperate: Use equipment to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization.\nStorage: Keep and manage data at various project stages.",
     "crumbs": [
       "Home"
     ]
@@ -571,7 +559,7 @@
     "href": "pages/compute.html#access",
     "title": "Compute",
     "section": "Access",
-    "text": "Access\n\nLocal workstations, dedicated server: contact Nathan Muncy.\nHPC: Any CRC user account that is part of the HNC group has full access to these resources (contact Nathan Muncy to be added to the HNC group).",
+    "text": "Access\n\nContact Nathan Muncy, and HPC resources require a CRC account.",
     "crumbs": [
       "Compute"
     ]
@@ -746,6 +734,13 @@
     "title": "Forms",
     "section": "Forms",
     "text": "Forms\n\n\n000: ND-HNC Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Safety Screen\nDocument\n\n\n002\nArrival Instructions\nBlue, White\n\n\n003\nCenter Layout\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n103\nCompliance\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware\nDocument"
+  },
+  {
+    "objectID": "pages/operate/corpfs.html",
+    "href": "pages/operate/corpfs.html",
+    "title": "Operate CorpFS",
+    "section": "",
+    "text": "Overview\nManaging research data requires balancing strict security protocols with seamless collaboration. The ND-HNC handles a mix of non-sensitive data and highly sensitive information, including Protected Health Information (PHI) and Personally Identifiable Information (PII). To remain compliant and ensure our research is reproducible, we do not tie participant data to individual research assistant accounts. Instead, we use the CorpFS, a centralized system that protects data continuity and enforces strict version control so that tasks are never accidentally altered and every assistant deploys the exact same version.\nTo achieve this, our CorpFS environment is split into three specialized directories, each with distinct permission levels:\n\nAdmin Directory: A highly restricted, user-specific folder dedicated to securely housing sensitive PHI/PII data.\nRead Directory: A standardized folder where all team members can view and execute research tasks, but cannot modify or delete files. This ensures version control.\nWrite Directory: A shared repository where all research assistants can save and aggregate participant output data into a single, centralized location.\n\n\n\nFind CorpFS"
   },
   {
     "objectID": "pages/people.html",

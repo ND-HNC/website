@@ -12,11 +12,15 @@
 \usepackage{fancyhdr}
 \usepackage{datetime}
 \usepackage{parskip}
+\usepackage[normalem]{ulem}
+\usepackage{xurl}
 
 % Link to other SOPs, forms
 \usepackage{xr}
 \externaldocument[102-]{../2_medical/sop_102_medical}
 \input{../../def_definitions.tex}
+\usepackage[super]{cite}
+\hypersetup{colorlinks=true, citecolor=black}
 
 % figures and tables
 \usepackage{graphicx}
@@ -46,63 +50,140 @@
 \renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
 
 \begin{center}
-	\textbf{\Large SOP 103: Adverse Events}\\
+	\textbf{\Large SOP 103: Reporting Incidents}\\
 	\hrulefill
 \end{center}
 
 
 \section{Summary}
-On rare instances, Subjects may become injured or ill as a result of their participation in a research MRI study. This SOP establishes procedures for reporting adverse effects.
+This document establishes procedures for Incident and Adverse Event reporting at the Notre Dame Human Neuroimaging Center (ND-HNC). They are intended to match the Incident or Adverse Event with the entity to which reports are made.
 
 
 \section{Scope}
-These policies apply to all investigators, research assistants, and ND-HNC staff who enter Zones 3 \& 4 (B15, B17, B17a; Fig. \ref{fig:mri-zones}).
+These policies apply to all investigators, research assistants, and staff who use the ND-HNC.
 
 \section{Definitions}
 
 \begin{itemize}
-	\item \Lead
-	\item \Subject
+	\item \AdverseEvent\cite{ohrp2007}
+	\item \GoodCatch
+	\item \Incident
+	\item \NearMiss
+	\item \SeriousInjury\cite{injury}
+	\item \UnanticipatedProblem\cite{ohrp2007}
+	\item \Visitor
 \end{itemize}
 
 \section{Notes}
 
-None
+This SOP does not replace any requirements or obligations research personnel have for reporting Adverse Events or Unanticipated Problems.
 
 \section{Policies \& Procedures}
 
-The safety and well-being of research participants are of paramount importance in all research activities. This Standard Operating Procedure (SOP) establishes the process for identifying, assessing, documenting, and reporting adverse events that occur during or as a result of participation in a research study.
+The safety of research personnel and participants is of paramount importance in all research activities. Accordingly, any Incident that puts an individual's health, safety, or well-being at risk must be reported and documented promptly. Center (ND-HNC), University, federal, and manufacturer policies require different levels of reporting at different time intervals; a single Incident is likely to be reported to multiple entities.
 
-An adverse event is any accident, injury, illness, or health-related complaint that may be associated with a participant's involvement in a research study. Adverse events can range from minor but persistent symptoms to serious incidents involving physical injury, medical device interference, or other significant health consequences. Events that expose a participant to potential harm, even when no injury occurs, may also be considered adverse events. Not all participant discomfort constitutes an adverse event. Common and anticipated experiences that are disclosed during the informed consent process, such as mild discomfort or anxiety associated with study procedures, are generally not considered adverse events. However, unusually severe reactions or symptoms may warrant classification as an adverse event.
+An \uline{Adverse Event} can be understood as any accident, injury, illness, or health-related complaint that may be \textit{\textbf{temporally}} associated with a Visitor's involvement with the ND-HNC. These may range from minor (e.g. headache) to serious (see, Serious Injury). For instance, a Visitor may have a tour of the center and then complain about feeling faint. We do not differentiate between expected and unexpected Adverse Events.
 
-Because the distinction between an adverse event, a routine complaint, or an unrelated accident may not always be immediately clear, investigators should prioritize participant safety and appropriate response over event classification. Any participant injury, reported injury, or significant health concern must be addressed promptly, documented appropriately, and reported to the relevant University authorities as required. Final determination of event classification may be made following review of the circumstances.
+A \uline{Serious Injury} describes a severe medical emergency. It includes any injury or illness that is immediately life-threatening, causes lasting damage to how a person's body functions or looks, or requires urgent medical or surgical treatment to prevent that permanent damage from happening.
+
+An \uline{Unanticipated Problem} is an unexpected event or outcome that is related to research operations and constitutes a new, previously unknown risk. The emergence of Lululemon's Silverscent material, and the resulting burns, are an example.
+
+Because the distinction among the various Incident types may not always be immediately clear, personnel should prioritize safety and appropriate response over classification. Any Incident must be addressed promptly, documented appropriately, and reported to the relevant University authorities as required. Final determination of Incident classification may be made following review of the circumstances.
+
+The ND-HNC follows all guidelines and reporting measures set in place by the University of Notre Dame's Incident Reporting and Management Program from the Risk Management and Safety Department (\href{https://riskmanagement.nd.edu/incident-reporting-management/}{link}).
+
+%
+\subsection{Incidents involving Faculty, Staff, Students \& Contractors}
+\label{ssec:policy-staff}
+Any Incident which occurs with an employee or student of the University of Notre Dame must be immediately reported to ND-HNC staff.
+
+ND-HNC staff then:
+\begin{enumerate}
+	\item Navigate to Risk Management\cite{riskman}
+	\item Follow the prompts, selecting the appropriate option (e.g. Good Catch)
+	\begin{enumerate}
+		\item If reporting an injury, select \textit{\textbf{``Yes''}} to complete the \textbf{\underline{Safety Incident Report}}.
+		\item Note: ND faculty or staff must submit this report on behalf of unpaid students and contractors.
+	\end{enumerate}
+	\item Log the Incident in ND-HNC Form LG03: Incidents.
+\end{enumerate}
+
+%
+\subsection{Incidents involving Visitors}
+\label{ssec:policy-visitor}
+Any Incident which occurs with an individual not affiliated with Notre Dame, or with an affiliate during their personal time (e.g. lunch break) must be immediately reported to ND-HNC staff.
+
+ND-HNC staff then:
+\begin{enumerate}
+	\item Navigate to Risk Management\cite{riskman}
+	\item Follow the prompts, selecting the appropriate option (e.g. Good Catch)
+	\begin{enumerate}
+		\item If reporting an injury, select \textit{\textbf{``No''}} to complete the \textbf{\uline{General Liability Incident Report}}.
+	\end{enumerate}
+	\item Log the Incident in  ND-HNC Form LG03: Incidents.
+\end{enumerate}
+
+%
+\subsection{MRI-Related Incidents}
+Incidents related to the MRI scanner are reported to: (1) the University, (2) the FDA, and (3) the Manufacturer (Siemens)\cite{medrep}. These guidelines do not overrule, offset, or replace the required reporting of Adverse Events for research teams or investigators.
+
+\subsubsection{University Reporting}
+Follow procedures detailed in Sections \ref{ssec:policy-staff}, \ref{ssec:policy-visitor}.
+
+\subsubsection{FDA Reporting}
+ND-HNC staff voluntarily report Adverse Events and Serious Injuries to the FDA through their MedWatch\cite{medwatch} program. Items that should be reported to the FDA:
+
+\begin{itemize}
+	\item Device-related Death: within 10 work days of becoming aware (Form FDA 3500A).
+	\item Annual summary of death and serious injury reports: January 1 for the preceding year (Form FDA 3419).
+	\item Unexpected side effects or adverse events including but not limited to, skin rashes to more serious complications.
+	\item Product quality problems such as information if a product isn't working properly or if it has a defect.
+	\item ``Information that reasonably suggests'' that a medical device has caused or contributed to a reportable event including information such as professional, scientific or medical facts and observations or opinions.
+	\item ``Information that is reasonably known'' to user facilities including information found in documents and any information that becomes available as a result of reasonable follow-up within the facility.
+\end{itemize}
+
+To file a report:
+
+\begin{enumerate}
+	\item Navigate to MedWatch\cite{medwatch}.
+	\item Select `Report a Problem'.
+	\item Select `Health Professional'.
+	\item Fill out the  \uline{\textbf{MedWatch Voluntary Health Professional Report}} to the best of your ability.
+\end{enumerate}
 
 
-% Medical
-\subsection{Medical Emergencies}
-\label{ssec:medical}
+\subsubsection{Siemens Reporting}
+ND-HNC staff voluntarily report Adverse Events and Serious Injuries to the MRI Manufacturer (Siemens). Items that should be reported to Siemens:
 
-Consult SOP 102.\ref{102-sec:policies} if the Subject becomes injured or seriously ill in the MRI suite. Attending to a Subject's safety and calling for qualified help is the first priority of the Lead.
+\begin{itemize}
+	\item Device-related Death: within 10 work days of becoming aware (Form FDA 3500A).
+	\item Device-related Serious injury: within 10 work days of becoming aware (Form FDA 3500A).
+\end{itemize}
 
+To file a report:
 
-% Risk
-\subsection{Risk Management}
-\label{ssec:risk-manag}
-
-The Principal Investigator or Experimenter must report serious adverse events to [ND RISK MANAGEMENT] immediately. [ND RISK MANAGEMENT] advises the University on liability issues. All incidents should be reported by [PROPER PROCEDURES].
-
-Risk Management can also be called for assistance with patient care or visitor loss exposure or policy/procedure issues on which you have questions such as consent problems, patient rights issues, falls, and documentation of medical records.
-
-
+\begin{enumerate}
+	\item Call Siemens Healthineers: 1-800-888-7436\cite{siemens}.
+\end{enumerate}
 
 \section{Figures}
 
-% MRI zones
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=\textwidth]{mri_zones.jpg}
-	\caption{Schematic of ND-HNC MRI Zones. \textbf{Orange} Zone 1. \textbf{Purple} Zone 2. \textbf{Green} Zone 3. \textbf{Blue} Zone 4.}
-	\label{fig:mri-zones}
-\end{figure}
+None.
+
+\begin{thebibliography}{999}
+	\bibitem{ohrp2007}
+		Office for Human Research Protections. (2007).
+		Reviewing and reporting unanticipated problems involving risks to subjects or others and adverse events: OHRP guidance (2007).
+	\bibitem{injury}
+		21 U.S.C. § 802(25).
+	\bibitem{riskman}
+		\url{https://riskmanagement.nd.edu/incident-reporting-management}
+	\bibitem{medrep}
+		\url{https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reporting-mdr-how-report-medical-device-problems}
+	\bibitem{medwatch}
+		\url{https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program}
+	\bibitem{siemens}
+		\url{https://www.siemens-healthineers.com/en-us/how-can-we-help-you}
+\end{thebibliography}
 
 \end{document}
