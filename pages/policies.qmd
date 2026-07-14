@@ -6,12 +6,57 @@ toc-depth: 2
 
 This page is under construction.
 
+## Access Levels
+
+1. Training (Level 1-4) must be renewed annually by attending the respective MRI Safety course and passing the exams.
+    - Shadow hours do not need to be renewed.
+1. Levels 2-4 must maintain current CPR/AED and First-Aid certification.
+1. Level 1 does not grant access to the Mock room (B14) or the ability to review the MRI Safety Screen.
+1. Level 2 does not grant Irish1card access to Zone 3.
+1. Level 3:
+    - May enter Zone 3 to access computers in the MRI Control room without supervision.
+    - Does not have access to the MRI Equipment room (B18A).
+    - Must be supervised when entering Zone 4.
+    - Cannot provide second review of MRI Safety Screen.
+    - May train to become Level 4 only for project-specific purposes.
+    - Cannot be an undergraduate student.
+1. Level 4:
+    - Must be accompanied by another person with at least access Level 2 when a visitor or participant is in Zone 4.
+    - Must be at least a Ph.D. candidate.
+
+## Billing
+
+TBD
+
+## Compliance
+
+1. Researchers, staff, and faculty are expected to read and operate in accordance with [Standard Operating Procedures](sops.qmd).
+1. Protocol violations are logged by staff in Form LG04: [Compliance](../resources/forms/form_LG04_protocol_violations.pdf).
+1. A pattern of compliance issues will result in corrective actions, including access revocation.
+
 ## Compute
 
 1. Personal Health Information (PHI) data is __NOT__ permitted on the HPC Cluster.
 1. Coordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. $>$ 400 CPUs on the HPC cluster).
     - This helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).
 
+
+## Safety Zones
+
+1. Researchers with Level access must wear the identifying badge while in Zones 2-4.
+1. Individuals without Level access must be escorted in Zones 2-4.
+1. MRI Safety Screeners must be completed by everyone entering Zone 3.
+    - Researchers with Level access submit these (a) annually, and (b) whenever an event occurs that might change their MRI compatibility.
+
+
+## Scheduling
+
+1. No-shows and scan cancellations $<$ 24 hours before the appointment are charged at 50% scan rate.
+1. Reservations of facilities and equipment are only for confirmed participants.
+    - "Blocking out" facilities/equipment time will result in charges for the entire block, not only the populated time slots.
+1. Equipment/facilities are to be available for the subsequent appointment.
+    - A research protocol may be interrupted if research teams occupy equipment/facilities past their reservation.
+    - A pattern running behind schedule will result in corrective actions, including access revocation.
 
 ## Storage
 
@@ -21,6 +66,13 @@ This page is under construction.
 1. Data stored in Scratch should be for active analyses only.
 1. Storing third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.
     - Only the Final Data should be maintained.
+1. Local compute resources (ND-HNC rack, workstations) are not acceptable devices for data storage.
+1. Shared presentation computers (e.g. Mock and Stimulus control) should not store tasks, stimuli, or data.
+
+
+## Training
+
+1. Access Level
 
 <!--
 ## Schedule

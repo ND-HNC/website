@@ -6,10 +6,10 @@ This page is under construction.
 
 The ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:
 
-| Resource | Description |
-|----------|-------------|
-| HNC CorpFS | Centralize experiment protocols and participant response data. |
-| [MRI Simulator](operate/mock.qmd){target="_blank"} | Prepare participants to contribute MRI data. |
-| NordicNeuroLab | Deploy functional MRI paradigms and capture participant responses. |
-| Stimulus Control Computer | Deploy lab-specific MRI paradigms. |
-| DICOM Management Computer | Capture, organize, and send DICOM files to an appropriate location. |
+| Resource | Type | Purpose |
+|----------|------|-------------|
+| [CorpFS](operate/corpfs.qmd) | File System | Centralize experiment protocols and participant response data. |
+| [MRI Simulator](operate/mock.qmd){target="_blank"} | Equipment | Prepare participants to contribute MRI data. |
+| NordicNeuroLab | Equipment | Deploy functional MRI paradigms and capture participant responses. |
+| Stimulus Control | Computer | Deploy lab-specific MRI paradigms. |
+| DICOM Management | Computer | Capture, organize, and send DICOM files to an appropriate location. |

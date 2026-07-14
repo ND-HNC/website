@@ -15,9 +15,11 @@ Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Op
 
 ## Join Us
 
-Follow these [arrival](pages/directions.qmd) instructions for help locating the center, parking, and entry.
+- Contact: [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
+- Tours: email [Alex Musser](pages/people.qmd).
+- Prepare: individuals entering [Zones 3 & 4](resources/sops/pics/nd-hnc_layout_zones.png) are required to fill out an [MRI Safety Screen](resources/forms/form_RO01_mri_screen.pdf) form.
+- Visit: follow these [instructions](pages/directions.qmd) or share this [flyer](resources/forms/form_RO02_arrival_white.pdf).
 
-Email: [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
 
 ## About
 
