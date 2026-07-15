@@ -4,7 +4,7 @@ toc: true
 toc-depth: 4
 ---
 
-![Veldman Family Psychology Clinic](../media/vfpc_building.jpg){width=75% fig-align="left"}
+![](../media/ndhnc_plaque.jpg){width=50% fig-align="left"}
 
 <!-- ## ND-HNC Resources
 
@@ -73,10 +73,6 @@ __Analyst:__ The neuroimaging data expert provides specialized support for advan
 __Technologist:__ A certified, full-time Technologist operates the 3T scanner and handles daily scanning execution. The Technologist is responsible for strict participant safety screening, anatomical positioning, and the seamless integration of peripheral equipment (including the NordicNeuroLab stimulus presentation systems and response devices). They ensure comfortable, safe, and highly standardized data collection environments for all participant cohorts.
 
 __Operations Coordinator:__ The Coordinator manages the day-to-day administrative and logistical workflows of the facility. Key responsibilities include administering the centralized participant scheduling system, coordinating billing, ensuring compliance with institutional IRB and federal regulations, and facilitating investigator onboarding and safety training. The Coordinator serves as the primary operational liaison between research teams and the center.
-
-
-
-
 
 
 ### Electrophysiology and Neuromodulation Resources

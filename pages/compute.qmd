@@ -32,9 +32,3 @@ For resource-intensive processes that exceed standard desktop capabilities, the 
 ## HPC Cluster
 
 To support large-scale studies, advanced machine learning applications, and complex network modeling the ND-HNC leverages the power of the university's broader compute infrastructure. We have purchased 1,280 dedicated CPUs for the Notre Dame Center for Research Computing ([CRC](https://crc.nd.edu/)) cluster, granting members of our group priority access. These resources facilitate massive parallelization, enabling our community to scale their analyses for large datasets or complex worfklows.
-
-## Policies
-
-1. Personal Health Information (PHI) data is __NOT__ permitted on the HPC Cluster.
-1. Coordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. $>$ 400 CPUs on the HPC cluster).
-    - This helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).

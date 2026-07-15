@@ -192,8 +192,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
   <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">Access</a></li>
-  <li><a href="#usage" id="toc-usage" class="nav-link" data-scroll-target="#usage">Usage</a></li>
-  <li><a href="#policies" id="toc-policies" class="nav-link" data-scroll-target="#policies">Policies</a></li>
+  <li><a href="#ssec:usage" id="toc-ssec:usage" class="nav-link" data-scroll-target="#ssec\:usage">Usage</a></li>
+  <li><a href="#guidelines" id="toc-guidelines" class="nav-link" data-scroll-target="#guidelines">Guidelines</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -271,13 +272,6 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<!-- Key Guidelines for Users:
-
-- As storage is shared across the ND-HNC community, please:
-    - Manage your allocations responsibly,
-    - Migrate data to the appropriate tier as your project progresses (see Dataflow).
-- Compute nodes do not have access to files stored in Tier 2.
-- Tier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here. -->
 </section>
 <section id="access" class="level2">
 <h2 class="anchored" data-anchor-id="access">Access</h2>
@@ -286,8 +280,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Contact <a href="../pages/people.html">Nathan Muncy</a> to be added to the HNC group.</li>
 </ul>
 </section>
-<section id="usage" class="level2">
-<h2 class="anchored" data-anchor-id="usage">Usage</h2>
+<section id="ssec:usage" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:usage">Usage</h2>
 <p>Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow <strong>all users to have full access to all resources</strong>. Such an approach:</p>
 <ul>
 <li>Ensures there is sufficient capacity to support large projects (e.g.&nbsp;HCP data).</li>
@@ -416,8 +410,8 @@ ul.task-list li input[type="checkbox"] {
 <title>tier1_active-&gt;tier2_archive</title>
 <path fill="none" stroke="black" d="M548.61,-64.18C451.27,-88.01 285.62,-128.57 183.99,-153.46"></path>
 <polygon fill="black" stroke="black" points="182.94,-150.11 174.06,-155.89 184.6,-156.91 182.94,-150.11"></polygon>
-<text text-anchor="start" x="301.32" y="-151" font-family="Helvetica,Arial,sans-serif" font-size="12.00"> Paper accepted:</text>
-<text text-anchor="start" x="301.32" y="-136.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00"> Archive Tier 1 data</text>
+<text text-anchor="start" x="304.82" y="-151" font-family="Helvetica,Arial,sans-serif" font-size="12.00"> Paper accepted:</text>
+<text text-anchor="start" x="304.82" y="-136.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00"> Archive final data</text>
 </g>
 </g>
 </svg>
@@ -436,31 +430,25 @@ ul.task-list li input[type="checkbox"] {
 <li>Final results are transferred to Active Storage for manuscript generation.</li>
 <li>Upon publication, files in Active Storage are transferred to Cold Storage.</li>
 </ol>
-<p>Recommendations:</p>
+</section>
+<section id="guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="guidelines">Guidelines</h2>
 <ul>
 <li>Build the dataflow into your workflow/codebase.</li>
-<li>Maintain only the requisite intermediates for the next pipeline step.</li>
+<li>As storage is shared across the ND-HNC community, please:
+<ul>
+<li>Manage your allocations responsibly,</li>
+<li>Migrate data to the appropriate tier as your project progresses,</li>
+<li>Maintain only the requisite intermediates for subsequent pipeline steps.</li>
+</ul></li>
 </ul>
 </section>
-<section id="policies" class="level2">
-<h2 class="anchored" data-anchor-id="policies">Policies</h2>
-<ol type="1">
-<li>Storage of Personal Health Information (PHI) data is <strong>NOT</strong> permitted.</li>
-<li>Users or groups using a disproportionate amount of resources will be required to reduce their footprint or <strong><em>risk losing access</em></strong>.</li>
-<li>Intermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.</li>
-<li>Data stored in Scratch should be for active analyses only.</li>
-<li>Storing third-party data (e.g.&nbsp;HCP, NKI, ABCD) is not permitted on Cold or Active Storage.
+<section id="notes" class="level2">
+<h2 class="anchored" data-anchor-id="notes">Notes</h2>
 <ul>
-<li>Only the Final Data should be maintained.</li>
-</ul></li>
-</ol>
-<!-- ## Details
-
-### Tier 1
-
-### Tier 2
-
-### Tier 3 -->
+<li>CRC compute nodes do not have access to files stored in Tier 2.</li>
+<li>Tier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here.</li>
+</ul>
 
 
 </section>

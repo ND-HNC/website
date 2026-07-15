@@ -4,6 +4,8 @@ toc: true
 toc-depth: 4
 ---
 
+![](../media/mock_green.jpg){width=75% fig-align="left"}
+
 # Summary
 This page provides both overview descriptions and technical equipment statements for research hardware available at the ND-HNC. Grant writers will be most interested in the [Equipment Statement](#sec:equip-state) section.
 

@@ -146,12 +146,13 @@ A magnet quench results in the rapid boil-off of cryogens that maintain the supe
 \subsection{Fire or Smoke: present in Magnet or Control Room.}
 \label{ssec:fire}
 
-Electrical disruption may spark combustible materials, resulting in fire or smoking. The Magnet Room is equipped with a built-in fire suppression system, and both the Magnet Room and Control Room are equipped with fire detectors.
+Electrical disruption may spark combustible materials, resulting in fire or smoking. The Magnet Room is equipped with a built-in fire suppression system which should trigger automatically, and both the Magnet Room and Control Room are equipped with fire detectors.
 
 \subsubsection*{\textit{Single Responder}}
 
 \begin{enumerate}
 	\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall-mag}, C; Fig. \ref{fig:button-wall-con}, C).
+	\item If needed, twist the Fire Suppression trigger (Fig. \ref{fig:button-wall-con}, E).
 	\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury-cons} or SOP 102.5.\ref{102-ssec:injury-uncons}).
 	\item Close and lock the Magnet Room door.
 	\item \textbf{Fire in Magnet Room}: Do not fight.
@@ -169,6 +170,7 @@ Electrical disruption may spark combustible materials, resulting in fire or smok
 	\item Lead
 	\begin{enumerate}
 		\item Press the Emergency Power Off (EPO) button (Fig. \ref{fig:button-wall-mag}, C; Fig. \ref{fig:button-wall-con}, C).
+		\item If needed, twist the Fire Suppression trigger (Fig. \ref{fig:button-wall-con}, E).
 		\item If a Visitor is in the scanner, remove them immediately. If the Visitor is injured, follow injury procedures (SOP 102.5.\ref{102-ssec:injury-cons} or SOP 102.5.\ref{102-ssec:injury-uncons}).
 		\item Close and lock the Magnet Room door.
 		\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
@@ -244,17 +246,27 @@ When a research assistant or MRI personnel enter the Magnet Room during the cour
 
 
 % Pump
-\subsection{Pump: you do not hear coolant circulating.}
+\subsection{Pump: you do not hear coolant circulating, or UPS alarms.}
 \label{ssec:pump}
 
-The pumps circulate cryogens, which can be heard in B15, B17a, and B18. If the pumps are inoperative for a long enough period, the magnet may lose superconductivity and quench.
+The liquid helium of the magnet is kept cool by circulating cryogens, and the pumping system for these cryogens can be heard in rooms B15, B17a, and B18. If the pumps are inoperative for a long enough period, the magnet may lose superconductivity and quench.\\
+
+For short-term power disruption, the pumps are connected to a Universal Power Supply (UPS) which provide a reserve of power and sound an alarm that they have activated. Longer-term power disruption ($>$4 hours) requires a transfer of power from the building (and UPS) to the backup generator.
 
 \begin{enumerate}
-	\item Call Christine Schmidt (Haskris).
+
+	\item To transfer power from building supply to the generator:
 	\begin{enumerate}
-		\item Haskris monitors the cooling system and should contact MRI staff for any issues
+		\item Navigate to MRI Equipment room (B18).
+		\item Identify pump power switch (Fig. \ref{fig:power-switch}).
+		\item Avert eyes, move switch from Normal ON to OFF. Wait a moment.
+		\item Move switch from OFF to GENERATOR.
 	\end{enumerate}
-	\item Call any MRI staff; MRI staff call Richard Vega (Siemens Engineer).
+	\item Call any MRI staff. MRI staff call:
+	\begin{enumerate}
+		\item Christine Schmidt (Haskris); Haskris monitors the cooling system and should contact MRI staff for any issues.
+		\item Richard Vega (Siemens Engineer).
+	\end{enumerate}
 	\item Record issue in ND-HNC Form LG01: Hardware Issues.
 \end{enumerate}
 
@@ -287,7 +299,7 @@ The Control Room door is controlled by an Electronic Lock and will not open unle
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.95\textwidth]{button_wall.jpg}
-	\caption{Control Room button wall. \textbf{A} Haskris Coolant Sounder. \textbf{B} Fire System Board. \textbf{C} Emergency Power Off. \textbf{D} Magnet Door release. \textbf{E} (TBD). \textbf{F} Thermostat. \textbf{G} Light switch.}
+	\caption{Control Room button wall. \textbf{A} Haskris Coolant Sounder. \textbf{B} Fire System Board. \textbf{C} Emergency Power Off. \textbf{D} Magnet Door release. \textbf{E} Fire suppression trigger. \textbf{F} Thermostat. \textbf{G} Light switch.}
 	\label{fig:button-wall-con}
 \end{figure}
 
@@ -329,6 +341,14 @@ The Control Room door is controlled by an Electronic Lock and will not open unle
 	\includegraphics[width=\textwidth]{vfpc_rendezvous.png}
 	\caption{VFPC rendezvous location.}
 	\label{fig:vfpc-rend}
+\end{figure}
+
+% Power switch
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{switch_generator.jpg}
+	\caption{Cooling pump power switch.}
+	\label{fig:power-switch}
 \end{figure}
 
 
