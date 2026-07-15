@@ -4,6 +4,8 @@ toc: true
 toc-depth: 4
 ---
 
+![Credit: Gemini Robot](../media/mri_training.png){width=60% fig-align="left"}
+
 ## Overview
 The ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.
 

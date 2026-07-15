@@ -1,7 +1,7 @@
 \documentclass[11pt, letterpaper]{article}
 
 % Packages for layout, tables, and formatting
-\usepackage[margin=0.6in, landscape]{geometry} % Landscape format fits the wide columns better
+\usepackage[landscape, margin=0.5in, includeheadfoot, headheight=5pt, footskip=1cm]{geometry}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{fancyhdr}
@@ -11,16 +11,12 @@
 \usepackage{parskip}
 
 
-% Header and Footer configuration
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\textbf{ND-HNC Form: LG01}}
-% \fancyhead[R]{Year: \rule{1.5cm}{0.4pt}}
-\renewcommand{\headrulewidth}{0.4pt}
-% \renewcommand{\footrulewidth}{0.4pt}
+\fancyfoot[R]{\textbf{ND-HNC Form: LG01}}
 
-% Define custom colors
 \definecolor{lightgray}{gray}{0.92}
+
 
 \begin{document}
 
@@ -35,7 +31,12 @@
 % Logging Table
 \noindent
 \begin{tabularx}{\textwidth}{
-    |>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{1.8cm}|>{\raggedright\arraybackslash}p{2cm}|X|>{\centering\arraybackslash}p{7cm}|>{\centering\arraybackslash}p{2.2cm}|}
+    | >{\centering\arraybackslash}m{2cm} |
+    >{\centering\arraybackslash}m{1.8cm} |
+    >{\centering\arraybackslash}m{2cm} |
+    >{\centering\arraybackslash}X |
+    >{\centering\arraybackslash}m{7cm} |
+    >{\centering\arraybackslash}m{2cm} |}
     \hline
     \rowcolor{lightgray}
     \textbf{Date} & \textbf{Time} & \textbf{Name} & \textbf{Issue Description} & \textbf{Remedy Description, Initials} & \textbf{Remedy Date} \\ \hline
@@ -52,7 +53,7 @@
     & & & & & \\[3.5ex] \hline
     & & & & & \\[3.5ex] \hline
     & & & & & \\[3.5ex] \hline
-    & & & & & \\[3.5ex] \hline
+    % & & & & & \\[3.5ex] \hline
 \end{tabularx}
 
 \end{document}

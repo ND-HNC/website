@@ -37,21 +37,31 @@
     ]
   },
   {
-    "objectID": "pages/storage.html#usage",
-    "href": "pages/storage.html#usage",
+    "objectID": "pages/storage.html#ssec:usage",
+    "href": "pages/storage.html#ssec:usage",
     "title": "Storage",
     "section": "Usage",
-    "text": "Usage\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to have full access to all resources. Such an approach:\n\nEnsures there is sufficient capacity to support large projects (e.g. HCP data).\nSupports multiple projects at various stages of completion.\nRequires active data management and coordination among the ND-HNC group.\n\nAs projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_tier2\n\nCold Storage\n(250 TB, Nightly Backups)\n\n\ncluster_tier3\n\nScratch Workspace\n(500 TB, NO BACKUPS)\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier1\n\nActive Storage\n(50 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- Assessment metrics\n- Task responses\n\n\n\ntier3_proc\n\nIntermediate Data:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- Project code\n- Final dataframes\n- Statistical output\n- Figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Data:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nFinal Data:\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Results\n (pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive Tier 1 data\n\n\n\n\n\n\n\n\n\nCold Storage provides a secure location for organized (e.g. BIDS) original data.\nData is transferred to Scratch for preprocessing and modelling.\n\nUnused intermediates are purged.\nLong-term storage of complicated intermediates are managed locally.\n\nFinal results are transferred to Active Storage for manuscript generation.\nUpon publication, files in Active Storage are transferred to Cold Storage.\n\nRecommendations:\n\nBuild the dataflow into your workflow/codebase.\nMaintain only the requisite intermediates for the next pipeline step.",
+    "text": "Usage\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to have full access to all resources. Such an approach:\n\nEnsures there is sufficient capacity to support large projects (e.g. HCP data).\nSupports multiple projects at various stages of completion.\nRequires active data management and coordination among the ND-HNC group.\n\nAs projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_tier2\n\nCold Storage\n(250 TB, Nightly Backups)\n\n\ncluster_tier3\n\nScratch Workspace\n(500 TB, NO BACKUPS)\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier1\n\nActive Storage\n(50 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- Assessment metrics\n- Task responses\n\n\n\ntier3_proc\n\nIntermediate Data:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- Project code\n- Final dataframes\n- Statistical output\n- Figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Data:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nFinal Data:\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Results\n (pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive final data\n\n\n\n\n\n\n\n\n\nCold Storage provides a secure location for organized (e.g. BIDS) original data.\nData is transferred to Scratch for preprocessing and modelling.\n\nUnused intermediates are purged.\nLong-term storage of complicated intermediates are managed locally.\n\nFinal results are transferred to Active Storage for manuscript generation.\nUpon publication, files in Active Storage are transferred to Cold Storage.",
     "crumbs": [
       "Storage"
     ]
   },
   {
-    "objectID": "pages/storage.html#policies",
-    "href": "pages/storage.html#policies",
+    "objectID": "pages/storage.html#guidelines",
+    "href": "pages/storage.html#guidelines",
     "title": "Storage",
-    "section": "Policies",
-    "text": "Policies\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.",
+    "section": "Guidelines",
+    "text": "Guidelines\n\nBuild the dataflow into your workflow/codebase.\nAs storage is shared across the ND-HNC community, please:\n\nManage your allocations responsibly,\nMigrate data to the appropriate tier as your project progresses,\nMaintain only the requisite intermediates for subsequent pipeline steps.",
+    "crumbs": [
+      "Storage"
+    ]
+  },
+  {
+    "objectID": "pages/storage.html#notes",
+    "href": "pages/storage.html#notes",
+    "title": "Storage",
+    "section": "Notes",
+    "text": "Notes\n\nCRC compute nodes do not have access to files stored in Tier 2.\nTier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here.",
     "crumbs": [
       "Storage"
     ]
@@ -88,7 +98,7 @@
     "href": "pages/operate/corpfs.html",
     "title": "Operate CorpFS",
     "section": "",
-    "text": "Overview\nManaging research data requires balancing strict security protocols with seamless collaboration. The ND-HNC handles a mix of non-sensitive data and highly sensitive information, including Protected Health Information (PHI) and Personally Identifiable Information (PII). To remain compliant and ensure our research is reproducible, we do not tie participant data to individual research assistant accounts. Instead, we use the CorpFS, a centralized system that protects data continuity and enforces strict version control so that tasks are never accidentally altered and every assistant deploys the exact same version.\nTo achieve this, our CorpFS environment is split into three specialized directories, each with distinct permission levels:\n\nAdmin Directory: A highly restricted, user-specific folder dedicated to securely housing sensitive PHI/PII data.\nRead Directory: A standardized folder where all team members can view and execute research tasks, but cannot modify or delete files. This ensures version control.\nWrite Directory: A shared repository where all research assistants can save and aggregate participant output data into a single, centralized location.\n\n\n\nFind CorpFS"
+    "text": "Overview\nLarge labs and long-term projects commonly have multiple waves of research assistants. To effectively conduct research at the ND-HNC, the research team needs to coordinate and centralize task deployment and data capture. For clinical studies, data may be a mixture of non-sensitive data, Personally Identifiable Information (PII), and Personal Health Information (PHI). Additionally, the Institutional Review Board (IRB) has specific policies for the transfer of data, depending on the method and sensitivity.\nEach lab which partners with the ND-HNC will receive access to the centralized data system CorpFS, which facilitates task deployment and data management across multiple sites and users. Directories are organized by the Primary Investigator’s (PI) name (i.e. HNC-PI) and contain three specialized directories with distinct permission levels:\n\nHNC-PI-admin: A highly restricted folder dedicated to securely housing sensitive PHI/PII data and important files. Only group administrators will be able to read, write, or execute in this directory.\nHNC-PI-read: A standardized folder where all team members can read and execute research tasks but cannot modify or delete files. This is useful for ensuring that all research assistants administer identical tasks.\nHNC-PI-write: A shared repository where all research assistants can save participant output data. This helps ensure that data is centralized and not left on the research assistant’s login account.\n\n\n\nAccess\n\nContact Nathan Muncy to be added to the CorpFS HNC group.\n\n\n\nConnect: OSx\n\nEstablish an SMB connection with CorpFS HNC:\n\n‘CMD-K’ opens “Connect to Server”\nConnect to ‘smb://psy.corpfs.nd.edu/psy/hnc’\n\n\n\n\n\n\n\n\nLogin with your Notre Dame credentials.\n\n\n\n\n\n\n\nView directory structure in Finder.\n\n\n\n\n\n\n\n\nConnect: Windows\n\nLog into PC workstation.\n\n\n\n\n\n\n\nNavigate to PSY CorpFS (P:) &gt; HNC.\n\n\n\n\n\n\n\nSelect appropriate PI directory.\n\n\n\n\n\n\n\nView user directory structure.\n\n\n\n\n\n\n\n\nNotes\n\nThese instructions refer to ND-owned devices connected to the eduroam network."
   },
   {
     "objectID": "pages/forms.html",
@@ -110,16 +120,6 @@
     "title": "Forms",
     "section": "Forms",
     "text": "Forms\n\n\n000: ND-HNC Operation\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n001\nMRI Safety Screen\nDocument\n\n\n002\nArrival Instructions\nBlue, White\n\n\n003\nCenter Layout\nDocument\n\n\n\n\n\n\n100: Issue Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n101\nHardware\nDocument\n\n\n102\nAdverse Events\nDocument\n\n\n103\nCompliance\nDocument\n\n\n\n\n\n\n200: Maintenance Logging\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n201\nHardware\nDocument"
-  },
-  {
-    "objectID": "pages/equipment.html",
-    "href": "pages/equipment.html",
-    "title": "Equipment",
-    "section": "",
-    "text": "This page provides both overview descriptions and technical equipment statements for research hardware available at the ND-HNC. Grant writers will be most interested in the Equipment Statement section.\nFor quick navigation within this page:\n\n\n\n\n\n\n\n\n\nEquipment\nOverview\nStatement\n\n\n\n\n\nMRI Simulator\nLink\nLink\n\n\n\nMAGNETOM Cima.X\nLink\nLink\n\n\n\nTask Presentation\nLink\nLink\n\n\n\nDICOM Management\nLink\nLink\n\n\n\nCompute\nLink\nLink",
-    "crumbs": [
-      "Equipment"
-    ]
   },
   {
     "objectID": "pages/equipment.html#ssec:mri",
@@ -282,16 +282,6 @@
     ]
   },
   {
-    "objectID": "pages/compute.html#policies",
-    "href": "pages/compute.html#policies",
-    "title": "Compute",
-    "section": "Policies",
-    "text": "Policies\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
-    "crumbs": [
-      "Compute"
-    ]
-  },
-  {
     "objectID": "pages/about.html",
     "href": "pages/about.html",
     "title": "About",
@@ -313,7 +303,7 @@
     "href": "index.html#join-us",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "Join Us",
-    "text": "Join Us\nFollow these arrival instructions for help locating the center, parking, and entry.\nEmail: nd-hnc@nd.edu.",
+    "text": "Join Us\n\nContact: nd-hnc@nd.edu.\nTours: contact Alex Musser.\nPrepare: individuals entering Zones 3 & 4 are required to fill out an MRI Safety Screen form.\nVisit: follow these instructions or reference this flyer.",
     "crumbs": [
       "Home"
     ]
@@ -323,7 +313,7 @@
     "href": "index.html#about",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "About",
-    "text": "About\nOur goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC).\nWe support every step of your research program:\n\nFacilities and Equipment: Orient to available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nOperate: Use equipment to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization.\nStorage: Keep and manage data at various project stages.",
+    "text": "About\nOur goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC). We support your research program at every step:\n\nFacilities and Equipment: Orient to available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nOperate: Use equipment to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization.\nStorage: Keep and manage data at various project stages.",
     "crumbs": [
       "Home"
     ]
@@ -434,16 +424,6 @@
     ]
   },
   {
-    "objectID": "pages/facilities.html",
-    "href": "pages/facilities.html",
-    "title": "Facilities",
-    "section": "",
-    "text": "Veldman Family Psychology Clinic",
-    "crumbs": [
-      "Facilities"
-    ]
-  },
-  {
     "objectID": "pages/facilities.html#facility-statement",
     "href": "pages/facilities.html#facility-statement",
     "title": "Facilities",
@@ -458,7 +438,7 @@
     "href": "pages/operate.html",
     "title": "Operate",
     "section": "",
-    "text": "This page is under construction.\nThe ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:\n\n\n\nResource\nDescription\n\n\n\n\nHNC CorpFS\nCentralize experiment protocols and participant response data.\n\n\nMRI Simulator\nPrepare participants to contribute MRI data.\n\n\nNordicNeuroLab\nDeploy functional MRI paradigms and capture participant responses.\n\n\nStimulus Control Computer\nDeploy lab-specific MRI paradigms.\n\n\nDICOM Management Computer\nCapture, organize, and send DICOM files to an appropriate location.",
+    "text": "This page is under construction.\nThe ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:\n\n\n\nResource\nType\nPurpose\n\n\n\n\nCorpFS\nFile System\nCentralize experiment protocols and participant response data.\n\n\nMRI Simulator\nEquipment\nPrepare participants to contribute MRI data.\n\n\nNordicNeuroLab\nEquipment\nDeploy functional MRI paradigms and capture participant responses.\n\n\nStimulus Control\nComputer\nDeploy lab-specific MRI paradigms.\n\n\nDICOM Management\nComputer\nCapture, organize, and send DICOM files to an appropriate location.",
     "crumbs": [
       "Operate"
     ]
@@ -496,7 +476,37 @@
     "href": "pages/policies.html",
     "title": "Policies",
     "section": "",
-    "text": "This page is under construction.",
+    "text": "ND-HNC policies will be updated as needed and are applicable immediately.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "pages/policies.html#access-levels",
+    "href": "pages/policies.html#access-levels",
+    "title": "Policies",
+    "section": "Access Levels",
+    "text": "Access Levels\n\nIndividuals with Level access must only access Zones for which they have been authorized.\nAll individuals with Level access promote a culture of safety and responsibility through actions like: closing doors, enforcing SOPs, following policies.\nLevel 1 does not grant access to the Mock room (B14) or the ability to review the MRI Safety Screen.\nLevel 2 does not grant Irish1card access to Zone 3.\nLevel 3 may train to become Level 4 only for project-specific purposes.\nA bachelor’s degree is required for Level 3 access.\nLevel 4 must be accompanied by another person with at least access Level 2 when a visitor or participant is in Zone 4.\nOnly Ph.D. candidates, post-doctoral fellows, and faculty may attain Level 4 access.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "pages/policies.html#billing",
+    "href": "pages/policies.html#billing",
+    "title": "Policies",
+    "section": "Billing",
+    "text": "Billing\n\nMRI No-shows and cancellations \\(&lt;\\) 24 hours before the appointment are charged at 50% scan rate.\n“Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "pages/policies.html#compliance",
+    "href": "pages/policies.html#compliance",
+    "title": "Policies",
+    "section": "Compliance",
+    "text": "Compliance\n\nResearchers, staff, and faculty are expected to read, understand, and operate in accordance with Standard Operating Procedures and Policies.\nProtocol violations are logged by staff in Form LG04: Compliance.\nA pattern of compliance issues will result in corrective actions, including access revocation.",
     "crumbs": [
       "Policies"
     ]
@@ -512,11 +522,41 @@
     ]
   },
   {
+    "objectID": "pages/policies.html#safety-zones",
+    "href": "pages/policies.html#safety-zones",
+    "title": "Policies",
+    "section": "Safety Zones",
+    "text": "Safety Zones\n\nResearchers with Level access must wear the identifying badge while in Zones 2-4.\nIndividuals without Level access must be escorted in Zones 2-4.\nMRI Safety Screeners must be completed by everyone entering Zone 3.\n\nResearchers with Level access submit these (a) annually, and (b) whenever an event occurs that might change their MRI compatibility.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "pages/policies.html#scheduling",
+    "href": "pages/policies.html#scheduling",
+    "title": "Policies",
+    "section": "Scheduling",
+    "text": "Scheduling\n\nReservation of facilities and equipment are normally for confirmed participants.\nEquipment/facilities are to be available for the subsequent appointment.\n\nA research protocol may be interrupted by ND-HNC staff if research teams occupy equipment/facilities past their reservation.\nA pattern of running behind schedule will result in corrective actions, including access revocation.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
     "objectID": "pages/policies.html#storage",
     "href": "pages/policies.html#storage",
     "title": "Policies",
     "section": "Storage",
-    "text": "Storage\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.",
+    "text": "Storage\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.\n\nLocal compute resources (ND-HNC rack, workstations) are not acceptable devices for data storage.\nShared presentation computers (e.g. Mock and Stimulus control) should not store tasks, stimuli, or data.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
+    "objectID": "pages/policies.html#training",
+    "href": "pages/policies.html#training",
+    "title": "Policies",
+    "section": "Training",
+    "text": "Training\n\nTraining (Level 1-4) must be renewed annually by attending the respective MRI Safety course and passing the exams.\n\nShadow hours do not need to be renewed.\n\nLevels 2-4 must maintain current CPR/AED and First-Aid certification.",
     "crumbs": [
       "Policies"
     ]
@@ -528,7 +568,7 @@
     "section": "",
     "text": "This page is under construction.",
     "crumbs": [
-      "SOPs-Forms"
+      "SOPs"
     ]
   },
   {
@@ -536,9 +576,9 @@
     "href": "pages/sops.html#overview",
     "title": "Standard Operating Procedures",
     "section": "Overview",
-    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to the center’s Standard Operating Procedures (SOPs). Hosting these documents helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.",
+    "text": "Overview\nHere we provide our research community, faculty, and staff with centralized access to the center’s Standard Operating Procedures (SOPs). Hosting these Links helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.",
     "crumbs": [
-      "SOPs-Forms"
+      "SOPs"
     ]
   },
   {
@@ -546,9 +586,9 @@
     "href": "pages/sops.html#sops",
     "title": "Standard Operating Procedures",
     "section": "SOPs",
-    "text": "SOPs\n\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n101\nHardware\nDocument\nLG01, LG04, RO03\n\n\n102\nMedical\nDocument\nLG03, LG04, RO03\n\n\n103\nIncident Reporting\nDocument\nLG03\n\n\n104\nIncidental Findings\nDocument\n\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nDocument\nRO01, RO03\n\n\n202\nZone Access\nDocument\nRO01\n\n\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nLink\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nDocument\n\n\n\n302\nFire and Gas\nDocument\n\n\n\n303\nTornado\nDocument\n\n\n\n304\nActive Violence\nDocument",
+    "text": "SOPs\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n101\nHardware\nLink\nLG01, LG04, RO03\n\n\n102\nMedical\nLink\nLG03, LG04, RO03\n\n\n103\nIncident Reporting\nLink\nLG03\n\n\n104\nIncidental Findings\nLink\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nLink\nRO01, RO03\n\n\n202\nZone Access\nLink\nRO01, LG05\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nLink\n\n\n\n302\nFire and Gas\nLink\n\n\n\n303\nTornado\nLink\n\n\n\n304\nActive Violence\nLink",
     "crumbs": [
-      "SOPs-Forms"
+      "SOPs"
     ]
   },
   {
@@ -556,9 +596,9 @@
     "href": "pages/sops.html#forms",
     "title": "Standard Operating Procedures",
     "section": "Forms",
-    "text": "Forms\n\n\n\nGA: Governing Articles\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nGA01\nACR MRI Safety\nDocument\n\n\n\nGA02\nOHRP 2007\nDocument\n\n\n\nGA03\nFDA Reports\nDocument\n\n\n\n\n\n\n\nLG: Log Issues and Maintenance\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nLG01\nHardware Issue\nDocument\n\n\n\nLG02\nHardware Maintenance\nDocument\n\n\n\nLG03\nIncidents\nDocument\n\n\n\nLG04\nCompliance\nDocument\n\n\n\n\n\n\n\nRO: Research Operations\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nLink\n\n\n\n\n\nRO01\nMRI Safety Screen\nDocument\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nDocument",
+    "text": "Forms\n\n\nGA: Governing Articles\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\nLG: Log Issues and Maintenance\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\n\n\n\n\nRO: Research Operations\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink",
     "crumbs": [
-      "SOPs-Forms"
+      "SOPs"
     ]
   },
   {
@@ -566,7 +606,7 @@
     "href": "pages/training.html",
     "title": "Training",
     "section": "",
-    "text": "The ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.\nAll researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP 202 for additional details.",
+    "text": "Credit: Gemini Robot",
     "crumbs": [
       "Training"
     ]
@@ -575,8 +615,8 @@
     "objectID": "pages/training.html#overview",
     "href": "pages/training.html#overview",
     "title": "Training",
-    "section": "",
-    "text": "The ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.\nAll researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP 202 for additional details.",
+    "section": "Overview",
+    "text": "Overview\nThe ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.\nAll researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP 202 for additional details.",
     "crumbs": [
       "Training"
     ]

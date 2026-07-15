@@ -71,6 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 <meta property="og:title" content="Operate CorpFS – ND-HNC">
 <meta property="og:description" content="">
+<meta property="og:image" content="../../media/corpfs_mac_1.png">
 <meta property="og:site_name" content="ND-HNC">
 </head>
 
@@ -164,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../pages/sops.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">SOPs-Forms</span></a>
+ <span class="menu-text">SOPs</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -185,12 +186,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#find-corpfs" id="toc-find-corpfs" class="nav-link" data-scroll-target="#find-corpfs">Find CorpFS</a></li>
+  <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">Access</a></li>
+  <li><a href="#connect-osx" id="toc-connect-osx" class="nav-link" data-scroll-target="#connect-osx">Connect: OSx</a></li>
+  <li><a href="#connect-windows" id="toc-connect-windows" class="nav-link" data-scroll-target="#connect-windows">Connect: Windows</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
   </ul>
 </nav>
     </div>
@@ -218,16 +222,91 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>Managing research data requires balancing strict security protocols with seamless collaboration. The ND-HNC handles a mix of non-sensitive data and highly sensitive information, including Protected Health Information (PHI) and Personally Identifiable Information (PII). To remain compliant and ensure our research is reproducible, we do not tie participant data to individual research assistant accounts. Instead, we use the <a href="https://esc.nd.edu/services/storage/">CorpFS</a>, a centralized system that protects data continuity and enforces strict version control so that tasks are never accidentally altered and every assistant deploys the exact same version.</p>
-<p>To achieve this, our CorpFS environment is split into three specialized directories, each with distinct permission levels:</p>
+<p>Large labs and long-term projects commonly have multiple waves of research assistants. To effectively conduct research at the ND-HNC, the research team needs to coordinate and centralize task deployment and data capture. For clinical studies, data may be a mixture of non-sensitive data, Personally Identifiable Information (PII), and Personal Health Information (PHI). Additionally, the Institutional Review Board (IRB) has specific policies for the transfer of data, depending on the method and sensitivity.</p>
+<p>Each lab which partners with the ND-HNC will receive access to the centralized data system <a href="https://esc.nd.edu/services/storage/">CorpFS</a>, which facilitates task deployment and data management across multiple sites and users. Directories are organized by the Primary Investigator’s (PI) name (i.e.&nbsp;<strong>HNC-PI</strong>) and contain three specialized directories with distinct permission levels:</p>
+<ol type="1">
+<li><strong>HNC-PI-admin:</strong> A highly restricted folder dedicated to securely housing sensitive PHI/PII data and important files. Only group administrators will be able to read, write, or execute in this directory.</li>
+<li><strong>HNC-PI-read:</strong> A standardized folder where all team members can read and execute research tasks but cannot modify or delete files. This is useful for ensuring that all research assistants administer identical tasks.</li>
+<li><strong>HNC-PI-write:</strong> A shared repository where all research assistants can save participant output data. This helps ensure that data is centralized and not left on the research assistant’s login account.</li>
+</ol>
+</section>
+<section id="access" class="level1">
+<h1>Access</h1>
 <ul>
-<li><strong>Admin Directory:</strong> A highly restricted, user-specific folder dedicated to securely housing sensitive PHI/PII data.</li>
-<li><strong>Read Directory:</strong> A standardized folder where all team members can view and execute research tasks, but cannot modify or delete files. This ensures version control.</li>
-<li><strong>Write Directory:</strong> A shared repository where all research assistants can save and aggregate participant output data into a single, centralized location.</li>
+<li>Contact <a href="../../pages/people.html">Nathan Muncy</a> to be added to the CorpFS HNC group.</li>
 </ul>
 </section>
-<section id="find-corpfs" class="level1">
-<h1>Find CorpFS</h1>
+<section id="connect-osx" class="level1">
+<h1>Connect: OSx</h1>
+<ol type="1">
+<li><p>Establish an <a href="https://learn.microsoft.com/en-us/windows-server/storage/file-server/file-server-smb-overview">SMB</a> connection with CorpFS HNC:</p>
+<ul>
+<li>‘CMD-K’ opens “Connect to Server”</li>
+<li>Connect to ‘smb://psy.corpfs.nd.edu/psy/hnc’</li>
+</ul></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/corpfs_mac_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Login with your Notre Dame credentials.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/corpfs_mac_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>View directory structure in Finder.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/corpfs_mac_3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</section>
+<section id="connect-windows" class="level1">
+<h1>Connect: Windows</h1>
+<ol type="1">
+<li>Log into PC workstation.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/corpfs_windows_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<ol start="2" type="1">
+<li>Navigate to PSY CorpFS (P:) &gt; HNC.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/corpfs_windows_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<ol start="3" type="1">
+<li>Select appropriate PI directory.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/corpfs_windows_3.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+<ol start="4" type="1">
+<li>View user directory structure.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/corpfs_windows_4.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
+</div>
+</section>
+<section id="notes" class="level1">
+<h1>Notes</h1>
+<ul>
+<li>These instructions refer to ND-owned devices connected to the <a href="https://nd.service-now.com/nd_portal?id=kb_article_view&amp;sys_kb_id=60a2ae6147f9cb10d1e4e739736d434e&amp;spa=1">eduroam network</a>.</li>
+</ul>
 
 
 </section>

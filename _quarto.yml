@@ -33,7 +33,7 @@ website:
         href: pages/policies.qmd
       # - text: Schedule
       #   href: pages/schedule.qmd
-      - text: SOPs-Forms
+      - text: SOPs
         href: pages/sops.qmd
       - text: Storage
         href: pages/storage.qmd

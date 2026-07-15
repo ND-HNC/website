@@ -19,20 +19,12 @@ These resources are categorized into three distinct tiers based on the data's ac
 | Cold Storage | 250 TB | /goldfs/hnc | Long-term storage srcdata, rawdata, publication files. | Nightly |
 | Scratch | 500 TB | TBD | Temporary workspace for intermediate generation. | **None** |
 
-<!-- Key Guidelines for Users:
-
-- As storage is shared across the ND-HNC community, please:
-    - Manage your allocations responsibly,
-    - Migrate data to the appropriate tier as your project progresses (see Dataflow).
-- Compute nodes do not have access to files stored in Tier 2.
-- Tier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here. -->
-
 ## Access
 
 - Any CRC user [account](https://docs.crc.nd.edu/new_user/obtain_account.html) that is part of the HNC group has full access to these resources.
 - Contact [Nathan Muncy](people.qmd) to be added to the HNC group.
 
-## Usage
+## Usage {#ssec:usage}
 
 Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow __all users to have full access to all resources__. Such an approach:
 
@@ -111,7 +103,7 @@ digraph NDHNC_Data_Flow {
     tier3_proc -> local_store [label=" Manage large\l data footprints\l", color="black", fontcolor="black", dir="both"];
 
     // 4. Post-publication archiving
-    tier1_active -> tier2_archive [label=" Paper accepted:\l Archive Tier 1 data\l", color="black", fontcolor="black"];
+    tier1_active -> tier2_archive [label=" Paper accepted:\l Archive final data\l", color="black", fontcolor="black"];
 }
 ```
 
@@ -122,25 +114,15 @@ digraph NDHNC_Data_Flow {
 1. Final results are transferred to Active Storage for manuscript generation.
 1. Upon publication, files in Active Storage are transferred to Cold Storage.
 
-Recommendations:
+## Guidelines
 
 - Build the dataflow into your workflow/codebase.
-- Maintain only the requisite intermediates for the next pipeline step.
+- As storage is shared across the ND-HNC community, please:
+    - Manage your allocations responsibly,
+    - Migrate data to the appropriate tier as your project progresses,
+    - Maintain only the requisite intermediates for subsequent pipeline steps.
 
-## Policies
+## Notes
 
-1. Storage of Personal Health Information (PHI) data is __NOT__ permitted.
-1. Users or groups using a disproportionate amount of resources will be required to reduce their footprint or  ___risk losing access___.
-1. Intermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.
-1. Data stored in Scratch should be for active analyses only.
-1. Storing third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.
-    - Only the Final Data should be maintained.
-
-
-<!-- ## Details
-
-### Tier 1
-
-### Tier 2
-
-### Tier 3 -->
+- CRC compute nodes do not have access to files stored in Tier 2.
+- Tier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here.
