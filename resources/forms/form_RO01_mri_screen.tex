@@ -1,0 +1,383 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ebgaramond}
+\usepackage[top=1in,left=0.625in,bottom=0.625in,right=0.625in]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {../../media/}}
+\usepackage[colorlinks=false,pdfborder={0 0 0},]{hyperref}
+\usepackage[absolute]{textpos}
+\usepackage{soul}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+% Branding
+\providecommand\fromlogo{nd_logo.png}
+\definecolor{NDblue}{RGB}{12,35,64}
+\definecolor{NDgold}{RGB}{174,145,66}
+\definecolor{NDgray}{RGB}{193,205,221}
+\linespread{1.05}
+
+% Center info
+\providecommand\nameuniversity{University of Notre Dame}
+\providecommand\namecenter{Human Neuroimaging Center}
+\providecommand\addrcenter{501 N Hill St. South Bend, IN. 46617}
+\providecommand\namecollege{College of Arts and Letters}
+\providecommand\addrweb{\url{https://neuroimaging.nd.edu}}
+
+% Format header
+% \pagestyle{empty}
+
+\urlstyle{sf}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[L]{%
+    % LOGO
+    \begin{textblock*}{2in}[0.3066,0.39](1.0in,0.5in)
+        \includegraphics[width=2in]{\fromlogo}
+    \end{textblock*}
+
+    % Above line
+    \begin{textblock*}{6.375in}(1.5in,0.32in)
+        \sffamily
+        \hfill \textcolor{NDgold} \namecenter\ | \textcolor{NDgold}\namecollege
+    \end{textblock*}
+
+    % Below line
+    \begin{textblock*}{6.375in}(1.5in,0.53in)
+        \sffamily
+        \hfill \textcolor{NDgold} \addrcenter\ | \textcolor{NDgold}\addrweb
+    \end{textblock*}
+
+    %Line
+    \begin{tikzpicture}[remember picture,overlay]
+        \draw[color=NDblue,line width=0.7pt] (current page.north west)+(2.45in,-0.48in) -- ($(-0.625in,-0.48in)+(current page.north east)$);
+    \end{tikzpicture}
+}
+\renewcommand{\headrulewidth}{0pt}
+
+% Format footer
+\renewcommand{\footrule}{\hbox to \headwidth{\color{NDblue}\leaders\hrule height \footrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0.5pt}
+\renewcommand{\footruleskip}{15pt}
+
+\fancyfoot{}
+\fancyfoot[R]{%
+    % Below line
+    \begin{textblock*}{6.375in}(1.5in,10.55in)
+        \sffamily
+        \hfill \color{black} \rmfamily{\textbf{ND-HNC Form: RO01}}
+    \end{textblock*}
+    %Line
+    \begin{tikzpicture}[remember picture,overlay]
+        \draw[color=NDblue,line width=0.5pt] (current page.north west)+(2.45in,-0.48in) -- ($(-0.625in,-0.48in)+(current page.north east)$);
+    \end{tikzpicture}
+}
+\fancyfoot[C]{\thepage}
+
+% Remove paragraph indentation
+\parindent0pt
+% \setlength{\parskip}{0.8\baselineskip}
+\raggedright
+
+
+% Format free response
+\newcommand{\fillableline}[3]{%
+  \begingroup
+  \large
+  #1 \underline{\TextField[%
+    name=#2, %
+    width=#3, %
+    backgroundcolor={1 1 1},
+    bordercolor={1 1 1}, % White removes the native interactive box outline
+    charsize=12pt
+  ]{}}%
+  \endgroup
+  \vspace{6pt}%
+}
+
+
+% Format question response
+\usepackage{pifont} % Required for \ding{52}
+
+\newcounter{choiceboxcount} % Creates a unique tracking counter
+\newcommand{\customchoicebox}[1]{%
+    \stepcounter{choiceboxcount}% Increments the counter for a unique group name
+    \begingroup
+    \large
+    \begin{Form}
+        \ChoiceMenu[
+            radio,
+            radiosymbol=\ding{52},
+            name=group\thechoiceboxcount,
+            backgroundcolor={1 1 1},
+            bordercolor={0 0 0},
+            charsize=8pt
+        ]{}{\hspace{0pt}Yes ,\hspace{3pt}No }%
+        \quad#1
+    \end{Form}%
+    \endgroup
+    \vspace{6pt}%
+}
+
+
+
+\begin{document}
+
+\vspace*{-1.5cm}
+\Huge
+\begin{center}MRI Safety Screening Form\\[1em]\end{center}
+\large
+
+\textbf{Instructions:} Please fill in or indicate Yes/No to each item below. Respond to each item \underline{individually}. If uncertain of any answer, please circle and discuss with the MRI technologist.\\[1em]
+
+\fillableline{Date}{date}{4cm} \hfill \fillableline{Subject ID}{subj}{4cm}
+
+\fillableline{Name (Last, First, Middle)}{name}{14cm}\\[1em]
+
+\fillableline{Sex (M, F, O)}{sex}{2cm} \hfill \fillableline{Age}{age}{2cm} \hfill \fillableline{Date of Birth}{dob}{4cm}
+
+\fillableline{Height}{height}{2cm} \quad \fillableline{Weight}{weight}{2cm}
+
+
+% General
+\textbf{Section 1. General screening.}\\[1em]
+
+\customchoicebox{Do you have a cardiac pacemaker, defibrillator, or other cardiac implant (in place or removed)?}
+
+\customchoicebox{Do you have a cochlear, otologic, or hearing implant, or hearing aids?}
+
+\customchoicebox{Are you claustrophobic?}
+
+\customchoicebox{Have you had a joint replacement or do you have any artifical joints?}
+
+\customchoicebox{Have you had problems related to a prior MRI procedure?}
+
+\quad \fillableline{If yes, describe:}{prevmri}{15.25cm}
+
+\customchoicebox{Surgery or medical procedure of any kind?}
+
+\quad \fillableline{If yes, describe:}{prevsurg}{15.25cm}
+
+\fillableline{}{prevsurg2}{18.2cm}
+
+\fillableline{Current medications:}{meds}{14.6cm}
+
+\fillableline{}{prevsurg2}{18.2cm}
+
+\fillableline{All allergies:}{aller}{16.1cm}
+
+% \fillableline{}{prevsurg2}{18cm}
+
+% Women
+% \textbf{For Females:}\\[1em]
+\fillableline{Date of last menstrual period:}{mens}{4cm}
+
+\customchoicebox{Is there a possibility that you are pregnant?}
+
+\customchoicebox{Are you post-menopausal?}
+
+\customchoicebox{Are you breastfeeding?}
+
+\pagebreak
+
+
+% History
+\textbf{Section 2. Please indicate if you CURRENTLY HAVE or HAVE EVER HAD any of the following:}\\[1em]
+
+\customchoicebox{Injury by a metal object or foreign body (e.g. bullet, shrapnel).}
+
+\quad \fillableline{If yes, describe:}{prevelec}{15.25cm}
+
+\customchoicebox{Injury to your eye from a metal object.}
+
+\quad \fillableline{If yes, did you seek medical assistance and what was the outcome?}{eye}{7.2cm}
+
+\fillableline{}{eye2}{18.2cm}
+
+\customchoicebox{Foreign body removed from eye.}
+
+\quad \fillableline{If yes, what was removed?}{eyerm}{13.5cm}
+
+\customchoicebox{Asthma or other allergic respiratory disease.}
+
+\customchoicebox{Insulin or infusion pump.}
+
+\customchoicebox{Glucose monitoring device (Dexcom, freestyle Libre).}
+
+\customchoicebox{Kidney disease.}
+
+\customchoicebox{Hypertension.}
+
+\customchoicebox{Previously received contrast agent (dye) for a CT, MRI, X-ray, or study?}
+
+\quad \fillableline{If yes, did you have an allergic reaction?}{dyealler}{11.5cm}
+
+\customchoicebox{Spinal fusion procedure.}
+
+\customchoicebox{Endoscopy or colonoscopy in last three months (possible clips or markers)?}\\[1em]
+
+
+% Implants
+\textbf{Section 3. Do you have any surgically IMPLANTED medical devices:}\\[1em]
+
+\customchoicebox{Any type of electronic, mechanical, or magnetic implant.}
+
+\quad \fillableline{If yes, describe:}{prevelec}{15.25cm}
+
+\customchoicebox{Cardiac pacemaker, defibrillator, or other cardiac implant (in place or removed).}
+
+\customchoicebox{Aneurysm clip.}
+
+\quad \fillableline{If yes, describe:}{aneu}{15.25cm}
+
+\customchoicebox{Stimulator: neurostimulator, diaphragmatic, deep brain, vagus nerve, bone growth, spinal cord, or any biostimulator.}
+
+\quad \fillableline{If yes, describe:}{stimu}{15.25cm}
+
+\customchoicebox{Any type of internal electrodes or wires.}
+
+\customchoicebox{Implanted drug pump (e.g. insulin, bacoflen, chemotherapy, pain medicine).}
+
+\customchoicebox{Spinal fixation device.}
+
+\customchoicebox{Any type of coil, filter, or stent.}
+
+\quad \fillableline{If yes, describe:}{coil}{15.25cm}
+
+\customchoicebox{Artificial heart valve.}
+
+\customchoicebox{Penile implant.}
+
+\customchoicebox{Artificial eye.}
+
+\customchoicebox{Eyelid spring and/or weight}
+
+\customchoicebox{Any type of implant held in place by a magnet.}
+
+\customchoicebox{Any type of surgical clip or staple.}
+
+\customchoicebox{Any IV access port (e.g. Broviac, Port-a-Cath, Hickman, PICC line).}
+
+\customchoicebox{Shunt.}
+
+\quad \fillableline{If yes, describe:}{shunt}{15.25cm}
+
+\customchoicebox{Artificial limb.}
+
+\quad \fillableline{If yes, describe:}{artlimb}{15.25cm}
+
+\customchoicebox{Tissue expander (e.g. breast).}
+
+\customchoicebox{IUD, diaphragm, or pessary.}
+
+\quad \fillableline{If yes, describe:}{iud}{15.25cm}
+
+\customchoicebox{Surgical mesh.}
+
+\quad \fillableline{If yes, describe:}{mesh}{15.25cm}
+
+\customchoicebox{Radiation seeds.}
+
+\customchoicebox{Any implanted items (e.g. pins, rods, screws, nails, plates, wires).}
+
+\pagebreak
+
+
+% Removable
+\textbf{Section 4. Do you have any REMOVABLE medical devices:}\\[1em]
+
+\customchoicebox{Drug pump (e.g. insulin, Baclofen, Neulasta).}
+
+\customchoicebox{Medication patch (e.g. nitroglycerine, nicotine).}
+
+\quad \fillableline{If yes, describe:}{medpat}{15.25cm}
+
+\customchoicebox{Dentures, false teeth, or partial plate.}
+
+\customchoicebox{Linx Reflux Management System (esophagus).}
+
+\customchoicebox{Have you recently ingested a pill cam, bravo or M2A?}
+
+\quad \fillableline{If yes, describe:}{pillcam}{15.25cm}\\[1em]
+
+
+% Personal
+\textbf{Section 5. Do you have any of the following PERSONAL items:}\\[1em]
+
+\customchoicebox{Body piercings.}
+
+\quad \fillableline{If yes, describe:}{pierce}{15.25cm}
+
+\customchoicebox{Wig, hair implants.}
+
+\customchoicebox{Tattoos or permanent makeup.}
+
+\customchoicebox{Hair accessories (e.g. bobby pins, barrettes, clips, extensions, weaves).}
+
+\customchoicebox{Jewelry.}
+
+\customchoicebox{Colored contact lenses.}
+
+\customchoicebox{Metal-containing clothing material and/or underwear (e.g. Lululemon, Copperfit, any silver/copper threaded).}
+
+\customchoicebox{Bra containing metallic underwire or clasps/adjusters.}
+
+\customchoicebox{Magnetic cosmetics and hair care (e.g. magnetic eyelashes, nail polish)}
+
+\customchoicebox{Electronic monitoring or tagging equipment (e.g. ankle monitor, tether, house arrest monitor).}
+
+\customchoicebox{Fitness tracker, biomonitor (e.g. Fitbit, Oura ring).}
+
+\customchoicebox{Any other type of surgically implanted medical devices, removable medical devices, or personal items not covered above?}
+
+\quad \fillableline{If yes, describe:}{otherimp}{15.25cm}
+
+\pagebreak
+
+\textbf{Section 6. Instructions for MRI preparation.}
+
+\begin{enumerate}
+    \item Remove all jewelry (e.g. necklace, watch, rings).
+    \item Remove all hair pins, bobby pins, barrettes, clips, etc.
+    \item Remove all body piercings.
+    \item Remove dentures, false teeth, partial dental plates.
+    \item Remove eyeglasses and hearing aids.
+    \item Remove bra which contain metallic underwires or clasps/adjusters.
+    \item Change into provided scrubs.
+    \item Leave all personal items with your clothes (e.g. cell phones, credit cards).
+    \item If you are unable to remove any of the above items please notify the MRI technologist.
+\end{enumerate}
+
+
+\textbf{Section 7. Review and Signatures.}\\[1em]
+
+I have read and understand the entire content of this form.\\[1em]
+
+\fillableline{Participant Name (printed)}{pnamep}{13.8cm}
+
+\fillableline{Participant Signature}{pnames}{14.8cm}
+
+\fillableline{Date}{pdates}{4cm}\\[1em]
+
+\noindent\rule{\textwidth}{0.5pt}
+
+\textbf{Reviewer 1.}\\[1em]
+
+\fillableline{Name (printed)}{r1namep}{15.7cm}
+
+\fillableline{Signature}{r1names}{16.7cm}
+
+\fillableline{Date}{pdates2}{4cm}\\[1em]
+
+\textbf{Reviewer 2.}\\[1em]
+
+\fillableline{Name (printed)}{r2namep}{15.7cm}
+
+\fillableline{Signature}{r2names}{16.7cm}
+
+\fillableline{Date}{pdates3}{4cm}
+
+\end{document}
