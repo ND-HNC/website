@@ -10,6 +10,10 @@
 \usepackage{soul}
 \usepackage{tikz}
 \usetikzlibrary{calc}
+\usepackage{pifont} % Required for \ding{52}
+
+%
+\providecommand\docvers{0.8.0}
 
 % Branding
 \providecommand\fromlogo{nd_logo.png}
@@ -59,23 +63,13 @@
 \renewcommand{\headrulewidth}{0pt}
 
 % Format footer
-\renewcommand{\footrule}{\hbox to \headwidth{\color{NDblue}\leaders\hrule height \footrulewidth\hfill}}
-\renewcommand{\footrulewidth}{0.5pt}
-\renewcommand{\footruleskip}{15pt}
-
-\fancyfoot{}
-\fancyfoot[R]{%
-    % Below line
-    \begin{textblock*}{6.375in}(1.5in,10.55in)
-        \sffamily
-        \hfill \color{black} \rmfamily{\textbf{ND-HNC Form: RO01}}
-    \end{textblock*}
-    %Line
-    \begin{tikzpicture}[remember picture,overlay]
-        \draw[color=NDblue,line width=0.5pt] (current page.north west)+(2.45in,-0.48in) -- ($(-0.625in,-0.48in)+(current page.north east)$);
-    \end{tikzpicture}
-}
+\fancyfoot[L]{v.\docvers}
 \fancyfoot[C]{\thepage}
+\fancyfoot[R]{\textbf{ND-HNC Form: RO01}}
+
+\renewcommand{\footrulewidth}{0.5pt}
+% \renewcommand{\footruleskip}{20pt} % Optional: Adjust if you need more space above the line
+
 
 % Remove paragraph indentation
 \parindent0pt
@@ -100,7 +94,7 @@
 
 
 % Format question response
-\usepackage{pifont} % Required for \ding{52}
+
 
 \newcounter{choiceboxcount} % Creates a unique tracking counter
 \newcommand{\customchoicebox}[1]{%
@@ -128,9 +122,8 @@
 
 \vspace*{-1.5cm}
 \Huge
-\begin{center}MRI Safety Screening Form\\[1em]\end{center}
+\begin{center}MRI Safety Screening Form\\\end{center}
 \large
-
 \textbf{Instructions:} Please fill in or indicate Yes/No to each item below. Respond to each item \underline{individually}. If uncertain of any answer, please circle and discuss with the MRI technologist.\\[1em]
 
 \fillableline{Date}{date}{4cm} \hfill \fillableline{Subject ID}{subj}{4cm}
