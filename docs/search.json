@@ -78,7 +78,7 @@
     "href": "pages/people.html",
     "title": "People",
     "section": "",
-    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
+    "text": "Jeffrey Fox\nMRI Technologist\njfox22@nd.edu\n(574) 631-5058\n\n\n\n\n\nNathan Muncy, Ph.D.\nMRI Analyst\nnmuncy@nd.edu\n\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\namusser2@nd.edu\n(574) 631-7276",
     "crumbs": [
       "People"
     ]
@@ -88,7 +88,7 @@
     "href": "pages/people.html#staff",
     "title": "People",
     "section": "",
-    "text": "Nathan Muncy, Ph.D.\nMRI Analyst\nE: nmuncy@nd.edu\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\nE: amusser2@nd.edu",
+    "text": "Jeffrey Fox\nMRI Technologist\njfox22@nd.edu\n(574) 631-5058\n\n\n\n\n\nNathan Muncy, Ph.D.\nMRI Analyst\nnmuncy@nd.edu\n\n\n\n\n\nAlex Musser, M.Sc.\nOperations Coordinator\namusser2@nd.edu\n(574) 631-7276",
     "crumbs": [
       "People"
     ]
@@ -333,7 +333,7 @@
     "href": "index.html#additional-resources",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "Additional Resources",
-    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
+    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nPeople: Connect with ND-HNC staff.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
     "crumbs": [
       "Home"
     ]
@@ -378,7 +378,7 @@
     "href": "pages/directions.html",
     "title": "Directions",
     "section": "",
-    "text": "Veldman Family Psychology Clinic",
+    "text": "Interactive Map",
     "crumbs": [
       "Directions"
     ]
@@ -388,7 +388,7 @@
     "href": "pages/directions.html#location",
     "title": "Directions",
     "section": "Location",
-    "text": "Location\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the Lower Level of the Veldman Family Psychology Clinic, in downtown South Bend:\n\n\nInteractive Map",
+    "text": "Location\nThe Notre Dame Human Neuroimaging Center (ND-HNC) is located on the lower level of 501 N. Hill St., South Bend, IN 46617. We share the building with the Veldman Family Psychology Clinic and the William J. Shaw Center for Children and Families.",
     "crumbs": [
       "Directions"
     ]

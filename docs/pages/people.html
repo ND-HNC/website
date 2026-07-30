@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="People – ND-HNC">
-<meta property="og:image" content="../media/people/muncy.jpg">
+<meta property="og:image" content="../media/people/fox.jpg">
 <meta property="og:site_name" content="ND-HNC">
 </head>
 
@@ -209,36 +209,54 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="staff" class="level2">
 <h2 class="anchored" data-anchor-id="staff">Staff</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<p><img src="../media/people/muncy.jpg" class="img-fluid" style="width:80.0%"></p>
-<div style="text-align: left;">
-<div class="line-block">Nathan Muncy, Ph.D.<br>
-MRI Analyst<br>
-E: <a href="mailto:nmuncy@nd.edu">nmuncy@nd.edu</a></div>
+<style>
+.staff-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+.staff-img-container {
+  height: 200px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.staff-img-container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+</style>
+<div class="grid text-center">
+<div class="g-col-12 g-col-md-4 staff-card">
+<div class="staff-img-container">
+<p><img src="../media/people/fox.jpg" class="img-fluid" style="width:50.0%"></p>
 </div>
-</div><div class="column" style="width:33%;">
+<div class="line-block"><strong>Jeffrey Fox</strong><br>
+<em>MRI Technologist</em><br>
+<a href="mailto:jfox22@nd.edu">jfox22@nd.edu</a><br>
+(574) 631-5058</div>
+</div>
+<div class="g-col-12 g-col-md-4 staff-card">
+<div class="staff-img-container">
+<p><img src="../media/people/muncy.jpg" class="img-fluid" style="width:75.0%"></p>
+</div>
+<div class="line-block"><strong>Nathan Muncy, Ph.D.</strong><br>
+<em>MRI Analyst</em><br>
+<a href="mailto:nmuncy@nd.edu">nmuncy@nd.edu</a></div>
+</div>
+<div class="g-col-12 g-col-md-4 staff-card">
+<div class="staff-img-container">
 <p><img src="../media/nd_monogram_gold.jpg" class="img-fluid" style="width:65.0%"></p>
-<div style="text-align: left;">
-<div class="line-block">Alex Musser, M.Sc.<br>
-Operations Coordinator<br>
-E: <a href="mailto:amusser2@nd.edu">amusser2@nd.edu</a></div>
+</div>
+<div class="line-block"><strong>Alex Musser, M.Sc.</strong><br>
+<em>Operations Coordinator</em><br>
+<a href="mailto:amusser2@nd.edu">amusser2@nd.edu</a><br>
+(574) 631-7276</div>
 </div>
 </div>
-</div>
-<!-- ![John Doe, Ph.D.](../media/people/minion.jpg){width=100, fig-align="left"}
-
-**Position**: MRI Physicist -->
-<!-- ![Nathan Muncy, Ph.D.](../media/people/muncy.jpg){width=30% fig-align="left"}
-
-MRI Analyst | [nmuncy@nd.edu](mailto:nmuncy@nd.edu) | B28 Veldman Family Psychology Clinic -->
-<!-- ![John Doe](../media/people/minion.jpg){width=100, fig-align="left"}
-
-**Position**: MRI Technologist -->
-<!--
-![Alex Musser](../media/people/minion.jpg){width=100, fig-align="left"}
-
-**Position**: Operations Coordinator -->
 
 
 </section>
