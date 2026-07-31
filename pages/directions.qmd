@@ -10,22 +10,22 @@ toc-depth: 2
 Interactive Map
 
 ## Location
-The Notre Dame Human Neuroimaging Center (ND-HNC) is located on the lower level of [501 N. Hill St., South Bend, IN 46617](https://maps.app.goo.gl/Rz3ATi5nA5a2hkPdA){target="_blank"}. We share the building with the [Veldman Family Psychology Clinic](https://veldmanclinic.nd.edu/){target="_blank"} and the [William J. Shaw Center for Children and Families](https://shaw.nd.edu/){target="_blank"}.
+The Notre Dame Human Neuroimaging Center (ND-HNC) is located on the lower level of [501 N. Hill St., South Bend, IN 46617](https://maps.app.goo.gl/Rz3ATi5nA5a2hkPdA). We share the building with the [Veldman Family Psychology Clinic](https://veldmanclinic.nd.edu/) and the [William J. Shaw Center for Children and Families](https://shaw.nd.edu/).
 
 ## Parking
 Parking is available for free on the north side of the building (access from Cedar St).
 
-![](../media/vfpc_parking.jpg)
+![](../media/pages/vfpc_parking.jpg)
 
 ## Entry
 - Enter through the building's main (north) door.
 - Access to reception is restricted -- it is possible to page the receptionist by pressing the yellow "Call" button.
 - Research personnel will meet you in the main reception area and escort you to the ND-HNC.
 
-![](../media/vfpc_main_reception_call.jpg){width=75%}
+![](../media/pages/vfpc_main_reception_call.jpg){width=75%}
 
 ## Researchers
 For access as a researcher, please reference the following SOPs:
 
-- SOP 301: [Building Access](../resources/sops/300_building/1_access/sop_301_access.pdf){target="_blank"}.
-- SOP 202: [Zone Access](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"}.
+- SOP 301: [Building Access](../resources/sops/300_building/1_access/sop_301_access.pdf).
+- SOP 202: [Zone Access](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf).

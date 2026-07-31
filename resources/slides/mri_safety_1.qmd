@@ -1,0 +1,400 @@
+---
+title: "MRI Safety Training, Level 1"
+subtitle: "Notre Dame Human Neuroimaging Center (ND-HNC)"
+# author: Nathan Muncy, Ph.D.
+# date: today
+execute:
+    freeze: auto
+    # echo: true
+format:
+  revealjs:
+    footer: "ND-HNC: MRI Level 1"
+    logo: ../media/nd_logo.png
+    transition: slide
+    slide-number: true
+engine: knitr
+---
+
+# MRI: An introduction
+## What is MRI?
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- (Nuclear) Magnetic Resonance Imaging
+- Nuclear **Magnetic**: certain elements have known behaviors in magnetic fields:
+    - Align with field,
+    - Precesses at given frequency.
+- **Resonance**: introduce energy at same frequency as precession.
+    - Protons move to higher energy states, eventually decay.
+- **Imaging**: researchers capitalize on different tissue properties (e.g. density) to create contrasts.
+::::
+
+:::: {.column width="50%"}
+::: {.r-stack}
+
+![](../media/mri.jpg){fig-align="right"}
+
+![](../media/nmr_2.jpg){.fragment .fade-in-then-out fig-align="right"}
+
+![](../media/t1_1.png){.fragment .fade-in-then-out fig-align="right"}
+
+:::
+::::
+:::::
+
+---
+
+## Magnet Strength
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Typically measured in Tesla (T).
+- The Earth’s magnetic field is roughly 0.00005 Tesla.
+    - Standard 3 Tesla scanner is ~60,000 times stronger than Earth's field.
+- Meaning: 3 Tesla is [significant](https://www.youtube.com/watch?v=6BBx8BwLhqg){target="_blank"}.
+::::
+
+:::: {.column width="50%"}
+
+![](../media/tesla_1.png){fig-align="right"}
+
+::::
+:::::
+
+---
+
+## Magnet Is Always On!
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Electrical resistance decreases with temperature.
+    - At very (very) low temperatures, copper has superconductive properties.
+- MRI scanner filled with liquid helium:
+    - Ramp up (charge coil) from the electrical grid.
+    - Then disconnect!
+    - Perpetual current = persistent field strength.
+- Magnetic field is independent of power in:
+    - Room,
+    - Veldman Family Psychology Clinic,
+    - South Bend.
+::::
+
+:::: {.column width="\"50%"}
+::: {.r-stack}
+
+![](../media/cold_1.png){.fragment .fade-in-then-out fig-align="right"}
+
+![](../media/coil_3.png){.fragment .fade-in-then-out fig-align="right"}
+
+![](../media/coil_2.jpg){.fragment .fade-in-then-out fig-align="right"}
+
+![](../media/coil_1.png){.fragment .fade-in-then-out fig-align="right"}
+
+:::
+::::
+:::::
+
+---
+
+## Safety Considerations
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Rarely are rooms [fatal](https://smithchason.edu/mri-safety-lessons-1980-2001-2025/){target="_blank"}.
+- Injuries are more [common](../media/articles/inaguma_2023_injuries.pdf){target="_blank"} than they should be.
+- American College of Radiology ([ACR](https://www.acr.org/){target="_blank"}) recommends a 4 [zone](https://mriquestions.com/acr-safety-zones.html){target="_blank"} strategy for controlling access.
+::::
+
+:::: {.column width="\"50%"}
+::: {.r-stack}
+
+![](../media/zones_2.png){.fragment .fade-in-then-out fig-align="right"}
+
+![](../media/zones_1.png){.fragment .fade-in-then-out fig-align="right"}
+
+:::
+::::
+:::::
+
+---
+
+## Safety Screener
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Everyone who enters Zone 3 **MUST** fill out an [MRI Safety Screener](../media/form_RO01_mri_screen.pdf){target="_blank"}.
+- Check for compatibility with 3 Tesla field.
+- Reviewed by two people, check for:
+    - MR contraindications (e.g. pacemker),
+    - MR compatibility (e.g. magnetic lashes).
+::::
+:::::
+
+
+# MRI Zones
+
+ND-HNC zone [map](../media/nd-hnc_layout_zones.png){target="_blank"}.
+
+## Zone 1 - Orange
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Contains:
+    - Offices
+    - Conference
+    - Reception
+- Use:
+    - Meet participants
+- Access:
+    - Public
+::::
+
+:::: {.column width="\"50%"}
+
+![](../media//nd-hnc_layout_zones.png){fig-align="right"}
+
+::::
+:::::
+
+---
+
+## Zone 2 - Purple
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Contains:
+    - Changing rooms
+    - Interview, testing
+    - Non-MRI research (EEG, TMS)
+    - Mock MRI
+- Use:
+    - Non-MRI research
+    - MRI preparation
+- Access:
+    - Levels 1, 2+
+    - Escorted Visitors
+::::
+
+:::: {.column width="\"50%"}
+
+![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+
+::::
+:::::
+
+---
+
+## Zone 3 - Green
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Contains:
+    - Equipment
+    - Storage
+    - Control
+- Use:
+    - Access MRI scanner
+    - Maintain equipment
+    - Collect MRI data
+- Access:
+    - Level 3+ (Supervised Level 2)
+    - Screened, escorted Visitors
+::::
+
+:::: {.column width="\"50%"}
+
+![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+
+::::
+:::::
+
+---
+
+## Zone 4 - Blue
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Contains:
+    - Magnet
+- Use:
+    - Scan participants
+- Access:
+    - Level 4+ (Supervised Level 2+)
+    - Screened, escorted Visitors
+::::
+
+:::: {.column width="\"50%"}
+
+![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+
+::::
+:::::
+
+
+# Level 1 Access
+Purpose: Conduct non-MRI research.
+
+## Participant Flow
+
+```{mermaid}
+%% | label: ""
+%% | fig-align: center
+flowchart LR
+    subgraph Zone_1 [Zone 1]
+        B["`Arrive
+            Exit`"]
+    end
+    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px
+
+    subgraph Zone_2 [Zone 2]
+        C["`Interview
+           EEG
+           TMS`"]
+    end
+    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px
+
+    A[Schedule] --> Zone_1
+    Zone_1 <--> Zone_2
+
+    classDef allBlack color:#000000;
+    class A,B,C allBlack;
+    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;
+    class A,B,C whiteBoxes;
+    linkStyle default stroke:black,stroke-width:1px;
+
+```
+
+<!-- ---
+
+## Data Flow
+
+CorpFS
+- Organize data by project
+- Maintain anonymity
+- Decentralize - avoid files written to specific login -->
+
+---
+
+## Requirements
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Complete annual ND-HNC MRI Safety training, Level 1.
+- Participate in building access and safety trainings.
+- Wear Level 1 access badge while in the ND-HNC research suite.
+
+:::::
+:::::
+
+---
+
+## Privileges
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Irish1Card access to Zone 2.
+- Unsupervised access to Zone 2.
+- Escort visitors in Zone 2.
+::::
+
+:::: {.column width="\"50%" style="font-size: 65%;"}
+![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+::::
+
+
+:::::
+
+---
+
+## Restrictions
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- No access to Mock MRI (B14).
+- No access to Zones 3, 4.
+- Cannot review MRI Safety Screen.
+::::
+
+:::: {.column width="\"50%" style="font-size: 65%;"}
+![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+::::
+
+:::::
+
+---
+
+## Duties
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Assist during emergencies.
+    - Staying in Zones 1, 2.
+::::
+
+:::: {.column width="\"50%" style="font-size: 65%;"}
+![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+::::
+
+:::::
+
+
+# Schedule Facilities
+
+TODO
+
+# Use Equipment
+
+TODO
+
+# Culture of Diligence
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- **Purpose:** have ZERO accidents with the scanner.
+- Avoid complacency and [survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias){target="_blank"}.
+- Follow and support policies, for example:
+    - Wear badges for ease of identification.
+    - Close doors to restrict Zone access.
+    - Challenge, log, report protocol deviations.
+::::
+
+:::: {.column width="\"50%"}
+
+![](../media/reset.png){fig-align="right"}
+
+::::
+:::::
+
+
+# Website
+:::: {style="font-size: 65%;"}
+- Find SOPs, Policies, and more information at [nd-hnc.github.io/website](https://nd-hnc.github.io/website){target="_blank"}
+::::
+
+
+## Sources
+:::: {.columns}
+::: {.column width="50%" style="font-size: 50%"}
+What is MRI?
+
+- [NMR Property](https://link.springer.com/chapter/10.1007/978-3-031-91447-8_2)
+- [Axial T1-weighted image](https://mrimaster.com/index-2/)
+
+MRI Strength
+
+- [Tesla distance](https://www.researchgate.net/figure/Comparison-of-fringe-magnetic-fields-of-two-clinical-MRI-systems-Fringe-magnetic-fields_fig1_334496429)
+
+Always On!
+
+- [Superconductivity](https://mriquestions.com/superconductivity.html)
+- [Magnet cross section](https://mriquestions.com/superconductive-design.html)
+- [Magnet and grid](https://www.sciencedirect.com/topics/engineering/superconducting-coil)
+- [Electromagnet](https://www.sciencefacts.net/solenoid-magnetic-field.html)
+
+:::
+::: {.column width="\"50%" style="font-size: 50%"}
+
+Safety Considerations
+
+- [2x2 Scanner Accident](https://www.purdue.edu/hhs/mri/MR%20Safety/MR%20Safety.html)
+- [Article Selection](https://smithchason.edu/mri-safety-lessons-1980-2001-2025/)
+- [MRI Zones](https://mriquestions.com/acr-safety-zones.html)
+
+Culture of Diligence
+
+- [XKCD](https://xkcd.com/363/)
+
+:::
+::::

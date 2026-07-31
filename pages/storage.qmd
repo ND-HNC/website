@@ -5,7 +5,7 @@ toc: true
 
 <!-- ![Credit: <a href="https://wallpapers.com/wallpapers/storage-computer-hard-drives-5pguoy6qvy239ttm.html">Hard Drives in Abstract Computer Storage</a> by ken123 at <a href="https://wallpapers.com/">Wallpapers.com</a>](../media/data_storage.jpg){width=75% fig-align="left"} -->
 
-![Credit: <a href="https://wallpapers.com/wallpapers/storage-computer-hard-drives-5pguoy6qvy239ttm.html">Hard Drives in Abstract Computer Storage</a> by ken123.](../media/data_storage.jpg){width=75% fig-align="left"}
+![Credit: <a href="https://wallpapers.com/wallpapers/storage-computer-hard-drives-5pguoy6qvy239ttm.html">Hard Drives in Abstract Computer Storage</a> by ken123.](../media/pages/data_storage.jpg){width=75% fig-align="left"}
 
 ## Overview
 

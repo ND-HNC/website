@@ -16,9 +16,9 @@ Here we provide our research community, faculty, and staff with centralized acce
 
 | SOP | Topic | Document | Referenced Forms |
 |-----|-----|-----|-----|
-| 101 | Hardware | [Link](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf){target="_blank"} | [LG01](../resources/forms/form_LG01_hardware_issue.pdf){target="_blank"}, [LG04](../resources/forms/form_LG04_protocol_violations.pdf){target="_blank"}, [RO03](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
-| 102 | Medical | [Link](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf){target="_blank"} | [LG03](../resources/forms/form_LG03_incidents.pdf){target="_blank"}, [LG04](../resources/forms/form_LG04_protocol_violations.pdf){target="_blank"}, [RO03](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
-| 103 | Incident Reporting | [Link](../resources/sops/100_emergency/3_adverse_events/sop_103_adverse_events.pdf){target="_blank"} | [LG03](../resources/forms/form_LG03_incidents.pdf){target="_blank"} |
+| 101 | Hardware | [Link](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf) | [LG01](../resources/forms/form_LG01_hardware_issue.pdf), [LG04](../resources/forms/form_LG04_protocol_violations.pdf), [RO03](../../media/sops/nd-hnc_layout_zones.png) |
+| 102 | Medical | [Link](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf) | [LG03](../resources/forms/form_LG03_incidents.pdf), [LG04](../resources/forms/form_LG04_protocol_violations.pdf), [RO03](../../media/sops/nd-hnc_layout_zones.png) |
+| 103 | Incident Reporting | [Link](../resources/sops/100_emergency/3_adverse_events/sop_103_adverse_events.pdf) | [LG03](../resources/forms/form_LG03_incidents.pdf) |
 | 104 | Incidental Findings | Link |
 
 : {tbl-colwidths="[25,25,25,25]"}
@@ -28,8 +28,8 @@ Here we provide our research community, faculty, and staff with centralized acce
 
 | SOP | Topic | Document | Referenced Forms |
 |-----|-----|-----|-----|
-| 201 | MRI Safety Screen | [Link](../resources/sops/200_operation/1_safety_screen/sop_201_safety_screen.pdf){target="_blank"} | [RO01](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"}, [RO03](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
-| 202 | Zone Access | [Link](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf){target="_blank"} | [RO01](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"}, [LG05](../resources/forms/form_LG05_shadow_record.pdf){target="_blank"} |
+| 201 | MRI Safety Screen | [Link](../resources/sops/200_operation/1_safety_screen/sop_201_safety_screen.pdf) | [RO01](../resources/forms/form_RO01_mri_screen.pdf), [RO03](../../media/sops/nd-hnc_layout_zones.png) |
+| 202 | Zone Access | [Link](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf) | [RO01](../resources/forms/form_RO01_mri_screen.pdf), [LG05](../resources/forms/form_LG05_shadow_record.pdf) |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
@@ -38,10 +38,10 @@ Here we provide our research community, faculty, and staff with centralized acce
 
 | SOP | Topic | Document | Referenced Forms |
 |-----|-----|-----|-----|
-| 301 | Building Access | [Link](../resources/sops/300_building/1_access/sop_301_access.pdf){target="_blank"} |
-| 302 | Fire and Gas | [Link](../resources/sops/300_building/2_fire_gas/sop_302_fire_gas.pdf){target="_blank"} |
-| 303 | Tornado | [Link](../resources/sops/300_building/3_tornado/sop_303_tornado.pdf){target="_blank"} |
-| 304 | Active Violence | [Link](../resources/sops/300_building/4_violence/sop_304_violence.pdf){target="_blank"} |
+| 301 | Building Access | [Link](../resources/sops/300_building/1_access/sop_301_access.pdf) |
+| 302 | Fire and Gas | [Link](../resources/sops/300_building/2_fire_gas/sop_302_fire_gas.pdf) |
+| 303 | Tornado | [Link](../resources/sops/300_building/3_tornado/sop_303_tornado.pdf) |
+| 304 | Active Violence | [Link](../resources/sops/300_building/4_violence/sop_304_violence.pdf) |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
@@ -54,9 +54,9 @@ Here we provide our research community, faculty, and staff with centralized acce
 
 | Number | Title | Document | |
 |-----|-----|-----|-----|
-| GA01 | ACR MRI Safety | [Link](../resources/forms/form_GA01_ACR_manual.pdf){target="_blank"} |
-| GA02 | OHRP 2007 | [Link](../resources/forms/form_GA02_OHRP_2007.pdf){target="_blank"} |
-| GA03 | FDA Reports | [Link](../resources/forms/form_GA03_FDA_reporting.pdf){target="_blank"} |
+| GA01 | ACR MRI Safety | [Link](../media/articles/form_GA01_ACR_manual.pdf) |
+| GA02 | OHRP 2007 | [Link](../media/articles/form_GA02_OHRP_2007.pdf) |
+| GA03 | FDA Reports | [Link](../media/articles/form_GA03_FDA_reporting.pdf) |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
@@ -69,11 +69,11 @@ Here we provide our research community, faculty, and staff with centralized acce
 
 | Number | Title | Document | |
 |-----|-----|-----|-----|
-| LG01 | Hardware Issue | [Link](../resources/forms/form_LG01_hardware_issue.pdf){target="_blank"} |
-| LG02 | Hardware Maintenance | [Link](../resources/forms/form_LG02_hardware_maintenance.pdf){target="_blank"} |
-| LG03 | Incidents | [Link](../resources/forms/form_LG03_incidents.pdf){target="_blank"} |
-| LG04 | Compliance | [Link](../resources/forms/form_LG04_protocol_violations.pdf){target="_blank"} |
-| LG05 | Shadow Hours | [Link](../resources/forms/form_LG05_shadow_record.pdf){target="_blank"} |
+| LG01 | Hardware Issue | [Link](../resources/forms/form_LG01_hardware_issue.pdf) |
+| LG02 | Hardware Maintenance | [Link](../resources/forms/form_LG02_hardware_maintenance.pdf) |
+| LG03 | Incidents | [Link](../resources/forms/form_LG03_incidents.pdf) |
+| LG04 | Compliance | [Link](../resources/forms/form_LG04_protocol_violations.pdf) |
+| LG05 | Shadow Hours | [Link](../resources/forms/form_LG05_shadow_record.pdf) |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
@@ -86,9 +86,9 @@ Here we provide our research community, faculty, and staff with centralized acce
 
 | Number | Title | Document | |
 |-----|-----|-----|-----|
-| RO01 | MRI Safety Screen | [Link](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"} |
-| RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf){target="_blank"}, [White](../resources/forms/form_RO02_arrival_white.pdf){target="_blank"} |
-| RO03 | ND-HNC Layout| [Link](../resources/sops/pics/nd-hnc_layout_zones.png){target="_blank"} |
+| RO01 | MRI Safety Screen | [Link](../resources/forms/form_RO01_mri_screen.pdf) |
+| RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf), [White](../resources/forms/form_RO02_arrival_white.pdf) |
+| RO03 | ND-HNC Layout| [Link](../../media/sops/nd-hnc_layout_zones.png) |
 
 : {tbl-colwidths="[25,25,25,25]"}
 

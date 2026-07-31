@@ -53,7 +53,7 @@ title: People
 
 :::: {.g-col-12 .g-col-md-4 .staff-card}
 ::: {.staff-img-container}
-![](../media/nd_monogram_gold.jpg){width=65%}
+![](../media/nd_brand/nd_monogram_gold.jpg){width=65%}
 :::
 
 | **Alex Musser, M.Sc.**

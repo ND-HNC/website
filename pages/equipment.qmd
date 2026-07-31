@@ -4,7 +4,7 @@ toc: true
 toc-depth: 4
 ---
 
-![](../media/mock_green.jpg){width=75% fig-align="left"}
+![](../media/pages/mock_green.jpg){width=75% fig-align="left"}
 
 # Summary
 This page provides both overview descriptions and technical equipment statements for research hardware available at the ND-HNC. Grant writers will be most interested in the [Equipment Statement](#sec:equip-state) section.
@@ -25,7 +25,7 @@ For quick navigation within this page:
 ## 3T Magnetic Resonance Imaging (MRI) System {#ssec:mri}
 ### Siemens Healthineers MAGNETOM Cima.X 3T
 
-![](../media/mri.jpg){width=70%}
+![](../media/pages/mri.jpg){width=70%}
 
 Our facility features the cutting-edge Siemens MAGNETOM Cima.X 3T system, operating on the latest syngo MR XA61 software platform. Designed with a patient-friendly 60 cm open bore, this system seamlessly bridges high-performance cognitive neuroscience research with advanced clinical diagnostics.
 
@@ -41,13 +41,13 @@ We offer a versatile suite of high-channel-count coils optimized for high signal
 * **32-Channel Head Coil:** Specially optimized for high-resolution structural brain imaging, MR angiography (MRA), and functional MRI. It features an open-view architecture to reduce participant claustrophobia and easily accommodate visual stimulation experiments.
 * **BioMatrix Head/Neck 20 Coil:** A tiltable 20-element array featuring integrated CoilShim technology that automatically corrects for local magnetic field inhomogeneities at challenging air-tissue interfaces, such as the frontal sinuses and skull base.
 
-![](../media/coils_head.jpg){width=70% fig-align="center"}
+![](../media/pages/coils_head.jpg){width=70% fig-align="center"}
 
 * **BioMatrix Spine 32 Coil:** A 32-channel matrix with integrated Respiratory Sensors for automatic respiratory gating and motion-artifact reduction without external bellows.
 * **Body 18 Coil:** An ultra-lightweight, 18-element curved matrix for abdominal, thoracic, or torso imaging.
 * **Flex Large 4 & Small 4 Coils:** Highly flexible 4-channel local loops paired with a dedicated interface for high-density, targeted imaging of unique anatomical regions.
 
-![](../media/coils_body.jpg){width=70% fig-align="center"}
+![](../media/pages/coils_body.jpg){width=70% fig-align="center"}
 
 
 ## Functional MRI (fMRI) Task Presentation & Synchronization {#ssec:task-present}
@@ -59,7 +59,7 @@ For cognitive and behavioral paradigms, our center utilizes a fully integrated, 
 * **NNL SyncBox:** Ensures explicit temporal alignment between the MRI pulse sequences and the stimulus software with a timing accuracy of ±0.5 ms. It intercepts scanner triggers and streams them instantly to the stimulus computer.
 * **nordicAktiva Software:** Allows a single operator to manage paradigm execution and image acquisition simultaneously. It includes an extensive library of ready-to-use clinical paradigms (language, motor, etc.) and a custom Paradigm Builder.
 
-![](../media/computer_nordic.jpg){width=40% fig-align="center"}
+![](../media/pages/computer_nordic.jpg){width=40% fig-align="center"}
 
 ### Stimulus Control Computer
 Task presentation, experimental timing, and multi-modal data integration are also available through a separate, ultra-compact Dell QMB1250 (Micro) workstation located in the control room. Despite its small footprint, this system provides robust, reliable performance tailored for precision behavioral testing and functional neuroimaging paradigms.
@@ -68,7 +68,7 @@ Task presentation, experimental timing, and multi-modal data integration are als
 * **Versatile Task Deployment:** The system is fully configured to support and deploy the industry-standard software packages utilized in cognitive neuroscience, including MATLAB (for custom routines and Psychtoolbox), PsychoPy (for Python-based experimental design), and E-Prime (for millisecond-accurate script execution).
 * **Psychophysiological Integration:** Beyond driving visual and auditory paradigms via the NordicNeuroLab system, the workstation is specifically engineered and wired to receive real-time psychophysiological inputs (such as GSR, respiration, or heart rate monitoring devices). This setup allows investigators to acquire synchronized behavioral, physiological, and neuroimaging datasets concurrently.
 
-![](../media/computer_stimulus.jpg){width=70% fig-align="center"}
+![](../media/pages/computer_stimulus.jpg){width=70% fig-align="center"}
 
 
 ## DICOM Capture, Processing, & Storage Workstation {#ssec:dicom}
@@ -78,7 +78,7 @@ Primary local data ingestion, database archiving, and 3D visualization are drive
 * **DICOM Organization & Query via Horos:** The Mac Studio acts as the primary data receiver, pulling raw Digital Imaging and Communications in Medicine (DICOM) files directly from the scanner console. Database management, local archiving, and query/retrieve operations are handled natively via the Horos platform. This 64-bit medical imaging environment automatically indexes and structures incoming subjects, supporting advanced 2D/3D Multi-Planar Reconstructions (MPR), Maximum Intensity Projections (MIP), and high-precision region-of-interest (ROI) tools. For data sharing compliance, Horos utilizes scriptable anonymization utilities to strip Protected Health Information (PHI) before any external export.
 * **Massive Fault-Tolerant Storage:** To manage and preserve these large neuroimaging payloads, Horos is configured to organize and archive all datasets directly onto a 104 TB Promise Technology Pegasus hardware RAID system. The array interfaces with the Mac Studio via a high-bandwidth 40 Gbps Thunderbolt connection, completely eliminating I/O bottlenecks when reading, writing, or processing multi-gigabyte 4D fMRI and diffusion timeseries datasets.
 
-![](../media/computer_dicom.jpg){width=60% fig-align="center"}
+![](../media/pages/computer_dicom.jpg){width=60% fig-align="center"}
 
 
 ## Mock Scanner / Participant Training {#ssec:mock}
@@ -87,10 +87,10 @@ To maximize data quality and minimize failed scans due to participant anxiety or
 
 * **Realistic Patient Interface:** Features a realistic diagnostic scanner façade, a standard 60 cm tapered bore, internal cooling fans, and a motorized participant table with dynamic speed controls and a safety squeeze ball.
 * **Environmental Realism (SimFx):** Replicates the acoustic and tactile experience of a live scan using high-quality acoustic recordings of GE and Siemens sequences played through amplified speakers and a subwoofer to simulate authentic scanner vibrations.
-* **Real-Time Motion Tracking (MoTrak):** Equipped with a head-mounted motion tracking system that monitors head movement and rotation along the X, Y, and Z axes. It can modulate audio/video output to provide immediate feedback, effectively training pediatric or anxious cohorts to remain perfectly still.
+* **Real-Time Motion Tracking (MoTrak):** Equipped with a head-mounted motion tracking system that monitors head movement and rotation along the X, Y, and Z axes. It can modulate audio/video output to provide immedia/pageste feedback, effectively training pediatric or anxious cohorts to remain perfectly still.
 * **Console Simulation:** Utilizes IACIT MRI Console Simulation Software to replicate a true operator’s console, allowing staff, students, and investigators to practice protocol execution in a risk-free setting.
 
-![](../media/mock.jpg){width=70% fig-align="center"}
+![](../media/pages/mock.jpg){width=70% fig-align="center"}
 
 
 ## Compute {#ssec:compute}
