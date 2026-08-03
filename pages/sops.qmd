@@ -4,8 +4,6 @@ toc: true
 toc-depth: 4
 ---
 
-This page is under construction.
-
 ## Overview
 Here we provide our research community, faculty, and staff with centralized access to the center's Standard Operating Procedures (SOPs). Hosting these Links helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.
 
@@ -44,52 +42,3 @@ Here we provide our research community, faculty, and staff with centralized acce
 | 304 | Active Violence | [Link](../resources/sops/300_building/4_violence/sop_304_violence.pdf) |
 
 : {tbl-colwidths="[25,25,25,25]"}
-
-
-## Forms
-
-<details>
-
-<summary> GA: Governing Articles</summary>
-
-| Number | Title | Document | |
-|-----|-----|-----|-----|
-| GA01 | ACR MRI Safety | [Link](../media/articles/form_GA01_ACR_manual.pdf) |
-| GA02 | OHRP 2007 | [Link](../media/articles/form_GA02_OHRP_2007.pdf) |
-| GA03 | FDA Reports | [Link](../media/articles/form_GA03_FDA_reporting.pdf) |
-
-: {tbl-colwidths="[25,25,25,25]"}
-
-</details>
-
-
-<details>
-
-<summary> LG: Log Issues and Maintenance</summary>
-
-| Number | Title | Document | |
-|-----|-----|-----|-----|
-| LG01 | Hardware Issue | [Link](../resources/forms/form_LG01_hardware_issue.pdf) |
-| LG02 | Hardware Maintenance | [Link](../resources/forms/form_LG02_hardware_maintenance.pdf) |
-| LG03 | Incidents | [Link](../resources/forms/form_LG03_incidents.pdf) |
-| LG04 | Compliance | [Link](../resources/forms/form_LG04_protocol_violations.pdf) |
-| LG05 | Shadow Hours | [Link](../resources/forms/form_LG05_shadow_record.pdf) |
-
-: {tbl-colwidths="[25,25,25,25]"}
-
-</details>
-
-
-<details>
-
-<summary> RO: Research Operations</summary>
-
-| Number | Title | Document | |
-|-----|-----|-----|-----|
-| RO01 | MRI Safety Screen | [Link](../resources/forms/form_RO01_mri_screen.pdf) |
-| RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf), [White](../resources/forms/form_RO02_arrival_white.pdf) |
-| RO03 | ND-HNC Layout| [Link](../../media/sops/nd-hnc_layout_zones.png) |
-
-: {tbl-colwidths="[25,25,25,25]"}
-
-</details>

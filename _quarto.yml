@@ -25,6 +25,8 @@ website:
         href: pages/equipment.qmd
       - text: Facilities
         href: pages/facilities.qmd
+      - text: Forms
+        href: pages/forms.qmd
       - text: Operate
         href: pages/operate.qmd
       - text: People

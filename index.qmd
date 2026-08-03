@@ -1,6 +1,6 @@
 ---
 title: "Notre Dame Human Neuroimaging Center"
-subtitle: "Resources for Operations and Computing"
+subtitle: "Resources for Operations and Analysis"
 date: today
 toc: true
 # execute:
@@ -29,9 +29,9 @@ We provide operational support for every step of research conducted at the Notre
 
 ## Operation Documents
 
-<!-- - [Forms](pages/forms.qmd): MRI Safety screener, other helpful documents. -->
+- [Forms](pages/forms.qmd): MRI Safety screener, other helpful documents.
 - [Policies](pages/policies.qmd): ND-HNC policies for use.
-- [SOPs](pages/sops.qmd): Standard Operating Procedures and forms.
+- [SOPs](pages/sops.qmd): Standard Operating Procedures.
 
 ## Additional Resources
 
