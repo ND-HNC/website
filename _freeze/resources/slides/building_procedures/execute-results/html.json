@@ -1,0 +1,19 @@
+{
+  "hash": "7cbad690692aab3844982031d9430090",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Building Procedures\"\nsubtitle: \"Notre Dame Human Neuroimaging Center (ND-HNC)\"\nexecute:\n    freeze: auto\nformat:\n  revealjs:\n    footer: \"ND-HNC: building procedures\"\n    logo: ../../media/nd_brand/nd_logo.png\n    transition: slide\n    slide-number: true\nengine: knitr\n---\n\n# Emergency Responses\n## Evacuation Emergencies (Fire, Gas)\n::::: columns\n:::: {.column width=\"50%\" style=\"font-size: 65%;\"}\n**Location of Fire Extinguishers:**\n\n- Laundry room near the loading dock (E1)\n- Across from the elevator bay in reception (E2)\n- Outside the Neuro Lab Prep Room, B21 (E3)\n- South Staff Entrance (E4)\n- MRI Zone 3 Vestibule, B15 (E5)\n- [NOTE:]{style=\"color: red\"} Fire Extinguishers are **NOT** MRI Compatible\n\n**Location of Fire Pulls (think exits):**\n\n- Loading Dock Doors (P1)\n- North and South Stairwells (P2, P4)\n- South Staff Entrance (P3)\n\n::::\n\n:::: {.column width=\"50%\"}\n::: {.r-stack}\n\n![](../../media/sops/vfpc_floor0.png){fig-align=\"right\"}\n\n:::\n::::\n:::::\n\n---\n\n## Procedures - Fire/Gas (Zones I, II)\n::::: columns\n:::: {.column width=\"50%\" style=\"font-size: 65%;\"}\n\n1. Pull the nearest Fire Alarm\n2. Call 911 to notify the South Bend Fire Department (SBFD) and\n    a. Say “We have [fire, smoke, gas] in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street”.\n3. Fight small fires ONLY IF:\n    a. The Fire Department has been notified\n    b. The fire is not spreading to other areas\n    d. An escape route is available\n    e. The fire extinguisher is in working condition and you are trained to use it\n\n::::\n\n:::: {.column width=\"50%\" layout-ncol=2}\n\n![](../../media/sops/fire_alarm.jpg){fig-align=\"right\"}\n\n![](../../media/sops/fire_extinguisher_zone3_zoom.jpg){fig-align=\"right\"}\n\n::::\n:::::\n\n---\n\n## Procedures - Fire/Gas (Zones I, II), cont'd\n::::: columns\n:::: {.column width=\"50%\" style=\"font-size: 65%;\"}\n\n4. Gather in the designated Safe Meeting Spot (next slide)\n5. If you are unable to evacuate, draw attention to yourself by yelling out\n\n\n::::\n\n:::: {.column width=\"50%\"}\n::: {.r-stack}\n\n![](../../media/sops/vfpc_floor0.png){fig-align=\"right\"}\n\n:::\n::::\n:::::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

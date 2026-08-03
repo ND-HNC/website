@@ -33,6 +33,8 @@ website:
         href: pages/people.qmd
       - text: Policies
         href: pages/policies.qmd
+      - text: Private
+        href: pages/private.qmd
       # - text: Schedule
       #   href: pages/schedule.qmd
       - text: SOPs

@@ -15,9 +15,9 @@ Internal documents and files for ND-HNC staff.
 
 | Access | Topic | Materials | Exam |
 |-----|-----|-----|-----|
-| All | ND-HNC Procedures | Slides | TBD |
-| Level 1 | TBD | Slides | TBD |
-| Level 2 | TBD | Slides | TBD |
+| All | Building Procedures | [Slides](../resources/slides/building_procedures.qmd) | TBD |
+| Level 1 | MRI Zones | [Slides](../resources/slides/mri_safety_1.qmd) | TBD |
+| Level 2 | MRI Safety | [Slides](../resources/slides/mri_safety_2.qmd) | TBD |
 | Level 3 | TBD | Slides | TBD |
 | Level 4 | TBD | Slides | TBD |
 

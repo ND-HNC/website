@@ -1,5 +1,229 @@
 [
   {
+    "objectID": "resources/slides/mri_safety_full.html#i.-the-three-primary-magnetic-fields-of-mri",
+    "href": "resources/slides/mri_safety_full.html#i.-the-three-primary-magnetic-fields-of-mri",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "I. The Three Primary Magnetic Fields of MRI",
+    "text": "I. The Three Primary Magnetic Fields of MRI\nA. Static Magnetic Field (\\(B_0\\))\n\nCreated by superconducting coils.\nTime-invariant: It is always on.\nMeasurement: Typically measured in Tesla (T), where 1 Tesla = 10,000 Gauss.\nScale of Strength: The Earth’s magnetic field is roughly 0.00005 T; a standard 3 T scanner is approximately 60,000 times stronger than Earth’s field."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#ii.-hardware-geometry-subject-comfort-and-acoustic-noise",
+    "href": "resources/slides/mri_safety_full.html#ii.-hardware-geometry-subject-comfort-and-acoustic-noise",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "II. Hardware Geometry, Subject Comfort, and Acoustic Noise",
+    "text": "II. Hardware Geometry, Subject Comfort, and Acoustic Noise\nScanner Geometry & Subject Compliance\n\nThe physical coils impose a specific layout on the device.\nFeatures a long, narrow magnet bore alongside specialized RF coils.\nCreates issues with subject comfort, particularly triggering claustrophobia due to the confined space."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#iii.-safety-assessment-statistics-and-incidents",
+    "href": "resources/slides/mri_safety_full.html#iii.-safety-assessment-statistics-and-incidents",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "III. Safety Assessment, Statistics, and Incidents",
+    "text": "III. Safety Assessment, Statistics, and Incidents\nGeneral Modality Safety\n\nCompared to modalities using ionizing radiation (e.g., X-rays, PET scans), MRI is inherently a safe modality."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#i.-influence-of-the-static-field-on-metal-objects-the-projectile-effect",
+    "href": "resources/slides/mri_safety_full.html#i.-influence-of-the-static-field-on-metal-objects-the-projectile-effect",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "I. Influence of the Static Field on Metal Objects (The Projectile Effect)",
+    "text": "I. Influence of the Static Field on Metal Objects (The Projectile Effect)\nA. Material Properties and Magnetism"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#ii.-influence-of-the-static-field-on-implanted-devices-and-debris",
+    "href": "resources/slides/mri_safety_full.html#ii.-influence-of-the-static-field-on-implanted-devices-and-debris",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "II. Influence of the Static Field on Implanted Devices and Debris",
+    "text": "II. Influence of the Static Field on Implanted Devices and Debris\nA. Torsion (Rotational Force)\n\nMechanism: Ferromagnetic objects attempt to align parallel to the static magnetic field (\\(B_0\\)). This rotational effect is dominant when the static field is spatially uniform.\nClinical Hazard: Ferromagnetic vascular implants (such as intracranial aneurysm clamps) can rotate, causing massive internal bleeding."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#iii.-influence-of-the-static-field-on-human-physiology",
+    "href": "resources/slides/mri_safety_full.html#iii.-influence-of-the-static-field-on-human-physiology",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "III. Influence of the Static Field on Human Physiology",
+    "text": "III. Influence of the Static Field on Human Physiology\nA. General Safety Profile\n\n\nSchenck (2000) reviewed human exposure up to 8 Tesla and found no replicated scientific evidence of long-term health hazards or cumulative exposure risks."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#i.-thermal-effects-of-radio-frequency-rf-on-the-human-body",
+    "href": "resources/slides/mri_safety_full.html#i.-thermal-effects-of-radio-frequency-rf-on-the-human-body",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "I. Thermal Effects of Radio Frequency (RF) on the Human Body",
+    "text": "I. Thermal Effects of Radio Frequency (RF) on the Human Body\nA. Mechanism of RF Energy Absorption and Heating\n\nPurpose of RF: Brief pulses of radio frequency electromagnetic fields are applied during imaging to excite atomic spins and tilt them out of alignment with the static magnetic field (\\(B_0\\)).\nEnergy Excess: The transmitter coil sends far more RF energy into the body during excitation than the spins emit back as signals."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#ii.-thermal-effects-of-rf-on-foreign-metal-bodies-local-burns",
+    "href": "resources/slides/mri_safety_full.html#ii.-thermal-effects-of-rf-on-foreign-metal-bodies-local-burns",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "II. Thermal Effects of RF on Foreign Metal Bodies (Local Burns)",
+    "text": "II. Thermal Effects of RF on Foreign Metal Bodies (Local Burns)\nA. Core Hazard Mechanics\n\nInternal Implants: Metal devices absorb RF energy rapidly and can heat to temperatures well above surrounding tissue."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#iii.-non-thermal-effects-of-rf-on-implanted-medical-devices",
+    "href": "resources/slides/mri_safety_full.html#iii.-non-thermal-effects-of-rf-on-implanted-medical-devices",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "III. Non-Thermal Effects of RF on Implanted Medical Devices",
+    "text": "III. Non-Thermal Effects of RF on Implanted Medical Devices\nA. Electronic Malfunction & Interference\n\nMechanism: RF electromagnetic fields can physically cross-talk with the sensitive circuitry of active electronic medical implants, causing firmware logic failures independent of heat.\nCardiac Risks: RF fields (alongside time-varying gradient fields) can disrupt cardiac pacemakers, forcing asynchronous or dangerously accelerated pacing."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#i.-mechanics-of-time-varying-gradient-magnetic-fields-dbdt",
+    "href": "resources/slides/mri_safety_full.html#i.-mechanics-of-time-varying-gradient-magnetic-fields-dbdt",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "I. Mechanics of Time-Varying Gradient Magnetic Fields (\\(db/dt\\))",
+    "text": "I. Mechanics of Time-Varying Gradient Magnetic Fields (\\(db/dt\\))\nA. Purpose and Measurement of Gradients\n\nSpatial Encoding: Gradient magnetic fields are briefly imposed during image acquisition to dictate the spatial origin of the magnetic resonance signals.\nField Scale: Gradients are significantly weaker than the main static field (\\(B_0\\)) and are measured in thousandths of a Tesla per meter (\\(\\text{mT/m}\\))."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#ii.-biological-effects-nerve-and-muscle-stimulation",
+    "href": "resources/slides/mri_safety_full.html#ii.-biological-effects-nerve-and-muscle-stimulation",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "II. Biological Effects: Nerve and Muscle Stimulation",
+    "text": "II. Biological Effects: Nerve and Muscle Stimulation\nC. Peripheral Nerve Stimulation (PNS)\n\nMild Symptoms: Currents induced in the body can cause involuntary peripheral nerve or muscle activation.\n\nTypically manifests as a mild tingling sensation or a brief, harmless muscle twitch."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#iii.-impact-on-implanted-medical-devices",
+    "href": "resources/slides/mri_safety_full.html#iii.-impact-on-implanted-medical-devices",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "III. Impact on Implanted Medical Devices",
+    "text": "III. Impact on Implanted Medical Devices\nG. Mechanism of Device Disturbance\n\nDual-Field Interference: As with radiofrequency fields, time-varying gradient fields (\\(db/dt\\)) can induce unwanted currents directly inside the internal circuitry or structural components of active implants.\nAbandoned Hardware Risks: Currents can easily be induced inside internal control wires or lead fragments left behind in the body, even if the primary battery pack or active device has been surgically removed."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#i.-psychological-components-of-mri-claustrophobia",
+    "href": "resources/slides/mri_safety_full.html#i.-psychological-components-of-mri-claustrophobia",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "I. Psychological Components of MRI Claustrophobia",
+    "text": "I. Psychological Components of MRI Claustrophobia\nClaustrophobic reactions within the narrow magnet bore are primarily driven by:\n\nFear of Suffocation: Physical anxiety triggered by the highly enclosed space and proximity to the scanner walls.\nFear of Entrapment: A secondary worry that an emergency or negative event will occur while they are physically trapped or helpless inside the machine.\nLoss of Control: Once the subject is advanced into the tight confines of the bore."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#ii.-prevalence-and-statistical-breakdown",
+    "href": "resources/slides/mri_safety_full.html#ii.-prevalence-and-statistical-breakdown",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "II. Prevalence and Statistical Breakdown",
+    "text": "II. Prevalence and Statistical Breakdown\n\nGeneral Clinical Estimates (Kilborn & Labbe, 1990): Approximately 5% to 10% of all patients experience claustrophobic reactions during routine clinical MRI scans.\nSedation Rates (Murphy et al., 1997): Out of 949 hospital patients evaluated, 14.3% required medical sedation just to tolerate the imaging procedure."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#iii.-clinical-management-and-mitigation-strategies",
+    "href": "resources/slides/mri_safety_full.html#iii.-clinical-management-and-mitigation-strategies",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "III. Clinical Management and Mitigation Strategies",
+    "text": "III. Clinical Management and Mitigation Strategies\nA. Pre-Scan Screening\n\nDirect exclusion of subjects who explicitly self-report claustrophobia on screening forms.\nNote: This is a partial filter, as individuals with known, severe claustrophobia rarely volunteer for imaging studies in the first place."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#i.-regulatory-exposure-limits-for-acoustic-noise",
+    "href": "resources/slides/mri_safety_full.html#i.-regulatory-exposure-limits-for-acoustic-noise",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "I. Regulatory Exposure Limits for Acoustic Noise",
+    "text": "I. Regulatory Exposure Limits for Acoustic Noise\nA. OSHA Workplace Regulations (Occupational)\n\nTime-Weighted Average (TWA): OSHA limits workplace noise exposure to an 8-hour TWA of \\(90\\text{ dB}\\).\nDual-Risk Function: The regulatory framework establishes that hearing risk is a combined function of sound intensity (decibels) and exposure duration."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#ii.-sources-and-variables-of-scanner-acoustic-noise",
+    "href": "resources/slides/mri_safety_full.html#ii.-sources-and-variables-of-scanner-acoustic-noise",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "II. Sources and Variables of Scanner Acoustic Noise",
+    "text": "II. Sources and Variables of Scanner Acoustic Noise\nA. Primary Sound Generators\n\nStatic Non-Imaging State: When the scanner is idle and not acquiring images, the only noise source is the localized “chirping” of the cold water circulation pump. This stays within a \\(65\\text{–}80\\text{ dB (A)}\\) range, which sits below the threshold requiring mandatory employer hearing conservation programs."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_full.html#iii.-hearing-protection-devices-hpds",
+    "href": "resources/slides/mri_safety_full.html#iii.-hearing-protection-devices-hpds",
+    "title": "Notre Dame Human Neuroimaging Center (ND-HNC): MRI Safety Training",
+    "section": "III. Hearing Protection Devices (HPDs)",
+    "text": "III. Hearing Protection Devices (HPDs)\nA. The Noise Reduction Rating (NRR)\n\nEPA Standardization: The Environmental Protection Agency utilizes the NRR metric to quantify hearing protector effectiveness.\nMathematical Calculation: The NRR value is calculated by taking the mean laboratory sound attenuation (in dB) of the device and subtracting two standard deviations.\n\nThis design ensures the rating reflects the absolute minimum protection achieved by \\(98\\%\\) of the population."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#what-is-mri",
+    "href": "resources/slides/mri_safety_1.html#what-is-mri",
+    "title": "MRI Safety Training, Level 1",
+    "section": "What is MRI?",
+    "text": "What is MRI?\n\n\n\n(Nuclear) Magnetic Resonance Imaging\nNuclear Magnetic: certain elements have known behaviors in magnetic fields:\n\nAlign with field,\nPrecesses at given frequency.\n\nResonance: introduce energy at same frequency as precession.\n\nProtons move to higher energy states, eventually decay.\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#magnet-strength",
+    "href": "resources/slides/mri_safety_1.html#magnet-strength",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Magnet Strength",
+    "text": "Magnet Strength\n\n\n\nTypically measured in Tesla (T).\nThe Earth’s magnetic field is roughly 0.00005 Tesla.\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#magnet-is-always-on",
+    "href": "resources/slides/mri_safety_1.html#magnet-is-always-on",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Magnet Is Always On!",
+    "text": "Magnet Is Always On!\n\n\n\nElectrical resistance decreases with temperature.\n\nAt very (very) low temperatures, copper has superconductive properties.\n\nMRI scanner filled with liquid helium:\n\nRamp up (charge coil) from the electrical grid.\nThen disconnect!\nPerpetual current = persistent field strength.\n\nMagnetic field is independent of power in:\n\nRoom,\nVeldman Family Psychology Clinic,\nSouth Bend."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#safety-considerations",
+    "href": "resources/slides/mri_safety_1.html#safety-considerations",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Safety Considerations",
+    "text": "Safety Considerations\n\n\n\nRarely are rooms fatal.\nInjuries are more common than they should be.\nAmerican College of Radiology (ACR) recommends a 4 zone strategy for controlling access."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#safety-screener",
+    "href": "resources/slides/mri_safety_1.html#safety-screener",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Safety Screener",
+    "text": "Safety Screener\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemker),\nMR compatibility (e.g. magnetic lashes)."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-1---orange",
+    "href": "resources/slides/mri_safety_1.html#zone-1---orange",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 1 - Orange",
+    "text": "Zone 1 - Orange\n\n\n\nContains:\n\nOffices\nConference\nReception\n\nUse:\n\nMeet participants\n\nAccess:\n\nPublic"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-2---purple",
+    "href": "resources/slides/mri_safety_1.html#zone-2---purple",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 2 - Purple",
+    "text": "Zone 2 - Purple\n\n\n\nContains:\n\nChanging rooms\nInterview, testing\nNon-MRI research (EEG, TMS)\nMock MRI\n\nUse:\n\nNon-MRI research\nMRI preparation\n\nAccess:\n\nLevels 1, 2+\nEscorted Visitors"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-3---green",
+    "href": "resources/slides/mri_safety_1.html#zone-3---green",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 3 - Green",
+    "text": "Zone 3 - Green\n\n\n\nContains:\n\nEquipment\nStorage\nControl\n\nUse:\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\nAccess:\n\nLevel 3+ (Supervised Level 2)\nScreened, escorted Visitors"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#zone-4---blue",
+    "href": "resources/slides/mri_safety_1.html#zone-4---blue",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Zone 4 - Blue",
+    "text": "Zone 4 - Blue\n\n\n\nContains:\n\nMagnet\n\nUse:\n\nScan participants\n\nAccess:\n\nLevel 4+ (Supervised Level 2+)\nScreened, escorted Visitors"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#participant-flow",
+    "href": "resources/slides/mri_safety_1.html#participant-flow",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Participant Flow",
+    "text": "Participant Flow\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            ---\n            Exit`\"]\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n        C[\"`Interview\n           EEG\n           TMS`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2\n\n    classDef allBlack color:#000000;\n    class A,B,C allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#requirements",
+    "href": "resources/slides/mri_safety_1.html#requirements",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Requirements",
+    "text": "Requirements\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 1.\nParticipate in building access and safety trainings.\nWear Level 1 access badge while in the ND-HNC research suite."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#privileges",
+    "href": "resources/slides/mri_safety_1.html#privileges",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Privileges",
+    "text": "Privileges\n\n\n\nIrish1Card access to Zone 2.\nUnsupervised access to Zone 2.\nEscort visitors in Zone 2."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#restrictions",
+    "href": "resources/slides/mri_safety_1.html#restrictions",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Restrictions",
+    "text": "Restrictions\n\n\n\nNo access to Mock MRI (B14).\nNo access to Zones 3, 4.\nCannot review MRI Safety Screen."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#duties",
+    "href": "resources/slides/mri_safety_1.html#duties",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Duties",
+    "text": "Duties\n\n\n\nAssist during emergencies.\n\nStaying in Zones 1, 2."
+  },
+  {
     "objectID": "pages/wiki.html",
     "href": "pages/wiki.html",
     "title": "Wiki",
@@ -558,21 +782,30 @@
     "href": "pages/private.html",
     "title": "Private",
     "section": "",
-    "text": "Internal documents and files for ND-HNC staff."
+    "text": "Internal documents and files for ND-HNC staff.",
+    "crumbs": [
+      "Private"
+    ]
   },
   {
     "objectID": "pages/private.html#documents",
     "href": "pages/private.html#documents",
     "title": "Private",
     "section": "Documents",
-    "text": "Documents\n\nContact form"
+    "text": "Documents\n\nContact form",
+    "crumbs": [
+      "Private"
+    ]
   },
   {
     "objectID": "pages/private.html#training-materials",
     "href": "pages/private.html#training-materials",
     "title": "Private",
     "section": "Training Materials",
-    "text": "Training Materials\n\n\n\n\n\n\n\n\n\nAccess\nTopic\nMaterials\nExam\n\n\n\n\nAll\nND-HNC Procedures\nSlides\nTBD\n\n\nLevel 1\nTBD\nSlides\nTBD\n\n\nLevel 2\nTBD\nSlides\nTBD\n\n\nLevel 3\nTBD\nSlides\nTBD\n\n\nLevel 4\nTBD\nSlides\nTBD"
+    "text": "Training Materials\n\n\n\n\n\n\n\n\n\nAccess\nTopic\nMaterials\nExam\n\n\n\n\nAll\nBuilding Procedures\nSlides\nTBD\n\n\nLevel 1\nMRI Zones\nSlides\nTBD\n\n\nLevel 2\nMRI Safety\nSlides\nTBD\n\n\nLevel 3\nTBD\nSlides\nTBD\n\n\nLevel 4\nTBD\nSlides\nTBD",
+    "crumbs": [
+      "Private"
+    ]
   },
   {
     "objectID": "pages/sops.html",
@@ -655,108 +888,199 @@
     ]
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#what-is-mri",
-    "href": "resources/slides/mri_safety_1.html#what-is-mri",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/building_procedures.html#evacuation-emergencies-fire-gas",
+    "href": "resources/slides/building_procedures.html#evacuation-emergencies-fire-gas",
+    "title": "Building Procedures",
+    "section": "Evacuation Emergencies (Fire, Gas)",
+    "text": "Evacuation Emergencies (Fire, Gas)\n\n\nLocation of Fire Extinguishers:\n\nLaundry room near the loading dock (E1)\nAcross from the elevator bay in reception (E2)\nOutside the Neuro Lab Prep Room, B21 (E3)\nSouth Staff Entrance (E4)\nMRI Zone 3 Vestibule, B15 (E5)\nNOTE: Fire Extinguishers are NOT MRI Compatible\n\nLocation of Fire Pulls (think exits):\n\nLoading Dock Doors (P1)\nNorth and South Stairwells (P2, P4)\nSouth Staff Entrance (P3)"
+  },
+  {
+    "objectID": "resources/slides/building_procedures.html#procedures---firegas-zones-i-ii",
+    "href": "resources/slides/building_procedures.html#procedures---firegas-zones-i-ii",
+    "title": "Building Procedures",
+    "section": "Procedures - Fire/Gas (Zones I, II)",
+    "text": "Procedures - Fire/Gas (Zones I, II)\n\n\n\nPull the nearest Fire Alarm\nCall 911 to notify the South Bend Fire Department (SBFD) and\n\nSay “We have [fire, smoke, gas] in the MRI Center at Veldman Family Psychology Clinic, 501 North Hill Street”.\n\nFight small fires ONLY IF:\n\nThe Fire Department has been notified\nThe fire is not spreading to other areas\nAn escape route is available\nThe fire extinguisher is in working condition and you are trained to use it"
+  },
+  {
+    "objectID": "resources/slides/building_procedures.html#procedures---firegas-zones-i-ii-contd",
+    "href": "resources/slides/building_procedures.html#procedures---firegas-zones-i-ii-contd",
+    "title": "Building Procedures",
+    "section": "Procedures - Fire/Gas (Zones I, II), cont’d",
+    "text": "Procedures - Fire/Gas (Zones I, II), cont’d\n\n\n\nGather in the designated Safe Meeting Spot (next slide)\nIf you are unable to evacuate, draw attention to yourself by yelling out"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#what-is-mri",
+    "href": "resources/slides/mri_safety_2.html#what-is-mri",
+    "title": "MRI Safety Training, Level 2",
     "section": "What is MRI?",
     "text": "What is MRI?\n\n\n\n(Nuclear) Magnetic Resonance Imaging\nNuclear Magnetic: certain elements have known behaviors in magnetic fields:\n\nAlign with field,\nPrecesses at given frequency.\n\nResonance: introduce energy at same frequency as precession.\n\nProtons move to higher energy states, eventually decay.\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#magnet-strength",
-    "href": "resources/slides/mri_safety_1.html#magnet-strength",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#magnet-strength",
+    "href": "resources/slides/mri_safety_2.html#magnet-strength",
+    "title": "MRI Safety Training, Level 2",
     "section": "Magnet Strength",
     "text": "Magnet Strength\n\n\n\nTypically measured in Tesla (T).\nThe Earth’s magnetic field is roughly 0.00005 Tesla.\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#magnet-is-always-on",
-    "href": "resources/slides/mri_safety_1.html#magnet-is-always-on",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#magnet-is-always-on",
+    "href": "resources/slides/mri_safety_2.html#magnet-is-always-on",
+    "title": "MRI Safety Training, Level 2",
     "section": "Magnet Is Always On!",
     "text": "Magnet Is Always On!\n\n\n\nElectrical resistance decreases with temperature.\n\nAt very (very) low temperatures, copper has superconductive properties.\n\nMRI scanner filled with liquid helium:\n\nRamp up (charge coil) from the electrical grid.\nThen disconnect!\nPerpetual current = persistent field strength.\n\nMagnetic field is independent of power in:\n\nRoom,\nVeldman Family Psychology Clinic,\nSouth Bend."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#safety-considerations",
-    "href": "resources/slides/mri_safety_1.html#safety-considerations",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#safety-considerations",
+    "href": "resources/slides/mri_safety_2.html#safety-considerations",
+    "title": "MRI Safety Training, Level 2",
     "section": "Safety Considerations",
     "text": "Safety Considerations\n\n\n\nRarely are rooms fatal.\nInjuries are more common than they should be.\nAmerican College of Radiology (ACR) recommends a 4 zone strategy for controlling access."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#safety-screener",
-    "href": "resources/slides/mri_safety_1.html#safety-screener",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#safety-screener",
+    "href": "resources/slides/mri_safety_2.html#safety-screener",
+    "title": "MRI Safety Training, Level 2",
     "section": "Safety Screener",
-    "text": "Safety Screener\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemker),\nMR compatibility (e.g. magnetic lashes)."
+    "text": "Safety Screener\n\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemker),\nMR compatibility (e.g. magnetic lashes)."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-1---orange",
-    "href": "resources/slides/mri_safety_1.html#zone-1---orange",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-1---orange",
+    "href": "resources/slides/mri_safety_2.html#zone-1---orange",
+    "title": "MRI Safety Training, Level 2",
     "section": "Zone 1 - Orange",
     "text": "Zone 1 - Orange\n\n\n\nContains:\n\nOffices\nConference\nReception\n\nUse:\n\nMeet participants\n\nAccess:\n\nPublic"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-2---purple",
-    "href": "resources/slides/mri_safety_1.html#zone-2---purple",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-2---purple",
+    "href": "resources/slides/mri_safety_2.html#zone-2---purple",
+    "title": "MRI Safety Training, Level 2",
     "section": "Zone 2 - Purple",
     "text": "Zone 2 - Purple\n\n\n\nContains:\n\nChanging rooms\nInterview, testing\nNon-MRI research (EEG, TMS)\nMock MRI\n\nUse:\n\nNon-MRI research\nMRI preparation\n\nAccess:\n\nLevels 1, 2+\nEscorted Visitors"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-3---green",
-    "href": "resources/slides/mri_safety_1.html#zone-3---green",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-3---green",
+    "href": "resources/slides/mri_safety_2.html#zone-3---green",
+    "title": "MRI Safety Training, Level 2",
     "section": "Zone 3 - Green",
     "text": "Zone 3 - Green\n\n\n\nContains:\n\nEquipment\nStorage\nControl\n\nUse:\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\nAccess:\n\nLevel 3+ (Supervised Level 2)\nScreened, escorted Visitors"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#zone-4---blue",
-    "href": "resources/slides/mri_safety_1.html#zone-4---blue",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#zone-4---blue",
+    "href": "resources/slides/mri_safety_2.html#zone-4---blue",
+    "title": "MRI Safety Training, Level 2",
     "section": "Zone 4 - Blue",
     "text": "Zone 4 - Blue\n\n\n\nContains:\n\nMagnet\n\nUse:\n\nScan participants\n\nAccess:\n\nLevel 4+ (Supervised Level 2+)\nScreened, escorted Visitors"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#participant-flow",
-    "href": "resources/slides/mri_safety_1.html#participant-flow",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#participant-flow",
+    "href": "resources/slides/mri_safety_2.html#participant-flow",
+    "title": "MRI Safety Training, Level 2",
     "section": "Participant Flow",
-    "text": "Participant Flow\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Exit`\"]\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n        C[\"`Interview\n           EEG\n           TMS`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2\n\n    classDef allBlack color:#000000;\n    class A,B,C allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
+    "text": "Participant Flow\n\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#requirements",
-    "href": "resources/slides/mri_safety_1.html#requirements",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#requirements",
+    "href": "resources/slides/mri_safety_2.html#requirements",
+    "title": "MRI Safety Training, Level 2",
     "section": "Requirements",
-    "text": "Requirements\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 1.\nParticipate in building access and safety trainings.\nWear Level 1 access badge while in the ND-HNC research suite."
+    "text": "Requirements\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 2.\nParticipate in building access and safety trainings.\nWear Level 2 access badge while in the ND-HNC research suite."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#privileges",
-    "href": "resources/slides/mri_safety_1.html#privileges",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#privileges",
+    "href": "resources/slides/mri_safety_2.html#privileges",
+    "title": "MRI Safety Training, Level 2",
     "section": "Privileges",
-    "text": "Privileges\n\n\n\nIrish1Card access to Zone 2.\nUnsupervised access to Zone 2.\nEscort visitors in Zone 2."
+    "text": "Privileges\n\n\n\nIrish1Card access to Zone 2.\nUnsupervised access to Zone 2.\nEscort visitors in Zone 2.\nAccess to Mock Scanner and Mock computer.\nSupervised access to Zones 3 & 4.\nAccess Stimulus Control, DICOM computers.\nReview and sign MRI Safety Screen.\nHelp un/load Visitors into MRI scanner.\nRespond as Helper in emergency situations."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#restrictions",
-    "href": "resources/slides/mri_safety_1.html#restrictions",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#restrictions",
+    "href": "resources/slides/mri_safety_2.html#restrictions",
+    "title": "MRI Safety Training, Level 2",
     "section": "Restrictions",
-    "text": "Restrictions\n\n\n\nNo access to Mock MRI (B14).\nNo access to Zones 3, 4.\nCannot review MRI Safety Screen."
+    "text": "Restrictions\n\n\n\nIrish1Card access to Zone 3 not granted.\nNo access to Zone 3 Equipment Room (B18A)."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#duties",
-    "href": "resources/slides/mri_safety_1.html#duties",
-    "title": "MRI Safety Training, Level 1",
+    "objectID": "resources/slides/mri_safety_2.html#duties",
+    "href": "resources/slides/mri_safety_2.html#duties",
+    "title": "MRI Safety Training, Level 2",
     "section": "Duties",
     "text": "Duties\n\n\n\nAssist during emergencies.\n\nStaying in Zones 1, 2."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#sources",
-    "href": "resources/slides/mri_safety_1.html#sources",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Sources",
-    "text": "Sources\n\n\nWhat is MRI?\n\nNMR Property\nAxial T1-weighted image\n\nMRI Strength\n\nTesla distance\n\nAlways On!\n\nSuperconductivity\nMagnet cross section\nMagnet and grid\nElectromagnet\n\n\nSafety Considerations\n\n2x2 Scanner Accident\nArticle Selection\nMRI Zones\n\nCulture of Diligence\n\nXKCD"
+    "objectID": "resources/slides/mri_safety_2.html#rarely-due-to-equipment-malfunction",
+    "href": "resources/slides/mri_safety_2.html#rarely-due-to-equipment-malfunction",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Rarely Due to Equipment Malfunction",
+    "text": "Rarely Due to Equipment Malfunction\n\n\n\nUsually due to how equipment is used\n\nBreakdown in following procedure and policy\n\nDesign policies that address:\n\nPredictable situations\nUnusual or unpredictable situations"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#safety-switch-use-and-function",
+    "href": "resources/slides/mri_safety_2.html#safety-switch-use-and-function",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Safety Switch Use and Function",
+    "text": "Safety Switch Use and Function\n\n\n\nPower to scanner\n\nUsed to shut off electrical power to table and scanner controls\n\nFire suppression panel\n\nStatus of scan room fire alarm and suppresion system\n\nMRI system panel\n\nPowers system up and down\nQuench button\n\nQuench button\n\nSecond button in scanner room"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#remember",
+    "href": "resources/slides/mri_safety_2.html#remember",
+    "title": "MRI Safety Training, Level 2",
+    "section": "REMEMBER",
+    "text": "REMEMBER\n\nMagnet does NOT turn off after hours or between patients.\nThe magnet is ALWAYS on."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#primary-mri-safety-concerns",
+    "href": "resources/slides/mri_safety_2.html#primary-mri-safety-concerns",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Primary MRI Safety Concerns",
+    "text": "Primary MRI Safety Concerns\n\n\nStatic Magnetic Field\n\nProjectile\n\nPossible injury\nCan damage system\nCostly to repair\n\nMedical device displacement\nMedical device disruption\nBioeffects\n\n\n\n\nRadiofrequency Field\n\nTissue heating\nMedical device heating\nMedical device disruption\nInterference with monitoring equipment\n\n\n\n\nPulsed Gradient Magnetic Field\n\nPeripheral nerve stimulation\nAcoustic Noise\nInterference with monitoring equipment"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#magnetic-field-safety",
+    "href": "resources/slides/mri_safety_2.html#magnetic-field-safety",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Magnetic Field Safety",
+    "text": "Magnetic Field Safety\n\n\nSpatial gradients\n\nTranslational force: pulls magnetic items towards area where field changes most steeply\nPeak danger zones: highest pulling forces near the outer rim and opening of scanner\nImplant risks:strong gradients can torque or move medical implants\n\nStatic field effects\n\nConsistent uniform magnetic field produced by main superconducting magnet\nPotential biologic effects: vertigo, nausea\nMechanical effects: translation, torque, Lenz’s forces\n\nTime varying effects\n\nGradient magnetic fields (auditory, induced voltage)\nRadiofrequency magnetic fields (biologic, thermal)"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#magnetic-field-safety-contd",
+    "href": "resources/slides/mri_safety_2.html#magnetic-field-safety-contd",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Magnetic Field Safety, cont’d",
+    "text": "Magnetic Field Safety, cont’d\n\n\nNon-magnetic field effects\n\nClaustrophobia/anxiety\nCryogen and quench safety"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#gauss-line-locations",
+    "href": "resources/slides/mri_safety_2.html#gauss-line-locations",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Gauss Line Locations",
+    "text": "Gauss Line Locations"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#safety-screening",
+    "href": "resources/slides/mri_safety_2.html#safety-screening",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Safety Screening",
+    "text": "Safety Screening\n\n\nCategories of implant safety\n\nMRI Safe: no known hazards\nMRI Unsafe: known to pose hazards\nConditional: demonstrated to pose no know threat hazard under specific conditions\n\nResearched prior to scan to ensure specific conditions are met\n\nNO UNSAFE ITEMS IN SCANNER ROOM"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#safety-screening-contd",
+    "href": "resources/slides/mri_safety_2.html#safety-screening-contd",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Safety Screening, cont’d",
+    "text": "Safety Screening, cont’d\n\nALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED\nClothing\n\nCheck for ferromagnetic or conductive materials\nLabels are not sufficient\nEveryone entering the area of transmit RF (bore) should change\n\nRemove all readily removable metallic personal items\n\nWatches, jewelry, cell phones, physiological monitoring devices\nCosmetics with metallic particles\nDental implants"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#safety-screening-contd-1",
+    "href": "resources/slides/mri_safety_2.html#safety-screening-contd-1",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Safety Screening, cont’d",
+    "text": "Safety Screening, cont’d\n\n\nDermal Implants\n\nThose contacting another may increase risk of thermal injury\nConductive loops may be created by skin adornments such as tattoos, especially with dark ink (brown or black) and curved patterns\n\nBurn hazards\n\nFoil patches, metal leads or skin contact with bore wall\nDo not cross arms or legs (creates a loop)\nUse padding to insure no skin is touching bore wall"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#quenching-the-magnet",
+    "href": "resources/slides/mri_safety_2.html#quenching-the-magnet",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Quenching the Magnet",
+    "text": "Quenching the Magnet\n\nQuenching the magnet is the deactivation of the magnetic field of the MRI\nCauses cryogens to rapidly boil off\nCryogen release could displace oxygen in room\nRelease could change pressure in room\n\nStay low\nUse manual door release\n\nThere is an emergency quench button located in scanner room and control room. (insert images)\nQUENCH ONLY WHEN THERE IS A RISK TO LIFE/SERIOUS INJURY OR AN UNCONTROLLABLE FIRE IN MRI ROOM THAT REQUIRES FERROMAGNETIC FIREFIGHTING EQUIPMENT"
   }
 ]

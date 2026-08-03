@@ -9,7 +9,7 @@ execute:
 format:
   revealjs:
     footer: "ND-HNC: MRI Level 1"
-    logo: ../media/nd_logo.png
+    logo: ../../media/nd_brand/nd_logo.png
     transition: slide
     slide-number: true
 engine: knitr
@@ -31,11 +31,11 @@ engine: knitr
 :::: {.column width="50%"}
 ::: {.r-stack}
 
-![](../media/mri.jpg){fig-align="right"}
+![](../../media/pages/mri.jpg){fig-align="right"}
 
-![](../media/nmr_2.jpg){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/nmr_2.jpg){.fragment .fade-in-then-out fig-align="right"}
 
-![](../media/t1_1.png){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/t1_1.png){.fragment .fade-in-then-out fig-align="right"}
 
 :::
 ::::
@@ -54,7 +54,7 @@ engine: knitr
 
 :::: {.column width="50%"}
 
-![](../media/tesla_1.png){fig-align="right"}
+![](../../media/slides/tesla_1.png){fig-align="right"}
 
 ::::
 :::::
@@ -79,13 +79,13 @@ engine: knitr
 :::: {.column width="\"50%"}
 ::: {.r-stack}
 
-![](../media/cold_1.png){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/cold_1.png){.fragment .fade-in-then-out fig-align="right"}
 
-![](../media/coil_3.png){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/coil_3.png){.fragment .fade-in-then-out fig-align="right"}
 
-![](../media/coil_2.jpg){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/coil_2.jpg){.fragment .fade-in-then-out fig-align="right"}
 
-![](../media/coil_1.png){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/coil_1.png){.fragment .fade-in-then-out fig-align="right"}
 
 :::
 ::::
@@ -98,16 +98,16 @@ engine: knitr
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
 - Rarely are rooms [fatal](https://smithchason.edu/mri-safety-lessons-1980-2001-2025/){target="_blank"}.
-- Injuries are more [common](../media/articles/inaguma_2023_injuries.pdf){target="_blank"} than they should be.
+- Injuries are more [common](../../media/articles/inaguma_2023_injuries.pdf){target="_blank"} than they should be.
 - American College of Radiology ([ACR](https://www.acr.org/){target="_blank"}) recommends a 4 [zone](https://mriquestions.com/acr-safety-zones.html){target="_blank"} strategy for controlling access.
 ::::
 
 :::: {.column width="\"50%"}
 ::: {.r-stack}
 
-![](../media/zones_2.png){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/zones_2.png){.fragment .fade-in-then-out fig-align="right"}
 
-![](../media/zones_1.png){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/zones_1.png){.fragment .fade-in-then-out fig-align="right"}
 
 :::
 ::::
@@ -118,7 +118,7 @@ engine: knitr
 ## Safety Screener
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- Everyone who enters Zone 3 **MUST** fill out an [MRI Safety Screener](../media/form_RO01_mri_screen.pdf){target="_blank"}.
+- Everyone who enters Zone 3 **MUST** fill out an [MRI Safety Screener](../forms/form_RO01_mri_screen.pdf){target="_blank"}.
 - Check for compatibility with 3 Tesla field.
 - Reviewed by two people, check for:
     - MR contraindications (e.g. pacemker),
@@ -129,7 +129,7 @@ engine: knitr
 
 # MRI Zones
 
-ND-HNC zone [map](../media/nd-hnc_layout_zones.png){target="_blank"}.
+ND-HNC zone [map](../../media/sops/nd-hnc_layout_zones.png){target="_blank"}.
 
 ## Zone 1 - Orange
 ::::: columns
@@ -146,7 +146,7 @@ ND-HNC zone [map](../media/nd-hnc_layout_zones.png){target="_blank"}.
 
 :::: {.column width="\"50%"}
 
-![](../media//nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 
 ::::
 :::::
@@ -171,7 +171,7 @@ ND-HNC zone [map](../media/nd-hnc_layout_zones.png){target="_blank"}.
 
 :::: {.column width="\"50%"}
 
-![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 
 ::::
 :::::
@@ -196,7 +196,7 @@ ND-HNC zone [map](../media/nd-hnc_layout_zones.png){target="_blank"}.
 
 :::: {.column width="\"50%"}
 
-![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 
 ::::
 :::::
@@ -217,7 +217,7 @@ ND-HNC zone [map](../media/nd-hnc_layout_zones.png){target="_blank"}.
 
 :::: {.column width="\"50%"}
 
-![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 
 ::::
 :::::
@@ -234,6 +234,7 @@ Purpose: Conduct non-MRI research.
 flowchart LR
     subgraph Zone_1 [Zone 1]
         B["`Arrive
+            ---
             Exit`"]
     end
     style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px
@@ -290,10 +291,8 @@ CorpFS
 ::::
 
 :::: {.column width="\"50%" style="font-size: 65%;"}
-![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 ::::
-
-
 :::::
 
 ---
@@ -308,7 +307,7 @@ CorpFS
 ::::
 
 :::: {.column width="\"50%" style="font-size: 65%;"}
-![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 ::::
 
 :::::
@@ -324,19 +323,19 @@ CorpFS
 ::::
 
 :::: {.column width="\"50%" style="font-size: 65%;"}
-![](../media/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 ::::
 
 :::::
 
 
-# Schedule Facilities
+<!-- # Schedule Facilities
 
 TODO
 
 # Use Equipment
 
-TODO
+TODO -->
 
 # Culture of Diligence
 
@@ -352,19 +351,14 @@ TODO
 
 :::: {.column width="\"50%"}
 
-![](../media/reset.png){fig-align="right"}
+![](../../media/slides/reset.png){fig-align="right"}
 
 ::::
 :::::
 
 
-# Website
-:::: {style="font-size: 65%;"}
-- Find SOPs, Policies, and more information at [nd-hnc.github.io/website](https://nd-hnc.github.io/website){target="_blank"}
-::::
 
-
-## Sources
+# Sources
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 50%"}
 What is MRI?
