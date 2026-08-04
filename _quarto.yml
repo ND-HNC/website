@@ -13,7 +13,7 @@ website:
   sidebar:
     style: "docked"
     search: true
-    logo: media/nd_logo.png
+    logo: media/nd_brand/nd_logo.png
     contents:
       - text: Home
         href: index.qmd
@@ -25,12 +25,16 @@ website:
         href: pages/equipment.qmd
       - text: Facilities
         href: pages/facilities.qmd
+      - text: Forms
+        href: pages/forms.qmd
       - text: Operate
         href: pages/operate.qmd
       - text: People
         href: pages/people.qmd
       - text: Policies
         href: pages/policies.qmd
+      - text: Private
+        href: pages/private.qmd
       # - text: Schedule
       #   href: pages/schedule.qmd
       - text: SOPs
@@ -48,6 +52,11 @@ website:
         href: mailto:nd-hnc@nd.edu
       - icon: github
         href: https://github.com/nd-hnc
+
+website-search: true
+robots:
+  disallow:
+    - pages/private.html
 
 format:
   html:

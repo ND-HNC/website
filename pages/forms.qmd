@@ -1,64 +1,61 @@
 ---
 title: Forms
+toc: true
+toc-depth: 4
 ---
 
-This page is under construction.
-
 ## Overview
-Here we provide our research community, faculty, and staff with centralized access to essential forms required for everyday center operations:
+Documents to serve as reference, support logging, and provide operational support.
 
-* 000: Assist researchers and participants use the center.
-* 100: Track issues with hardware, training, etc. (ND-HNC staff).
-* 200: Manage hardware (ND-HNC staff).
+The MRI Safety Screen (Form RO01) is found [here](../resources/forms/form_RO01_mri_screen.pdf).
 
-
-## Forms
-<details>
-
-<summary> 000: ND-HNC Operation </summary>
-
-| Number | Title | Link |
-|-----|-------|--------|
-| 001 | MRI Safety Screen | [Document](../resources/forms/form_001_mri_screen.pdf){target="_blank"} |
-| 002 | Arrival Instructions | [Blue](../resources/forms/form_002_arrival_blue.pdf){target="_blank"}, [White](../resources/forms/form_002_arrival_white.pdf){target="_blank"} |
-| 003 | Center Layout| [Document](../resources/sops/pics/nd-hnc_layout.png){target="_blank"} |
-
-</details>
-
-
-
-<details>
-
-<summary> 100: Issue Logging </summary>
-
-| Number | Title | Link |
-|-----|-------|--------|
-| 101 | Hardware | [Document](../resources/forms/form_101_hardware_issue.pdf){target="_blank"} |
-| 102 | Adverse Events | [Document](../resources/forms/form_102_adverse_event.pdf){target="_blank"} |
-| 103 | Compliance | [Document](../resources/forms/form_103_protocol_violation.pdf){target="_blank"} |
-
-</details>
-
-
-
-<details>
-
-<summary> 200: Maintenance Logging </summary>
-
-| Number | Title | Link |
-|-----|-------|--------|
-| 201 | Hardware | [Document](../resources/forms/form_201_hardware_maintenance.pdf){target="_blank"} |
-
-</details>
-
-
+#### GA: Governing Articles
 
 <!-- <details>
 
-<summary> 300: Training </summary>
+<summary> GA: Governing Articles</summary> -->
 
-| Number | Title | Link |
-|-----|-------|--------|
+| Number | Title | Document | |
+|-----|-----|-----|-----|
+| GA01 | ACR MRI Safety | [Link](../media/articles/form_GA01_ACR_manual.pdf) |
+| GA02 | OHRP 2007 | [Link](../media/articles/form_GA02_OHRP_2007.pdf) |
+| GA03 | FDA Reports | [Link](../media/articles/form_GA03_FDA_reporting.pdf) |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+<!-- </details> -->
 
 
-</details> -->
+#### LG: Log Issues and Maintenance
+<!-- <details>
+
+<summary> LG: Log Issues and Maintenance</summary> -->
+
+| Number | Title | Document | |
+|-----|-----|-----|-----|
+| LG01 | Hardware Issue | [Link](../resources/forms/form_LG01_hardware_issue.pdf) |
+| LG02 | Hardware Maintenance | [Link](../resources/forms/form_LG02_hardware_maintenance.pdf) |
+| LG03 | Incidents | [Link](../resources/forms/form_LG03_incidents.pdf) |
+| LG04 | Compliance | [Link](../resources/forms/form_LG04_protocol_violations.pdf) |
+| LG05 | Shadow Hours | [Link](../resources/forms/form_LG05_shadow_record.pdf) |
+| LG06 | ACR QA | [Link](../resources/forms/form_ACR_QA.pdf) |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+<!-- </details> -->
+
+
+#### RO: Research Operations
+<!-- <details>
+
+<summary> RO: Research Operations</summary> -->
+
+| Number | Title | Document | |
+|-----|-----|-----|-----|
+| RO01 | MRI Safety Screen | [Link](../resources/forms/form_RO01_mri_screen.pdf) |
+| RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf), [White](../resources/forms/form_RO02_arrival_white.pdf) |
+| RO03 | ND-HNC Layout| [Link](../../media/sops/nd-hnc_layout_zones.png) |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+<!-- </details> -->

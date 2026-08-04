@@ -1,29 +1,24 @@
 ---
 title: "Notre Dame Human Neuroimaging Center"
-subtitle: "Resources for Operations and Computing"
+subtitle: "Resources for Operations and Analysis"
 date: today
 toc: true
 # execute:
 #   freeze: auto
 ---
 
-<!-- ## Welcome
-Welcome to the Notre Dame Human Neuroimaging Center (ND-HNC) -- Resources for Operations and Computing page! -->
-
-![Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!](media/veldman_mri.jpg){fig-align="left"}
-
+![Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!](media/pages/veldman_mri.jpg){fig-align="left"}
 
 ## Join Us
 
 - Contact: [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
 - Tours: contact [Alex Musser](pages/people.qmd).
-- Prepare: individuals entering [Zones 3 & 4](resources/sops/pics/nd-hnc_layout_zones.png) are required to fill out an [MRI Safety Screen](resources/forms/form_RO01_mri_screen.pdf) form.
+- Prepare: individuals entering [Zones 3 & 4](media/sops/nd-hnc_layout_zones.png) are required to fill out an [MRI Safety Screen](resources/forms/form_RO01_mri_screen.pdf) form.
 - Visit: follow these [instructions](pages/directions.qmd) or reference this [flyer](resources/forms/form_RO02_arrival_white.pdf).
-
 
 ## About
 
-Our goal is to provide operational support for research conducted at the Notre Dame Human Neuroimaging Center ([ND-HNC](https://neuroimaging.nd.edu/)). We support your research program at every step:
+We provide operational support for every step of research conducted at the Notre Dame Human Neuroimaging Center ([ND-HNC](https://neuroimaging.nd.edu/)):
 
 - [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Orient to available resources.
 - [Training](pages/training.qmd): Learn to use and gain access to the center.
@@ -34,12 +29,13 @@ Our goal is to provide operational support for research conducted at the Notre D
 
 ## Operation Documents
 
-<!-- - [Forms](pages/forms.qmd): MRI Safety screener, other helpful documents. -->
+- [Forms](pages/forms.qmd): MRI Safety screener, other helpful documents.
 - [Policies](pages/policies.qmd): ND-HNC policies for use.
-- [SOPs](pages/sops.qmd): Standard Operating Procedures and forms.
+- [SOPs](pages/sops.qmd): Standard Operating Procedures.
 
 ## Additional Resources
 
 - Grants: Awards to teams invovling the ND-HNC.
+- [People](pages/people.qmd): Connect with ND-HNC staff.
 - Publications: Papers from teams that collected data at the ND-HNC.
 - Wiki: Programming, data, and pipeline help.

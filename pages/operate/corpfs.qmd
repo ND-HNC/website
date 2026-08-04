@@ -26,33 +26,33 @@ Each lab which partners with the ND-HNC will receive access to the centralized d
     - 'CMD-K' opens "Connect to Server"
     - Connect to 'smb://psy.corpfs.nd.edu/psy/hnc'
 
-![](../../media/corpfs_mac_1.png){width=50% fig-align="center"}
+![](../../media/pages/corpfs_mac_1.png){width=50% fig-align="center"}
 
 2. Login with your Notre Dame credentials.
 
-![](../../media/corpfs_mac_2.png){width=50% fig-align="center"}
+![](../../media/pages/corpfs_mac_2.png){width=50% fig-align="center"}
 
 3. View directory structure in Finder.
 
-![](../../media/corpfs_mac_3.png){width=50% fig-align="center"}
+![](../../media/pages/corpfs_mac_3.png){width=50% fig-align="center"}
 
 # Connect: Windows
 
 1. Log into PC workstation.
 
-![](../../media/corpfs_windows_1.jpg){width=50% fig-align="center"}
+![](../../media/pages/corpfs_windows_1.jpg){width=50% fig-align="center"}
 
 2. Navigate to PSY CorpFS (P:) > HNC.
 
-![](../../media/corpfs_windows_2.jpg){width=50% fig-align="center"}
+![](../../media/pages/corpfs_windows_2.jpg){width=50% fig-align="center"}
 
 3. Select appropriate PI directory.
 
-![](../../media/corpfs_windows_3.png){width=50% fig-align="center"}
+![](../../media/pages/corpfs_windows_3.png){width=50% fig-align="center"}
 
 4. View user directory structure.
 
-![](../../media/corpfs_windows_4.jpg){width=50% fig-align="center"}
+![](../../media/pages/corpfs_windows_4.jpg){width=50% fig-align="center"}
 
 # Notes
 

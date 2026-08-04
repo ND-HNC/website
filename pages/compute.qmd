@@ -5,7 +5,7 @@ toc: true
 
 <!-- ![Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer at <a href="https://wallpapercave.com/">wallpapercave.com</a>](../media/brain_compute.jpg){width=75% fig-align="left"} -->
 
-![Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer.](../media/brain_compute.jpg){width=75% fig-align="left"}
+![Credit: <a href="https://wallpapercave.com/w/wp5035280">Memory Wallpaper</a> by Rhys Mercer.](../media/pages/brain_compute.jpg){width=75% fig-align="left"}
 
 ## Overview
 
@@ -15,7 +15,7 @@ The Notre Dame Human Neuroimaging Center (ND-HNC) provides computational resourc
 |---------------|--------|----------|-----------------|
 | Local Workstations | ND-HNC B30 | Dell Pro Max Linux Towers, <br>Mac Studios | Sandbox testing, single-subject processing, pipeline development. |
 | Dedicated Server | vfpc-mri-rh-l01.campus.nd.edu | Dell Rack (56-core Intel Xeon, 256GB RAM, 4TB Storage) | Resource-intensive local processing, multi-subject parallel tasks. |
-| HPC Cluster | [CRC](https://docs.crc.nd.edu/){target="_blank"} | 1280 Priority-Access CPUs | Large-scale datasets, massive parallelization, complex modeling. |
+| HPC Cluster | [CRC](https://docs.crc.nd.edu/) | 1280 Priority-Access CPUs | Large-scale datasets, massive parallelization, complex modeling. |
 
 ## Access
 

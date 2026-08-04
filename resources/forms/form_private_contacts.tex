@@ -1,0 +1,161 @@
+\documentclass[10pt,a4paper,landscape]{article}
+
+% --- Packages ---
+\usepackage[margin=0.5in]{geometry} % Narrow margins for optimal fit
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{tcolorbox} % Fixed: Removed [tcolorbox] option
+
+% --- Color Palette ---
+\definecolor{ndblue}{RGB}{12, 35, 64}      % Notre Dame Blue accent
+\definecolor{ndgold}{RGB}{174,145,66}     % Gold accent
+\definecolor{darkgray}{RGB}{193,205,221}
+\definecolor{cardbg}{RGB}{248, 249, 250}   % Light background for cards
+\definecolor{cardborder}{RGB}{220, 224, 230}
+
+% --- Setup ---
+\hypersetup{colorlinks=true, linkcolor=ndblue, urlcolor=ndblue}
+\urlstyle{same}
+
+% Custom Box Setup
+\tcbset{
+  colback=cardbg,
+  colframe=cardborder,
+  arc=3pt,
+  boxrule=0.8pt,
+  left=6pt, right=6pt, top=6pt, bottom=6pt,
+  before skip=0pt, after skip=0pt
+}
+
+% Section Styling
+\titleformat{\section}
+  {\large\bfseries\color{ndblue}}
+  {}{0em}
+  {}[\color{ndgold}\titlerule]
+\titlespacing*{\section}{0pt}{4pt}{6pt}
+
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}
+
+\begin{document}
+
+% --- Header ---
+\begin{center}
+    {\Large \bfseries \color{ndblue} ND-HNC Directory \& Contacts}
+    % {\color{darkgray}\small Visual Functional Imaging Center / MRI Facility Operations}
+\end{center}
+% \vspace{0.2em}
+
+% 3-Column Landscape Grid
+\begin{multicols}{3}
+
+% ================= COLUMN 1 =================
+\section*{University of Notre Dame}
+
+\begin{tcolorbox}[title={\small\bfseries\color{ndblue} EMERGENCY}, colbacktitle=cardbg, coltitle=ndblue, detach title, before upper={\tcbtitle\vspace{4pt}\hrule\vspace{6pt}}]
+\begin{tabularx}{\linewidth}{@{} X R @{}}
+    \textbf{Emergency} & \textbf{911} \\
+    \textbf{Police Department} & (574) 631-5555 \\
+    \textbf{Fire Department} & (574) 631-6200 \\
+    \textbf{Risk Mgmt. \& Safety} & (574) 631-5037 \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[title={\small\bfseries\color{ndblue} MRI PERSONNEL}, colbacktitle=cardbg, coltitle=ndblue, detach title, before upper={\tcbtitle\vspace{4pt}\hrule\vspace{6pt}}]
+\begin{tabularx}{\linewidth}{@{} X X R @{}}
+    \textbf{Aron Barbey} & \small{Director} & (217) 979-8002 \\
+    \textbf{Alex Musser} & \small{Operations} & (734) 771-6349 \\
+    \textbf{Jeff Fox} & \small{Technologist} & (574) 229-8490 \\
+    \textbf{Nate Muncy} & \small{Analyst} & (720) 280-9344 \\
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{tcolorbox}[title={\small\bfseries\color{ndblue} FACILITIES \& SERVICES}, colbacktitle=cardbg, coltitle=ndblue, detach title, before upper={\tcbtitle\vspace{4pt}\hrule\vspace{6pt}}]
+\begin{tabularx}{\linewidth}{@{} X R @{}}
+    \textbf{VFPC Reception} & (574) 631-0959 \\
+    \textbf{Bldg. Operations} & (574) 631-5478 \\
+    \textbf{Utilities \& Maint.} & (574) 631-7701 \\
+    \textbf{Bldg. Services} & (574) 631-9877 \\
+    \textbf{OIT Help Desk} & (574) 631-8111 \\
+    \textbf{ALCO} & (574) 631-7705 \\
+\end{tabularx}
+\end{tcolorbox}
+
+
+
+% ================= COLUMN 2 =================
+\section*{Vendor Partners}
+
+\begin{tcolorbox}[title={\small\bfseries\color{ndblue} DELTA MEDICAL SYSTEMS}, colbacktitle=cardbg, coltitle=ndblue, detach title, before upper={\tcbtitle\vspace{4pt}\hrule\vspace{6pt}}]
+    \textbf{Emma Moulton} \small{--- Account Executive} \\
+    \small{P: (317) 361-9133 \ \textbar\ \ E: \href{mailto:emoulton@deltamed.net}{emoulton@deltamed.net}}
+
+    \vspace{4pt}
+    \textbf{Ned Breedlove} \small{--- Account Executive} \\
+    \small{E: \href{mailto:nbreedlove@deltamed.net}{nbreedlove@deltamed.net}}
+\end{tcolorbox}
+
+\begin{tcolorbox}[title={\small\bfseries\color{ndblue} HASKRIS}, colbacktitle=cardbg, coltitle=ndblue, detach title, before upper={\tcbtitle\vspace{4pt}\hrule\vspace{6pt}}]
+    \textbf{Christine Schmidt} \small{--- Contract Services} \\
+    \small{P: (847) 956-6420 ext. 343} \\
+    \small{E: \href{mailto:christine.schmidt@haskris.com}{christine.schmidt@haskris.com}}
+\end{tcolorbox}
+
+\begin{tcolorbox}[title={\small\bfseries\color{ndblue} NORDIC NEUROLAB}, colbacktitle=cardbg, coltitle=ndblue, detach title, before upper={\tcbtitle\vspace{4pt}\hrule\vspace{6pt}}]
+    \textbf{William Onuscheck} \small{--- Product Solutions} \\
+    \small{P: (414) 398-6359} \\
+    \small{E: \href{mailto:william@nordicneurolab.com}{william@nordicneurolab.com}}
+\end{tcolorbox}
+
+\begin{tcolorbox}[title={\small\bfseries\color{ndblue} ENCORE MRI SIMULATOR}, colbacktitle=cardbg, coltitle=ndblue, detach title, before upper={\tcbtitle\vspace{4pt}\hrule\vspace{6pt}}]
+    \textbf{Lee Basler} \small{--- VP of Operations} \\
+    \small{P: (724) 516-1431} \\
+    \small{E: \href{mailto:lee.basler@pstnet.com}{lee.basler@pstnet.com}}
+\end{tcolorbox}
+
+
+
+% ================= COLUMN 3 =================
+\section*{Siemens Healthineers}
+
+\begin{tcolorbox}
+    \textbf{Richard Vega} \small{--- Customer Service Engineer} \\
+    \small{P: (260) 609-5475} \\
+    \small{E: \href{mailto:richard.vega@siemens-healthineers.com}{richard.vega@siemens-healthineers.com}}
+
+    \vspace{4pt}\hrule\vspace{4pt}
+
+    \textbf{Jeremy Musch} \small{--- Project Manager} \\
+    \small{P: (219) 218-1371} \\
+    \small{E: \href{mailto:jeremy.musch@siemens-healthineers.com}{jeremy.musch@siemens-healthineers.com}}
+
+    \vspace{4pt}\hrule\vspace{4pt}
+
+    \textbf{Kassie Kendall} \small{--- MR Product Sales Exec} \\
+    \small{P: (765) 602-7472} \\
+    \small{E: \href{mailto:kassie.kendall@siemens-healthineers.com}{kassie.kendall@siemens-healthineers.com}}
+
+    \vspace{4pt}\hrule\vspace{4pt}
+
+    \textbf{Amanda Doran} \small{--- Service Sales Executive} \\
+    \small{P: (317) 796-9798} \\
+    \small{E: \href{mailto:amanda.doran@siemens-healthineers.com}{amanda.doran@siemens-healthineers.com}}
+
+    \vspace{4pt}\hrule\vspace{4pt}
+
+    \textbf{Nycole Tenant} \small{--- Education \& Scheduling} \\
+    \small{E: \href{mailto:nycole.tennant.ext@siemens-healthineers.com}{nycole.tennant.ext@siemens-healthineers.com}}
+
+    \vspace{4pt}\hrule\vspace{4pt}
+
+    \textbf{Customer Care Support} \\
+    \small{P: (800) 888-7436}
+\end{tcolorbox}
+
+\end{multicols}
+
+\end{document}
+

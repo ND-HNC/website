@@ -5,43 +5,61 @@ title: People
 
 ## Staff
 
-::::: {.columns}
+```{=html}
+<style>
+.staff-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+.staff-img-container {
+  height: 200px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.staff-img-container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+</style>
+```
 
-:::: {.column width="33%"}
-![](../media/people/muncy.jpg){width=80%}
-
-::: {style="text-align: left;"}
-| Nathan Muncy, Ph.D.
-| MRI Analyst
-| E: [nmuncy@nd.edu](mailto:nmuncy@nd.edu)
+::::: {.grid .text-center}
+:::: {.g-col-12 .g-col-md-4 .staff-card}
+::: {.staff-img-container}
+![](../media/people/fox.jpg){width=50%}
 :::
+
+| **Jeffrey Fox**
+| B.Sc. RT. (R)(MR)(ARRT)
+| *MRI Technologist*
+| [jfox22@nd.edu](mailto:jfox22@nd.edu)
+| (574) 631-5058
 ::::
 
-:::: {.column width="33%"}
-![](../media/nd_monogram_gold.jpg){width=65%}
-
-::: {style="text-align: left;"}
-| Alex Musser, M.Sc.
-| Operations Coordinator
-| E: [amusser2@nd.edu](mailto:amusser2@nd.edu)
+:::: {.g-col-12 .g-col-md-4 .staff-card}
+::: {.staff-img-container}
+![](../media/people/muncy.jpg){width=75%}
 :::
+
+| **Nathan Muncy, Ph.D.**
+| *MRI Analyst*
+| [nmuncy@nd.edu](mailto:nmuncy@nd.edu)
+::::
+
+:::: {.g-col-12 .g-col-md-4 .staff-card}
+::: {.staff-img-container}
+![](../media/nd_brand/nd_monogram_gold.jpg){width=65%}
+:::
+
+| **Alex Musser, M.Sc.**
+| *Operations Coordinator*
+| [amusser2@nd.edu](mailto:amusser2@nd.edu)
+| (574) 631-7276
 ::::
 :::::
 
-<!-- ![John Doe, Ph.D.](../media/people/minion.jpg){width=100, fig-align="left"}
-
-**Position**: MRI Physicist -->
-
-
-<!-- ![Nathan Muncy, Ph.D.](../media/people/muncy.jpg){width=30% fig-align="left"}
-
-MRI Analyst | [nmuncy@nd.edu](mailto:nmuncy@nd.edu) | B28 Veldman Family Psychology Clinic -->
-
-<!-- ![John Doe](../media/people/minion.jpg){width=100, fig-align="left"}
-
-**Position**: MRI Technologist -->
-
-<!--
-![Alex Musser](../media/people/minion.jpg){width=100, fig-align="left"}
-
-**Position**: Operations Coordinator -->
