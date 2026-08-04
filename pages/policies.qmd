@@ -34,6 +34,10 @@ ND-HNC policies will be updated as needed and are applicable immediately.
 1. Coordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. $>$ 400 CPUs on the HPC cluster).
     - This helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).
 
+## Safety Screening
+
+1. For participants with unremovable (e.g. implanted) medical devices, provide the part number and manufacturer to the MRI technologist 72 hours prior to appointment.
+
 ## Safety Zones
 
 1. Researchers with Level access must wear the identifying badge while in Zones 2-4.

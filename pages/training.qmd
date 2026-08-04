@@ -33,14 +33,14 @@ Please review the schedule to select the relevant training session (and see [Lev
 
 | Topic | Date | Time | Location |
 |-----|-----|-----|-----|
-| Level 1 | 2026-09-09 | 9-10am | VFPC 148 |
-| Level 1 | 2026-10-05 | 9-10am | VFPC 148 |
-| Level 1 | 2027-02-02 | 9-10am | VFPC 148 |
-| Level 1 | 2027-03-02 | 9-10am | VFPC 148 |
-| Level 2 | 2026-09-09 | 11am-12pm | VFPC 148 |
-| Level 2 | 2026-10-05 | 11am-12pm | VFPC 148 |
-| Level 2 | 2027-02-02 | 11am-12pm | VFPC 148 |
-| Level 2 | 2027-03-02 | 11am-12pm | VFPC 148 |
+| Level 1 | 2026-09-09 | 9-11am | VFPC 148 |
+| Level 1 | 2026-10-05 | 9-11am | VFPC 148 |
+| Level 1 | 2027-02-02 | 9-11am | VFPC 148 |
+| Level 1 | 2027-03-02 | 9-11am | VFPC 148 |
+| Level 2 | 2026-09-09 | 12-2pm | VFPC 148 |
+| Level 2 | 2026-10-05 | 12-2pm | VFPC 148 |
+| Level 2 | 2027-02-02 | 12-2pm | VFPC 148 |
+| Level 2 | 2027-03-02 | 12-2pm | VFPC 148 |
 | CPR/AED | 2026-11-02 | 9-10am | TBD |
 
 : {tbl-colwidths="[25,25,25,25]"}

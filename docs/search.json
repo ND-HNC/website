@@ -348,6 +348,16 @@
     ]
   },
   {
+    "objectID": "pages/policies.html#safety-screening",
+    "href": "pages/policies.html#safety-screening",
+    "title": "Policies",
+    "section": "Safety Screening",
+    "text": "Safety Screening\n\nFor participants with unremovable (e.g. implanted) medical devices, provide the part number and manufacturer to the MRI technologist 72 hours prior to appointment.",
+    "crumbs": [
+      "Policies"
+    ]
+  },
+  {
     "objectID": "pages/policies.html#safety-zones",
     "href": "pages/policies.html#safety-zones",
     "title": "Policies",
@@ -872,7 +882,7 @@
     "href": "pages/training.html#ssec:train",
     "title": "Training",
     "section": "Upcoming Trainings",
-    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level). Register for a training session here.\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-10am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-10am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-10am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-10am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n11am-12pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n11am-12pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n11am-12pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n11am-12pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\n\nAdditional notes:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
+    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level). Register for a training session here.\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-11am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-11am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n12-2pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n12-2pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\n\nAdditional notes:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
     "crumbs": [
       "Training"
     ]
@@ -913,7 +923,7 @@
     "href": "resources/slides/mri_safety_2.html#what-is-mri",
     "title": "MRI Safety Training, Level 2",
     "section": "What is MRI?",
-    "text": "What is MRI?\n\n\n\n(Nuclear) Magnetic Resonance Imaging\nNuclear Magnetic: certain elements have known behaviors in magnetic fields:\n\nAlign with field,\nPrecesses at given frequency.\n\nResonance: introduce energy at same frequency as precession.\n\nProtons move to higher energy states, eventually decay.\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts."
+    "text": "What is MRI?\n\n\nMagnetic Resonance Imaging\n\nMagnetic: certain elements have known behaviors in magnetic fields:\n\nAlign with field,\nPrecesses at given frequency.\n\nResonance: introduce energy at same frequency as precession.\n\nProtons move to higher energy states, eventually decay.\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts."
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#magnet-strength",
@@ -937,11 +947,18 @@
     "text": "Safety Considerations\n\n\n\nRarely are rooms fatal.\nInjuries are more common than they should be.\nAmerican College of Radiology (ACR) recommends a 4 zone strategy for controlling access."
   },
   {
+    "objectID": "resources/slides/mri_safety_2.html#safety-zones",
+    "href": "resources/slides/mri_safety_2.html#safety-zones",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Safety Zones",
+    "text": "Safety Zones"
+  },
+  {
     "objectID": "resources/slides/mri_safety_2.html#safety-screener",
     "href": "resources/slides/mri_safety_2.html#safety-screener",
     "title": "MRI Safety Training, Level 2",
     "section": "Safety Screener",
-    "text": "Safety Screener\n\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemker),\nMR compatibility (e.g. magnetic lashes)."
+    "text": "Safety Screener\n\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemaker),\nMR compatibility (e.g. magnetic lashes)."
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#zone-1---orange",
@@ -976,7 +993,7 @@
     "href": "resources/slides/mri_safety_2.html#participant-flow",
     "title": "MRI Safety Training, Level 2",
     "section": "Participant Flow",
-    "text": "Participant Flow\n\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
+    "text": "Participant Flow\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#requirements",
@@ -1004,21 +1021,35 @@
     "href": "resources/slides/mri_safety_2.html#duties",
     "title": "MRI Safety Training, Level 2",
     "section": "Duties",
-    "text": "Duties\n\n\n\nAssist during emergencies.\n\nStaying in Zones 1, 2."
+    "text": "Duties\n\n\n\nScreen participants.\nConduct simulation MRI (mock) scans.\nAssist in MRI data collection.\nManage data (MRI, task).\nAssist during emergencies."
   },
   {
-    "objectID": "resources/slides/mri_safety_2.html#rarely-due-to-equipment-malfunction",
-    "href": "resources/slides/mri_safety_2.html#rarely-due-to-equipment-malfunction",
+    "objectID": "resources/slides/mri_safety_2.html#incidents-and-accidents",
+    "href": "resources/slides/mri_safety_2.html#incidents-and-accidents",
     "title": "MRI Safety Training, Level 2",
-    "section": "Rarely Due to Equipment Malfunction",
-    "text": "Rarely Due to Equipment Malfunction\n\n\n\nUsually due to how equipment is used\n\nBreakdown in following procedure and policy\n\nDesign policies that address:\n\nPredictable situations\nUnusual or unpredictable situations"
+    "section": "Incidents and Accidents",
+    "text": "Incidents and Accidents\n\n\n\nRarely due to equipment malfunction, usually due to:\n\nHow equipment is used, and/or\nBreakdown in following procedure and policy.\n\nRemedy, design policies that address:\n\nPredictable situations\nUnusual or unpredictable situations"
   },
   {
-    "objectID": "resources/slides/mri_safety_2.html#safety-switch-use-and-function",
-    "href": "resources/slides/mri_safety_2.html#safety-switch-use-and-function",
+    "objectID": "resources/slides/mri_safety_2.html#safety-switch-panel-control-room",
+    "href": "resources/slides/mri_safety_2.html#safety-switch-panel-control-room",
     "title": "MRI Safety Training, Level 2",
-    "section": "Safety Switch Use and Function",
-    "text": "Safety Switch Use and Function\n\n\n\nPower to scanner\n\nUsed to shut off electrical power to table and scanner controls\n\nFire suppression panel\n\nStatus of scan room fire alarm and suppresion system\n\nMRI system panel\n\nPowers system up and down\nQuench button\n\nQuench button\n\nSecond button in scanner room"
+    "section": "Safety Switch Panel, Control Room",
+    "text": "Safety Switch Panel, Control Room\n\n\n\nA: Chiller status, monitor cooling system\nB: Fire panel\nC: Emergency Power Off (EPO), shut off power to table and scanner control\nD: Manual Zone 4 door release\nE: Electric Power Off (likely)"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#mri-system-panel-control-room",
+    "href": "resources/slides/mri_safety_2.html#mri-system-panel-control-room",
+    "title": "MRI Safety Training, Level 2",
+    "section": "MRI System Panel, Control Room",
+    "text": "MRI System Panel, Control Room\n\n\n\nMRI control system on/off\nQuench button, for life or limb!"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#safety-switch-panel-magnet-room",
+    "href": "resources/slides/mri_safety_2.html#safety-switch-panel-magnet-room",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Safety Switch Panel, Magnet Room",
+    "text": "Safety Switch Panel, Magnet Room\n\n\n\nA: Quench button, for life or limb!\nB: Oxygen monitoring system\nC: Emergency Power Off (EPO), shut off power to table and scanner control"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#remember",
@@ -1028,25 +1059,25 @@
     "text": "REMEMBER\n\nMagnet does NOT turn off after hours or between patients.\nThe magnet is ALWAYS on."
   },
   {
-    "objectID": "resources/slides/mri_safety_2.html#primary-mri-safety-concerns",
-    "href": "resources/slides/mri_safety_2.html#primary-mri-safety-concerns",
+    "objectID": "resources/slides/mri_safety_2.html#mri-safety-concerns",
+    "href": "resources/slides/mri_safety_2.html#mri-safety-concerns",
     "title": "MRI Safety Training, Level 2",
-    "section": "Primary MRI Safety Concerns",
-    "text": "Primary MRI Safety Concerns\n\n\nStatic Magnetic Field\n\nProjectile\n\nPossible injury\nCan damage system\nCostly to repair\n\nMedical device displacement\nMedical device disruption\nBioeffects\n\n\n\n\nRadiofrequency Field\n\nTissue heating\nMedical device heating\nMedical device disruption\nInterference with monitoring equipment\n\n\n\n\nPulsed Gradient Magnetic Field\n\nPeripheral nerve stimulation\nAcoustic Noise\nInterference with monitoring equipment"
+    "section": "MRI Safety Concerns",
+    "text": "MRI Safety Concerns\n\n\nStatic Magnetic Field\n\nProjectile\n\nPossible injury\nCan damage system\nCostly to repair\n\nMedical device displacement\nMedical device disruption\nBioeffects\n\n\n\n\nRadiofrequency Pulse\n\nTissue heating\nMedical device heating\nMedical device disruption\nInterference with monitoring equipment\n\n\n\n\nPulsed Gradient Magnetic Field\n\nPeripheral nerve stimulation\nAcoustic Noise\nInterference with monitoring equipment"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#magnetic-field-safety",
     "href": "resources/slides/mri_safety_2.html#magnetic-field-safety",
     "title": "MRI Safety Training, Level 2",
     "section": "Magnetic Field Safety",
-    "text": "Magnetic Field Safety\n\n\nSpatial gradients\n\nTranslational force: pulls magnetic items towards area where field changes most steeply\nPeak danger zones: highest pulling forces near the outer rim and opening of scanner\nImplant risks:strong gradients can torque or move medical implants\n\nStatic field effects\n\nConsistent uniform magnetic field produced by main superconducting magnet\nPotential biologic effects: vertigo, nausea\nMechanical effects: translation, torque, Lenz’s forces\n\nTime varying effects\n\nGradient magnetic fields (auditory, induced voltage)\nRadiofrequency magnetic fields (biologic, thermal)"
+    "text": "Magnetic Field Safety\n\n\nStatic field effects:\n\nConsistent uniform magnetic field produced by main superconducting magnet\nPotential biologic effects: vertigo, nausea\nMechanical effects: translation, torque, Lenz’s forces\n\nTime varying effects:\n\nGradient magnetic fields (auditory, induced voltage)\nRadiofrequency magnetic fields (biologic, thermal)\n\nSpatial gradients effects:\n\nTranslational force: pulls magnetic items towards area where field changes most steeply\nPeak danger zones: highest pulling forces near the outer rim and opening of scanner\nImplant risks:strong gradients can torque or move medical implants"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#magnetic-field-safety-contd",
     "href": "resources/slides/mri_safety_2.html#magnetic-field-safety-contd",
     "title": "MRI Safety Training, Level 2",
     "section": "Magnetic Field Safety, cont’d",
-    "text": "Magnetic Field Safety, cont’d\n\n\nNon-magnetic field effects\n\nClaustrophobia/anxiety\nCryogen and quench safety"
+    "text": "Magnetic Field Safety, cont’d\n\n\nNon-magnetic field effects:\n\nClaustrophobia/anxiety\nCryogen and quench safety"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#gauss-line-locations",
@@ -1060,27 +1091,34 @@
     "href": "resources/slides/mri_safety_2.html#safety-screening",
     "title": "MRI Safety Training, Level 2",
     "section": "Safety Screening",
-    "text": "Safety Screening\n\n\nCategories of implant safety\n\nMRI Safe: no known hazards\nMRI Unsafe: known to pose hazards\nConditional: demonstrated to pose no know threat hazard under specific conditions\n\nResearched prior to scan to ensure specific conditions are met\n\nNO UNSAFE ITEMS IN SCANNER ROOM"
+    "text": "Safety Screening\n\n\nCategories of safety:\n\nMRI Safe: no known hazards\nMRI Unsafe: known to pose hazards\nConditional: demonstrated to pose no know threat hazard under specific conditions\n\nResearched prior to scan to ensure specific conditions are met\n\n\nNO UNSAFE ITEMS IN SCANNER ROOM\nImplant policy: provide MRI Technologist with part number 72 hours prior to appointment"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#safety-screening-contd",
     "href": "resources/slides/mri_safety_2.html#safety-screening-contd",
     "title": "MRI Safety Training, Level 2",
     "section": "Safety Screening, cont’d",
-    "text": "Safety Screening, cont’d\n\nALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED\nClothing\n\nCheck for ferromagnetic or conductive materials\nLabels are not sufficient\nEveryone entering the area of transmit RF (bore) should change\n\nRemove all readily removable metallic personal items\n\nWatches, jewelry, cell phones, physiological monitoring devices\nCosmetics with metallic particles\nDental implants"
+    "text": "Safety Screening, cont’d\n\n\nALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED\nRemove all readily removable metallic personal items\n\nWatches, jewelry, cell phones, physiological monitoring devices\nCosmetics with metallic particles\nDental implants"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#safety-screening-contd-1",
     "href": "resources/slides/mri_safety_2.html#safety-screening-contd-1",
     "title": "MRI Safety Training, Level 2",
     "section": "Safety Screening, cont’d",
-    "text": "Safety Screening, cont’d\n\n\nDermal Implants\n\nThose contacting another may increase risk of thermal injury\nConductive loops may be created by skin adornments such as tattoos, especially with dark ink (brown or black) and curved patterns\n\nBurn hazards\n\nFoil patches, metal leads or skin contact with bore wall\nDo not cross arms or legs (creates a loop)\nUse padding to insure no skin is touching bore wall"
+    "text": "Safety Screening, cont’d\n\n\nDermal Implants\n\nThose contacting another may increase risk of thermal injury\nConductive loops may be created by skin adornments such as tattoos, especially with dark ink (brown or black) and curved patterns\n\nBurn hazards\n\nFoil patches, metal leads or skin contact with bore wall\nDo not cross arms or legs (creates a loop)\nUse padding to ensure no skin is touching bore wall"
   },
   {
-    "objectID": "resources/slides/mri_safety_2.html#quenching-the-magnet",
-    "href": "resources/slides/mri_safety_2.html#quenching-the-magnet",
+    "objectID": "resources/slides/mri_safety_2.html#quenching-the-magnet-what",
+    "href": "resources/slides/mri_safety_2.html#quenching-the-magnet-what",
     "title": "MRI Safety Training, Level 2",
-    "section": "Quenching the Magnet",
-    "text": "Quenching the Magnet\n\nQuenching the magnet is the deactivation of the magnetic field of the MRI\nCauses cryogens to rapidly boil off\nCryogen release could displace oxygen in room\nRelease could change pressure in room\n\nStay low\nUse manual door release\n\nThere is an emergency quench button located in scanner room and control room. (insert images)\nQUENCH ONLY WHEN THERE IS A RISK TO LIFE/SERIOUS INJURY OR AN UNCONTROLLABLE FIRE IN MRI ROOM THAT REQUIRES FERROMAGNETIC FIREFIGHTING EQUIPMENT"
+    "section": "Quenching the Magnet, What",
+    "text": "Quenching the Magnet, What\n\n\nQuenching the magnet is the deactivation of the magnetic field of the MRI\n\nCauses cryogens to rapidly boil off\nCryogen release could displace oxygen in room\nRelease could change pressure in room\n\nStay low\nUse manual door release\n\nThere is an emergency quench button located in scanner room and control room."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#quenching-the-magnet-when",
+    "href": "resources/slides/mri_safety_2.html#quenching-the-magnet-when",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Quenching the Magnet, When",
+    "text": "Quenching the Magnet, When\nONLY when there is:\n\na risk to LIFE/SERIOUS INJURY, or\nan UNCONTROLLABLE FIRE in the MRI room that requires professional firefighting equipment."
   }
 ]

@@ -12,6 +12,7 @@ format:
     logo: ../../media/nd_brand/nd_logo.png
     transition: slide
     slide-number: true
+    lightbox: true
 engine: knitr
 ---
 
@@ -19,8 +20,9 @@ engine: knitr
 ## What is MRI?
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- (Nuclear) Magnetic Resonance Imaging
-- Nuclear **Magnetic**: certain elements have known behaviors in magnetic fields:
+Magnetic Resonance Imaging
+
+- **Magnetic**: certain elements have known behaviors in magnetic fields:
     - Align with field,
     - Precesses at given frequency.
 - **Resonance**: introduce energy at same frequency as precession.
@@ -103,17 +105,20 @@ engine: knitr
 ::::
 
 :::: {.column width="\"50%"}
-::: {.r-stack}
 
-![](../../media/slides/zones_2.png){.fragment .fade-in-then-out fig-align="right"}
+![](../../media/slides/zones_2.png){fig-align="right"}
 
-![](../../media/slides/zones_1.png){.fragment .fade-in-then-out fig-align="right"}
-
-:::
 ::::
 :::::
 
 ---
+
+## Safety Zones
+
+![](../../media/slides/nd-hnc_layout_zones_zoom.png)
+
+---
+
 
 ## Safety Screener
 
@@ -124,8 +129,20 @@ engine: knitr
 - Everyone who enters Zone 3 **MUST** fill out an [MRI Safety Screener](../forms/form_RO01_mri_screen.pdf){target="_blank"}.
 - Check for compatibility with 3 Tesla field.
 - Reviewed by two people, check for:
-    - MR contraindications (e.g. pacemker),
+    - MR contraindications (e.g. pacemaker),
     - MR compatibility (e.g. magnetic lashes).
+::::
+
+:::: {.column width="\"50%"}
+
+![](../../media/slides/mri_screen_head.png){fig-align="right" .bordered-fig}
+
+```{css, echo=FALSE}
+.bordered-fig {
+  border: 2px solid black !important;
+}
+```
+
 ::::
 :::::
 
@@ -232,13 +249,6 @@ Purpose: Assist with MRI research.
 
 ## Participant Flow
 
-<!-- Schedule
-Arrive
-Screen
-Interview
-Mock
-Scan -->
-
 ```{mermaid}
 flowchart LR
     subgraph Zone_1 [Zone 1]
@@ -253,6 +263,7 @@ flowchart LR
 
     subgraph Zone_2 [Zone 2]
        C["`Interview
+           Change
            Mock
            EEG, TMS
            (Review Screen 1)`"]
@@ -339,13 +350,14 @@ Output DICOM files -->
 ---
 
 ## Duties
-
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
+- Screen participants.
+- Conduct simulation MRI (mock) scans.
+- Assist in MRI data collection.
+- Manage data (MRI, task).
 - Assist during emergencies.
-    - Staying in Zones 1, 2.
 ::::
-
 :::: {.column width="\"50%" style="font-size: 65%;"}
 ![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
 ::::
@@ -353,14 +365,13 @@ Output DICOM files -->
 
 
 # MRI Safety
-Incidents and Accidents
-
-## Rarely Due to Equipment Malfunction
+## Incidents and Accidents
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- Usually due to how equipment is used
-    - Breakdown in following procedure and policy
-- Design policies that address:
+- Rarely due to equipment malfunction, usually due to:
+    - How equipment is used, and/or
+    - Breakdown in following procedure and policy.
+- Remedy, design policies that address:
     - Predictable situations
     - Unusual or unpredictable situations
 ::::
@@ -368,19 +379,49 @@ Incidents and Accidents
 
 ---
 
-## Safety Switch Use and Function
-
+## Safety Switch Panel, Control Room
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- Power to scanner
-    - Used to shut off electrical power to table and scanner controls
-- Fire suppression panel
-    - Status of scan room fire alarm and suppresion system
-- MRI system panel
-    - Powers system up and down
-    - Quench button
-- Quench button
-    - Second button in scanner room
+- **A:** Chiller status, monitor cooling system
+- **B:** Fire panel
+- **C:** Emergency Power Off (EPO), shut off power to table and scanner control
+- **D:** Manual Zone 4 door release
+- **E:** Electric Power Off (likely)
+::::
+
+:::: {.column width="\"50%" style="font-size: 65%;"}
+![](../../media/sops/button_wall.jpg){fig-align="right"}
+::::
+:::::
+
+---
+
+## MRI System Panel, Control Room
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- MRI control system on/off
+- Quench button, for life or limb!
+::::
+
+:::: {.column width="\"50%" style="font-size: 65%;"}
+![](../../media/sops/quench.jpg){fig-align="right"}
+::::
+:::::
+
+---
+
+## Safety Switch Panel, Magnet Room
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+
+- **A:** Quench button, for life or limb!
+- **B:** Oxygen monitoring system
+- **C:** Emergency Power Off (EPO), shut off power to table and scanner control
+
+::::
+
+:::: {.column width="\"50%" style="font-size: 65%;"}
+![](../../media/sops/quench_epo_magnet2.jpg){fig-align="right"}
 ::::
 :::::
 
@@ -388,23 +429,23 @@ Incidents and Accidents
 
 ## REMEMBER
 
-::::: {style="text-align: center; color: red"}
-
+::::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 70vh; text-align: center; color: red;"}
 
 Magnet does **NOT** turn off after hours
 or between patients.
 
 The magnet is **ALWAYS** on.
+
 :::::
 
 ---
 
-## Primary MRI Safety Concerns
+## MRI Safety Concerns
 
 :::: {.columns style="font-size: 65%;"}
 
 ::: {.column width="30%" }
-### **Static Magnetic Field**
+### Static Magnetic Field
 
 - Projectile
     - Possible injury
@@ -420,7 +461,7 @@ The magnet is **ALWAYS** on.
 :::
 
 ::: {.column width="30%"}
-### Radiofrequency Field
+### Radiofrequency Pulse
 
 - Tissue heating
 - Medical device heating
@@ -448,17 +489,17 @@ The magnet is **ALWAYS** on.
 ## Magnetic Field Safety
 
 ::::: {.columns style="font-size: 65%;"}
-- Spatial gradients
-    - Translational force: pulls magnetic items towards area where field changes most steeply
-    - Peak danger zones: highest pulling forces near the outer rim and opening of scanner
-    - Implant risks:strong gradients can torque or move medical implants
-- Static field effects
+- **Static field effects:**
     - Consistent uniform magnetic field produced by main superconducting magnet
     - Potential biologic effects: vertigo, nausea
     - Mechanical effects: translation, torque, Lenz’s forces
-- Time varying effects
+- **Time varying effects:**
     - Gradient magnetic fields (auditory, induced voltage)
     - Radiofrequency magnetic fields (biologic, thermal)
+- **Spatial gradients effects:**
+    - Translational force: pulls magnetic items towards area where field changes most steeply
+    - Peak danger zones: highest pulling forces near the outer rim and opening of scanner
+    - Implant risks:strong gradients can torque or move medical implants
 :::::
 
 ---
@@ -466,7 +507,7 @@ The magnet is **ALWAYS** on.
 ## Magnetic Field Safety, cont'd
 
 ::::: {.columns style="font-size: 65%;"}
-- Non-magnetic field effects
+- **Non-magnetic field effects:**
     - Claustrophobia/anxiety
     - Cryogen and quench safety
 :::::
@@ -475,25 +516,30 @@ The magnet is **ALWAYS** on.
 
 ## Gauss Line Locations
 
-![](../../media/slides/mri_zone_gauss.jpg){fig-align="center"}
+![](../../media/slides/mri_zone_gauss.jpg){fig-align="center" width=45%}
 
 ---
 
 ## Safety Screening
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-Categories of implant safety
+Categories of safety:
 
-- MRI Safe: no known hazards
-- MRI Unsafe: known to pose hazards
-- Conditional: demonstrated to pose no know threat hazard under specific conditions
+1. MRI Safe: no known hazards
+1. MRI Unsafe: known to pose hazards
+1. Conditional: demonstrated to pose no know threat hazard under specific conditions
     - Researched prior to scan to ensure specific conditions are met
-- [NO UNSAFE ITEMS IN SCANNER ROOM]{style="color: red;"}
+
+[NO UNSAFE ITEMS IN SCANNER ROOM]{style="color: red;"}
+
+**Implant policy:** provide MRI Technologist with part number _72 hours_ prior to appointment
+
+
 ::::
 
 :::: {.column width="\"50%"}
 
-![](../../media/slides/mri_safety_signs.jpg){fig-align="center"}
+![](../../media/slides/mri_safety_label.jpg){fig-align="right" width=90%}
 
 ::::
 :::::
@@ -501,13 +547,12 @@ Categories of implant safety
 ---
 
 ## Safety Screening, cont'd
-::::: {.columns style="font-size: 65%;"}
-ALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED
 
-- Clothing
-    - Check for ferromagnetic or conductive materials
-    - Labels are not sufficient
-    - Everyone entering the area of transmit RF (bore) should change
+<!-- TODO: detail prescreen/prep/screen from SOP 201 -->
+
+::::: {.columns style="font-size: 65%;"}
+[ALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED]{style="color: red;"}
+
 - Remove all readily removable metallic personal items
     - Watches, jewelry, cell phones, physiological monitoring devices
     - Cosmetics with metallic particles
@@ -525,14 +570,15 @@ ALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED
 - Burn hazards
     - Foil patches, metal leads or skin contact with bore wall
     - Do not cross arms or legs (creates a loop)
-    - Use padding to insure no skin is touching bore wall
+    - Use padding to ensure no skin is touching bore wall
 
 :::::
 
 ---
 
-## Quenching the Magnet
-::::: {.columns style="font-size: 65%;"}
+## Quenching the Magnet, What
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
 Quenching the magnet is the deactivation of the magnetic field of the MRI
 
 - Causes cryogens to rapidly boil off
@@ -540,11 +586,25 @@ Quenching the magnet is the deactivation of the magnetic field of the MRI
 - Release could change pressure in room
     - Stay low
     - Use manual door release
-- There is an emergency quench button located in scanner room and control room. (insert images)
+- There is an emergency quench button located in scanner room and control room.
 
-QUENCH ONLY WHEN THERE IS A RISK TO LIFE/SERIOUS INJURY OR AN UNCONTROLLABLE FIRE IN MRI ROOM THAT REQUIRES FERROMAGNETIC FIREFIGHTING EQUIPMENT
+::::
 
+:::: {.column width="\"50%"}
+
+![](../../media/sops/quench.jpg){fig-align="right"}
+
+::::
 :::::
+
+---
+
+## Quenching the Magnet, When
+
+[ONLY]{style="color: red;"} when there is:
+
+- a risk to [LIFE/SERIOUS INJURY]{style="color: red;"}, or
+- an [UNCONTROLLABLE FIRE]{style="color: red;"} in the MRI room that requires professional firefighting equipment.
 
 
 # Culture of Diligence
@@ -597,7 +657,11 @@ Safety Considerations
 
 Gauss Line Locations
 
-- TODO
+- [Diagram](https://appliedradiology.com/articles/assessing-mri-facility-damage-post-hurricane-best-practices-and-safety-considerations); Del Rey-Vasquez, L. P. (2024). Assessing MRI Facility Damage Post-Hurricane: Best Practices and Safety Considerations. Applied Radiology, 53(6), 12-17.
+
+Safety Screening Devices
+
+- [MRI Label](https://appliedradiology.com/articles/mri-safety-an-update)
 
 Culture of Diligence
 
