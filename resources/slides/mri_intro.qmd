@@ -1,14 +1,11 @@
 ---
-title: "MRI Safety Training, Level 2"
-subtitle: "Notre Dame Human Neuroimaging Center (ND-HNC)"
-# author: Nathan Muncy, Ph.D.
-# date: today
+title: "Notre Dame Human Neuroimaging Center (ND-HNC)"
+subtitle: "MRI Introduction Training"
 execute:
     freeze: auto
-    # echo: true
 format:
   revealjs:
-    footer: "ND-HNC: MRI Level 2"
+    footer: "ND-HNC: MRI intro"
     logo: ../../media/nd_brand/nd_logo.png
     transition: slide
     slide-number: true
@@ -16,10 +13,156 @@ format:
 engine: knitr
 ---
 
-<!-- 4. MRI Safety 2 (30 min)
-5. MRI emergency response 2 (30 min) -->
+# Welcome to our Center!
+
+<!-- 1. Center (10 min, Staff, website, scheduling, building hours, general emergency)
+2. MRI Science (10 min)
+3. Zones (10 min) -->
+
+<!-- Section 1: Center -->
+<!-- Staff intro
+website
+access
+building hours
+general emergency -->
+
+## The Team
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Aron Barbey, Ph.D.
+    - Director
+- Jeff Fox, B.Sc. RT. (R)(MR)(ARRT)
+    - Technologist
+- Nathan Muncy, Ph.D.
+    - Analyst
+- Alex Musser, M.Sc.
+    - Operations Coordinator
+::::
+
+:::: {.column width="50%"}
+::: {.r-stack}
+
+![](../../media/people/barbey.jpg){.fragment .fade-in-then-out fig-align="center" width=70%}
+
+![](../../media/people/fox.jpg){.fragment .fade-in-then-out fig-align="center" width=60%}
+
+![](../../media/people/muncy.jpg){.fragment .fade-in-then-out fig-align="center" width=80%}
+
+![](../../media/nd_brand/nd_monogram_gold.jpg){.fragment .fade-in-then-out fig-align="center" width=60%}
+
+:::
+::::
+:::::
+
+---
+
+## Website Organization
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Help with all aspects of MRI research
+    - [Grant preparation](https://nd-hnc.github.io/website/pages/facilities.html)
+    - [Training](https://nd-hnc.github.io/website/pages/training.html)
+    - [Computing](https://nd-hnc.github.io/website/pages/compute.html)
+    - [Storage](https://nd-hnc.github.io/website/pages/storage.html)
+- Centralized resources
+    - [Forms](https://nd-hnc.github.io/website/pages/forms.html)
+    - [SOPs](https://nd-hnc.github.io/website/pages/sops.html)
+    - [Policies](https://nd-hnc.github.io/website/pages/policies.html)
+
+::::
+
+:::: {.column width="50%" style="font-size: 65%;"}
+[https://nd-hnc.github.io/website](https://nd-hnc.github.io/website/)
+::::
+:::::
+
+::: {style="font-size: 65%; text-align: center;"}
+
+**Expectation:** all users have read and understand SOPs and Policies.
+:::
+
+---
+
+## Building Access
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+1. Enter through Main and Staff entrances
+1. Present Irish1Card to card reader
+1. Provide PIN
+
+Receive access:
+
+- Contact ND-HNC staff for building access
+- Set/access PIN at [https://idcardpin.nd.edu](https://idcardpin.nd.edu)
+::::
+
+:::: {.column width="50%"}
+::: {.r-stack}
+
+![](../../media/sops/vfpc_card_access.jpg){.fragment .fade-in-then-out width="90%" fig-align="right"}
+
+![](../../media/sops/vfpc_staff_south.jpg){.fragment .fade-in width="80%" fig-align="right"}
+
+:::
+::::
+:::::
+
+---
+
+## Building Hours
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+
+Regular hours of operation:
+
+- Mon-Thur, 7am-7pm
+- Fri, 7am-4pm
+
+Building alarm system armed:
+
+- Weekdays, 10pm-6am
+- Weekends, all
+
+Set or access your 6-digit security PIN:
+
+- Contact ND-HNC staff
+
+::::
+
+:::: {.column width="50%"}
+
+![](../../media/sops/vfpc_alarm.jpg){fig-align="right" width="70%"}
+
+::::
+:::::
+
+---
+
+## Emergency Response
+
+<!-- TODO: add pics of fire extinguishers, pulls -->
+
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+- Fire and Gas
+- Tornado
+- Active Violence
+::::
+
+:::: {.column width="50%"}
+::: {.r-stack}
+
+![](../../media/sops/vfpc_floor0.png){.fragment width="90%"}
+
+![](../../media/sops/vfpc_rendezvous.png){.fragment .fade-in-then-out width="90%"}
+
+:::
+::::
+:::::
 
 
+<!-- Section 2: MRI Science -->
 # MRI: An introduction
 ## What is MRI?
 ::::: columns

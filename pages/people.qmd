@@ -3,8 +3,6 @@ title: People
 ---
 
 
-## Staff
-
 ```{=html}
 <style>
 .staff-card {
@@ -31,11 +29,23 @@ title: People
 ::::: {.grid .text-center}
 :::: {.g-col-12 .g-col-md-4 .staff-card}
 ::: {.staff-img-container}
+![](../media/people/barbey.jpg){width=60%}
+:::
+
+| **Aron Barbey, Ph.D.**
+| *Director*
+| [abarbey@nd.edu](mailto:abarbey@nd.edu)
+| (574) 631-3910
+::::
+
+
+:::: {.g-col-12 .g-col-md-4 .staff-card}
+::: {.staff-img-container}
 ![](../media/people/fox.jpg){width=50%}
 :::
 
-| **Jeffrey Fox**
-| B.Sc. RT. (R)(MR)(ARRT)
+| **Jeffrey Fox, B.Sc.**
+| RT. (R)(MR)(ARRT)
 | *MRI Technologist*
 | [jfox22@nd.edu](mailto:jfox22@nd.edu)
 | (574) 631-5058
