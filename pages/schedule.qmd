@@ -1,5 +1,175 @@
 ---
 title: Schedule
+toc: true
+toc-depth: 2
 ---
 
-This page is under construction.
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&title=ND-HNC%20Rooms&src=Y182NGY5ODFiY2IzODBhMDU5MzA4YjQ5NWEwNDFjYWViNjcxY2U5NTIxM2Q0NDMwMzMxNTc4OTY5ZmM3ZDhjYmNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y18yYjYwOTE0ZWZkMjNjNjdmNDJkM2FlNzBlNDdiOTQ3MWQ0NzE1NjMyZGM4ZWZmYjljMDc3ZTNjZWViNGY1MjBhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19kYTk5YWJiYzQ2NmVlNjRlMTA5MmY5ZmVmMzA1MzQ1MTUwMjFmNjdlOTBiMzUzMWU2YzAzYTdmN2U3NTlmNTAxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y180YjQyMTc0NTQyZDBjZjlhYjg3NjkwNjg5NGFkODllMWQ2NjYwMTYyMDk2Mjc3NTVjZDA2YjIwYmFkZWM5MGYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y185YzI2ZGQyZDcxOTNjZjZkOTBlMzRiMTU0MTkxNjRkM2NkNDVlZmFlNWI1NTUwZTY1ZDYwMzYzYTQyYzViNDFjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181MzVhODdkMWM3OGE5NmFjYzZiNGUzZmU3NDQ2YTA3NzZiMDA2MmU2ZTdhYTY4OGQxOTViZThiNjI5MGViMzM0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181NzYyOGVmYmFlNGVjZjFlOTliNjg0OGQ3N2NkZThmODNhN2UxMDhkNzRjYzY1NmRjMTA0YzBkYjkzNTk1OTUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23ad1457&color=%238e24aa&color=%23ef6c00&color=%23c0ca33&color=%23f6bf26&color=%23d81b60&color=%23795548" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+## General
+
+- Appointments are available in 30-minute slots, multiple slots can be booked for longer appointments.
+    - Contact [MRI staff](../pages/people.qmd) if additional slots are needed.
+- The MRI Safety Screen form is available [here](../resources/forms/form_RO01_mri_screen.pdf).
+- A FOAPAL is required for MRI appointments:
+    - MRI "No Shows" and cancellations <24 hours before the appointment are charged at 50% scan rate.
+    - “Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.
+- Additional resources (EEG, TMS, computing) will soon be available for booking.
+
+**Use the booking buttons below to schedule rooms.**
+
+## Zone 1
+
+1. Two consultation rooms (B05, B06) are available for participant preparation.
+1. A conference room (B26) is available for team and project meetings.
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ3-_Jw8UX7OD4Pr00CqXQYjC17VQGJey0bH7_vKOlXzbGNnADtctisRty9PEOttraHcm0QhQC1h?gv=true',
+      color: '#003087',
+      label: "Consult-1 (B05)",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2236qOjdKee2QAzH4lmS8E_TpRPPW9TlqgJj7LTAFm0x5vkI8LVGqao2sumJdh70acFF8GlZOE?gv=true',
+      color: '#003087',
+      label: "Consult-2 (B06)",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0pUCy6fFMAGgj01rChzH9SvnTtE7Vmf0n-N2dNYipPFheioGfxlv5kp0dm0TpUlgYT247p7zNk?gv=true',
+      color: '#003087',
+      label: "Conference (B26)",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+
+## Zone 2
+
+1. Two interview rooms (B12, B13) are available for interviews, testing, and participant preparation.
+    - Access: Level 1+
+    - MRI Screening Required: NO
+1. An MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occurr on the same day as the scan.
+    - Access: Level 2+
+    - MRI Screening Required: YES
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2gt1f1d4YxU82Wy6sVjeOFadh7HTgUM0s2lZgmugV8aVU5QL-iGNk3aJFoeTkOrRVZm5-yGYYU?gv=true',
+      color: '#003087',
+      label: "Interview-1 (B12)",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2444lIyXHZbR2jug2KiDGt_kY06PtNiD4Zaf2VqNVPGY0DoMWwBEHhqifUhvUt4J1VQEQdt0VY?gv=true',
+      color: '#003087',
+      label: "Interview-2 (B13)",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0MsrLKlplCdIz03-VfM5ffsulO1Az1j-YHQ9YVysfe-qT2Fa3Dvl6aE4Wgptjiw2r85vg1W2Hz?gv=true',
+      color: '#003087',
+      label: "Mock (B14)",
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+## Zones 3-4
+
+1. An MRI (B17) appointment books Zones 3 and 4.
+    - Access: Level 2+
+    - MRI Screening Required: YES
+
+**Appointments are only confirmed when accepted by the MRI technologist.**
+
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2SW-x1dOy1WUfOqHlNQkC5ycrFwQQZnYTOZ50gzDrsDzsN5i6XChWKB0kbtbPnEAdqhz4p6DvZ?gv=true',
+      color: '#003087',
+      label: 'MRI (B17)',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+
+## Center Map
+
+![](../media/sops/nd-hnc_layout_zones.png)

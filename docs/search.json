@@ -835,11 +835,54 @@
     ]
   },
   {
-    "objectID": "pages/schedule.html",
-    "href": "pages/schedule.html",
+    "objectID": "pages/schedule.html#general",
+    "href": "pages/schedule.html#general",
     "title": "Schedule",
-    "section": "",
-    "text": "This page is under construction."
+    "section": "General",
+    "text": "General\n\nAppointments are available in 30-minute slots, multiple slots can be booked for longer appointments.\n\nContact MRI staff if additional slots are needed.\n\nThe MRI Safety Screen form is available here.\nA FOAPAL is required for MRI appointments:\n\nMRI “No Shows” and cancellations &lt;24 hours before the appointment are charged at 50% scan rate.\n“Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.\n\nAdditional resources (EEG, TMS, computing) will soon be available for booking.\n\nUse the booking buttons below to schedule rooms.",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "pages/schedule.html#zone-1",
+    "href": "pages/schedule.html#zone-1",
+    "title": "Schedule",
+    "section": "Zone 1",
+    "text": "Zone 1\n\nTwo consultation rooms (B05, B06) are available for participant preparation.\nA conference room (B26) is available for team and project meetings.",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "pages/schedule.html#zone-2",
+    "href": "pages/schedule.html#zone-2",
+    "title": "Schedule",
+    "section": "Zone 2",
+    "text": "Zone 2\n\nTwo interview rooms (B12, B13) are available for interviews, testing, and participant preparation.\n\nAccess: Level 1+\nMRI Screening Required: NO\n\nAn MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occurr on the same day as the scan.\n\nAccess: Level 2+\nMRI Screening Required: YES",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "pages/schedule.html#zones-3-4",
+    "href": "pages/schedule.html#zones-3-4",
+    "title": "Schedule",
+    "section": "Zones 3-4",
+    "text": "Zones 3-4\n\nAn MRI (B17) appointment books Zones 3 and 4.\n\nAccess: Level 2+\nMRI Screening Required: YES\n\n\nAppointments are only confirmed when accepted by the MRI technologist.",
+    "crumbs": [
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "pages/schedule.html#center-map",
+    "href": "pages/schedule.html#center-map",
+    "title": "Schedule",
+    "section": "Center Map",
+    "text": "Center Map",
+    "crumbs": [
+      "Schedule"
+    ]
   },
   {
     "objectID": "pages/storage.html",
