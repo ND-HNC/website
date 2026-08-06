@@ -35,8 +35,8 @@ website:
         href: pages/policies.qmd
       - text: Private
         href: pages/private.qmd
-      # - text: Schedule
-      #   href: pages/schedule.qmd
+      - text: Schedule
+        href: pages/schedule.qmd
       - text: SOPs
         href: pages/sops.qmd
       - text: Storage

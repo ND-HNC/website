@@ -22,7 +22,7 @@ We provide operational support for every step of research conducted at the Notre
 
 - [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Orient to available resources.
 - [Training](pages/training.qmd): Learn to use and gain access to the center.
-- Schedule: Book facilities.
+- [Schedule](pages/schedule.qmd): Book facilities.
 - [Operate](pages/operate.qmd): Use equipment to collect data.
 - [Compute](pages/compute.qmd): Develop codebase, sandbox testing, local computing, parallelization.
 - [Storage](pages/storage.qmd): Keep and manage data at various project stages.
