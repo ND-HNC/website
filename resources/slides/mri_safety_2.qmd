@@ -16,14 +16,14 @@ format:
 engine: knitr
 ---
 
-<!-- 4. MRI Safety 2 (30 min)
-5. MRI emergency response 2 (30 min) -->
-
 
 # Level 2 Access
+
 Purpose: Assist with MRI research.
 
 ## Participant Flow
+
+::::: columns
 
 ```{mermaid}
 flowchart LR
@@ -68,6 +68,12 @@ flowchart LR
 
 ```
 
+
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="center" width="60%"}
+
+
+:::::
+
 <!-- ## Data Flow
 
 CorpFS
@@ -82,7 +88,7 @@ Output DICOM files -->
 - Complete annual ND-HNC MRI Safety training, Level 2.
 - Participate in building access and safety trainings.
 - Wear Level 2 access badge while in the ND-HNC research suite.
-:::::
+::::
 :::::
 
 ---
@@ -141,6 +147,9 @@ Output DICOM files -->
 
 
 # MRI Safety
+
+<!-- 5. MRI emergency response 2 (30 min) -->
+
 ## Incidents and Accidents
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
@@ -381,6 +390,69 @@ Quenching the magnet is the deactivation of the magnetic field of the MRI
 
 - a risk to [LIFE/SERIOUS INJURY]{style="color: red;"}, or
 - an [UNCONTROLLABLE FIRE]{style="color: red;"} in the MRI room that requires professional firefighting equipment.
+
+
+# Emergency Response
+
+<!-- 5. MRI emergency response 2 (30 min) -->
+
+<!-- Outline
+- SOPS 102
+- Lead
+- Helper
+
+Focus - Helper
+Primary concern
+Response -->
+
+
+## General
+
+SOP 102
+Move to safety
+Get help
+Provide first aid
+Coordinate
+Protext
+
+Priorities
+Protect people (visitor, staff, EMS/Fire/Police)
+Protect equipment
+
+---
+
+## Responder types
+Specific roles
+Lead - responsible, in charge
+Helper - assists
+
+Generally
+Lead - protect people, then equipment
+Helper - initiate emergency response
+
+---
+
+## Conscious injury
+
+---
+
+## Unconscious injury
+
+---
+
+## Heart attack
+
+---
+
+## Metal: without risk
+
+---
+
+## Metal: with risk
+
+---
+
+## Seizure, stroke
 
 
 # Culture of Diligence

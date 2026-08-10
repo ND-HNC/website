@@ -956,35 +956,35 @@
     "href": "resources/slides/mri_intro.html#the-team",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "The Team",
-    "text": "The Team\n\n\n\nAron Barbey, Ph.D.\n\nDirector\n\nJeff Fox, B.Sc. RT. (R)(MR)(ARRT)\n\nTechnologist\n\nNathan Muncy, Ph.D.\n\nAnalyst\n\nAlex Musser, M.Sc.\n\nOperations Coordinator"
+    "text": "The Team\n\n\n\n\n\n\n\nAron Barbey, Ph.D. Director\n\n\n\n\n\n\nJeff Fox, B.Sc. RT. (R)(MR)(ARRT) Technologist\n\n\n\n\n\n\nNathan Muncy, Ph.D. Analyst\n\n\n\n\n\n\nAlex Musser, M.Sc. Operations Coordinator"
   },
   {
-    "objectID": "resources/slides/mri_intro.html#website-organization",
-    "href": "resources/slides/mri_intro.html#website-organization",
+    "objectID": "resources/slides/mri_intro.html#center-resources",
+    "href": "resources/slides/mri_intro.html#center-resources",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Website Organization",
-    "text": "Website Organization\n\n\n\nHelp with all aspects of MRI research\n\nGrant preparation\nTraining\nComputing\nStorage\n\nCentralized resources\n\nForms\nSOPs\nPolicies\n\n\n\nhttps://nd-hnc.github.io/website\n\n\nExpectation: all users have read and understand SOPs and Policies."
+    "section": "Center Resources",
+    "text": "Center Resources\n\n\n\n\nSupport MRI research from start to finish:\n\nGrant preparation, description of facilities and equipment\nHow to receive MRI training\nSchedule and operate equipment/facilities.\nAccess our computing and storage resources.\n\n\n\n\nProvide important documents:\n\nStandard Operating Procedures (SOPs)\nOperational forms, including MRI Safety Screener\nCenter policies\n\nAvailable at our website: https://nd-hnc.github.io/website\n\nExpectation: everyone using ND-HNC resources read and follow SOPs and Policies."
   },
   {
     "objectID": "resources/slides/mri_intro.html#building-access",
     "href": "resources/slides/mri_intro.html#building-access",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Building Access",
-    "text": "Building Access\n\n\n\nEnter through Main and Staff entrances\nPresent Irish1Card to card reader\nProvide PIN\n\nReceive access:\n\nContact ND-HNC staff for building access\nSet/access PIN at https://idcardpin.nd.edu"
+    "text": "Building Access\n\n\n\nDetailed in SOP 301\n\nEnter through Main and Staff entrances\nPresent Irish1Card to card reader\nProvide PIN\n\nReceive access:\n\nContact ND-HNC staff for building access\nSet/access PIN at https://idcardpin.nd.edu"
   },
   {
     "objectID": "resources/slides/mri_intro.html#building-hours",
     "href": "resources/slides/mri_intro.html#building-hours",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Building Hours",
-    "text": "Building Hours\n\n\nRegular hours of operation:\n\nMon-Thur, 7am-7pm\nFri, 7am-4pm\n\nBuilding alarm system armed:\n\nWeekdays, 10pm-6am\nWeekends, all\n\nSet or access your 6-digit security PIN:\n\nContact ND-HNC staff"
+    "text": "Building Hours\n\n\n\n\n\n\n🕒 Hours of Operation\n\n\n\nMon – Thu: 7:00 AM – 7:00 PM\nFri: 7:00 AM – 4:00 PM\n\n\n\n\n\n\n\n\n\n🔒 Alarmed Hours\n\n\n\nWeekdays: 10:00 PM – 6:00 AM\nWeekends: 24 Hours (All Day)\n\n\n\n\n\n\n\n\n\n🔑 Security PIN Setup\n\n\nContact ND-HNC Staff to request or reset your 6-digit PIN."
   },
   {
-    "objectID": "resources/slides/mri_intro.html#emergency-response",
-    "href": "resources/slides/mri_intro.html#emergency-response",
+    "objectID": "resources/slides/mri_intro.html#building-emergencies",
+    "href": "resources/slides/mri_intro.html#building-emergencies",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Emergency Response",
-    "text": "Emergency Response\n\n\n\n\nFire and Gas\nTornado\nActive Violence"
+    "section": "Building Emergencies",
+    "text": "Building Emergencies\n\n\n\n\nFire or Gas Leaks (SOP 302)\nTornado (SOP 303)\nActive Violence (SOP 304)"
   },
   {
     "objectID": "resources/slides/mri_intro.html#what-is-mri",
@@ -1019,49 +1019,49 @@
     "href": "resources/slides/mri_intro.html#safety-zones",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Safety Zones",
-    "text": "Safety Zones"
+    "text": "Safety Zones\n\n\nSee, SOP 202."
   },
   {
     "objectID": "resources/slides/mri_intro.html#safety-screener",
     "href": "resources/slides/mri_intro.html#safety-screener",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Safety Screener",
-    "text": "Safety Screener\n\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemaker),\nMR compatibility (e.g. magnetic lashes)."
+    "text": "Safety Screener\n\n\n\n\nDescribed in SOP 201.\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemaker),\nMR compatibility (e.g. magnetic lashes)."
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-1---orange",
     "href": "resources/slides/mri_intro.html#zone-1---orange",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 1 - Orange",
-    "text": "Zone 1 - Orange\n\n\n\nContains:\n\nOffices\nConference\nReception\n\nUse:\n\nMeet participants\n\nAccess:\n\nPublic"
+    "text": "Zone 1 - Orange\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nOffices\nConference Room\nReception\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nMeet & greet study participants\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nPublic (Unrestricted during standard hours)"
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-2---purple",
     "href": "resources/slides/mri_intro.html#zone-2---purple",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 2 - Purple",
-    "text": "Zone 2 - Purple\n\n\n\nContains:\n\nChanging rooms\nInterview, testing\nNon-MRI research (EEG, TMS)\nMock MRI\n\nUse:\n\nNon-MRI research\nMRI preparation\n\nAccess:\n\nLevels 1, 2+\nEscorted Visitors"
+    "text": "Zone 2 - Purple\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nChanging rooms\nInterview rooms\nNon-MRI research equpiment (EEG, TMS)\nMock MRI\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nNon-MRI research\nMRI preparation\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nLevels 1, 2+\nEscorted Visitors"
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-3---green",
     "href": "resources/slides/mri_intro.html#zone-3---green",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 3 - Green",
-    "text": "Zone 3 - Green\n\n\n\nContains:\n\nEquipment\nStorage\nControl\n\nUse:\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\nAccess:\n\nLevel 3+ (Supervised Level 2)\nScreened, escorted Visitors"
+    "text": "Zone 3 - Green\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nEquipment\nStorage\nControl\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nLevels 3+ (supervised Level 2)\nScreened, escorted Visitors"
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-4---blue",
     "href": "resources/slides/mri_intro.html#zone-4---blue",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 4 - Blue",
-    "text": "Zone 4 - Blue\n\n\n\nContains:\n\nMagnet\n\nUse:\n\nScan participants\n\nAccess:\n\nLevel 4+ (Supervised Level 2+)\nScreened, escorted Visitors"
+    "text": "Zone 4 - Blue\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nMagnet\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nScan Visitors\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nLevel 4 (supervised Level 2+)\nScreened, escorted Visitors"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#participant-flow",
     "href": "resources/slides/mri_safety_2.html#participant-flow",
     "title": "MRI Safety Training, Level 2",
     "section": "Participant Flow",
-    "text": "Participant Flow\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
+    "text": "Participant Flow\n\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#requirements",
@@ -1188,5 +1188,61 @@
     "title": "MRI Safety Training, Level 2",
     "section": "Quenching the Magnet, When",
     "text": "Quenching the Magnet, When\nONLY when there is:\n\na risk to LIFE/SERIOUS INJURY, or\nan UNCONTROLLABLE FIRE in the MRI room that requires professional firefighting equipment."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#general",
+    "href": "resources/slides/mri_safety_2.html#general",
+    "title": "MRI Safety Training, Level 2",
+    "section": "General",
+    "text": "General\nSOP 102 Move to safety Get help Provide first aid Coordinate Protext\nPriorities Protect people (visitor, staff, EMS/Fire/Police) Protect equipment"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#responder-types",
+    "href": "resources/slides/mri_safety_2.html#responder-types",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Responder types",
+    "text": "Responder types\nSpecific roles Lead - responsible, in charge Helper - assists\nGenerally Lead - protect people, then equipment Helper - initiate emergency response"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#conscious-injury",
+    "href": "resources/slides/mri_safety_2.html#conscious-injury",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Conscious injury",
+    "text": "Conscious injury"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#unconscious-injury",
+    "href": "resources/slides/mri_safety_2.html#unconscious-injury",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Unconscious injury",
+    "text": "Unconscious injury"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#heart-attack",
+    "href": "resources/slides/mri_safety_2.html#heart-attack",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Heart attack",
+    "text": "Heart attack"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#metal-without-risk",
+    "href": "resources/slides/mri_safety_2.html#metal-without-risk",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Metal: without risk",
+    "text": "Metal: without risk"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#metal-with-risk",
+    "href": "resources/slides/mri_safety_2.html#metal-with-risk",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Metal: with risk",
+    "text": "Metal: with risk"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#seizure-stroke",
+    "href": "resources/slides/mri_safety_2.html#seizure-stroke",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Seizure, stroke",
+    "text": "Seizure, stroke"
   }
 ]

@@ -27,65 +27,76 @@ building hours
 general emergency -->
 
 ## The Team
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Aron Barbey, Ph.D.
-    - Director
-- Jeff Fox, B.Sc. RT. (R)(MR)(ARRT)
-    - Technologist
-- Nathan Muncy, Ph.D.
-    - Analyst
-- Alex Musser, M.Sc.
-    - Operations Coordinator
+
+::::: {.columns .v-center-container style="font-size: 65%;"}
+
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/people/barbey.jpg){fig-align="center" height="200px"}
+
+**Aron Barbey, Ph.D.**
+Director
 ::::
 
-:::: {.column width="50%"}
-::: {.r-stack}
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/people/fox.jpg){fig-align="center" height="200px"}
 
-![](../../media/people/barbey.jpg){.fragment .fade-in-then-out fig-align="center" width=70%}
+**Jeff Fox, B.Sc. RT. (R)(MR)(ARRT)**
+Technologist
+::::
 
-![](../../media/people/fox.jpg){.fragment .fade-in-then-out fig-align="center" width=60%}
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/people/muncy.jpg){fig-align="center" height="200px"}
 
-![](../../media/people/muncy.jpg){.fragment .fade-in-then-out fig-align="center" width=80%}
+**Nathan Muncy, Ph.D.**
+Analyst
+::::
 
-![](../../media/nd_brand/nd_monogram_gold.jpg){.fragment .fade-in-then-out fig-align="center" width=60%}
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/nd_brand/nd_monogram_gold.jpg){fig-align="center" height="200px"}
 
-:::
+**Alex Musser, M.Sc.**
+Operations Coordinator
 ::::
 :::::
 
 ---
 
-## Website Organization
+## Center Resources
+
+<!-- TODO: Detail SOP and Forms organization -->
+
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- Help with all aspects of MRI research
-    - [Grant preparation](https://nd-hnc.github.io/website/pages/facilities.html)
-    - [Training](https://nd-hnc.github.io/website/pages/training.html)
-    - [Computing](https://nd-hnc.github.io/website/pages/compute.html)
-    - [Storage](https://nd-hnc.github.io/website/pages/storage.html)
-- Centralized resources
-    - [Forms](https://nd-hnc.github.io/website/pages/forms.html)
-    - [SOPs](https://nd-hnc.github.io/website/pages/sops.html)
-    - [Policies](https://nd-hnc.github.io/website/pages/policies.html)
+1. Support MRI research from start to finish:
+    - Grant preparation, description of [facilities](../../pages/facilities.qmd) and [equipment](../../pages/equipment.qmd)
+    - How to receive MRI [training](../../pages/training.qmd)
+    - [Schedule](../../pages/schedule.qmd) and [operate](../../pages/operate.qmd) equipment/facilities.
+    - Access our [computing](../../pages/compute.qmd) and [storage](../../pages/storage.qmd) resources.
 
 ::::
 
 :::: {.column width="50%" style="font-size: 65%;"}
-[https://nd-hnc.github.io/website](https://nd-hnc.github.io/website/)
+2. Provide important documents:
+    - Standard Operating Procedures ([SOPs](../../pages/sops.qmd))
+    - Operational [forms](../../pages/forms.qmd), including MRI Safety Screener
+    - Center [policies](../../pages/policies.qmd)
+
+3. Available at our website: [https://nd-hnc.github.io/website](https://nd-hnc.github.io/website)
+    - **Expectation:** everyone using ND-HNC resources read and follow SOPs and Policies.
+
 ::::
 :::::
-
-::: {style="font-size: 65%; text-align: center;"}
-
-**Expectation:** all users have read and understand SOPs and Policies.
-:::
 
 ---
 
 ## Building Access
+
+<!-- TODO: better pictures -->
+
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
+Detailed in SOP [301](../sops/300_building/1_access/sop_301_access.pdf)
+
 1. Enter through Main and Staff entrances
 1. Present Irish1Card to card reader
 1. Provide PIN
@@ -111,43 +122,43 @@ Receive access:
 
 ## Building Hours
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
+::::: {.columns .v-center-container}
+:::: {.column width="60%"}
+::: {.callout-note icon=false title="🕒 Hours of Operation"}
+* **Mon – Thu:** 7:00 AM – 7:00 PM
+* **Fri:** 7:00 AM – 4:00 PM
+:::
 
-Regular hours of operation:
+::: {.callout-warning icon=false title="🔒 Alarmed Hours"}
+* **Weekdays:** 10:00 PM – 6:00 AM
+* **Weekends:** 24 Hours (All Day)
+:::
 
-- Mon-Thur, 7am-7pm
-- Fri, 7am-4pm
-
-Building alarm system armed:
-
-- Weekdays, 10pm-6am
-- Weekends, all
-
-Set or access your 6-digit security PIN:
-
-- Contact ND-HNC staff
-
+::: {.callout-tip icon=false title="🔑 Security PIN Setup"}
+Contact **ND-HNC Staff** to request or reset your 6-digit PIN.
+:::
 ::::
 
-:::: {.column width="50%"}
+::: {.column width="40%"}
 
-![](../../media/sops/vfpc_alarm.jpg){fig-align="right" width="70%"}
+![](../../media/sops/vfpc_alarm.jpg){.lightbox fig-align="center" width="90%"}
 
-::::
+:::
 :::::
 
 ---
 
-## Emergency Response
+## Building Emergencies
 
 <!-- TODO: add pics of fire extinguishers, pulls -->
 
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- Fire and Gas
-- Tornado
-- Active Violence
+
+1. Fire or Gas Leaks (SOP [302](../sops/300_building/2_fire_gas/sop_302_fire_gas.pdf))
+1. Tornado (SOP [303](../sops/300_building/3_tornado/sop_303_tornado.pdf))
+1. Active Violence (SOP [304](../sops/300_building/4_violence/sop_304_violence.pdf))
+
 ::::
 
 :::: {.column width="50%"}
@@ -264,6 +275,12 @@ Magnetic Resonance Imaging
 
 ![](../../media/slides/nd-hnc_layout_zones_zoom.png)
 
+::: {style="font-size: 65%"}
+
+See, SOP [202](../sops/200_operation/2_zone_access/sop_202_zone_access.pdf).
+
+:::
+
 ---
 
 
@@ -273,6 +290,7 @@ Magnetic Resonance Imaging
 
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
+- Described in SOP [201](../sops/200_operation/1_safety_screen/sop_201_safety_screen.pdf).
 - Everyone who enters Zone 3 **MUST** fill out an [MRI Safety Screener](../forms/form_RO01_mri_screen.pdf){target="_blank"}.
 - Check for compatibility with 3 Tesla field.
 - Reviewed by two people, check for:
@@ -296,99 +314,129 @@ Magnetic Resonance Imaging
 
 # ND-HNC MRI Zones
 
+See SOP [202](../sops/200_operation/2_zone_access/sop_202_zone_access.pdf)
+
 ## Zone 1 - Orange
-::::: columns
+::::: {.columns}
+
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Offices
-    - Conference
-    - Reception
-- Use:
-    - Meet participants
-- Access:
-    - Public
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Offices
+* Conference Room
+* Reception
+:::
+
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Meet & greet study participants
+:::
+
+::: {.callout-important icon=false title="🔓 Access Level"}
+* **Public** (Unrestricted during standard hours)
+:::
 ::::
 
-:::: {.column width="\"50%"}
+::: {.column width="50%"}
 
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::
+:::
+
 :::::
+
 
 ---
 
 ## Zone 2 - Purple
-::::: columns
+
+::::: {.columns}
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Changing rooms
-    - Interview, testing
-    - Non-MRI research (EEG, TMS)
-    - Mock MRI
-- Use:
-    - Non-MRI research
-    - MRI preparation
-- Access:
-    - Levels 1, 2+
-    - Escorted Visitors
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Changing rooms
+* Interview rooms
+* Non-MRI research equpiment (EEG, TMS)
+* Mock MRI
+:::
+
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Non-MRI research
+* MRI preparation
+:::
+
+::: {.callout-important icon=false title="🔓 Access Level"}
+* Levels 1, 2+
+* **Escorted** Visitors
+:::
 ::::
 
-:::: {.column width="\"50%"}
+::: {.column width="50%"}
 
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::
+:::
 :::::
+
 
 ---
 
 ## Zone 3 - Green
-::::: columns
+
+::::: {.columns}
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Equipment
-    - Storage
-    - Control
-- Use:
-    - Access MRI scanner
-    - Maintain equipment
-    - Collect MRI data
-- Access:
-    - Level 3+ (Supervised Level 2)
-    - Screened, escorted Visitors
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Equipment
+* Storage
+* Control
+:::
+
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Access MRI scanner
+* Maintain equipment
+* Collect MRI data
+:::
+
+::: {.callout-important icon=false title="🔓 Access Level"}
+* Levels 3+ (supervised Level 2)
+* **Screened**, escorted Visitors
+:::
 ::::
 
-:::: {.column width="\"50%"}
+::: {.column width="50%"}
 
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::
+:::
 :::::
 
 ---
 
 ## Zone 4 - Blue
-::::: columns
+
+
+::::: {.columns}
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Magnet
-- Use:
-    - Scan participants
-- Access:
-    - Level 4+ (Supervised Level 2+)
-    - Screened, escorted Visitors
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Magnet
+:::
+
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Scan Visitors
+:::
+
+::: {.callout-important icon=false title="🔓 Access Level"}
+* Level 4 (supervised Level 2+)
+* **Screened**, escorted Visitors
+:::
 ::::
 
-:::: {.column width="\"50%"}
+::: {.column width="50%"}
 
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::
+:::
 :::::
 
-
 # Sources
+
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 50%"}
 What is MRI?
