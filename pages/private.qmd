@@ -16,7 +16,7 @@ Internal documents and files for ND-HNC staff.
 | Access | Topic | Exam |
 |-----|-----|----|
 | All | [MRI Center](../resources/slides/mri_intro.qmd) | TBD |
-| Level 1 | [Slides](../resources/slides/mri_safety_1.qmd) | TBD |
+| Level 1 | Slides | TBD |
 | Level 2 | [Slides](../resources/slides/mri_safety_2.qmd) | TBD |
 | Level 3 | Slides | TBD |
 | Level 4 | Slides | TBD |

@@ -5,7 +5,7 @@ toc-depth: 4
 ---
 
 ## Overview
-Here we provide our research community, faculty, and staff with centralized access to the center's Standard Operating Procedures (SOPs). Hosting these Links helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.
+Hosting our Standard Operating Procedures (SOPs) publicly allows for them to be easily reviewed whenever and/or wherever they are needed. Because these guidelines are critical to maintaining safety, efficiency, and consistency, all center users are responsible for reading, understanding, and operating in strict accordance with these SOPs.
 
 
 ## SOPs
@@ -17,7 +17,7 @@ Here we provide our research community, faculty, and staff with centralized acce
 | 101 | Hardware | [Link](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf) | [LG01](../resources/forms/form_LG01_hardware_issue.pdf), [LG04](../resources/forms/form_LG04_protocol_violations.pdf), [RO03](../../media/sops/nd-hnc_layout_zones.png) |
 | 102 | Medical | [Link](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf) | [LG03](../resources/forms/form_LG03_incidents.pdf), [LG04](../resources/forms/form_LG04_protocol_violations.pdf), [RO03](../../media/sops/nd-hnc_layout_zones.png) |
 | 103 | Incident Reporting | [Link](../resources/sops/100_emergency/3_adverse_events/sop_103_adverse_events.pdf) | [LG03](../resources/forms/form_LG03_incidents.pdf) |
-| 104 | Incidental Findings | Link |
+| 104 | Incidental Findings | TBD |
 
 : {tbl-colwidths="[25,25,25,25]"}
 

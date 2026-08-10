@@ -83,67 +83,93 @@ Output DICOM files -->
 
 ## Requirements
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Complete annual ND-HNC MRI Safety training, Level 2.
-- Participate in building access and safety trainings.
-- Wear Level 2 access badge while in the ND-HNC research suite.
+:::: {.columns}
+
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-note icon=false}
+### Access Prerequisites
+- Complete annual **ND-HNC MRI Safety training**, Level 2
+- Participate in building access and safety trainings
+- Wear **Level 2 access badge** at all times while in the ND-HNC research suite
+:::
+:::
+
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="center" width="100%"}
+:::
+
 ::::
-:::::
 
 ---
 
 ## Privileges
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Irish1Card access to Zone 2.
-- Unsupervised access to Zone 2.
-- Escort visitors in Zone 2.
-- Access to Mock Scanner and Mock computer.
-- Supervised access to Zones 3 & 4.
-- Access Stimulus Control, DICOM computers.
-- Review and sign MRI Safety Screen.
-- Help un/load Visitors into MRI scanner.
-- Respond as Helper in emergency situations.
-::::
+:::: {.columns}
 
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-tip icon=false}
+### Zone 2 Access & Operations
+- **Irish1Card access** to Zone 2
+- **Unsupervised access** to Zone 2
+- Escort visitors in Zone 2
+- Access to **Mock Scanner** and Mock computer
+- Supervised access to **Zones 3 & 4**
+- Access Stimulus Control and DICOM computers
+- Review and sign MRI Safety Screen
+- Help load/unload Visitors into MRI scanner
+- Respond as **Helper** in emergency situations
+:::
+:::
+
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right" width="100%"}
+:::
+
 ::::
-:::::
 
 ---
 
 ## Restrictions
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Irish1Card access to Zone 3 not granted.
-- No access to Zone 3 Equipment Room (B18A).
+:::: {.columns}
+
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-important icon=true}
+### Strict Access Boundaries
+- **No Irish1Card access** granted to Zone 3
+- **No access** to Zone 3 Equipment Room (B18A)
+:::
+:::
+
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right" width="100%"}
+:::
+
 ::::
 
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-::::
-
-:::::
 
 ---
 
 ## Duties
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Screen participants.
-- Conduct simulation MRI (mock) scans.
-- Assist in MRI data collection.
-- Manage data (MRI, task).
-- Assist during emergencies.
+
+:::: {.columns}
+
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-note icon=false}
+### Work Performed
+- Screen participants
+- Conduct simulation MRI (mock) scans
+- Assist in MRI data collection
+- Manage data (MRI, task)
+- Assist during emergencies
+:::
+:::
+
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="center" width="100%"}
+:::
+
 ::::
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-::::
-:::::
 
 
 # MRI Safety
@@ -394,65 +420,121 @@ Quenching the magnet is the deactivation of the magnetic field of the MRI
 
 # Emergency Response
 
-<!-- 5. MRI emergency response 2 (30 min) -->
+## General Guidelines
 
-<!-- Outline
-- SOPS 102
-- Lead
-- Helper
+::: {.callout-note icon=false}
+### Standard Emergency Response Pattern
+Emergency situations are diverse, but immediate responses follow a consistent pattern:
 
-Focus - Helper
-Primary concern
-Response -->
+1. **Move to safety** — Leave the immediate area.
+2. **Get help** — Call 911 immediately.
+3. **Provide care** — Administer First Aid and/or CPR if trained.
+4. **Coordinate** — Hand over to professionals (EMS / Fire / Police).
+:::
 
-
-## General
-
-SOP 102
-Move to safety
-Get help
-Provide first aid
-Coordinate
-Protext
-
-Priorities
-Protect people (visitor, staff, EMS/Fire/Police)
-Protect equipment
+::: {.callout-tip visual="simple"}
+**Detailed Procedures:** See [SOP 102: Medical Emergency Response](../sops/100_emergency/2_medical/sop_102_medical.pdf) for full protocols.
+:::
 
 ---
 
-## Responder types
-Specific roles
-Lead - responsible, in charge
-Helper - assists
+## Priorities
 
-Generally
-Lead - protect people, then equipment
-Helper - initiate emergency response
+::: {.style font-size="80%" style="font-size: 65%;"}
+The presence of a strong magnetic field requires additional considerations. During an emergency situation:
+:::
 
----
+:::: {.columns}
 
-## Conscious injury
+::: {.column width="55%" style="font-size: 65%;"}
+### 1. Protect People First
+* **Visitors** — Evacuate out of Zone 4 immediately.
+* **Researchers** — Evacuate out of Zone 4.
+* **Emergency Responders** (EMS/Fire/Police)
+  * *Critical:* Restrict un-screened access (e.g., lock Zone 4 doors).
+:::
 
----
+::: {.column width="45%" style="font-size: 65%;"}
+### 2. Protect Equipment
+* **Emergency Power Off (EPO)**
+  * Trigger only after human safety is secured or if directed by SOPs.
+:::
 
-## Unconscious injury
-
----
-
-## Heart attack
-
----
-
-## Metal: without risk
-
----
-
-## Metal: with risk
+::::
 
 ---
 
-## Seizure, stroke
+## Emergency Responder Roles
+
+::: {style="font-size: 65%;"}
+Clear organization during an emergency is critical.
+:::
+
+:::: {.columns}
+
+::: {.column width="50%" style="font-size: 65%;"}
+### 1. Lead Responder
+*(MRI Technologist, Level 3–4)*
+
+* **Role:** Primary decision-maker; in charge of the scene.
+* **Focus:** Protect **people** first, then equipment.
+:::
+
+::: {.column width="50%" style="font-size: 65%;"}
+### 2. Helper
+*(Level 1–4)*
+
+* **Role:** Assist the Lead Responder.
+* **Focus:** **Get help** (call 911) and coordinate logistics.
+:::
+::::
+
+
+## MRI-related Emergencies
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+
+A person is pinned to the magnet. Consider risk to LIFE or LIMB:
+
+- NO RISK: call MRI staff
+    - It is possible to ramp down the magnet.
+- RISK: quench the magnet
+
+::::
+
+:::: {.column width="50%" style="font-size: 65%;"}
+
+![](../../media/sops/quench.jpg)
+
+::::
+
+:::::
+
+
+---
+
+## MRI-unrelated Emergencies
+
+::::: {.columns}
+
+:::: {.column width="45%" style="font-size: 65%;"}
+::: {.callout-tip title="Common Scenarios"}
+- Injury to limb or head
+- Heart attack / Cardiac arrest
+- Seizure
+- Acute stroke
+:::
+::::
+
+:::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-important title="Action Protocol"}
+1. **Call for help** immediately.
+2. **Evacuate:** Move individual out of **Zone 4** before using medical equipment.
+3. **Administer:** Provide First-Aid / CPR.
+4. **Transfer:** Coordinate directly with EMS.
+:::
+::::
+:::::
 
 
 # Culture of Diligence
