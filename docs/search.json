@@ -259,17 +259,7 @@
     "href": "pages/training.html#overview",
     "title": "Training",
     "section": "Overview",
-    "text": "Overview\nThe ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.\nAll researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP 202 for additional details.",
-    "crumbs": [
-      "Training"
-    ]
-  },
-  {
-    "objectID": "pages/training.html#nd-hnc-layout",
-    "href": "pages/training.html#nd-hnc-layout",
-    "title": "Training",
-    "section": "ND-HNC Layout",
-    "text": "ND-HNC Layout\nUse of MRI Zones 2-4 is restricted to personnel with the appropriate access Level; individuals without an access Level are escorted in these Zones. See Upcoming Trainings to register for safety courses.\n\n\n\n\n\n\n\n\n\nAccess\nSafety Zone\nPurpose\nRestrictions\n\n\n\n\nPublic\n1 - orange\nReception\nNone\n\n\nLevel 1\n2 - purple\nNon-MRI research\nB14\n\n\nLevel 2\n2 - purple\nMRI preparation\n\n\n\nLevel 3\n3 - green\nMRI control\nB18A\n\n\nLevel 4\n4 - blue\nMRI scanning\n\n\n\n\n\n\n\nForm RO03",
+    "text": "Overview\nThe ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.\nAll researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP 202 for additional details.\nPlease register here for an upcoming training session.",
     "crumbs": [
       "Training"
     ]
@@ -279,7 +269,17 @@
     "href": "pages/training.html#ssec:train",
     "title": "Training",
     "section": "Upcoming Trainings",
-    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level). Register for a training session here.\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-11am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-11am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n12-2pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n12-2pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\n\nAdditional notes:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
+    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level).\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-11am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-11am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n12-2pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n12-2pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\n\nAdditional notes:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
+    "crumbs": [
+      "Training"
+    ]
+  },
+  {
+    "objectID": "pages/training.html#nd-hnc-layout",
+    "href": "pages/training.html#nd-hnc-layout",
+    "title": "Training",
+    "section": "ND-HNC Layout",
+    "text": "ND-HNC Layout\nUse of MRI Zones 2-4 is restricted to personnel with the appropriate access Level; individuals without an access Level are escorted in these Zones.\n\n\n\n\n\n\n\n\n\nAccess\nSafety Zone\nPurpose\nRestrictions\n\n\n\n\nPublic\n1 - orange\nReception\nNone\n\n\nLevel 1\n2 - purple\nNon-MRI research\nB14\n\n\nLevel 2\n2 - purple\nMRI preparation\n\n\n\nLevel 3\n3 - green\nMRI control\nB18A\n\n\nLevel 4\n4 - blue\nMRI scanning\n\n\n\n\n\n\n\nForm RO03",
     "crumbs": [
       "Training"
     ]

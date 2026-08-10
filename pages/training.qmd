@@ -11,25 +11,11 @@ The ND-HNC follows the American College of Radiology recommendations for buildin
 
 All researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP [202](../resources/sops/200_operation/2_zone_access/sop_202_zone_access.pdf) for additional details.
 
-## ND-HNC Layout
-
-Use of MRI Zones 2-4 is restricted to personnel with the appropriate access Level; individuals without an access Level are escorted in these Zones. See [Upcoming Trainings](#ssec:train) to register for safety courses.
-
-| Access | Safety Zone | Purpose | Restrictions |
-|-----|-----|-----|-----|
-| Public | 1 - orange | Reception | None |
-| Level 1 | 2 - purple | Non-MRI research | B14 |
-| Level 2 | 2 - purple | MRI preparation | |
-| Level 3 | 3 - green | MRI control | B18A |
-| Level 4 | 4 - blue | MRI scanning | |
-
-: {tbl-colwidths="[25,25,25,25]"}
-
-![Form RO03](../media/sops/nd-hnc_layout_zones.png){fig-align="center" width=75%}
+**Please register [here](https://nd.qualtrics.com/jfe/form/SV_3lcjn6KulWrGw3c) for an upcoming training session.**
 
 ## Upcoming Trainings {#ssec:train}
 
-Please review the schedule to select the relevant training session (and see [Level Description](#ssec:level-desc) for help determining the appropriate access Level). Register for a training session [here](https://nd.qualtrics.com/jfe/form/SV_3lcjn6KulWrGw3c).
+Please review the schedule to select the relevant training session (and see [Level Description](#ssec:level-desc) for help determining the appropriate access Level).
 
 | Topic | Date | Time | Location |
 |-----|-----|-----|-----|
@@ -50,6 +36,22 @@ Additional notes:
 - Level 1 & 2 trainings are limited to 48 attendees.
 - CPR/AED is required for Level 2 and above (recommended for Level 1).
 - CPR/AED training cost is $65/person and is limited to 18 attendees.
+
+## ND-HNC Layout
+
+Use of MRI Zones 2-4 is restricted to personnel with the appropriate access Level; individuals without an access Level are escorted in these Zones.
+
+| Access | Safety Zone | Purpose | Restrictions |
+|-----|-----|-----|-----|
+| Public | 1 - orange | Reception | None |
+| Level 1 | 2 - purple | Non-MRI research | B14 |
+| Level 2 | 2 - purple | MRI preparation | |
+| Level 3 | 3 - green | MRI control | B18A |
+| Level 4 | 4 - blue | MRI scanning | |
+
+: {tbl-colwidths="[25,25,25,25]"}
+
+![Form RO03](../media/sops/nd-hnc_layout_zones.png){fig-align="center" width=75%}
 
 ## Level Description {#ssec:level-desc}
 
