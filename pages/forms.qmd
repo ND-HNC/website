@@ -7,7 +7,7 @@ toc-depth: 4
 ## Overview
 Documents to serve as reference, support logging, and provide operational support.
 
-The MRI Safety Screen (Form RO01) is found [here](../resources/forms/form_RO01_mri_screen.pdf).
+The MRI Safety Screen (Form RO01) is found [here](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"}.
 
 #### GA: Governing Articles
 
@@ -17,9 +17,9 @@ The MRI Safety Screen (Form RO01) is found [here](../resources/forms/form_RO01_m
 
 | Number | Title | Document | |
 |-----|-----|-----|-----|
-| GA01 | ACR MRI Safety | [Link](../media/articles/form_GA01_ACR_manual.pdf) |
-| GA02 | OHRP 2007 | [Link](../media/articles/form_GA02_OHRP_2007.pdf) |
-| GA03 | FDA Reports | [Link](../media/articles/form_GA03_FDA_reporting.pdf) |
+| GA01 | ACR MRI Safety | [Link](../media/articles/form_GA01_ACR_manual.pdf){target="_blank"} |
+| GA02 | OHRP 2007 | [Link](../media/articles/form_GA02_OHRP_2007.pdf){target="_blank"} |
+| GA03 | FDA Reports | [Link](../media/articles/form_GA03_FDA_reporting.pdf){target="_blank"} |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
@@ -33,12 +33,12 @@ The MRI Safety Screen (Form RO01) is found [here](../resources/forms/form_RO01_m
 
 | Number | Title | Document | |
 |-----|-----|-----|-----|
-| LG01 | Hardware Issue | [Link](../resources/forms/form_LG01_hardware_issue.pdf) |
-| LG02 | Hardware Maintenance | [Link](../resources/forms/form_LG02_hardware_maintenance.pdf) |
-| LG03 | Incidents | [Link](../resources/forms/form_LG03_incidents.pdf) |
-| LG04 | Compliance | [Link](../resources/forms/form_LG04_protocol_violations.pdf) |
-| LG05 | Shadow Hours | [Link](../resources/forms/form_LG05_shadow_record.pdf) |
-| LG06 | ACR QA | [Link](../resources/forms/form_ACR_QA.pdf) |
+| LG01 | Hardware Issue | [Link](../resources/forms/form_LG01_hardware_issue.pdf){target="_blank"} |
+| LG02 | Hardware Maintenance | [Link](../resources/forms/form_LG02_hardware_maintenance.pdf){target="_blank"} |
+| LG03 | Incidents | [Link](../resources/forms/form_LG03_incidents.pdf){target="_blank"} |
+| LG04 | Compliance | [Link](../resources/forms/form_LG04_protocol_violations.pdf){target="_blank"} |
+| LG05 | Shadow Hours | [Link](../resources/forms/form_LG05_shadow_record.pdf){target="_blank"} |
+| LG06 | ACR QA | [Link](../resources/forms/form_ACR_QA.pdf){target="_blank"} |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
@@ -52,9 +52,9 @@ The MRI Safety Screen (Form RO01) is found [here](../resources/forms/form_RO01_m
 
 | Number | Title | Document | |
 |-----|-----|-----|-----|
-| RO01 | MRI Safety Screen | [Link](../resources/forms/form_RO01_mri_screen.pdf) |
-| RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf), [White](../resources/forms/form_RO02_arrival_white.pdf) |
-| RO03 | ND-HNC Layout| [Link](../../media/sops/nd-hnc_layout_zones.png) |
+| RO01 | MRI Safety Screen | [Link](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"} |
+| RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf), [White](../resources/forms/form_RO02_arrival_white.pdf){target="_blank"} |
+| RO03 | ND-HNC Layout| [Link](../../media/sops/nd-hnc_layout_zones.png){target="_blank"} |
 
 : {tbl-colwidths="[25,25,25,25]"}
 

@@ -12,7 +12,7 @@ toc-depth: 2
 
 - Appointments are available in 30-minute slots, multiple slots can be booked for longer appointments.
 - Contact [MRI staff](../pages/people.qmd) if additional slots are needed.
-- The MRI Safety Screen form is available [here](../resources/forms/form_RO01_mri_screen.pdf).
+- The MRI Safety Screen form is available [here](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"}.
 - A FOAPAL is required for MRI appointments:
     - MRI "No Shows" and cancellations <24 hours before the appointment are charged at 50% scan rate.
     - “Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.

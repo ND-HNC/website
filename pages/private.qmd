@@ -8,7 +8,7 @@ Internal documents and files for ND-HNC staff.
 
 ## Documents
 
-1. [Contact form](../resources/forms/form_private_contacts.pdf)
+* [Contact form](../resources/forms/form_private_contacts.pdf){target="_blank"}
 
 
 ## Training Materials
