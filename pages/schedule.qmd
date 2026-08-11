@@ -7,6 +7,11 @@ toc-depth: 2
 <!-- Calendar settings -> Integrate calendar -> Customize -->
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&title=ND-HNC%20Rooms&src=Y182NGY5ODFiY2IzODBhMDU5MzA4YjQ5NWEwNDFjYWViNjcxY2U5NTIxM2Q0NDMwMzMxNTc4OTY5ZmM3ZDhjYmNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y18yYjYwOTE0ZWZkMjNjNjdmNDJkM2FlNzBlNDdiOTQ3MWQ0NzE1NjMyZGM4ZWZmYjljMDc3ZTNjZWViNGY1MjBhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19kYTk5YWJiYzQ2NmVlNjRlMTA5MmY5ZmVmMzA1MzQ1MTUwMjFmNjdlOTBiMzUzMWU2YzAzYTdmN2U3NTlmNTAxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y180YjQyMTc0NTQyZDBjZjlhYjg3NjkwNjg5NGFkODllMWQ2NjYwMTYyMDk2Mjc3NTVjZDA2YjIwYmFkZWM5MGYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y185YzI2ZGQyZDcxOTNjZjZkOTBlMzRiMTU0MTkxNjRkM2NkNDVlZmFlNWI1NTUwZTY1ZDYwMzYzYTQyYzViNDFjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181MzVhODdkMWM3OGE5NmFjYzZiNGUzZmU3NDQ2YTA3NzZiMDA2MmU2ZTdhYTY4OGQxOTViZThiNjI5MGViMzM0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181NzYyOGVmYmFlNGVjZjFlOTliNjg0OGQ3N2NkZThmODNhN2UxMDhkNzRjYzY1NmRjMTA0YzBkYjkzNTk1OTUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23ad1457&color=%238e24aa&color=%23ef6c00&color=%23c0ca33&color=%23f6bf26&color=%23d81b60&color=%23795548&color=%230b8043" style="border:solid 1px #003087" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
+::: {style="font-size: 70%"}
+
+Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) Allow cookies, (2) Select "Add to Google Calendar" then sign in with ND credentials.
+
+:::
 
 ## General
 
