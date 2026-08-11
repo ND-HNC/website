@@ -835,11 +835,11 @@
     ]
   },
   {
-    "objectID": "pages/schedule.html#general",
-    "href": "pages/schedule.html#general",
+    "objectID": "pages/schedule.html#notes",
+    "href": "pages/schedule.html#notes",
     "title": "Schedule",
-    "section": "General",
-    "text": "General\n\nAppointments are available in 30-minute slots, multiple slots can be booked for longer appointments.\nContact MRI staff if additional slots are needed.\nThe MRI Safety Screen form is available here.\nA FOAPAL is required for MRI appointments:\n\nMRI “No Shows” and cancellations &lt;24 hours before the appointment are charged at 50% scan rate.\n“Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.\n\nAdditional resources (EEG, TMS, computing) will soon be available for booking.\n\nPlease use the booking buttons (below) to schedule rooms.",
+    "section": "Notes",
+    "text": "Notes\n\nAppointments are available in 30-minute slots, multiple slots can be booked for longer appointments.\nContact ND-HNC staff if additional availability (e.g. weekend) is needed.\nNon-MRI rooms require 1 hour of notice for booking, the MRI requires 24 hours.\nPlease do not delete your appointment after it occurs, we will use the calendar to track center usage.\nNote the Scheduling policy.\nPlease use the booking buttons (below) to schedule rooms.",
     "crumbs": [
       "Schedule"
     ]
@@ -859,7 +859,7 @@
     "href": "pages/schedule.html#zone-2",
     "title": "Schedule",
     "section": "Zone 2",
-    "text": "Zone 2\n\nTwo interview rooms (B12, B13) are available for interviews, testing, and participant preparation.\n\nAccess: Level 1+\nMRI Screening Required: NO\n\nAn MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occurr on the same day as the scan.\n\nAccess: Level 2+\nMRI Screening Required: YES",
+    "text": "Zone 2\n\nTwo interview rooms (B12, B13) are available for interviews, testing, and participant preparation.\nAn MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occur on the same day as the scan.",
     "crumbs": [
       "Schedule"
     ]
@@ -869,7 +869,7 @@
     "href": "pages/schedule.html#zones-3-4",
     "title": "Schedule",
     "section": "Zones 3-4",
-    "text": "Zones 3-4\n\nAn MRI (B17) appointment books Zones 3 and 4.\n\nAccess: Level 2+\nMRI Screening Required: YES\n\n\nAppointments are only confirmed when accepted by the MRI technologist.",
+    "text": "Zones 3-4\n\nAn MRI (B17) appointment books Zones 3 and 4.\nPlease note the Billing policy.\nNOTE: Appointments are ONLY confirmed when accepted by the MRI Technologist.",
     "crumbs": [
       "Schedule"
     ]

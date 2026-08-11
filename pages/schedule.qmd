@@ -13,22 +13,19 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 
 :::
 
-## General
+## Notes
 
 - Appointments are available in 30-minute slots, multiple slots can be booked for longer appointments.
-- Contact [MRI staff](../pages/people.qmd) if additional slots are needed.
-- The MRI Safety Screen form is available [here](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"}.
-- A FOAPAL is required for MRI appointments:
-    - MRI "No Shows" and cancellations <24 hours before the appointment are charged at 50% scan rate.
-    - “Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.
-- Additional resources (EEG, TMS, computing) will soon be available for booking.
-
-**Please use the booking buttons (below) to schedule rooms.**
+- Contact [ND-HNC staff](../pages/people.qmd) if additional availability (e.g. weekend) is needed.
+- Non-MRI rooms require 1 hour of notice for booking, the MRI requires 24 hours.
+- Please do not delete your appointment after it occurs, we will use the calendar to track center usage.
+- Note the Scheduling [policy](../pages/policies.qmd).
+- **Please use the booking buttons (below) to schedule rooms.**
 
 ## Zone 1
 
-1. Two consultation rooms (B05, B06) are available for participant preparation.
-1. A conference room (B26) is available for team and project meetings.
+- Two consultation rooms (B05, B06) are available for participant preparation.
+- A conference room (B26) is available for team and project meetings.
 
 <!-- Consult 1 -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
@@ -84,12 +81,8 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 
 ## Zone 2
 
-1. Two interview rooms (B12, B13) are available for interviews, testing, and participant preparation.
-    - Access: Level 1+
-    - MRI Screening Required: NO
-1. An MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occurr on the same day as the scan.
-    - Access: Level 2+
-    - MRI Screening Required: YES
+- Two interview rooms (B12, B13) are available for interviews, testing, and participant preparation.
+- An MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occur on the same day as the scan.
 
 <!-- Interview 1 -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
@@ -146,11 +139,9 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 
 ## Zones 3-4
 
-1. An MRI (B17) appointment books Zones 3 and 4.
-    - Access: Level 2+
-    - MRI Screening Required: YES
-
-**Appointments are only confirmed when accepted by the MRI technologist.**
+- An MRI (B17) appointment books Zones 3 and 4.
+- Please note the Billing [policy](../pages/policies.qmd).
+- **NOTE: Appointments are ONLY confirmed when accepted by the MRI Technologist.**
 
 <!-- MRI -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
