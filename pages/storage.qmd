@@ -21,8 +21,7 @@ These resources are categorized into three distinct tiers based on the data's ac
 
 ## Access
 
-- Any CRC user [account](https://docs.crc.nd.edu/new_user/obtain_account.html) that is part of the HNC group has full access to these resources.
-- Contact [Nathan Muncy](people.qmd) to be added to the HNC group.
+- Contact [Nathan Muncy](people.qmd) after receiving a CRC [account](https://docs.crc.nd.edu/new_user/obtain_account.html).
 
 ## Usage {#ssec:usage}
 

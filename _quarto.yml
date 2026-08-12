@@ -9,7 +9,7 @@ project:
 website:
   title: "ND-HNC"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Created by Nathan Muncy via Quarto"
+  page-footer: "Created by Nathan Muncy with [Quarto](https://quarto.org){target='_blank'}."
   sidebar:
     style: "docked"
     search: true

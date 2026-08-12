@@ -566,7 +566,7 @@
     "href": "index.html#join-us",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "Join Us",
-    "text": "Join Us\n\nContact: nd-hnc@nd.edu.\nTours: contact Alex Musser.\nPrepare: individuals entering Zones 3 & 4 are required to fill out an MRI Safety Screen form.\nVisit: follow these instructions or reference this flyer.",
+    "text": "Join Us\n\nContact: nd-hnc@nd.edu.\nTours: schedule with ND-HNC Staff.\nPrepare: fill out the MRI Safety Screen before visiting MRI Zones 3 & 4.\nVisit: follow these Directions or download this flyer.",
     "crumbs": [
       "Home"
     ]
@@ -576,7 +576,7 @@
     "href": "index.html#about",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "About",
-    "text": "About\nWe provide operational support for every step of research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC):\n\nFacilities and Equipment: Orient to available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nOperate: Use equipment to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization.\nStorage: Keep and manage data at various project stages.",
+    "text": "About\nWe provide operational support for every step of research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC):\n\nFacilities and Equipment: Orient to available resources.\nTraining: Gain access to the center.\nSchedule: Book facilities.\nOperate: Use equipment to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization.\nStorage: Keep and manage data at various project stages.",
     "crumbs": [
       "Home"
     ]
@@ -909,7 +909,7 @@
     "href": "pages/storage.html#access",
     "title": "Storage",
     "section": "Access",
-    "text": "Access\n\nAny CRC user account that is part of the HNC group has full access to these resources.\nContact Nathan Muncy to be added to the HNC group.",
+    "text": "Access\n\nContact Nathan Muncy after receiving a CRC account.",
     "crumbs": [
       "Storage"
     ]
