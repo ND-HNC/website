@@ -939,7 +939,7 @@
     "href": "pages/storage.html#notes",
     "title": "Storage",
     "section": "Notes",
-    "text": "Notes\n\nCRC compute nodes do not have access to files stored in Tier 2.\nTier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here.",
+    "text": "Notes\n\nCRC compute nodes do not have access to files stored in Cold storage.\nScratch is intended only for transient data, do not store critical or irreplaceable files here.",
     "crumbs": [
       "Storage"
     ]

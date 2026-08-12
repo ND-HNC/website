@@ -123,5 +123,5 @@ digraph NDHNC_Data_Flow {
 
 ## Notes
 
-- CRC compute nodes do not have access to files stored in Tier 2.
-- Tier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here.
+- CRC compute nodes do not have access to files stored in Cold storage.
+- Scratch is intended only for transient data, do not store critical or irreplaceable files here.
