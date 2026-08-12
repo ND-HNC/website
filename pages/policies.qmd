@@ -25,7 +25,7 @@ ND-HNC policies will be updated as needed and are applicable immediately.
 ## Compliance
 
 1. Researchers, staff, and faculty are expected to read, understand, and operate in accordance with [Standard Operating Procedures](sops.qmd) and Policies.
-1. Protocol violations are logged by staff in Form LG04: [Compliance](../resources/forms/form_LG04_protocol_violations.pdf).
+1. Protocol violations are logged by staff in Form LG04: [Compliance](../resources/forms/form_LG04_protocol_violations.pdf){target="_blank"}.
 1. A pattern of compliance issues will result in corrective actions, including access revocation.
 
 ## Compute

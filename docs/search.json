@@ -259,17 +259,7 @@
     "href": "pages/training.html#overview",
     "title": "Training",
     "section": "Overview",
-    "text": "Overview\nThe ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.\nAll researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP 202 for additional details.",
-    "crumbs": [
-      "Training"
-    ]
-  },
-  {
-    "objectID": "pages/training.html#nd-hnc-layout",
-    "href": "pages/training.html#nd-hnc-layout",
-    "title": "Training",
-    "section": "ND-HNC Layout",
-    "text": "ND-HNC Layout\nUse of MRI Zones 2-4 is restricted to personnel with the appropriate access Level; individuals without an access Level are escorted in these Zones. See Upcoming Trainings to register for safety courses.\n\n\n\n\n\n\n\n\n\nAccess\nSafety Zone\nPurpose\nRestrictions\n\n\n\n\nPublic\n1 - orange\nReception\nNone\n\n\nLevel 1\n2 - purple\nNon-MRI research\nB14\n\n\nLevel 2\n2 - purple\nMRI preparation\n\n\n\nLevel 3\n3 - green\nMRI control\nB18A\n\n\nLevel 4\n4 - blue\nMRI scanning\n\n\n\n\n\n\n\nForm RO03",
+    "text": "Overview\nThe ND-HNC follows the American College of Radiology recommendations for building layout and MRI access: the ND-HNC is comprised of restricted Safety Zones (1-4, below) and specialized training is required to gain access to Zones 2-4.\nAll researchers, staff, and faculty who wish to enter Zones 2-4 must complete the appropriate level of training. This helps to ensure that everyone working at the ND-HNC, whether or not they are collecting MRI data, understands the importance of MRI safety and the relevant procedures and policies. Please see SOP 202 for additional details.\nPlease register here for an upcoming training session.",
     "crumbs": [
       "Training"
     ]
@@ -279,7 +269,17 @@
     "href": "pages/training.html#ssec:train",
     "title": "Training",
     "section": "Upcoming Trainings",
-    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level). Register for a training session here.\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-11am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-11am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n12-2pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n12-2pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\n\nAdditional notes:\n\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
+    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level).\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-11am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-11am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n12-2pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n12-2pm\nVFPC 148\n\n\nCPR/AED\n2026-11-02\n9-10am\nTBD\n\n\n\nAdditional notes:\n\nLevels 1 & 2 are independent, you do not need to be Level 1 to register for Level 2.\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
+    "crumbs": [
+      "Training"
+    ]
+  },
+  {
+    "objectID": "pages/training.html#nd-hnc-layout",
+    "href": "pages/training.html#nd-hnc-layout",
+    "title": "Training",
+    "section": "ND-HNC Layout",
+    "text": "ND-HNC Layout\nUse of MRI Zones 2-4 is restricted to personnel with the appropriate access Level; individuals without an access Level are escorted in these Zones.\n\n\n\n\n\n\n\n\n\nAccess\nSafety Zone\nPurpose\nRestrictions\n\n\n\n\nPublic\n1 - orange\nReception\nNone\n\n\nLevel 1\n2 - purple\nNon-MRI research\nB14\n\n\nLevel 2\n2 - purple\nMRI preparation\n\n\n\nLevel 3\n3 - green\nMRI control\nB18A\n\n\nLevel 4\n4 - blue\nMRI scanning\n\n\n\n\n\n\n\nForm RO03",
     "crumbs": [
       "Training"
     ]
@@ -289,7 +289,7 @@
     "href": "pages/training.html#ssec:level-desc",
     "title": "Training",
     "section": "Level Description",
-    "text": "Level Description\nThis sections is designed to help with training selection. See SOP 202 for complete descriptions, restrictions, and requirements.\n\nLevel 1\nThis access Level grants individuals entry into Zone 2 where they can use the interview, neuroprep, EEG, and TMS rooms. This access relates to non-MRI activities and does not grant access to the Mock room (B14) or Zones 3-4.\n\n\nLevel 2\nThis access Level grants individuals complete access to Zone 2 (including the Mock room), the ability to conduct the first review of Form RO01: MRI Safety Screen, and supervised access to Zone 3 to assist in MRI-related research activities. Access to the Stimulus Control and DICOM computers in the MRI Control room is also granted. Individuals with this Level of access may enter Zone 4 under the supervision of the MRI Technologist or a researcher with Level 4 access. Level 2 access is granted to under/graduate students and other research staff; most research assistants in the MRI suite are Level 2.\n\n\nLevel 3\nThis access Level grants independence in Zone 3, the ability to train to become an MRI operator (Level 4) for project-specific reasons (e.g. weekend pediatric scanning), and supervised access to Zone 4. It does not grant access to the Equipment Room in Zone 3 (B18A), or the ability to conduct the second review of Form RO01: MRI Safety Screen. Level 3 access is granted to post-baccalaureate research staff, graduate students, post-doctoral fellows, and faculty.\n\n\nLevel 4\nThis access Level grants independence in the MRI research suite (including conducting MRI scanning) but these individuals operate at the discretion of the MRI Technologist. The ability to conduct the second review of Form RO01: MRI Safety Screen is granted, as long as they did not also conduct the first review. Another person with at least Level 2 access is required to be present in the MRI Control room when a visitor or participant is in Zone 4. Level 4 access is granted to Ph.D. candidates, post-doctoral fellows, and faculty.",
+    "text": "Level Description\nThis sections is designed to help with training selection. See SOP 202 for complete descriptions, restrictions, and requirements.\n\nLevel 1\nThis access Level grants individuals entry into Zone 2 where they can use the interview, neuroprep, EEG, and TMS rooms. This access relates to non-MRI activities and does not grant access to the Mock room (B14) or Zones 3-4. It does not precede Level 2.\n\n\nLevel 2\nThis access Level grants individuals complete access to Zone 2 (including the Mock room), the ability to conduct the first review of Form RO01: MRI Safety Screen, and supervised access to Zone 3 to assist in MRI-related research activities. Access to the Stimulus Control and DICOM computers in the MRI Control room is also granted. Individuals with this Level of access may enter Zone 4 under the supervision of the MRI Technologist or a researcher with Level 4 access. Level 2 access is granted to under/graduate students and other research staff; most research assistants in the MRI suite are Level 2. You do not need to acquire Level 1 access before registering for Level 2 training.\n\n\nLevel 3\nThis access Level grants independence in Zone 3, the ability to train to become an MRI operator (Level 4) for project-specific reasons (e.g. weekend pediatric scanning), and supervised access to Zone 4. It does not grant access to the Equipment Room in Zone 3 (B18A), or the ability to conduct the second review of Form RO01: MRI Safety Screen. Level 3 access is granted to post-baccalaureate research staff, graduate students, post-doctoral fellows, and faculty.\n\n\nLevel 4\nThis access Level grants independence in the MRI research suite (including conducting MRI scanning) but these individuals operate at the discretion of the MRI Technologist. The ability to conduct the second review of Form RO01: MRI Safety Screen is granted, as long as they did not also conduct the first review. Another person with at least Level 2 access is required to be present in the MRI Control room when a visitor or participant is in Zone 4. Level 4 access is granted to Ph.D. candidates, post-doctoral fellows, and faculty.",
     "crumbs": [
       "Training"
     ]
@@ -299,7 +299,7 @@
     "href": "pages/sops.html",
     "title": "Standard Operating Procedures",
     "section": "",
-    "text": "Here we provide our research community, faculty, and staff with centralized access to the center’s Standard Operating Procedures (SOPs). Hosting these Links helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.",
+    "text": "Hosting our Standard Operating Procedures (SOPs) publicly allows for them to be easily reviewed whenever and/or wherever they are needed. Because these guidelines are critical to maintaining safety, efficiency, and consistency, all center users are responsible for reading, understanding, and operating in strict accordance with these SOPs.",
     "crumbs": [
       "SOPs"
     ]
@@ -309,7 +309,7 @@
     "href": "pages/sops.html#overview",
     "title": "Standard Operating Procedures",
     "section": "",
-    "text": "Here we provide our research community, faculty, and staff with centralized access to the center’s Standard Operating Procedures (SOPs). Hosting these Links helps researchers and personnel have immediate access to the critical information necessary to maintain a safe, efficient, and compliant imaging environment.",
+    "text": "Hosting our Standard Operating Procedures (SOPs) publicly allows for them to be easily reviewed whenever and/or wherever they are needed. Because these guidelines are critical to maintaining safety, efficiency, and consistency, all center users are responsible for reading, understanding, and operating in strict accordance with these SOPs.",
     "crumbs": [
       "SOPs"
     ]
@@ -319,7 +319,7 @@
     "href": "pages/sops.html#sops",
     "title": "Standard Operating Procedures",
     "section": "SOPs",
-    "text": "SOPs\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n101\nHardware\nLink\nLG01, LG04, RO03\n\n\n102\nMedical\nLink\nLG03, LG04, RO03\n\n\n103\nIncident Reporting\nLink\nLG03\n\n\n104\nIncidental Findings\nLink\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nLink\nRO01, RO03\n\n\n202\nZone Access\nLink\nRO01, LG05\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nLink\n\n\n\n302\nFire and Gas\nLink\n\n\n\n303\nTornado\nLink\n\n\n\n304\nActive Violence\nLink",
+    "text": "SOPs\n\n100: MRI Emergency\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n101\nHardware\nLink\nLG01, LG04, RO03\n\n\n102\nMedical\nLink\nLG03, LG04, RO03\n\n\n103\nIncident Reporting\nLink\nLG03\n\n\n104\nIncidental Findings\nTBD\n\n\n\n\n\n\n200: ND-HNC Operation\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n201\nMRI Safety Screen\nLink\nRO01, RO03\n\n\n202\nZone Access\nLink\nRO01, LG05\n\n\n\n\n\n300: Building Management\n\n\n\n\n\n\n\n\n\nSOP\nTopic\nDocument\nReferenced Forms\n\n\n\n\n301\nBuilding Access\nLink\n\n\n\n302\nFire and Gas\nLink\n\n\n\n303\nTornado\nLink\n\n\n\n304\nActive Violence\nLink",
     "crumbs": [
       "SOPs"
     ]
@@ -566,7 +566,7 @@
     "href": "index.html#join-us",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "Join Us",
-    "text": "Join Us\n\nContact: nd-hnc@nd.edu.\nTours: contact Alex Musser.\nPrepare: individuals entering Zones 3 & 4 are required to fill out an MRI Safety Screen form.\nVisit: follow these instructions or reference this flyer.",
+    "text": "Join Us\n\nContact: nd-hnc@nd.edu.\nTours: schedule with ND-HNC Staff.\nPrepare: fill out the MRI Safety Screen before visiting MRI Zones 3 & 4.\nVisit: follow these Directions or download this flyer.",
     "crumbs": [
       "Home"
     ]
@@ -576,7 +576,7 @@
     "href": "index.html#about",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "About",
-    "text": "About\nWe provide operational support for every step of research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC):\n\nFacilities and Equipment: Orient to available resources.\nTraining: Learn to use and gain access to the center.\nSchedule: Book facilities.\nOperate: Use equipment to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization.\nStorage: Keep and manage data at various project stages.",
+    "text": "About\nWe provide operational support for every step of research conducted at the Notre Dame Human Neuroimaging Center (ND-HNC):\n\nFacilities and Equipment: Orient to available resources.\nTraining: Gain access to the center.\nSchedule: Book facilities.\nOperate: Use equipment to collect data.\nCompute: Develop codebase, sandbox testing, local computing, parallelization.\nStorage: Keep and manage data at various project stages.",
     "crumbs": [
       "Home"
     ]
@@ -835,11 +835,11 @@
     ]
   },
   {
-    "objectID": "pages/schedule.html#general",
-    "href": "pages/schedule.html#general",
+    "objectID": "pages/schedule.html#notes",
+    "href": "pages/schedule.html#notes",
     "title": "Schedule",
-    "section": "General",
-    "text": "General\n\nAppointments are available in 30-minute slots, multiple slots can be booked for longer appointments.\n\nContact MRI staff if additional slots are needed.\n\nThe MRI Safety Screen form is available here.\nA FOAPAL is required for MRI appointments:\n\nMRI “No Shows” and cancellations &lt;24 hours before the appointment are charged at 50% scan rate.\n“Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.\n\nAdditional resources (EEG, TMS, computing) will soon be available for booking.\n\nUse the booking buttons below to schedule rooms.",
+    "section": "Notes",
+    "text": "Notes\n\nAppointments are available in 30-minute slots, multiple slots can be booked for longer appointments.\nContact ND-HNC staff if additional availability (e.g. weekend) is needed.\nNon-MRI rooms require 1 hour of notice for booking, the MRI requires 24 hours.\nPlease do not delete your appointment after it occurs, we will use the calendar to track center usage.\nNote the Scheduling policy.\nPlease use the booking buttons (below) to schedule rooms.",
     "crumbs": [
       "Schedule"
     ]
@@ -859,7 +859,7 @@
     "href": "pages/schedule.html#zone-2",
     "title": "Schedule",
     "section": "Zone 2",
-    "text": "Zone 2\n\nTwo interview rooms (B12, B13) are available for interviews, testing, and participant preparation.\n\nAccess: Level 1+\nMRI Screening Required: NO\n\nAn MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occurr on the same day as the scan.\n\nAccess: Level 2+\nMRI Screening Required: YES",
+    "text": "Zone 2\n\nTwo interview rooms (B12, B13) are available for interviews, testing, and participant preparation.\nAn MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occur on the same day as the scan.",
     "crumbs": [
       "Schedule"
     ]
@@ -869,7 +869,7 @@
     "href": "pages/schedule.html#zones-3-4",
     "title": "Schedule",
     "section": "Zones 3-4",
-    "text": "Zones 3-4\n\nAn MRI (B17) appointment books Zones 3 and 4.\n\nAccess: Level 2+\nMRI Screening Required: YES\n\n\nAppointments are only confirmed when accepted by the MRI technologist.",
+    "text": "Zones 3-4\n\nAn MRI (B17) appointment books Zones 3 and 4.\nPlease note the Billing policy.\nNOTE: Appointments are ONLY confirmed when accepted by the MRI Technologist.",
     "crumbs": [
       "Schedule"
     ]
@@ -909,7 +909,7 @@
     "href": "pages/storage.html#access",
     "title": "Storage",
     "section": "Access",
-    "text": "Access\n\nAny CRC user account that is part of the HNC group has full access to these resources.\nContact Nathan Muncy to be added to the HNC group.",
+    "text": "Access\n\nContact Nathan Muncy after receiving a CRC account.",
     "crumbs": [
       "Storage"
     ]
@@ -939,7 +939,7 @@
     "href": "pages/storage.html#notes",
     "title": "Storage",
     "section": "Notes",
-    "text": "Notes\n\nCRC compute nodes do not have access to files stored in Tier 2.\nTier 3 (Scratch) is intended only for transient data, do not store critical or irreplaceable files here.",
+    "text": "Notes\n\nCRC compute nodes do not have access to files stored in Cold storage.\nScratch is intended only for transient data, do not store critical or irreplaceable files here.",
     "crumbs": [
       "Storage"
     ]
@@ -956,35 +956,35 @@
     "href": "resources/slides/mri_intro.html#the-team",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "The Team",
-    "text": "The Team\n\n\n\nAron Barbey, Ph.D.\n\nDirector\n\nJeff Fox, B.Sc. RT. (R)(MR)(ARRT)\n\nTechnologist\n\nNathan Muncy, Ph.D.\n\nAnalyst\n\nAlex Musser, M.Sc.\n\nOperations Coordinator"
+    "text": "The Team\n\n\n\n\n\n\n\nAron Barbey, Ph.D. Director\n\n\n\n\n\n\nJeff Fox, B.Sc. RT. (R)(MR)(ARRT) Technologist\n\n\n\n\n\n\nNathan Muncy, Ph.D. Analyst\n\n\n\n\n\n\nAlex Musser, M.Sc. Operations Coordinator"
   },
   {
-    "objectID": "resources/slides/mri_intro.html#website-organization",
-    "href": "resources/slides/mri_intro.html#website-organization",
+    "objectID": "resources/slides/mri_intro.html#center-resources",
+    "href": "resources/slides/mri_intro.html#center-resources",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Website Organization",
-    "text": "Website Organization\n\n\n\nHelp with all aspects of MRI research\n\nGrant preparation\nTraining\nComputing\nStorage\n\nCentralized resources\n\nForms\nSOPs\nPolicies\n\n\n\nhttps://nd-hnc.github.io/website\n\n\nExpectation: all users have read and understand SOPs and Policies."
+    "section": "Center Resources",
+    "text": "Center Resources\n\n\n\n\nSupport MRI research from start to finish:\n\nGrant preparation, description of facilities and equipment\nHow to receive MRI training\nSchedule and operate equipment/facilities.\nAccess our computing and storage resources.\n\n\n\n\nProvide important documents:\n\nStandard Operating Procedures (SOPs)\nOperational forms, including MRI Safety Screener\nCenter policies\n\nAvailable at our website: https://nd-hnc.github.io/website\n\nExpectation: everyone using ND-HNC resources read and follow SOPs and Policies."
   },
   {
     "objectID": "resources/slides/mri_intro.html#building-access",
     "href": "resources/slides/mri_intro.html#building-access",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Building Access",
-    "text": "Building Access\n\n\n\nEnter through Main and Staff entrances\nPresent Irish1Card to card reader\nProvide PIN\n\nReceive access:\n\nContact ND-HNC staff for building access\nSet/access PIN at https://idcardpin.nd.edu"
+    "text": "Building Access\n\n\n\nDetailed in SOP 301\n\nEnter through Main and Staff entrances\nPresent Irish1Card to card reader\nProvide PIN\n\nReceive access:\n\nContact ND-HNC staff for building access\nSet/access PIN at https://idcardpin.nd.edu"
   },
   {
     "objectID": "resources/slides/mri_intro.html#building-hours",
     "href": "resources/slides/mri_intro.html#building-hours",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Building Hours",
-    "text": "Building Hours\n\n\nRegular hours of operation:\n\nMon-Thur, 7am-7pm\nFri, 7am-4pm\n\nBuilding alarm system armed:\n\nWeekdays, 10pm-6am\nWeekends, all\n\nSet or access your 6-digit security PIN:\n\nContact ND-HNC staff"
+    "text": "Building Hours\n\n\n\n\n\n\n🕒 Hours of Operation\n\n\n\nMon – Thu: 7:00 AM – 7:00 PM\nFri: 7:00 AM – 4:00 PM\n\n\n\n\n\n\n\n\n\n🔒 Alarmed Hours\n\n\n\nWeekdays: 10:00 PM – 6:00 AM\nWeekends: 24 Hours (All Day)\n\n\n\n\n\n\n\n\n\n🔑 Security PIN Setup\n\n\nContact ND-HNC Staff to request or reset your 6-digit PIN."
   },
   {
-    "objectID": "resources/slides/mri_intro.html#emergency-response",
-    "href": "resources/slides/mri_intro.html#emergency-response",
+    "objectID": "resources/slides/mri_intro.html#building-emergencies",
+    "href": "resources/slides/mri_intro.html#building-emergencies",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Emergency Response",
-    "text": "Emergency Response\n\n\n\n\nFire and Gas\nTornado\nActive Violence"
+    "section": "Building Emergencies",
+    "text": "Building Emergencies\n\n\n\n\nFire or Gas Leaks (SOP 302)\nTornado (SOP 303)\nActive Violence (SOP 304)"
   },
   {
     "objectID": "resources/slides/mri_intro.html#what-is-mri",
@@ -1019,280 +1019,77 @@
     "href": "resources/slides/mri_intro.html#safety-zones",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Safety Zones",
-    "text": "Safety Zones"
+    "text": "Safety Zones\n\n\nSee, SOP 202."
   },
   {
     "objectID": "resources/slides/mri_intro.html#safety-screener",
     "href": "resources/slides/mri_intro.html#safety-screener",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Safety Screener",
-    "text": "Safety Screener\n\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemaker),\nMR compatibility (e.g. magnetic lashes)."
+    "text": "Safety Screener\n\n\n\n\nDescribed in SOP 201.\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemaker),\nMR compatibility (e.g. magnetic lashes)."
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-1---orange",
     "href": "resources/slides/mri_intro.html#zone-1---orange",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 1 - Orange",
-    "text": "Zone 1 - Orange\n\n\n\nContains:\n\nOffices\nConference\nReception\n\nUse:\n\nMeet participants\n\nAccess:\n\nPublic"
+    "text": "Zone 1 - Orange\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nOffices\nConference Room\nReception\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nMeet & greet study participants\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nPublic (Unrestricted during standard hours)"
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-2---purple",
     "href": "resources/slides/mri_intro.html#zone-2---purple",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 2 - Purple",
-    "text": "Zone 2 - Purple\n\n\n\nContains:\n\nChanging rooms\nInterview, testing\nNon-MRI research (EEG, TMS)\nMock MRI\n\nUse:\n\nNon-MRI research\nMRI preparation\n\nAccess:\n\nLevels 1, 2+\nEscorted Visitors"
+    "text": "Zone 2 - Purple\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nChanging rooms\nInterview rooms\nNon-MRI research equpiment (EEG, TMS)\nMock MRI\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nNon-MRI research\nMRI preparation\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nLevels 1, 2+\nEscorted Visitors"
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-3---green",
     "href": "resources/slides/mri_intro.html#zone-3---green",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 3 - Green",
-    "text": "Zone 3 - Green\n\n\n\nContains:\n\nEquipment\nStorage\nControl\n\nUse:\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\nAccess:\n\nLevel 3+ (Supervised Level 2)\nScreened, escorted Visitors"
+    "text": "Zone 3 - Green\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nEquipment\nStorage\nControl\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nLevels 3+ (supervised Level 2)\nScreened, escorted Visitors"
   },
   {
     "objectID": "resources/slides/mri_intro.html#zone-4---blue",
     "href": "resources/slides/mri_intro.html#zone-4---blue",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Zone 4 - Blue",
-    "text": "Zone 4 - Blue\n\n\n\nContains:\n\nMagnet\n\nUse:\n\nScan participants\n\nAccess:\n\nLevel 4+ (Supervised Level 2+)\nScreened, escorted Visitors"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#participant-flow",
-    "href": "resources/slides/mri_intro.html#participant-flow",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Participant Flow",
-    "text": "Participant Flow\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#requirements",
-    "href": "resources/slides/mri_intro.html#requirements",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Requirements",
-    "text": "Requirements\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 2.\nParticipate in building access and safety trainings.\nWear Level 2 access badge while in the ND-HNC research suite."
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#privileges",
-    "href": "resources/slides/mri_intro.html#privileges",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Privileges",
-    "text": "Privileges\n\n\n\nIrish1Card access to Zone 2.\nUnsupervised access to Zone 2.\nEscort visitors in Zone 2.\nAccess to Mock Scanner and Mock computer.\nSupervised access to Zones 3 & 4.\nAccess Stimulus Control, DICOM computers.\nReview and sign MRI Safety Screen.\nHelp un/load Visitors into MRI scanner.\nRespond as Helper in emergency situations."
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#restrictions",
-    "href": "resources/slides/mri_intro.html#restrictions",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Restrictions",
-    "text": "Restrictions\n\n\n\nIrish1Card access to Zone 3 not granted.\nNo access to Zone 3 Equipment Room (B18A)."
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#duties",
-    "href": "resources/slides/mri_intro.html#duties",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Duties",
-    "text": "Duties\n\n\n\nScreen participants.\nConduct simulation MRI (mock) scans.\nAssist in MRI data collection.\nManage data (MRI, task).\nAssist during emergencies."
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#incidents-and-accidents",
-    "href": "resources/slides/mri_intro.html#incidents-and-accidents",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Incidents and Accidents",
-    "text": "Incidents and Accidents\n\n\n\nRarely due to equipment malfunction, usually due to:\n\nHow equipment is used, and/or\nBreakdown in following procedure and policy.\n\nRemedy, design policies that address:\n\nPredictable situations\nUnusual or unpredictable situations"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#safety-switch-panel-control-room",
-    "href": "resources/slides/mri_intro.html#safety-switch-panel-control-room",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Safety Switch Panel, Control Room",
-    "text": "Safety Switch Panel, Control Room\n\n\n\nA: Chiller status, monitor cooling system\nB: Fire panel\nC: Emergency Power Off (EPO), shut off power to table and scanner control\nD: Manual Zone 4 door release\nE: Electric Power Off (likely)"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#mri-system-panel-control-room",
-    "href": "resources/slides/mri_intro.html#mri-system-panel-control-room",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "MRI System Panel, Control Room",
-    "text": "MRI System Panel, Control Room\n\n\n\nMRI control system on/off\nQuench button, for life or limb!"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#safety-switch-panel-magnet-room",
-    "href": "resources/slides/mri_intro.html#safety-switch-panel-magnet-room",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Safety Switch Panel, Magnet Room",
-    "text": "Safety Switch Panel, Magnet Room\n\n\n\nA: Quench button, for life or limb!\nB: Oxygen monitoring system\nC: Emergency Power Off (EPO), shut off power to table and scanner control"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#remember",
-    "href": "resources/slides/mri_intro.html#remember",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "REMEMBER",
-    "text": "REMEMBER\n\nMagnet does NOT turn off after hours or between patients.\nThe magnet is ALWAYS on."
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#mri-safety-concerns",
-    "href": "resources/slides/mri_intro.html#mri-safety-concerns",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "MRI Safety Concerns",
-    "text": "MRI Safety Concerns\n\n\nStatic Magnetic Field\n\nProjectile\n\nPossible injury\nCan damage system\nCostly to repair\n\nMedical device displacement\nMedical device disruption\nBioeffects\n\n\n\n\nRadiofrequency Pulse\n\nTissue heating\nMedical device heating\nMedical device disruption\nInterference with monitoring equipment\n\n\n\n\nPulsed Gradient Magnetic Field\n\nPeripheral nerve stimulation\nAcoustic Noise\nInterference with monitoring equipment"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#magnetic-field-safety",
-    "href": "resources/slides/mri_intro.html#magnetic-field-safety",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Magnetic Field Safety",
-    "text": "Magnetic Field Safety\n\n\nStatic field effects:\n\nConsistent uniform magnetic field produced by main superconducting magnet\nPotential biologic effects: vertigo, nausea\nMechanical effects: translation, torque, Lenz’s forces\n\nTime varying effects:\n\nGradient magnetic fields (auditory, induced voltage)\nRadiofrequency magnetic fields (biologic, thermal)\n\nSpatial gradients effects:\n\nTranslational force: pulls magnetic items towards area where field changes most steeply\nPeak danger zones: highest pulling forces near the outer rim and opening of scanner\nImplant risks:strong gradients can torque or move medical implants"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#magnetic-field-safety-contd",
-    "href": "resources/slides/mri_intro.html#magnetic-field-safety-contd",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Magnetic Field Safety, cont’d",
-    "text": "Magnetic Field Safety, cont’d\n\n\nNon-magnetic field effects:\n\nClaustrophobia/anxiety\nCryogen and quench safety"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#gauss-line-locations",
-    "href": "resources/slides/mri_intro.html#gauss-line-locations",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Gauss Line Locations",
-    "text": "Gauss Line Locations"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#safety-screening",
-    "href": "resources/slides/mri_intro.html#safety-screening",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Safety Screening",
-    "text": "Safety Screening\n\n\nCategories of safety:\n\nMRI Safe: no known hazards\nMRI Unsafe: known to pose hazards\nConditional: demonstrated to pose no know threat hazard under specific conditions\n\nResearched prior to scan to ensure specific conditions are met\n\n\nNO UNSAFE ITEMS IN SCANNER ROOM\nImplant policy: provide MRI Technologist with part number 72 hours prior to appointment"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#safety-screening-contd",
-    "href": "resources/slides/mri_intro.html#safety-screening-contd",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Safety Screening, cont’d",
-    "text": "Safety Screening, cont’d\n\n\nALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED\nRemove all readily removable metallic personal items\n\nWatches, jewelry, cell phones, physiological monitoring devices\nCosmetics with metallic particles\nDental implants"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#safety-screening-contd-1",
-    "href": "resources/slides/mri_intro.html#safety-screening-contd-1",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Safety Screening, cont’d",
-    "text": "Safety Screening, cont’d\n\n\nDermal Implants\n\nThose contacting another may increase risk of thermal injury\nConductive loops may be created by skin adornments such as tattoos, especially with dark ink (brown or black) and curved patterns\n\nBurn hazards\n\nFoil patches, metal leads or skin contact with bore wall\nDo not cross arms or legs (creates a loop)\nUse padding to ensure no skin is touching bore wall"
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#quenching-the-magnet-what",
-    "href": "resources/slides/mri_intro.html#quenching-the-magnet-what",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Quenching the Magnet, What",
-    "text": "Quenching the Magnet, What\n\n\nQuenching the magnet is the deactivation of the magnetic field of the MRI\n\nCauses cryogens to rapidly boil off\nCryogen release could displace oxygen in room\nRelease could change pressure in room\n\nStay low\nUse manual door release\n\nThere is an emergency quench button located in scanner room and control room."
-  },
-  {
-    "objectID": "resources/slides/mri_intro.html#quenching-the-magnet-when",
-    "href": "resources/slides/mri_intro.html#quenching-the-magnet-when",
-    "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
-    "section": "Quenching the Magnet, When",
-    "text": "Quenching the Magnet, When\nONLY when there is:\n\na risk to LIFE/SERIOUS INJURY, or\nan UNCONTROLLABLE FIRE in the MRI room that requires professional firefighting equipment."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#what-is-mri",
-    "href": "resources/slides/mri_safety_2.html#what-is-mri",
-    "title": "MRI Safety Training, Level 2",
-    "section": "What is MRI?",
-    "text": "What is MRI?\n\n\nMagnetic Resonance Imaging\n\nMagnetic: certain elements have known behaviors in magnetic fields:\n\nAlign with field,\nPrecesses at given frequency.\n\nResonance: introduce energy at same frequency as precession.\n\nProtons move to higher energy states, eventually decay.\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#magnet-strength",
-    "href": "resources/slides/mri_safety_2.html#magnet-strength",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Magnet Strength",
-    "text": "Magnet Strength\n\n\n\nTypically measured in Tesla (T).\nThe Earth’s magnetic field is roughly 0.00005 Tesla.\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#magnet-is-always-on",
-    "href": "resources/slides/mri_safety_2.html#magnet-is-always-on",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Magnet Is Always On!",
-    "text": "Magnet Is Always On!\n\n\n\nElectrical resistance decreases with temperature.\n\nAt very (very) low temperatures, copper has superconductive properties.\n\nMRI scanner filled with liquid helium:\n\nRamp up (charge coil) from the electrical grid.\nThen disconnect!\nPerpetual current = persistent field strength.\n\nMagnetic field is independent of power in:\n\nRoom,\nVeldman Family Psychology Clinic,\nSouth Bend."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#safety-considerations",
-    "href": "resources/slides/mri_safety_2.html#safety-considerations",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Safety Considerations",
-    "text": "Safety Considerations\n\n\n\nRarely are rooms fatal.\nInjuries are more common than they should be.\nAmerican College of Radiology (ACR) recommends a 4 zone strategy for controlling access."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#safety-zones",
-    "href": "resources/slides/mri_safety_2.html#safety-zones",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Safety Zones",
-    "text": "Safety Zones"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#safety-screener",
-    "href": "resources/slides/mri_safety_2.html#safety-screener",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Safety Screener",
-    "text": "Safety Screener\n\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemaker),\nMR compatibility (e.g. magnetic lashes)."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#zone-1---orange",
-    "href": "resources/slides/mri_safety_2.html#zone-1---orange",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Zone 1 - Orange",
-    "text": "Zone 1 - Orange\n\n\n\nContains:\n\nOffices\nConference\nReception\n\nUse:\n\nMeet participants\n\nAccess:\n\nPublic"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#zone-2---purple",
-    "href": "resources/slides/mri_safety_2.html#zone-2---purple",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Zone 2 - Purple",
-    "text": "Zone 2 - Purple\n\n\n\nContains:\n\nChanging rooms\nInterview, testing\nNon-MRI research (EEG, TMS)\nMock MRI\n\nUse:\n\nNon-MRI research\nMRI preparation\n\nAccess:\n\nLevels 1, 2+\nEscorted Visitors"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#zone-3---green",
-    "href": "resources/slides/mri_safety_2.html#zone-3---green",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Zone 3 - Green",
-    "text": "Zone 3 - Green\n\n\n\nContains:\n\nEquipment\nStorage\nControl\n\nUse:\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\nAccess:\n\nLevel 3+ (Supervised Level 2)\nScreened, escorted Visitors"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_2.html#zone-4---blue",
-    "href": "resources/slides/mri_safety_2.html#zone-4---blue",
-    "title": "MRI Safety Training, Level 2",
-    "section": "Zone 4 - Blue",
-    "text": "Zone 4 - Blue\n\n\n\nContains:\n\nMagnet\n\nUse:\n\nScan participants\n\nAccess:\n\nLevel 4+ (Supervised Level 2+)\nScreened, escorted Visitors"
+    "text": "Zone 4 - Blue\n\n\n\n\n\n\n🏢 Key Areas\n\n\n\nMagnet\n\n\n\n\n\n\n\n\n\n🎯 Primary Use\n\n\n\nScan Visitors\n\n\n\n\n\n\n\n\n\n🔓 Access Level\n\n\n\nLevel 4 (supervised Level 2+)\nScreened, escorted Visitors"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#participant-flow",
     "href": "resources/slides/mri_safety_2.html#participant-flow",
     "title": "MRI Safety Training, Level 2",
     "section": "Participant Flow",
-    "text": "Participant Flow\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
+    "text": "Participant Flow\n\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#requirements",
     "href": "resources/slides/mri_safety_2.html#requirements",
     "title": "MRI Safety Training, Level 2",
     "section": "Requirements",
-    "text": "Requirements\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 2.\nParticipate in building access and safety trainings.\nWear Level 2 access badge while in the ND-HNC research suite."
+    "text": "Requirements\n\n\n\n\n\nAccess Prerequisites\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 2\nParticipate in building access and safety trainings\nWear Level 2 access badge at all times while in the ND-HNC research suite"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#privileges",
     "href": "resources/slides/mri_safety_2.html#privileges",
     "title": "MRI Safety Training, Level 2",
     "section": "Privileges",
-    "text": "Privileges\n\n\n\nIrish1Card access to Zone 2.\nUnsupervised access to Zone 2.\nEscort visitors in Zone 2.\nAccess to Mock Scanner and Mock computer.\nSupervised access to Zones 3 & 4.\nAccess Stimulus Control, DICOM computers.\nReview and sign MRI Safety Screen.\nHelp un/load Visitors into MRI scanner.\nRespond as Helper in emergency situations."
+    "text": "Privileges\n\n\n\n\n\nZone 2 Access & Operations\n\n\n\nIrish1Card access to Zone 2\nUnsupervised access to Zone 2\nEscort visitors in Zone 2\nAccess to Mock Scanner and Mock computer\nSupervised access to Zones 3 & 4\nAccess Stimulus Control and DICOM computers\nReview and sign MRI Safety Screen\nHelp load/unload Visitors into MRI scanner\nRespond as Helper in emergency situations"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#restrictions",
     "href": "resources/slides/mri_safety_2.html#restrictions",
     "title": "MRI Safety Training, Level 2",
     "section": "Restrictions",
-    "text": "Restrictions\n\n\n\nIrish1Card access to Zone 3 not granted.\nNo access to Zone 3 Equipment Room (B18A)."
+    "text": "Restrictions\n\n\n\n\n\n\n\n\nStrict Access Boundaries\n\n\n\nNo Irish1Card access granted to Zone 3\nNo access to Zone 3 Equipment Room (B18A)"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#duties",
     "href": "resources/slides/mri_safety_2.html#duties",
     "title": "MRI Safety Training, Level 2",
     "section": "Duties",
-    "text": "Duties\n\n\n\nScreen participants.\nConduct simulation MRI (mock) scans.\nAssist in MRI data collection.\nManage data (MRI, task).\nAssist during emergencies."
+    "text": "Duties\n\n\n\n\n\nWork Performed\n\n\n\nScreen participants\nConduct simulation MRI (mock) scans\nAssist in MRI data collection\nManage data (MRI, task)\nAssist during emergencies"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#incidents-and-accidents",
@@ -1391,5 +1188,40 @@
     "title": "MRI Safety Training, Level 2",
     "section": "Quenching the Magnet, When",
     "text": "Quenching the Magnet, When\nONLY when there is:\n\na risk to LIFE/SERIOUS INJURY, or\nan UNCONTROLLABLE FIRE in the MRI room that requires professional firefighting equipment."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#general-guidelines",
+    "href": "resources/slides/mri_safety_2.html#general-guidelines",
+    "title": "MRI Safety Training, Level 2",
+    "section": "General Guidelines",
+    "text": "General Guidelines\n\n\n\nStandard Emergency Response Pattern\n\n\nEmergency situations are diverse, but immediate responses follow a consistent pattern:\n\nMove to safety — Leave the immediate area.\nGet help — Call 911 immediately.\nProvide care — Administer First Aid and/or CPR if trained.\nCoordinate — Hand over to professionals (EMS / Fire / Police).\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nDetailed Procedures: See SOP 102: Medical Emergency Response for full protocols."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#priorities",
+    "href": "resources/slides/mri_safety_2.html#priorities",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Priorities",
+    "text": "Priorities\n\nThe presence of a strong magnetic field requires additional considerations. During an emergency situation:\n\n\n\n1. Protect People First\n\nVisitors — Evacuate out of Zone 4 immediately.\nResearchers — Evacuate out of Zone 4.\nEmergency Responders (EMS/Fire/Police)\n\nCritical: Restrict un-screened access (e.g., lock Zone 4 doors).\n\n\n\n2. Protect Equipment\n\nEmergency Power Off (EPO)\n\nTrigger only after human safety is secured or if directed by SOPs."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#emergency-responder-roles",
+    "href": "resources/slides/mri_safety_2.html#emergency-responder-roles",
+    "title": "MRI Safety Training, Level 2",
+    "section": "Emergency Responder Roles",
+    "text": "Emergency Responder Roles\n\nClear organization during an emergency is critical.\n\n\n\n1. Lead Responder\n(MRI Technologist, Level 3–4)\n\nRole: Primary decision-maker; in charge of the scene.\nFocus: Protect people first, then equipment.\n\n\n2. Helper\n(Level 1–4)\n\nRole: Assist the Lead Responder.\nFocus: Get help (call 911) and coordinate logistics."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#mri-related-emergencies",
+    "href": "resources/slides/mri_safety_2.html#mri-related-emergencies",
+    "title": "MRI Safety Training, Level 2",
+    "section": "MRI-related Emergencies",
+    "text": "MRI-related Emergencies\n\n\nA person is pinned to the magnet. Consider risk to LIFE or LIMB:\n\nNO RISK: call MRI staff\n\nIt is possible to ramp down the magnet.\n\nRISK: quench the magnet"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_2.html#mri-unrelated-emergencies",
+    "href": "resources/slides/mri_safety_2.html#mri-unrelated-emergencies",
+    "title": "MRI Safety Training, Level 2",
+    "section": "MRI-unrelated Emergencies",
+    "text": "MRI-unrelated Emergencies\n\n\n\n\n\n\n\n\n\nCommon Scenarios\n\n\n\nInjury to limb or head\nHeart attack / Cardiac arrest\nSeizure\nAcute stroke\n\n\n\n\n\n\n\n\n\n\n\n\n\nAction Protocol\n\n\n\nCall for help immediately.\nEvacuate: Move individual out of Zone 4 before using medical equipment.\nAdminister: Provide First-Aid / CPR.\nTransfer: Coordinate directly with EMS."
   }
 ]

@@ -27,65 +27,76 @@ building hours
 general emergency -->
 
 ## The Team
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Aron Barbey, Ph.D.
-    - Director
-- Jeff Fox, B.Sc. RT. (R)(MR)(ARRT)
-    - Technologist
-- Nathan Muncy, Ph.D.
-    - Analyst
-- Alex Musser, M.Sc.
-    - Operations Coordinator
+
+::::: {.columns .v-center-container style="font-size: 65%;"}
+
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/people/barbey.jpg){fig-align="center" height="200px"}
+
+**Aron Barbey, Ph.D.**
+Director
 ::::
 
-:::: {.column width="50%"}
-::: {.r-stack}
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/people/fox.jpg){fig-align="center" height="200px"}
 
-![](../../media/people/barbey.jpg){.fragment .fade-in-then-out fig-align="center" width=70%}
+**Jeff Fox, B.Sc. RT. (R)(MR)(ARRT)**
+Technologist
+::::
 
-![](../../media/people/fox.jpg){.fragment .fade-in-then-out fig-align="center" width=60%}
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/people/muncy.jpg){fig-align="center" height="200px"}
 
-![](../../media/people/muncy.jpg){.fragment .fade-in-then-out fig-align="center" width=80%}
+**Nathan Muncy, Ph.D.**
+Analyst
+::::
 
-![](../../media/nd_brand/nd_monogram_gold.jpg){.fragment .fade-in-then-out fig-align="center" width=60%}
+:::: {.column .fragment .v-center-target width="25%"}
+![](../../media/nd_brand/nd_monogram_gold.jpg){fig-align="center" height="200px"}
 
-:::
+**Alex Musser, M.Sc.**
+Operations Coordinator
 ::::
 :::::
 
 ---
 
-## Website Organization
+## Center Resources
+
+<!-- TODO: Detail SOP and Forms organization -->
+
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- Help with all aspects of MRI research
-    - [Grant preparation](https://nd-hnc.github.io/website/pages/facilities.html)
-    - [Training](https://nd-hnc.github.io/website/pages/training.html)
-    - [Computing](https://nd-hnc.github.io/website/pages/compute.html)
-    - [Storage](https://nd-hnc.github.io/website/pages/storage.html)
-- Centralized resources
-    - [Forms](https://nd-hnc.github.io/website/pages/forms.html)
-    - [SOPs](https://nd-hnc.github.io/website/pages/sops.html)
-    - [Policies](https://nd-hnc.github.io/website/pages/policies.html)
+1. Support MRI research from start to finish:
+    - Grant preparation, description of [facilities](../../pages/facilities.qmd) and [equipment](../../pages/equipment.qmd)
+    - How to receive MRI [training](../../pages/training.qmd)
+    - [Schedule](../../pages/schedule.qmd) and [operate](../../pages/operate.qmd) equipment/facilities.
+    - Access our [computing](../../pages/compute.qmd) and [storage](../../pages/storage.qmd) resources.
 
 ::::
 
 :::: {.column width="50%" style="font-size: 65%;"}
-[https://nd-hnc.github.io/website](https://nd-hnc.github.io/website/)
+2. Provide important documents:
+    - Standard Operating Procedures ([SOPs](../../pages/sops.qmd))
+    - Operational [forms](../../pages/forms.qmd), including MRI Safety Screener
+    - Center [policies](../../pages/policies.qmd)
+
+3. Available at our website: [https://nd-hnc.github.io/website](https://nd-hnc.github.io/website)
+    - **Expectation:** everyone using ND-HNC resources read and follow SOPs and Policies.
+
 ::::
 :::::
-
-::: {style="font-size: 65%; text-align: center;"}
-
-**Expectation:** all users have read and understand SOPs and Policies.
-:::
 
 ---
 
 ## Building Access
+
+<!-- TODO: better pictures -->
+
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
+Detailed in SOP [301](../sops/300_building/1_access/sop_301_access.pdf)
+
 1. Enter through Main and Staff entrances
 1. Present Irish1Card to card reader
 1. Provide PIN
@@ -111,43 +122,43 @@ Receive access:
 
 ## Building Hours
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
+::::: {.columns .v-center-container}
+:::: {.column width="60%"}
+::: {.callout-note icon=false title="🕒 Hours of Operation"}
+* **Mon – Thu:** 7:00 AM – 7:00 PM
+* **Fri:** 7:00 AM – 4:00 PM
+:::
 
-Regular hours of operation:
+::: {.callout-warning icon=false title="🔒 Alarmed Hours"}
+* **Weekdays:** 10:00 PM – 6:00 AM
+* **Weekends:** 24 Hours (All Day)
+:::
 
-- Mon-Thur, 7am-7pm
-- Fri, 7am-4pm
-
-Building alarm system armed:
-
-- Weekdays, 10pm-6am
-- Weekends, all
-
-Set or access your 6-digit security PIN:
-
-- Contact ND-HNC staff
-
+::: {.callout-tip icon=false title="🔑 Security PIN Setup"}
+Contact **ND-HNC Staff** to request or reset your 6-digit PIN.
+:::
 ::::
 
-:::: {.column width="50%"}
+::: {.column width="40%"}
 
-![](../../media/sops/vfpc_alarm.jpg){fig-align="right" width="70%"}
+![](../../media/sops/vfpc_alarm.jpg){.lightbox fig-align="center" width="90%"}
 
-::::
+:::
 :::::
 
 ---
 
-## Emergency Response
+## Building Emergencies
 
 <!-- TODO: add pics of fire extinguishers, pulls -->
 
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
-- Fire and Gas
-- Tornado
-- Active Violence
+
+1. Fire or Gas Leaks (SOP [302](../sops/300_building/2_fire_gas/sop_302_fire_gas.pdf))
+1. Tornado (SOP [303](../sops/300_building/3_tornado/sop_303_tornado.pdf))
+1. Active Violence (SOP [304](../sops/300_building/4_violence/sop_304_violence.pdf))
+
 ::::
 
 :::: {.column width="50%"}
@@ -264,6 +275,12 @@ Magnetic Resonance Imaging
 
 ![](../../media/slides/nd-hnc_layout_zones_zoom.png)
 
+::: {style="font-size: 65%"}
+
+See, SOP [202](../sops/200_operation/2_zone_access/sop_202_zone_access.pdf).
+
+:::
+
 ---
 
 
@@ -273,6 +290,7 @@ Magnetic Resonance Imaging
 
 ::::: columns
 :::: {.column width="50%" style="font-size: 65%;"}
+- Described in SOP [201](../sops/200_operation/1_safety_screen/sop_201_safety_screen.pdf).
 - Everyone who enters Zone 3 **MUST** fill out an [MRI Safety Screener](../forms/form_RO01_mri_screen.pdf){target="_blank"}.
 - Check for compatibility with 3 Tesla field.
 - Reviewed by two people, check for:
@@ -294,487 +312,131 @@ Magnetic Resonance Imaging
 :::::
 
 
-# MRI Zones
+# ND-HNC MRI Zones
 
-ND-HNC zone [map](../../media/sops/nd-hnc_layout_zones.png){target="_blank"}.
+See SOP [202](../sops/200_operation/2_zone_access/sop_202_zone_access.pdf)
 
 ## Zone 1 - Orange
-::::: columns
+::::: {.columns}
+
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Offices
-    - Conference
-    - Reception
-- Use:
-    - Meet participants
-- Access:
-    - Public
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Offices
+* Conference Room
+* Reception
+:::
+
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Meet & greet study participants
+:::
+
+::: {.callout-important icon=false title="🔓 Access Level"}
+* **Public** (Unrestricted during standard hours)
+:::
 ::::
 
-:::: {.column width="\"50%"}
+::: {.column width="50%"}
 
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::
+:::
+
 :::::
+
 
 ---
 
 ## Zone 2 - Purple
-::::: columns
+
+::::: {.columns}
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Changing rooms
-    - Interview, testing
-    - Non-MRI research (EEG, TMS)
-    - Mock MRI
-- Use:
-    - Non-MRI research
-    - MRI preparation
-- Access:
-    - Levels 1, 2+
-    - Escorted Visitors
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Changing rooms
+* Interview rooms
+* Non-MRI research equpiment (EEG, TMS)
+* Mock MRI
+:::
+
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Non-MRI research
+* MRI preparation
+:::
+
+::: {.callout-important icon=false title="🔓 Access Level"}
+* Levels 1, 2+
+* **Escorted** Visitors
+:::
 ::::
 
-:::: {.column width="\"50%"}
+::: {.column width="50%"}
 
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::
+:::
 :::::
+
 
 ---
 
 ## Zone 3 - Green
-::::: columns
+
+::::: {.columns}
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Equipment
-    - Storage
-    - Control
-- Use:
-    - Access MRI scanner
-    - Maintain equipment
-    - Collect MRI data
-- Access:
-    - Level 3+ (Supervised Level 2)
-    - Screened, escorted Visitors
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Equipment
+* Storage
+* Control
+:::
+
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Access MRI scanner
+* Maintain equipment
+* Collect MRI data
+:::
+
+::: {.callout-important icon=false title="🔓 Access Level"}
+* Levels 3+ (supervised Level 2)
+* **Screened**, escorted Visitors
+:::
 ::::
 
-:::: {.column width="\"50%"}
+::: {.column width="50%"}
 
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::
+:::
 :::::
 
 ---
 
 ## Zone 4 - Blue
-::::: columns
+
+
+::::: {.columns}
 :::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Magnet
-- Use:
-    - Scan participants
-- Access:
-    - Level 4+ (Supervised Level 2+)
-    - Screened, escorted Visitors
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-
-::::
-:::::
-
-
-
-# Level 2 Access
-Purpose: Assist with MRI research.
-
-## Participant Flow
-
-```{mermaid}
-flowchart LR
-    subgraph Zone_1 [Zone 1]
-        B["`Arrive
-            Screen
-            Review Screen 1
-            ---
-            Exit`"]
-
-    end
-    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px
-
-    subgraph Zone_2 [Zone 2]
-       C["`Interview
-           Change
-           Mock
-           EEG, TMS
-           (Review Screen 1)`"]
-    end
-    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px
-
-    subgraph Zone_3 [Zone 3]
-        D["`Review Screen 2
-            Administer Task`"]
-    end
-    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px
-
-    subgraph Zone_4 [Zone 4]
-        E[Scan]
-    end
-    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px
-
-    A[Schedule] --> Zone_1
-    Zone_1 <--> Zone_2 <--> Zone_3 <--> Zone_4
-
-    classDef allBlack color:#000000;
-    class A,B,C,D,E,F allBlack;
-    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;
-    class A,B,C,D,E,F whiteBoxes;
-    linkStyle default stroke:black,stroke-width:1px;
-
-```
-
-<!-- ## Data Flow
-
-CorpFS
-Stimulus presentation
-Participant response
-Output DICOM files -->
-
-## Requirements
-
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Complete annual ND-HNC MRI Safety training, Level 2.
-- Participate in building access and safety trainings.
-- Wear Level 2 access badge while in the ND-HNC research suite.
-:::::
-:::::
-
----
-
-## Privileges
-
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Irish1Card access to Zone 2.
-- Unsupervised access to Zone 2.
-- Escort visitors in Zone 2.
-- Access to Mock Scanner and Mock computer.
-- Supervised access to Zones 3 & 4.
-- Access Stimulus Control, DICOM computers.
-- Review and sign MRI Safety Screen.
-- Help un/load Visitors into MRI scanner.
-- Respond as Helper in emergency situations.
-::::
-
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-::::
-:::::
-
----
-
-## Restrictions
-
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Irish1Card access to Zone 3 not granted.
-- No access to Zone 3 Equipment Room (B18A).
-::::
-
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-::::
-
-:::::
-
----
-
-## Duties
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Screen participants.
-- Conduct simulation MRI (mock) scans.
-- Assist in MRI data collection.
-- Manage data (MRI, task).
-- Assist during emergencies.
-::::
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-::::
-:::::
-
-
-# MRI Safety
-## Incidents and Accidents
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Rarely due to equipment malfunction, usually due to:
-    - How equipment is used, and/or
-    - Breakdown in following procedure and policy.
-- Remedy, design policies that address:
-    - Predictable situations
-    - Unusual or unpredictable situations
-::::
-:::::
-
----
-
-## Safety Switch Panel, Control Room
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- **A:** Chiller status, monitor cooling system
-- **B:** Fire panel
-- **C:** Emergency Power Off (EPO), shut off power to table and scanner control
-- **D:** Manual Zone 4 door release
-- **E:** Electric Power Off (likely)
-::::
-
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/button_wall.jpg){fig-align="right"}
-::::
-:::::
-
----
-
-## MRI System Panel, Control Room
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- MRI control system on/off
-- Quench button, for life or limb!
-::::
-
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/quench.jpg){fig-align="right"}
-::::
-:::::
-
----
-
-## Safety Switch Panel, Magnet Room
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-
-- **A:** Quench button, for life or limb!
-- **B:** Oxygen monitoring system
-- **C:** Emergency Power Off (EPO), shut off power to table and scanner control
-
-::::
-
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/quench_epo_magnet2.jpg){fig-align="right"}
-::::
-:::::
-
----
-
-## REMEMBER
-
-::::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 70vh; text-align: center; color: red;"}
-
-Magnet does **NOT** turn off after hours
-or between patients.
-
-The magnet is **ALWAYS** on.
-
-:::::
-
----
-
-## MRI Safety Concerns
-
-:::: {.columns style="font-size: 65%;"}
-
-::: {.column width="30%" }
-### Static Magnetic Field
-
-- Projectile
-    - Possible injury
-    - Can damage system
-    - Costly to repair
-- Medical device displacement
-- Medical device disruption
-- Bioeffects
+::: {.callout-note icon=false title="🏢 Key Areas"}
+* Magnet
 :::
 
-::: {.column width="5%"}
-<!-- Empty column to create a gutter/gap -->
+::: {.callout-tip icon=false title="🎯 Primary Use"}
+* Scan Visitors
 :::
 
-::: {.column width="30%"}
-### Radiofrequency Pulse
-
-- Tissue heating
-- Medical device heating
-- Medical device disruption
-- Interference with monitoring equipment
-
-:::
-
-::: {.column width="5%"}
-<!-- Empty column to create a gutter/gap -->
-:::
-
-::: {.column width="30%"}
-### Pulsed Gradient Magnetic Field
-
-- Peripheral nerve stimulation
-- Acoustic Noise
-- Interference with monitoring equipment
-
+::: {.callout-important icon=false title="🔓 Access Level"}
+* Level 4 (supervised Level 2+)
+* **Screened**, escorted Visitors
 :::
 ::::
 
----
+::: {.column width="50%"}
 
-## Magnetic Field Safety
+![](../../media/sops/nd-hnc_layout_zones.png){.lightbox fig-align="center" width="100%"}
 
-::::: {.columns style="font-size: 65%;"}
-- **Static field effects:**
-    - Consistent uniform magnetic field produced by main superconducting magnet
-    - Potential biologic effects: vertigo, nausea
-    - Mechanical effects: translation, torque, Lenz’s forces
-- **Time varying effects:**
-    - Gradient magnetic fields (auditory, induced voltage)
-    - Radiofrequency magnetic fields (biologic, thermal)
-- **Spatial gradients effects:**
-    - Translational force: pulls magnetic items towards area where field changes most steeply
-    - Peak danger zones: highest pulling forces near the outer rim and opening of scanner
-    - Implant risks:strong gradients can torque or move medical implants
+:::
 :::::
-
----
-
-## Magnetic Field Safety, cont'd
-
-::::: {.columns style="font-size: 65%;"}
-- **Non-magnetic field effects:**
-    - Claustrophobia/anxiety
-    - Cryogen and quench safety
-:::::
-
----
-
-## Gauss Line Locations
-
-![](../../media/slides/mri_zone_gauss.jpg){fig-align="center" width=45%}
-
----
-
-## Safety Screening
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-Categories of safety:
-
-1. MRI Safe: no known hazards
-1. MRI Unsafe: known to pose hazards
-1. Conditional: demonstrated to pose no know threat hazard under specific conditions
-    - Researched prior to scan to ensure specific conditions are met
-
-[NO UNSAFE ITEMS IN SCANNER ROOM]{style="color: red;"}
-
-**Implant policy:** provide MRI Technologist with part number _72 hours_ prior to appointment
-
-
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/slides/mri_safety_label.jpg){fig-align="right" width=90%}
-
-::::
-:::::
-
----
-
-## Safety Screening, cont'd
-
-<!-- TODO: detail prescreen/prep/screen from SOP 201 -->
-
-::::: {.columns style="font-size: 65%;"}
-[ALL STAFF, RESEARCHERS, AND VISITORS MUST BE SCREENED]{style="color: red;"}
-
-- Remove all readily removable metallic personal items
-    - Watches, jewelry, cell phones, physiological monitoring devices
-    - Cosmetics with metallic particles
-    - Dental implants
-
-:::::
-
----
-
-## Safety Screening, cont'd
-::::: {.columns style="font-size: 65%;"}
-- Dermal Implants
-    - Those contacting another may increase risk of thermal injury
-    - Conductive loops may be created by skin adornments such as tattoos, especially with dark ink (brown or black) and curved patterns
-- Burn hazards
-    - Foil patches, metal leads or skin contact with bore wall
-    - Do not cross arms or legs (creates a loop)
-    - Use padding to ensure no skin is touching bore wall
-
-:::::
-
----
-
-## Quenching the Magnet, What
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-Quenching the magnet is the deactivation of the magnetic field of the MRI
-
-- Causes cryogens to rapidly boil off
-- Cryogen release could displace oxygen in room
-- Release could change pressure in room
-    - Stay low
-    - Use manual door release
-- There is an emergency quench button located in scanner room and control room.
-
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/sops/quench.jpg){fig-align="right"}
-
-::::
-:::::
-
----
-
-## Quenching the Magnet, When
-
-[ONLY]{style="color: red;"} when there is:
-
-- a risk to [LIFE/SERIOUS INJURY]{style="color: red;"}, or
-- an [UNCONTROLLABLE FIRE]{style="color: red;"} in the MRI room that requires professional firefighting equipment.
-
-
-# Culture of Diligence
-
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- **Purpose:** have ZERO accidents with the scanner.
-- Avoid complacency and [survivorship bias](https://en.wikipedia.org/wiki/Survivorship_bias){target="_blank"}.
-- Follow and support policies, for example:
-    - Wear badges for ease of identification.
-    - Close doors to restrict Zone access.
-    - Challenge, log, report protocol deviations.
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/slides/reset.png){fig-align="right"}
-
-::::
-:::::
-
 
 # Sources
+
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 50%"}
 What is MRI?
@@ -801,18 +463,6 @@ Safety Considerations
 - [2x2 Scanner Accident](https://www.purdue.edu/hhs/mri/MR%20Safety/MR%20Safety.html)
 - [Article Selection](https://smithchason.edu/mri-safety-lessons-1980-2001-2025/)
 - [MRI Zones](https://mriquestions.com/acr-safety-zones.html)
-
-Gauss Line Locations
-
-- [Diagram](https://appliedradiology.com/articles/assessing-mri-facility-damage-post-hurricane-best-practices-and-safety-considerations); Del Rey-Vasquez, L. P. (2024). Assessing MRI Facility Damage Post-Hurricane: Best Practices and Safety Considerations. Applied Radiology, 53(6), 12-17.
-
-Safety Screening Devices
-
-- [MRI Label](https://appliedradiology.com/articles/mri-safety-an-update)
-
-Culture of Diligence
-
-- [XKCD](https://xkcd.com/363/)
 
 :::
 ::::

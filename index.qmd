@@ -1,6 +1,6 @@
 ---
 title: "Notre Dame Human Neuroimaging Center"
-subtitle: "Resources for Operations and Analysis"
+subtitle: "Resources for Operations and Analyses"
 date: today
 toc: true
 # execute:
@@ -9,19 +9,20 @@ toc: true
 
 ![Siemens MAGNETOM Cima.X 3T arrives at Notre Dame!](media/pages/veldman_mri.jpg){fig-align="left"}
 
+
 ## Join Us
 
-- Contact: [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
-- Tours: contact [Alex Musser](pages/people.qmd).
-- Prepare: individuals entering [Zones 3 & 4](media/sops/nd-hnc_layout_zones.png) are required to fill out an [MRI Safety Screen](resources/forms/form_RO01_mri_screen.pdf) form.
-- Visit: follow these [instructions](pages/directions.qmd) or reference this [flyer](resources/forms/form_RO02_arrival_white.pdf).
+- **Contact:** [nd-hnc@nd.edu](mailto:nd-hnc@nd.edu).
+- **Tours:** schedule with [ND-HNC Staff](pages/people.qmd).
+- **Prepare:** fill out the [MRI Safety Screen](resources/forms/form_RO01_mri_screen.pdf){target="_blank"} before visiting [MRI Zones 3 & 4](media/sops/nd-hnc_layout_zones.png){target="_blank"}.
+- **Visit:** follow these [Directions](pages/directions.qmd) or download this [flyer](resources/forms/form_RO02_arrival_white.pdf){target="_blank"}.
 
 ## About
 
 We provide operational support for every step of research conducted at the Notre Dame Human Neuroimaging Center ([ND-HNC](https://neuroimaging.nd.edu/)):
 
 - [Facilities](pages/facilities.qmd) and [Equipment](pages/equipment.qmd): Orient to available resources.
-- [Training](pages/training.qmd): Learn to use and gain access to the center.
+- [Training](pages/training.qmd): Gain access to the center.
 - [Schedule](pages/schedule.qmd): Book facilities.
 - [Operate](pages/operate.qmd): Use equipment to collect data.
 - [Compute](pages/compute.qmd): Develop codebase, sandbox testing, local computing, parallelization.
