@@ -87,6 +87,11 @@ Operations Coordinator
 ::::
 :::::
 
+::: {.notes}
+Pull up website, give basic orientation.
+Demonstrate scheduling resources.
+:::
+
 ---
 
 ## Building Access

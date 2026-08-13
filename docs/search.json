@@ -126,69 +126,6 @@
     "text": "III. Hearing Protection Devices (HPDs)\nA. The Noise Reduction Rating (NRR)\n\nEPA Standardization: The Environmental Protection Agency utilizes the NRR metric to quantify hearing protector effectiveness.\nMathematical Calculation: The NRR value is calculated by taking the mean laboratory sound attenuation (in dB) of the device and subtracting two standard deviations.\n\nThis design ensures the rating reflects the absolute minimum protection achieved by \\(98\\%\\) of the population."
   },
   {
-    "objectID": "resources/slides/mri_safety_1.html#what-is-mri",
-    "href": "resources/slides/mri_safety_1.html#what-is-mri",
-    "title": "MRI Safety Training, Level 1",
-    "section": "What is MRI?",
-    "text": "What is MRI?\n\n\n\n(Nuclear) Magnetic Resonance Imaging\nNuclear Magnetic: certain elements have known behaviors in magnetic fields:\n\nAlign with field,\nPrecesses at given frequency.\n\nResonance: introduce energy at same frequency as precession.\n\nProtons move to higher energy states, eventually decay.\n\nImaging: researchers capitalize on different tissue properties (e.g. density) to create contrasts."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#magnet-strength",
-    "href": "resources/slides/mri_safety_1.html#magnet-strength",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Magnet Strength",
-    "text": "Magnet Strength\n\n\n\nTypically measured in Tesla (T).\nThe Earth’s magnetic field is roughly 0.00005 Tesla.\n\nStandard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.\n\nMeaning: 3 Tesla is significant."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#magnet-is-always-on",
-    "href": "resources/slides/mri_safety_1.html#magnet-is-always-on",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Magnet Is Always On!",
-    "text": "Magnet Is Always On!\n\n\n\nElectrical resistance decreases with temperature.\n\nAt very (very) low temperatures, copper has superconductive properties.\n\nMRI scanner filled with liquid helium:\n\nRamp up (charge coil) from the electrical grid.\nThen disconnect!\nPerpetual current = persistent field strength.\n\nMagnetic field is independent of power in:\n\nRoom,\nVeldman Family Psychology Clinic,\nSouth Bend."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#safety-considerations",
-    "href": "resources/slides/mri_safety_1.html#safety-considerations",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Safety Considerations",
-    "text": "Safety Considerations\n\n\n\nRarely are rooms fatal.\nInjuries are more common than they should be.\nAmerican College of Radiology (ACR) recommends a 4 zone strategy for controlling access."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#safety-screener",
-    "href": "resources/slides/mri_safety_1.html#safety-screener",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Safety Screener",
-    "text": "Safety Screener\n\n\n\nEveryone who enters Zone 3 MUST fill out an MRI Safety Screener.\nCheck for compatibility with 3 Tesla field.\nReviewed by two people, check for:\n\nMR contraindications (e.g. pacemker),\nMR compatibility (e.g. magnetic lashes)."
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#zone-1---orange",
-    "href": "resources/slides/mri_safety_1.html#zone-1---orange",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Zone 1 - Orange",
-    "text": "Zone 1 - Orange\n\n\n\nContains:\n\nOffices\nConference\nReception\n\nUse:\n\nMeet participants\n\nAccess:\n\nPublic"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#zone-2---purple",
-    "href": "resources/slides/mri_safety_1.html#zone-2---purple",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Zone 2 - Purple",
-    "text": "Zone 2 - Purple\n\n\n\nContains:\n\nChanging rooms\nInterview, testing\nNon-MRI research (EEG, TMS)\nMock MRI\n\nUse:\n\nNon-MRI research\nMRI preparation\n\nAccess:\n\nLevels 1, 2+\nEscorted Visitors"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#zone-3---green",
-    "href": "resources/slides/mri_safety_1.html#zone-3---green",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Zone 3 - Green",
-    "text": "Zone 3 - Green\n\n\n\nContains:\n\nEquipment\nStorage\nControl\n\nUse:\n\nAccess MRI scanner\nMaintain equipment\nCollect MRI data\n\nAccess:\n\nLevel 3+ (Supervised Level 2)\nScreened, escorted Visitors"
-  },
-  {
-    "objectID": "resources/slides/mri_safety_1.html#zone-4---blue",
-    "href": "resources/slides/mri_safety_1.html#zone-4---blue",
-    "title": "MRI Safety Training, Level 1",
-    "section": "Zone 4 - Blue",
-    "text": "Zone 4 - Blue\n\n\n\nContains:\n\nMagnet\n\nUse:\n\nScan participants\n\nAccess:\n\nLevel 4+ (Supervised Level 2+)\nScreened, escorted Visitors"
-  },
-  {
     "objectID": "resources/slides/mri_safety_1.html#participant-flow",
     "href": "resources/slides/mri_safety_1.html#participant-flow",
     "title": "MRI Safety Training, Level 1",
@@ -200,28 +137,91 @@
     "href": "resources/slides/mri_safety_1.html#requirements",
     "title": "MRI Safety Training, Level 1",
     "section": "Requirements",
-    "text": "Requirements\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 1.\nParticipate in building access and safety trainings.\nWear Level 1 access badge while in the ND-HNC research suite."
+    "text": "Requirements\n\n\n\n\n\nAccess Prerequisites\n\n\n\nComplete annual ND-HNC MRI Safety training, Level 1\nParticipate in building access and safety trainings\nWear Level 1 access badge at all times while in the ND-HNC research suite"
   },
   {
     "objectID": "resources/slides/mri_safety_1.html#privileges",
     "href": "resources/slides/mri_safety_1.html#privileges",
     "title": "MRI Safety Training, Level 1",
     "section": "Privileges",
-    "text": "Privileges\n\n\n\nIrish1Card access to Zone 2.\nUnsupervised access to Zone 2.\nEscort visitors in Zone 2."
+    "text": "Privileges\n\n\n\n\n\nZone 2 Access & Operations\n\n\n\nIrish1Card access to Zone 2\nUnsupervised access to Zone 2\nEscort visitors in Zone 2"
   },
   {
     "objectID": "resources/slides/mri_safety_1.html#restrictions",
     "href": "resources/slides/mri_safety_1.html#restrictions",
     "title": "MRI Safety Training, Level 1",
     "section": "Restrictions",
-    "text": "Restrictions\n\n\n\nNo access to Mock MRI (B14).\nNo access to Zones 3, 4.\nCannot review MRI Safety Screen."
+    "text": "Restrictions\n\n\n\n\n\n\n\n\nStrict Access Boundaries\n\n\n\nNo access to Mock MRI (B14).\nNo access to Zones 3, 4.\nCannot review MRI Safety Screen."
   },
   {
     "objectID": "resources/slides/mri_safety_1.html#duties",
     "href": "resources/slides/mri_safety_1.html#duties",
     "title": "MRI Safety Training, Level 1",
     "section": "Duties",
-    "text": "Duties\n\n\n\nAssist during emergencies.\n\nStaying in Zones 1, 2."
+    "text": "Duties\n\n\n\n\n\nWork Performed\n\n\n\nAssist during emergencies.\n\nStaying in Zones 1, 2."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#incidents-and-accidents",
+    "href": "resources/slides/mri_safety_1.html#incidents-and-accidents",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Incidents and Accidents",
+    "text": "Incidents and Accidents\n\n\n\n\n\n\nPrimary Drivers\n\n\n\nRarely due to equipment malfunction\nUsually stems from improper equipment use\nCaused by breakdowns in procedure and policy\n\n\n\n\n\n\n\n\n\n\nRemedies\n\n\n\nPolicy Design:\n\nAddress predictable scenarios\nPrepare for unusual or unpredictable situations"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#remember",
+    "href": "resources/slides/mri_safety_1.html#remember",
+    "title": "MRI Safety Training, Level 1",
+    "section": "REMEMBER",
+    "text": "REMEMBER\n\nMagnet does NOT turn off after hours or between patients.\nThe magnet is ALWAYS on."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#magnetic-field-safety",
+    "href": "resources/slides/mri_safety_1.html#magnetic-field-safety",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Magnetic Field Safety",
+    "text": "Magnetic Field Safety\n\n\n\n\n\n\n\nTranslational Force & Gradient Risks\n\n\n\nMain Field Source: Produced continuously by the main superconducting magnet.\nTranslational Force: Pulls ferromagnetic items toward areas where the field changes most steeply.\nPeak Danger Zones: Highest pulling forces occur near the outer rim and scanner opening.\nImplant Risks: Strong spatial gradients can torque or displace medical implants."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#gauss-line-locations",
+    "href": "resources/slides/mri_safety_1.html#gauss-line-locations",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Gauss Line Locations",
+    "text": "Gauss Line Locations"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#safety-screening",
+    "href": "resources/slides/mri_safety_1.html#safety-screening",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Safety Screening",
+    "text": "Safety Screening\n\n\nCategories of safety:\n\nMRI Safe: no known hazards\nMRI Unsafe: known to pose hazards\nConditional: demonstrated to pose no know threat hazard under specific conditions\n\nResearched prior to scan to ensure specific conditions are met\n\n\nNO UNSAFE ITEMS IN SCANNER ROOM"
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#general-guidelines",
+    "href": "resources/slides/mri_safety_1.html#general-guidelines",
+    "title": "MRI Safety Training, Level 1",
+    "section": "General Guidelines",
+    "text": "General Guidelines\n\n\n\nStandard Emergency Response Pattern\n\n\nEmergency situations are diverse, but immediate responses follow a consistent pattern:\n\nMove to safety — Leave the immediate area.\nGet help — Call 911 immediately.\nProvide care — Administer First Aid and/or CPR if trained.\nCoordinate — Hand over to professionals (EMS / Fire / Police).\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nDetailed Procedures: See SOP 102: Medical Emergency Response for full protocols."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#priorities",
+    "href": "resources/slides/mri_safety_1.html#priorities",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Priorities",
+    "text": "Priorities\n\nThe presence of a strong magnetic field requires additional considerations. During an emergency situation:\n\n\n\n1. Protect People First\n\nVisitors — Evacuate out of Zone 4 immediately.\nResearchers — Evacuate out of Zone 4.\nEmergency Responders (EMS/Fire/Police)\n\nCritical: Restrict un-screened access (e.g., lock Zone 4 doors).\n\n\n\n2. Protect Equipment\n\nEmergency Power Off (EPO)\n\nTrigger only after human safety is secured or if directed by SOPs."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#emergency-responder-roles",
+    "href": "resources/slides/mri_safety_1.html#emergency-responder-roles",
+    "title": "MRI Safety Training, Level 1",
+    "section": "Emergency Responder Roles",
+    "text": "Emergency Responder Roles\n\nClear organization during an emergency is critical.\n\n\n\n1. Lead Responder\n(MRI Technologist, Level 3–4)\n\nRole: Primary decision-maker; in charge of the scene.\nFocus: Protect people first, then equipment.\n\n\n2. Helper\n(Level 1–4)\n\nRole: Assist the Lead Responder.\nFocus: Get help (call 911) and coordinate logistics."
+  },
+  {
+    "objectID": "resources/slides/mri_safety_1.html#mri-unrelated-emergencies",
+    "href": "resources/slides/mri_safety_1.html#mri-unrelated-emergencies",
+    "title": "MRI Safety Training, Level 1",
+    "section": "MRI-unrelated Emergencies",
+    "text": "MRI-unrelated Emergencies\n\n\n\n\n\n\n\n\n\nCommon Scenarios\n\n\n\nInjury to limb or head\nHeart attack / Cardiac arrest\nSeizure\nAcute stroke\n\n\n\n\n\n\n\n\n\n\n\n\n\nAction Protocol\n\n\n\nCall for help immediately.\nEvacuate: Move individual out of Zone 4 before using medical equipment.\nAdminister: Provide First-Aid / CPR.\nTransfer: Coordinate directly with EMS."
   },
   {
     "objectID": "resources/slides/building_procedures.html#evacuation-emergencies-fire-gas",
@@ -349,7 +349,7 @@
     "href": "pages/private.html#training-materials",
     "title": "Private",
     "section": "Training Materials",
-    "text": "Training Materials\n\n\n\n\n\n\n\n\nAccess\nTopic\nExam\n\n\n\n\nAll\nMRI Center\nTBD\n\n\nLevel 1\nSlides\nTBD\n\n\nLevel 2\nSlides\nTBD\n\n\nLevel 3\nSlides\nTBD\n\n\nLevel 4\nSlides\nTBD",
+    "text": "Training Materials\n\n\n\n\n\n\n\n\nAccess\nTopic\nExam\n\n\n\n\nAll\nMRI Center\n\n\n\nLevel 1\nSlides\nQR\n\n\nLevel 2\nSlides\nQR\n\n\nLevel 3\nSlides\nTBD\n\n\nLevel 4\nSlides\nTBD",
     "crumbs": [
       "Private"
     ]
@@ -963,7 +963,7 @@
     "href": "resources/slides/mri_intro.html#center-resources",
     "title": "Notre Dame Human Neuroimaging Center (ND-HNC)",
     "section": "Center Resources",
-    "text": "Center Resources\n\n\n\n\nSupport MRI research from start to finish:\n\nGrant preparation, description of facilities and equipment\nHow to receive MRI training\nSchedule and operate equipment/facilities.\nAccess our computing and storage resources.\n\n\n\n\nProvide important documents:\n\nStandard Operating Procedures (SOPs)\nOperational forms, including MRI Safety Screener\nCenter policies\n\nAvailable at our website: https://nd-hnc.github.io/website\n\nExpectation: everyone using ND-HNC resources read and follow SOPs and Policies."
+    "text": "Center Resources\n\n\n\n\nSupport MRI research from start to finish:\n\nGrant preparation, description of facilities and equipment\nHow to receive MRI training\nSchedule and operate equipment/facilities.\nAccess our computing and storage resources.\n\n\n\n\nProvide important documents:\n\nStandard Operating Procedures (SOPs)\nOperational forms, including MRI Safety Screener\nCenter policies\n\nAvailable at our website: https://nd-hnc.github.io/website\n\nExpectation: everyone using ND-HNC resources read and follow SOPs and Policies.\n\n\n\n\nPull up website, give basic orientation. Demonstrate scheduling resources."
   },
   {
     "objectID": "resources/slides/mri_intro.html#building-access",
@@ -1061,7 +1061,7 @@
     "href": "resources/slides/mri_safety_2.html#participant-flow",
     "title": "MRI Safety Training, Level 2",
     "section": "Participant Flow",
-    "text": "Participant Flow\n\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;"
+    "text": "Participant Flow\n\n\n\n\n\n\nflowchart LR\n    subgraph Zone_1 [Zone 1]\n        B[\"`Arrive\n            Screen\n            Review Screen 1\n            ---\n            Exit`\"]\n\n    end\n    style Zone_1 fill:#eca972,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_2 [Zone 2]\n       C[\"`Interview\n           Change\n           Mock\n           EEG, TMS\n           (Review Screen 1)`\"]\n    end\n    style Zone_2 fill:#d480f0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_3 [Zone 3]\n        D[\"`Review Screen 2\n            Administer Task`\"]\n    end\n    style Zone_3 fill:#88e8a0,stroke:#000000,color:#000000,stroke-width:2px\n\n    subgraph Zone_4 [Zone 4]\n        E[Scan]\n    end\n    style Zone_4 fill:#7397e3,stroke:#000000,color:#000000,stroke-width:2px\n\n    A[Schedule] --&gt; Zone_1\n    Zone_1 &lt;--&gt; Zone_2 &lt;--&gt; Zone_3 &lt;--&gt; Zone_4\n\n    classDef allBlack color:#000000;\n    class A,B,C,D,E,F allBlack;\n    classDef whiteBoxes fill:#ffffff,stroke:#000000,stroke-width:2px;\n    class A,B,C,D,E,F whiteBoxes;\n    linkStyle default stroke:black,stroke-width:1px;\n\n\n\n\n\n\n\n\n\n\n\n\n\nMention that all MRI participants will change into scrubs."
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#requirements",
@@ -1096,7 +1096,7 @@
     "href": "resources/slides/mri_safety_2.html#incidents-and-accidents",
     "title": "MRI Safety Training, Level 2",
     "section": "Incidents and Accidents",
-    "text": "Incidents and Accidents\n\n\n\nRarely due to equipment malfunction, usually due to:\n\nHow equipment is used, and/or\nBreakdown in following procedure and policy.\n\nRemedy, design policies that address:\n\nPredictable situations\nUnusual or unpredictable situations"
+    "text": "Incidents and Accidents\n\n\n\n\n\n\nPrimary Drivers\n\n\n\nRarely due to equipment malfunction\nUsually stems from improper equipment use\nCaused by breakdowns in procedure and policy\n\n\n\n\n\n\n\n\n\n\nRemedies\n\n\n\nPolicy Design:\n\nAddress predictable scenarios\nPrepare for unusual or unpredictable situations"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#safety-switch-panel-control-room",
@@ -1138,7 +1138,7 @@
     "href": "resources/slides/mri_safety_2.html#magnetic-field-safety",
     "title": "MRI Safety Training, Level 2",
     "section": "Magnetic Field Safety",
-    "text": "Magnetic Field Safety\n\n\nStatic field effects:\n\nConsistent uniform magnetic field produced by main superconducting magnet\nPotential biologic effects: vertigo, nausea\nMechanical effects: translation, torque, Lenz’s forces\n\nTime varying effects:\n\nGradient magnetic fields (auditory, induced voltage)\nRadiofrequency magnetic fields (biologic, thermal)\n\nSpatial gradients effects:\n\nTranslational force: pulls magnetic items towards area where field changes most steeply\nPeak danger zones: highest pulling forces near the outer rim and opening of scanner\nImplant risks:strong gradients can torque or move medical implants"
+    "text": "Magnetic Field Safety\n\n\nStatic field effects:\n\nConsistent uniform magnetic field produced by main superconducting magnet\nPotential biologic effects: vertigo, nausea\nMechanical effects: translation, torque, Lenz’s forces\n\nTime varying effects:\n\nGradient magnetic fields (auditory, induced voltage)\nRadiofrequency magnetic fields (biologic, thermal)\n\nSpatial gradients effects:\n\nTranslational force: pulls magnetic items towards area where field changes most steeply\nPeak danger zones: highest pulling forces near the outer rim and opening of scanner\nImplant risks: strong gradients can torque or move medical implants"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#magnetic-field-safety-contd",
@@ -1187,7 +1187,7 @@
     "href": "resources/slides/mri_safety_2.html#quenching-the-magnet-when",
     "title": "MRI Safety Training, Level 2",
     "section": "Quenching the Magnet, When",
-    "text": "Quenching the Magnet, When\nONLY when there is:\n\na risk to LIFE/SERIOUS INJURY, or\nan UNCONTROLLABLE FIRE in the MRI room that requires professional firefighting equipment."
+    "text": "Quenching the Magnet, When\nONLY when there is a risk to:\n\nLIFE\nSERIOUS INJURY"
   },
   {
     "objectID": "resources/slides/mri_safety_2.html#general-guidelines",

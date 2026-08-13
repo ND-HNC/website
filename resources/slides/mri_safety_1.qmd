@@ -12,216 +12,9 @@ format:
     logo: ../../media/nd_brand/nd_logo.png
     transition: slide
     slide-number: true
+    lightbox: true
 engine: knitr
 ---
-
-# MRI: An introduction
-## What is MRI?
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- (Nuclear) Magnetic Resonance Imaging
-- Nuclear **Magnetic**: certain elements have known behaviors in magnetic fields:
-    - Align with field,
-    - Precesses at given frequency.
-- **Resonance**: introduce energy at same frequency as precession.
-    - Protons move to higher energy states, eventually decay.
-- **Imaging**: researchers capitalize on different tissue properties (e.g. density) to create contrasts.
-::::
-
-:::: {.column width="50%"}
-::: {.r-stack}
-
-![](../../media/pages/mri.jpg){fig-align="right"}
-
-![](../../media/slides/nmr_2.jpg){.fragment .fade-in-then-out fig-align="right"}
-
-![](../../media/slides/t1_1.png){.fragment .fade-in-then-out fig-align="right"}
-
-:::
-::::
-:::::
-
----
-
-## Magnet Strength
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Typically measured in Tesla (T).
-- The Earth’s magnetic field is roughly 0.00005 Tesla.
-    - Standard 3 Tesla scanner is ~60,000 times stronger than Earth's field.
-- Meaning: 3 Tesla is [significant](https://www.youtube.com/watch?v=6BBx8BwLhqg){target="_blank"}.
-::::
-
-:::: {.column width="50%"}
-
-![](../../media/slides/tesla_1.png){fig-align="right"}
-
-::::
-:::::
-
----
-
-## Magnet Is Always On!
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Electrical resistance decreases with temperature.
-    - At very (very) low temperatures, copper has superconductive properties.
-- MRI scanner filled with liquid helium:
-    - Ramp up (charge coil) from the electrical grid.
-    - Then disconnect!
-    - Perpetual current = persistent field strength.
-- Magnetic field is independent of power in:
-    - Room,
-    - Veldman Family Psychology Clinic,
-    - South Bend.
-::::
-
-:::: {.column width="\"50%"}
-::: {.r-stack}
-
-![](../../media/slides/cold_1.png){.fragment .fade-in-then-out fig-align="right"}
-
-![](../../media/slides/coil_3.png){.fragment .fade-in-then-out fig-align="right"}
-
-![](../../media/slides/coil_2.jpg){.fragment .fade-in-then-out fig-align="right"}
-
-![](../../media/slides/coil_1.png){.fragment .fade-in-then-out fig-align="right"}
-
-:::
-::::
-:::::
-
----
-
-## Safety Considerations
-
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Rarely are rooms [fatal](https://smithchason.edu/mri-safety-lessons-1980-2001-2025/){target="_blank"}.
-- Injuries are more [common](../../media/articles/inaguma_2023_injuries.pdf){target="_blank"} than they should be.
-- American College of Radiology ([ACR](https://www.acr.org/){target="_blank"}) recommends a 4 [zone](https://mriquestions.com/acr-safety-zones.html){target="_blank"} strategy for controlling access.
-::::
-
-:::: {.column width="\"50%"}
-::: {.r-stack}
-
-![](../../media/slides/zones_2.png){.fragment .fade-in-then-out fig-align="right"}
-
-![](../../media/slides/zones_1.png){.fragment .fade-in-then-out fig-align="right"}
-
-:::
-::::
-:::::
-
----
-
-## Safety Screener
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Everyone who enters Zone 3 **MUST** fill out an [MRI Safety Screener](../forms/form_RO01_mri_screen.pdf){target="_blank"}.
-- Check for compatibility with 3 Tesla field.
-- Reviewed by two people, check for:
-    - MR contraindications (e.g. pacemker),
-    - MR compatibility (e.g. magnetic lashes).
-::::
-:::::
-
-
-# MRI Zones
-
-ND-HNC zone [map](../../media/sops/nd-hnc_layout_zones.png){target="_blank"}.
-
-## Zone 1 - Orange
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Offices
-    - Conference
-    - Reception
-- Use:
-    - Meet participants
-- Access:
-    - Public
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-
-::::
-:::::
-
----
-
-## Zone 2 - Purple
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Changing rooms
-    - Interview, testing
-    - Non-MRI research (EEG, TMS)
-    - Mock MRI
-- Use:
-    - Non-MRI research
-    - MRI preparation
-- Access:
-    - Levels 1, 2+
-    - Escorted Visitors
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-
-::::
-:::::
-
----
-
-## Zone 3 - Green
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Equipment
-    - Storage
-    - Control
-- Use:
-    - Access MRI scanner
-    - Maintain equipment
-    - Collect MRI data
-- Access:
-    - Level 3+ (Supervised Level 2)
-    - Screened, escorted Visitors
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-
-::::
-:::::
-
----
-
-## Zone 4 - Blue
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Contains:
-    - Magnet
-- Use:
-    - Scan participants
-- Access:
-    - Level 4+ (Supervised Level 2+)
-    - Screened, escorted Visitors
-::::
-
-:::: {.column width="\"50%"}
-
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-
-::::
-:::::
-
 
 # Level 1 Access
 Purpose: Conduct non-MRI research.
@@ -257,6 +50,9 @@ flowchart LR
 
 ```
 
+
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="center" width="60%"}
+
 <!-- ---
 
 ## Data Flow
@@ -270,72 +66,271 @@ CorpFS
 
 ## Requirements
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Complete annual ND-HNC MRI Safety training, Level 1.
-- Participate in building access and safety trainings.
-- Wear Level 1 access badge while in the ND-HNC research suite.
+:::: {.columns}
 
-:::::
-:::::
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-note icon=false}
+### Access Prerequisites
+- Complete annual **ND-HNC MRI Safety training**, Level 1
+- Participate in building access and safety trainings
+- Wear **Level 1 access badge** at all times while in the ND-HNC research suite
+:::
+:::
+
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="center" width="100%"}
+:::
+
+::::
 
 ---
 
 ## Privileges
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Irish1Card access to Zone 2.
-- Unsupervised access to Zone 2.
-- Escort visitors in Zone 2.
-::::
+:::: {.columns}
 
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-tip icon=false}
+### Zone 2 Access & Operations
+- **Irish1Card access** to Zone 2
+- **Unsupervised access** to Zone 2
+- Escort visitors in Zone 2
+:::
+:::
+
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right" width="100%"}
+:::
+
 ::::
-:::::
 
 ---
 
 ## Restrictions
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
+:::: {.columns}
+
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-important icon=true}
+### Strict Access Boundaries
 - No access to Mock MRI (B14).
 - No access to Zones 3, 4.
 - Cannot review MRI Safety Screen.
-::::
+:::
+:::
 
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
-::::
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right" width="100%"}
+:::
 
-:::::
+::::
 
 ---
 
 ## Duties
 
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
+:::: {.columns}
+
+::: {.column width="55%" style="font-size: 65%;"}
+::: {.callout-note icon=false}
+### Work Performed
 - Assist during emergencies.
     - Staying in Zones 1, 2.
+:::
+:::
+
+::: {.column width="45%"}
+![](../../media/sops/nd-hnc_layout_zones.png){fig-align="center" width="100%"}
+:::
+
 ::::
 
-:::: {.column width="\"50%" style="font-size: 65%;"}
-![](../../media/sops/nd-hnc_layout_zones.png){fig-align="right"}
+
+# MRI Safety
+
+<!-- 5. MRI emergency response 2 (30 min) -->
+
+## Incidents and Accidents
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important icon=false title="Primary Drivers"}
+* Rarely due to equipment malfunction
+* Usually stems from improper equipment use
+* Caused by breakdowns in procedure and policy
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-tip icon=false title="Remedies"}
+
+* **Policy Design:**
+  * Address **predictable** scenarios
+  * Prepare for **unusual or unpredictable** situations
+:::
+:::
+
 ::::
+
+---
+
+## REMEMBER
+
+::::: {style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 70vh; text-align: center; color: red;"}
+
+Magnet does **NOT** turn off after hours
+or between patients.
+
+The magnet is **ALWAYS** on.
 
 :::::
 
+---
 
-<!-- # Schedule Facilities
+## Magnetic Field Safety
 
-TODO
+::: {.callout-warning icon=true title="Translational Force & Gradient Risks"}
+* **Main Field Source:**
+  Produced continuously by the main superconducting magnet.
 
-# Use Equipment
+* **Translational Force:**
+  Pulls ferromagnetic items toward areas where the field changes most steeply.
 
-TODO -->
+* **Peak Danger Zones:**
+  Highest pulling forces occur near the **outer rim** and **scanner opening**.
+
+* **Implant Risks:**
+  Strong spatial gradients can **torque or displace** medical implants.
+:::
+
+
+
+---
+
+## Gauss Line Locations
+
+![](../../media/slides/mri_zone_gauss.jpg){fig-align="center" width=45%}
+
+---
+
+## Safety Screening
+::::: columns
+:::: {.column width="50%" style="font-size: 65%;"}
+Categories of safety:
+
+1. MRI Safe: no known hazards
+1. MRI Unsafe: known to pose hazards
+1. Conditional: demonstrated to pose no know threat hazard under specific conditions
+    - Researched prior to scan to ensure specific conditions are met
+
+[NO UNSAFE ITEMS IN SCANNER ROOM]{style="color: red;"}
+
+::::
+
+:::: {.column width="\"50%"}
+
+![](../../media/slides/mri_safety_label.jpg){fig-align="right" width=90%}
+
+::::
+:::::
+
+# Emergency Response
+
+## General Guidelines
+
+::: {.callout-note icon=false}
+### Standard Emergency Response Pattern
+Emergency situations are diverse, but immediate responses follow a consistent pattern:
+
+1. **Move to safety** — Leave the immediate area.
+2. **Get help** — Call 911 immediately.
+3. **Provide care** — Administer First Aid and/or CPR if trained.
+4. **Coordinate** — Hand over to professionals (EMS / Fire / Police).
+:::
+
+::: {.callout-tip visual="simple"}
+**Detailed Procedures:** See [SOP 102: Medical Emergency Response](../sops/100_emergency/2_medical/sop_102_medical.pdf) for full protocols.
+:::
+
+---
+
+## Priorities
+
+::: {.style font-size="80%" style="font-size: 65%;"}
+The presence of a strong magnetic field requires additional considerations. During an emergency situation:
+:::
+
+:::: {.columns}
+
+::: {.column width="55%" style="font-size: 65%;"}
+### 1. Protect People First
+* **Visitors** — Evacuate out of Zone 4 immediately.
+* **Researchers** — Evacuate out of Zone 4.
+* **Emergency Responders** (EMS/Fire/Police)
+  * *Critical:* Restrict un-screened access (e.g., lock Zone 4 doors).
+:::
+
+::: {.column width="45%" style="font-size: 65%;"}
+### 2. Protect Equipment
+* **Emergency Power Off (EPO)**
+  * Trigger only after human safety is secured or if directed by SOPs.
+:::
+
+::::
+
+---
+
+## Emergency Responder Roles
+
+::: {style="font-size: 65%;"}
+Clear organization during an emergency is critical.
+:::
+
+:::: {.columns}
+
+::: {.column width="50%" style="font-size: 65%;"}
+### 1. Lead Responder
+*(MRI Technologist, Level 3–4)*
+
+* **Role:** Primary decision-maker; in charge of the scene.
+* **Focus:** Protect **people** first, then equipment.
+:::
+
+::: {.column width="50%" style="font-size: 65%;"}
+### 2. Helper
+*(Level 1–4)*
+
+* **Role:** Assist the Lead Responder.
+* **Focus:** **Get help** (call 911) and coordinate logistics.
+:::
+::::
+
+---
+
+## MRI-unrelated Emergencies
+
+::::: {.columns}
+
+:::: {.column width="45%" style="font-size: 85%;"}
+::: {.callout-tip title="Common Scenarios"}
+- Injury to limb or head
+- Heart attack / Cardiac arrest
+- Seizure
+- Acute stroke
+:::
+::::
+
+:::: {.column width="55%" style="font-size: 85%;"}
+::: {.callout-important title="Action Protocol"}
+1. **Call for help** immediately.
+2. **Evacuate:** Move individual out of **Zone 4** before using medical equipment.
+3. **Administer:** Provide First-Aid / CPR.
+4. **Transfer:** Coordinate directly with EMS.
+:::
+::::
+:::::
+
 
 # Culture of Diligence
 

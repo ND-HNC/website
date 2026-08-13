@@ -6,7 +6,10 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.7.33">
 
   <title>ND-HNC – MRI Safety Training, Level 1</title>
@@ -140,276 +143,6 @@
 
 </section>
 <section>
-<section id="mri-an-introduction" class="title-slide slide level1 center">
-<h1>MRI: An introduction</h1>
-
-</section>
-<section id="what-is-mri" class="slide level2">
-<h2>What is MRI?</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>(Nuclear) Magnetic Resonance Imaging</li>
-<li>Nuclear <strong>Magnetic</strong>: certain elements have known behaviors in magnetic fields:
-<ul>
-<li>Align with field,</li>
-<li>Precesses at given frequency.</li>
-</ul></li>
-<li><strong>Resonance</strong>: introduce energy at same frequency as precession.
-<ul>
-<li>Protons move to higher energy states, eventually decay.</li>
-</ul></li>
-<li><strong>Imaging</strong>: researchers capitalize on different tissue properties (e.g.&nbsp;density) to create contrasts.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/pages/mri.jpg" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/nmr_2.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/t1_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div>
-</div></div>
-</section>
-<section id="magnet-strength" class="slide level2">
-<h2>Magnet Strength</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Typically measured in Tesla (T).</li>
-<li>The Earth’s magnetic field is roughly 0.00005 Tesla.
-<ul>
-<li>Standard 3 Tesla scanner is ~60,000 times stronger than Earth’s field.</li>
-</ul></li>
-<li>Meaning: 3 Tesla is <a href="https://www.youtube.com/watch?v=6BBx8BwLhqg" target="_blank">significant</a>.</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/tesla_1.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="magnet-is-always-on" class="slide level2">
-<h2>Magnet Is Always On!</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Electrical resistance decreases with temperature.
-<ul>
-<li>At very (very) low temperatures, copper has superconductive properties.</li>
-</ul></li>
-<li>MRI scanner filled with liquid helium:
-<ul>
-<li>Ramp up (charge coil) from the electrical grid.</li>
-<li>Then disconnect!</li>
-<li>Perpetual current = persistent field strength.</li>
-</ul></li>
-<li>Magnetic field is independent of power in:
-<ul>
-<li>Room,</li>
-<li>Veldman Family Psychology Clinic,</li>
-<li>South Bend.</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/cold_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/coil_3.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/coil_2.jpg" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/coil_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div>
-</div></div>
-</section>
-<section id="safety-considerations" class="slide level2">
-<h2>Safety Considerations</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Rarely are rooms <a href="https://smithchason.edu/mri-safety-lessons-1980-2001-2025/" target="_blank">fatal</a>.</li>
-<li>Injuries are more <a href="../../media/articles/inaguma_2023_injuries.pdf" target="_blank">common</a> than they should be.</li>
-<li>American College of Radiology (<a href="https://www.acr.org/" target="_blank">ACR</a>) recommends a 4 <a href="https://mriquestions.com/acr-safety-zones.html" target="_blank">zone</a> strategy for controlling access.</li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="r-stack">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/zones_2.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/slides/zones_1.png" class="fragment fade-in-then-out quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div>
-</div></div>
-</section>
-<section id="safety-screener" class="slide level2">
-<h2>Safety Screener</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Everyone who enters Zone 3 <strong>MUST</strong> fill out an <a href="../forms/form_RO01_mri_screen.pdf" target="_blank">MRI Safety Screener</a>.</li>
-<li>Check for compatibility with 3 Tesla field.</li>
-<li>Reviewed by two people, check for:
-<ul>
-<li>MR contraindications (e.g.&nbsp;pacemker),</li>
-<li>MR compatibility (e.g.&nbsp;magnetic lashes).</li>
-</ul></li>
-</ul>
-</div></div>
-</section></section>
-<section>
-<section id="mri-zones" class="title-slide slide level1 center">
-<h1>MRI Zones</h1>
-<p>ND-HNC zone <a href="../../media/sops/nd-hnc_layout_zones.png" target="_blank">map</a>.</p>
-</section>
-<section id="zone-1---orange" class="slide level2">
-<h2>Zone 1 - Orange</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Offices</li>
-<li>Conference</li>
-<li>Reception</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Meet participants</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Public</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="zone-2---purple" class="slide level2">
-<h2>Zone 2 - Purple</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Changing rooms</li>
-<li>Interview, testing</li>
-<li>Non-MRI research (EEG, TMS)</li>
-<li>Mock MRI</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Non-MRI research</li>
-<li>MRI preparation</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Levels 1, 2+</li>
-<li>Escorted Visitors</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="zone-3---green" class="slide level2">
-<h2>Zone 3 - Green</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Equipment</li>
-<li>Storage</li>
-<li>Control</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Access MRI scanner</li>
-<li>Maintain equipment</li>
-<li>Collect MRI data</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Level 3+ (Supervised Level 2)</li>
-<li>Screened, escorted Visitors</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="zone-4---blue" class="slide level2">
-<h2>Zone 4 - Blue</h2>
-<div class="columns">
-<div class="column" style="font-size: 65%;">
-<ul>
-<li>Contains:
-<ul>
-<li>Magnet</li>
-</ul></li>
-<li>Use:
-<ul>
-<li>Scan participants</li>
-</ul></li>
-<li>Access:
-<ul>
-<li>Level 4+ (Supervised Level 2+)</li>
-<li>Screened, escorted Visitors</li>
-</ul></li>
-</ul>
-</div><div class="column" style="width:&quot;50%;">
-<div class="quarto-figure quarto-figure-right">
-<figure>
-<p><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
-</figure>
-</div>
-</div></div>
-</section></section>
-<section>
 <section id="level-1-access" class="title-slide slide level1 center">
 <h1>Level 1 Access</h1>
 <p>Purpose: Conduct non-MRI research.</p>
@@ -449,6 +182,11 @@
 </div>
 </div>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../../media/sops/nd-hnc_layout_zones.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></a></p>
+</figure>
+</div>
 <!-- ---
 
 ## Data Flow
@@ -462,26 +200,50 @@ CorpFS
 <h2>Requirements</h2>
 <div class="columns">
 <div class="column" style="font-size: 65%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Access Prerequisites</strong></p>
+</div>
+<div class="callout-content">
 <ul>
-<li>Complete annual ND-HNC MRI Safety training, Level 1.</li>
-<li>Participate in building access and safety trainings.</li>
-<li>Wear Level 1 access badge while in the ND-HNC research suite.</li>
+<li>Complete annual <strong>ND-HNC MRI Safety training</strong>, Level 1</li>
+<li>Participate in building access and safety trainings</li>
+<li>Wear <strong>Level 1 access badge</strong> at all times while in the ND-HNC research suite</li>
 </ul>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../../media/sops/nd-hnc_layout_zones.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></a></p>
+</figure>
+</div>
 </div></div>
 </section>
 <section id="privileges" class="slide level2">
 <h2>Privileges</h2>
 <div class="columns">
 <div class="column" style="font-size: 65%;">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Zone 2 Access &amp; Operations</strong></p>
+</div>
+<div class="callout-content">
 <ul>
-<li>Irish1Card access to Zone 2.</li>
-<li>Unsupervised access to Zone 2.</li>
-<li>Escort visitors in Zone 2.</li>
+<li><strong>Irish1Card access</strong> to Zone 2</li>
+<li><strong>Unsupervised access</strong> to Zone 2</li>
+<li>Escort visitors in Zone 2</li>
 </ul>
-</div><div class="column" style="font-size: 65%;">
+</div>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
 <div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
+<p><a href="../../media/sops/nd-hnc_layout_zones.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right" style="width:100.0%"></a></p>
 </figure>
 </div>
 </div></div>
@@ -490,15 +252,27 @@ CorpFS
 <h2>Restrictions</h2>
 <div class="columns">
 <div class="column" style="font-size: 65%;">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Strict Access Boundaries</strong></p>
+</div>
+<div class="callout-content">
 <ul>
 <li>No access to Mock MRI (B14).</li>
 <li>No access to Zones 3, 4.</li>
 <li>Cannot review MRI Safety Screen.</li>
 </ul>
-</div><div class="column" style="font-size: 65%;">
+</div>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
 <div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
+<p><a href="../../media/sops/nd-hnc_layout_zones.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right" style="width:100.0%"></a></p>
 </figure>
 </div>
 </div></div>
@@ -507,26 +281,268 @@ CorpFS
 <h2>Duties</h2>
 <div class="columns">
 <div class="column" style="font-size: 65%;">
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Work Performed</strong></p>
+</div>
+<div class="callout-content">
 <ul>
 <li>Assist during emergencies.
 <ul>
 <li>Staying in Zones 1, 2.</li>
 </ul></li>
 </ul>
-</div><div class="column" style="font-size: 65%;">
-<div class="quarto-figure quarto-figure-right">
+</div>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-right"></p>
+<p><a href="../../media/sops/nd-hnc_layout_zones.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="../../media/sops/nd-hnc_layout_zones.png" class="quarto-figure quarto-figure-center" style="width:100.0%"></a></p>
 </figure>
 </div>
 </div></div>
-<!-- # Schedule Facilities
+</section></section>
+<section>
+<section id="mri-safety" class="title-slide slide level1 center">
+<h1>MRI Safety</h1>
+<!-- 5. MRI emergency response 2 (30 min) -->
+</section>
+<section id="incidents-and-accidents" class="slide level2">
+<h2>Incidents and Accidents</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div title="Primary Drivers">
+<div class="callout callout-important no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Primary Drivers</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Rarely due to equipment malfunction</li>
+<li>Usually stems from improper equipment use</li>
+<li>Caused by breakdowns in procedure and policy</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div title="Remedies">
+<div class="callout callout-tip no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Remedies</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><strong>Policy Design:</strong>
+<ul>
+<li>Address <strong>predictable</strong> scenarios</li>
+<li>Prepare for <strong>unusual or unpredictable</strong> situations</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="remember" class="slide level2">
+<h2>REMEMBER</h2>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 70vh; text-align: center; color: red;">
+<p>Magnet does <strong>NOT</strong> turn off after hours or between patients.</p>
+<p>The magnet is <strong>ALWAYS</strong> on.</p>
+</div>
+</section>
+<section id="magnetic-field-safety" class="slide level2">
+<h2>Magnetic Field Safety</h2>
+<div title="Translational Force &amp; Gradient Risks">
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Translational Force &amp; Gradient Risks</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li><p><strong>Main Field Source:</strong> Produced continuously by the main superconducting magnet.</p></li>
+<li><p><strong>Translational Force:</strong> Pulls ferromagnetic items toward areas where the field changes most steeply.</p></li>
+<li><p><strong>Peak Danger Zones:</strong> Highest pulling forces occur near the <strong>outer rim</strong> and <strong>scanner opening</strong>.</p></li>
+<li><p><strong>Implant Risks:</strong> Strong spatial gradients can <strong>torque or displace</strong> medical implants.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="gauss-line-locations" class="slide level2">
+<h2>Gauss Line Locations</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="../../media/slides/mri_zone_gauss.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="../../media/slides/mri_zone_gauss.jpg" class="quarto-figure quarto-figure-center" style="width:45.0%"></a></p>
+</figure>
+</div>
+</section>
+<section id="safety-screening" class="slide level2">
+<h2>Safety Screening</h2>
+<div class="columns">
+<div class="column" style="font-size: 65%;">
+<p>Categories of safety:</p>
+<ol type="1">
+<li>MRI Safe: no known hazards</li>
+<li>MRI Unsafe: known to pose hazards</li>
+<li>Conditional: demonstrated to pose no know threat hazard under specific conditions
+<ul>
+<li>Researched prior to scan to ensure specific conditions are met</li>
+</ul></li>
+</ol>
+<p><span style="color: red;">NO UNSAFE ITEMS IN SCANNER ROOM</span></p>
+</div><div class="column" style="width:&quot;50%;">
+<div class="quarto-figure quarto-figure-right">
+<figure>
+<p><a href="../../media/slides/mri_safety_label.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="../../media/slides/mri_safety_label.jpg" class="quarto-figure quarto-figure-right" style="width:90.0%"></a></p>
+</figure>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="emergency-response" class="title-slide slide level1 center">
+<h1>Emergency Response</h1>
 
-TODO
-
-# Use Equipment
-
-TODO -->
+</section>
+<section id="general-guidelines" class="slide level2">
+<h2>General Guidelines</h2>
+<div class="callout callout-note no-icon callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Standard Emergency Response Pattern</strong></p>
+</div>
+<div class="callout-content">
+<p>Emergency situations are diverse, but immediate responses follow a consistent pattern:</p>
+<ol type="1">
+<li><strong>Move to safety</strong> — Leave the immediate area.</li>
+<li><strong>Get help</strong> — Call 911 immediately.</li>
+<li><strong>Provide care</strong> — Administer First Aid and/or CPR if trained.</li>
+<li><strong>Coordinate</strong> — Hand over to professionals (EMS / Fire / Police).</li>
+</ol>
+</div>
+</div>
+</div>
+<div data-visual="simple">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Detailed Procedures:</strong> See <a href="../sops/100_emergency/2_medical/sop_102_medical.pdf">SOP 102: Medical Emergency Response</a> for full protocols.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="priorities" class="slide level2">
+<h2>Priorities</h2>
+<div class="style" data-font-size="80%" style="font-size: 65%;">
+<p>The presence of a strong magnetic field requires additional considerations. During an emergency situation:</p>
+</div>
+<div class="columns">
+<div class="column" style="font-size: 65%;">
+<h3 id="protect-people-first">1. Protect People First</h3>
+<ul>
+<li><strong>Visitors</strong> — Evacuate out of Zone 4 immediately.</li>
+<li><strong>Researchers</strong> — Evacuate out of Zone 4.</li>
+<li><strong>Emergency Responders</strong> (EMS/Fire/Police)
+<ul>
+<li><em>Critical:</em> Restrict un-screened access (e.g., lock Zone 4 doors).</li>
+</ul></li>
+</ul>
+</div><div class="column" style="font-size: 65%;">
+<h3 id="protect-equipment">2. Protect Equipment</h3>
+<ul>
+<li><strong>Emergency Power Off (EPO)</strong>
+<ul>
+<li>Trigger only after human safety is secured or if directed by SOPs.</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="emergency-responder-roles" class="slide level2">
+<h2>Emergency Responder Roles</h2>
+<div style="font-size: 65%;">
+<p>Clear organization during an emergency is critical.</p>
+</div>
+<div class="columns">
+<div class="column" style="font-size: 65%;">
+<h3 id="lead-responder">1. Lead Responder</h3>
+<p><em>(MRI Technologist, Level 3–4)</em></p>
+<ul>
+<li><strong>Role:</strong> Primary decision-maker; in charge of the scene.</li>
+<li><strong>Focus:</strong> Protect <strong>people</strong> first, then equipment.</li>
+</ul>
+</div><div class="column" style="font-size: 65%;">
+<h3 id="helper">2. Helper</h3>
+<p><em>(Level 1–4)</em></p>
+<ul>
+<li><strong>Role:</strong> Assist the Lead Responder.</li>
+<li><strong>Focus:</strong> <strong>Get help</strong> (call 911) and coordinate logistics.</li>
+</ul>
+</div></div>
+</section>
+<section id="mri-unrelated-emergencies" class="slide level2">
+<h2>MRI-unrelated Emergencies</h2>
+<div class="columns">
+<div class="column" style="font-size: 85%;">
+<div title="Common Scenarios">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Common Scenarios</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Injury to limb or head</li>
+<li>Heart attack / Cardiac arrest</li>
+<li>Seizure</li>
+<li>Acute stroke</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div><div class="column" style="font-size: 85%;">
+<div title="Action Protocol">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Action Protocol</strong></p>
+</div>
+<div class="callout-content">
+<ol type="1">
+<li><strong>Call for help</strong> immediately.</li>
+<li><strong>Evacuate:</strong> Move individual out of <strong>Zone 4</strong> before using medical equipment.</li>
+<li><strong>Administer:</strong> Provide First-Aid / CPR.</li>
+<li><strong>Transfer:</strong> Coordinate directly with EMS.</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div></div>
 </section></section>
 <section id="culture-of-diligence" class="title-slide slide level1 center">
 <h1>Culture of Diligence</h1>
@@ -545,7 +561,7 @@ TODO -->
 </div><div class="column" style="width:&quot;50%;">
 <div class="quarto-figure quarto-figure-right">
 <figure>
-<p><img data-src="../../media/slides/reset.png" class="quarto-figure quarto-figure-right"></p>
+<p><a href="../../media/slides/reset.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="../../media/slides/reset.png" class="quarto-figure quarto-figure-right"></a></p>
 </figure>
 </div>
 </div></div>
@@ -1007,6 +1023,38 @@ TODO -->
         }
       });
       </script>
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>
