@@ -152,38 +152,42 @@
 
 \textbf{Section 2. Reservation Information}\\[1em]
 
-Date (YYYY-MM-DD):
-\TextField[
-    name=validatedDate,
-    width=3cm,
-    keystroke={AFDate_FormatEx("yyyy-mm-dd");},
-    format={AFDate_FormatEx("yyyy-mm-dd");}
-]{}\\[1em]
+\fillableline{Date: }{res_date}{5cm}
 
-Time Begin (HH:MM AM/PM):
-\TextField[
-    name=validatedTimeBegin,
-    width=2.5cm,
-    keystroke={AFTime_FormatEx("hh:MM tt");},
-    format={AFTime_FormatEx("hh:MM tt");}
-]{}\\[1em]
+\fillableline{Start: }{res_start}{5cm} \hfil \fillableline{End: }{res_end}{5cm}
 
-Time End (HH:MM AM/PM):
-\TextField[
-    name=validatedTimeEnd,
-    width=2.5cm,
-    keystroke={AFTime_FormatEx("hh:MM tt");},
-    format={AFTime_FormatEx("hh:MM tt");}
-]{}\\[2em]
+
+
+% Date (YYYY-MM-DD):
+% \TextField[
+%     name=validatedDate,
+%     width=3cm,
+%     keystroke={AFDate_FormatEx("yyyy-mm-dd");},
+%     format={AFDate_FormatEx("yyyy-mm-dd");}
+% ]{}\\[1em]
+
+% Time Begin (HH:MM AM/PM):
+% \TextField[
+%     name=validatedTimeBegin,
+%     width=2.5cm,
+%     keystroke={AFTime_FormatEx("hh:MM tt");},
+%     format={AFTime_FormatEx("hh:MM tt");}
+% ]{}\\[1em]
+
+% Time End (HH:MM AM/PM):
+% \TextField[
+%     name=validatedTimeEnd,
+%     width=2.5cm,
+%     keystroke={AFTime_FormatEx("hh:MM tt");},
+%     format={AFTime_FormatEx("hh:MM tt");}
+% ]{}\\[2em]
 
 
 \textbf{Section 3. Billing Information}\\[1em]
 
 \fillableline{PI Last: }{pi_name}{5.25cm}
 
-\fillableline{PI Email: }{pi_email}{5cm}
-
-\fillableline{PI Phone: }{pi_phone}{5cm}
+\fillableline{PI Email: }{pi_email}{5cm} \hfil \fillableline{PI Phone: }{pi_phone}{5cm}
 
 \fillableline{Laboratory (if different) or project name: }{proj_name}{10cm}
 
