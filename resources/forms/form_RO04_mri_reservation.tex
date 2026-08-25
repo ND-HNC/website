@@ -1,0 +1,197 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ebgaramond}
+\usepackage[top=1in,left=0.625in,bottom=0.625in,right=0.625in]{geometry}
+\usepackage{graphicx}
+\graphicspath{ {../../media/nd_brand/}}
+\usepackage[colorlinks=false,pdfborder={0 0 0},]{hyperref}
+\usepackage[absolute]{textpos}
+\usepackage{soul}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage{pifont} % Required for \ding{52}
+
+%
+\providecommand\docvers{0.1.0}
+
+% Branding
+\providecommand\fromlogo{nd_logo.png}
+\definecolor{NDblue}{RGB}{12,35,64}
+\definecolor{NDgold}{RGB}{174,145,66}
+\definecolor{NDgray}{RGB}{193,205,221}
+\linespread{1.05}
+
+% Center info
+\providecommand\nameuniversity{University of Notre Dame}
+\providecommand\namecenter{Human Neuroimaging Center}
+\providecommand\addrcenter{501 N Hill St. South Bend, IN. 46617}
+\providecommand\namecollege{College of Arts and Letters}
+\providecommand\addrweb{\url{https://neuroimaging.nd.edu}}
+
+% Format header
+% \pagestyle{empty}
+
+\urlstyle{sf}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[L]{%
+    % LOGO
+    \begin{textblock*}{2in}[0.3066,0.39](1.0in,0.5in)
+        \includegraphics[width=2in]{\fromlogo}
+    \end{textblock*}
+
+    % Above line
+    \begin{textblock*}{6.375in}(1.5in,0.32in)
+        \sffamily
+        \hfill \textcolor{NDgold} \namecenter\ | \textcolor{NDgold}\namecollege
+    \end{textblock*}
+
+    % Below line
+    \begin{textblock*}{6.375in}(1.5in,0.53in)
+        \sffamily
+        \hfill \textcolor{NDgold} \addrcenter\ | \textcolor{NDgold}\addrweb
+    \end{textblock*}
+
+    %Line
+    \begin{tikzpicture}[remember picture,overlay]
+        \draw[color=NDblue,line width=0.7pt] (current page.north west)+(2.45in,-0.48in) -- ($(-0.625in,-0.48in)+(current page.north east)$);
+    \end{tikzpicture}
+}
+\renewcommand{\headrulewidth}{0pt}
+
+% Format footer
+\fancyfoot[L]{v.\docvers}
+\fancyfoot[C]{\thepage}
+\fancyfoot[R]{\textbf{ND-HNC Form: RO04}}
+
+\renewcommand{\footrulewidth}{0.5pt}
+% \renewcommand{\footruleskip}{20pt} % Optional: Adjust if you need more space above the line
+
+
+% Remove paragraph indentation
+\parindent0pt
+% \setlength{\parskip}{0.8\baselineskip}
+\raggedright
+
+
+% Format free response
+\newcommand{\fillableline}[3]{%
+  \begingroup
+  \large
+  #1 \underline{\TextField[%
+    name=#2, %
+    width=#3, %
+    backgroundcolor={1 1 1},
+    bordercolor={1 1 1}, % White removes the native interactive box outline
+    charsize=12pt
+  ]{}}%
+  \endgroup
+  \vspace{6pt}%
+}
+
+
+% Format question response
+\newcounter{choiceboxcount} % Creates a unique tracking counter
+\newcommand{\customchoicebox}[1]{%
+    \stepcounter{choiceboxcount}% Increments the counter for a unique group name
+    \begingroup
+    \large
+    \begin{Form}
+        \ChoiceMenu[
+            radio,
+            radiosymbol=\ding{52},
+            name=group\thechoiceboxcount,
+            backgroundcolor={1 1 1},
+            bordercolor={0 0 0},
+            charsize=8pt
+        ]{}{\hspace{0pt}Yes ,\hspace{3pt}No }%
+        \quad#1
+    \end{Form}%
+    \endgroup
+    \vspace{6pt}%
+}
+
+\newcounter{tripchoiceboxcount} % Creates a unique tracking counter
+\newcommand{\tripcustomchoicebox}[1]{%
+    \stepcounter{tripchoiceboxcount}% Increments the counter for a unique group name
+    \begingroup
+    \large
+    \begin{Form}
+        \ChoiceMenu[
+            radio,
+            radiosymbol=\ding{52},
+            name=group\thechoiceboxcount,
+            backgroundcolor={1 1 1},
+            bordercolor={0 0 0},
+            charsize=8pt
+        ]{}{\hspace{0pt}Fund ,\hspace{3pt}Organization ,\hspace{3pt}Account }%
+        \quad#1
+    \end{Form}%
+    \endgroup
+    \vspace{6pt}%
+}
+
+
+\begin{document}
+
+\vspace*{-1.5cm}
+\Huge
+\begin{center}MRI Reservation Form\\\end{center}
+\large
+\textbf{Instructions:} Please complete and email this form to nd-hnc@nd.edu upon reserving scan time, using the subject line ``MRI Reservation Form (secure)''.\\[1em]
+
+\textbf{Section 1: Researcher Contact Information}\\[1em]
+
+\fillableline{Name (Last, First, Middle): }{name}{10cm}
+
+\fillableline{ND Email: }{nd_email}{7cm}\\[1em]
+
+
+\textbf{Section 2. Reservation Information}\\[1em]
+
+Date (YYYY-MM-DD):
+\TextField[
+    name=validatedDate,
+    width=3cm,
+    keystroke={AFDate_FormatEx("yyyy-mm-dd");},
+    format={AFDate_FormatEx("yyyy-mm-dd");}
+]{}\\[1em]
+
+Time Begin (HH:MM AM/PM):
+\TextField[
+    name=validatedTimeBegin,
+    width=2.5cm,
+    keystroke={AFTime_FormatEx("hh:MM tt");},
+    format={AFTime_FormatEx("hh:MM tt");}
+]{}\\[1em]
+
+Time End (HH:MM AM/PM):
+\TextField[
+    name=validatedTimeEnd,
+    width=2.5cm,
+    keystroke={AFTime_FormatEx("hh:MM tt");},
+    format={AFTime_FormatEx("hh:MM tt");}
+]{}\\[2em]
+
+
+\textbf{Section 3. Billing Information}\\[1em]
+
+\fillableline{PI Last: }{pi_name}{5.25cm}
+
+\fillableline{PI Email: }{pi_email}{5cm}
+
+\fillableline{PI Phone: }{pi_phone}{5cm}
+
+\fillableline{Laboratory (if different) or project name: }{proj_name}{10cm}
+
+\fillableline{FOAPAL: }{foapal}{5cm}
+
+\tripcustomchoicebox{ }
+
+\customchoicebox{Is this a Grant Fund?}
+
+
+\end{document}
