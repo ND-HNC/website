@@ -55,6 +55,7 @@ The MRI Safety Screen (Form RO01) is found [here](../resources/forms/form_RO01_m
 | RO01 | MRI Safety Screen | [Link](../resources/forms/form_RO01_mri_screen.pdf){target="_blank"} |
 | RO02 | Arrival Instructions | [Blue](../resources/forms/form_RO02_arrival_blue.pdf), [White](../resources/forms/form_RO02_arrival_white.pdf){target="_blank"} |
 | RO03 | ND-HNC Layout| [Link](../../media/sops/nd-hnc_layout_zones.png){target="_blank"} |
+| RO04 | MRI Reservation | [Link](../resources/forms/form_RO04_mri_reservation.pdf){target="_blank"} |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
