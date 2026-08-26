@@ -114,26 +114,6 @@
     \vspace{6pt}%
 }
 
-\newcounter{tripchoiceboxcount} % Creates a unique tracking counter
-\newcommand{\tripcustomchoicebox}[1]{%
-    \stepcounter{tripchoiceboxcount}% Increments the counter for a unique group name
-    \begingroup
-    \large
-    \begin{Form}
-        \ChoiceMenu[
-            radio,
-            radiosymbol=\ding{52},
-            name=group\thechoiceboxcount,
-            backgroundcolor={1 1 1},
-            bordercolor={0 0 0},
-            charsize=8pt
-        ]{}{\hspace{0pt}Fund ,\hspace{3pt}Organization ,\hspace{3pt}Account }%
-        \quad#1
-    \end{Form}%
-    \endgroup
-    \vspace{6pt}%
-}
-
 
 \begin{document}
 
@@ -142,6 +122,7 @@
 \begin{center}MRI Reservation Form\\\end{center}
 \large
 \textbf{Instructions:} Please complete and email this form to nd-hnc@nd.edu upon reserving scan time, using the subject line ``MRI Reservation Form (secure)''.\\[1em]
+
 
 \textbf{Section 1: Researcher Contact Information}\\[1em]
 
@@ -154,33 +135,7 @@
 
 \fillableline{Date: }{res_date}{5cm}
 
-\fillableline{Start: }{res_start}{5cm} \hfil \fillableline{End: }{res_end}{5cm}
-
-
-
-% Date (YYYY-MM-DD):
-% \TextField[
-%     name=validatedDate,
-%     width=3cm,
-%     keystroke={AFDate_FormatEx("yyyy-mm-dd");},
-%     format={AFDate_FormatEx("yyyy-mm-dd");}
-% ]{}\\[1em]
-
-% Time Begin (HH:MM AM/PM):
-% \TextField[
-%     name=validatedTimeBegin,
-%     width=2.5cm,
-%     keystroke={AFTime_FormatEx("hh:MM tt");},
-%     format={AFTime_FormatEx("hh:MM tt");}
-% ]{}\\[1em]
-
-% Time End (HH:MM AM/PM):
-% \TextField[
-%     name=validatedTimeEnd,
-%     width=2.5cm,
-%     keystroke={AFTime_FormatEx("hh:MM tt");},
-%     format={AFTime_FormatEx("hh:MM tt");}
-% ]{}\\[2em]
+\fillableline{Length (hours): }{res_start}{3.35cm}
 
 
 \textbf{Section 3. Billing Information}\\[1em]
@@ -189,13 +144,17 @@
 
 \fillableline{PI Email: }{pi_email}{5cm} \hfil \fillableline{PI Phone: }{pi_phone}{5cm}
 
-\fillableline{Laboratory (if different) or project name: }{proj_name}{10cm}
+\fillableline{Laboratory (if different) or Project Name: }{proj_name}{10cm}\\[2em]
 
-\fillableline{FOAPAL: }{foapal}{5cm}
+\underline{FOAPAL Information}\\[1em]
 
-\tripcustomchoicebox{ }
+\fillableline{Fund: }{fund}{5cm}
 
-\customchoicebox{Is this a Grant Fund?}
+\fillableline{Organization: }{org}{5cm}
+
+\fillableline{Account: }{acct}{5cm}
+
+\fillableline{Program: }{pro}{5cm}
 
 
 \end{document}
