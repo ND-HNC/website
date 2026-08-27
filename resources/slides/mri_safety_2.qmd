@@ -74,6 +74,10 @@ flowchart LR
 
 :::::
 
+::: {.notes}
+Mention that all MRI participants will change into scrubs.
+:::
+
 <!-- ## Data Flow
 
 CorpFS
@@ -177,16 +181,26 @@ Output DICOM files -->
 <!-- 5. MRI emergency response 2 (30 min) -->
 
 ## Incidents and Accidents
-::::: columns
-:::: {.column width="50%" style="font-size: 65%;"}
-- Rarely due to equipment malfunction, usually due to:
-    - How equipment is used, and/or
-    - Breakdown in following procedure and policy.
-- Remedy, design policies that address:
-    - Predictable situations
-    - Unusual or unpredictable situations
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.callout-important icon=false title="Primary Drivers"}
+* Rarely due to equipment malfunction
+* Usually stems from improper equipment use
+* Caused by breakdowns in procedure and policy
+:::
+:::
+
+::: {.column width="50%"}
+::: {.callout-tip icon=false title="Remedies"}
+
+* **Policy Design:**
+  * Address **predictable** scenarios
+  * Prepare for **unusual or unpredictable** situations
+:::
+:::
+
 ::::
-:::::
 
 ---
 
@@ -310,7 +324,7 @@ The magnet is **ALWAYS** on.
 - **Spatial gradients effects:**
     - Translational force: pulls magnetic items towards area where field changes most steeply
     - Peak danger zones: highest pulling forces near the outer rim and opening of scanner
-    - Implant risks:strong gradients can torque or move medical implants
+    - Implant risks: strong gradients can torque or move medical implants
 :::::
 
 ---
@@ -412,10 +426,10 @@ Quenching the magnet is the deactivation of the magnetic field of the MRI
 
 ## Quenching the Magnet, When
 
-[ONLY]{style="color: red;"} when there is:
+[ONLY]{style="color: red;"} when there is a risk to:
 
-- a risk to [LIFE/SERIOUS INJURY]{style="color: red;"}, or
-- an [UNCONTROLLABLE FIRE]{style="color: red;"} in the MRI room that requires professional firefighting equipment.
+- [LIFE]{style="color: red;"}
+- [SERIOUS INJURY]{style="color: red;"}
 
 
 # Emergency Response
@@ -489,6 +503,7 @@ Clear organization during an emergency is critical.
 :::
 ::::
 
+---
 
 ## MRI-related Emergencies
 ::::: columns
@@ -517,7 +532,7 @@ A person is pinned to the magnet. Consider risk to LIFE or LIMB:
 
 ::::: {.columns}
 
-:::: {.column width="45%" style="font-size: 65%;"}
+:::: {.column width="45%" style="font-size: 85%;"}
 ::: {.callout-tip title="Common Scenarios"}
 - Injury to limb or head
 - Heart attack / Cardiac arrest
@@ -526,7 +541,7 @@ A person is pinned to the magnet. Consider risk to LIFE or LIMB:
 :::
 ::::
 
-:::: {.column width="55%" style="font-size: 65%;"}
+:::: {.column width="55%" style="font-size: 85%;"}
 ::: {.callout-important title="Action Protocol"}
 1. **Call for help** immediately.
 2. **Evacuate:** Move individual out of **Zone 4** before using medical equipment.

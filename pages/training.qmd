@@ -27,7 +27,7 @@ Please review the schedule to select the relevant training session (and see [Lev
 | Level 2 | 2026-10-05 | 12-2pm | VFPC 148 |
 | Level 2 | 2027-02-02 | 12-2pm | VFPC 148 |
 | Level 2 | 2027-03-02 | 12-2pm | VFPC 148 |
-| CPR/AED | 2026-11-02 | 9-10am | TBD |
+| CPR/AED | 2026-11-10 | 9-12pm | HMH 319 |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
