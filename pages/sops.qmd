@@ -17,7 +17,7 @@ Hosting our Standard Operating Procedures (SOPs) publicly allows for them to be 
 | 101 | Hardware | [Link](../resources/sops/100_emergency/1_hardware/sop_101_hardware.pdf){target="_blank"} | [LG01](../resources/forms/form_LG01_hardware_issue.pdf){target="_blank"}, [LG04](../resources/forms/form_LG04_protocol_violations.pdf){target="_blank"}, [RO03](../../media/sops/nd-hnc_layout_zones.png){target="_blank"} |
 | 102 | Medical | [Link](../resources/sops/100_emergency/2_medical/sop_102_medical.pdf){target="_blank"} | [LG03](../resources/forms/form_LG03_incidents.pdf){target="_blank"}, [LG04](../resources/forms/form_LG04_protocol_violations.pdf){target="_blank"}, [RO03](../../media/sops/nd-hnc_layout_zones.png){target="_blank"} |
 | 103 | Incident Reporting | [Link](../resources/sops/100_emergency/3_adverse_events/sop_103_adverse_events.pdf){target="_blank"} | [LG03](../resources/forms/form_LG03_incidents.pdf){target="_blank"} |
-| 104 | Incidental Findings | TBD |
+| 104 | Incidental Findings | [Link](../resources/sops/100_emergency/4_incidental_findings/sop_104_incidental_findings.pdf){target="_blank"} | |
 
 : {tbl-colwidths="[25,25,25,25]"}
 
