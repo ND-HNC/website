@@ -2,6 +2,7 @@
 title: Schedule
 toc: true
 toc-depth: 2
+lightbox: true
 ---
 
 <!-- Calendar settings -> Integrate calendar -> Customize -->

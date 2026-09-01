@@ -2,6 +2,7 @@
 title: Training
 toc: true
 toc-depth: 4
+lightbox: true
 ---
 
 ![Copyright: Rawpixel Ltd.](../media/pages/cpr_training.jpg){width=60% fig-align="left"}

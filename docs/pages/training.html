@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-fa75ff363e3ced5b681887548358360a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -73,6 +76,7 @@ ul.task-list li input[type="checkbox"] {
 <meta property="og:description" content="">
 <meta property="og:image" content="../media/pages/cpr_training.jpg">
 <meta property="og:site_name" content="ND-HNC">
+<meta property="og:image:alt" content="Copyright: Rawpixel Ltd.">
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -245,7 +249,11 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="../media/pages/cpr_training.jpg" class="img-fluid figure-img" style="width:60.0%"></p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><a href="../media/pages/cpr_training.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Copyright: Rawpixel Ltd."><img src="../media/pages/cpr_training.jpg" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:60.0%" alt="Copyright: Rawpixel Ltd."></a></p>
+</figure>
+</div>
 <figcaption>Copyright: Rawpixel Ltd.</figcaption>
 </figure>
 </div>
@@ -391,7 +399,11 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../media/sops/nd-hnc_layout_zones.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../media/sops/nd-hnc_layout_zones.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Form RO03"><img src="../media/sops/nd-hnc_layout_zones.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="Form RO03"></a></p>
+</figure>
+</div>
 <figcaption>Form RO03</figcaption>
 </figure>
 </div>
@@ -833,6 +845,38 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
