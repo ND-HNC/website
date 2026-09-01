@@ -8,8 +8,8 @@ Internal documents and files for ND-HNC staff.
 
 ## Documents
 
-* [Contact form](../resources/forms/form_private_contacts.pdf){target="_blank"}
-
+* [Contact Form](../resources/forms/form_private_contacts.pdf){target="_blank"}
+* [Admin Functions](../resources/forms/form_private_mri_login.pdf){target="_blank"}
 
 ## Training Materials
 

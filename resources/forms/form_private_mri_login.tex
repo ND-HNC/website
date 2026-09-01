@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx} % Required for inserting images
+\setlength{\parindent}{0pt}
+\usepackage[bookmarks=true, colorlinks=true, urlcolor=blue, linkcolor=black]{hyperref}
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+\usepackage{parskip}
+\usepackage[normalem]{ulem}
+\usepackage{xurl}
+\urlstyle{same}
+
+\begin{document}
+
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
+
+This form contains administration information for the MRI Control Room and Computer.
+
+\section{Keybox Code}
+
+6875 (last digits of system ID)
+
+\section{Kiosk Mode}
+
+Toggle in/out of kiosk mode via: Tab + Del + `Send To'
+
+Credentials for XA software:
+
+\begin{enumerate}
+    \item U: medadmin P: adm\$pwd\$4\$med\$
+    \item U: clinadmin P: clin\$pwd\$4\$med\$
+    \item U: medclient P: client\$pwd\$4\$med\$
+\end{enumerate}
+
+\section{Windows Mode}
+
+Ctrl + Esc
+
+\section{Reset Password}
+
+\begin{enumerate}
+    \item Log in as medadmin
+    \item Open `myExam Cockpit'
+    \item Select `Password Protection'
+\end{enumerate}
+
+Old passwords will be loaded automatically, and it will be possible to set a new password.
+
+\section{Add DVS}
+
+Add DVS to appropriate location:
+
+\begin{enumerate}
+    \item Enter Windows mode
+    \item K:
+    \item CustomerSeq
+    \item DiffusionVectorSets
+\end{enumerate}
+
+Reference DVS in protocol:
+
+\begin{enumerate}
+    \item Protocol Card
+    \item Diff
+    \item Diffusion Mode
+    \item Free
+\end{enumerate}
+
+\end{document}
