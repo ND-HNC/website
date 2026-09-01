@@ -82,7 +82,7 @@
 \renewcommand{\headrulewidth}{0pt}
 
 % Format footer
-\fancyfoot[L]{v.0.1.0}
+\fancyfoot[L]{v.0.1.1}
 \fancyfoot[C]{\thepage}
 \fancyfoot[R]{\textbf{ND-HNC SOP: 104}}
 
@@ -107,7 +107,7 @@
 On rare occasions MRI research personnel may identify neurologic idiosyncracies, termed an `incidental finding', in data collected at the Notre Dame Human Neuroimaging Center (ND-HNC). This document establishes procedures for responding to such incidental findings.
 
 \section{Scope}
-These policies apply to all investigators, research assistants, and staff who collect, review, or use MRI data collected the ND-HNC.
+These policies apply to all investigators, research assistants, and staff who collect, review, or use MRI data collected at the ND-HNC.
 
 \section{Definitions}
 
@@ -125,13 +125,13 @@ Encountering such idiosyncracies introduces a number of responsibilities which t
 
 \begin{itemize}
     \item do not normally use diagnostic MRI protocols nor hold the necessary qualifications to make medical diagnoses,
-    \item may not cause harm to participants (e.g. undue stress, unnecessary medical expenses),
-    \item must protect participant anonymity,
+    \item must not cause harm to participants by \textit{commission} (e.g. false alarm leading to undue stress, unnecessary medical expenses) or \textit{omission} (e.g. withheld information leading to medical event),
+    \item are required to protect participant anonymity,
     \item must adhere to IRB regulations of data usage and governance, and
-    \item ought to consult with qualified individuals in case the anomalous image is medically significant.
+    \item ought to consult with qualified individuals in case the incidental finding is medically significant.
 \end{itemize}
 
-To help research personnel navigate these obligations, we provide an escalation protocol which is to be followed whenever research personnel suspect that collected MRI data has identified medically relevant anomalies. A description of these procedures should be included in any IRB application involving use of the ND-HNC MRI scanner.
+To help research personnel navigate these obligations, we provide an escalation protocol to be followed whenever incidental findings are detected. A description of these procedures should be included in any IRB application involving use of the ND-HNC MRI scanner.
 
 % Procedure of escalation:
 
@@ -145,20 +145,42 @@ To help research personnel navigate these obligations, we provide an escalation 
 
 %
 \subsection{Initial Review}
-All MRI data collected at the ND-HNC should be reviewed by their respective research team. This typically happens during acquisition but may also occur on research equipment.
+All MRI data collected at the ND-HNC should be reviewed by their respective research team. This typically happens during acquisition but may also occur at a later stage. In cases of incidental fingings:
 
 \begin{itemize}
     \item If the individual is still in the bore of the magnet, the Operator should acquire an axial T2-weighted series.
     \item Research personnel should \textbf{NOT} share their concerns with the individual who contributed MRI data.
-    \item The principal investigator (PI) should be contacted about the incidental finding. It is the responsibility of the PI to coordinate with ND-HNC staff for External Review and with the participant for any potential Follow-Up.
+    \item The Principal Investigator (PI) should be contacted about the incidental finding. It is the responsibility of the PI to coordinate with ND-HNC staff for External Review and with the participant for any potential Follow-Up.
 \end{itemize}
 
 
 \subsection{External Review}
+The ND-HNC contracts with qualified clinicians [\textbf{TBD}] to review incidental findings. After a PI contacts ND-HNC staff to initiate an External Review:
+
+\begin{itemize}
+    \item Participant DICOM files are copied to [\textbf{TBD}], an internal, short-term data storage location.
+    \item The clinician reviews the DICOM files either on-site or remotely via the University's secure network.
+    \item The clinician sends their review and recommendations by email to nd-hnc@nd.edu and the director of the ND-HNC, Aron Barbey (abarbey@nd.edu).
+\end{itemize}
 
 
 \subsection{Follow-Up}
+ND-HNC staff monitor the email account nd-hnc@nd.edu. Once a review is submitted by the clinician, ND-HNC coordinate with the PI.
 
+If a clinical follow-up is \textbf{NOT} recommended:
+
+\begin{itemize}
+    \item The DICOM files are removed from [\textbf{TBD}].
+    \item No further action is necessary.
+\end{itemize}
+
+
+Whereas, if a clinical follow-up \textbf{IS} recommended:
+
+\begin{itemize}
+    \item The PI schedules a meeting with the participant, sharing the clinician's review and recommendations.
+    \item The DICOM files are stored at [\textbf{TBD}] an internal, long-term data storage location, along with the review notes, in case they are requested in the future.
+\end{itemize}
 
 \section{Figures}
 
