@@ -140,9 +140,12 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 
 ## Zones 3-4
 
+- For new projects, please submit [Form RO05](../resources/forms/form_RO05_new_project.pdf){target="_blank"} prior to booking any time on the MRI scanner.
 - An MRI (B17) appointment books Zones 3 and 4.
+- Submit [Form RO04](../resources/forms/form_RO04_mri_reservation.pdf){target="_blank"} after booking the MRI scanner.
 - Please note the Billing [policy](../pages/policies.qmd).
 - **NOTE: Appointments are ONLY confirmed when accepted by the MRI Technologist.**
+
 
 <!-- MRI -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">

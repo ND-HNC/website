@@ -712,7 +712,7 @@
     "href": "pages/forms.html",
     "title": "Forms",
     "section": "",
-    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink",
+    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
     "crumbs": [
       "Forms"
     ]
@@ -722,7 +722,7 @@
     "href": "pages/forms.html#overview",
     "title": "Forms",
     "section": "",
-    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink",
+    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
     "crumbs": [
       "Forms"
     ]
@@ -883,7 +883,7 @@
     "href": "pages/schedule.html#zones-3-4",
     "title": "Schedule",
     "section": "Zones 3-4",
-    "text": "Zones 3-4\n\nAn MRI (B17) appointment books Zones 3 and 4.\nPlease note the Billing policy.\nNOTE: Appointments are ONLY confirmed when accepted by the MRI Technologist.",
+    "text": "Zones 3-4\n\nFor new projects, please submit Form RO05 prior to booking any time on the MRI scanner.\nAn MRI (B17) appointment books Zones 3 and 4.\nSubmit Form RO04 after booking the MRI scanner.\nPlease note the Billing policy.\nNOTE: Appointments are ONLY confirmed when accepted by the MRI Technologist.",
     "crumbs": [
       "Schedule"
     ]
