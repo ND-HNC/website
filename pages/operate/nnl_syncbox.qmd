@@ -3,10 +3,18 @@ title: Operate NNL SyncBox
 toc: true
 toc-depth: 2
 toc-expand: true
+lightbox: true
 ---
 
+This page is under construction.
+
+# Overview
+
+The SyncBox helps align participant responses (which happen in real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output, and sent to a computer via USB.
 
 # SyncBox Operations
+
+TBD
 
 # SyncBox Configuration
 ## Front

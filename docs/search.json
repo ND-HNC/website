@@ -269,7 +269,7 @@
     "href": "pages/training.html#ssec:train",
     "title": "Training",
     "section": "Upcoming Trainings",
-    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level).\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-11am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-11am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n12-2pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n12-2pm\nVFPC 148\n\n\nCPR/AED\n2026-11-10\n9-12pm\nHMH 319\n\n\n\nAdditional notes:\n\nLevels 1 & 2 are independent, you do not need to be Level 1 to register for Level 2.\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
+    "text": "Upcoming Trainings\nPlease review the schedule to select the relevant training session (and see Level Description for help determining the appropriate access Level).\n\n\n\n\n\n\n\n\n\nTopic\nDate\nTime\nLocation\n\n\n\n\nLevel 1\n2026-09-09\n9-11am\nVFPC 148\n\n\nLevel 1\n2026-10-05\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-02-02\n9-11am\nVFPC 148\n\n\nLevel 1\n2027-03-02\n9-11am\nVFPC 148\n\n\nLevel 2\n2026-09-09\n12-2pm\nVFPC 148\n\n\nLevel 2\n2026-10-05\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-02-02\n12-2pm\nVFPC 148\n\n\nLevel 2\n2027-03-02\n12-2pm\nVFPC 148\n\n\nCPR/AED\n2026-11-09\n10am-1pm\nHMH 319\n\n\n\nAdditional notes:\n\nLevels 1 & 2 are independent, you do not need to be Level 1 to register for Level 2.\nLevel 1 & 2 trainings are limited to 48 attendees.\nCPR/AED is required for Level 2 and above (recommended for Level 1).\nCPR/AED training cost is $65/person and is limited to 18 attendees.",
     "crumbs": [
       "Training"
     ]
@@ -733,6 +733,13 @@
     "title": "Operate CorpFS",
     "section": "",
     "text": "Overview\nLarge labs and long-term projects commonly have multiple waves of research assistants. To effectively conduct research at the ND-HNC, the research team needs to coordinate and centralize task deployment and data capture. For clinical studies, data may be a mixture of non-sensitive data, Personally Identifiable Information (PII), and Personal Health Information (PHI). Additionally, the Institutional Review Board (IRB) has specific policies for the transfer of data, depending on the method and sensitivity.\nEach lab which partners with the ND-HNC will receive access to the centralized data system CorpFS, which facilitates task deployment and data management across multiple sites and users. Directories are organized by the Primary Investigator’s (PI) name (i.e. HNC-PI) and contain three specialized directories with distinct permission levels:\n\nHNC-PI-admin: A highly restricted folder dedicated to securely housing sensitive PHI/PII data and important files. Only group administrators will be able to read, write, or execute in this directory.\nHNC-PI-read: A standardized folder where all team members can read and execute research tasks but cannot modify or delete files. This is useful for ensuring that all research assistants administer identical tasks.\nHNC-PI-write: A shared repository where all research assistants can save participant output data. This helps ensure that data is centralized and not left on the research assistant’s login account.\n\n\n\nAccess\n\nContact Nathan Muncy to be added to the CorpFS HNC group.\n\n\n\nConnect: OSx\n\nEstablish an SMB connection with CorpFS HNC:\n\n‘CMD-K’ opens “Connect to Server”\nConnect to ‘smb://psy.corpfs.nd.edu/psy/hnc’\n\n\n\n\n\n\n\n\nLogin with your Notre Dame credentials.\n\n\n\n\n\n\n\nView directory structure in Finder.\n\n\n\n\n\n\n\n\nConnect: Windows\n\nLog into PC workstation.\n\n\n\n\n\n\n\nNavigate to PSY CorpFS (P:) &gt; HNC.\n\n\n\n\n\n\n\nSelect appropriate PI directory.\n\n\n\n\n\n\n\nView user directory structure.\n\n\n\n\n\n\n\n\nNotes\n\nThese instructions refer to ND-owned devices connected to the eduroam network."
+  },
+  {
+    "objectID": "pages/operate/nnl_syncbox.html",
+    "href": "pages/operate/nnl_syncbox.html",
+    "title": "Operate NNL SyncBox",
+    "section": "",
+    "text": "This page is under construction."
   },
   {
     "objectID": "pages/operate/nnl_syncbox.html#front",
