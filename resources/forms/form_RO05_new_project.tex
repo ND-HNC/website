@@ -13,7 +13,7 @@
 \usepackage{pifont} % Required for \ding{52}
 
 %
-\providecommand\docvers{0.2.0}
+\providecommand\docvers{0.1.0}
 
 % Branding
 \providecommand\fromlogo{nd_logo.png}
@@ -65,7 +65,7 @@
 % Format footer
 \fancyfoot[L]{v.\docvers}
 \fancyfoot[C]{\thepage}
-\fancyfoot[R]{\textbf{ND-HNC Form: RO04}}
+\fancyfoot[R]{\textbf{ND-HNC Form: RO05}}
 
 \renewcommand{\footrulewidth}{0.5pt}
 % \renewcommand{\footruleskip}{20pt} % Optional: Adjust if you need more space above the line
@@ -119,43 +119,49 @@
 
 \vspace*{-1.5cm}
 \Huge
-\begin{center}MRI Reservation Form\\\end{center}
+\begin{center}MRI New Project Form\\\end{center}
 \large
-\textbf{Instructions:} Please complete and email this form to nd-hnc@nd.edu upon reserving scan time, using the subject line ``MRI Reservation Form (secure)''.\\[1em]
+\textbf{Instructions:} Please complete and email this form to ND-HNC staff at nd-hnc@nd.edu prior to scheduling facilities and/or equipment, using the subject line ``MRI New Project Form''.\\[1em]
 
 
-\textbf{Section 1: Researcher Contact Information}\\[1em]
+\textbf{Section 1: Project Information}\\[1em]
 
-\fillableline{Name (Last, First, Middle): }{name}{10cm}
+\fillableline{IRB Approval Number: }{irb}{6cm}
 
-\fillableline{ND Email: }{nd_email}{7cm}\\[1em]
+\fillableline{Project Name: }{projname}{15.65cm}
+
+\fillableline{Principal Investigator, Last: }{piname}{5cm} \hspace{2cm} \fillableline{E-mail: }{email}{5cm}
+
+\fillableline{Additional Collaborators (Last, E-mail): }{collab}{11.5cm}
+\fillableline{}{blank1}{18.15cm}
+
+\fillableline{What are the goals/objectives?}{goals}{13.25cm}
+\fillableline{}{blank2}{18.15cm}
+
+\fillableline{What type of MR data does this project require?}{mrdata}{10.35cm}
+
+\fillableline{What is the target number of participants?}{targ}{3cm}
+
+\fillableline{How many participants will be scanned per appointment?}{partscan}{3cm}
+
+\fillableline{If collecting fMRI task data, please list experiment software (e.g. PsychoPy): }{fmri}{5cm}\\[1em]
 
 
-\textbf{Section 2. Reservation Information}\\[1em]
+\textbf{Section 2. Support Required}\\[1em]
 
-\fillableline{Date: }{res_date}{5cm}
+Will this project require any of the following support:
 
-\fillableline{Length (hours): }{res_start}{3.35cm}
+\customchoicebox{Sequence development}
+
+\customchoicebox{fMRI task development}
+
+\customchoicebox{Technical, computational, or statistical}\\[1em]
 
 
-\textbf{Section 3. Billing Information}\\[1em]
 
-\fillableline{PI Last: }{pi_name}{5.25cm}
+\textbf{Section 3. Additional Resources}\\[1em]
 
-\fillableline{PI Email: }{pi_email}{5cm} \hfil \fillableline{PI Phone: }{pi_phone}{5cm}
-
-\fillableline{Laboratory (if different) or Project Name: }{proj_name}{10cm}\\[2em]
-
-\underline{FOAPAL Information}\\[1em]
-
-\fillableline{Fund: }{fund}{5cm}
-
-\fillableline{Organization: }{org}{5cm}
-
-\fillableline{Account: }{acct}{5cm}
-
-\fillableline{Program: }{pro}{5cm}
-
-\fillableline{Allocation (\%): }{alloc}{1cm} \hspace{1cm} \fillableline{Additional Funds/Allocations: }{xtra}{7cm}
+\fillableline{List any ND-HNC equipment and/or facilities that will be scheduled in addition to the MRI scanner: }{extra}{18.15cm}
+\fillableline{}{blank3}{18.15cm}
 
 \end{document}
