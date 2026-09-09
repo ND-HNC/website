@@ -14,7 +14,45 @@ The SyncBox helps align participant responses (which happen in real time) with f
 
 # SyncBox Operations
 
-TBD
+![](../../media/pages/syncbox_0.jpg){width=70% fig-align="center"}
+
+* The Nordic Neuro Lab (NNL) SyncBox operates as a serial device.
+    * Install this [driver](https://ftdichip.com/drivers/vcp-drivers/) on the device connecting to the SyncBox (e.g. stimulus computer).
+* Power the SyncBox on with the toggles on the right side
+
+![](../../media/pages/syncbox_1.jpg){width=70% fig-align="center"}
+
+* The SyncBox contains two modes of operation, manual and computer controlled.
+
+## Manual Mode
+
+***Manual mode is discouraged as you are required to set the TR length and number of volumes!***
+
+Two manual modes exist, Synchronization and Simulation. These are identical, save:
+
+* Simulation generates faux synchonization pulses, and
+* Synchronization listens for the scanner synchonization pulse.
+
+Setup:
+
+* Verify Serial mode: Sync/Simulation -> Go to Options menu -> USB Mode -> Serial.
+    * HID is still an option (but does not work).
+* Manually send a sync pulse to your program (for testing): Sync/Simulation -> Send triggerpulse to PC.
+
+Use:
+
+* Configure session by specifying TR length and number of volumes.
+    * **Note:** the SyncBox will stop listening after the specified number of volumes.
+* Start the box listening for synchronization pulse and/or response grip input: Sync/Simuation -> Start Session.
+    * Use center button to exit Session.
+
+
+## Controlled Mode
+
+* This is the vendor-preferred method of using the SyncBox.
+* An example of using Python to connect the SyncBox to PsychoPy is available [here](https://github.com/ND-HNC/nnl_psychopy).
+
+
 
 # SyncBox Configuration
 ## Front
@@ -56,3 +94,5 @@ TBD
 ![](../../media/pages/trigger_3.jpg){width=70% fig-align="center"}
 
 * The fiber optic cable connected to "opt_trig_out_aux" (O2) is the input for the NNL SyncBox (A1).
+
+# Wiring Diagram

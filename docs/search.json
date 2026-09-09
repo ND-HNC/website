@@ -742,6 +742,20 @@
     "text": "This page is under construction."
   },
   {
+    "objectID": "pages/operate/nnl_syncbox.html#manual-mode",
+    "href": "pages/operate/nnl_syncbox.html#manual-mode",
+    "title": "Operate NNL SyncBox",
+    "section": "Manual Mode",
+    "text": "Manual Mode\nManual mode is discouraged as you are required to set the TR length and number of volumes!\nTwo manual modes exist, Synchronization and Simulation. These are identical, save:\n\nSimulation generates faux synchonization pulses, and\nSynchronization listens for the scanner synchonization pulse.\n\nSetup:\n\nVerify Serial mode: Sync/Simulation -&gt; Go to Options menu -&gt; USB Mode -&gt; Serial.\n\nHID is still an option (but does not work).\n\nManually send a sync pulse to your program (for testing): Sync/Simulation -&gt; Send triggerpulse to PC.\n\nUse:\n\nConfigure session by specifying TR length and number of volumes.\n\nNote: the SyncBox will stop listening after the specified number of volumes.\n\nStart the box listening for synchronization pulse and/or response grip input: Sync/Simuation -&gt; Start Session.\n\nUse center button to exit Session."
+  },
+  {
+    "objectID": "pages/operate/nnl_syncbox.html#controlled-mode",
+    "href": "pages/operate/nnl_syncbox.html#controlled-mode",
+    "title": "Operate NNL SyncBox",
+    "section": "Controlled Mode",
+    "text": "Controlled Mode\n\nThis is the vendor-preferred method of using the SyncBox.\nAn example of using Python to connect the SyncBox to PsychoPy is available here."
+  },
+  {
     "objectID": "pages/operate/nnl_syncbox.html#front",
     "href": "pages/operate/nnl_syncbox.html#front",
     "title": "Operate NNL SyncBox",
