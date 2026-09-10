@@ -1,0 +1,152 @@
+\documentclass[11pt]{article}
+\usepackage{fix-cm} % Prevent font outline clipping at huge scale factors
+\usepackage[paperwidth=2550px, paperheight=3300px, margin=0pt]{geometry}
+\usepackage{tikz}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage[scaled]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Define color palette for Levels 1–5
+\definecolor{level1bg}{RGB}{213, 176, 241} % Light Purple
+\definecolor{level2bg}{RGB}{213, 128, 241} % Purple
+\definecolor{level3bg}{RGB}{136, 232, 159} % Green
+\definecolor{level4bg}{RGB}{115, 151, 226} % Blue
+\definecolor{level5bg}{RGB}{200, 200, 200} % Gray
+% \definecolor{level5bg}{RGB}{255, 255, 255} % Gray
+
+\definecolor{accentgold}{RGB}{185, 142, 50}
+\definecolor{navytext}{RGB}{20, 30, 75}
+\definecolor{bordergray}{RGB}{200, 200, 200}
+
+\pagestyle{empty}
+\parindent=0pt
+
+\newcommand{\HeaderFontSize}{64}
+\newcommand{\NameFontSize}{48}
+\newcommand{\ExpFontSize}{24}
+
+\newcommand{\ExpireDate}{2027-09-09}
+
+% Macro Parameters:
+% #1: Background Color Macro
+% #2: Access Level Text
+% #3: Photo File Path
+% #4: Full Name
+\newcommand{\staticbadge}[4]{%
+  \begin{scope}
+    % Outer border / cutting guideline
+    \draw[bordergray, line width=1.5px] (0, 0) rectangle (675px, 1012.5px);
+
+    % Top Access Level Header Block
+    \fill[#1] (0, 795px) rectangle (675px, 1012.5px);
+    \fill[accentgold] (0, 786px) rectangle (675px, 795px);
+
+    % Access Level Static Text (Uses \HeaderFontSize)
+    \node[anchor=center, text=navytext] at (337.5px, 903px) {%
+      \fontsize{\HeaderFontSize pt}{\dimexpr\HeaderFontSize pt*12/10\relax}\selectfont\bfseries #2%
+    };
+
+    % Photo Area / Embedded Image
+    \node[anchor=center] at (337.5px, 510px) {%
+      \includegraphics[width=480px, height=450px, keepaspectratio=false]{#3}%
+    };
+
+    % Central Photo Frame Border
+    \draw[accentgold, line width=4.5px] (97.5px, 285px) rectangle (577.5px, 735px);
+
+    % Name / User Field Static Text (Uses \NameFontSize)
+    \node[anchor=center, text=navytext] at (337.5px, 216px) {%
+      \fontsize{\NameFontSize pt}{\dimexpr\NameFontSize pt*12/10\relax}\selectfont\bfseries #4%
+    };
+
+    % Bottom Expiration Date Footer Block
+    \fill[#1] (0, 0) rectangle (675px, 135px);
+
+    % Expiration Date Static Text (Uses \ExpFontSize)
+    \node[anchor=east, text=navytext] at (645px, 67.5px) {%
+      \fontsize{\ExpFontSize pt}{\dimexpr\ExpFontSize pt*12/10\relax}\selectfont Exp: \ExpireDate%
+    };
+  \end{scope}%
+}
+
+\begin{document}
+
+\nointerlineskip
+\vbox to \paperheight{
+  \vss
+  \centering
+  \begin{tikzpicture}[x=1px, y=1px]
+
+    % Level 1
+
+    % Row 1 (Top)
+    \begin{scope}[shift={(0px, 2100px)}]
+      \staticbadge{level1bg}{Level 1 Access}{~/Desktop/photos_lvl-1_2026-09-09/alex.jpg}{Alex Sanchez}
+    \end{scope}
+    \begin{scope}[shift={(765px, 2100px)}]
+      \staticbadge{level1bg}{Level 1 Access}{~/Desktop/photos_lvl-1_2026-09-09/beth.jpg}{Beth Arnold}
+    \end{scope}
+    \begin{scope}[shift={(1530px, 2100px)}]
+      \staticbadge{level1bg}{Level 1 Access}{~/Desktop/photos_lvl-1_2026-09-09/elle.jpg}{Elle Fox}
+    \end{scope}
+
+
+    % Row 2 (Middle)
+    \begin{scope}[shift={(0px, 1050px)}]
+      \staticbadge{level1bg}{Level 1 Access}{~/Desktop/photos_lvl-1_2026-09-09/emma.jpg}{Emma Janes}
+    \end{scope}
+    \begin{scope}[shift={(765px, 1050px)}]
+      \staticbadge{level1bg}{Level 1 Access}{~/Desktop/photos_lvl-1_2026-09-09/heidi.jpg}{Heidi Miller}
+    \end{scope}
+    \begin{scope}[shift={(1530px, 1050px)}]
+      \staticbadge{level1bg}{Level 1 Access}{~/Desktop/photos_lvl-1_2026-09-09/melissa.png}{Melissa Denney}
+    \end{scope}
+
+
+    % Level 2
+
+    % % Row 1 (Top)
+    % \begin{scope}[shift={(0px, 2100px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/tony.jpg}{Anthony Miesel}
+    % \end{scope}
+    % \begin{scope}[shift={(765px, 2100px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/chenhao.jpg}{Chenhao Li}
+    % \end{scope}
+    % \begin{scope}[shift={(1530px, 2100px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/chenlingxi.jpg}{Chenlingxi (Lyncie) Xu}
+    % \end{scope}
+
+
+    % % Row 2 (Middle)
+    % \begin{scope}[shift={(0px, 1050px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/jisheng.jpg}{Jisheng Wu}
+    % \end{scope}
+    % \begin{scope}[shift={(765px, 1050px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/mechelle.jpg}{Mechelle Celie}
+    % \end{scope}
+    % \begin{scope}[shift={(1530px, 1050px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/shelby.jpg}{Shelby Buettner}
+    % \end{scope}
+
+    % % Row 3 (Bottom)
+    % \begin{scope}[shift={(0px, 0px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/rebecca.jpg}{Rebecca Warren}
+    % \end{scope}
+    % \begin{scope}[shift={(765px, 0px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/sophia.jpg}{Sophia Vinci-Booher}
+    % \end{scope}
+    % \begin{scope}[shift={(1530px, 0px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/ashley.jpg}{Xin (Ashley) Hao}
+    % \end{scope}
+
+    % % Row 1 (Top)
+    % \begin{scope}[shift={(0px, 2100px)}]
+    %   \staticbadge{level2bg}{Level 2 Access}{~/Desktop/photos_lvl-2_2026-09-09/caroline.jpg}{Xueying (Caroline) Ren}
+    % \end{scope}
+
+  \end{tikzpicture}
+  \vss
+}
+
+\end{document}
