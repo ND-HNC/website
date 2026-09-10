@@ -222,8 +222,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#front" id="toc-front" class="nav-link" data-scroll-target="#front">Front</a></li>
   <li><a href="#back" id="toc-back" class="nav-link" data-scroll-target="#back">Back</a></li>
   </ul></li>
+  <li><a href="#video-converter-configuration" id="toc-video-converter-configuration" class="nav-link" data-scroll-target="#video-converter-configuration">Video Converter Configuration</a></li>
   <li><a href="#fmri-trigger-configuration" id="toc-fmri-trigger-configuration" class="nav-link" data-scroll-target="#fmri-trigger-configuration">fMRI Trigger Configuration</a></li>
-  <li><a href="#wiring-diagram" id="toc-wiring-diagram" class="nav-link" data-scroll-target="#wiring-diagram">Wiring Diagram</a></li>
   </ul>
 </nav>
     </div>
@@ -249,10 +249,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page is under construction.</p>
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>The SyncBox helps align participant responses (which happen in real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output, and sent to a computer via USB.</p>
+<p>The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (which happen in real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.</p>
+<p><strong><em>Note:</em></strong> Unlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode.</p>
 </section>
 <section id="syncbox-operations" class="level1">
 <h1>SyncBox Operations</h1>
@@ -262,10 +262,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <ul>
-<li>The Nordic Neuro Lab (NNL) SyncBox operates as a serial device.
-<ul>
-<li>Install this <a href="https://ftdichip.com/drivers/vcp-drivers/">driver</a> on the device connecting to the SyncBox (e.g.&nbsp;stimulus computer).</li>
-</ul></li>
+<li>The NNL SyncBox operates as a serial device. Install this <a href="https://ftdichip.com/drivers/vcp-drivers/">driver</a> on the device connecting to the SyncBox (e.g.&nbsp;stimulus computer).</li>
 <li>Power the SyncBox on with the toggles on the right side</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
@@ -273,26 +270,19 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="../../media/pages/syncbox_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="../../media/pages/syncbox_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
-<ul>
-<li>The SyncBox contains two modes of operation, manual and computer controlled.</li>
-</ul>
 <section id="manual-mode" class="level2">
 <h2 class="anchored" data-anchor-id="manual-mode">Manual Mode</h2>
-<p><strong><em>Manual mode is discouraged as you are required to set the TR length and number of volumes!</em></strong></p>
-<p>Two manual modes exist, Synchronization and Simulation. These are identical, save:</p>
-<ul>
-<li>Simulation generates faux synchonization pulses, and</li>
-<li>Synchronization listens for the scanner synchonization pulse.</li>
-</ul>
-<p>Setup:</p>
+<p>Two manual modes exist, Simulation and Synchronization. These are identical, save (a) Simulation generates faux synchronization pulses, and (b) Synchronization listens for the scanner synchronization pulse.</p>
+<ol type="1">
+<li>Setup:
 <ul>
 <li>Verify Serial mode: Sync/Simulation -&gt; Go to Options menu -&gt; USB Mode -&gt; Serial.
 <ul>
 <li>HID is still an option (but does not work).</li>
 </ul></li>
 <li>Manually send a sync pulse to your program (for testing): Sync/Simulation -&gt; Send triggerpulse to PC.</li>
-</ul>
-<p>Use:</p>
+</ul></li>
+<li>Use:
 <ul>
 <li>Configure session by specifying TR length and number of volumes.
 <ul>
@@ -302,12 +292,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Use center button to exit Session.</li>
 </ul></li>
-</ul>
+</ul></li>
+</ol>
 </section>
 <section id="controlled-mode" class="level2">
 <h2 class="anchored" data-anchor-id="controlled-mode">Controlled Mode</h2>
 <ul>
-<li>This is the vendor-preferred method of using the SyncBox.</li>
+<li>This is the vendor preferred method of using the SyncBox.</li>
 <li>An example of using Python to connect the SyncBox to PsychoPy is available <a href="https://github.com/ND-HNC/nnl_psychopy">here</a>.</li>
 </ul>
 </section>
@@ -367,7 +358,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="back">Back</h2>
 <ul>
 <li>The User Interface receives input from the fMRI Trigger Converter box (A1), Response Capture (A2), and Power (A3).</li>
-<li>The Response Captre receives input from the Response Grips (B1) and Power (B2), and send output to the User Interface (B2).</li>
+<li>The Response Capture receives input from the Response Grips (B1) and Power (B3), and sends output to the User Interface (B2).</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -376,6 +367,26 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 </section>
+<section id="video-converter-configuration" class="level1">
+<h1>Video Converter Configuration</h1>
+<p>Video from the stimulus computer is sent to the presentation monitor in Zone 4 via the 4K HDMI to Fiber Extender. While this box is capable of bidirectional communication (Tx/Rx), the only ‘downstream’ device is the monitor.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../media/pages/video_convert_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="../../media/pages/video_convert_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+</figure>
+</div>
+<ul>
+<li>A. USB, unused but could send/receive serial data (keyboard, mouse).</li>
+<li>B. Fiber output, connects to the presentation monitor.</li>
+<li>C. HDMI input, from the stimulus computer.</li>
+<li>D. Power.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../media/pages/video_convert_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="../../media/pages/video_convert_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+</figure>
+</div>
+</section>
 <section id="fmri-trigger-configuration" class="level1">
 <h1>fMRI Trigger Configuration</h1>
 <ul>
@@ -383,7 +394,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/trigger_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="../../media/pages/trigger_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/trigger_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="../../media/pages/trigger_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 <ul>
@@ -391,7 +402,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/trigger_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="../../media/pages/trigger_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/trigger_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="../../media/pages/trigger_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 <ul>
@@ -399,15 +410,12 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/trigger_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="../../media/pages/trigger_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/trigger_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="../../media/pages/trigger_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 <ul>
 <li>The fiber optic cable connected to “opt_trig_out_aux” (O2) is the input for the NNL SyncBox (A1).</li>
 </ul>
-</section>
-<section id="wiring-diagram" class="level1">
-<h1>Wiring Diagram</h1>
 
 
 </section>
