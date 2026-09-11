@@ -22,6 +22,8 @@
 \pagestyle{empty}
 \parindent=0pt
 
+% Format for badges
+\newcommand{\LogoFilePath}{../../media/nd_brand/nd_logo.png}
 \newcommand{\HeaderFontSize}{64}
 \newcommand{\NameFontSize}{48}
 \newcommand{\ExpFontSize}{24}
@@ -35,40 +37,43 @@
 % #4: Full Name
 \newcommand{\staticbadge}[4]{%
   \begin{scope}
-    % Outer border / cutting guideline
-    \draw[bordergray, line width=1.5px] (0, 0) rectangle (675px, 1012.5px);
+    % Outer border / cutting guideline (0 to 675px width, 0 to 1012.5px height)
+    \draw[bordergray, line width=3.5px] (0, 0) rectangle (675px, 1012.5px);
 
-    % Top Access Level Header Block
-    \fill[#1] (0, 795px) rectangle (675px, 1012.5px);
-    \fill[accentgold] (0, 786px) rectangle (675px, 795px);
+    % Top banner and access level
+    (0, 920px) rectangle (675px, 1012.5px);
+    \node[anchor=west] at (20px, 966.25px) {%
+      \includegraphics[height=65px, keepaspectratio=true]{\LogoFilePath}%
+    };
 
-    % Access Level Static Text (Uses \HeaderFontSize)
-    \node[anchor=center, text=navytext] at (337.5px, 903px) {%
+    \node[anchor=east, text=navytext] at (655px, 966.25px) {%
+      \fontsize{24pt}{32pt}\selectfont\bfseries Human Neuroimaging Center%
+    };
+    \fill[accentgold] (0, 919px) rectangle (675px, 928px);
+    \fill[#1] (0, 765px) rectangle (675px, 920px);
+    \fill[accentgold] (0, 757px) rectangle (675px, 766px);
+    \node[anchor=center, text=navytext] at (337.5px, 842.5px) {%
       \fontsize{\HeaderFontSize pt}{\dimexpr\HeaderFontSize pt*12/10\relax}\selectfont\bfseries #2%
     };
 
-    % Photo Area / Embedded Image
-    \node[anchor=center] at (337.5px, 510px) {%
-      \includegraphics[width=480px, height=450px, keepaspectratio=false]{#3}%
+    % Photo and name
+    % \draw[accentgold, line width=4.5px] (142.5px, 315px) rectangle (532.5px, 675px);
+    \node[anchor=center] at (337.5px, 495px) {%
+      \includegraphics[width=390px, height=360px, keepaspectratio=true]{#3}%
     };
-
-    % Central Photo Frame Border
-    \draw[accentgold, line width=4.5px] (97.5px, 285px) rectangle (577.5px, 735px);
-
-    % Name / User Field Static Text (Uses \NameFontSize)
-    \node[anchor=center, text=navytext] at (337.5px, 216px) {%
+    \node[anchor=center, text=navytext] at (337.5px, 210px) {%
       \fontsize{\NameFontSize pt}{\dimexpr\NameFontSize pt*12/10\relax}\selectfont\bfseries #4%
     };
 
-    % Bottom Expiration Date Footer Block
-    \fill[#1] (0, 0) rectangle (675px, 135px);
-
-    % Expiration Date Static Text (Uses \ExpFontSize)
-    \node[anchor=east, text=navytext] at (645px, 67.5px) {%
+    % Footer
+    \fill[accentgold] (0, 89px) rectangle (675px, 98px);
+    \fill[#1] (0, 0) rectangle (675px, 90px);
+    \node[anchor=east, text=navytext] at (645px, 45px) {%
       \fontsize{\ExpFontSize pt}{\dimexpr\ExpFontSize pt*12/10\relax}\selectfont Exp: \ExpireDate%
     };
   \end{scope}%
 }
+
 
 \begin{document}
 
@@ -104,7 +109,7 @@
     \end{scope}
 
 
-    % Level 2
+    % % Level 2
 
     % % Row 1 (Top)
     % \begin{scope}[shift={(0px, 2100px)}]
