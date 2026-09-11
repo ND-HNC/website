@@ -70,6 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <meta property="og:title" content="Operate NNL SyncBox – ND-HNC">
@@ -224,6 +227,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#video-converter-configuration" id="toc-video-converter-configuration" class="nav-link" data-scroll-target="#video-converter-configuration">Video Converter Configuration</a></li>
   <li><a href="#fmri-trigger-configuration" id="toc-fmri-trigger-configuration" class="nav-link" data-scroll-target="#fmri-trigger-configuration">fMRI Trigger Configuration</a></li>
+  <li><a href="#wiring-diagram" id="toc-wiring-diagram" class="nav-link" data-scroll-target="#wiring-diagram">Wiring Diagram</a></li>
   </ul>
 </nav>
     </div>
@@ -251,8 +255,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (which happen in real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.</p>
-<p><strong><em>Note:</em></strong> Unlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode.</p>
+<p>The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.</p>
+<p>Unlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode.</p>
 </section>
 <section id="syncbox-operations" class="level1">
 <h1>SyncBox Operations</h1>
@@ -263,7 +267,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <ul>
 <li>The NNL SyncBox operates as a serial device. Install this <a href="https://ftdichip.com/drivers/vcp-drivers/">driver</a> on the device connecting to the SyncBox (e.g.&nbsp;stimulus computer).</li>
-<li>Power the SyncBox on with the toggles on the right side</li>
+<li>Use the USB cable on the left side of SyncBox to connect with the stimulus computer.</li>
+<li>Power the SyncBox on with the toggles on the right side.</li>
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -416,6 +421,79 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>The fiber optic cable connected to “opt_trig_out_aux” (O2) is the input for the NNL SyncBox (A1).</li>
 </ul>
+</section>
+<section id="wiring-diagram" class="level1">
+<h1>Wiring Diagram</h1>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">---
+config:
+  theme: 'neutral'
+---
+
+flowchart LR
+
+    subgraph MRIRoom
+        MriMon[Monitor]
+        MriRespGrip[Response Grips]
+        MriScan[MRI Scanner]
+
+        subgraph fMRITrigger
+            fMriTrigI1[opt_trig_in]
+            fMriTrigO2[opt_trig_out_aux]
+        end
+    end
+
+    subgraph ControlRoom
+
+        subgraph StimulusComp
+            StimUsb[USB]
+            StimHdmi[HDMI]
+        end
+
+        subgraph SyncBox
+            subgraph UserInterface
+                SyncUsb[USB]
+                SyncTrig[fMRI Trigger]
+                SyncTtlIn[TTL]
+            end
+            subgraph ResponseCapture
+                SyncRespGrip[Response Grips]
+                SyncTtlOut[TTL]
+            end
+        end
+
+        subgraph VideoConverter
+            VidHdmi[HDMI In]
+            VidOptic[Optic Out]
+        end
+    end
+
+    MriScan -- W13470 --&gt; fMriTrigI1
+    fMriTrigO2 --&gt; SyncTrig
+    MriRespGrip --&gt; SyncRespGrip
+    SyncTtlOut --&gt; SyncTtlIn
+    SyncUsb &lt;--&gt; StimUsb
+    StimHdmi --&gt; VidHdmi
+    VidOptic --&gt; MriMon
+
+    style MRIRoom fill:#ffffff,stroke:#800080
+    style ControlRoom fill:#ffffff,stroke:#00FF00
+    style fMRITrigger fill:#ffffff,stroke:#008080
+    style StimulusComp fill:#ffffff,stroke:#0000FF
+    style SyncBox fill:#ffffff,stroke:#FF0000
+    style UserInterface fill:#ffffff,stroke:#000000
+    style ResponseCapture fill:#ffffff,stroke:#000000
+    style VideoConverter fill:#ffffff,stroke:#000000
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>

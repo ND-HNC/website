@@ -739,7 +739,7 @@
     "href": "pages/operate/nnl_syncbox.html",
     "title": "Operate NNL SyncBox",
     "section": "",
-    "text": "The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (which happen in real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.\nNote: Unlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode."
+    "text": "The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.\nUnlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode."
   },
   {
     "objectID": "pages/operate/nnl_syncbox.html#manual-mode",
