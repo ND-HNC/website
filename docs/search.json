@@ -339,7 +339,7 @@
     "href": "pages/private.html#documents",
     "title": "Private",
     "section": "Documents",
-    "text": "Documents\n\nContact Form\nAdmin Functions",
+    "text": "Documents\n\nContact Form\nAdmin Functions\nAccess Badges",
     "crumbs": [
       "Private"
     ]
@@ -397,7 +397,7 @@
     "href": "pages/operate.html",
     "title": "Operate",
     "section": "",
-    "text": "This page is under construction.\nThe ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:\n\n\n\nResource\nType\nPurpose\n\n\n\n\nCorpFS\nFile System\nCentralize experiment protocols and participant response data.\n\n\nMRI Simulator\nEquipment\nPrepare participants to contribute MRI data.\n\n\nSyncBox\nEquipment\nCapture fMRI synchronization pulse and participant responses.\n\n\nNordicNeuroLab\nEquipment\nDeploy functional MRI paradigms and capture participant responses.\n\n\nStimulus Control\nComputer\nDeploy lab-specific MRI paradigms.\n\n\nDICOM Management\nComputer\nCapture, organize, and send DICOM files to an appropriate location.",
+    "text": "This page is under construction.\nThe ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:\n\n\n\nResource\nType\nPurpose\n\n\n\n\nCorpFS\nFile System\nCentralize experiment protocols and participant response data.\n\n\nMRI Simulator\nEquipment\nPrepare participants to contribute MRI data.\n\n\nNNL SyncBox\nEquipment\nCapture fMRI synchronization pulse and participant responses.\n\n\nNordicNeuroLab\nEquipment\nDeploy functional MRI paradigms and capture participant responses.\n\n\nStimulus Control\nComputer\nDeploy lab-specific MRI paradigms.\n\n\nDICOM Management\nComputer\nCapture, organize, and send DICOM files to an appropriate location.",
     "crumbs": [
       "Operate"
     ]
@@ -739,7 +739,21 @@
     "href": "pages/operate/nnl_syncbox.html",
     "title": "Operate NNL SyncBox",
     "section": "",
-    "text": "This page is under construction."
+    "text": "The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.\nUnlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode."
+  },
+  {
+    "objectID": "pages/operate/nnl_syncbox.html#manual-mode",
+    "href": "pages/operate/nnl_syncbox.html#manual-mode",
+    "title": "Operate NNL SyncBox",
+    "section": "Manual Mode",
+    "text": "Manual Mode\nTwo manual modes exist, Simulation and Synchronization. These are identical, save (a) Simulation generates faux synchronization pulses, and (b) Synchronization listens for the scanner synchronization pulse.\n\nSetup:\n\nVerify Serial mode: Sync/Simulation -&gt; Go to Options menu -&gt; USB Mode -&gt; Serial.\n\nHID is still an option (but does not work).\n\nManually send a sync pulse to your program (for testing): Sync/Simulation -&gt; Send triggerpulse to PC.\n\nUse:\n\nConfigure session by specifying TR length and number of volumes.\n\nNote: the SyncBox will stop listening after the specified number of volumes.\n\nStart the box listening for synchronization pulse and/or response grip input: Sync/Simuation -&gt; Start Session.\n\nUse center button to exit Session."
+  },
+  {
+    "objectID": "pages/operate/nnl_syncbox.html#controlled-mode",
+    "href": "pages/operate/nnl_syncbox.html#controlled-mode",
+    "title": "Operate NNL SyncBox",
+    "section": "Controlled Mode",
+    "text": "Controlled Mode\n\nThis is the vendor preferred method of using the SyncBox.\nAn example of using Python to connect the SyncBox to PsychoPy is available here."
   },
   {
     "objectID": "pages/operate/nnl_syncbox.html#front",
@@ -753,7 +767,7 @@
     "href": "pages/operate/nnl_syncbox.html#back",
     "title": "Operate NNL SyncBox",
     "section": "Back",
-    "text": "Back\n\nThe User Interface receives input from the fMRI Trigger Converter box (A1), Response Capture (A2), and Power (A3).\nThe Response Captre receives input from the Response Grips (B1) and Power (B2), and send output to the User Interface (B2)."
+    "text": "Back\n\nThe User Interface receives input from the fMRI Trigger Converter box (A1), Response Capture (A2), and Power (A3).\nThe Response Capture receives input from the Response Grips (B1) and Power (B3), and sends output to the User Interface (B2)."
   },
   {
     "objectID": "pages/policies.html",
