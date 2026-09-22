@@ -82,9 +82,9 @@
 \renewcommand{\headrulewidth}{0pt}
 
 % Format footer
-\fancyfoot[L]{v.0.2.0}
+\fancyfoot[L]{v.0.3.0}
 \fancyfoot[C]{\thepage}
-\fancyfoot[R]{\textbf{ND-HNC SOP: 104}}
+\fancyfoot[R]{\textbf{ND-HNC SOP: 203}}
 
 \renewcommand{\footrulewidth}{0.5pt}
 
@@ -98,7 +98,7 @@
 \renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
 
 \begin{center}
-	\textbf{\Large SOP 104: Incidental Findings}\\
+	\textbf{\Large SOP 203: Incidental Findings}\\
 	\hrulefill
 \end{center}
 
@@ -114,6 +114,7 @@ These policies apply to all investigators, research assistants, and staff who co
 \begin{itemize}
     \item \DICOM
     \item \IRB
+    \item \PI
     \item \Operator
 \end{itemize}
 
@@ -143,7 +144,7 @@ Encountering such idiosyncracies introduces a number of responsibilities which t
 To help research personnel navigate these obligations, we provide an escalation protocol to be followed whenever incidental findings are detected. A description of these procedures should be included in any IRB application involving use of the ND-HNC MRI scanner. In short, the ND-HNC helps the Principal Investigator (PI) seek a recommendation from a qualified clinician.
 
 \subsection{Initial Review}
-All MRI data collected at the ND-HNC should be reviewed by their respective research team. This typically happens during acquisition but may also occur at a later stage. In cases of incidental findings:
+Research personnel may notice something unusual during the normal acquisition, review, or use of the research data. When an unexpected observation occurs:
 
 \begin{itemize}
     \item Research personnel should \textbf{NOT} share their concerns with the individual who contributed MRI data.
@@ -158,12 +159,12 @@ The ND-HNC contracts with qualified clinicians [\textbf{TBD}] to review incident
 \begin{itemize}
     \item Participant structural DICOM files are copied to [\textbf{TBD}], an internal, short-term data storage location.
     \item The clinician reviews the DICOM files either on-site or remotely via the University's secure network.
-    \item The clinician sends their review and recommendations by email to nd-hnc@nd.edu and to the director of the ND-HNC, Aron Barbey (abarbey@nd.edu).
+    \item The clinician sends their review and recommendations to the director (Aron Barbey: abarbey@nd.edu) and MRI technologist (Jeff Fox: jfox22@nd.edu).
 \end{itemize}
 
 
 \subsection{Follow-Up}
-ND-HNC staff monitor the email account nd-hnc@nd.edu. Once a review is submitted by the clinician, ND-HNC coordinate with the PI.
+The MRI technologist coordinates with the PI once a clinical review and recommendation is received; the director oversees this coordination. In cases where clinical follow-up is recommended, the role of PI is to communicate the clinician's recommendation.
 
 If a clinical follow-up is \textbf{NOT} recommended:
 
@@ -176,12 +177,25 @@ If a clinical follow-up is \textbf{NOT} recommended:
 Whereas, if a clinical follow-up \textbf{IS} recommended:
 
 \begin{itemize}
-    \item The PI schedules a meeting with the participant, sharing the clinician's review and recommendations.
+    \item The PI schedules a meeting with the participant to share the clinician's report, referencing the following script:
+    \begin{enumerate}
+        \item ``Thank you for meeting with me today.''
+        \item ``You recently participated in research at the Notre Dame Human Neuroimaging Center and part of the data you contributed were MRI scans.''
+        \item ``While the data were collected for research purposes, something unexpected showed up in your scans.''
+        \item ``Per our Standard Operating Procedures, your scans were referred to a radiologist for interpretation.''
+        \item Provide the radiologists review and recommendation.
+        \item Conclude with ``I am not a physician, so it is not appropriate for me to answer any questions about the radiologist's report or provide any advice.''
+    \end{enumerate}
     \item The DICOM files are stored at [\textbf{TBD}] an internal, long-term data storage location, along with the review notes, in case they are requested in the future.
 \end{itemize}
 
 \section{Figures}
 
 None.
+
+% \begin{thebibliography}{999}
+% 	\bibitem{spikes}
+% 		\url{https://healthcare.utah.edu/integrative-health/resiliency-center/news/2020/05/spikes-strategy-delivering-bad-news}
+% \end{thebibliography}
 
 \end{document}
