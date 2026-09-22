@@ -141,25 +141,28 @@ Encountering such idiosyncracies introduces a number of responsibilities which t
     \item must adhere to IRB regulations of data usage and governance.
 \end{itemize}
 
-To help research personnel navigate these obligations, we provide an escalation protocol to be followed whenever incidental findings are detected. A description of these procedures should be included in any IRB application involving use of the ND-HNC MRI scanner. In short, the ND-HNC helps the Principal Investigator (PI) seek a recommendation from a qualified clinician.
+To help research personnel navigate these obligations, we provide an escalation protocol to be followed whenever unexpected findings occur. A description of these procedures should be included in any IRB application involving use of the ND-HNC MRI scanner. In short, the ND-HNC helps the Principal Investigator (PI) seek a recommendation from a qualified clinician.
 
 \subsection{Initial Review}
-Research personnel may notice something unusual during the normal acquisition, review, or use of the research data. When an unexpected observation occurs:
+Research personnel may notice something unexpected during the normal acquisition or use of the research data. When an unexpected observation occurs:
 
 \begin{itemize}
-    \item Research personnel should \textbf{NOT} share their concerns with the individual who contributed MRI data.
-    \item The individual is \textbf{NOT} contacted for follow-up scans nor are they informed that an incidental finding has been detected and the escalation process started.
-    \item The PI should be contacted about the incidental finding. It is the responsibility of the PI to coordinate with ND-HNC staff for External Review and with the participant for any potential Follow-Up.
+    \item Research personnel do not share their concerns with the individual who contributed the MRI data.
+    \item Additional scans are not collected if the individual is present nor is the individual contacted for follow-up scans.
+    \item The PI is contacted about the unexpected finding. The PI then coordinates with the MRI technologist for an External Review.
+    \item The individual is not informed that the escalation process started.
 \end{itemize}
 
 
 \subsection{External Review}
-The ND-HNC contracts with qualified clinicians [\textbf{TBD}] to review incidental findings. After a PI contacts ND-HNC staff to initiate an External Review:
+The ND-HNC contracts with Radiology Inc.\cite{radinc} for clinical review of unexpected findings. When a PI contacts ND-HNC staff to initiate an External Review:
 
 \begin{itemize}
-    \item Participant structural DICOM files are copied to [\textbf{TBD}], an internal, short-term data storage location.
-    \item The clinician reviews the DICOM files either on-site or remotely via the University's secure network.
-    \item The clinician sends their review and recommendations to the director (Aron Barbey: abarbey@nd.edu) and MRI technologist (Jeff Fox: jfox22@nd.edu).
+    \item The MRI technologist copies the participant structural DICOM files to an encrypted flash drive. These DICOM files do not contain any Patient Health Information.
+    \item The MRI technologist delivers the encrypted flash drive to Radiology Inc., and the decryption password is provided over e-mail.
+    \item A radiologist reviews the data, writes a report, and provides a recommendation. Radiology Inc. does not store the DICOM files.
+    \item The report and recommendation are e-mailed to the director (Aron Barbey: abarbey@nd.edu) and MRI technologist (Jeff Fox: jfox22@nd.edu).
+    \item The MRI technologist retrieves the encrypted flash drive and deletes the copies of the DICOM files from the flash drive.
 \end{itemize}
 
 
@@ -169,7 +172,7 @@ The MRI technologist coordinates with the PI once a clinical review and recommen
 If a clinical follow-up is \textbf{NOT} recommended:
 
 \begin{itemize}
-    \item The DICOM files are removed from [\textbf{TBD}].
+    \item The MRI technologist relays this recommendation to the PI.
     \item No further action is necessary.
 \end{itemize}
 
@@ -177,25 +180,27 @@ If a clinical follow-up is \textbf{NOT} recommended:
 Whereas, if a clinical follow-up \textbf{IS} recommended:
 
 \begin{itemize}
-    \item The PI schedules a meeting with the participant to share the clinician's report, referencing the following script:
+    \item The MRI technologist e-mails the PI the review and recommendation with the subject title ``ND-HNC Incidental Finding (secure)''.
+    \item The PI schedules a meeting with the participant to share the report and recommendation, referencing the following script:
     \begin{enumerate}
         \item ``Thank you for meeting with me today.''
         \item ``You recently participated in research at the Notre Dame Human Neuroimaging Center and part of the data you contributed were MRI scans.''
         \item ``While the data were collected for research purposes, something unexpected showed up in your scans.''
         \item ``Per our Standard Operating Procedures, your scans were referred to a radiologist for interpretation.''
-        \item Provide the radiologists review and recommendation.
-        \item Conclude with ``I am not a physician, so it is not appropriate for me to answer any questions about the radiologist's report or provide any advice.''
+        \item Provide the radiologists review and recommendation. Refrain from interpretation or providing guidance.
+        \item If the participant has questions, reinforce the PI role in this matter: ``I am not a physician, so it is not appropriate for me to answer any questions about the radiologist's report or provide any advice.''
     \end{enumerate}
-    \item The DICOM files are stored at [\textbf{TBD}] an internal, long-term data storage location, along with the review notes, in case they are requested in the future.
 \end{itemize}
 
 \section{Figures}
 
 None.
 
-% \begin{thebibliography}{999}
-% 	\bibitem{spikes}
-% 		\url{https://healthcare.utah.edu/integrative-health/resiliency-center/news/2020/05/spikes-strategy-delivering-bad-news}
-% \end{thebibliography}
+\begin{thebibliography}{999}
+    \bibitem{radinc}
+        \url{https://www.rad-inc.com}
+	% \bibitem{spikes}
+	% 	\url{https://healthcare.utah.edu/integrative-health/resiliency-center/news/2020/05/spikes-strategy-delivering-bad-news}
+\end{thebibliography}
 
 \end{document}
