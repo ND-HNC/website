@@ -6,7 +6,7 @@ toc-depth: 2
 ---
 
 <!-- Calendar settings -> Integrate calendar -> Customize -->
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&title=ND-HNC%20Rooms&src=Y182NGY5ODFiY2IzODBhMDU5MzA4YjQ5NWEwNDFjYWViNjcxY2U5NTIxM2Q0NDMwMzMxNTc4OTY5ZmM3ZDhjYmNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y18yYjYwOTE0ZWZkMjNjNjdmNDJkM2FlNzBlNDdiOTQ3MWQ0NzE1NjMyZGM4ZWZmYjljMDc3ZTNjZWViNGY1MjBhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19kYTk5YWJiYzQ2NmVlNjRlMTA5MmY5ZmVmMzA1MzQ1MTUwMjFmNjdlOTBiMzUzMWU2YzAzYTdmN2U3NTlmNTAxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y180YjQyMTc0NTQyZDBjZjlhYjg3NjkwNjg5NGFkODllMWQ2NjYwMTYyMDk2Mjc3NTVjZDA2YjIwYmFkZWM5MGYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y185YzI2ZGQyZDcxOTNjZjZkOTBlMzRiMTU0MTkxNjRkM2NkNDVlZmFlNWI1NTUwZTY1ZDYwMzYzYTQyYzViNDFjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181MzVhODdkMWM3OGE5NmFjYzZiNGUzZmU3NDQ2YTA3NzZiMDA2MmU2ZTdhYTY4OGQxOTViZThiNjI5MGViMzM0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181NzYyOGVmYmFlNGVjZjFlOTliNjg0OGQ3N2NkZThmODNhN2UxMDhkNzRjYzY1NmRjMTA0YzBkYjkzNTk1OTUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23ad1457&color=%238e24aa&color=%23ef6c00&color=%23c0ca33&color=%23f6bf26&color=%23d81b60&color=%23795548&color=%230b8043" style="border:solid 1px #003087" width="100%" height="50%" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&title=ND-HNC%20Rooms&src=Y182NGY5ODFiY2IzODBhMDU5MzA4YjQ5NWEwNDFjYWViNjcxY2U5NTIxM2Q0NDMwMzMxNTc4OTY5ZmM3ZDhjYmNlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y18yYjYwOTE0ZWZkMjNjNjdmNDJkM2FlNzBlNDdiOTQ3MWQ0NzE1NjMyZGM4ZWZmYjljMDc3ZTNjZWViNGY1MjBhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y19kYTk5YWJiYzQ2NmVlNjRlMTA5MmY5ZmVmMzA1MzQ1MTUwMjFmNjdlOTBiMzUzMWU2YzAzYTdmN2U3NTlmNTAxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y180YjQyMTc0NTQyZDBjZjlhYjg3NjkwNjg5NGFkODllMWQ2NjYwMTYyMDk2Mjc3NTVjZDA2YjIwYmFkZWM5MGYzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y185YzI2ZGQyZDcxOTNjZjZkOTBlMzRiMTU0MTkxNjRkM2NkNDVlZmFlNWI1NTUwZTY1ZDYwMzYzYTQyYzViNDFjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181MzVhODdkMWM3OGE5NmFjYzZiNGUzZmU3NDQ2YTA3NzZiMDA2MmU2ZTdhYTY4OGQxOTViZThiNjI5MGViMzM0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=Y181NzYyOGVmYmFlNGVjZjFlOTliNjg0OGQ3N2NkZThmODNhN2UxMDhkNzRjYzY1NmRjMTA0YzBkYjkzNTk1OTUxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23ad1457&color=%238e24aa&color=%23ef6c00&color=%23c0ca33&color=%23f6bf26&color=%23d81b60&color=%23795548&color=%230b8043" width="100%" height="600" frameborder="0" scrolling="no" style="border:solid 1px #003087; min-height: 600px;"></iframe>
 
 ::: {style="font-size: 70%"}
 
@@ -36,9 +36,11 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
   }
 </style>
 
-<!-- Consult 1 -->
 <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
 <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+
+
+<!-- Consult 1 -->
 <script>
 (function() {
   var target = document.currentScript;
@@ -54,8 +56,6 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 </script>
 
 <!-- Consult 2 -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
 <script>
 (function() {
   var target = document.currentScript;
@@ -71,8 +71,6 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 </script>
 
 <!-- Conference -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
 <script>
 (function() {
   var target = document.currentScript;
@@ -94,8 +92,6 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 - An MRI Simulator (Mock, B14) is also available to prepare participants for their MRI appointment. This does not have to occur on the same day as the scan.
 
 <!-- Interview 1 -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
 <script>
 (function() {
   var target = document.currentScript;
@@ -112,8 +108,6 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 
 
 <!-- Interview 2 -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
 <script>
 (function() {
   var target = document.currentScript;
@@ -129,8 +123,6 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 </script>
 
 <!-- Mock -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
 <script>
 (function() {
   var target = document.currentScript;
@@ -156,8 +148,6 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
 
 
 <!-- MRI -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
 <script>
 (function() {
   var target = document.currentScript;
@@ -171,8 +161,3 @@ Calendar only visible to Notre Dame. Tips for viewing embedded calendar: (1) All
   });
 })();
 </script>
-
-::: {style="margin-bottom: 5rem;"}
-
-:::
-
