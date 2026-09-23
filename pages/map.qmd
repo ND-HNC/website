@@ -1,0 +1,6 @@
+---
+title: Center Map
+lightbox: true
+---
+
+![](../media/sops/nd-hnc_layout_zones.png)

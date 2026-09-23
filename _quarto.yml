@@ -27,6 +27,8 @@ website:
         href: pages/facilities.qmd
       - text: Forms
         href: pages/forms.qmd
+      - text: Map
+        href: pages/map.qmd
       - text: Operate
         href: pages/operate.qmd
       - text: People
