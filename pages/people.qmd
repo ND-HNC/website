@@ -71,5 +71,16 @@ title: People
 | [amusser2@nd.edu](mailto:amusser2@nd.edu)
 | (574) 631-7276
 ::::
+
+:::: {.g-col-12 .g-col-md-4 .staff-card}
+::: {.staff-img-container}
+![](../media/people/zoe.png){width=65%}
+:::
+
+| **Zoe Nwarache**
+| *Administrative Coordinator*
+| [znwarach@nd.edu](mailto:znwarach@nd.edu)
+| (574) 631-0959
+::::
 :::::
 
