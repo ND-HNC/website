@@ -6,10 +6,11 @@ toc-depth: 4
 
 ![](../media/pages/mock_green.jpg){width=75% fig-align="left"}
 
-# Summary
-This page provides both overview descriptions and technical equipment statements for research hardware available at the ND-HNC. Grant writers will be most interested in the [Equipment Statement](#sec:equip-state) section.
+# Overview
+This page provides Equipment [Overviews](#sec:equip-over) and [Statements](#sec:equip-state) for hardware available at the ND-HNC. For grant applications, we provide technical statements describing the: [MRI Simulator](#ssec:state-mock), [Magnetom Cima.X](#ssec:state-mri), [Stimulus Equipment](#ssec:state-task-present), [DICOM Management](#ssec:state-dicom), and [compute resources](#ssec:state-compute). The [Facilities](../pages/facilities.qmd) page is also relevant for grant preparation.
 
-For quick navigation within this page:
+
+<!-- For quick navigation within this page:
 
 | Equipment | Overview | Statement | |
 |-----|-----|-----|-----|
@@ -19,9 +20,9 @@ For quick navigation within this page:
 | DICOM Management | [Link](#ssec:dicom) | [Link](#ssec:state-dicom) | |
 | Compute | [Link](#ssec:compute) | [Link](#ssec:state-compute) | |
 
-: {tbl-colwidths="[25,25,25,25]"}
+: {tbl-colwidths="[25,25,25,25]"} -->
 
-# Overview
+# Equipment Overview {#sec:equip-over}
 ## 3T Magnetic Resonance Imaging (MRI) System {#ssec:mri}
 ### Siemens Healthineers MAGNETOM Cima.X 3T
 
