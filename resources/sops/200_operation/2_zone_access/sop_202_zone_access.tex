@@ -30,6 +30,8 @@
 \usepackage{float}
 \usepackage{subfig}
 \usepackage{caption}
+\usepackage{booktabs}
+\usepackage{tabularx}
 \DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
 
 % Branding
@@ -371,5 +373,19 @@ Staff employed by the ND-HNC have unsupervised access to the MRI suite (Zones 1-
 	\caption{Diagram specifying MRI safety zones and their use.}
 	\label{fig:mri-zones-diag}
 \end{figure}
+
+
+\pagebreak
+
+\section{Change Log}
+\noindent
+\begin{tabularx}{\textwidth}{@{} l l X l @{}}
+\toprule
+\textbf{Version} & \textbf{Date} & \textbf{Description of Changes} & \textbf{Author} \\
+\midrule
+1.0.0 & 2026-10-05 & Initial draft and publication of SOP. & N. Muncy \\
+
+\bottomrule
+\end{tabularx}
 
 \end{document}
