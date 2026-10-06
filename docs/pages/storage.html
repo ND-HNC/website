@@ -290,12 +290,20 @@ ul.task-list li input[type="checkbox"] {
 <tr class="odd">
 <td>Scratch</td>
 <td>500 TB</td>
-<td>TBD</td>
+<td>/leadfs/hnc</td>
 <td>Temporary workspace for intermediate generation.</td>
 <td><strong>None</strong></td>
 </tr>
 </tbody>
 </table>
+<ul>
+<li><em>Note:</em> Scratch is currently accessible only to interactive nodes, and it is anticipated that access from login nodes will soon be available (2026-10-06).</li>
+<li>To start an interactive session and then navigate to scratch:
+<ul>
+<li><code>$ qrsh -q long -pe smp 1</code></li>
+<li><code>$ cd /leadfs/hnc</code></li>
+</ul></li>
+</ul>
 </section>
 <section id="access" class="level2">
 <h2 class="anchored" data-anchor-id="access">Access</h2>
@@ -321,11 +329,10 @@ ul.task-list li input[type="checkbox"] {
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 393)">
 <title>NDHNC_Data_Flow</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-393 726.93,-393 726.93,4 -4,4"></polygon>
-<g id="clust1" class="cluster">
-<title>cluster_tier2</title>
-<polygon fill="#eff6ff" stroke="#dbeafe" points="8,-121 8,-381 182,-381 182,-121 8,-121"></polygon>
-<text text-anchor="start" x="18.4" y="-364.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#1e40af">Cold Storage</text>
-<text text-anchor="start" x="18.4" y="-347.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#1e40af">(250 TB, Nightly Backups)</text>
+<g id="clust3" class="cluster">
+<title>cluster_local</title>
+<polygon fill="lightgray" stroke="gray" points="540.93,-132 540.93,-231 714.93,-231 714.93,-132 540.93,-132"></polygon>
+<text text-anchor="start" x="588.86" y="-214.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Local Storage</text>
 </g>
 <g id="clust2" class="cluster">
 <title>cluster_tier3</title>
@@ -333,10 +340,11 @@ ul.task-list li input[type="checkbox"] {
 <text text-anchor="start" x="415.28" y="-355.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#991b1b">Scratch Workspace</text>
 <text text-anchor="start" x="415.28" y="-338.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#991b1b">(500 TB, NO BACKUPS)</text>
 </g>
-<g id="clust3" class="cluster">
-<title>cluster_local</title>
-<polygon fill="lightgray" stroke="gray" points="540.93,-132 540.93,-231 714.93,-231 714.93,-132 540.93,-132"></polygon>
-<text text-anchor="start" x="588.86" y="-214.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Local Storage</text>
+<g id="clust1" class="cluster">
+<title>cluster_tier2</title>
+<polygon fill="#eff6ff" stroke="#dbeafe" points="8,-121 8,-381 182,-381 182,-121 8,-121"></polygon>
+<text text-anchor="start" x="18.4" y="-364.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#1e40af">Cold Storage</text>
+<text text-anchor="start" x="18.4" y="-347.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00" fill="#1e40af">(250 TB, Nightly Backups)</text>
 </g>
 <g id="clust4" class="cluster">
 <title>cluster_tier1</title>

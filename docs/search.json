@@ -852,7 +852,7 @@
     "href": "pages/policies.html",
     "title": "Policies",
     "section": "",
-    "text": "ND-HNC policies will be updated as needed and are applicable immediately.",
+    "text": "All individuals with Level 1-4 access promote a culture of safety and responsibility through actions including:\n\nReading, understanding, and seeking clarification on SOPs.\nEnsuring access is restricted by closing doors.\nFollowing policies and procedures.\nChallenging policy and procedure non-compliance.\nReporting patterns of policy and procedure non-compliance.\n\nLevel 1 does not grant access to the Mock room (B14) or the ability to review the MRI Safety Screen.\nLevel 2 does not grant Irish1card access to Zone 3.\nLevel 3 may train to become Level 4 only for project-specific purposes.\nA bachelor’s degree is required for Level 3 access.\nLevel 4 must be accompanied by another person with at least access Level 2 when a visitor or participant is in Zone 4.\nOnly Ph.D. candidates, post-doctoral fellows, and faculty may attain Level 4 access.",
     "crumbs": [
       "Policies"
     ]
@@ -861,8 +861,8 @@
     "objectID": "pages/policies.html#access-levels",
     "href": "pages/policies.html#access-levels",
     "title": "Policies",
-    "section": "Access Levels",
-    "text": "Access Levels\n\nIndividuals with Level access must only access Zones for which they have been authorized.\nAll individuals with Level access promote a culture of safety and responsibility through actions like: closing doors, enforcing SOPs, following policies.\nLevel 1 does not grant access to the Mock room (B14) or the ability to review the MRI Safety Screen.\nLevel 2 does not grant Irish1card access to Zone 3.\nLevel 3 may train to become Level 4 only for project-specific purposes.\nA bachelor’s degree is required for Level 3 access.\nLevel 4 must be accompanied by another person with at least access Level 2 when a visitor or participant is in Zone 4.\nOnly Ph.D. candidates, post-doctoral fellows, and faculty may attain Level 4 access.",
+    "section": "",
+    "text": "All individuals with Level 1-4 access promote a culture of safety and responsibility through actions including:\n\nReading, understanding, and seeking clarification on SOPs.\nEnsuring access is restricted by closing doors.\nFollowing policies and procedures.\nChallenging policy and procedure non-compliance.\nReporting patterns of policy and procedure non-compliance.\n\nLevel 1 does not grant access to the Mock room (B14) or the ability to review the MRI Safety Screen.\nLevel 2 does not grant Irish1card access to Zone 3.\nLevel 3 may train to become Level 4 only for project-specific purposes.\nA bachelor’s degree is required for Level 3 access.\nLevel 4 must be accompanied by another person with at least access Level 2 when a visitor or participant is in Zone 4.\nOnly Ph.D. candidates, post-doctoral fellows, and faculty may attain Level 4 access.",
     "crumbs": [
       "Policies"
     ]
@@ -872,7 +872,7 @@
     "href": "pages/policies.html#billing",
     "title": "Policies",
     "section": "Billing",
-    "text": "Billing\n\nMRI No-shows and cancellations \\(&lt;\\) 24 hours before the appointment are charged at 50% scan rate.\n“Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.",
+    "text": "Billing\n\nForm RO04 is submitted for each MRI appointment block.\nMRI No-shows and cancellations \\(&lt;\\) 24 hours before the appointment are charged at 50% scan rate.\n“Blocked out” time slots (e.g. reserving the scanner for a full day to support a data blitz) are billed for the entire block and not only the populated appointments.",
     "crumbs": [
       "Policies"
     ]
@@ -882,7 +882,7 @@
     "href": "pages/policies.html#compliance",
     "title": "Policies",
     "section": "Compliance",
-    "text": "Compliance\n\nResearchers, staff, and faculty are expected to read, understand, and operate in accordance with Standard Operating Procedures and Policies.\nProtocol violations are logged by staff in Form LG04: Compliance.\nA pattern of compliance issues will result in corrective actions, including access revocation.",
+    "text": "Compliance\n\nAll individuals operating within the ND-HNC (researchers, staff, and faculty) are expected to read, understand, and operate in accordance with Standard Operating Procedures and Policies.\nProtocol violations are logged by staff in Form LG04: Compliance.\nA pattern of compliance issues will result in corrective actions, including access revocation.",
     "crumbs": [
       "Policies"
     ]
@@ -892,7 +892,7 @@
     "href": "pages/policies.html#compute",
     "title": "Policies",
     "section": "Compute",
-    "text": "Compute\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
+    "text": "Compute\n\nCoordinate with the ND-HNC group when utilizing a large portion of the compute resources (e.g. \\(&gt;\\) 400 CPUs on the HPC cluster).\n\nThis helps to ensure that all deadlines can be met (e.g. first-year or M.Sc. projects, revise-and-resubmit).",
     "crumbs": [
       "Policies"
     ]
@@ -912,7 +912,7 @@
     "href": "pages/policies.html#safety-zones",
     "title": "Policies",
     "section": "Safety Zones",
-    "text": "Safety Zones\n\nResearchers with Level access must wear the identifying badge while in Zones 2-4.\nIndividuals without Level access must be escorted in Zones 2-4.\nMRI Safety Screeners must be completed by everyone entering Zone 3.\n\nResearchers with Level access submit these (a) annually, and (b) whenever an event occurs that might change their MRI compatibility.",
+    "text": "Safety Zones\n\nResearchers with Level access must only access Zones for which they have been authorized.\nResearchers with Level access must wear the identifying badge while in Zones 2-4.\nIndividuals without Level access must be escorted in Zones 2-4.\nMRI Safety Screeners must be completed by everyone entering Zone 3.\n\nResearchers with Level access submit these (a) annually, and (b) whenever an event occurs that might change their MRI compatibility.",
     "crumbs": [
       "Policies"
     ]
@@ -932,7 +932,7 @@
     "href": "pages/policies.html#storage",
     "title": "Policies",
     "section": "Storage",
-    "text": "Storage\n\nStorage of Personal Health Information (PHI) data is NOT permitted.\nUsers or groups using a disproportionate amount of resources will be required to reduce their footprint or risk losing access.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.\n\nLocal compute resources (ND-HNC rack, workstations) are not acceptable devices for data storage.\nShared presentation computers (e.g. Mock and Stimulus control) should not store tasks, stimuli, or data.",
+    "text": "Storage\n\nPersonal Health Information (PHI) data is NOT permitted on the HPC Cluster.\nUsers or groups using a disproportionate amount of HNC resources will be required to reduce their footprint.\nIntermediate Data can be regenerated from Original Data and should not be stored in Cold or Active Storage.\nData stored in Scratch should be for active analyses only.\nStoring third-party data (e.g. HCP, NKI, ABCD) is not permitted on Cold or Active Storage.\n\nOnly the Final Data should be maintained.\n\nLocal ND-HNC compute resources (rack, workstations) are not acceptable devices for data storage.\nShared presentation computers (e.g. Mock and Stimulus control) should not store tasks, stimuli, or data.",
     "crumbs": [
       "Policies"
     ]
@@ -1002,7 +1002,7 @@
     "href": "pages/storage.html#overview",
     "title": "Storage",
     "section": "Overview",
-    "text": "Overview\nTo support diverse data management and computational needs, the ND-HNC has partnered with the Center for Research Computing (CRC) to provide researchers with a shared, multi-tiered data storage infrastructure.\nThese resources are categorized into three distinct tiers based on the data’s activity level and backup requirements:\n\n\n\n\n\n\n\n\n\n\nStorage Tier\nTotal Capacity\nMount Location\nPrimary Purpose\nBackup Policy\n\n\n\n\nActive Storage\n50 TB\n/groups/hnc\nIntermediate storage of publication-critical files.\nNightly\n\n\nCold Storage\n250 TB\n/goldfs/hnc\nLong-term storage srcdata, rawdata, publication files.\nNightly\n\n\nScratch\n500 TB\nTBD\nTemporary workspace for intermediate generation.\nNone",
+    "text": "Overview\nTo support diverse data management and computational needs, the ND-HNC has partnered with the Center for Research Computing (CRC) to provide researchers with a shared, multi-tiered data storage infrastructure.\nThese resources are categorized into three distinct tiers based on the data’s activity level and backup requirements:\n\n\n\n\n\n\n\n\n\n\nStorage Tier\nTotal Capacity\nMount Location\nPrimary Purpose\nBackup Policy\n\n\n\n\nActive Storage\n50 TB\n/groups/hnc\nIntermediate storage of publication-critical files.\nNightly\n\n\nCold Storage\n250 TB\n/goldfs/hnc\nLong-term storage srcdata, rawdata, publication files.\nNightly\n\n\nScratch\n500 TB\n/leadfs/hnc\nTemporary workspace for intermediate generation.\nNone\n\n\n\n\nNote: Scratch is currently accessible only to interactive nodes, and it is anticipated that access from login nodes will soon be available (2026-10-06).\nTo start an interactive session and then navigate to scratch:\n\n$ qrsh -q long -pe smp 1\n$ cd /leadfs/hnc",
     "crumbs": [
       "Storage"
     ]
@@ -1022,7 +1022,7 @@
     "href": "pages/storage.html#ssec:usage",
     "title": "Storage",
     "section": "Usage",
-    "text": "Usage\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to have full access to all resources. Such an approach:\n\nEnsures there is sufficient capacity to support large projects (e.g. HCP data).\nSupports multiple projects at various stages of completion.\nRequires active data management and coordination among the ND-HNC group.\n\nAs projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_tier2\n\nCold Storage\n(250 TB, Nightly Backups)\n\n\ncluster_tier3\n\nScratch Workspace\n(500 TB, NO BACKUPS)\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier1\n\nActive Storage\n(50 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- Assessment metrics\n- Task responses\n\n\n\ntier3_proc\n\nIntermediate Data:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- Project code\n- Final dataframes\n- Statistical output\n- Figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Data:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nFinal Data:\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Results\n (pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive final data\n\n\n\n\n\n\n\n\n\nCold Storage provides a secure location for organized (e.g. BIDS) original data.\nData is transferred to Scratch for preprocessing and modelling.\n\nUnused intermediates are purged.\nLong-term storage of complicated intermediates are managed locally.\n\nFinal results are transferred to Active Storage for manuscript generation.\nUpon publication, files in Active Storage are transferred to Cold Storage.",
+    "text": "Usage\nUsing storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to have full access to all resources. Such an approach:\n\nEnsures there is sufficient capacity to support large projects (e.g. HCP data).\nSupports multiple projects at various stages of completion.\nRequires active data management and coordination among the ND-HNC group.\n\nAs projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:\n\n\n\n\n\n\n\nNDHNC_Data_Flow\n\n\ncluster_local\n\nLocal Storage\n\n\ncluster_tier3\n\nScratch Workspace\n(500 TB, NO BACKUPS)\n\n\ncluster_tier2\n\nCold Storage\n(250 TB, Nightly Backups)\n\n\ncluster_tier1\n\nActive Storage\n(50 TB, Nightly Backups)\n\n\n\ntier2_raw\n\nOriginal Data:\n- srcdata DICOM\n- rawdata NIfTI\n- Assessment metrics\n- Task responses\n\n\n\ntier3_proc\n\nIntermediate Data:\n- Preprocessing\n- Subject models\n- Group models\n\n\n\ntier2_raw-&gt;tier3_proc\n\n\n Transfer for\n analysis\n\n\n\ntier2_archive\n\nLong-Term Archive:\n- Project code\n- Final dataframes\n- Statistical output\n- Figures\n\n\n\ntier3_trash\n\nPurge / Delete\n\n\n\ntier3_proc-&gt;tier3_trash\n\n\n Removed when\n unused\n\n\n\nlocal_store\n\nComplicated Data:\n- Difficult generation\n- Long runtime\n\n\n\ntier3_proc-&gt;local_store\n\n\n\n Manage large\n data footprints\n\n\n\ntier1_active\n\nFinal Data:\n- Statistical Maps\n- Figures\n\n\n\ntier3_proc-&gt;tier1_active\n\n\n Results\n (pre-publication)\n\n\n\ntier1_active-&gt;tier2_archive\n\n\n Paper accepted:\n Archive final data\n\n\n\n\n\n\n\n\n\nCold Storage provides a secure location for organized (e.g. BIDS) original data.\nData is transferred to Scratch for preprocessing and modelling.\n\nUnused intermediates are purged.\nLong-term storage of complicated intermediates are managed locally.\n\nFinal results are transferred to Active Storage for manuscript generation.\nUpon publication, files in Active Storage are transferred to Cold Storage.",
     "crumbs": [
       "Storage"
     ]
