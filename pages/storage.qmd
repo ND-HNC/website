@@ -17,7 +17,12 @@ These resources are categorized into three distinct tiers based on the data's ac
 |--------------|----------------|----------------|-----------------| --------------|
 | Active Storage | 50 TB	| /groups/hnc | Intermediate storage of publication-critical files. | Nightly |
 | Cold Storage | 250 TB | /goldfs/hnc | Long-term storage srcdata, rawdata, publication files. | Nightly |
-| Scratch | 500 TB | TBD | Temporary workspace for intermediate generation. | **None** |
+| Scratch | 500 TB | /leadfs/hnc | Temporary workspace for intermediate generation. | **None** |
+
+* *Note:* Scratch is currently accessible only to interactive nodes, and it is anticipated that access from login nodes will soon be available (2026-10-06).
+* To start an interactive session and then navigate to scratch:
+    * `$ qrsh -q long -pe smp 1`
+    * `$ cd /leadfs/hnc`
 
 ## Access
 

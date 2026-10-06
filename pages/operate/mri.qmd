@@ -1,0 +1,96 @@
+---
+title: MRI
+toc: true
+toc-depth: 2
+toc-expand: true
+---
+
+![](../../media/pages/boot_2.jpg){width=70%}
+
+# Overview
+
+Step-by-step instructions for conducting human subject research with the MRI scaner.
+
+# Boot MRI Control System
+## Power Up
+
+1. Verify Power Panel is unlocked.
+2. Press "System On" button on Power Panel.
+
+![](../../media/pages/boot_1.jpg){width=50% fig-align="center"}
+
+3. Wait for the MRI Control system to boot up.
+    * Approx. 10 minutes.
+    * System is booted when console displays appear.
+
+![](../../media/pages/boot_2.jpg){width=70% fig-align="center"}
+
+## Power Down
+1. Select power button icon in lower right corner of screen.
+
+![](../../media/pages/boot_3.jpg){width=50% fig-align="center"}
+
+2. Select the "Shut Down System" from dropdown menu.
+
+![](../../media/pages/boot_4.jpg){width=50% fig-align="center"}
+
+3. Select "Shut Down" in pop-up window.
+
+![](../../media/pages/boot_5.jpg){width=50% fig-align="center"}
+
+4. Wait until the system shuts down -- the screens will be blank, monitor power buttons red.
+5. Push the "System Off" button on the Power Panel.
+    * Monitor power buttons should now be dark.
+
+![](../../media/pages/boot_6.jpg){width=50% fig-align="center"}
+
+
+# Start Session
+## Login to Control Computer
+
+1. Select "Unlock" on main screen.
+
+![](../../media/pages/reg_1.jpg){width=70% fig-align="center"}
+
+2. Select "Examination".
+
+![](../../media/pages/reg_2.jpg){width=70% fig-align="center"}
+
+## Register Participant
+
+1. Select "Register Patient".
+
+![](../../media/pages/reg_3.jpg){width=70% fig-align="center"}
+
+![](../../media/pages/reg_4.jpg){width=70% fig-align="center"}
+
+2. Enter "Last Name".
+    * Use format "PI Last + Subject ID", e.g. Barbey23
+    * ***Do not enter the participant's acutal name.***
+
+![](../../media/pages/reg_5.jpg){width=70% fig-align="center"}
+
+3. Enter "Date of Birth".
+    * Specify the first day of the current month.
+    * Use participant's birth year.
+    * E.g. "12/1/2000" for a scan conducted 12/15/2026 on a participant born in 2000.
+
+![](../../media/pages/reg_6.jpg){width=70% fig-align="center"}
+
+4. Specify "Sex" from the dropdown menu.
+
+![](../../media/pages/reg_7.jpg){width=70% fig-align="center"}
+
+5. Enter Height and Weight.
+
+![](../../media/pages/reg_9.jpg){width=70% fig-align="center"}
+
+6. Specify "Body Part" from the dropdown menu in the lower right corner.
+
+![](../../media/pages/reg_10.jpg){width=70% fig-align="center"}
+
+7. Specify "Patient Orientation".
+
+![](../../media/pages/reg_11.jpg){width=70% fig-align="center"}
+
+8. Select orange "Exam" to begin.

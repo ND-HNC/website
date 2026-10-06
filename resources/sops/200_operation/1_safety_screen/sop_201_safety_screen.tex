@@ -28,6 +28,8 @@
 \usepackage{float}
 \usepackage{subfig}
 \usepackage{caption}
+\usepackage{booktabs}
+\usepackage{tabularx}
 \DeclareCaptionLabelFormat{adja-page}{\hrulefill\\#1 #2 \emph{(previous page)}}
 
 % Branding
@@ -83,7 +85,7 @@
 \renewcommand{\headrulewidth}{0pt}
 
 % Format footer
-\fancyfoot[L]{v.0.3.0}
+\fancyfoot[L]{v.1.0.0}
 \fancyfoot[C]{\thepage}
 \fancyfoot[R]{\textbf{ND-HNC SOP: 201}}
 
@@ -123,11 +125,11 @@ These policies apply to all individuals who enter Zones 3 \& 4 (B15, B17, B17a; 
 
 \section{Notes}
 
-\begin{itemize}
+\begin{enumerate}
     \item Emergency response and maintenance personnel \textbf{CANNOT} enter the Magnet Room unless they have been screened and all metal objects have been removed.
 	\item Emergency response personnel can \textbf{ONLY} enter Zone 3 without completing an MRI Safety screener if the door to the Magnet Room has been locked by key.
 	\item ND-HNC only stores MRI Safety forms for staff and researchers. Visitor forms are maintained by their respective research teams.
-\end{itemize}
+\end{enumerate}
 
 
 \section{Policies \& Procedures}
@@ -212,7 +214,21 @@ A second review is required for Visitors entering Zone 4 (Magnet Room).
 
 \section{Figures}
 
-None
+None.
+
+
+\pagebreak
+
+\section{Change Log}
+\noindent
+\begin{tabularx}{\textwidth}{@{} l l X l @{}}
+\toprule
+\textbf{Version} & \textbf{Date} & \textbf{Description of Changes} & \textbf{Author} \\
+\midrule
+1.0.0 & 2026-10-05 & Initial draft and publication of SOP. & N. Muncy \\
+
+\bottomrule
+\end{tabularx}
 
 
 \end{document}
