@@ -19,8 +19,8 @@ These resources are categorized into three distinct tiers based on the data's ac
 | Cold Storage | 250 TB | /goldfs/hnc | Long-term storage srcdata, rawdata, publication files. | Nightly |
 | Scratch | 500 TB | /leadfs/hnc | Temporary workspace for intermediate generation. | **None** |
 
-* *Note:* Scratch is currently accessible only to interactive nodes, and it is anticipated that access from login nodes will soon be available (2026-10-06).
-* To start an interactive session and then navigate to scratch:
+
+* *Note:* Scratch is currently accessible only to interactive nodes, and it is anticipated that access from login nodes will soon be available (2026-10-06). To start an interactive session and navigate to scratch:
     * `$ qrsh -q long -pe smp 1`
     * `$ cd /leadfs/hnc`
 
@@ -28,15 +28,33 @@ These resources are categorized into three distinct tiers based on the data's ac
 
 - Contact [Nathan Muncy](people.qmd) after receiving a CRC [account](https://docs.crc.nd.edu/new_user/obtain_account.html).
 
+## Organization
+
+Labs should organize their data within a PI directory at each storage location. For instance, Active Storage would have the following structure:
+
+```
+groups
+└── hnc
+    ├── barbey
+    ├── forest
+    ├── jdu
+    └── muncy
+        ├── proj_a
+        ├── proj_b
+        └── proj_c
+```
+
+Additionally, it will be useful to set a [umask](https://linuxize.com/post/umask-command-in-linux/){target="_blank"} to ensure that data is accessible only by the intended individuals.
+
 ## Usage {#ssec:usage}
 
-Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow __all users to have full access to all resources__. Such an approach:
+Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to access these resources. Such an approach:
 
-- Ensures there is sufficient capacity to support large projects (e.g. HCP data).
-- Supports multiple projects at various stages of completion.
-- Requires active data management and coordination among the ND-HNC group.
+- ensures there is sufficient capacity to support large projects (e.g. HCP data),
+- supports multiple projects at various stages of completion, and
+- requires active data management and coordination among the ND-HNC group.
 
-As projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:
+While these storage resources provide ample space for well-managed projects, they are nevertheless finite. To ensure these resources remain available to the entire group, ***coordinate with [Nathan Muncy](people.qmd) directly if your lab intends to use more than 5TB Active Storage, 25TB Cold Storage, and/or 50TB Scratch.*** As projects progress from data collection to publication, reference the graphic below for data migration and appropriate storage tier usage:
 
 ```{dot}
 //| fig-width: 9
@@ -118,13 +136,6 @@ digraph NDHNC_Data_Flow {
 1. Final results are transferred to Active Storage for manuscript generation.
 1. Upon publication, files in Active Storage are transferred to Cold Storage.
 
-## Guidelines
-
-- Build the dataflow into your workflow/codebase.
-- As storage is shared across the ND-HNC community, please:
-    - Manage your allocations responsibly,
-    - Migrate data to the appropriate tier as your project progresses,
-    - Maintain only the requisite intermediates for subsequent pipeline steps.
 
 ## Notes
 
