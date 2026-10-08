@@ -11,18 +11,23 @@ toc: true
 
 To support diverse data management and computational needs, the ND-HNC has partnered with the Center for Research Computing ([CRC](https://crc.nd.edu/)) to provide researchers with a shared, multi-tiered data storage infrastructure.
 
-These resources are categorized into three distinct tiers based on the data's activity level and backup requirements:
+## Storage Tiers
+
+Storage resources are organized into three distinct tiers based on the data's activity level and backup requirements:
 
 | Storage Tier | Total Capacity | Mount Location | Primary Purpose | Backup Policy |
 |--------------|----------------|----------------|-----------------| --------------|
-| Active Storage | 50 TB	| /groups/hnc | Intermediate storage of publication-critical files. | Nightly |
-| Cold Storage | 250 TB | /goldfs/hnc | Long-term storage srcdata, rawdata, publication files. | Nightly |
+| Active | 50 TB	| /groups/hnc | Intermediate storage of publication-critical files. | Nightly |
+| Cold | 250 TB | /goldfs/hnc | Long-term storage srcdata, rawdata, publication files. | Nightly |
 | Scratch | 500 TB | /leadfs/hnc | Temporary workspace for intermediate generation. | **None** |
 
-* *Note:* Scratch is currently accessible only to interactive nodes, and it is anticipated that access from login nodes will soon be available (2026-10-06).
-* To start an interactive session and then navigate to scratch:
-    * `$ qrsh -q long -pe smp 1`
-    * `$ cd /leadfs/hnc`
+### Notes
+
+1. Scratch is intended only for transient data, do not store critical or irreplaceable files here.
+1. Scratch storage is accessible in two ways:
+    1. After connecting to the login node `epycfe.crc.nd.edu`, or
+    2. When working in a scheduled session on the regular login nodes (`$ qrsh -q long -pe smp 1`).
+1. Compute nodes do not have access to files stored in Cold storage.
 
 ## Access
 
@@ -30,13 +35,13 @@ These resources are categorized into three distinct tiers based on the data's ac
 
 ## Usage {#ssec:usage}
 
-Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow __all users to have full access to all resources__. Such an approach:
+Using storage tiers for their intended use is critical when multiple users are sharing common resources. Instead of dividing available resources across all ND-HNC affiliated labs, we currently allow all users to access these resources. Such an approach:
 
-- Ensures there is sufficient capacity to support large projects (e.g. HCP data).
-- Supports multiple projects at various stages of completion.
-- Requires active data management and coordination among the ND-HNC group.
+- ensures there is sufficient capacity to support large projects (e.g. HCP data),
+- supports multiple projects at various stages of completion, and
+- requires active data management and coordination among the ND-HNC group.
 
-As projects progress from data collection to publication, reference the graphic below for data migration and appropriate use-case:
+While these storage resources provide ample space for well-managed projects, they are nevertheless finite. To ensure these resources remain available to the entire group, ***coordinate with [Nathan Muncy](people.qmd) directly if your lab intends to use more than 5TB Active, 25TB Cold, and/or 50TB Scratch storage.*** As projects progress from data collection to publication, reference the graphic below for data migration and appropriate storage tier usage:
 
 ```{dot}
 //| fig-width: 9
@@ -111,22 +116,29 @@ digraph NDHNC_Data_Flow {
 }
 ```
 
-1. Cold Storage provides a secure location for organized (e.g. [BIDS](https://bids-specification.readthedocs.io/en/stable/)) original data.
-1. Data is transferred to Scratch for preprocessing and modelling.
+### Dataflow Description
+1. Cold storage (blue) provides a secure location for organized (e.g. [BIDS](https://bids-specification.readthedocs.io/en/stable/)) original data.
+1. Data is transferred to Scratch (red) for preprocessing and modelling.
     - Unused intermediates are purged.
-    - Long-term storage of complicated intermediates are managed locally.
-1. Final results are transferred to Active Storage for manuscript generation.
-1. Upon publication, files in Active Storage are transferred to Cold Storage.
+    - Long-term storage of complicated intermediates are managed locally (gray).
+1. Final results are transferred to Active storage (green) for manuscript generation.
+1. Upon publication, files in Active storage are transferred to Cold Storage.
 
-## Guidelines
 
-- Build the dataflow into your workflow/codebase.
-- As storage is shared across the ND-HNC community, please:
-    - Manage your allocations responsibly,
-    - Migrate data to the appropriate tier as your project progresses,
-    - Maintain only the requisite intermediates for subsequent pipeline steps.
+## Organization
 
-## Notes
+Labs should organize their data within a PI directory at each storage location. For instance, Active storage would have the following structure:
 
-- CRC compute nodes do not have access to files stored in Cold storage.
-- Scratch is intended only for transient data, do not store critical or irreplaceable files here.
+```
+groups
+└── hnc
+    ├── barbey
+    ├── forest
+    ├── jdu
+    └── muncy
+        ├── proj_a
+        ├── proj_b
+        └── proj_c
+```
+
+Additionally, it will be useful to set a [umask](https://linuxize.com/post/umask-command-in-linux/){target="_blank"} to ensure that data is accessible only by the intended individuals.
