@@ -1,5 +1,5 @@
 ---
-title: Operate CorpFS
+title: CorpFS
 toc: true
 toc-depth: 2
 # toc-expand: true
@@ -11,7 +11,7 @@ Large labs and long-term projects commonly have multiple waves of research assis
 
 Each lab which partners with the ND-HNC will receive access to the centralized data system [CorpFS](https://esc.nd.edu/services/storage/), which facilitates task deployment and data management across multiple sites and users. Directories are organized by the Primary Investigator's (PI) name (i.e. **HNC-PI**) and contain three specialized directories with distinct permission levels:
 
-1. **HNC-PI-admin:** A highly restricted folder dedicated to securely housing sensitive PHI/PII data and important files. Only group administrators will be able to read, write, or execute in this directory.
+1. **HNC-PI-admin:** A highly restricted folder dedicated to securely house sensitive PHI/PII data and important files. Only group administrators will be able to read, write, or execute in this directory.
 1. **HNC-PI-read:** A standardized folder where all team members can read and execute research tasks but cannot modify or delete files. This is useful for ensuring that all research assistants administer identical tasks.
 1. **HNC-PI-write:** A shared repository where all research assistants can save participant output data. This helps ensure that data is centralized and not left on the research assistant's login account.
 

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Operate NNL SyncBox – ND-HNC</title>
+<title>NNL SyncBox – ND-HNC</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<meta property="og:title" content="Operate NNL SyncBox – ND-HNC">
+<meta property="og:title" content="NNL SyncBox – ND-HNC">
 <meta property="og:description" content="">
 <meta property="og:image" content="../../media/pages/syncbox_0.jpg">
 <meta property="og:site_name" content="ND-HNC">
@@ -90,7 +90,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Operate NNL SyncBox</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">NNL SyncBox</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -229,9 +229,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#syncbox-configuration" id="toc-syncbox-configuration" class="nav-link" data-scroll-target="#syncbox-configuration">SyncBox Configuration</a>
   <ul class="collapse">
   <li><a href="#front" id="toc-front" class="nav-link" data-scroll-target="#front">Front</a></li>
+  <li><a href="#ssec:nnl_syncbox_left" id="toc-ssec:nnl_syncbox_left" class="nav-link" data-scroll-target="#ssec\:nnl_syncbox_left">Left Side</a></li>
   <li><a href="#back" id="toc-back" class="nav-link" data-scroll-target="#back">Back</a></li>
   </ul></li>
-  <li><a href="#video-converter-configuration" id="toc-video-converter-configuration" class="nav-link" data-scroll-target="#video-converter-configuration">Video Converter Configuration</a></li>
+  <li><a href="#sec:video_conv" id="toc-sec:video_conv" class="nav-link" data-scroll-target="#sec\:video_conv">Video Converter Configuration</a></li>
   <li><a href="#fmri-trigger-configuration" id="toc-fmri-trigger-configuration" class="nav-link" data-scroll-target="#fmri-trigger-configuration">fMRI Trigger Configuration</a></li>
   <li><a href="#wiring-diagram" id="toc-wiring-diagram" class="nav-link" data-scroll-target="#wiring-diagram">Wiring Diagram</a></li>
   </ul>
@@ -242,7 +243,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Operate NNL SyncBox</h1>
+<h1 class="title">NNL SyncBox</h1>
 </div>
 
 
@@ -365,6 +366,17 @@ ul.task-list li input[type="checkbox"] {
 </table></li>
 </ul>
 </section>
+<section id="ssec:nnl_syncbox_left" class="level2">
+<h2 class="anchored" data-anchor-id="ssec:nnl_syncbox_left">Left Side</h2>
+<ul>
+<li>Device output is sent to, and control instructions received from, a research computer via USB-2.0 (A).</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../media/pages/syncbox_4.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../../media/pages/syncbox_4.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+</figure>
+</div>
+</section>
 <section id="back" class="level2">
 <h2 class="anchored" data-anchor-id="back">Back</h2>
 <ul>
@@ -373,17 +385,17 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/syncbox_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="../../media/pages/syncbox_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/syncbox_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="../../media/pages/syncbox_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 </section>
 </section>
-<section id="video-converter-configuration" class="level1">
+<section id="sec:video_conv" class="level1">
 <h1>Video Converter Configuration</h1>
 <p>Video from the stimulus computer is sent to the presentation monitor in Zone 4 via the 4K HDMI to Fiber Extender. While this box is capable of bidirectional communication (Tx/Rx), the only ‘downstream’ device is the monitor.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/video_convert_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="../../media/pages/video_convert_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/video_convert_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="../../media/pages/video_convert_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 <ul>
@@ -394,7 +406,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/video_convert_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="../../media/pages/video_convert_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/video_convert_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="../../media/pages/video_convert_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 </section>
@@ -405,7 +417,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/trigger_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="../../media/pages/trigger_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/trigger_1.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="../../media/pages/trigger_1.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 <ul>
@@ -413,7 +425,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/trigger_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="../../media/pages/trigger_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/trigger_2.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="../../media/pages/trigger_2.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 <ul>
@@ -421,7 +433,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/pages/trigger_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="../../media/pages/trigger_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
+<p><a href="../../media/pages/trigger_3.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-10"><img src="../../media/pages/trigger_3.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a></p>
 </figure>
 </div>
 <ul>
