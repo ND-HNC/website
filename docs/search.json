@@ -876,6 +876,41 @@
     "text": "Register Participant\n\nSelect “Register Patient”.\n\n\n\n\n\n\n\n\n\n\n\n\nEnter “Last Name”.\n\nUse format “PI Last + Subject ID”, e.g. Barbey23\nDo not enter the participant’s acutal name.\n\n\n\n\n\n\n\n\nEnter “Date of Birth”.\n\nSpecify the first day of the current month.\nUse participant’s birth year.\nE.g. “12/1/2000” for a scan conducted 12/15/2026 on a participant born in 2000.\n\n\n\n\n\n\n\n\nSpecify “Sex” from the dropdown menu.\n\n\n\n\n\n\n\nEnter Height and Weight.\n\n\n\n\n\n\n\nSpecify “Body Part” from the dropdown menu in the lower right corner.\n\n\n\n\n\n\n\nSpecify “Patient Orientation”.\n\n\n\n\n\n\n\nSelect orange “Exam” to begin."
   },
   {
+    "objectID": "pages/operate/mri.html#table-attributes",
+    "href": "pages/operate/mri.html#table-attributes",
+    "title": "MRI",
+    "section": "Table Attributes",
+    "text": "Table Attributes\n\n\n\nTable Diagram\n\n\n\nTable Top\nHead End\nTable Stop Button\nEmergency Release\nHandle: to pull table after emergency release"
+  },
+  {
+    "objectID": "pages/operate/mri.html#front-panel-user-interfaces",
+    "href": "pages/operate/mri.html#front-panel-user-interfaces",
+    "title": "MRI",
+    "section": "Front Panel: User Interfaces",
+    "text": "Front Panel: User Interfaces\n\n\n\nTouch Screen\n\n\n\n\n\nTouch Screen: patient position and current coil\n\n\n\n\n\nTouch Screen: coil properly connected\n\n\n\n\n\nJogwheel"
+  },
+  {
+    "objectID": "pages/operate/mri.html#front-panel-jogwheel-control",
+    "href": "pages/operate/mri.html#front-panel-jogwheel-control",
+    "title": "MRI",
+    "section": "Front Panel: Jogwheel Control",
+    "text": "Front Panel: Jogwheel Control\n\n\n\nJogwheel Diagram\n\n\n\nTable up/inward button\nJog wheel, center position (landmark) move to scan\nMove to home\nTable down/outward button\n\nAdditionally, use “+” to turn alignment light on/off.\nNotes:\n\nUse directional buttons or turn jogwheel to move patients in/out and up/down.\nHorizontal movement speed is faster the farther the wheel is turned.\nPush jogwheel to landmark and move patient in to position for scanning.\n\nTo Position:\n\nMove table up until it is even with the bore.\nTurn on the alignment light by pushing “+” button.\nMove participant in until alignment light is at desired center position.\nTurn off the alignment light by pushing “+” again.\nPush the jogwheel and hold (1 second) until table starts to move to the center of the bore.\nBegin scanning."
+  },
+  {
+    "objectID": "pages/operate/mri.html#exam-screen",
+    "href": "pages/operate/mri.html#exam-screen",
+    "title": "MRI",
+    "section": "Exam Screen",
+    "text": "Exam Screen\n\n\n\n\n\n\nScan Queue: used to program sequences and program control icons.\nExam Tool Bar: provide access to functions for setting up and controlling an exam.\nPlanning Segments: displays reference images used for graphical slice positioning.\nParameter Card Area: displays the parameter cards of the current protocol and/or user guidance.\nVariable Segment: shows the inline display or extended third plane planning segment.\nStamp Segments: each stamp represents the images of a previously measured series from the current examination."
+  },
+  {
+    "objectID": "pages/operate/mri.html#view-and-go",
+    "href": "pages/operate/mri.html#view-and-go",
+    "title": "MRI",
+    "section": "View and Go",
+    "text": "View and Go\n\n\n\n\n\n\nAccess Bar: contains patient tab and icons to access the patient browser or online help.\nCase Navigator: contains tabs with processing and viewing options and for printing.\nFavorite Tools Area: provides access to preferred functions.\nImage Area: displays images and series in segments.\nSeries Navigator: list all available series for the current patient."
+  },
+  {
     "objectID": "pages/operate/stim_control.html",
     "href": "pages/operate/stim_control.html",
     "title": "Stimulus Control",

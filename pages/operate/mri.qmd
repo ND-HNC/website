@@ -2,7 +2,6 @@
 title: MRI
 toc: true
 toc-depth: 2
-toc-expand: true
 ---
 
 ![](../../media/pages/boot_2.jpg){width=70%}
@@ -11,7 +10,7 @@ toc-expand: true
 
 Step-by-step instructions for conducting human subject research with the MRI scaner.
 
-# Boot MRI Control System
+# Boot Control System
 ## Power Up
 
 1. Verify Power Panel is unlocked.
@@ -94,3 +93,77 @@ Step-by-step instructions for conducting human subject research with the MRI sca
 ![](../../media/pages/reg_11.jpg){width=70% fig-align="center"}
 
 8. Select orange "Exam" to begin.
+
+
+# Table Control
+
+## Table Attributes
+
+![Table Diagram](../../media/pages/mri_table.jpg){width=50% fig-align="left"}
+
+1. Table Top
+2. Head End
+3. Table Stop Button
+4. Emergency Release
+5. Handle: to pull table after emergency release
+
+## Front Panel: User Interfaces
+
+![Touch Screen](../../media/pages/mri_touchscreennocoil.jpg){width=40% fig-align="left"}
+
+![Touch Screen: patient position and current coil](../../media/pages/mri_selectandgotouchscreen.jpg){width=40% fig-align="left"}
+
+![Touch Screen: coil properly connected](../../media/pages/mri_touchscreencoil.jpg){width=40% fig-align="left"}
+
+![Jogwheel](../../media/pages/mri_jogwheel.jpg){width=40% fig-align="left"}
+
+## Front Panel: Jogwheel Control
+
+![Jogwheel Diagram](../../media/pages/mri_jogwheelbuttons.jpg){width=40% fig-align="left"}
+
+1. Table up/inward button
+2. Jog wheel, center position (landmark) move to scan
+3. Move to home
+4. Table down/outward button
+
+Additionally, use "+" to turn alignment light on/off.
+
+Notes:
+
+* Use directional buttons or turn jogwheel to move patients in/out and up/down.
+* Horizontal movement speed is faster the farther the wheel is turned.
+* Push jogwheel to landmark and move patient in to position for scanning.
+
+To Position:
+
+1. Move table up until it is even with the bore.
+1. Turn on the alignment light by pushing "+" button.
+1. Move participant in until alignment light is at desired center position.
+1. Turn off the alignment light by pushing "+" again.
+1. Push the jogwheel and hold (1 second) until table starts to move to the center of the bore.
+1. Begin scanning.
+
+
+
+# Scan Controls: Basic Screens
+
+## Exam Screen
+
+![](../../media/pages/mri_exam_screen.jpg){width=80% fig-align="center"}
+
+1. Scan Queue: used to program sequences and program control icons.
+2. Exam Tool Bar: provide access to functions for setting up and controlling an exam.
+3. Planning Segments: displays reference images used for graphical slice positioning.
+4. Parameter Card Area: displays the parameter cards of the current protocol and/or user guidance.
+5. Variable Segment: shows the inline display or extended third plane planning segment.
+6. Stamp Segments: each stamp represents the images of a previously measured series from the current examination.
+
+## View and Go
+
+![](../../media/pages/mri_view_and_go.jpg){width=80% fig-align="center"}
+
+1. Access Bar: contains patient tab and icons to access the patient browser or online help.
+2. Case Navigator: contains tabs with processing and viewing options and for printing.
+3. Favorite Tools Area: provides access to preferred functions.
+4. Image Area: displays images and series in segments.
+5. Series Navigator: list all available series for the current patient.
