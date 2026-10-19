@@ -57,6 +57,8 @@ Step-by-step instructions for conducting human subject research with the MRI sca
 
 ## Register Participant
 
+***Note:*** Fields with orange bars are required, and an accession number must be created.
+
 1. Select "Register Patient".
 
 ![](../../media/pages/reg_3.jpg){width=70% fig-align="center"}
@@ -94,6 +96,9 @@ Step-by-step instructions for conducting human subject research with the MRI sca
 
 8. Select orange "Exam" to begin.
 
+9. Enter the next accession number in the procedure box using format: ND + 00001. Log this number in Form [LG07](../../resources/forms/form_LG07_accession.pdf){target="_blank"}.
+
+![](../../media/pages/reg_accessionnumber.jpg){width=70% fig-align="center"}
 
 # Table Control
 

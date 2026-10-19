@@ -456,7 +456,7 @@
     "href": "pages/forms.html",
     "title": "Forms",
     "section": "",
-    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
+    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\nLGO7\nAccession Log\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
     "crumbs": [
       "Forms"
     ]
@@ -466,7 +466,7 @@
     "href": "pages/forms.html#overview",
     "title": "Forms",
     "section": "",
-    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
+    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\nLGO7\nAccession Log\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
     "crumbs": [
       "Forms"
     ]
@@ -676,7 +676,7 @@
     "href": "index.html#additional-resources",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "Additional Resources",
-    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nNews: Exciting events involving the ND-HNC.\nPeople: Connect with ND-HNC staff.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
+    "text": "Additional Resources\n\n\nNews: Exciting events involving the ND-HNC.\nPeople: Connect with ND-HNC staff.",
     "crumbs": [
       "Home"
     ]
@@ -883,7 +883,7 @@
     "href": "pages/operate/mri.html#register-participant",
     "title": "MRI",
     "section": "Register Participant",
-    "text": "Register Participant\n\nSelect “Register Patient”.\n\n\n\n\n\n\n\n\n\n\n\n\nEnter “Last Name”.\n\nUse format “PI Last + Subject ID”, e.g. Barbey23\nDo not enter the participant’s acutal name.\n\n\n\n\n\n\n\n\nEnter “Date of Birth”.\n\nSpecify the first day of the current month.\nUse participant’s birth year.\nE.g. “12/1/2000” for a scan conducted 12/15/2026 on a participant born in 2000.\n\n\n\n\n\n\n\n\nSpecify “Sex” from the dropdown menu.\n\n\n\n\n\n\n\nEnter Height and Weight.\n\n\n\n\n\n\n\nSpecify “Body Part” from the dropdown menu in the lower right corner.\n\n\n\n\n\n\n\nSpecify “Patient Orientation”.\n\n\n\n\n\n\n\nSelect orange “Exam” to begin."
+    "text": "Register Participant\nNote: Fields with orange bars are required, and an accession number must be created.\n\nSelect “Register Patient”.\n\n\n\n\n\n\n\n\n\n\n\n\nEnter “Last Name”.\n\nUse format “PI Last + Subject ID”, e.g. Barbey23\nDo not enter the participant’s acutal name.\n\n\n\n\n\n\n\n\nEnter “Date of Birth”.\n\nSpecify the first day of the current month.\nUse participant’s birth year.\nE.g. “12/1/2000” for a scan conducted 12/15/2026 on a participant born in 2000.\n\n\n\n\n\n\n\n\nSpecify “Sex” from the dropdown menu.\n\n\n\n\n\n\n\nEnter Height and Weight.\n\n\n\n\n\n\n\nSpecify “Body Part” from the dropdown menu in the lower right corner.\n\n\n\n\n\n\n\nSpecify “Patient Orientation”.\n\n\n\n\n\n\n\nSelect orange “Exam” to begin.\nEnter the next accession number in the procedure box using format: ND + 00001. Log this number in Form LG07."
   },
   {
     "objectID": "pages/operate/mri.html#table-attributes",

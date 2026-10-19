@@ -6,7 +6,7 @@ toc-depth: 1
 
 # Special Visit and Blessing
 
-![](../media/pages/blessing_team.jpeg){width=50% fig-align="left"}
+![](../media/pages/blessing_team.jpeg){width=75% fig-align="left"}
 
 
 **University President Blessed New State-of-the-Art MRI at Human Neuroimaging Center**
