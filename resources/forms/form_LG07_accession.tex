@@ -1,0 +1,47 @@
+\documentclass[11pt, letterpaper]{article}
+
+% Packages for layout, tables, and formatting
+% bindingoffset reserves 0.5in on the left for 3-hole punching
+\usepackage[margin=0.5in, bindingoffset=0.5in]{geometry}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{parskip}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{\textbf{ND-HNC Form: LG07}}
+
+\definecolor{lightgray}{gray}{0.92}
+
+% Row height adjustment macro
+\newcommand{\logrow}[1][2.5ex]{& & & & \\[#1] \hline}
+
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{ACCESSION LOG}}\\[2pt]
+    {\small Purpose: Record accession number ``ND00001'' for PACS tracking and billing.}
+\end{center}
+
+\vspace{6pt}
+
+% Logging Table
+\noindent
+\begin{tabularx}{\textwidth}{
+    | *{5}{>{\centering\arraybackslash}X |}
+}
+    \hline
+    \rowcolor{lightgray}
+    \textbf{Date} & \textbf{Start} & \textbf{End} & \textbf{Operator} & \textbf{Accession} \\ \hline
+    \logrow \logrow \logrow \logrow \logrow
+    \logrow \logrow \logrow \logrow \logrow
+    \logrow \logrow \logrow \logrow \logrow
+    \logrow \logrow \logrow \logrow \logrow
+    \logrow \logrow \logrow \logrow \logrow
+\end{tabularx}
+
+\end{document}

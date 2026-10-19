@@ -1,5 +1,5 @@
 ---
-title: Operate Mock MRI
+title: Mock MRI
 toc: true
 toc-depth: 2
 toc-expand: true

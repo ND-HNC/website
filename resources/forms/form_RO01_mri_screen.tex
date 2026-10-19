@@ -1,19 +1,25 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{lmodern} % Fallback for standard glyph coverage
 \usepackage{ebgaramond}
 \usepackage[top=1in,left=0.625in,bottom=0.625in,right=0.625in]{geometry}
 \usepackage{graphicx}
 \graphicspath{ {../../media/nd_brand/}}
-\usepackage[colorlinks=false,pdfborder={0 0 0},]{hyperref}
+\usepackage[colorlinks=false,pdfborder={0 0 0}]{hyperref}
 \usepackage[absolute]{textpos}
 \usepackage{soul}
 \usepackage{tikz}
 \usetikzlibrary{calc}
 \usepackage{pifont} % Required for \ding{52}
 
-%
-\providecommand\docvers{1.0.0}
+% PDF Form Display Settings to ensure form fields print properly
+\hypersetup{
+    pdfpagemode=UseNone,
+    pdfstartview={FitH}
+}
+
+\providecommand\docvers{1.0.1}
 
 % Branding
 \providecommand\fromlogo{nd_logo.png}
@@ -29,9 +35,6 @@
 \providecommand\namecollege{College of Arts and Letters}
 \providecommand\addrweb{\url{https://neuroimaging.nd.edu}}
 
-% Format header
-% \pagestyle{empty}
-
 \urlstyle{sf}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -46,18 +49,18 @@
     % Above line
     \begin{textblock*}{6.375in}(1.5in,0.32in)
         \sffamily
-        \hfill \textcolor{NDgold} \namecenter\ | \textcolor{NDgold}\namecollege
+        \hfill \textcolor{NDgold}{\namecenter} \ | \ \textcolor{NDgold}{\namecollege}
     \end{textblock*}
 
     % Below line
     \begin{textblock*}{6.375in}(1.5in,0.53in)
         \sffamily
-        \hfill \textcolor{NDgold} \addrcenter\ | \textcolor{NDgold}\addrweb
+        \hfill \textcolor{NDgold}{\addrcenter} \ | \ \textcolor{NDgold}{\addrweb}
     \end{textblock*}
 
-    %Line
+    % Line
     \begin{tikzpicture}[remember picture,overlay]
-        \draw[color=NDblue,line width=0.7pt] (current page.north west)+(2.45in,-0.48in) -- ($(-0.625in,-0.48in)+(current page.north east)$);
+        \draw[color=NDblue,line width=0.7pt] ($(current page.north west)+(2.45in,-0.48in)$) -- ($(-0.625in,-0.48in)+(current page.north east)$);
     \end{tikzpicture}
 }
 \renewcommand{\headrulewidth}{0pt}
@@ -68,14 +71,10 @@
 \fancyfoot[R]{\textbf{ND-HNC Form: RO01}}
 
 \renewcommand{\footrulewidth}{0.5pt}
-% \renewcommand{\footruleskip}{20pt} % Optional: Adjust if you need more space above the line
-
 
 % Remove paragraph indentation
 \parindent0pt
-% \setlength{\parskip}{0.8\baselineskip}
 \raggedright
-
 
 % Format free response
 \newcommand{\fillableline}[3]{%
@@ -85,42 +84,42 @@
     name=#2, %
     width=#3, %
     backgroundcolor={1 1 1},
-    bordercolor={1 1 1}, % White removes the native interactive box outline
+    bordercolor={1 1 1},
     charsize=12pt
   ]{}}%
   \endgroup
   \vspace{6pt}%
 }
 
-
 % Format question response
-\newcounter{choiceboxcount} % Creates a unique tracking counter
+\newcounter{choiceboxcount}
 \newcommand{\customchoicebox}[1]{%
-    \stepcounter{choiceboxcount}% Increments the counter for a unique group name
+    \stepcounter{choiceboxcount}%
     \begingroup
     \large
-    \begin{Form}
-        \ChoiceMenu[
-            radio,
-            radiosymbol=\ding{52},
-            name=group\thechoiceboxcount,
-            backgroundcolor={1 1 1},
-            bordercolor={0 0 0},
-            charsize=8pt
-        ]{}{\hspace{0pt}Yes ,\hspace{3pt}No }%
-        \quad#1
-    \end{Form}%
+    \texorpdfstring{%
+        \begin{Form}
+            \ChoiceMenu[
+                radio,
+                radiosymbol=\ding{52},
+                name=group\thechoiceboxcount,
+                backgroundcolor={1 1 1},
+                bordercolor={0 0 0},
+                charsize=8pt
+            ]{}{\hspace{0pt}Yes ,\hspace{3pt}No }%
+            \quad#1
+        \end{Form}%
+    }{#1}%
     \endgroup
     \vspace{6pt}%
 }
 
-
-
 \begin{document}
 
 \vspace*{-1.5cm}
-\Huge
+{\Huge
 \begin{center}MRI Safety Screening Form\\\end{center}
+}
 \large
 \textbf{Instructions:} Please fill in or indicate Yes/No to each item below. Respond to each item \underline{individually}. Items marked `Yes' will be reviewed with the MRI technologist/operator. If uncertain of any answer, please circle and discuss with the MRI technologist/operator.\\[1em]
 
@@ -132,8 +131,7 @@
 
 \fillableline{Height}{height}{2cm} \quad \fillableline{Weight}{weight}{2cm}
 
-
-% General
+\vspace{1em}
 \textbf{Section 1. General screening.}\\[1em]
 
 \customchoicebox{Do you have a cardiac pacemaker, defibrillator, or other cardiac implant (in place or removed)?}
@@ -142,7 +140,7 @@
 
 \customchoicebox{Are you claustrophobic?}
 
-\customchoicebox{Have you had a joint replacement or do you have any artifical joints?}
+\customchoicebox{Have you had a joint replacement or do you have any artificial joints?}
 
 \customchoicebox{Have you had problems related to a prior MRI procedure?}
 
@@ -152,18 +150,14 @@
 
 \quad \fillableline{If yes, describe:}{prevsurg}{15.25cm}
 
-\fillableline{}{prevsurg2}{18.2cm}
+\fillableline{}{prevsurg2_a}{18.2cm}
 
 \fillableline{Current medications:}{meds}{14.6cm}
 
-\fillableline{}{prevsurg2}{18.2cm}
+\fillableline{}{prevsurg2_b}{18.2cm}
 
 \fillableline{All allergies:}{aller}{16.1cm}
 
-% \fillableline{}{prevsurg2}{18cm}
-
-% Women
-% \textbf{For Females:}\\[1em]
 \fillableline{Date of last menstrual period:}{mens}{4cm}
 
 \customchoicebox{Is there a possibility that you are pregnant?}
@@ -174,8 +168,6 @@
 
 \pagebreak
 
-
-% History
 \textbf{Section 2. Please indicate if you CURRENTLY HAVE or HAVE EVER HAD any of the following:}\\[1em]
 
 \customchoicebox{Injury by a metal object or foreign body (e.g. bullet, shrapnel).}
@@ -210,13 +202,11 @@
 
 \customchoicebox{Endoscopy or colonoscopy in last three months (possible clips or markers)?}\\[1em]
 
-
-% Implants
 \textbf{Section 3. Do you have any surgically IMPLANTED medical devices:}\\[1em]
 
 \customchoicebox{Any type of electronic, mechanical, or magnetic implant.}
 
-\quad \fillableline{If yes, describe:}{prevelec}{15.25cm}
+\quad \fillableline{If yes, describe:}{prevelec2}{15.25cm}
 
 \customchoicebox{Cardiac pacemaker, defibrillator, or other cardiac implant (in place or removed).}
 
@@ -230,7 +220,7 @@
 
 \customchoicebox{Any type of internal electrodes or wires.}
 
-\customchoicebox{Implanted drug pump (e.g. insulin, bacoflen, chemotherapy, pain medicine).}
+\customchoicebox{Implanted drug pump (e.g. insulin, baclofen, chemotherapy, pain medicine).}
 
 \customchoicebox{Spinal fixation device.}
 
@@ -276,8 +266,6 @@
 
 \pagebreak
 
-
-% Removable
 \textbf{Section 4. Do you have any REMOVABLE medical devices:}\\[1em]
 
 \customchoicebox{Drug pump (e.g. insulin, Baclofen, Neulasta).}
@@ -294,8 +282,6 @@
 
 \quad \fillableline{If yes, describe:}{pillcam}{15.25cm}\\[1em]
 
-
-% Personal
 \textbf{Section 5. Do you have any of the following PERSONAL items:}\\[1em]
 
 \customchoicebox{Body piercings.}
@@ -342,7 +328,7 @@
     \item If you are unable to remove any of the above items please notify the MRI technologist/operator.
 \end{enumerate}
 
-
+\vspace{1em}
 \textbf{Section 7. Review and Signatures.}\\[1em]
 
 I have read and understand the entire content of this form.\\[1em]

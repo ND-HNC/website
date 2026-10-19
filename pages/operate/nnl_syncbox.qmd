@@ -1,5 +1,5 @@
 ---
-title: Operate NNL SyncBox
+title: NNL SyncBox
 toc: true
 toc-depth: 2
 toc-expand: true
@@ -61,6 +61,11 @@ Two manual modes exist, Simulation and Synchronization. These are identical, sav
     | 3 | R. Index | C |
     | 4 | R. Thumb | D |
 
+## Left Side {#ssec:nnl_syncbox_left}
+* Device output is sent to, and control instructions received from, a research computer via USB-2.0 (A).
+
+![](../../media/pages/syncbox_4.jpg){width=70% fig-align="center"}
+
 ## Back
 * The User Interface receives input from the fMRI Trigger Converter box (A1), Response Capture (A2), and Power (A3).
 * The Response Capture receives input from the Response Grips (B1) and Power (B3), and sends output to the User Interface (B2).
@@ -68,7 +73,7 @@ Two manual modes exist, Simulation and Synchronization. These are identical, sav
 ![](../../media/pages/syncbox_3.jpg){width=70% fig-align="center"}
 
 
-# Video Converter Configuration
+# Video Converter Configuration {#sec:video_conv}
 
 Video from the stimulus computer is sent to the presentation monitor in Zone 4 via the 4K HDMI to Fiber Extender. While this box is capable of bidirectional communication (Tx/Rx), the only 'downstream' device is the monitor.
 

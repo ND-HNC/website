@@ -4,7 +4,7 @@ toc: true
 toc-depth: 4
 ---
 
-![](../media/pages/mock_green.jpg){width=75% fig-align="left"}
+![](../media/pages/blessing_team.jpeg){width=75% fig-align="left"}
 
 # Overview
 This page provides Equipment [Overviews](#sec:equip-over) and [Statements](#sec:equip-state) for hardware available at the ND-HNC. For grant applications, we provide technical statements describing the: [MRI Simulator](#ssec:state-mock), [Magnetom Cima.X](#ssec:state-mri), [Stimulus Equipment](#ssec:state-task-present), [DICOM Management](#ssec:state-dicom), and [compute resources](#ssec:state-compute). The [Facilities](../pages/facilities.qmd) page is also relevant for grant preparation.

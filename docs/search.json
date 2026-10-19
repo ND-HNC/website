@@ -365,62 +365,90 @@
     ]
   },
   {
-    "objectID": "pages/operate/mri.html#power-up",
-    "href": "pages/operate/mri.html#power-up",
-    "title": "MRI",
-    "section": "Power Up",
-    "text": "Power Up\n\nVerify Power Panel is unlocked.\nPress “System On” button on Power Panel.\n\n\n\n\n\n\n\nWait for the MRI Control system to boot up.\n\nApprox. 10 minutes.\nSystem is booted when console displays appear."
-  },
-  {
-    "objectID": "pages/operate/mri.html#power-down",
-    "href": "pages/operate/mri.html#power-down",
-    "title": "MRI",
-    "section": "Power Down",
-    "text": "Power Down\n\nSelect power button icon in lower right corner of screen.\n\n\n\n\n\n\n\nSelect the “Shut Down System” from dropdown menu.\n\n\n\n\n\n\n\nSelect “Shut Down” in pop-up window.\n\n\n\n\n\n\n\nWait until the system shuts down – the screens will be blank, monitor power buttons red.\nPush the “System Off” button on the Power Panel.\n\nMonitor power buttons should now be dark."
-  },
-  {
-    "objectID": "pages/operate/mri.html#login-to-control-computer",
-    "href": "pages/operate/mri.html#login-to-control-computer",
-    "title": "MRI",
-    "section": "Login to Control Computer",
-    "text": "Login to Control Computer\n\nSelect “Unlock” on main screen.\n\n\n\n\n\n\n\nSelect “Examination”."
-  },
-  {
-    "objectID": "pages/operate/mri.html#register-participant",
-    "href": "pages/operate/mri.html#register-participant",
-    "title": "MRI",
-    "section": "Register Participant",
-    "text": "Register Participant\n\nSelect “Register Patient”.\n\n\n\n\n\n\n\n\n\n\n\n\nEnter “Last Name”.\n\nUse format “PI Last + Subject ID”, e.g. Barbey23\nDo not enter the participant’s acutal name.\n\n\n\n\n\n\n\n\nEnter “Date of Birth”.\n\nSpecify the first day of the current month.\nUse participant’s birth year.\nE.g. “12/1/2000” for a scan conducted 12/15/2026 on a participant born in 2000.\n\n\n\n\n\n\n\n\nSpecify “Sex” from the dropdown menu.\n\n\n\n\n\n\n\nEnter Height and Weight.\n\n\n\n\n\n\n\nSpecify “Body Part” from the dropdown menu in the lower right corner.\n\n\n\n\n\n\n\nSpecify “Patient Orientation”.\n\n\n\n\n\n\n\nSelect orange “Exam” to begin."
-  },
-  {
-    "objectID": "pages/operate/dcm_computer.html",
-    "href": "pages/operate/dcm_computer.html",
-    "title": "DICOM Computer",
+    "objectID": "pages/operate/nnl_syncbox.html",
+    "href": "pages/operate/nnl_syncbox.html",
+    "title": "NNL SyncBox",
     "section": "",
-    "text": "Instructions for managing files exported from the MRI Control computer."
+    "text": "The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.\nUnlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode."
   },
   {
-    "objectID": "pages/operate/dcm_computer.html#gui-export",
-    "href": "pages/operate/dcm_computer.html#gui-export",
-    "title": "DICOM Computer",
-    "section": "GUI Export",
-    "text": "GUI Export\n\nRight-click the desired Patient name in Horos.\n\n\n\n\n\n\n\nSpecify “Export to DICOM File(s)” and select the desired output location."
+    "objectID": "pages/operate/nnl_syncbox.html#manual-mode",
+    "href": "pages/operate/nnl_syncbox.html#manual-mode",
+    "title": "NNL SyncBox",
+    "section": "Manual Mode",
+    "text": "Manual Mode\nTwo manual modes exist, Simulation and Synchronization. These are identical, save (a) Simulation generates faux synchronization pulses, and (b) Synchronization listens for the scanner synchronization pulse.\n\nSetup:\n\nVerify Serial mode: Sync/Simulation -&gt; Go to Options menu -&gt; USB Mode -&gt; Serial.\n\nHID is still an option (but does not work).\n\nManually send a sync pulse to your program (for testing): Sync/Simulation -&gt; Send triggerpulse to PC.\n\nUse:\n\nConfigure session by specifying TR length and number of volumes.\n\nNote: the SyncBox will stop listening after the specified number of volumes.\n\nStart the box listening for synchronization pulse and/or response grip input: Sync/Simuation -&gt; Start Session.\n\nUse center button to exit Session."
   },
   {
-    "objectID": "pages/operate/dcm_computer.html#cli-export",
-    "href": "pages/operate/dcm_computer.html#cli-export",
-    "title": "DICOM Computer",
-    "section": "CLI Export",
-    "text": "CLI Export\n\nRun the find_copy_dcm.sh command in the terminal, without arguments, to provide a help.\n\n\n\n\n\n\n\nUse find_copy_dcm.sh -l to identify all unique Patient Names in the database.\n\n\n\n\n\n\n\nExport Local\n\nUse the -p and -o options to send data for a specific Patient Name to a local location. This option is not as fast as the GUI Export.\n\n\n\n\n\n\n\n\nExport Remote\n\nUse the -p, -o, and -s options to send data for a specific Patient Name to a remote location over an SSH connection. Provide your password when prompted."
+    "objectID": "pages/operate/nnl_syncbox.html#controlled-mode",
+    "href": "pages/operate/nnl_syncbox.html#controlled-mode",
+    "title": "NNL SyncBox",
+    "section": "Controlled Mode",
+    "text": "Controlled Mode\n\nThis is the vendor preferred method of using the SyncBox.\nAn example of using Python to connect the SyncBox to PsychoPy is available here."
   },
   {
-    "objectID": "pages/operate.html",
-    "href": "pages/operate.html",
-    "title": "Operate",
+    "objectID": "pages/operate/nnl_syncbox.html#front",
+    "href": "pages/operate/nnl_syncbox.html#front",
+    "title": "NNL SyncBox",
+    "section": "Front",
+    "text": "Front\n\nThe SyncBox consists of the User Interface (A) and Response Capture (B).\n\nThe User Interface provides a navigation pad, LCD screen, and USB output for a task computer.\nThe Response Capture contains one green power light and four response lights.\n\n\n\n\n\n\n\n\nThe Response Capture mappings are:\n\n\n\nLight\nGrip Button\nCharacter\n\n\n\n\n1\nL. Thumb\nA\n\n\n2\nL. Index\nB\n\n\n3\nR. Index\nC\n\n\n4\nR. Thumb\nD"
+  },
+  {
+    "objectID": "pages/operate/nnl_syncbox.html#ssec:nnl_syncbox_left",
+    "href": "pages/operate/nnl_syncbox.html#ssec:nnl_syncbox_left",
+    "title": "NNL SyncBox",
+    "section": "Left Side",
+    "text": "Left Side\n\nDevice output is sent to, and control instructions received from, a research computer via USB-2.0 (A)."
+  },
+  {
+    "objectID": "pages/operate/nnl_syncbox.html#back",
+    "href": "pages/operate/nnl_syncbox.html#back",
+    "title": "NNL SyncBox",
+    "section": "Back",
+    "text": "Back\n\nThe User Interface receives input from the fMRI Trigger Converter box (A1), Response Capture (A2), and Power (A3).\nThe Response Capture receives input from the Response Grips (B1) and Power (B3), and sends output to the User Interface (B2)."
+  },
+  {
+    "objectID": "pages/operate/mock.html",
+    "href": "pages/operate/mock.html",
+    "title": "Mock MRI",
     "section": "",
-    "text": "This page is under construction.\nThe ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:\n\n\n\nResource\nPurpose\n\n\n\n\nCorpFS\nCentralize experiment protocols and participant response data.\n\n\nMRI Simulator\nPrepare participants to contribute MRI data.\n\n\nNNL SyncBox\nCapture fMRI synchronization pulse and participant responses.\n\n\nMRI\nScan a participant.\n\n\nNordicNeuroLab\nDeploy functional MRI paradigms and capture participant responses.\n\n\nStimulus Control\nDeploy lab-specific MRI paradigms.\n\n\nDICOM Management\nCapture, organize, and send DICOM files to an appropriate location.",
+    "text": "The Encore MRI Simulator is a training device designed to help participants practice remaining perfectly still during a scan, using specialized MoTrak software to monitor movement.\nTo power this motion-tracking feature, the simulator is equipped with an internal magnetic field generator. Because this generator emits a real magnetic field, the simulator is not compatible with pacemakers or other implanted medical devices."
+  },
+  {
+    "objectID": "pages/operate/mock.html#ssec:mock-setup",
+    "href": "pages/operate/mock.html#ssec:mock-setup",
+    "title": "Mock MRI",
+    "section": "Setup Instructions",
+    "text": "Setup Instructions\nSetup 1: Turn mock scanner on using both switches (red arrows) at the back of the device.\n\n\n\n\n\nSetup 2: Wait 3 minutes for system to boot.\n\n\n\n\n\nSetup 3: Verify screen inverter is working (mirror selected, Input solid).\n\n\n\n\n\nSetup 4: Customize simulation. Enter Options menu (Mock Control, R).\n\n\n\nMock Control\n\n\nSetup 5: Specify your customization of:\n\nBore and Accent colors (Mock Customize, A & B)\nAmbient sound (Mock Customize, C)\nProtocol sound and duration (Mock Customize, D)\nAlarm volume (Mock Customize, E)\nButton sound (Mock Customize, F)\n\n\n\n\nMock Customize\n\n\nSetup 6: Once customization is complete, return to the Control menu (Mock Customize, G).\n\n\n\n\n\nSetup 7: Specify fan, core light, and accent light strength (Mock Control, A-C).\nSetup 8: If you intend to use Motrak, please also note setup instructions in Monitor Movement (steps 1-4)."
+  },
+  {
+    "objectID": "pages/operate/mock.html#ssec:mock-simulate",
+    "href": "pages/operate/mock.html#ssec:mock-simulate",
+    "title": "Mock MRI",
+    "section": "Simulate Scan",
+    "text": "Simulate Scan\nSimulate 1: Have participant lay supine, with the top of the head near the apex of the coil base.\n\n\n\n\n\nSimulate 2: Provide headphones and black squeeze ball (Mock Equipment, A & C).\n\nTest squeeze ball; deactivate alarm with Alarm (Mock Control, D).\n\n\n\n\nMock Equipment\n\n\nSimulate 3: Add coil top, ensure participant can see through the eye fields.\n\nFor Motrak, see also Monitor Movement (step 5).\n\n\n\n\n\n\nSimulate 4: Use Table In Slow (Mock Control, I) to drive participant to up to alignment. Have participant close eyes.\n\nSAFETY: Closing eyes is critical to avoid damaging the eyeball with alignment laser!\n\nSimulate 5: Turn laser on (Mock Control, E). Use Table In/Out Slow (Mock Control, H & I) to align laser between eyebrows.\n\nTurn off laser (Mock Control, E).\n\n\n\n\n\n\nSimulate 6: Attach mirror to coil top. Adjust mirror (superior/inferior) until participant can see monitor screen.\n\n\n\n\n\nSimulate 7: Send participant to isocenter via Advance to Scan (Mock Control, M).\n\n\n\n\n\nSimulate 8: Conduct simulation via Start Scan (Mock Control, O).\n\nUse Options menu to select additional sequences (Mock Control, R)."
+  },
+  {
+    "objectID": "pages/operate/mock.html#end-simulation",
+    "href": "pages/operate/mock.html#end-simulation",
+    "title": "Mock MRI",
+    "section": "End Simulation",
+    "text": "End Simulation\nEnd 1: Stop simulation with Pause/Abort Scan (Mock Control, P & Q).\nEnd 2: Return participant to home position with Home (Mock Control, K).\n\nIt is also possible to drive the participant to the home position with Table Out Fast/Slow (Mock Control, G & H).\n\nEnd 3: For power failure, issues with the table moving: press the table release button.\n\nManually pull table to home position.\nTwist release button clockwise to reset table and clear the error."
+  },
+  {
+    "objectID": "pages/operate/corpfs.html",
+    "href": "pages/operate/corpfs.html",
+    "title": "CorpFS",
+    "section": "",
+    "text": "Overview\nLarge labs and long-term projects commonly have multiple waves of research assistants. To effectively conduct research at the ND-HNC, the research team needs to coordinate and centralize task deployment and data capture. For clinical studies, data may be a mixture of non-sensitive data, Personally Identifiable Information (PII), and Personal Health Information (PHI). Additionally, the Institutional Review Board (IRB) has specific policies for the transfer of data, depending on the method and sensitivity.\nEach lab which partners with the ND-HNC will receive access to the centralized data system CorpFS, which facilitates task deployment and data management across multiple sites and users. Directories are organized by the Primary Investigator’s (PI) name (i.e. HNC-PI) and contain three specialized directories with distinct permission levels:\n\nHNC-PI-admin: A highly restricted folder dedicated to securely house sensitive PHI/PII data and important files. Only group administrators will be able to read, write, or execute in this directory.\nHNC-PI-read: A standardized folder where all team members can read and execute research tasks but cannot modify or delete files. This is useful for ensuring that all research assistants administer identical tasks.\nHNC-PI-write: A shared repository where all research assistants can save participant output data. This helps ensure that data is centralized and not left on the research assistant’s login account.\n\n\n\nAccess\n\nContact Nathan Muncy to be added to the CorpFS HNC group.\n\n\n\nConnect: OSx\n\nEstablish an SMB connection with CorpFS HNC:\n\n‘CMD-K’ opens “Connect to Server”\nConnect to ‘smb://psy.corpfs.nd.edu/psy/hnc’\n\n\n\n\n\n\n\n\nLogin with your Notre Dame credentials.\n\n\n\n\n\n\n\nView directory structure in Finder.\n\n\n\n\n\n\n\n\nConnect: Windows\n\nLog into PC workstation.\n\n\n\n\n\n\n\nNavigate to PSY CorpFS (P:) &gt; HNC.\n\n\n\n\n\n\n\nSelect appropriate PI directory.\n\n\n\n\n\n\n\nView user directory structure.\n\n\n\n\n\n\n\n\nNotes\n\nThese instructions refer to ND-owned devices connected to the eduroam network."
+  },
+  {
+    "objectID": "pages/news.html",
+    "href": "pages/news.html",
+    "title": "News",
+    "section": "",
+    "text": "Special Visit and Blessing\n\n\n\n\n\nUniversity President Blessed New State-of-the-Art MRI at Human Neuroimaging Center\n2026-10-16\nUniversity President Rev. Robert A. Dowd, C.S.C., recently visited Notre Dame’s Human Neuroimaging Center to bless its flagship instrument: a new Siemens Cima.X 3 Tesla MRI system.\n\n\n\n\n\nIn keeping with Notre Dame’s Catholic mission to place research in service of the common good, Fr. Dowd blessed the high-field scanner, dedicating the technology to truth, healing, and human flourishing. He then personally experienced the strength of the 3 Tesla magnetic field.\n\n\n\n\n\nThe Siemens Cima.X 3T MRI scanner represents a major leap forward for neuroimaging at Notre Dame. Equipped with advanced gradient performance and cutting-edge imaging technology, the system enables researchers across disciplines to capture high-resolution images of brain structure and function with unprecedented clarity.\nThe installation of the Cima.X scanner marks an exciting milestone for the Human Neuroimaging Center, bolstering Notre Dame’s position at the forefront of brain research and human health discovery.",
     "crumbs": [
-      "Operate"
+      "News"
     ]
   },
   {
@@ -428,7 +456,7 @@
     "href": "pages/forms.html",
     "title": "Forms",
     "section": "",
-    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
+    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\nLGO7\nAccession Log\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
     "crumbs": [
       "Forms"
     ]
@@ -438,7 +466,7 @@
     "href": "pages/forms.html#overview",
     "title": "Forms",
     "section": "",
-    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
+    "text": "Documents to serve as reference, support logging, and provide operational support.\nThe MRI Safety Screen (Form RO01) is found here.\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nGA01\nACR MRI Safety\nLink\n\n\n\nGA02\nOHRP 2007\nLink\n\n\n\nGA03\nFDA Reports\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nLG01\nHardware Issue\nLink\n\n\n\nLG02\nHardware Maintenance\nLink\n\n\n\nLG03\nIncidents\nLink\n\n\n\nLG04\nCompliance\nLink\n\n\n\nLG05\nShadow Hours\nLink\n\n\n\nLG06\nACR QA\nLink\n\n\n\nLGO7\nAccession Log\nLink\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNumber\nTitle\nDocument\n\n\n\n\n\nRO01\nMRI Safety Screen\nLink\n\n\n\nRO02\nArrival Instructions\nBlue, White\n\n\n\nRO03\nND-HNC Layout\nLink\n\n\n\nRO04\nMRI Reservation\nLink\n\n\n\nRO05\nNew Project\nLink",
     "crumbs": [
       "Forms"
     ]
@@ -648,7 +676,7 @@
     "href": "index.html#additional-resources",
     "title": "Notre Dame Human Neuroimaging Center",
     "section": "Additional Resources",
-    "text": "Additional Resources\n\nGrants: Awards to teams invovling the ND-HNC.\nPeople: Connect with ND-HNC staff.\nPublications: Papers from teams that collected data at the ND-HNC.\nWiki: Programming, data, and pipeline help.",
+    "text": "Additional Resources\n\n\nNews: Exciting events involving the ND-HNC.\nPeople: Connect with ND-HNC staff.",
     "crumbs": [
       "Home"
     ]
@@ -799,74 +827,133 @@
     ]
   },
   {
-    "objectID": "pages/operate/corpfs.html",
-    "href": "pages/operate/corpfs.html",
-    "title": "Operate CorpFS",
+    "objectID": "pages/operate.html",
+    "href": "pages/operate.html",
+    "title": "Operate",
     "section": "",
-    "text": "Overview\nLarge labs and long-term projects commonly have multiple waves of research assistants. To effectively conduct research at the ND-HNC, the research team needs to coordinate and centralize task deployment and data capture. For clinical studies, data may be a mixture of non-sensitive data, Personally Identifiable Information (PII), and Personal Health Information (PHI). Additionally, the Institutional Review Board (IRB) has specific policies for the transfer of data, depending on the method and sensitivity.\nEach lab which partners with the ND-HNC will receive access to the centralized data system CorpFS, which facilitates task deployment and data management across multiple sites and users. Directories are organized by the Primary Investigator’s (PI) name (i.e. HNC-PI) and contain three specialized directories with distinct permission levels:\n\nHNC-PI-admin: A highly restricted folder dedicated to securely housing sensitive PHI/PII data and important files. Only group administrators will be able to read, write, or execute in this directory.\nHNC-PI-read: A standardized folder where all team members can read and execute research tasks but cannot modify or delete files. This is useful for ensuring that all research assistants administer identical tasks.\nHNC-PI-write: A shared repository where all research assistants can save participant output data. This helps ensure that data is centralized and not left on the research assistant’s login account.\n\n\n\nAccess\n\nContact Nathan Muncy to be added to the CorpFS HNC group.\n\n\n\nConnect: OSx\n\nEstablish an SMB connection with CorpFS HNC:\n\n‘CMD-K’ opens “Connect to Server”\nConnect to ‘smb://psy.corpfs.nd.edu/psy/hnc’\n\n\n\n\n\n\n\n\nLogin with your Notre Dame credentials.\n\n\n\n\n\n\n\nView directory structure in Finder.\n\n\n\n\n\n\n\n\nConnect: Windows\n\nLog into PC workstation.\n\n\n\n\n\n\n\nNavigate to PSY CorpFS (P:) &gt; HNC.\n\n\n\n\n\n\n\nSelect appropriate PI directory.\n\n\n\n\n\n\n\nView user directory structure.\n\n\n\n\n\n\n\n\nNotes\n\nThese instructions refer to ND-owned devices connected to the eduroam network."
+    "text": "The ND-HNC provides hardware and infrastructure to support research activities. Please see below for detailed instructions on how to use these resources:\n\n\n\n\nResource\nPurpose\n\n\n\n\nCorpFS\nCentralize experiment protocols and participant response data.\n\n\nDICOM Management\nCapture, organize, and send DICOM files to an appropriate location.\n\n\nMRI\nScan a participant.\n\n\nMRI Simulator\nPrepare participants to contribute MRI data.\n\n\nNNL SyncBox\nCapture fMRI synchronization pulse and participant responses.\n\n\nStimulus Control\nDeploy lab-specific tasks.",
+    "crumbs": [
+      "Operate"
+    ]
   },
   {
-    "objectID": "pages/operate/mock.html",
-    "href": "pages/operate/mock.html",
-    "title": "Operate Mock MRI",
+    "objectID": "pages/operate/dcm_computer.html",
+    "href": "pages/operate/dcm_computer.html",
+    "title": "DICOM Computer",
     "section": "",
-    "text": "The Encore MRI Simulator is a training device designed to help participants practice remaining perfectly still during a scan, using specialized MoTrak software to monitor movement.\nTo power this motion-tracking feature, the simulator is equipped with an internal magnetic field generator. Because this generator emits a real magnetic field, the simulator is not compatible with pacemakers or other implanted medical devices."
+    "text": "Instructions for managing files exported from the MRI Control computer."
   },
   {
-    "objectID": "pages/operate/mock.html#ssec:mock-setup",
-    "href": "pages/operate/mock.html#ssec:mock-setup",
-    "title": "Operate Mock MRI",
-    "section": "Setup Instructions",
-    "text": "Setup Instructions\nSetup 1: Turn mock scanner on using both switches (red arrows) at the back of the device.\n\n\n\n\n\nSetup 2: Wait 3 minutes for system to boot.\n\n\n\n\n\nSetup 3: Verify screen inverter is working (mirror selected, Input solid).\n\n\n\n\n\nSetup 4: Customize simulation. Enter Options menu (Mock Control, R).\n\n\n\nMock Control\n\n\nSetup 5: Specify your customization of:\n\nBore and Accent colors (Mock Customize, A & B)\nAmbient sound (Mock Customize, C)\nProtocol sound and duration (Mock Customize, D)\nAlarm volume (Mock Customize, E)\nButton sound (Mock Customize, F)\n\n\n\n\nMock Customize\n\n\nSetup 6: Once customization is complete, return to the Control menu (Mock Customize, G).\n\n\n\n\n\nSetup 7: Specify fan, core light, and accent light strength (Mock Control, A-C).\nSetup 8: If you intend to use Motrak, please also note setup instructions in Monitor Movement (steps 1-4)."
+    "objectID": "pages/operate/dcm_computer.html#gui-export",
+    "href": "pages/operate/dcm_computer.html#gui-export",
+    "title": "DICOM Computer",
+    "section": "GUI Export",
+    "text": "GUI Export\n\nRight-click the desired Patient name in Horos.\n\n\n\n\n\n\n\nSpecify “Export to DICOM File(s)” and select the desired output location."
   },
   {
-    "objectID": "pages/operate/mock.html#ssec:mock-simulate",
-    "href": "pages/operate/mock.html#ssec:mock-simulate",
-    "title": "Operate Mock MRI",
-    "section": "Simulate Scan",
-    "text": "Simulate Scan\nSimulate 1: Have participant lay supine, with the top of the head near the apex of the coil base.\n\n\n\n\n\nSimulate 2: Provide headphones and black squeeze ball (Mock Equipment, A & C).\n\nTest squeeze ball; deactivate alarm with Alarm (Mock Control, D).\n\n\n\n\nMock Equipment\n\n\nSimulate 3: Add coil top, ensure participant can see through the eye fields.\n\nFor Motrak, see also Monitor Movement (step 5).\n\n\n\n\n\n\nSimulate 4: Use Table In Slow (Mock Control, I) to drive participant to up to alignment. Have participant close eyes.\n\nSAFETY: Closing eyes is critical to avoid damaging the eyeball with alignment laser!\n\nSimulate 5: Turn laser on (Mock Control, E). Use Table In/Out Slow (Mock Control, H & I) to align laser between eyebrows.\n\nTurn off laser (Mock Control, E).\n\n\n\n\n\n\nSimulate 6: Attach mirror to coil top. Adjust mirror (superior/inferior) until participant can see monitor screen.\n\n\n\n\n\nSimulate 7: Send participant to isocenter via Advance to Scan (Mock Control, M).\n\n\n\n\n\nSimulate 8: Conduct simulation via Start Scan (Mock Control, O).\n\nUse Options menu to select additional sequences (Mock Control, R)."
+    "objectID": "pages/operate/dcm_computer.html#cli-export",
+    "href": "pages/operate/dcm_computer.html#cli-export",
+    "title": "DICOM Computer",
+    "section": "CLI Export",
+    "text": "CLI Export\n\nRun the find_copy_dcm.sh command in the terminal, without arguments, to provide a help.\n\n\n\n\n\n\n\nUse find_copy_dcm.sh -l to identify all unique Patient Names in the database.\n\n\n\n\n\n\n\nExport Local\n\nUse the -p and -o options to send data for a specific Patient Name to a local location. This option is not as fast as the GUI Export.\n\n\n\n\n\n\n\n\nExport Remote\n\nUse the -p, -o, and -s options to send data for a specific Patient Name to a remote location over an SSH connection. Provide your password when prompted."
   },
   {
-    "objectID": "pages/operate/mock.html#end-simulation",
-    "href": "pages/operate/mock.html#end-simulation",
-    "title": "Operate Mock MRI",
-    "section": "End Simulation",
-    "text": "End Simulation\nEnd 1: Stop simulation with Pause/Abort Scan (Mock Control, P & Q).\nEnd 2: Return participant to home position with Home (Mock Control, K).\n\nIt is also possible to drive the participant to the home position with Table Out Fast/Slow (Mock Control, G & H).\n\nEnd 3: For power failure, issues with the table moving: press the table release button.\n\nManually pull table to home position.\nTwist release button clockwise to reset table and clear the error."
+    "objectID": "pages/operate/mri.html#power-up",
+    "href": "pages/operate/mri.html#power-up",
+    "title": "MRI",
+    "section": "Power Up",
+    "text": "Power Up\n\nVerify Power Panel is unlocked.\nPress “System On” button on Power Panel.\n\n\n\n\n\n\n\nWait for the MRI Control system to boot up.\n\nApprox. 10 minutes.\nSystem is booted when console displays appear."
   },
   {
-    "objectID": "pages/operate/nnl_syncbox.html",
-    "href": "pages/operate/nnl_syncbox.html",
-    "title": "Operate NNL SyncBox",
+    "objectID": "pages/operate/mri.html#power-down",
+    "href": "pages/operate/mri.html#power-down",
+    "title": "MRI",
+    "section": "Power Down",
+    "text": "Power Down\n\nSelect power button icon in lower right corner of screen.\n\n\n\n\n\n\n\nSelect the “Shut Down System” from dropdown menu.\n\n\n\n\n\n\n\nSelect “Shut Down” in pop-up window.\n\n\n\n\n\n\n\nWait until the system shuts down – the screens will be blank, monitor power buttons red.\nPush the “System Off” button on the Power Panel.\n\nMonitor power buttons should now be dark."
+  },
+  {
+    "objectID": "pages/operate/mri.html#login-to-control-computer",
+    "href": "pages/operate/mri.html#login-to-control-computer",
+    "title": "MRI",
+    "section": "Login to Control Computer",
+    "text": "Login to Control Computer\n\nSelect “Unlock” on main screen.\n\n\n\n\n\n\n\nSelect “Examination”."
+  },
+  {
+    "objectID": "pages/operate/mri.html#register-participant",
+    "href": "pages/operate/mri.html#register-participant",
+    "title": "MRI",
+    "section": "Register Participant",
+    "text": "Register Participant\nNote: Fields with orange bars are required, and an accession number must be created.\n\nSelect “Register Patient”.\n\n\n\n\n\n\n\n\n\n\n\n\nEnter “Last Name”.\n\nUse format “PI Last + Subject ID”, e.g. Barbey23\nDo not enter the participant’s acutal name.\n\n\n\n\n\n\n\n\nEnter “Date of Birth”.\n\nSpecify the first day of the current month.\nUse participant’s birth year.\nE.g. “12/1/2000” for a scan conducted 12/15/2026 on a participant born in 2000.\n\n\n\n\n\n\n\n\nSpecify “Sex” from the dropdown menu.\n\n\n\n\n\n\n\nEnter Height and Weight.\n\n\n\n\n\n\n\nSpecify “Body Part” from the dropdown menu in the lower right corner.\n\n\n\n\n\n\n\nSpecify “Patient Orientation”.\n\n\n\n\n\n\n\nSelect orange “Exam” to begin.\nEnter the next accession number in the procedure box using format: ND + 00001. Log this number in Form LG07."
+  },
+  {
+    "objectID": "pages/operate/mri.html#table-attributes",
+    "href": "pages/operate/mri.html#table-attributes",
+    "title": "MRI",
+    "section": "Table Attributes",
+    "text": "Table Attributes\n\n\n\nTable Diagram\n\n\n\nTable Top\nHead End\nTable Stop Button\nEmergency Release\nHandle: to pull table after emergency release"
+  },
+  {
+    "objectID": "pages/operate/mri.html#front-panel-user-interfaces",
+    "href": "pages/operate/mri.html#front-panel-user-interfaces",
+    "title": "MRI",
+    "section": "Front Panel: User Interfaces",
+    "text": "Front Panel: User Interfaces\n\n\n\nTouch Screen\n\n\n\n\n\nTouch Screen: patient position and current coil\n\n\n\n\n\nTouch Screen: coil properly connected\n\n\n\n\n\nJogwheel"
+  },
+  {
+    "objectID": "pages/operate/mri.html#front-panel-jogwheel-control",
+    "href": "pages/operate/mri.html#front-panel-jogwheel-control",
+    "title": "MRI",
+    "section": "Front Panel: Jogwheel Control",
+    "text": "Front Panel: Jogwheel Control\n\n\n\nJogwheel Diagram\n\n\n\nTable up/inward button\nJog wheel, center position (landmark) move to scan\nMove to home\nTable down/outward button\n\nAdditionally, use “+” to turn alignment light on/off.\nNotes:\n\nUse directional buttons or turn jogwheel to move patients in/out and up/down.\nHorizontal movement speed is faster the farther the wheel is turned.\nPush jogwheel to landmark and move patient in to position for scanning.\n\nTo Position:\n\nMove table up until it is even with the bore.\nTurn on the alignment light by pushing “+” button.\nMove participant in until alignment light is at desired center position.\nTurn off the alignment light by pushing “+” again.\nPush the jogwheel and hold (1 second) until table starts to move to the center of the bore.\nBegin scanning."
+  },
+  {
+    "objectID": "pages/operate/mri.html#exam-screen",
+    "href": "pages/operate/mri.html#exam-screen",
+    "title": "MRI",
+    "section": "Exam Screen",
+    "text": "Exam Screen\n\n\n\n\n\n\nScan Queue: used to program sequences and program control icons.\nExam Tool Bar: provide access to functions for setting up and controlling an exam.\nPlanning Segments: displays reference images used for graphical slice positioning.\nParameter Card Area: displays the parameter cards of the current protocol and/or user guidance.\nVariable Segment: shows the inline display or extended third plane planning segment.\nStamp Segments: each stamp represents the images of a previously measured series from the current examination."
+  },
+  {
+    "objectID": "pages/operate/mri.html#view-and-go",
+    "href": "pages/operate/mri.html#view-and-go",
+    "title": "MRI",
+    "section": "View and Go",
+    "text": "View and Go\n\n\n\n\n\n\nAccess Bar: contains patient tab and icons to access the patient browser or online help.\nCase Navigator: contains tabs with processing and viewing options and for printing.\nFavorite Tools Area: provides access to preferred functions.\nImage Area: displays images and series in segments.\nSeries Navigator: list all available series for the current patient."
+  },
+  {
+    "objectID": "pages/operate/stim_control.html",
+    "href": "pages/operate/stim_control.html",
+    "title": "Stimulus Control",
     "section": "",
-    "text": "The Nordic Neuro Lab (NNL) SyncBox helps align participant responses (real time) with fMRI acquistion (volume time). To do this, the SyncBox receives (a) synchronization pulse from the scanner and (b) participant responses. These are converted from fiber optic to serial output and sent to a computer via USB.\nUnlike more common synchronization boxes, the NNL SyncBox does not passively listen for input once a session is begun. Rather, the user most program the number of volumes and TR length for each session. This can be done in Manual or Controlled Mode."
+    "text": "Experimental tasks can be deployed by a research team using either a lab-specific computer or the center’s Stimulus Control computer. If using the center’s machine, extra steps are required to ensure participant anonymity and data security."
   },
   {
-    "objectID": "pages/operate/nnl_syncbox.html#manual-mode",
-    "href": "pages/operate/nnl_syncbox.html#manual-mode",
-    "title": "Operate NNL SyncBox",
-    "section": "Manual Mode",
-    "text": "Manual Mode\nTwo manual modes exist, Simulation and Synchronization. These are identical, save (a) Simulation generates faux synchronization pulses, and (b) Synchronization listens for the scanner synchronization pulse.\n\nSetup:\n\nVerify Serial mode: Sync/Simulation -&gt; Go to Options menu -&gt; USB Mode -&gt; Serial.\n\nHID is still an option (but does not work).\n\nManually send a sync pulse to your program (for testing): Sync/Simulation -&gt; Send triggerpulse to PC.\n\nUse:\n\nConfigure session by specifying TR length and number of volumes.\n\nNote: the SyncBox will stop listening after the specified number of volumes.\n\nStart the box listening for synchronization pulse and/or response grip input: Sync/Simuation -&gt; Start Session.\n\nUse center button to exit Session."
+    "objectID": "pages/operate/stim_control.html#connect-inout",
+    "href": "pages/operate/stim_control.html#connect-inout",
+    "title": "Stimulus Control",
+    "section": "Connect In/Out",
+    "text": "Connect In/Out\n\nEnsure that the Stimulus Control computer is connected to:\n\nVideo Converter via HDMI (Cable C)\nNNL SyncBox via USB (Cable A)\n\nThe left screen will be broadcast to the stimulus presentation monitor in Zone 4."
   },
   {
-    "objectID": "pages/operate/nnl_syncbox.html#controlled-mode",
-    "href": "pages/operate/nnl_syncbox.html#controlled-mode",
-    "title": "Operate NNL SyncBox",
-    "section": "Controlled Mode",
-    "text": "Controlled Mode\n\nThis is the vendor preferred method of using the SyncBox.\nAn example of using Python to connect the SyncBox to PsychoPy is available here."
+    "objectID": "pages/operate/stim_control.html#orient-to-corpfs",
+    "href": "pages/operate/stim_control.html#orient-to-corpfs",
+    "title": "Stimulus Control",
+    "section": "Orient to CorpFS",
+    "text": "Orient to CorpFS\n\nLogin to the Stimulus Control computer with your ND credentials.\nNavigate to CorpFS -&gt; HNC -&gt; Your Lab.\n\n\n\n\n\n\n\n\n\n\n\n\nThe experiment paradigm should stored in the “HNC-PI-read” location. This helps to:\n\nEnsure all team members deploy the same paradigm,\nGuard against inadvertent alterations."
   },
   {
-    "objectID": "pages/operate/nnl_syncbox.html#front",
-    "href": "pages/operate/nnl_syncbox.html#front",
-    "title": "Operate NNL SyncBox",
-    "section": "Front",
-    "text": "Front\n\nThe SyncBox consists of the User Interface (A) and Response Capture (B).\n\nThe User Interface provides a navigation pad, LCD screen, and USB output for a task computer.\nThe Response Capture contains one green power light and four response lights.\n\n\n\n\n\n\n\n\nThe Response Capture mappings are:\n\n\n\nLight\nGrip Button\nCharacter\n\n\n\n\n1\nL. Thumb\nA\n\n\n2\nL. Index\nB\n\n\n3\nR. Index\nC\n\n\n4\nR. Thumb\nD"
+    "objectID": "pages/operate/stim_control.html#configure-output-location",
+    "href": "pages/operate/stim_control.html#configure-output-location",
+    "title": "Stimulus Control",
+    "section": "Configure Output Location",
+    "text": "Configure Output Location\n\nSpecify the output location is “HNC-PI-write”.\nFor PsychoPy:\n\nOrient to experiment settings\nOn the Data tab, specify the correct output location."
   },
   {
-    "objectID": "pages/operate/nnl_syncbox.html#back",
-    "href": "pages/operate/nnl_syncbox.html#back",
-    "title": "Operate NNL SyncBox",
-    "section": "Back",
-    "text": "Back\n\nThe User Interface receives input from the fMRI Trigger Converter box (A1), Response Capture (A2), and Power (A3).\nThe Response Capture receives input from the Response Grips (B1) and Power (B3), and sends output to the User Interface (B2)."
+    "objectID": "pages/operate/stim_control.html#run-experiment",
+    "href": "pages/operate/stim_control.html#run-experiment",
+    "title": "Stimulus Control",
+    "section": "Run Experiment",
+    "text": "Run Experiment\n\nDeploy the task.\nVerify output files are written to the proper location."
   },
   {
     "objectID": "pages/policies.html",
