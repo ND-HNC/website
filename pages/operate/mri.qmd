@@ -148,8 +148,6 @@ To Position:
 1. Push the jogwheel and hold (1 second) until table starts to move to the center of the bore.
 1. Begin scanning.
 
-
-
 # Scan Controls: Basic Screens
 
 ## Exam Screen
@@ -172,3 +170,59 @@ To Position:
 3. Favorite Tools Area: provides access to preferred functions.
 4. Image Area: displays images and series in segments.
 5. Series Navigator: list all available series for the current patient.
+
+# Run Coil Quality Assurance
+
+Quality Assurance (QA) protocols are run (a) after start up and (b) each morning. This ensures equipment are operating within specifications and identifies issues which may compromise data integrity. Logging QAs is important for identifying trends in hardware performance.
+
+## Instructions
+
+1. Select "System Check" on main screen.
+
+![](../../media/pages/mri_QAmainscreen.jpg){width=80% fig-align="center"}
+
+2. Select "Quality Assurance".
+
+![](../../media/pages/mri_QAselect.jpg){width=80% fig-align="center"}
+
+3. Select "Customer Quality Assurance".
+
+![](../../media/pages/mri_QAcustomerselect.jpg){width=80% fig-align="center"}
+
+4. Select "General".
+
+![](../../media/pages/mri_QAselectgeneral.jpg){width=80% fig-align="center"}
+
+5.  Select relevant coil(s).
+
+![](../../media/pages/mri_QAcoilselect.jpg){width=80% fig-align="center"}
+
+6. Follow instructions for positioning each coil and phantom.
+
+    - Phantom must be placed on the blue holder pictured so that the tip of the phantom touches the coil.
+    - Landmark and center coil.
+    - Select "OK" on setup screen.
+    - Scan will run automatically.
+    - The second coil placement instructions will pop up after the first scan is done.
+    - Repeat the positioning instructions for the second coil.
+    - Select "OK".
+    - Once scan is complete remove the phantom and the holder.
+
+![](../../media/pages/mri_QAphantom.jpg){width=80% fig-align="center"}
+
+7. Record QA in Form [LG06](../../resources/forms/form_ACR_QA.pdf).
+
+## Troubleshooting
+
+If the QA does not pass, (it will indicate “failed”) take the following steps:
+
+1. Rerun the QA selecting only that coil.
+2. Bring the table to the "Home" position.
+    1. Set the landmark again.
+    2. Move the table to center.
+    3. Rerun QA making sure the phantom is positioned correctly.
+3. Bring table to "Home" position.
+    1. Unplug and then reseat the coil to ensure that it is plugged in properly.
+    2. Set landmark again.
+    3. Move table to center and rerun QA.
+4. If the QA still fails, inform the MRI technologist who will investigate and then place a service call if necessary.

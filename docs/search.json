@@ -921,6 +921,20 @@
     "text": "View and Go\n\n\n\n\n\n\nAccess Bar: contains patient tab and icons to access the patient browser or online help.\nCase Navigator: contains tabs with processing and viewing options and for printing.\nFavorite Tools Area: provides access to preferred functions.\nImage Area: displays images and series in segments.\nSeries Navigator: list all available series for the current patient."
   },
   {
+    "objectID": "pages/operate/mri.html#instructions",
+    "href": "pages/operate/mri.html#instructions",
+    "title": "MRI",
+    "section": "Instructions",
+    "text": "Instructions\n\nSelect “System Check” on main screen.\n\n\n\n\n\n\n\nSelect “Quality Assurance”.\n\n\n\n\n\n\n\nSelect “Customer Quality Assurance”.\n\n\n\n\n\n\n\nSelect “General”.\n\n\n\n\n\n\n\nSelect relevant coil(s).\n\n\n\n\n\n\n\nFollow instructions for positioning each coil and phantom.\n\nPhantom must be placed on the blue holder pictured so that the tip of the phantom touches the coil.\nLandmark and center coil.\nSelect “OK” on setup screen.\nScan will run automatically.\nThe second coil placement instructions will pop up after the first scan is done.\nRepeat the positioning instructions for the second coil.\nSelect “OK”.\nOnce scan is complete remove the phantom and the holder.\n\n\n\n\n\n\n\n\nRecord QA in Form LG06."
+  },
+  {
+    "objectID": "pages/operate/mri.html#troubleshooting",
+    "href": "pages/operate/mri.html#troubleshooting",
+    "title": "MRI",
+    "section": "Troubleshooting",
+    "text": "Troubleshooting\nIf the QA does not pass, (it will indicate “failed”) take the following steps:\n\nRerun the QA selecting only that coil.\nBring the table to the “Home” position.\n\nSet the landmark again.\nMove the table to center.\nRerun QA making sure the phantom is positioned correctly.\n\nBring table to “Home” position.\n\nUnplug and then reseat the coil to ensure that it is plugged in properly.\nSet landmark again.\nMove table to center and rerun QA.\n\nIf the QA still fails, inform the MRI technologist who will investigate and then place a service call if necessary."
+  },
+  {
     "objectID": "pages/operate/stim_control.html",
     "href": "pages/operate/stim_control.html",
     "title": "Stimulus Control",
